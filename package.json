@@ -11,6 +11,7 @@
     "enrich:gemini": "node src/enrich-gemini.mjs",
     "prepare:data": "node src/prepare-data.mjs",
     "build": "vite build",
+    "deploy": "npx wrangler pages deploy dist --project-name automated-news-site",
     "preview": "vite preview --host 0.0.0.0",
     "update": "npm run collect && npm run enrich:xai && npm run enrich:gemini && npm run prepare:data && npm run build"
   },

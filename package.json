@@ -1,0 +1,21 @@
+{
+  "name": "automated-news-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "vite --host 0.0.0.0",
+    "collect": "node src/collector.mjs",
+    "enrich:xai": "node src/enrich-xai.mjs",
+    "enrich:gemini": "node src/enrich-gemini.mjs",
+    "prepare:data": "node src/prepare-data.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "update": "npm run collect && npm run enrich:xai && npm run enrich:gemini && npm run prepare:data && npm run build"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1",
+    "vite": "^8.0.10"
+  }
+}

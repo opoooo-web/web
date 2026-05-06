@@ -1,0 +1,110 @@
+name: Update news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY_PRESENT: ${{ secrets.GEMINI_API_KEY != '' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+
+      - name: Set up Node
+        uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Collect feeds
+        run: npm run collect
+
+      - name: Enrich external signals with xAI
+        run: npm run enrich:xai
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          XAI_MODEL: ${{ vars.XAI_MODEL || 'grok-4.20' }}
+
+      - name: Generate daily brief with Gemini CLI
+        if: ${{ env.GEMINI_API_KEY_PRESENT == 'true' }}
+        uses: google-github-actions/run-gemini-cli@f77273f4c914e4bf38440cf36a0369cb64a37489
+        continue-on-error: true
+        with:
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
+          gemini_model: ${{ vars.GEMINI_MODEL || 'gemini-3-flash-preview' }}
+          prompt: |
+            You are updating a static technology briefing site.
+
+            Read:
+            - public/data/news.json
+            - public/data/status.json
+            - public/data/external-signals.json
+
+            Write valid JSON to:
+            - public/data/daily-brief.json
+            - public/data/topics.json
+
+            daily-brief.json schema:
+            {
+              "generatedAt": "<status.generatedAt>",
+              "generatedBy": "gemini-cli",
+              "model": "${{ vars.GEMINI_MODEL || 'gemini-3-flash-preview' }}",
+              "narrative": "2-3 sentence synthesis of the most important technology, AI, infrastructure, science, and developer signals.",
+              "highlights": [
+                {
+                  "title": "Use an input item title",
+                  "whyItMatters": "One concise sentence",
+                  "sourceName": "Use an input item sourceName",
+                  "sourceUrl": "Use the input item url",
+                  "category": "Use the input item category",
+                  "publishedAt": "Use the input item publishedAt"
+                }
+              ],
+              "topics": [
+                {
+                  "name": "Topic or category name",
+                  "summary": "One concise sentence",
+                  "itemCount": 0
+                }
+              ],
+              "notes": []
+            }
+
+            topics.json schema:
+            {
+              "generatedAt": "<status.generatedAt>",
+              "generatedBy": "gemini-cli",
+              "topics": "<same topics array as daily-brief.json>"
+            }
+
+            Constraints:
+            - Return by editing files only.
+            - Do not invent source URLs.
+            - Every sourceUrl must come from public/data/news.json or public/data/external-signals.json.
+            - Keep highlights to 6-8 items and topics to 4-8 items.
+            - Output strict JSON only in the files.
+
+      - name: Ensure brief data and build
+        run: npm run enrich:gemini && npm run prepare:data && npm run build
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3-flash-preview' }}
+
+      - name: Commit generated output
+        uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9
+        with:
+          commit_message: "chore: update generated news"
+          file_pattern: public/data/**/*.json

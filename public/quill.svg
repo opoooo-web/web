@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="featherGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#fcfbfa"/>
+      <stop offset="100%" stop-color="#e3dbcb"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fef5d8"/>
+      <stop offset="30%" stop-color="#d6ab62"/>
+      <stop offset="70%" stop-color="#a67b38"/>
+      <stop offset="100%" stop-color="#5a3d12"/>
+    </linearGradient>
+    <linearGradient id="gripGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a524e"/>
+      <stop offset="30%" stop-color="#231f1d"/>
+      <stop offset="100%" stop-color="#0f0d0c"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(2, 78) rotate(-45)">
+    <!-- Feather Vanes -->
+    <path d="M 25.00 0.05 C 26.00 -1.43 27.00 -2.40 29.00 -2.34 L 27.00 -0.90 C 31.00 -4.76 36.00 -6.99 43.00 -7.44 L 37.00 -3.42 C 43.00 -6.94 52.00 -8.45 62.00 -6.47 L 55.00 -2.55 C 62.00 -4.47 73.00 -1.88 81.00 2.44 L 76.00 4.27 C 83.00 4.94 87.00 6.98 89.20 8.98 Q 90.00 9.80 89.20 10.18 C 87.00 10.98 83.00 10.94 76.00 9.27 L 80.00 12.20 C 74.00 13.83 65.00 13.05 58.00 8.39 L 65.00 14.55 C 56.00 13.59 46.00 9.85 39.00 4.72 L 45.00 10.25 C 38.00 8.65 31.00 5.24 27.00 1.10 L 29.00 2.66 C 27.00 2.60 26.00 1.57 25.00 0.05 Z" fill="url(#featherGrad)" stroke="#312117" stroke-width="1.2" stroke-linejoin="round"/>
+    
+    <!-- Feather Texture Lines -->
+    <path d="M 28.00 -0.37 L 34.00 -2.61 M 32.00 -0.21 L 42.00 -6.03 M 38.00 0.15 L 48.00 -6.93 M 45.00 0.75 L 56.00 -6.91 M 51.00 1.42 L 61.00 -6.14 M 58.00 2.39 L 68.00 -3.89 M 66.00 3.73 L 75.00 0.05 M 74.00 5.33 L 80.00 3.20 M 81.00 6.94 L 86.00 6.71 M 28.00 0.63 L 35.00 3.45 M 34.00 0.89 L 44.00 9.15 M 40.00 1.30 L 51.00 11.42 M 48.00 2.07 L 59.00 13.04 M 56.00 3.09 L 64.00 13.37 M 62.00 4.03 L 71.00 13.20 M 68.00 5.11 L 78.00 11.73 M 76.00 6.77 L 84.00 10.69 " stroke="#d6cfc3" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+    <path d="M 35.00 -0.05 L 43.00 -7.44 M 52.00 1.55 L 62.00 -6.47 M 72.00 4.91 L 81.00 2.44 M 36.00 1.01 L 45.00 10.25 M 54.00 2.81 L 65.00 14.55 M 70.00 5.50 L 79.00 12.46 " stroke="#a89d8d" stroke-width="0.8" fill="none" stroke-linecap="round"/>
+    
+    <!-- Central Shaft -->
+    <path d="M 20.00 -1.20 L 36.00 -0.49 C 50.00 1.00 65.00 3.65 89.00 9.52 C 65.00 4.45 50.00 2.60 36.00 1.51 L 20.00 1.20 Z" fill="url(#featherGrad)" stroke="#312117" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M 20.00 0.00 L 87.00 8.98 " stroke="#ffffff" stroke-width="0.6" fill="none"/>
+    
+    <!-- Grip / Barrel -->
+    <path d="M 14.00 -2.50 L 23.00 -3.48 L 23.00 3.52 L 14.00 2.50 Z" fill="url(#gripGrad)" stroke="#312117" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M 14.00 -1.00 L 23.00 -1.48 " stroke="#7a736f" stroke-width="1.2" stroke-linecap="round"/>
+    
+    <!-- Rings -->
+    <path d="M 23.00 -3.48 L 26.00 -3.43 L 26.00 3.57 L 23.00 3.52 Z" fill="url(#goldGrad)" stroke="#312117" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M 24.50 -2.46 L 24.50 2.54 " stroke="#fdf2cc" stroke-width="0.5"/>
+    <path d="M 11.00 -2.50 L 14.00 -2.50 L 14.00 2.50 L 11.00 2.50 Z" fill="url(#goldGrad)" stroke="#312117" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M 12.50 -1.50 L 12.50 1.50 " stroke="#fdf2cc" stroke-width="0.5"/>
+    
+    <!-- Nib -->
+    <path d="M 0.00 0.00 C 4.00 -1.00 6.00 -2.50 11.00 -2.50 L 11.00 2.50 C 6.00 2.50 4.00 1.00 0.00 0.00 Z" fill="url(#goldGrad)" stroke="#312117" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M 2.00 -0.50 C 4.00 -1.50 6.00 -1.80 10.00 -1.80 " stroke="#ffffff" stroke-width="0.6" fill="none"/>
+    <path d="M 3.00 0.00 C 3.50 -2.50 7.00 -2.50 6.00 0.00 C 7.00 2.50 3.50 2.50 3.00 0.00 Z" fill="#312117"/>
+    <path d="M 0.00 0.00 L 3.00 0.00 " stroke="#312117" stroke-width="1.2"/>
+  </g>
+</svg>

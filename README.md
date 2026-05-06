@@ -84,7 +84,7 @@ Create a Pages project connected to the GitHub repository.
 
 If you let GitHub Actions commit generated data files, Cloudflare Pages can build the Vite app from committed `public/data/*.json` without fetching feeds during the Pages build.
 
-Do not use `npx wrangler deploy` for this project. That command deploys a Worker and requires a Worker entry point or assets configuration. This site is deployed as Cloudflare Pages static output, so the Wrangler command is `npx wrangler pages deploy dist --project-name automated-news-site`.
+Do not use `npx wrangler deploy` or `npx wrangler pages deploy` as the Cloudflare Pages Deploy command for this Git-connected project. Pages publishes the configured `dist` build output after `npm run build`; the repository's `npm run deploy` script is intentionally a no-op for dashboards that already have a Deploy command configured.
 
 ## Growth Path
 

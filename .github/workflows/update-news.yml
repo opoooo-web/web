@@ -42,6 +42,8 @@ jobs:
         if: ${{ env.GEMINI_API_KEY_PRESENT == 'true' }}
         uses: google-github-actions/run-gemini-cli@f77273f4c914e4bf38440cf36a0369cb64a37489
         continue-on-error: true
+        env:
+          GEMINI_CLI_TRUST_WORKSPACE: true
         with:
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
           gemini_model: ${{ vars.GEMINI_MODEL || 'gemini-3-flash-preview' }}
@@ -102,7 +104,6 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3-flash-preview' }}
-          GEMINI_CLI_TRUST_WORKSPACE: true
 
       - name: Commit generated output
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9

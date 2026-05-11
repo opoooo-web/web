@@ -5,6 +5,196 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/academy/codex-how-to-start",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/academy/working-with-codex",
+      "title": "Working with Codex",
+      "url": "https://openai.com/academy/working-with-codex",
+      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria",
+      "title": "Elevating Austria: Google invests in its first data center in the Alps.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/google-data-center-austria",
+      "summary": "Google has been a proud part of Austria’s landscape for years, and today, we’re announcing our first data center in Kronstorf, generating 100 direct jobs. This facility …",
+      "publishedAt": "2026-04-23T09:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "url": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
+      "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
+      "publishedAt": "2026-04-23T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/transformersjs-chrome-extension",
+      "title": "How to Use Transformers.js in a Chrome Extension",
+      "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+      "summary": "",
+      "publishedAt": "2026-04-23T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "title": "Making ChatGPT better for clinicians",
+      "url": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "publishedAt": "2026-04-22T15:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
+      "title": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
+      "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
+      "summary": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications protecting the planet.",
+      "publishedAt": "2026-04-22T13:00:42.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/making-rust-workers-reliable",
+      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+      "url": "https://blog.cloudflare.com/making-rust-workers-reliable",
+      "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+      "publishedAt": "2026-04-22T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories",
+      "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories",
+      "summary": "NVIDIA and Google Cloud have collaborated for more than a decade, co‑engineering a full‑stack AI platform that spans every technology layer — from performance‑optimized libraries and frameworks to enterprise‑grade cloud services. This foundation enables developers, startups and enterprises to push agentic and physical AI out of the lab and into production — from agents that [&#8230;]",
+      "publishedAt": "2026-04-22T12:00:42.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next",
+      "title": "We're launching two specialized TPUs for the agentic era.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next",
+      "summary": "The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "publishedAt": "2026-04-22T12:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "publishedAt": "2026-04-22T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "publishedAt": "2026-04-22T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/academy/workspace-agents",
+      "title": "Workspace agents",
+      "url": "https://openai.com/academy/workspace-agents",
+      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "publishedAt": "2026-04-22T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-openai-privacy-filter",
+      "title": "Introducing OpenAI Privacy Filter",
+      "url": "https://openai.com/index/introducing-openai-privacy-filter",
+      "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+      "publishedAt": "2026-04-22T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/products/ads-commerce/ads-advisor-google-ads",
+      "title": "3 new ways Ads Advisor is making Google Ads safer and faster",
+      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads",
+      "summary": "Three new agentic safety and policy features integrated into Ads Advisor will help protect and streamline your Google Ads account.",
+      "publishedAt": "2026-04-21T14:30:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/past-bots-and-humans",
+      "title": "Moving past bots vs. humans",
+      "url": "https://blog.cloudflare.com/past-bots-and-humans",
+      "summary": "As AI assistants and privacy proxies challenge the capabilities of traditional bot detection, the Web needs new models for accountability. We believe that control should remain with the client, and that an open ecosystem of anonymous credentials is key to preserving user privacy while protecting origins from abuse.",
+      "publishedAt": "2026-04-21T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-chatgpt-images-2-0",
+      "title": "Introducing ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "publishedAt": "2026-04-21T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+      "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard",
+      "summary": "",
+      "publishedAt": "2026-04-21T10:09:58.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "title": "Scaling Codex to enterprises worldwide",
+      "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "publishedAt": "2026-04-21T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/cybersecurity-openness",
       "title": "AI and the Future of Cybersecurity: Why Openness Matters",
       "url": "https://huggingface.co/blog/cybersecurity-openness",
@@ -13,26 +203,6 @@
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans",
-      "title": "Changes to GitHub Copilot Individual plans",
-      "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans",
-      "summary": "We're making these changes to ensure a reliable and predictable experience for existing customers. The post Changes to GitHub Copilot Individual plans appeared first on The GitHub Blog .",
-      "publishedAt": "2026-04-20T18:15:28.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "github-blog:https://github.blog/open-source/git/highlights-from-git-2-54",
-      "title": "Highlights from Git 2.54",
-      "url": "https://github.blog/open-source/git/highlights-from-git-2-54",
-      "summary": "The open source Git project just released Git 2.54. Here is GitHub’s look at some of the most interesting features and changes introduced since last time. The post Highlights from Git 2.54 appeared first on The GitHub Blog .",
-      "publishedAt": "2026-04-20T16:43:57.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
     },
     {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026",
@@ -133,176 +303,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/ai-redirects",
-      "title": "Redirects for AI Training enforces canonical content",
-      "url": "https://blog.cloudflare.com/ai-redirects",
-      "summary": "Soft directives don’t stop crawlers from ingesting deprecated content. Redirects for AI Training allows anybody on Cloudflare to redirect verified crawlers to canonical pages with one toggle and no origin changes.",
-      "publishedAt": "2026-04-17T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/unweight-tensor-compression",
-      "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
-      "url": "https://blog.cloudflare.com/unweight-tensor-compression",
-      "summary": "Running LLMs across Cloudflare’s network requires us to be smarter and more efficient about GPU memory bandwidth. That’s why we developed Unweight, a lossless inference-time compression system that achieves up to a 22% model footprint reduction, so that we can deliver faster and cheaper inference than ever before.",
-      "publishedAt": "2026-04-17T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/introducing-agent-memory",
-      "title": "Agents that remember: introducing Agent Memory",
-      "url": "https://blog.cloudflare.com/introducing-agent-memory",
-      "summary": "Cloudflare Agent Memory is a managed service that gives AI agents persistent memory, allowing them to recall what matters, forget what doesn't, and get smarter over time.",
-      "publishedAt": "2026-04-17T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/network-performance-agents-week",
-      "title": "Agents Week: network performance update",
-      "url": "https://blog.cloudflare.com/network-performance-agents-week",
-      "summary": "By migrating our request handling layer to a Rust-based architecture called FL2, Cloudflare has increased its performance lead to 60% of the world’s top networks. We use real-user measurements and connection trimeans to ensure our data reflects the actual experience of people on the Internet.",
-      "publishedAt": "2026-04-17T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/flagship",
-      "title": "Introducing Flagship: feature flags built for the age of AI",
-      "url": "https://blog.cloudflare.com/flagship",
-      "summary": "We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.",
-      "publishedAt": "2026-04-17T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "google-ai:https://blog.google/products-and-platforms/products/search/ai-mode-chrome",
-      "title": "A new way to explore the web with AI Mode in Chrome",
-      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome",
-      "summary": "Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
-      "publishedAt": "2026-04-16T17:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana",
-      "title": "New ways to create personalized images in the Gemini app",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/personal-intelligence-nano-banana",
-      "summary": "Nano Banana 2 now uses your personal context and Google Photos to create images that reflect your unique life.",
-      "publishedAt": "2026-04-16T16:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock",
-      "title": "Introducing Anthropic’s Claude Opus 4.7 model in Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-anthropics-claude-opus-4-7-model-in-amazon-bedrock",
-      "summary": "AWS launches Claude Opus 4.7 in Amazon Bedrock, Anthropic's most intelligent Opus model for advancing performance across coding, long-running agents, and professional work. Claude Opus 4.7 is powered by Amazon Bedrock's next generation inference engine, purpose-built for generative AI inferencing and fine-tuning workloads.",
-      "publishedAt": "2026-04-16T14:49:33.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/ai-platform",
-      "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
-      "url": "https://blog.cloudflare.com/ai-platform",
-      "summary": "We're building AI Gateway into a unified inference layer for AI, letting developers call models from 14+ providers. New features include Workers AI binding integration and an expanded catalog with multimodal models.",
-      "publishedAt": "2026-04-16T14:05:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/high-performance-llms",
-      "title": "Building the foundation for running extra-large language models",
-      "url": "https://blog.cloudflare.com/high-performance-llms",
-      "summary": "We built a custom technology stack to run fast large language models on Cloudflare’s infrastructure. This post explores the engineering trade-offs and technical optimizations required to make high-performance AI inference accessible.",
-      "publishedAt": "2026-04-16T14:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-pragmata",
-      "title": "No Need for Space Gear — Capcom’s ‘PRAGMATA’ Joins GeForce NOW on Launch Day",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-pragmata",
-      "summary": "Head straight for orbit with GeForce NOW — no space helmet required. PRAGMATA, Capcom’s long-awaited sci-fi action adventure, touches down on GeForce NOW the same day it launches worldwide. The futuristic journey through a cold lunar station in the near future can be streamed instantly from the cloud to almost any device, no console or [&#8230;]",
-      "publishedAt": "2026-04-16T13:00:11.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/codex-for-almost-everything",
-      "title": "Codex for (almost) everything",
-      "url": "https://openai.com/index/codex-for-almost-everything",
-      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
-      "publishedAt": "2026-04-16T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/introducing-gpt-rosalind",
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "url": "https://openai.com/index/introducing-gpt-rosalind",
-      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-      "publishedAt": "2026-04-16T01:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/accelerating-cyber-defense-ecosystem",
-      "title": "Accelerating the cyber defense ecosystem that protects us all",
-      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
-      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/ecom-rlve",
-      "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
-      "url": "https://huggingface.co/blog/ecom-rlve",
-      "summary": "",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/transformers-to-mlx",
-      "title": "The PR you would have opened yourself",
-      "url": "https://huggingface.co/blog/transformers-to-mlx",
-      "summary": "",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/train-multimodal-sentence-transformers",
-      "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
-      "summary": "",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     }
   ]
 }

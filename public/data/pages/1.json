@@ -5,6 +5,66 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night",
+      "title": "I let AI build a tool to help me figure out what was waking me up at night",
+      "url": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night",
+      "summary": "Article URL: https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/ Comments URL: https://news.ycombinator.com/item?id=48100662 Points: 12 # Comments: 2",
+      "publishedAt": "2026-05-11T21:04:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/johnson/nicholas-houghton-engineering-crew-safety-for-artemis-ii",
+      "title": "Nicholas Houghton: Engineering Crew Safety for NASA&#8217;s Artemis Missions",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nicholas-houghton-engineering-crew-safety-for-artemis-ii",
+      "summary": "Nicholas Houghton always dreamed of working at NASA and one day becoming an astronaut. Today, he helps design systems that keep crews safe during missions aboard NASA’s Orion spacecraft, including the successful Artemis II mission around the Moon. After joining NASA as a Pathways intern, Houghton&#160;later&#160;became&#160;a full-time engineer on the Orion Crew Survival Systems (OCSS) [&#8230;]",
+      "publishedAt": "2026-05-11T20:51:53.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/fcc-slightly-relaxes-foreign-router-ban-allows-software-updates-until-2029",
+      "title": "After banning foreign routers, FCC says existing ones can get updates until 2029",
+      "url": "https://arstechnica.com/tech-policy/2026/05/fcc-slightly-relaxes-foreign-router-ban-allows-software-updates-until-2029",
+      "summary": "FCC extends waiver allowing routers and drones to get patches for two more years.",
+      "publishedAt": "2026-05-11T20:48:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "summary": "Article URL: https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055 Comments URL: https://news.ycombinator.com/item?id=48100433 Points: 45 # Comments: 35",
+      "publishedAt": "2026-05-11T20:45:55.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying",
+      "title": "Data center guzzled 30 million gallons of water and nobody noticed for months",
+      "url": "https://arstechnica.com/tech-policy/2026/05/data-center-used-30-million-gallons-of-water-without-initially-paying",
+      "summary": "Can AI save us from the AI industry’s endless thirst for water? Outlook not so good.",
+      "publishedAt": "2026-05-11T20:37:00.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/ab-613/opengravity",
+      "title": "Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity",
+      "url": "https://github.com/ab-613/opengravity",
+      "summary": "Hi. I’m a high school student studying for my GCSEs. I was using Google Antigravity heavily for my side projects, but I kept hitting the usage limits, and getting random \"agent terminated\" errors. So I decided to try build my own version of the IDE. I love the UI, so I copied it as accurately as possible, and then hooked up some logic into it, including the INCREDIBLY finicky webcontainer api. I tried to keep it super lightweight, no build steps, or dependencies, and now that its open source, I'm hoping people can build things on top of it that arent possible with closed source tools, like complex custom agent workflows. Some screenshots: - https://github.com/ab-613/OpenGravity/blob/main/examples/scr... - https://github.com/ab-613/OpenGravity/blob/main/examples/htm... What it's made from: - Pure Vanilla JS: no react, vue, or build step. Built entirely in plain HTML/CSS/JS to keep it super lightweight. - WebContainer API and xterm.js: Instead of faking a terminal, I (after much pain) hooked up the WebContainer API so the AI agent has a real, in browser linux environment to run shell commands, install dependencies, and edit local files. - BYOK (Bring Your Own Key): API key ALWAYS stays in localStorage. Whats currently happening: - It works, but it's an alpha. The AI can proactively start projects going properly and edit files, but because I built this over a few days before my exams, a lot of the UI dropdowns and buttons are currently just hardcoded placeholders. - I’m open sourcing it early because I think the foundation of a Vanilla JS + WebContainer IDE is really strong, and I'd love to see where the community takes it while I'm doing my exams. - Live demo: https://opengravity.pages.dev (Zoom out to 80% if not full screen. It will prompt for a gemini api key on load). Start by uploading a folder, then you can fiddle with the terminal and agent, and see how it goes! Would love to hear feedback on the code, the WebContainer integration, or how to improve the agent loop! Comments URL: https://news.ycombinator.com/item?id=48100192 Points: 8 # Comments: 4",
+      "publishedAt": "2026-05-11T20:23:25.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/gadgets/928249/govee-table-lamp-classic-deal-sale",
       "title": "Govee’s new portable smart lamp is on sale for the first time",
       "url": "https://www.theverge.com/gadgets/928249/govee-table-lamp-classic-deal-sale",
@@ -13,6 +73,26 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://gilesorr.com/blog/linux-terminal-memory-usage.html",
+      "title": "Linux Terminal Memory Usage",
+      "url": "https://gilesorr.com/blog/linux-terminal-memory-usage.html",
+      "summary": "Article URL: https://gilesorr.com/blog/linux-terminal-memory-usage.html Comments URL: https://news.ycombinator.com/item?id=48099790 Points: 19 # Comments: 14",
+      "publishedAt": "2026-05-11T19:49:39.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/mamba-studio/TypedMemory",
+      "title": "Library for fast mapping of Java records to native memory",
+      "url": "https://github.com/mamba-studio/TypedMemory",
+      "summary": "Article URL: https://github.com/mamba-studio/TypedMemory Comments URL: https://news.ycombinator.com/item?id=48099616 Points: 61 # Comments: 17",
+      "publishedAt": "2026-05-11T19:33:31.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-invites-media-to-annual-lunabotics-robotics-competition",
@@ -55,6 +135,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical",
+      "title": "Can Someone Please Explain Whether Cloudflare Blackmailed Canonical?",
+      "url": "https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical",
+      "summary": "Article URL: https://www.flyingpenguin.com/can-someone-please-explain-whether-cloudflare-blackmailed-canonical/ Comments URL: https://news.ycombinator.com/item?id=48098537 Points: 153 # Comments: 70",
+      "publishedAt": "2026-05-11T18:12:38.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/tech/928141/apple-ios-26-5-rcs-messages-iphone-google-android",
       "title": "Apple brings encrypted RCS chats to iPhone",
       "url": "https://www.theverge.com/tech/928141/apple-ios-26-5-rcs-messages-iphone-google-android",
@@ -73,6 +163,26 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "title": "UCLA discovers first stroke rehabilitation drug to repair brain damage (2025)",
+      "url": "https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage",
+      "summary": "Article URL: https://stemcell.ucla.edu/news/ucla-discovers-first-stroke-rehabilitation-drug-repair-brain-damage Comments URL: https://news.ycombinator.com/item?id=48098261 Points: 74 # Comments: 23",
+      "publishedAt": "2026-05-11T17:53:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://bild.ai/jobs",
+      "title": "Bild AI (YC W25) Is Hiring Founding Product Engineers",
+      "url": "https://bild.ai/jobs",
+      "summary": "Article URL: https://bild.ai/jobs Comments URL: https://news.ycombinator.com/item?id=48098122 Points: 0 # Comments: 0",
+      "publishedAt": "2026-05-11T17:43:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation",
@@ -103,6 +213,16 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+      "title": "Microsoft Israel chief leaves amid ethical controversy",
+      "url": "https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602",
+      "summary": "Article URL: https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602 Comments URL: https://news.ycombinator.com/item?id=48097796 Points: 125 # Comments: 117",
+      "publishedAt": "2026-05-11T17:18:11.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/singer-dua-lipa-sues-samsung-for-15-million-for-using-her-image-on-tv-boxes",
@@ -138,11 +258,21 @@
       "id": "techcrunch:https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator",
       "title": "Digg tries again, this time as an AI news aggregator",
       "url": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator",
-      "summary": "Digg returns (again) as another place to read AI news.",
+      "summary": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\"",
       "publishedAt": "2026-05-11T17:02:35.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "summary": "Article URL: https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale Comments URL: https://news.ycombinator.com/item?id=48097078 Points: 82 # Comments: 17",
+      "publishedAt": "2026-05-11T16:22:31.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
@@ -173,136 +303,6 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/926487/meari-technology-hack-baby-monitor-security-camera",
-      "title": "A million baby monitors and security cameras were easily viewable by hackers",
-      "url": "https://www.theverge.com/tech/926487/meari-technology-hack-baby-monitor-security-camera",
-      "summary": "A baby's eyes peer directly into the camera lens. A kid with a striped shirt looks up, then away. A boy in a policeman's costume, a gold star on his chest. A messy bedroom that reminds me of my own daughters, with an unmade bunk bed, a little girl's hat and headband, and Hello Kitty [&#8230;]",
-      "publishedAt": "2026-05-11T16:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says",
-      "title": "&#8216;Too early&#8217; to talk IPO, Redwood Materials&#8217; incoming CFO says",
-      "url": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says",
-      "summary": "The battery-recycling and energy-storage company has hired former Tesla finance chief Deepak Ahuja, reuniting him with former Tesla CTO JB Straubel.",
-      "publishedAt": "2026-05-11T16:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/927788/amazon-pet-days-tech-gadgets-cat-dog-deal-sale",
-      "title": "7 of our favorite deals from Amazon’s Pet Days sale",
-      "url": "https://www.theverge.com/gadgets/927788/amazon-pet-days-tech-gadgets-cat-dog-deal-sale",
-      "summary": "A big part of my job here at The Verge is to find deals on tech that readers will like. But in my personal life, I’m not spending anywhere near as much money on tech as I am on food, litter, and other supplies for our two cats. Sad, but true. If your life is [&#8230;]",
-      "publishedAt": "2026-05-11T15:45:32.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gaming/2026/05/pirates-are-already-playing-forza-horizon-6-days-before-its-launch",
-      "title": "Pirates are already playing Forza Horizon 6 days before its launch",
-      "url": "https://arstechnica.com/gaming/2026/05/pirates-are-already-playing-forza-horizon-6-days-before-its-launch",
-      "summary": "Crackers take advantage of unencrypted files that briefly appeared on Steam.",
-      "publishedAt": "2026-05-11T15:29:16.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
-      "publishedAt": "2026-05-11T15:27:12.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/05/f1-set-for-another-engine-tweak-in-2027-and-whats-this-about-v8s",
-      "title": "F1 set for another engine tweak in 2027, and what's this about V8s?",
-      "url": "https://arstechnica.com/cars/2026/05/f1-set-for-another-engine-tweak-in-2027-and-whats-this-about-v8s",
-      "summary": "Rather than dig in, the sport is being proactive about fixing the problem.",
-      "publishedAt": "2026-05-11T15:20:09.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/transportation/927863/gm-settles-california-lawsuit-claiming-it-sold-driving-habit-data-to-insurance-companies",
-      "title": "GM settles California lawsuit claiming it sold driving habit data to insurance companies",
-      "url": "https://www.theverge.com/transportation/927863/gm-settles-california-lawsuit-claiming-it-sold-driving-habit-data-to-insurance-companies",
-      "summary": "General Motors has agreed to pay $12.75 million to settle a California data privacy lawsuit that accused the automaker of selling driver location and driver data, as reported earlier by Reuters. In a proposed settlement filed on Friday, GM agreed to stop selling customer information to data brokers for five years and must give California [&#8230;]",
-      "publishedAt": "2026-05-11T15:11:23.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management",
-      "title": "Matter and OpenADR team up to connect smart homes to the grid",
-      "url": "https://www.theverge.com/tech/927756/matter-openadr-demand-response-smart-home-energy-management",
-      "summary": "Smart energy management just took a step closer to becoming simpler. This week, the organizations behind Matter, the smart-home interoperability standard, and the OpenADR protocol, which sends signals between the grid and the home, announced an agreement to work together. This should make it easier for connected appliances to participate in demand response programs (DR) [&#8230;]",
-      "publishedAt": "2026-05-11T14:40:28.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/11/nyts-wordle-to-become-a-tv-game-show",
-      "title": "NYT&#8217;s Wordle to become a TV game show",
-      "url": "https://techcrunch.com/2026/05/11/nyts-wordle-to-become-a-tv-game-show",
-      "summary": "This will be the first time that The Times has collaborated with a TV broadcaster for an entertainment-based program, representing yet another pivot in the media company's attempt to build a sustainable digital subscription business as print revenue continues to decline.",
-      "publishedAt": "2026-05-11T14:23:25.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk",
-      "title": "TikTok launches an ad-free subscription plan in the UK",
-      "url": "https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk",
-      "summary": "Users who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes.",
-      "publishedAt": "2026-05-11T14:05:47.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/roman-space-telescope/hubble-survey-sets-up-romans-future-look-near-milky-ways-center",
-      "title": "Hubble Survey Sets Up Roman’s Future Look Near Milky Way’s Center",
-      "url": "https://science.nasa.gov/missions/roman-space-telescope/hubble-survey-sets-up-romans-future-look-near-milky-ways-center",
-      "summary": "The Milky Way’s galactic bulge, the bulbous region that surrounds the galactic center, contains a dense collection of stars, planets, and other free-floating objects. This region has been studied for decades with numerous ground-based and space-based telescopes, including NASA’s Hubble and James Webb space telescopes. Soon, NASA’s Nancy Grace Roman Space Telescope will be the […]",
-      "publishedAt": "2026-05-11T14:00:39.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/nasa-astronaut-jessica-meir-2",
-      "title": "NASA Astronaut Jessica Meir",
-      "url": "https://www.nasa.gov/image-article/nasa-astronaut-jessica-meir-2",
-      "summary": "NASA Astronaut Jessica Meir sits for a portrait at NASA&#8217;s Johnson Space Center in Houston on Sept. 23, 2025. This photo was chosen as one of the 2025 NASA Photographer of the Year finalists. Meir launched on NASA’s SpaceX Crew-12 mission to the International Space Station in February 2026 with fellow NASA astronaut Jack Hathaway, [&#8230;]",
-      "publishedAt": "2026-05-11T13:58:09.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/05/with-skyroot-at-the-head-of-the-class-indias-private-space-industry-seeks-to-take-off",
-      "title": "A promising Indian launch startup nears its first orbital test flight",
-      "url": "https://arstechnica.com/space/2026/05/with-skyroot-at-the-head-of-the-class-indias-private-space-industry-seeks-to-take-off",
-      "summary": "\"We wanted to get to an orbital launch vehicle in a few years.\"",
-      "publishedAt": "2026-05-11T13:53:24.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

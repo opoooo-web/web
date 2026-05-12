@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/agents-week-in-review",
+      "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+      "url": "https://blog.cloudflare.com/agents-week-in-review",
+      "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
+      "publishedAt": "2026-04-20T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/internal-ai-engineering-stack",
       "title": "The AI engineering stack we built internally — on the platform we ship",
       "url": "https://blog.cloudflare.com/internal-ai-engineering-stack",
@@ -109,16 +119,6 @@
       "title": "Agents Week: network performance update",
       "url": "https://blog.cloudflare.com/network-performance-agents-week",
       "summary": "By migrating our request handling layer to a Rust-based architecture called FL2, Cloudflare has increased its performance lead to 60% of the world’s top networks. We use real-user measurements and connection trimeans to ensure our data reflects the actual experience of people on the Internet.",
-      "publishedAt": "2026-04-17T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/flagship",
-      "title": "Introducing Flagship: feature flags built for the age of AI",
-      "url": "https://blog.cloudflare.com/flagship",
-      "summary": "We are launching Flagship, a native feature flag service built on Cloudflare’s global network to eliminate the latency of third-party providers. By using KV and Durable Objects, Flagship allows for sub-millisecond flag evaluation.",
       "publishedAt": "2026-04-17T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",

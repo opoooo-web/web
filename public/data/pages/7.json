@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/gpt-5-5-system-card",
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card",
+      "summary": "",
+      "publishedAt": "2026-04-23T11:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/introducing-gpt-5-5",
       "title": "Introducing GPT-5.5",
       "url": "https://openai.com/index/introducing-gpt-5-5",
@@ -289,16 +299,6 @@
       "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
       "url": "https://blog.cloudflare.com/agents-week-in-review",
       "summary": "Agents Week 2026 is a wrap. Let’s take a look at everything we announced, from compute and security to the agent toolbox, platform tools, and the emerging agentic web. Everything we shipped for the agentic cloud.",
-      "publishedAt": "2026-04-20T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/internal-ai-engineering-stack",
-      "title": "The AI engineering stack we built internally — on the platform we ship",
-      "url": "https://blog.cloudflare.com/internal-ai-engineering-stack",
-      "summary": "We built our internal AI engineering stack on the same products we ship. That means 20 million requests routed through AI Gateway, 241 billion tokens processed, and inference running on Workers AI, serving more than 3,683 internal users. Here's how we did it.",
       "publishedAt": "2026-04-20T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",

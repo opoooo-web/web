@@ -5,10 +5,30 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine",
+      "title": "Amazon Redshift introduces AWS Graviton-based RG instances with an integrated data lake query engine",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine",
+      "summary": "Amazon Redshift RG instances, powered by AWS Graviton, run data warehouse and data lake workloads up to 2.4x as fast as RA3 instances at 30% lower price per vCPU. Its integrated data lake query engine supports open table formats such as Apache Iceberg.",
+      "publishedAt": "2026-05-12T16:05:12.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "hacker-news:https://obsidian.md/blog/future-of-plugins",
+      "title": "The Future of Obsidian Plugins",
+      "url": "https://obsidian.md/blog/future-of-plugins",
+      "summary": "Article URL: https://obsidian.md/blog/future-of-plugins/ Comments URL: https://news.ycombinator.com/item?id=48109970 Points: 327 # Comments: 133",
+      "publishedAt": "2026-05-12T15:45:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://voker.ai",
       "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
       "url": "https://voker.ai",
-      "summary": "Hey HN, we're Alex and Tyler, co-founders of Voker.ai ( https://voker.ai/ ), an agent analytics platform for AI product teams. Voker gives full visibility into what users are asking of your agents, and whether your agents are delivering, without having to dig through logs. Our main product is a lightweight SDK that is LLM stack agnostic and purpose-built for agent products. ( https://app.voker.ai/docs ) Agent Engineers and AI product teams don’t have the right level of visibility into agent performance in production, which results in bad user experiences, churn, and hundreds of hours wasted with spot checks to find and debug issues with agent configurations. Demo: https://www.tella.tv/video/vid_cmoukcsk1000i07jgb4j65u67/vie... We recently conducted a survey of YC Founders and 90%+ of respondents said that the only way they know if their Agents are failing users in production is by hearing complaints from customers. They push a prompt change hoping that it fixes the problem and doesn’t break something somewhere else, and the cycle repeats. We saw tons of observability and evals products popping up to try to address these problems, but we still felt like something was missing in the agent monitoring stack. Obs is good for individual trace debugging but is only accessible to engineers. Evals are good for testing known issues, but don't give insights into trends that teams don’t expect, so engineers are always playing catch up. Traditional product analytics tools do a good job tracking clicks and pageviews across your product surface but weren’t built ground up for agent products. Knowing what users want out of agents, and whether the agent delivered requires specific conversational intelligence / unstructured data processing techniques. We came up with the agent analytics primitives of Intents, Corrections, and Resolutions to describe something pretty much all conversational agents had in common: a user will always come to an agent with an intent, the user might have to correct this agent on the way to getting their intent resolved, and hopefully every intent a user has is eventually resolved by the agent. Voker processes LLM calls by automatically annotating individual conversations and picking out user intent and corrections. Voker takes these and uses LLMs and hierarchical text classification to create dynamic categories that give higher level insights so you don’t have to read individual conversations to know what are the main usage patterns across your users. The most common substitute solution we’ve seen is uploading obs logs to Claude or ChatGPT and asking for summary insights. There are a few problems with this - mainly that LLMs aren’t good at math or data science, so you don’t get accurate or consistent statistics. Its highly likely that the LLM overfits to some insights and underfits to others. The LLM isn’t programmatically reading and classifying each individual session or interaction. This is why we don’t use LLMs for any of our core data engineering (processing events, calculating statistics) so the analytics we produce are consistent, reproducible, and accurate. We have a publicly available, lightweight SDK that wraps LLM calls to OpenAI, Anthropic and Gemini in Python and Typescript. Voker handles the data engineering to turn raw data into usable analytics primitives and higher level insights. Free tier: 2,000 events / mo, requires email signup. Paid plans start at $80/mo with a 30 day free trial. We'd love to hear how you're currently detecting trends, and if you try Voker, tell us what part of our analysis is valuable, and what still feels missing. Thanks for reading, and we’re looking forward to your thoughts in the comments! Comments URL: https://news.ycombinator.com/item?id=48109962 Points: 36 # Comments: 19",
+      "summary": "Hey HN, we're Alex and Tyler, co-founders of Voker.ai ( https://voker.ai/ ), an agent analytics platform for AI product teams. Voker gives full visibility into what users are asking of your agents, and whether your agents are delivering, without having to dig through logs. Our main product is a lightweight SDK that is LLM stack agnostic and purpose-built for agent products. ( https://app.voker.ai/docs ) Agent Engineers and AI product teams don’t have the right level of visibility into agent performance in production, which results in bad user experiences, churn, and hundreds of hours wasted with spot checks to find and debug issues with agent configurations. Demo: https://www.tella.tv/video/vid_cmoukcsk1000i07jgb4j65u67/vie... We recently conducted a survey of YC Founders and 90%+ of respondents said that the only way they know if their Agents are failing users in production is by hearing complaints from customers. They push a prompt change hoping that it fixes the problem and doesn’t break something somewhere else, and the cycle repeats. We saw tons of observability and evals products popping up to try to address these problems, but we still felt like something was missing in the agent monitoring stack. Obs is good for individual trace debugging but is only accessible to engineers. Evals are good for testing known issues, but don't give insights into trends that teams don’t expect, so engineers are always playing catch up. Traditional product analytics tools do a good job tracking clicks and pageviews across your product surface but weren’t built ground up for agent products. Knowing what users want out of agents, and whether the agent delivered requires specific conversational intelligence / unstructured data processing techniques. We came up with the agent analytics primitives of Intents, Corrections, and Resolutions to describe something pretty much all conversational agents had in common: a user will always come to an agent with an intent, the user might have to correct this agent on the way to getting their intent resolved, and hopefully every intent a user has is eventually resolved by the agent. Voker processes LLM calls by automatically annotating individual conversations and picking out user intent and corrections. Voker takes these and uses LLMs and hierarchical text classification to create dynamic categories that give higher level insights so you don’t have to read individual conversations to know what are the main usage patterns across your users. The most common substitute solution we’ve seen is uploading obs logs to Claude or ChatGPT and asking for summary insights. There are a few problems with this - mainly that LLMs aren’t good at math or data science, so you don’t get accurate or consistent statistics. Its highly likely that the LLM overfits to some insights and underfits to others. The LLM isn’t programmatically reading and classifying each individual session or interaction. This is why we don’t use LLMs for any of our core data engineering (processing events, calculating statistics) so the analytics we produce are consistent, reproducible, and accurate. We have a publicly available, lightweight SDK that wraps LLM calls to OpenAI, Anthropic and Gemini in Python and Typescript. Voker handles the data engineering to turn raw data into usable analytics primitives and higher level insights. Free tier: 2,000 events / mo, requires email signup. Paid plans start at $80/mo with a 30 day free trial. We'd love to hear how you're currently detecting trends, and if you try Voker, tell us what part of our analysis is valuable, and what still feels missing. Thanks for reading, and we’re looking forward to your thoughts in the comments! Comments URL: https://news.ycombinator.com/item?id=48109962 Points: 44 # Comments: 19",
       "publishedAt": "2026-05-12T15:45:20.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -18,7 +38,7 @@
       "id": "hacker-news:https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
       "title": "Why senior developers fail to communicate their expertise",
       "url": "https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise",
-      "summary": "Article URL: https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise Comments URL: https://news.ycombinator.com/item?id=48109460 Points: 343 # Comments: 165",
+      "summary": "Article URL: https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise Comments URL: https://news.ycombinator.com/item?id=48109460 Points: 434 # Comments: 193",
       "publishedAt": "2026-05-12T15:08:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -65,16 +85,6 @@
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract",
-      "title": "Bambu Lab is abusing the open source social contract",
-      "url": "https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract",
-      "summary": "Article URL: https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/ Comments URL: https://news.ycombinator.com/item?id=48109224 Points: 1054 # Comments: 352",
-      "publishedAt": "2026-05-12T14:54:41.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/05/12/waymo-issues-recall-to-deal-with-a-flooding-problem",
       "title": "Waymo issues recall to deal with a flooding problem",
       "url": "https://techcrunch.com/2026/05/12/waymo-issues-recall-to-deal-with-a-flooding-problem",
@@ -95,16 +105,6 @@
       "category": "Science"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/05/12/instructure-strikes-deal-with-hackers-who-breached-it-twice",
-      "title": "Instructure strikes deal with hackers who breached it twice",
-      "url": "https://techcrunch.com/2026/05/12/instructure-strikes-deal-with-hackers-who-breached-it-twice",
-      "summary": "The maker of the Canvas school software said it \"reached an agreement\" with the hackers, but provided no guarantees that the hackers would not release the data or keep their word.",
-      "publishedAt": "2026-05-12T13:34:04.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools",
       "title": "Amazon employees are \"tokenmaxxing\" due to pressure to use AI tools",
       "url": "https://arstechnica.com/ai/2026/05/amazon-employees-are-tokenmaxxing-due-to-pressure-to-use-ai-tools",
@@ -113,16 +113,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/quic-death-spiral-fix",
-      "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
-      "url": "https://blog.cloudflare.com/quic-death-spiral-fix",
-      "summary": "We investigated a bug where CUBIC's congestion window became pinned at its minimum floor, causing a performance to plummet. The fix involved correctly measuring idle periods to distinguish RTT wait times from actual application idleness.",
-      "publishedAt": "2026-05-12T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     },
     {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/sap-specialized-agents",
@@ -300,6 +290,16 @@
       "url": "https://arstechnica.com/gadgets/2026/05/ios-macos-and-ipados-26-5-updates-arrive-with-encrypted-rcs-messaging-and-more",
       "summary": "Probably the last big updates we'll see before the next versions appear at WWDC.",
       "publishedAt": "2026-05-11T17:20:39.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/singer-dua-lipa-sues-samsung-for-15-million-for-using-her-image-on-tv-boxes",
+      "title": "Samsung made a “mockery” of Dua Lipa by putting her picture on TV boxes, lawsuit says",
+      "url": "https://arstechnica.com/gadgets/2026/05/singer-dua-lipa-sues-samsung-for-15-million-for-using-her-image-on-tv-boxes",
+      "summary": "Lipa says her picture contributed to Samsung's \"enormous revenue.\"",
+      "publishedAt": "2026-05-11T17:15:16.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"

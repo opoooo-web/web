@@ -47,7 +47,7 @@ jobs:
           GEMINI_API_KEY: '${{ secrets.GEMINI_API_KEY }}'
         with:
           gemini_api_key: '${{ secrets.GEMINI_API_KEY }}'
-          gemini_model: '${{ vars.GEMINI_MODEL || "gemini-3-flash-preview" }}'
+          gemini_model: '${{ vars.GEMINI_MODEL }}'
           prompt: |
             You are updating a static technology briefing site.
 

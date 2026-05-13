@@ -109,4 +109,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@04702edda442b2e678b25b537cec683a1493fcb9
         with:
           commit_message: "chore: update generated news"
-          file_pattern: public/data/**/*.json
+          file_pattern: |
+            public/data/*.json
+            public/data/**/*.json

@@ -4,6 +4,216 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/x-launches-a-history-tab-for-bookmarks-likes-videos-and-articles",
+      "title": "X launches a History tab for bookmarks, likes, videos, and articles",
+      "url": "https://techcrunch.com/2026/05/13/x-launches-a-history-tab-for-bookmarks-likes-videos-and-articles",
+      "summary": "X’s new History tab combines bookmarks, likes, watched videos, and read articles into a single place, expanding the app’s role as a save-it-for-later tool.",
+      "publishedAt": "2026-05-13T17:16:32.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/instagrams-new-instants-feature-combines-elements-from-snapchat-and-bereal",
+      "title": "Instagram&#8217;s new &#8216;Instants&#8217; feature combines elements from Snapchat and BeReal",
+      "url": "https://techcrunch.com/2026/05/13/instagrams-new-instants-feature-combines-elements-from-snapchat-and-bereal",
+      "summary": "The feature lets users share disappearing photos with their Close Friends or mutual followers that can be viewed only once and remain available for 24 hours.",
+      "publishedAt": "2026-05-13T16:57:40.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.tryardent.com",
+      "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
+      "url": "https://www.tryardent.com",
+      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 13 # Comments: 3",
+      "publishedAt": "2026-05-13T16:54:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+      "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
+      "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
+      "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it [&#8230;]",
+      "publishedAt": "2026-05-13T16:45:43.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m",
+      "title": "Rivian spinoff Mind Robotics raises another $400M",
+      "url": "https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m",
+      "summary": "Mind Robotics, which was first revealed in late 2025, has now raised more than $1 billion to date.",
+      "publishedAt": "2026-05-13T16:34:21.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/who-trusts-sam-altman",
+      "title": "Who trusts Sam Altman?",
+      "url": "https://techcrunch.com/2026/05/13/who-trusts-sam-altman",
+      "summary": "\"I believe I am an honest and trustworthy business person,\" Altman testified in federal court.",
+      "publishedAt": "2026-05-13T16:31:04.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.haiku-os.org",
+      "title": "Haiku",
+      "url": "https://www.haiku-os.org",
+      "summary": "Article URL: https://www.haiku-os.org Comments URL: https://news.ycombinator.com/item?id=48124002 Points: 63 # Comments: 12",
+      "publishedAt": "2026-05-13T16:22:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders",
+      "title": "Origin Lab raises $8M to help video game companies sell data to world-model builders",
+      "url": "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders",
+      "summary": "Origin Lab will serve as a marketplace where AI labs can buy high-quality licensed data, and video-game companies can sell it.",
+      "publishedAt": "2026-05-13T16:22:01.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.phoronix.com/news/Linux-Fragnesia",
+      "title": "Fragnesia Made Public as Latest Linux Local Privilege Escalation Vulnerability",
+      "url": "https://www.phoronix.com/news/Linux-Fragnesia",
+      "summary": "Article URL: https://www.phoronix.com/news/Linux-Fragnesia Comments URL: https://news.ycombinator.com/item?id=48123670 Points: 14 # Comments: 4",
+      "publishedAt": "2026-05-13T16:01:13.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "github-blog:https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them",
+      "title": "Dungeons &#038; Desktops: 10 roguelikes that never die (because their communities won’t let them)",
+      "url": "https://github.blog/open-source/gaming/dungeons-desktops-10-roguelikes-that-never-die-because-their-communities-wont-let-them",
+      "summary": "Roguelikes don’t die. They fork, mutate, get argued over, rewritten, abandoned, and revived again. Sometimes all at once. The post Dungeons & Desktops: 10 roguelikes that never die (because their communities won’t let them) appeared first on The GitHub Blog .",
+      "publishedAt": "2026-05-13T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners",
+      "title": "Anthropic courts a new kind of customer: small business owners",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners",
+      "summary": "For founders and investors, Anthropic's new offering signals that the AI platform wars are expanding downmarket and that the next major battleground for user acquisition isn't the Fortune 500; it's the 36 million small businesses that make up the backbone of the U.S. economy.",
+      "publishedAt": "2026-05-13T16:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/05/gravitational-lens-shows-a-galaxy-just-800-million-years-post-big-bang",
+      "title": "Gravitational lens shows a galaxy just 800 million years post-Big Bang",
+      "url": "https://arstechnica.com/science/2026/05/gravitational-lens-shows-a-galaxy-just-800-million-years-post-big-bang",
+      "summary": "Early galaxy has elements produced by the Universe's first supernovae.",
+      "publishedAt": "2026-05-13T15:53:20.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://grantmestrength.github.io/S100",
+      "title": "S-100 Virtual Workbench",
+      "url": "https://grantmestrength.github.io/S100",
+      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 37 # Comments: 5",
+      "publishedAt": "2026-05-13T15:52:00.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia",
+      "title": "Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia",
+      "url": "https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia",
+      "summary": "A ransomware group has claimed responsibility for hacking the electronics manufacturing giant Foxconn and is attempting to extort the company.",
+      "publishedAt": "2026-05-13T15:39:37.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/missions/artemis/artemis-3/nasa-outlines-preliminary-artemis-iii-mission-plans",
+      "title": "NASA Outlines Preliminary Artemis III Mission Plans",
+      "url": "https://www.nasa.gov/missions/artemis/artemis-3/nasa-outlines-preliminary-artemis-iii-mission-plans",
+      "summary": "NASA is moving quickly to define next year’s Artemis III mission in Earth orbit, a crewed flight that will test rendezvous and docking capabilities between the agency’s Orion spacecraft and commercial landers from Blue Origin and SpaceX. Since a&#160;February announcement adding an Artemis mission ahead of crewed landing missions to the Moon’s South Pole region, [&#8230;]",
+      "publishedAt": "2026-05-13T15:33:56.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
+      "title": "Microsoft doesn’t want any of this",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
+      "summary": "Maybe I'm just punch-drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than anything [&#8230;]",
+      "publishedAt": "2026-05-13T15:30:37.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/929667/sony-alpha-a7rvi-mirrorless-camera-price-specs",
+      "title": "Sony ups its new A7R VI to 66.8 megapixels and jumps the price to $4,500",
+      "url": "https://www.theverge.com/gadgets/929667/sony-alpha-a7rvi-mirrorless-camera-price-specs",
+      "summary": "Sony announced its new flagship high-resolution camera, the A7R VI. The standout feature is its fully stacked full-frame sensor with 66.8 megapixels of resolution and up to 16 stops of dynamic range. That's only an increase of about six megapixels for the VI model, but its stacked architecture means a much faster readout speed for [&#8230;]",
+      "publishedAt": "2026-05-13T15:30:14.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
+      "publishedAt": "2026-05-13T15:28:21.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648",
+      "title": "Kickstarter is forced to ban adult content by payment processors",
+      "url": "https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648",
+      "summary": "Article URL: https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648 Comments URL: https://news.ycombinator.com/item?id=48123198 Points: 181 # Comments: 133",
+      "publishedAt": "2026-05-13T15:26:27.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source",
+      "title": "50K Tahoe residents need power as utility eyes redirecting lines to data centers",
+      "url": "https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source",
+      "summary": "Article URL: https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source/ Comments URL: https://news.ycombinator.com/item?id=48123090 Points: 61 # Comments: 58",
+      "publishedAt": "2026-05-13T15:18:41.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://ossresistance.com",
+      "title": "Open Source Resistance: keep OSS alive on company time",
+      "url": "https://ossresistance.com",
+      "summary": "Article URL: https://ossresistance.com/ Comments URL: https://news.ycombinator.com/item?id=48123015 Points: 87 # Comments: 38",
+      "publishedAt": "2026-05-13T15:13:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/gadgets/928854/garmin-inreach-mini-2-3-blink-outdoor-4-floodlight-security-camera-deal-sale",
       "title": "Garmin’s mini satellite communicators are on sale for up to 40 percent off",
       "url": "https://www.theverge.com/gadgets/928854/garmin-inreach-mini-2-3-blink-outdoor-4-floodlight-security-camera-deal-sale",
@@ -17,11 +227,21 @@
       "id": "techcrunch:https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa",
       "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+",
       "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa",
-      "summary": "Alexa for Shopping is a new personalized AI shopping assistant in the Amazon search bar that replaces its Rufus assistant.",
+      "summary": "Alexa for Shopping offers a voice- and touch-enabled shopping experience across mobile, desktop, and Echo Show smart displays. Alexa for Shopping provides more personalized recommendations and automates the shopping experience across Amazon and other online retailers.",
       "publishedAt": "2026-05-13T14:59:32.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://fredchan.org/blog/locality-domains-guide",
+      "title": "Setting up a free *.city.state.us locality domain",
+      "url": "https://fredchan.org/blog/locality-domains-guide",
+      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 233 # Comments: 57",
+      "publishedAt": "2026-05-13T14:45:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth",
@@ -32,16 +252,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151",
-      "title": "The AI Backlash Could Get Ugly",
-      "url": "https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151",
-      "summary": "Article URL: https://www.theatlantic.com/technology/2026/05/ai-backlash-data-centers-political-violence/687151/ Comments URL: https://news.ycombinator.com/item?id=48122624 Points: 7 # Comments: 1",
-      "publishedAt": "2026-05-13T14:44:41.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b",
@@ -57,7 +267,7 @@
       "id": "techcrunch:https://techcrunch.com/2026/05/13/r-wallstreetbets-really-hates-the-secs-proposal-to-weaken-quarterly-reporting",
       "title": "r/WallStreetBets really hates the SEC&#8217;s proposal to weaken quarterly reporting",
       "url": "https://techcrunch.com/2026/05/13/r-wallstreetbets-really-hates-the-secs-proposal-to-weaken-quarterly-reporting",
-      "summary": "The retail trading subreddit submitted the sharpest criticism yet in response to the financial regulator's idea of letting companies report twice per year.",
+      "summary": "The retail trading subreddit submitted the sharpest criticism yet of the financial regulator's idea of letting companies report twice per year.",
       "publishedAt": "2026-05-13T14:42:11.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
@@ -92,216 +302,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky",
-      "title": "NASA’s Planet-Hunting TESS Reveals Dazzling Night Sky",
-      "url": "https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky",
-      "summary": "NASA’s TESS has released its most complete view of the starry sky to date",
-      "publishedAt": "2026-05-13T14:15:23.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/report/929374/google-googlebook-laptops-aluminium-os-questions-concerns-ai-gemini",
-      "title": "Why does the Googlebook exist?",
-      "url": "https://www.theverge.com/report/929374/google-googlebook-laptops-aluminium-os-questions-concerns-ai-gemini",
-      "summary": "Google announced its new Googlebook laptop platform yesterday, and so far I've been left asking, \"Why?\" Why is Google blowing up its Chromebook and ChromeOS platform for this? I've been excited by the prospect of Android and ChromeOS unifying under the long-rumored Aluminium OS. The theory was that Aluminium might unite Android and ChromeOS under [&#8230;]",
-      "publishedAt": "2026-05-13T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
-      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
-      "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
-      "summary": "For the first time, Anthropic has more verified business customers than OpenAI, according to this month’s AI Index from the fintech firm Ramp.",
-      "publishedAt": "2026-05-13T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market",
-      "title": "Introducing the 6 stages at TechCrunch Disrupt 2026 — built for today’s tougher startup market",
-      "url": "https://techcrunch.com/2026/05/13/introducing-the-6-stages-of-techcrunch-disrupt-2026-built-for-todays-tougher-startup-market",
-      "summary": "From October 13-15, TechCrunch Disrupt 2026 will feature 200+ sessions across six stages, led by 250+ tech leaders shaping the industry today. Register now to save up to $410, plus 50% off a second pass.",
-      "publishedAt": "2026-05-13T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats",
-      "title": "WhatsApp adds an incognito mode in Meta AI chats",
-      "url": "https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats",
-      "summary": "Meta said these incognito conversations are not saved, and messages will disappear by default once you close the chat.",
-      "publishedAt": "2026-05-13T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/report/928726/border-security-expo-cbp-ice-dhs-surveillance",
-      "title": "The border is everywhere",
-      "url": "https://www.theverge.com/report/928726/border-security-expo-cbp-ice-dhs-surveillance",
-      "summary": "No one paid attention to the gunshots that echoed through the convention center. They were real enough, and so were the screams that accompanied them, in the sense that they were recordings of real people who, like guest stars on Law and Order, reenacted scenarios that had clearly been plucked from the headlines: a kidnapping, [&#8230;]",
-      "publishedAt": "2026-05-13T13:45:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life",
-      "title": "Poppy debuts a proactive AI assistant to help organize your digital life",
-      "url": "https://techcrunch.com/2026/05/13/poppy-debuts-a-proactive-ai-assistant-to-help-organize-your-digital-life",
-      "summary": "Poppy is an AI-powered app that connects your calendar, email, messages, and other services to surface reminders, suggestions, and tasks based on what’s happening in your life.",
-      "publishedAt": "2026-05-13T13:27:09.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/929527/nintendo-switch-2-release-schedule-2026",
-      "title": "Nintendo says it has more Switch 2 games in store for 2026",
-      "url": "https://www.theverge.com/games/929527/nintendo-switch-2-release-schedule-2026",
-      "summary": "With the Switch 2 getting a price hike in September, this holiday season will be pivotal for Nintendo. That increased cost means that the company will rely heavily on new games to sell its current console - but as of right now the lineup for the second half of the year is sparse. However, without [&#8230;]",
-      "publishedAt": "2026-05-13T13:25:02.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/culture/2026/05/daredevil-born-again-s2-gives-us-a-darker-grittier-canvas",
-      "title": "Daredevil: Born Again S2 gives us a darker, grittier canvas",
-      "url": "https://arstechnica.com/culture/2026/05/daredevil-born-again-s2-gives-us-a-darker-grittier-canvas",
-      "summary": "Cinematographer Hillary Fyfe Spera on how she kept things visually fresh for Born Again ’s second season.",
-      "publishedAt": "2026-05-13T13:15:19.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure",
-      "title": "NVIDIA, Ineffable Intelligence Team Up to Build the Future of Reinforcement Learning Infrastructure",
-      "url": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure",
-      "summary": "Reinforcement-learning agents — AI systems that learn by trial and error — can convert computation into new knowledge. That’s the focus of a new engineering-level collaboration between NVIDIA and Ineffable Intelligence, the London-based AI lab founded by AlphaGo architect David Silver in the wake of Ineffable’s emergence from stealth last week. “The next frontier of [&#8230;]",
-      "publishedAt": "2026-05-13T13:00:57.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark",
-      "title": "Hermes Unlocks Self-Improving AI Agents, Powered by NVIDIA RTX PCs and DGX Spark",
-      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark",
-      "summary": "Agentic AI is changing the way users get work done. Following the success of OpenClaw, the community is embracing new open source agentic frameworks. The latest is Hermes Agent, which crossed 140,000 GitHub stars in under three months.",
-      "publishedAt": "2026-05-13T13:00:10.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/browser-run-containers",
-      "title": "Browser Run: now running on Cloudflare Containers, it’s faster and more scalable",
-      "url": "https://blog.cloudflare.com/browser-run-containers",
-      "summary": "We’ve enabled higher usage limits, faster performance, better reliability, and increased shipping velocity for our Browser Run product by rebuilding on top of Cloudflare’s Containers. Here’s how.",
-      "publishedAt": "2026-05-13T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/929377/canon-eos-r6-v-mirrorless-video-camera-price-specs",
-      "title": "Canon’s latest EOS R6 camera goes V for video",
-      "url": "https://www.theverge.com/gadgets/929377/canon-eos-r6-v-mirrorless-video-camera-price-specs",
-      "summary": "Canon has announced a new EOS R6 V mirrorless camera, a 32.5-megapixel camera with 7K video. It's the first full-frame EOS camera to carry the V moniker, signifying that it's designed primarily for video capture. The R6 V is based on the EOS R6 Mark III, but it eschews features like a viewfinder and a [&#8230;]",
-      "publishedAt": "2026-05-13T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-      "title": "Alexa is moving into Amazon․com",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
-      "summary": "Amazon is bringing Alexa Plus to Amazon.com, integrating its LLM-powered AI assistant directly into the company's shopping experience. Beginning today, when you type a query into Amazon, you'll be talking to Alexa for Shopping, the company's new shopping assistant, powered by Alexa Plus. So, while a search for \"toilet paper\" will still return the expected [&#8230;]",
-      "publishedAt": "2026-05-13T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies",
-      "title": "Dutch suicide prevention website shares data with tech companies without consent",
-      "url": "https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies",
-      "summary": "Article URL: https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies Comments URL: https://news.ycombinator.com/item?id=48121299 Points: 133 # Comments: 79",
-      "publishedAt": "2026-05-13T12:57:42.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://jorijn.com/en/blog/leaving-github-for-forgejo",
-      "title": "Why I'm leaving GitHub for Forgejo",
-      "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo",
-      "summary": "Article URL: https://jorijn.com/en/blog/leaving-github-for-forgejo/ Comments URL: https://news.ycombinator.com/item?id=48121266 Points: 215 # Comments: 135",
-      "publishedAt": "2026-05-13T12:54:00.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/05/rivian-adds-a-new-onboard-ai-assistant-to-its-latest-software-update",
-      "title": "Rivian adds a new onboard AI assistant to its latest software update",
-      "url": "https://arstechnica.com/cars/2026/05/rivian-adds-a-new-onboard-ai-assistant-to-its-latest-software-update",
-      "summary": "The Rivian Assistant is available for both Gen1 and Gen2 hardware.",
-      "publishedAt": "2026-05-13T12:45:30.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves",
-      "title": "Adaption aims big with AutoScientist, an AI tool that helps models train themselves",
-      "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves",
-      "summary": "Adaption's new AutoScientist tool is designed to let models adapt to specific capabilities quickly through an automated approach to conventional fine-tuning.",
-      "publishedAt": "2026-05-13T12:11:33.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/929487/unitree-gd01-giant-mech-suit-robot",
-      "title": "Unitree will sell you a massive ‘transformable mecha’ for $650,000",
-      "url": "https://www.theverge.com/tech/929487/unitree-gd01-giant-mech-suit-robot",
-      "summary": "Unitree is already one of the most recognizable names in the humanoid robot industry, but now it's pursuing even nicher sci-fi tech: giant mech suits. The Chinese robotics company has debuted the GD01, which it describes as \"the world's first production-ready manned mecha,\" and it can be yours for a paltry $650,000. What is it [&#8230;]",
-      "publishedAt": "2026-05-13T12:11:02.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft",
-      "title": "The Download: making drugs in orbit and NASA’s nuclear-powered spacecraft",
-      "url": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup called Varda Space Industries is betting that the future of pharmaceuticals lies in orbit. The company has signed a&#8230;",
-      "publishedAt": "2026-05-13T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager",
-      "title": "Substrate (YC S24) Is Hiring a Technical Success Manager",
-      "url": "https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager",
-      "summary": "Article URL: https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager Comments URL: https://news.ycombinator.com/item?id=48120776 Points: 0 # Comments: 0",
-      "publishedAt": "2026-05-13T12:00:30.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

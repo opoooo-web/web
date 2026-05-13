@@ -5,10 +5,40 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://duckdb.org/2026/05/12/quack-remote-protocol",
+      "title": "Quack: The DuckDB Client-Server Protocol",
+      "url": "https://duckdb.org/2026/05/12/quack-remote-protocol",
+      "summary": "Article URL: https://duckdb.org/2026/05/12/quack-remote-protocol Comments URL: https://news.ycombinator.com/item?id=48111765 Points: 292 # Comments: 60",
+      "publishedAt": "2026-05-12T17:54:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/speed-boosting-low-latency-profile-is-one-of-the-improvements-coming-to-windows-11",
+      "title": "Microsoft will lean on your CPU to speed up Windows 11's apps and animations",
+      "url": "https://arstechnica.com/gadgets/2026/05/speed-boosting-low-latency-profile-is-one-of-the-improvements-coming-to-windows-11",
+      "summary": "\"All modern operating systems do this, including macOS and Linux.\"",
+      "publishedAt": "2026-05-12T17:49:21.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://deepmind.google/blog/ai-pointer",
+      "title": "Reimagining the mouse pointer for the AI era",
+      "url": "https://deepmind.google/blog/ai-pointer",
+      "summary": "Article URL: https://deepmind.google/blog/ai-pointer/ Comments URL: https://news.ycombinator.com/item?id=48111581 Points: 208 # Comments: 173",
+      "publishedAt": "2026-05-12T17:40:13.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://googlebook.google",
       "title": "Googlebook",
       "url": "https://googlebook.google",
-      "summary": "https://www.reddit.com/r/Android/comments/1tb8xls/introducin... Comments URL: https://news.ycombinator.com/item?id=48111545 Points: 741 # Comments: 1227",
+      "summary": "https://www.reddit.com/r/Android/comments/1tb8xls/introducin... Comments URL: https://news.ycombinator.com/item?id=48111545 Points: 796 # Comments: 1303",
       "publishedAt": "2026-05-12T17:37:36.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,7 +118,7 @@
       "id": "hacker-news:https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650",
       "title": "As researchers age, they produce less disruptive work",
       "url": "https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650",
-      "summary": "Article URL: https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650 Comments URL: https://news.ycombinator.com/item?id=48111243 Points: 55 # Comments: 55",
+      "summary": "Article URL: https://nautil.us/is-this-why-science-advances-one-funeral-at-a-time-1280650 Comments URL: https://news.ycombinator.com/item?id=48111243 Points: 76 # Comments: 79",
       "publishedAt": "2026-05-12T17:16:59.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +128,7 @@
       "id": "hacker-news:https://www.hypercubic.ai/hopper",
       "title": "Show HN: Agentic interface for mainframes and COBOL",
       "url": "https://www.hypercubic.ai/hopper",
-      "summary": "Hi HN, we’re Sai and Aayush, and we’re building Hypercubic ( https://www.hypercubic.ai/ ), bringing AI tools to the mainframe and COBOL world. (We did a Launch HN last year: https://news.ycombinator.com/item?id=45877517 .) Today we’re launching Hopper, an agentic development environment for mainframes. You can download it here: https://www.hypercubic.ai/hopper , and you can also request access and immediately get a mainframe user account to play with. There's also a video runthrough at https://www.youtube.com/watch?v=q81L5DcfBvE . Mainframes still run a surprising amount of critical infrastructure: banking, payments, insurance, airlines, government programs, logistics, and core operations at large institutions. Many of these systems are decades old, but they continue to process enormous transaction volumes because they are reliable, secure, and deeply embedded into business operations. A lot of that software is written in COBOL and runs on IBM z/OS. The development environment looks very different from modern cloud or Unix-style development. Instead of GitHub, shell commands, package managers, and CI pipelines, developers often work through TN3270 terminal sessions, ISPF panels, partitioned datasets, JCL, JES queues, spool output, return codes, VSAM files, CICS transactions, and shop-specific conventions. TN3270 is the terminal interface used to interact with many IBM mainframe systems. ISPF is the menu and panel system developers use inside that terminal to browse datasets, edit source, submit jobs, and inspect output. It is powerful and reliable, but it was designed for expert humans navigating screens, function keys, and fixed-width workflows, not AI agents. A simple COBOL change might require finding the right source member, checking copybooks, locating compile JCL, submitting a job, reading JES/SYSPRINT output, interpreting condition codes, patching fixed-width source, and resubmitting. Much of this work is so well-defined and repetitive that it's a good fit for agentic AI. To get that working, however, a chatbot next to a terminal is not enough. The agent needs to operate inside the mainframe environment. Hopper combines three things: (1) A real TN3270 terminal, (2) Mainframe-aware panels for datasets, members, jobs, and spool output, and (3) An AI agent that can operate across those z/OS surfaces. For example, here is a tiny version of the kind of thing Hopper can help debug: COBOL: IDENTIFICATION DIVISION. PROGRAM-ID. PAYCALC. DATA DIVISION. WORKING-STORAGE SECTION. 01 CUSTOMER-BALANCE PIC 9(7)V99. PROCEDURE DIVISION. ADD 100.00 TO CUSTOMER-BALNCE DISPLAY \"UPDATED BALANCE: \" CUSTOMER-BALANCE STOP RUN. JCL: //PAYCOMP JOB (ACCT),'COMPILE',CLASS=A,MSGCLASS=X //COBOL EXEC IGYWCL [//COBOL.SYSIN](https://cobol.sysin/) DD DSN=USER1.APP.COBOL(PAYCALC),DISP=SHR [//LKED.SYSLMOD](https://lked.syslmod/) DD DSN=USER1.APP.LOAD(PAYCALC),DISP=SHR A human would submit this job, inspect JES output, open `SYSPRINT`, find the undefined `CUSTOMER-BALNCE`, map it back to the source, patch the member, and resubmit. Hopper is designed to let an agent operate through that same loop autonomously. Hopper is not trying to hide the mainframe behind a generic abstraction, and it's not a chatbot. The design principle is simple: preserve the fidelity of the mainframe environment, but make it accessible to AI agents. Sensitive operations require approval, and the terminal remains visible at all times. Once agents can operate inside the mainframe environment, new workflows become possible: faster job debugging, automated documentation, safer code changes, test generation, migration planning, traffic replay, and modernization verification. We’re curious to hear your thoughts! especially from anyone who has worked with mainframes, COBOL or has done legacy enterprise modernization. Comments URL: https://news.ycombinator.com/item?id=48111143 Points: 69 # Comments: 39",
+      "summary": "Hi HN, we’re Sai and Aayush, and we’re building Hypercubic ( https://www.hypercubic.ai/ ), bringing AI tools to the mainframe and COBOL world. (We did a Launch HN last year: https://news.ycombinator.com/item?id=45877517 .) Today we’re launching Hopper, an agentic development environment for mainframes. You can download it here: https://www.hypercubic.ai/hopper , and you can also request access and immediately get a mainframe user account to play with. There's also a video runthrough at https://www.youtube.com/watch?v=q81L5DcfBvE . Mainframes still run a surprising amount of critical infrastructure: banking, payments, insurance, airlines, government programs, logistics, and core operations at large institutions. Many of these systems are decades old, but they continue to process enormous transaction volumes because they are reliable, secure, and deeply embedded into business operations. A lot of that software is written in COBOL and runs on IBM z/OS. The development environment looks very different from modern cloud or Unix-style development. Instead of GitHub, shell commands, package managers, and CI pipelines, developers often work through TN3270 terminal sessions, ISPF panels, partitioned datasets, JCL, JES queues, spool output, return codes, VSAM files, CICS transactions, and shop-specific conventions. TN3270 is the terminal interface used to interact with many IBM mainframe systems. ISPF is the menu and panel system developers use inside that terminal to browse datasets, edit source, submit jobs, and inspect output. It is powerful and reliable, but it was designed for expert humans navigating screens, function keys, and fixed-width workflows, not AI agents. A simple COBOL change might require finding the right source member, checking copybooks, locating compile JCL, submitting a job, reading JES/SYSPRINT output, interpreting condition codes, patching fixed-width source, and resubmitting. Much of this work is so well-defined and repetitive that it's a good fit for agentic AI. To get that working, however, a chatbot next to a terminal is not enough. The agent needs to operate inside the mainframe environment. Hopper combines three things: (1) A real TN3270 terminal, (2) Mainframe-aware panels for datasets, members, jobs, and spool output, and (3) An AI agent that can operate across those z/OS surfaces. For example, here is a tiny version of the kind of thing Hopper can help debug: COBOL: IDENTIFICATION DIVISION. PROGRAM-ID. PAYCALC. DATA DIVISION. WORKING-STORAGE SECTION. 01 CUSTOMER-BALANCE PIC 9(7)V99. PROCEDURE DIVISION. ADD 100.00 TO CUSTOMER-BALNCE DISPLAY \"UPDATED BALANCE: \" CUSTOMER-BALANCE STOP RUN. JCL: //PAYCOMP JOB (ACCT),'COMPILE',CLASS=A,MSGCLASS=X //COBOL EXEC IGYWCL [//COBOL.SYSIN](https://cobol.sysin/) DD DSN=USER1.APP.COBOL(PAYCALC),DISP=SHR [//LKED.SYSLMOD](https://lked.syslmod/) DD DSN=USER1.APP.LOAD(PAYCALC),DISP=SHR A human would submit this job, inspect JES output, open `SYSPRINT`, find the undefined `CUSTOMER-BALNCE`, map it back to the source, patch the member, and resubmit. Hopper is designed to let an agent operate through that same loop autonomously. Hopper is not trying to hide the mainframe behind a generic abstraction, and it's not a chatbot. The design principle is simple: preserve the fidelity of the mainframe environment, but make it accessible to AI agents. Sensitive operations require approval, and the terminal remains visible at all times. Once agents can operate inside the mainframe environment, new workflows become possible: faster job debugging, automated documentation, safer code changes, test generation, migration planning, traffic replay, and modernization verification. We’re curious to hear your thoughts! especially from anyone who has worked with mainframes, COBOL or has done legacy enterprise modernization. Comments URL: https://news.ycombinator.com/item?id=48111143 Points: 79 # Comments: 41",
       "publishedAt": "2026-05-12T17:10:22.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -149,26 +179,6 @@
       "title": "Google announces its Chromebook successor: the Googlebook",
       "url": "https://www.theverge.com/tech/928479/google-googlebook-laptops-android-tease-aluminium-chromebook",
       "summary": "Google is announcing a new line of laptops coming in the fall called Googlebooks. Details are sparse for now, as the tease is just a small part of various Android announcements during Google's Android Show. But we do know this is a major new initiative in the laptop space for Google, seemingly designed to succeed [&#8230;]",
-      "publishedAt": "2026-05-12T17:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
-      "title": "The 9 biggest new features in Android 17",
-      "url": "https://www.theverge.com/tech/928653/google-android-17-9-biggest-new-features-android-show-io",
-      "summary": "Would it shock you to hear that Android 17 is filled with new AI-enabled features, like improved dictation and vibe-coded widgets? Fortunately, that's not all. The platform is getting non-AI updates too, from an emoji overhaul to a new screentime tool that helps you avoid distracting apps. Google has just revealed the biggest changes coming [&#8230;]",
-      "publishedAt": "2026-05-12T17:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "title": "Gemini&#8217;s latest updates are all about controlling your phone",
-      "url": "https://www.theverge.com/tech/928724/gemini-intelligence-android-io-autofill",
-      "summary": "It is, once again, Gemini season. Google is announcing a host of new Gemini features during its pre-I/O Android showcase, many of which aim to help use your phone for you. You'll find Gemini in more places, like Chrome on Android, in your autofill suggestions, and all up in your apps - if you want. [&#8230;]",
       "publishedAt": "2026-05-12T17:00:00.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
@@ -290,16 +300,6 @@
       "url": "https://techcrunch.com/2026/05/12/us-bank-discloses-security-lapse-after-sharing-customer-data-with-ai-app",
       "summary": "Community Bank, which operates in Pennsylvania, Ohio, and West Virginia, disclosed a cybersecurity incident that exposed customers’ names, dates of birth, and Social Security numbers.",
       "publishedAt": "2026-05-12T16:36:44.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok",
-      "title": "Threads tests a Meta AI integration that works similarly to Grok",
-      "url": "https://techcrunch.com/2026/05/12/threads-tests-a-meta-ai-integration-that-works-similarly-to-grok",
-      "summary": "The feature is designed to help people get real-time context about trends and breaking stories, as well as receive recommendations, all within conversations.",
-      "publishedAt": "2026-05-12T16:34:36.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"

@@ -1,98 +1,90 @@
 {
-  "generatedAt": "2026-05-13T10:58:39.495Z",
+  "generatedAt": "2026-05-13T11:27:14.532Z",
   "generatedBy": "gemini-cli",
-  "model": "gemini-3-flash-preview",
-  "narrative": "Google's unveiling of 'Googlebooks' signals a major shift toward AI-native hardware as the tech industry pivots from generative chat to agentic operating systems. Meanwhile, infrastructure is expanding into new frontiers, with SpaceX pushing orbital limits and startups scaling in-orbit drug manufacturing. Policy and security are also adapting rapidly, as evidenced by new AI-focused Medicare payment models and significant venture investment in real-time cyber defense.",
+  "model": "gemini-2.5-flash",
+  "narrative": "The tech landscape is rapidly evolving with significant advancements in AI, pushing boundaries from space-based drug manufacturing to AI-powered urban infrastructure. Major players like Google, OpenAI, and NVIDIA are introducing new AI-native platforms and tools, while privacy and security concerns remain paramount amid these innovations. This week highlights the pervasive integration of AI into daily life and enterprise, alongside crucial developments in developer tools and space exploration.",
   "highlights": [
     {
-      "title": "Google unveils Googlebook, a new line of AI-native laptops",
-      "whyItMatters": "The first laptops designed from the ground up for Gemini Intelligence represent Google's plan to succeed Chromebooks with AI-first hardware.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/12/google-unveils-googlebooks-a-new-line-of-ai-native-laptops",
-      "category": "Technology",
-      "publishedAt": "2026-05-12T17:00:00.000Z"
-    },
-    {
-      "title": "SpaceX completes fueling test, setting stage for first launch of Starship V3",
-      "whyItMatters": "Starship V3 has set a new record as the tallest rocket ever built, marking a critical milestone for heavy-lift orbital capabilities.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/05/spacex-completes-fueling-test-setting-stage-for-first-launch-of-starship-v3",
-      "category": "Technology",
-      "publishedAt": "2026-05-12T11:00:34.000Z"
-    },
-    {
       "title": "A plan to make drugs in orbit is going commercial",
-      "whyItMatters": "Varda Space Industries' partnership with United Therapeutics marks a notable step toward scaling pharmaceutical manufacturing in microgravity.",
+      "whyItMatters": "Varda Space Industries is commercializing in-orbit drug manufacturing, marking a significant step for space-based production.",
       "sourceName": "MIT Technology Review",
       "sourceUrl": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space",
       "category": "Science",
       "publishedAt": "2026-05-13T10:00:00.000Z"
     },
     {
-      "title": "Medicare’s new payment model is built for AI",
-      "whyItMatters": "The new ACCESS model creates the first governmental mechanism to pay for AI agents that monitor and coordinate patient care.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/12/medicares-new-payment-model-is-built-for-ai-and-most-of-the-tech-world-has-no-idea",
+      "title": "Data centers are coming for rural America",
+      "whyItMatters": "Rural areas are becoming new hubs for data centers, transforming local economies and infrastructure.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
       "category": "Technology",
-      "publishedAt": "2026-05-13T00:26:48.000Z"
+      "publishedAt": "2026-05-13T09:00:00.000Z"
     },
     {
-      "title": "Exaforce raises $125M to build AI for stopping cyberattacks as they happen",
-      "whyItMatters": "As attackers weaponize AI to exploit software at scale, defensive AI is receiving massive investment to enable real-time threat mitigation.",
+      "title": "The newest AI boom pitch: Host a mini data center at your home",
+      "whyItMatters": "New models are emerging where individuals can host mini data centers for AI compute, decentralizing AI infrastructure.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home",
+      "category": "Technology",
+      "publishedAt": "2026-05-12T21:59:03.000Z"
+    },
+    {
+      "title": "Google unveils Googlebook, a new line of AI-native laptops",
+      "whyItMatters": "Google is launching AI-first laptops designed for Gemini Intelligence, indicating a shift towards integrated AI hardware.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/12/google-unveils-googlebooks-a-new-line-of-ai-native-laptops",
+      "category": "Technology",
+      "publishedAt": "2026-05-12T17:00:00.000Z"
+    },
+    {
+      "title": "Report: Google and SpaceX in talks to put data centers into orbit",
+      "whyItMatters": "This potential collaboration could revolutionize data processing by moving AI compute infrastructure to space.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/12/report-google-and-spacex-in-talks-to-put-data-centers-into-orbit",
+      "category": "Technology",
+      "publishedAt": "2026-05-12T17:30:57.000Z"
+    },
+    {
+      "title": "Exaforce raises $125M Series B to build AI for catching and stopping cyberattacks as they happen",
+      "whyItMatters": "Significant investment in AI-driven cybersecurity solutions reflects growing concerns over AI-weaponized threats.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/05/12/exaforce-raises-125m-series-b-to-build-ai-for-catching-and-stopping-cyberattacks-as-they-happen",
       "category": "Technology",
       "publishedAt": "2026-05-12T15:07:37.000Z"
     },
     {
-      "title": "Amazon’s Panos Panay addresses new Fire phone rumors",
-      "whyItMatters": "Speculation is growing around 'Transformer,' an Alexa-enabled AI phone that could mark Amazon's return to the smartphone market.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/929412/amazon-panos-panay-interview-phone-transformer",
-      "category": "Technology",
-      "publishedAt": "2026-05-13T08:36:42.000Z"
-    },
-    {
-      "title": "Waymo issues recall to deal with a flooding problem",
-      "whyItMatters": "A software update is making robotaxis more cautious around flooded areas, highlighting the ongoing edge cases in autonomous vehicle deployment.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/12/waymo-issues-recall-to-deal-with-a-flooding-problem",
-      "category": "Technology",
-      "publishedAt": "2026-05-12T14:47:17.000Z"
-    },
-    {
-      "title": "Data centers are coming for rural America",
-      "whyItMatters": "The conversion of defunct industrial sites into massive AI data centers is reshaping local economies and power infrastructure across the US.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/928963/data-center-rural-america-jobs-jay-maine",
-      "category": "Technology",
-      "publishedAt": "2026-05-13T09:00:00.000Z"
+      "title": "Introducing GPT-5.5",
+      "whyItMatters": "OpenAI's latest model, GPT-5.5, offers enhanced capabilities for complex tasks, setting a new benchmark in AI performance.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-5-5",
+      "category": "AI",
+      "publishedAt": "2026-04-23T11:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence",
-      "summary": "The industry is shifting from chat to agentic systems with AI-native hardware and specialized healthcare models.",
-      "itemCount": 85
+      "name": "AI Advancement",
+      "summary": "AI continues to advance rapidly with new models like GPT-5.5, specialized agents, and integrations into various products and industries, from finance to cybersecurity and even space infrastructure.",
+      "itemCount": 50
     },
     {
-      "name": "Space Exploration",
-      "summary": "SpaceX's record-setting Starship V3 and Varda's orbital manufacturing represent a new era of commercial space operations.",
-      "itemCount": 15
+      "name": "Technology Innovation",
+      "summary": "Innovations span consumer electronics with redesigned phones and customizable OS features, to significant developments in data center infrastructure and novel computing solutions like Googlebooks.",
+      "itemCount": 50
     },
     {
-      "name": "Consumer Tech",
-      "summary": "Hardware innovations like Googlebooks and rumored AI phones are redefining the personal computing experience.",
-      "itemCount": 40
+      "name": "Space and Science",
+      "summary": "Breakthroughs in space include commercial drug manufacturing in orbit and ongoing Mars exploration, alongside discussions on AI's role in scientific discovery and potential ethical considerations.",
+      "itemCount": 10
     },
     {
-      "name": "Security & Policy",
-      "summary": "New government baselines and massive funding for AI defense address the rising complexity of cyber threats.",
-      "itemCount": 25
+      "name": "Developer Tools & Security",
+      "summary": "Developer ecosystems are seeing new tools for AI-driven workflows, improved security measures against vulnerabilities, and discussions around open-source practices and code review.",
+      "itemCount": 30
     },
     {
-      "name": "Infrastructure",
-      "summary": "The migration of compute to rural hubs and potential orbital data centers highlights the massive power and scale needs of AI.",
+      "name": "Infrastructure & Cloud",
+      "summary": "The focus on infrastructure includes resilient network architectures, new cloud services for AI agents, and discussions on the environmental impact and resource consumption of data centers.",
       "itemCount": 20
     }
   ],

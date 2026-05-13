@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers",
+      "title": "AI chatbots are giving out people’s real phone numbers",
+      "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers",
+      "summary": "People report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it.&#160; A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a&#8230;",
+      "publishedAt": "2026-05-13T18:09:03.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/05/a-new-us-military-wargame-series-began-by-simulating-a-nuclear-weapon-in-orbit",
+      "title": "A new US military wargame series began by simulating a nuclear weapon in orbit",
+      "url": "https://arstechnica.com/space/2026/05/a-new-us-military-wargame-series-began-by-simulating-a-nuclear-weapon-in-orbit",
+      "summary": "US officials have said a nuclear detonation would render portions of low-Earth orbit useless for up to a year.",
+      "publishedAt": "2026-05-13T18:04:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/05/neanderthals-drilled-cavities-to-treat-a-toothache-59000-years-ago",
+      "title": "Neanderthals drilled cavities to treat a toothache 59,000 years ago",
+      "url": "https://arstechnica.com/science/2026/05/neanderthals-drilled-cavities-to-treat-a-toothache-59000-years-ago",
+      "summary": "“Every time I go to the dentist, I think about that guy,” researcher says.",
+      "publishedAt": "2026-05-13T18:00:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/929958/instagram-instants-photos-disappearing-app",
+      "title": "Instagram hits the copy button again with new disappearing Instants photos",
+      "url": "https://www.theverge.com/tech/929958/instagram-instants-photos-disappearing-app",
+      "summary": "Instagram is once again cribbing from competitors like Snapchat and BeReal with a new photo-sharing format it calls \"Instants,\" which are ephemeral photos that you can't edit and that you can only share with your close friends or followers that follow you back. Instants are available globally beginning on Wednesday as a feature in the [&#8230;]",
+      "publishedAt": "2026-05-13T17:57:41.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar",
       "title": "Altman forced to confront claims at OpenAI trial that he's a prolific liar",
       "url": "https://arstechnica.com/tech-policy/2026/05/altman-forced-to-confront-claims-at-openai-trial-that-hes-a-prolific-liar",
@@ -68,7 +108,7 @@
       "id": "hacker-news:https://www.tryardent.com",
       "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
       "url": "https://www.tryardent.com",
-      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 50 # Comments: 20",
+      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 58 # Comments: 20",
       "publishedAt": "2026-05-13T16:54:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -158,7 +198,7 @@
       "id": "hacker-news:https://grantmestrength.github.io/S100",
       "title": "S-100 Virtual Workbench",
       "url": "https://grantmestrength.github.io/S100",
-      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 80 # Comments: 18",
+      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 93 # Comments: 19",
       "publishedAt": "2026-05-13T15:52:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -185,36 +225,6 @@
       "category": "Science"
     },
     {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-      "title": "Microsoft doesn’t want any of this",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/929692/microsoft-musk-altman-openai-trial",
-      "summary": "Maybe I'm just punch-drunk in my third week attending Musk v. Altman, but I have become very, very fond of Microsoft during the course of this trial. They don't want to be here any more than I do. Their opening statement was honestly one of the most Microsoft things I've ever seen. More than anything [&#8230;]",
-      "publishedAt": "2026-05-13T15:30:37.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/929667/sony-alpha-a7rvi-mirrorless-camera-price-specs",
-      "title": "Sony ups its new A7R VI to 66.8 megapixels and jumps the price to $4,500",
-      "url": "https://www.theverge.com/gadgets/929667/sony-alpha-a7rvi-mirrorless-camera-price-specs",
-      "summary": "Sony announced its new flagship high-resolution camera, the A7R VI. The standout feature is its fully stacked full-frame sensor with 66.8 megapixels of resolution and up to 16 stops of dynamic range. That's only an increase of about six megapixels for the VI model, but its stacked architecture means a much faster readout speed for [&#8230;]",
-      "publishedAt": "2026-05-13T15:30:14.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://ossresistance.com",
-      "title": "Open Source Resistance: keep OSS alive on company time",
-      "url": "https://ossresistance.com",
-      "summary": "Article URL: https://ossresistance.com/ Comments URL: https://news.ycombinator.com/item?id=48123015 Points: 223 # Comments: 71",
-      "publishedAt": "2026-05-13T15:13:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa",
       "title": "Amazon launches an AI shopping assistant for the search bar, powered by Alexa+",
       "url": "https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa",
@@ -228,7 +238,7 @@
       "id": "hacker-news:https://fredchan.org/blog/locality-domains-guide",
       "title": "Setting up a free *.city.state.us locality domain (2025)",
       "url": "https://fredchan.org/blog/locality-domains-guide",
-      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 411 # Comments: 131",
+      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 448 # Comments: 144",
       "publishedAt": "2026-05-13T14:45:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -293,16 +303,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
-      "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
-      "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
-      "summary": "A survey compiled from fintech firm Ramp’s clients’ expense data shows 34.4% of participating businesses are paying for Anthropic services, more than any other AI lab, while only 32.3% pay for OpenAI.",
-      "publishedAt": "2026-05-13T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

@@ -1,9 +1,49 @@
 {
-  "generatedAt": "2026-05-14T07:25:40.098Z",
+  "generatedAt": "2026-05-14T10:36:32.580Z",
   "generatedBy": "local-fallback",
   "model": null,
   "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
   "highlights": [
+    {
+      "title": "The Tesla Semi could be a big deal for electric trucking",
+      "whyItMatters": "The Tesla Semi has officially arrived. The company recently released a photo of the first vehicle rolling off its new full-scale production line. This moment has been nearly a decade in the making: The company first announced the Tesla Semi in late 2017. And now we’ve got final battery specs, official prices, and big news&#8230;",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/14/1137197/tesla-semi-electric-trucking",
+      "category": "Science",
+      "publishedAt": "2026-05-14T10:00:00.000Z"
+    },
+    {
+      "title": "Windows Update will soon automatically roll back faulty drivers",
+      "whyItMatters": "Microsoft is on a mission to fix Windows 11, and part of that involves improving the often-frustrating Windows Update experience. While you'll soon be able to pause updates indefinitely, Microsoft is also adding a new feature that automatically rolls back problematic drivers that have been installed through Windows Update. Microsoft has created a new \"Cloud-Initiated [&#8230;]",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/news/930303/windows-update-automatic-driver-rollback-feature",
+      "category": "Technology",
+      "publishedAt": "2026-05-14T09:40:19.000Z"
+    },
+    {
+      "title": "The shock of seeing your body used in deepfake porn",
+      "whyItMatters": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return&#8230;",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright",
+      "category": "Science",
+      "publishedAt": "2026-05-14T09:00:00.000Z"
+    },
+    {
+      "title": "Rewrite Bun in Rust has been merged",
+      "whyItMatters": "Article URL: https://github.com/oven-sh/bun/pull/30412 Comments URL: https://news.ycombinator.com/item?id=48132488 Points: 78 # Comments: 62",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/oven-sh/bun/pull/30412",
+      "category": "Developer",
+      "publishedAt": "2026-05-14T08:15:31.000Z"
+    },
+    {
+      "title": "Classic 7 is a Windows 10 LTSC mod to look 1:1 to Windows 7",
+      "whyItMatters": "Article URL: https://classic7.lol/ Comments URL: https://news.ycombinator.com/item?id=48132030 Points: 56 # Comments: 48",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://classic7.lol",
+      "category": "Developer",
+      "publishedAt": "2026-05-14T07:03:18.000Z"
+    },
     {
       "title": "Who decides what AI tells you? Campbell Brown, once Meta&#8217;s news chief, has thoughts",
       "whyItMatters": "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers.\"",
@@ -11,46 +51,6 @@
       "sourceUrl": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts",
       "category": "Technology",
       "publishedAt": "2026-05-14T06:05:31.000Z"
-    },
-    {
-      "title": "Clio&#8217;s $500M milestone arrives just as Anthropic ups the ante",
-      "whyItMatters": "Legal tech startups, including Clio, which just hit $500 million in ARR, are seeing massive customer adoption.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante",
-      "category": "Technology",
-      "publishedAt": "2026-05-14T05:24:39.000Z"
-    },
-    {
-      "title": "Ice Moves Out of Aniak",
-      "whyItMatters": "Spring melt along Alaska’s Kuskokwim River caused ice jams and flooding.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak",
-      "category": "Science",
-      "publishedAt": "2026-05-14T04:01:00.000Z"
-    },
-    {
-      "title": "Claude for Small Business",
-      "whyItMatters": "Article URL: https://www.anthropic.com/news/claude-for-small-business Comments URL: https://news.ycombinator.com/item?id=48130950 Points: 162 # Comments: 98",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.anthropic.com/news/claude-for-small-business",
-      "category": "Developer",
-      "publishedAt": "2026-05-14T03:59:35.000Z"
-    },
-    {
-      "title": "Arena AI Model ELO History",
-      "whyItMatters": "Hi HN, I built a live tracker to visualize the lifecycle and performance changes of flagship AI models. We've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was just a feeling or a measurable reality, so I built a dashboard to track historical ELO ratings from Arena AI. Instead of a massive spaghetti chart of every single model variant, the logic plots exactly ONE continuous curve per major AI lab. It dynamically tracks their highest-rated flagship model over time, which makes both the sudden generational jumps and the slow performance decays much easier to see. It took quite a lot of iterations to get the chart to look nice on mobile as well. Optional dark mode included. However, I have a specific data blindspot that I'm hoping this community might have insights on. Arena AI largely relies on testing API endpoints. But as we know, consumer chat UIs often layer on heavy system prompts, safety wrappers, or silently switch to heavily quantized models under high load to save compute. API benchmarks don't fully capture this \"nerfing\" that everyday web users experience. Does anyone know of any historical ELO or evaluation datasets that specifically scrape or test outputs from the consumer web UIs rather than raw APIs? I'd love to integrate that data for a more accurate picture of the consumer experience. The project is open-source (repo link in the footer), so I'd appreciate any feedback, or pointers to datasets! Comments URL: https://news.ycombinator.com/item?id=48130711 Points: 37 # Comments: 15",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://mayerwin.github.io/AI-Arena-History",
-      "category": "Developer",
-      "publishedAt": "2026-05-14T03:19:05.000Z"
-    },
-    {
-      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
-      "whyItMatters": "Article URL: https://github.com/DrCatHicks/learning-opportunities Comments URL: https://news.ycombinator.com/item?id=48130679 Points: 19 # Comments: 2",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/DrCatHicks/learning-opportunities",
-      "category": "Developer",
-      "publishedAt": "2026-05-14T03:13:31.000Z"
     }
   ],
   "topics": [
@@ -61,7 +61,7 @@
     },
     {
       "name": "Technology",
-      "summary": "50 source-linked updates, led by TechCrunch.",
+      "summary": "50 source-linked updates, led by The Verge.",
       "itemCount": 50
     },
     {
@@ -76,11 +76,11 @@
     },
     {
       "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
+      "summary": "20 source-linked updates, led by MIT Technology Review.",
       "itemCount": 20
     }
   ],
   "notes": [
-    "Gemini HTTP 503"
+    "Gemini HTTP 429"
   ]
 }

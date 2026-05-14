@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://fredchan.org/blog/locality-domains-guide",
+      "title": "Setting up a free *.city.state.us locality domain (2025)",
+      "url": "https://fredchan.org/blog/locality-domains-guide",
+      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 563 # Comments: 174",
+      "publishedAt": "2026-05-13T14:45:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth",
       "title": "Studying Pneumonia in Space for Heart Health on Earth",
       "url": "https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth",
@@ -88,7 +98,7 @@
       "id": "hacker-news:https://avkcode.github.io/blog/us-winning-ai-race.html",
       "title": "The US is winning the AI race where it matters most: commercialization",
       "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
-      "summary": "Article URL: https://avkcode.github.io/blog/us-winning-ai-race.html Comments URL: https://news.ycombinator.com/item?id=48121929 Points: 192 # Comments: 518",
+      "summary": "Article URL: https://avkcode.github.io/blog/us-winning-ai-race.html Comments URL: https://news.ycombinator.com/item?id=48121929 Points: 203 # Comments: 552",
       "publishedAt": "2026-05-13T13:53:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -198,7 +208,7 @@
       "id": "hacker-news:https://sockpuppet.org/blog/2026/05/12/emacsification",
       "title": "The Emacsification of Software",
       "url": "https://sockpuppet.org/blog/2026/05/12/emacsification",
-      "summary": "Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/ Comments URL: https://news.ycombinator.com/item?id=48118727 Points: 272 # Comments: 180",
+      "summary": "Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/ Comments URL: https://news.ycombinator.com/item?id=48118727 Points: 307 # Comments: 202",
       "publishedAt": "2026-05-13T07:06:14.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -228,7 +238,7 @@
       "id": "hacker-news:https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job",
       "title": "Twin brothers wipe 96 government databases minutes after being fired",
       "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job",
-      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/ Comments URL: https://news.ycombinator.com/item?id=48115438 Points: 394 # Comments: 291",
+      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/ Comments URL: https://news.ycombinator.com/item?id=48115438 Points: 435 # Comments: 341",
       "publishedAt": "2026-05-12T22:28:07.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -268,8 +278,18 @@
       "id": "hacker-news:https://github.com/cactus-compute/needle",
       "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
       "url": "https://github.com/cactus-compute/needle",
-      "summary": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices. We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale. Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...). Training: - Pretrained on 200B tokens across 16 TPU v6e (27 hours) - Post-trained on 2B tokens of synthesized function-calling data (45 minutes) - Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.) You can test it right now and finetune on your Mac/PC: https://github.com/cactus-compute/needle The full writeup on the architecture is here: https://github.com/cactus-compute/needle/blob/main/docs/simp... We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published. While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly. This is part of our broader work on Cactus ( https://github.com/cactus-compute/cactus ), an inference engine built from scratch for mobile, wearables and custom hardware. We wrote about Cactus here previously: https://news.ycombinator.com/item?id=44524544 Everything is MIT licensed. Weights: https://huggingface.co/Cactus-Compute/needle GitHub: https://github.com/cactus-compute/needle Comments URL: https://news.ycombinator.com/item?id=48111896 Points: 667 # Comments: 187",
+      "summary": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices. We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale. Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...). Training: - Pretrained on 200B tokens across 16 TPU v6e (27 hours) - Post-trained on 2B tokens of synthesized function-calling data (45 minutes) - Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.) You can test it right now and finetune on your Mac/PC: https://github.com/cactus-compute/needle The full writeup on the architecture is here: https://github.com/cactus-compute/needle/blob/main/docs/simp... We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published. While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly. This is part of our broader work on Cactus ( https://github.com/cactus-compute/cactus ), an inference engine built from scratch for mobile, wearables and custom hardware. We wrote about Cactus here previously: https://news.ycombinator.com/item?id=44524544 Everything is MIT licensed. Weights: https://huggingface.co/Cactus-Compute/needle GitHub: https://github.com/cactus-compute/needle Comments URL: https://news.ycombinator.com/item?id=48111896 Points: 676 # Comments: 189",
       "publishedAt": "2026-05-12T18:03:11.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.theatlantic.com/past/docs/unbound/flashbks/james/jnote.htm",
+      "title": "The Deathbed Notes of Henry James (1968)",
+      "url": "https://www.theatlantic.com/past/docs/unbound/flashbks/james/jnote.htm",
+      "summary": "Article URL: https://www.theatlantic.com/past/docs/unbound/flashbks/james/jnote.htm Comments URL: https://news.ycombinator.com/item?id=48111652 Points: 9 # Comments: 0",
+      "publishedAt": "2026-05-12T17:44:58.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -283,26 +303,6 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/perseverance-stuns-in-new-selfie",
-      "title": "Perseverance Stuns in New Selfie",
-      "url": "https://www.nasa.gov/image-article/perseverance-stuns-in-new-selfie",
-      "summary": "NASA’s Perseverance rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes.” Assembled from 61 individual images, the selfie shows Perseverance training its mast on a rocky outcrop in the foreground after creating a circular abrasion patch, with the western rim of [&#8230;]",
-      "publishedAt": "2026-05-12T17:22:51.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier",
-      "title": "NASA’s Perseverance Rover Snaps Selfie in Mars’ Western Frontier",
-      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier",
-      "summary": "Editor’s note: The text was updated on March 13, 2026, to correct the spelling of the outcrop nicknamed “Arathusa.” NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes.” Assembled from 61 individual images, the selfie shows Perseverance training [&#8230;]",
-      "publishedAt": "2026-05-12T16:48:31.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     }
   ]
 }

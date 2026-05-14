@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/column/929752/the-crypto-clarity-act-returns-to-the-senate-this-week-the-banks-are-already-trying-to-kill-it",
+      "title": "The crypto Clarity Act returns to the Senate this week. The banks are already trying to kill it.",
+      "url": "https://www.theverge.com/column/929752/the-crypto-clarity-act-returns-to-the-senate-this-week-the-banks-are-already-trying-to-kill-it",
+      "summary": "Hello and welcome to Regulator, the newsletter for Verge subscribers that goes into tech shenanigans that take place in the backrooms of Washington. Really, it sometimes does feel like the online series The Backrooms: a parallel universe with no internal logic, evil corporations lurking in the background, and mind-rending eldritch horrors around every corner. (Not [&#8230;]",
+      "publishedAt": "2026-05-13T19:19:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/rise-goes-to-washington",
+      "title": "Rise Goes to Washington",
+      "url": "https://www.nasa.gov/image-article/rise-goes-to-washington",
+      "summary": "“Rise,” the Artemis II zero gravity indicator, is seen sitting on the dais as NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen speak with congressional staff, Tuesday, May 12, 2026, in Washington. NASA’s Artemis II mission took Wiseman, Glover, Koch, and Hansen on a nearly 10-day [&#8230;]",
+      "publishedAt": "2026-05-13T19:17:12.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/streaming/930009/johh-damaro-disney-trump-fcc-the-view-equal-time-doctrine",
+      "title": "Fighting Trump will make or break Disney’s new CEO",
+      "url": "https://www.theverge.com/streaming/930009/johh-damaro-disney-trump-fcc-the-view-equal-time-doctrine",
+      "summary": "A week ago, newly appointed Disney CEO Josh D'Amaro was busy regaling investors with plans to turn Disney Plus into the company's \"digital centerpiece.\" By last Friday, though, his attention had presumably shifted to a fight with the Trump administration over free speech. Disney-owned ABC has now accused the administration of violating its First Amendment [&#8230;]",
+      "publishedAt": "2026-05-13T19:15:21.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip",
       "title": "The physics of how Olympic weightlifters exploit barbell's \"whip\"",
       "url": "https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip",
@@ -48,7 +78,7 @@
       "id": "hacker-news:https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis",
       "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
       "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis",
-      "summary": "Article URL: https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/ Comments URL: https://news.ycombinator.com/item?id=48125617 Points: 186 # Comments: 194",
+      "summary": "Article URL: https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/ Comments URL: https://news.ycombinator.com/item?id=48125617 Points: 225 # Comments: 252",
       "publishedAt": "2026-05-13T18:30:51.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -168,21 +198,11 @@
       "id": "hacker-news:https://www.tryardent.com",
       "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
       "url": "https://www.tryardent.com",
-      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 83 # Comments: 34",
+      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 87 # Comments: 35",
       "publishedAt": "2026-05-13T16:54:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-      "title": "Mark Zuckerberg announces &#8216;completely private&#8217; encrypted Meta AI chat",
-      "url": "https://www.theverge.com/tech/929791/meta-ai-incognito-chats",
-      "summary": "Meta CEO Mark Zuckerberg says its new Incognito Chat is \"the first major AI product where there is no log of your conversations stored on servers.\" Messages in Incognito Chat aren't saved or stored in users' chat history, similar to incognito modes on other AI chatbots, but Meta says its version is different because it [&#8230;]",
-      "publishedAt": "2026-05-13T16:45:43.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/05/13/rivian-spinoff-mind-robotics-raises-another-400m",
@@ -255,16 +275,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://grantmestrength.github.io/S100",
-      "title": "S-100 Virtual Workbench",
-      "url": "https://grantmestrength.github.io/S100",
-      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 116 # Comments: 25",
-      "publishedAt": "2026-05-13T15:52:00.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia",
       "title": "Ransomware hackers claim breach at Foxconn, a major electronics manufacturer for Apple, Google, and Nvidia",
       "url": "https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia",
@@ -293,16 +303,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://fredchan.org/blog/locality-domains-guide",
-      "title": "Setting up a free *.city.state.us locality domain (2025)",
-      "url": "https://fredchan.org/blog/locality-domains-guide",
-      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 548 # Comments: 172",
-      "publishedAt": "2026-05-13T14:45:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

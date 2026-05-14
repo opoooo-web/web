@@ -1,86 +1,100 @@
 {
-  "generatedAt": "2026-05-14T20:03:57.828Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-05-14T21:38:09.511Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology landscape is rapidly evolving with significant advancements in AI, as OpenAI and NVIDIA roll out powerful new models and tools for developers. Infrastructure providers like AWS and Cloudflare are bolstering their systems to support these agentic AI workflows and ensure network resilience. Meanwhile, space exploration continues its march forward with NASA's industry collaborations, and developer ecosystems are adapting to the proliferation of AI-assisted coding.",
   "highlights": [
     {
       "title": "OpenAI’s Codex is now in the ChatGPT mobile app",
-      "whyItMatters": "OpenAI is going to let users access Codex, its desktop AI tool that can write code and use apps on your computer, from the ChatGPT app on your phone. Following the surge in popularity for Anthropic's Claude Code, OpenAI has been working quickly to try and catch up, including by cutting back on \"side quests,\" [&#8230;]",
+      "whyItMatters": "Expands powerful AI coding tools to mobile, making development more accessible and flexible.",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
       "category": "Technology",
       "publishedAt": "2026-05-14T20:00:00.000Z"
     },
     {
-      "title": "What happens when AI starts building itself?",
-      "whyItMatters": "Richard Socher's new $650 million startup wants to build an AI that can research and improve itself indefinitely — and he insists it will actually ship products.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself",
-      "category": "Technology",
-      "publishedAt": "2026-05-14T19:57:20.000Z"
+      "title": "New arXiv policy: 1-year ban for hallucinated references",
+      "whyItMatters": "Addresses integrity issues in AI-generated academic content and highlights critical privacy risks with current AI models.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://twitter.com/tdietterich/status/2055000956144935055",
+      "category": "Developer",
+      "publishedAt": "2026-05-14T20:39:12.000Z"
     },
     {
-      "title": "Meta’s summer sale drops Ray-Ban’s new smart glasses to record-low prices",
-      "whyItMatters": "If you’ve been curious about Ray-Ban’s Meta smart glasses, right now they’re on sale in Meta’s biggest deal event outside Black Friday. As part of the company’s Summer Sale event, which runs through May 26th, the original model is on sale starting at $224.25 ($74 off) at Amazon, Best Buy, and directly from Meta, matching [&#8230;]",
+      "title": "Energy supplier abandons Lake Tahoe residents to serve data centers",
+      "whyItMatters": "Reveals the increasing strain on power grids due to large-scale data center operations and their environmental impact.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/05/energy-supplier-abandons-lake-tahoe-residents-to-serve-data-centers",
+      "category": "Technology",
+      "publishedAt": "2026-05-14T19:17:28.000Z"
+    },
+    {
+      "title": "NASA Draws on Industry for Mars Telecommunications Network",
+      "whyItMatters": "Essential for reliable, high-bandwidth communication for upcoming Mars surface, orbital, and human exploration missions.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/directorates/esdmd/nasa-draws-on-industry-for-mars-telecommunications-network",
+      "category": "Science",
+      "publishedAt": "2026-05-14T20:53:24.000Z"
+    },
+    {
+      "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
+      "whyItMatters": "Exposes significant security risks for Windows users and necessitates urgent patching and vigilance against exploitation.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections",
+      "category": "Technology",
+      "publishedAt": "2026-05-14T18:32:01.000Z"
+    },
+    {
+      "title": "Show HN: I built a Web-Scraper API that is 6-7x more efficient than current ones",
+      "whyItMatters": "Streamlines data extraction for developers, potentially reducing costs and effort in building data-driven applications.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://scrapewithruno.com",
+      "category": "Developer",
+      "publishedAt": "2026-05-14T21:02:01.000Z"
+    },
+    {
+      "title": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
+      "whyItMatters": "Raises questions about talent retention and organizational challenges in major technology mergers, especially in the competitive AI sector.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger",
+      "category": "Technology",
+      "publishedAt": "2026-05-14T21:30:44.000Z"
+    },
+    {
+      "title": "Meta brings virtual writing to everyone with Meta Ray-Ban Display glasses",
+      "whyItMatters": "Enhances user interaction with smart glasses, expanding practical applications for mixed reality in daily communication.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/930785/meta-smart-glasses-gen-1-2-deal-sale",
+      "sourceUrl": "https://www.theverge.com/tech/930941/meta-ray-ban-display-virtual-neural-handwriting-apps-developer",
       "category": "Technology",
-      "publishedAt": "2026-05-14T19:44:17.000Z"
-    },
-    {
-      "title": "Germany's Sovereign Tech Fund Backs KDE with €1.3M",
-      "whyItMatters": "Article URL: https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562 Comments URL: https://news.ycombinator.com/item?id=48139912 Points: 28 # Comments: 2",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.theregister.com/oses/2026/05/14/kde-bags-13m-as-europe-realizes-it-might-need-an-os-of-its-own/5240562",
-      "category": "Developer",
-      "publishedAt": "2026-05-14T19:16:02.000Z"
-    },
-    {
-      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn&#8217;t be the first partner to feel burned",
-      "whyItMatters": "According to Bloomberg, OpenAI has enlisted an outside law firm to work through its options.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned",
-      "category": "Technology",
-      "publishedAt": "2026-05-14T19:12:03.000Z"
-    },
-    {
-      "title": "Green Card Holders Targeted for Deportation by New 'Removal Apparatus'",
-      "whyItMatters": "Article URL: https://www.nytimes.com/2026/05/14/us/politics/green-cards-immigration-deportation-trump.html Comments URL: https://news.ycombinator.com/item?id=48139775 Points: 10 # Comments: 3",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.nytimes.com/2026/05/14/us/politics/green-cards-immigration-deportation-trump.html",
-      "category": "Developer",
-      "publishedAt": "2026-05-14T19:07:12.000Z"
+      "publishedAt": "2026-05-14T21:08:46.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "111 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 111
+      "name": "Artificial Intelligence",
+      "summary": "Significant advancements in AI models and their integration into developer tools and mobile platforms are reshaping industries, alongside growing concerns regarding ethical implications and data privacy.",
+      "itemCount": 10
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "name": "General Technology",
+      "summary": "The broader technology sector is marked by industry shifts, new consumer products like smart glasses, and persistent cybersecurity challenges.",
+      "itemCount": 8
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Cloud and Infrastructure",
+      "summary": "Cloud providers are enhancing services for AI agents, while network resilience efforts and the increasing energy demands of data centers remain critical concerns.",
+      "itemCount": 4
     },
     {
-      "name": "Infrastructure",
-      "summary": "29 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 29
+      "name": "Space and Science",
+      "summary": "NASA is driving advancements in deep space telecommunications and cryogenic fuel, contributing to future scientific exploration.",
+      "itemCount": 3
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Developer Tools and Practices",
+      "summary": "The developer ecosystem is evolving with new efficient web-scraping APIs and policies addressing AI-generated content in research.",
+      "itemCount": 5
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

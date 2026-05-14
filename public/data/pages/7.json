@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/q1-2026-internet-disruption-summary",
+      "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+      "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary",
+      "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
+      "publishedAt": "2026-04-28T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/openai-on-aws",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "publishedAt": "2026-04-28T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/our-commitment-to-community-safety",
       "title": "Our commitment to community safety",
       "url": "https://openai.com/index/our-commitment-to-community-safety",
@@ -175,6 +195,16 @@
       "category": "AI"
     },
     {
+      "id": "openai-news:https://openai.com/academy/what-is-codex",
+      "title": "What is Codex?",
+      "url": "https://openai.com/academy/what-is-codex",
+      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/academy/codex-plugins-and-skills",
       "title": "Plugins and skills",
       "url": "https://openai.com/academy/codex-plugins-and-skills",
@@ -205,6 +235,16 @@
       "category": "AI"
     },
     {
+      "id": "openai-news:https://openai.com/academy/codex-how-to-start",
+      "title": "How to get started with Codex",
+      "url": "https://openai.com/academy/codex-how-to-start",
+      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
+      "publishedAt": "2026-04-23T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/academy/codex-settings",
       "title": "Codex settings",
       "url": "https://openai.com/academy/codex-settings",
@@ -219,26 +259,6 @@
       "title": "Automations",
       "url": "https://openai.com/academy/codex-automations",
       "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/academy/what-is-codex",
-      "title": "What is Codex?",
-      "url": "https://openai.com/academy/what-is-codex",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "publishedAt": "2026-04-23T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/academy/codex-how-to-start",
-      "title": "How to get started with Codex",
-      "url": "https://openai.com/academy/codex-how-to-start",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
       "publishedAt": "2026-04-23T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -283,26 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
-      "title": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
-      "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
-      "summary": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications protecting the planet.",
-      "publishedAt": "2026-04-22T13:00:42.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/making-rust-workers-reliable",
-      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
-      "url": "https://blog.cloudflare.com/making-rust-workers-reliable",
-      "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
-      "publishedAt": "2026-04-22T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

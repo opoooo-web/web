@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
+      "title": "From Rainforests to Recycling Plants: 5 Ways NVIDIA AI Is Protecting the Planet",
+      "url": "https://blogs.nvidia.com/blog/earth-day-2026-ai-accelerated-computing",
+      "summary": "Across climate, conservation, disaster monitoring and recycling, NVIDIA AI is enabling applications protecting the planet.",
+      "publishedAt": "2026-04-22T13:00:42.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/making-rust-workers-reliable",
+      "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
+      "url": "https://blog.cloudflare.com/making-rust-workers-reliable",
+      "summary": "Panics in Rust Workers were historically fatal, poisoning the entire instance. By collaborating upstream on the wasm‑bindgen project, Rust Workers now support resilient critical error recovery, including panic unwinding using WebAssembly Exception Handling.",
+      "publishedAt": "2026-04-22T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories",
       "title": "NVIDIA and Google Cloud Collaborate to Advance Agentic and Physical AI",
       "url": "https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories",
@@ -25,16 +45,6 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "title": "Introducing workspace agents in ChatGPT",
-      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
       "title": "Speeding up agentic workflows with WebSockets in the Responses API",
       "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
@@ -49,6 +59,16 @@
       "title": "Workspace agents",
       "url": "https://openai.com/academy/workspace-agents",
       "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "publishedAt": "2026-04-22T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "title": "Introducing workspace agents in ChatGPT",
+      "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
       "publishedAt": "2026-04-22T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -282,26 +302,6 @@
       "publishedAt": "2026-04-16T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/ecom-rlve",
-      "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
-      "url": "https://huggingface.co/blog/ecom-rlve",
-      "summary": "",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/transformers-to-mlx",
-      "title": "The PR you would have opened yourself",
-      "url": "https://huggingface.co/blog/transformers-to-mlx",
-      "summary": "",
-      "publishedAt": "2026-04-16T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
       "category": "AI"
     }
   ]

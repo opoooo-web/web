@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/modernize-your-workflows-amazon-workspaces-now-gives-ai-agents-their-own-desktop-preview",
+      "title": "Modernize your workflows: Amazon WorkSpaces now gives AI agents their own desktop (preview)",
+      "url": "https://aws.amazon.com/blogs/aws/modernize-your-workflows-amazon-workspaces-now-gives-ai-agents-their-own-desktop-preview",
+      "summary": "Amazon WorkSpaces now lets AI agents securely operate legacy desktop applications—without APIs or modernization—using IAM authentication, MCP support, and computer vision within existing security frameworks.",
+      "publishedAt": "2026-05-05T17:23:40.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises",
+      "title": "NVIDIA and ServiceNow Partner on New Autonomous AI Agents for Enterprises",
+      "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises",
+      "summary": "Enterprise AI has learned to generate. It has learned to reason. Now companies are asking the next question: How should AI act? Early agent systems have shown what’s possible, moving beyond simple prompts to take on more complex tasks. The next step is bringing those capabilities into enterprise environments — where agents must operate with [&#8230;]",
+      "publishedAt": "2026-05-05T17:00:40.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
       "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize",
       "title": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize",
@@ -25,16 +45,6 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/mrc-supercomputer-networking",
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "url": "https://openai.com/index/mrc-supercomputer-networking",
-      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "publishedAt": "2026-05-05T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/index/gpt-5-5-instant-system-card",
       "title": "GPT-5.5 Instant System Card",
       "url": "https://openai.com/index/gpt-5-5-instant-system-card",
@@ -45,11 +55,11 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/advancing-youth-safety-in-emea",
-      "title": "Advancing youth safety and wellbeing in EMEA",
-      "url": "https://openai.com/index/advancing-youth-safety-in-emea",
-      "summary": "Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.",
-      "publishedAt": "2026-05-05T00:00:00.000Z",
+      "id": "openai-news:https://openai.com/index/mrc-supercomputer-networking",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "url": "https://openai.com/index/mrc-supercomputer-networking",
+      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "publishedAt": "2026-05-05T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
@@ -59,6 +69,16 @@
       "title": "New ways to buy ChatGPT ads",
       "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
       "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+      "publishedAt": "2026-05-05T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/advancing-youth-safety-in-emea",
+      "title": "Advancing youth safety and wellbeing in EMEA",
+      "url": "https://openai.com/index/advancing-youth-safety-in-emea",
+      "summary": "Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.",
       "publishedAt": "2026-05-05T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -282,26 +302,6 @@
       "publishedAt": "2026-04-28T13:00:33.000Z",
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/q1-2026-internet-disruption-summary",
-      "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
-      "url": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary",
-      "summary": "The first quarter of 2026 saw a surge in Internet disruptions, from nationwide shutdowns in Uganda and Iran to unprecedented drone strikes on cloud infrastructure. We explore the data behind these events using Cloudflare Radar.",
-      "publishedAt": "2026-04-28T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/openai-on-aws",
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "url": "https://openai.com/index/openai-on-aws",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "publishedAt": "2026-04-28T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/us-lawmakers-demand-answers-from-instructure-after-canvas-data-breaches",
+      "title": "US lawmakers demand answers from Instructure after Canvas data breaches",
+      "url": "https://techcrunch.com/2026/05/13/us-lawmakers-demand-answers-from-instructure-after-canvas-data-breaches",
+      "summary": "U.S. House lawmakers want to know how hackers broke into education tech giant Instructure twice and stole reams of data from students who use the company's flagship student data software Canvas.",
+      "publishedAt": "2026-05-13T14:32:45.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/05/blue-origin-may-need-external-funding-to-hit-ambitious-launch-targets",
+      "title": "Blue Origin may need external funding to hit ambitious launch targets",
+      "url": "https://arstechnica.com/space/2026/05/blue-origin-may-need-external-funding-to-hit-ambitious-launch-targets",
+      "summary": "Are the pockets of Jeff Bezos not as deep as everyone thinks?",
+      "publishedAt": "2026-05-13T14:20:04.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky",
+      "title": "NASA’s Planet-Hunting TESS Reveals Dazzling Night Sky",
+      "url": "https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky",
+      "summary": "NASA’s TESS has released its most complete view of the starry sky to date",
+      "publishedAt": "2026-05-13T14:15:23.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
       "title": "Anthropic now has more business customers than OpenAI, according to Ramp data",
       "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data",
@@ -38,8 +68,18 @@
       "id": "hacker-news:https://avkcode.github.io/blog/us-winning-ai-race.html",
       "title": "The US is winning the AI race where it matters most: commercialization",
       "url": "https://avkcode.github.io/blog/us-winning-ai-race.html",
-      "summary": "Article URL: https://avkcode.github.io/blog/us-winning-ai-race.html Comments URL: https://news.ycombinator.com/item?id=48121929 Points: 144 # Comments: 392",
+      "summary": "Article URL: https://avkcode.github.io/blog/us-winning-ai-race.html Comments URL: https://news.ycombinator.com/item?id=48121929 Points: 171 # Comments: 492",
       "publishedAt": "2026-05-13T13:53:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/monkeysee-ai/rotunda",
+      "title": "Show HN: Rotunda - A browser built for agents with simulated typing",
+      "url": "https://github.com/monkeysee-ai/rotunda",
+      "summary": "Hi HN! Pierce here. Rotunda is a firefox fork primarily intended for agent use, which I’ve been hacking on nights/weekends. There was a [lengthy]( https://news.ycombinator.com/item?id=48024859 ) discussion last week on how expensive computer use models are. The cost is going to drop eventually, but I think on some level it's still usually the wrong primitive. The web gives us access to beautiful structured formats, plaintext, etc... why throw that away if we don't have to? I realized at some point that for 99% of automations I just want agents to be able to control my Chrome instance. But that’s easier said that done: CDP (the Chrome automation protocol) leaks a ton of state about being programmatically controlled, either by toggling window attributes or by running `page.evaluate()` commands right in the page context. Plus if you look at an automation running it's pretty obvious what happens: the mouse jumps around, fields are filled instantly, etc. Rotunda tries to fix this. Its standout features: - Realistic simulation of mouse movements and keyboard commands, powered by a trained RNN on my own timing patterns from the last week. (still feel weird about opting-in to a key logger but whatever) - Doesn’t lie about its host specs, only fibs about some client side details. Stealth browsers are too easy to flag statistically when you’re adding noise to canvas pixels or audio pipelines. - It runs on your local device with a CLI or Playwright API accessible to Claude, Codex, or whatever your harness-de-jure today looks like. - Patches modern Firefox (150) with an agentic harness to keep this updated over time MPL-2.0 on GitHub: https://github.com/monkeysee-ai/rotunda Longer writeup on the design choices: https://pierce.dev/notes/a-browser-for-agents Also check out the demo on the site! https://www.rotunda.sh/ Pretty excited by how this turned out but we’re still super early. Give it a try and please flag any issues! Comments URL: https://news.ycombinator.com/item?id=48121824 Points: 12 # Comments: 0",
+      "publishedAt": "2026-05-13T13:44:01.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -98,7 +138,7 @@
       "id": "hacker-news:https://jorijn.com/en/blog/leaving-github-for-forgejo",
       "title": "Leaving GitHub for Forgejo",
       "url": "https://jorijn.com/en/blog/leaving-github-for-forgejo",
-      "summary": "Article URL: https://jorijn.com/en/blog/leaving-github-for-forgejo/ Comments URL: https://news.ycombinator.com/item?id=48121266 Points: 510 # Comments: 273",
+      "summary": "Article URL: https://jorijn.com/en/blog/leaving-github-for-forgejo/ Comments URL: https://news.ycombinator.com/item?id=48121266 Points: 547 # Comments: 289",
       "publishedAt": "2026-05-13T12:54:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -130,6 +170,16 @@
       "url": "https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager",
       "summary": "Article URL: https://www.ycombinator.com/companies/substrate/jobs/T2fMBhD-technical-success-manager Comments URL: https://news.ycombinator.com/item?id=48120776 Points: 0 # Comments: 0",
       "publishedAt": "2026-05-13T12:00:30.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe",
+      "title": "I moved my digital stack to Europe",
+      "url": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe",
+      "summary": "Article URL: https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/ Comments URL: https://news.ycombinator.com/item?id=48120629 Points: 903 # Comments: 542",
+      "publishedAt": "2026-05-13T11:42:20.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -168,7 +218,7 @@
       "id": "hacker-news:https://sockpuppet.org/blog/2026/05/12/emacsification",
       "title": "The Emacsification of Software",
       "url": "https://sockpuppet.org/blog/2026/05/12/emacsification",
-      "summary": "Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/ Comments URL: https://news.ycombinator.com/item?id=48118727 Points: 149 # Comments: 104",
+      "summary": "Article URL: https://sockpuppet.org/blog/2026/05/12/emacsification/ Comments URL: https://news.ycombinator.com/item?id=48118727 Points: 231 # Comments: 162",
       "publishedAt": "2026-05-13T07:06:14.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -183,16 +233,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job",
-      "title": "Twin brothers wipe 96 government databases minutes after being fired",
-      "url": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job",
-      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/ Comments URL: https://news.ycombinator.com/item?id=48115438 Points: 248 # Comments: 175",
-      "publishedAt": "2026-05-12T22:28:07.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/ai/2026/05/the-newest-ai-boom-pitch-host-a-mini-data-center-at-your-home",
@@ -225,16 +265,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://github.com/cactus-compute/needle",
-      "title": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "url": "https://github.com/cactus-compute/needle",
-      "summary": "Hey HN, Henry here from Cactus. We open-sourced Needle, a 26M parameter function-calling (tool use) model. It runs at 6000 tok/s prefill and 1200 tok/s decode on consumer devices. We were always frustrated by the little effort made towards building agentic models that run on budget phones, so we conducted investigations that led to an observation: agentic experiences are built upon tool calling, and massive models are overkill for it. Tool calling is fundamentally retrieval-and-assembly (match query to tool name, extract argument values, emit JSON), not reasoning. Cross-attention is the right primitive for this, and FFN parameters are wasted at this scale. Simple Attention Networks: the entire model is just attention and gating, no MLPs anywhere. Needle is an experimental run for single-shot function calling for consumer devices (phones, watches, glasses...). Training: - Pretrained on 200B tokens across 16 TPU v6e (27 hours) - Post-trained on 2B tokens of synthesized function-calling data (45 minutes) - Dataset synthesized via Gemini with 15 tool categories (timers, messaging, navigation, smart home, etc.) You can test it right now and finetune on your Mac/PC: https://github.com/cactus-compute/needle The full writeup on the architecture is here: https://github.com/cactus-compute/needle/blob/main/docs/simp... We found that the \"no FFN\" finding generalizes beyond function calling to any task where the model has access to external structured knowledge (RAG, tool use, retrieval-augmented generation). The model doesn't need to memorize facts in FFN weights if the facts are provided in the input. Experimental results to published. While it beats FunctionGemma-270M, Qwen-0.6B, Granite-350M, LFM2.5-350M on single-shot function calling, those models have more scope/capacity and excel in conversational settings. We encourage you to test on your own tools via the playground and finetune accordingly. This is part of our broader work on Cactus ( https://github.com/cactus-compute/cactus ), an inference engine built from scratch for mobile, wearables and custom hardware. We wrote about Cactus here previously: https://news.ycombinator.com/item?id=44524544 Everything is MIT licensed. Weights: https://huggingface.co/Cactus-Compute/needle GitHub: https://github.com/cactus-compute/needle Comments URL: https://news.ycombinator.com/item?id=48111896 Points: 630 # Comments: 181",
-      "publishedAt": "2026-05-12T18:03:11.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "github-blog:https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan",
       "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
       "url": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan",
@@ -265,16 +295,6 @@
       "category": "Science"
     },
     {
-      "id": "nasa-breaking-news:https://science.nasa.gov/photojournal/nasas-perseverance-captures-panorama-at-arbot",
-      "title": "NASA’s Perseverance Captures Panorama at ‘Arbot’",
-      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-panorama-at-arbot",
-      "summary": "Description NASA’s Perseverance Mars rover used its Mastcam-Z camera to capture this panorama of an area nicknamed “Arbot” on April 5, 2026, the 1,882nd Martian day, or sol, of the mission, during the rover’s deepest push west beyond Jezero Crater. Made of 46 images, the panorama offers one of the richest geological vistas of the […]",
-      "publishedAt": "2026-05-12T16:46:56.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now",
       "title": "World Models: 10 Things That Matter in AI Right Now",
       "url": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now",
@@ -283,26 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine",
-      "title": "Amazon Redshift introduces AWS Graviton-based RG instances with an integrated data lake query engine",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine",
-      "summary": "Amazon Redshift RG instances, powered by AWS Graviton, run data warehouse and data lake workloads up to 2.4x as fast as RA3 instances at 30% lower price per vCPU. Its integrated data lake query engine supports open table formats such as Apache Iceberg.",
-      "publishedAt": "2026-05-12T16:05:12.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/academy/how-finance-teams-use-codex",
-      "title": "How finance teams use Codex",
-      "url": "https://openai.com/academy/how-finance-teams-use-codex",
-      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "publishedAt": "2026-05-12T15:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
     }
   ]
 }

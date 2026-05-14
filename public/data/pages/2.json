@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/space/2026/05/nasa-provides-some-details-about-artemis-iii-but-hard-decisions-remain",
+      "title": "NASA provides some details about Artemis III, but hard decisions remain",
+      "url": "https://arstechnica.com/space/2026/05/nasa-provides-some-details-about-artemis-iii-but-hard-decisions-remain",
+      "summary": "\"NASA also is defining the concept of operations for the mission.\"",
+      "publishedAt": "2026-05-13T18:37:29.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://andreafortuna.org/2026/05/13/amarcord",
+      "title": "A sentimental tour of late 1990s and early 2000s hacking tools",
+      "url": "https://andreafortuna.org/2026/05/13/amarcord",
+      "summary": "Article URL: https://andreafortuna.org/2026/05/13/amarcord/ Comments URL: https://news.ycombinator.com/item?id=48125557 Points: 55 # Comments: 19",
+      "publishedAt": "2026-05-13T18:25:09.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/this-is-what-some-of-the-worlds-largest-banks-of-malware-look-like-stacked-as-hard-drives",
+      "title": "This is what some of the world&#8217;s largest banks of malware look like stacked as hard drives",
+      "url": "https://techcrunch.com/2026/05/13/this-is-what-some-of-the-worlds-largest-banks-of-malware-look-like-stacked-as-hard-drives",
+      "summary": "What would some of the world's largest repositories of malware look like if they were stacked as hard drives, one on top of the other?",
+      "publishedAt": "2026-05-13T18:12:29.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers",
       "title": "AI chatbots are giving out people’s real phone numbers",
       "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers",
@@ -108,7 +138,7 @@
       "id": "hacker-news:https://www.tryardent.com",
       "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
       "url": "https://www.tryardent.com",
-      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 58 # Comments: 20",
+      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 79 # Comments: 33",
       "publishedAt": "2026-05-13T16:54:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -198,7 +228,7 @@
       "id": "hacker-news:https://grantmestrength.github.io/S100",
       "title": "S-100 Virtual Workbench",
       "url": "https://grantmestrength.github.io/S100",
-      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 93 # Comments: 19",
+      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 109 # Comments: 21",
       "publishedAt": "2026-05-13T15:52:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -238,7 +268,7 @@
       "id": "hacker-news:https://fredchan.org/blog/locality-domains-guide",
       "title": "Setting up a free *.city.state.us locality domain (2025)",
       "url": "https://fredchan.org/blog/locality-domains-guide",
-      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 448 # Comments: 144",
+      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 526 # Comments: 165",
       "publishedAt": "2026-05-13T14:45:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -273,36 +303,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/us-lawmakers-demand-answers-from-instructure-after-canvas-data-breaches",
-      "title": "US lawmakers demand answers from Instructure after Canvas data breaches",
-      "url": "https://techcrunch.com/2026/05/13/us-lawmakers-demand-answers-from-instructure-after-canvas-data-breaches",
-      "summary": "U.S. House lawmakers want to know how hackers broke into education tech giant Instructure twice and stole reams of data from students who use the company's flagship student data software Canvas.",
-      "publishedAt": "2026-05-13T14:32:45.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/05/blue-origin-may-need-external-funding-to-hit-ambitious-launch-targets",
-      "title": "Blue Origin may need external funding to hit ambitious launch targets",
-      "url": "https://arstechnica.com/space/2026/05/blue-origin-may-need-external-funding-to-hit-ambitious-launch-targets",
-      "summary": "Are the pockets of Jeff Bezos not as deep as everyone thinks?",
-      "publishedAt": "2026-05-13T14:20:04.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky",
-      "title": "NASA’s Planet-Hunting TESS Reveals Dazzling Night Sky",
-      "url": "https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky",
-      "summary": "NASA’s TESS has released its most complete view of the starry sky to date",
-      "publishedAt": "2026-05-13T14:15:23.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     }
   ]
 }

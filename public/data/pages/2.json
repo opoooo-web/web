@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip",
+      "title": "The physics of how Olympic weightlifters exploit barbell's \"whip\"",
+      "url": "https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip",
+      "summary": "The type of bar matters when it comes to how it bends and recoils, but why is still a mystery.",
+      "publishedAt": "2026-05-13T19:05:35.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
+      "title": "Netflix’s ad ambitions just keep growing",
+      "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
+      "summary": "For the second year in a row, Netflix's ad-supported tier more than doubled its monthly viewerbase. During its 2026 upfront presentation, Netflix revealed that its $8.99-per-month plan reaches more than 250 million people around the globe, a significant leap from 94 million users reported last year. The streaming service reported earning $1.5 billion from ads [&#8230;]",
+      "publishedAt": "2026-05-13T18:45:32.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale",
+      "title": "Everything at The Criterion Collection is 30 percent off right now",
+      "url": "https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale",
+      "summary": "If you’ve been meaning to grow your physical movie collection, now’s a good time to do it. Through May 25th, The Criterion Collection is taking 30 percent off every disc on its site, including standard Blu-rays, 4K releases, box sets, and even films that are currently only available to preorder. The sale spans every category [&#8230;]",
+      "publishedAt": "2026-05-13T18:41:49.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/space/2026/05/nasa-provides-some-details-about-artemis-iii-but-hard-decisions-remain",
       "title": "NASA provides some details about Artemis III, but hard decisions remain",
       "url": "https://arstechnica.com/space/2026/05/nasa-provides-some-details-about-artemis-iii-but-hard-decisions-remain",
@@ -15,11 +45,11 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://andreafortuna.org/2026/05/13/amarcord",
-      "title": "A sentimental tour of late 1990s and early 2000s hacking tools",
-      "url": "https://andreafortuna.org/2026/05/13/amarcord",
-      "summary": "Article URL: https://andreafortuna.org/2026/05/13/amarcord/ Comments URL: https://news.ycombinator.com/item?id=48125557 Points: 55 # Comments: 19",
-      "publishedAt": "2026-05-13T18:25:09.000Z",
+      "id": "hacker-news:https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis",
+      "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
+      "url": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis",
+      "summary": "Article URL: https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/ Comments URL: https://news.ycombinator.com/item?id=48125617 Points: 186 # Comments: 194",
+      "publishedAt": "2026-05-13T18:30:51.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -138,7 +168,7 @@
       "id": "hacker-news:https://www.tryardent.com",
       "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
       "url": "https://www.tryardent.com",
-      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 79 # Comments: 33",
+      "summary": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few primary benefits: 1. Does not require a platform migration to a DB provider like neon, allowing strong separation of production and development concerns. 2. Minimal impact on the production database while allowing clones to spin up in Security matters a lot with cloning production so we run a proxy layer to generate custom postgres URLs and route all connections to allow more granular access control to clones, prevent credential leak, and follow a split plane architecture to allow full data residency on your cloud through BYOC. We also support anonymization through the ability to register SQL that runs on branches before they are returned. This has been used for PII redaction and branch modification. Our goal is to make every data infrastructure platform “cloneable” in one place so agents can fully test the impact of their changes on production like data environments without risk. Here's a demo of it: https://youtu.be/5S1kwPtiRU0 We’d love to understand how you work with coding agents on the DB and if you try Ardent (it's free to get started) what worked, what broke and what’s missing. Comments URL: https://news.ycombinator.com/item?id=48124436 Points: 83 # Comments: 34",
       "publishedAt": "2026-05-13T16:54:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -228,7 +258,7 @@
       "id": "hacker-news:https://grantmestrength.github.io/S100",
       "title": "S-100 Virtual Workbench",
       "url": "https://grantmestrength.github.io/S100",
-      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 109 # Comments: 21",
+      "summary": "Article URL: https://grantmestrength.github.io/S100/ Comments URL: https://news.ycombinator.com/item?id=48123546 Points: 116 # Comments: 25",
       "publishedAt": "2026-05-13T15:52:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -268,41 +298,11 @@
       "id": "hacker-news:https://fredchan.org/blog/locality-domains-guide",
       "title": "Setting up a free *.city.state.us locality domain (2025)",
       "url": "https://fredchan.org/blog/locality-domains-guide",
-      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 526 # Comments: 165",
+      "summary": "Article URL: https://fredchan.org/blog/locality-domains-guide/ Comments URL: https://news.ycombinator.com/item?id=48122635 Points: 548 # Comments: 172",
       "publishedAt": "2026-05-13T14:45:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth",
-      "title": "Studying Pneumonia in Space for Heart Health on Earth",
-      "url": "https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth",
-      "summary": "Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart. Researchers are leveraging the space environment to observe how stem cell derived heart tissues respond to bacterial infections, to discover new methods to manage cardiovascular health and infectious diseases. In space, bacteria [&#8230;]",
-      "publishedAt": "2026-05-13T14:45:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b",
-      "title": "Anduril raises $5B, doubles valuation to $61B",
-      "url": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b",
-      "summary": "After achieving $2.2 billion in revenue in 2025, the defense tech startup has raised another massive round, led by Thrive and a16z, it says.",
-      "publishedAt": "2026-05-13T14:44:25.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/13/r-wallstreetbets-really-hates-the-secs-proposal-to-weaken-quarterly-reporting",
-      "title": "r/WallStreetBets really hates the SEC&#8217;s proposal to weaken quarterly reporting",
-      "url": "https://techcrunch.com/2026/05/13/r-wallstreetbets-really-hates-the-secs-proposal-to-weaken-quarterly-reporting",
-      "summary": "The retail trading subreddit submitted the sharpest criticism yet of the financial regulator's idea of letting companies report twice per year.",
-      "publishedAt": "2026-05-13T14:42:11.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

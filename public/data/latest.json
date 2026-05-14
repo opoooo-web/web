@@ -4,6 +4,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts",
+      "title": "Who decides what AI tells you? Campbell Brown, once Meta&#8217;s news chief, has thoughts",
+      "url": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts",
+      "summary": "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers.\"",
+      "publishedAt": "2026-05-14T06:05:31.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante",
+      "title": "Clio&#8217;s $500M milestone arrives just as Anthropic ups the ante",
+      "url": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante",
+      "summary": "Legal tech startups, including Clio, which just hit $500 million in ARR, are seeing massive customer adoption.",
+      "publishedAt": "2026-05-14T05:24:39.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak",
       "title": "Ice Moves Out of Aniak",
       "url": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak",
@@ -17,8 +37,28 @@
       "id": "hacker-news:https://www.anthropic.com/news/claude-for-small-business",
       "title": "Claude for Small Business",
       "url": "https://www.anthropic.com/news/claude-for-small-business",
-      "summary": "Article URL: https://www.anthropic.com/news/claude-for-small-business Comments URL: https://news.ycombinator.com/item?id=48130950 Points: 8 # Comments: 1",
+      "summary": "Article URL: https://www.anthropic.com/news/claude-for-small-business Comments URL: https://news.ycombinator.com/item?id=48130950 Points: 162 # Comments: 98",
       "publishedAt": "2026-05-14T03:59:35.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://mayerwin.github.io/AI-Arena-History",
+      "title": "Arena AI Model ELO History",
+      "url": "https://mayerwin.github.io/AI-Arena-History",
+      "summary": "Hi HN, I built a live tracker to visualize the lifecycle and performance changes of flagship AI models. We've all experienced the phenomenon where a flagship model feels amazing at launch, but weeks later, it suddenly feels a bit off. I wanted to see if this was just a feeling or a measurable reality, so I built a dashboard to track historical ELO ratings from Arena AI. Instead of a massive spaghetti chart of every single model variant, the logic plots exactly ONE continuous curve per major AI lab. It dynamically tracks their highest-rated flagship model over time, which makes both the sudden generational jumps and the slow performance decays much easier to see. It took quite a lot of iterations to get the chart to look nice on mobile as well. Optional dark mode included. However, I have a specific data blindspot that I'm hoping this community might have insights on. Arena AI largely relies on testing API endpoints. But as we know, consumer chat UIs often layer on heavy system prompts, safety wrappers, or silently switch to heavily quantized models under high load to save compute. API benchmarks don't fully capture this \"nerfing\" that everyday web users experience. Does anyone know of any historical ELO or evaluation datasets that specifically scrape or test outputs from the consumer web UIs rather than raw APIs? I'd love to integrate that data for a more accurate picture of the consumer experience. The project is open-source (repo link in the footer), so I'd appreciate any feedback, or pointers to datasets! Comments URL: https://news.ycombinator.com/item?id=48130711 Points: 37 # Comments: 15",
+      "publishedAt": "2026-05-14T03:19:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/DrCatHicks/learning-opportunities",
+      "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
+      "url": "https://github.com/DrCatHicks/learning-opportunities",
+      "summary": "Article URL: https://github.com/DrCatHicks/learning-opportunities Comments URL: https://news.ycombinator.com/item?id=48130679 Points: 19 # Comments: 2",
+      "publishedAt": "2026-05-14T03:13:31.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -27,7 +67,7 @@
       "id": "hacker-news:https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor",
       "title": "Microsoft BitLocker – YellowKey zero-day exploit",
       "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor",
-      "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor Comments URL: https://news.ycombinator.com/item?id=48130519 Points: 32 # Comments: 11",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/cyber-security/microsoft-bitlocker-protected-drives-can-now-be-opened-with-just-some-files-on-a-usb-stick-yellowkey-zero-day-exploit-demonstrates-an-apparent-backdoor Comments URL: https://news.ycombinator.com/item?id=48130519 Points: 118 # Comments: 66",
       "publishedAt": "2026-05-14T02:45:08.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -37,7 +77,7 @@
       "id": "hacker-news:https://github.com/glouw/nibble",
       "title": "Show HN: Nibble",
       "url": "https://github.com/glouw/nibble",
-      "summary": "An attempt at a single pass LLVM frontend in ~3000 lines of C without external dependencies, malloc, or an AST. Included are some graphical examples. The IR isn't perfect, and the README touches on one particular downfall Comments URL: https://news.ycombinator.com/item?id=48130186 Points: 13 # Comments: 0",
+      "summary": "An attempt at a single pass LLVM frontend in ~3000 lines of C without external dependencies, malloc, or an AST. Included are some graphical examples. The IR isn't perfect, and the README touches on one particular downfall Comments URL: https://news.ycombinator.com/item?id=48130186 Points: 38 # Comments: 2",
       "publishedAt": "2026-05-14T01:46:45.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -45,10 +85,20 @@
     },
     {
       "id": "hacker-news:https://blogs.cisco.com/news/our-path-forward",
-      "title": "Cisco Workforce Reductions",
+      "title": "Cisco workforce reductions",
       "url": "https://blogs.cisco.com/news/our-path-forward",
-      "summary": "Article URL: https://blogs.cisco.com/news/our-path-forward Comments URL: https://news.ycombinator.com/item?id=48130123 Points: 72 # Comments: 36",
+      "summary": "Article URL: https://blogs.cisco.com/news/our-path-forward Comments URL: https://news.ycombinator.com/item?id=48130123 Points: 169 # Comments: 127",
       "publishedAt": "2026-05-14T01:38:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.deltatime.life",
+      "title": "delta time",
+      "url": "https://www.deltatime.life",
+      "summary": "Article URL: https://www.deltatime.life/ Comments URL: https://news.ycombinator.com/item?id=48129953 Points: 31 # Comments: 13",
+      "publishedAt": "2026-05-14T01:15:24.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -57,18 +107,8 @@
       "id": "hacker-news:https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c",
       "title": "Avoiding and reducing microplastic false positives from dry glove contact",
       "url": "https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c",
-      "summary": "Article URL: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c Comments URL: https://news.ycombinator.com/item?id=48129934 Points: 9 # Comments: 0",
+      "summary": "Article URL: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01801c Comments URL: https://news.ycombinator.com/item?id=48129934 Points: 31 # Comments: 1",
       "publishedAt": "2026-05-14T01:13:02.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
-      "title": "Mystery Microsoft bug leaker keeps the zero-days coming",
-      "url": "https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758",
-      "summary": "Article URL: https://www.theregister.com/security/2026/05/13/disgruntled-researcher-releases-two-more-microsoft-zero-days/5239758 Comments URL: https://news.ycombinator.com/item?id=48129789 Points: 78 # Comments: 14",
-      "publishedAt": "2026-05-14T00:54:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -77,8 +117,18 @@
       "id": "hacker-news:http://www.scorch2000.com/web",
       "title": "Scorched Earth 2000 – Web",
       "url": "http://www.scorch2000.com/web",
-      "summary": "Article URL: http://www.scorch2000.com/web/ Comments URL: https://news.ycombinator.com/item?id=48129694 Points: 163 # Comments: 60",
+      "summary": "Article URL: http://www.scorch2000.com/web/ Comments URL: https://news.ycombinator.com/item?id=48129694 Points: 209 # Comments: 80",
       "publishedAt": "2026-05-14T00:41:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://personalaisafety.com/p/the-other-half-of-ai-safety",
+      "title": "The other half of AI safety",
+      "url": "https://personalaisafety.com/p/the-other-half-of-ai-safety",
+      "summary": "Article URL: https://personalaisafety.com/p/the-other-half-of-ai-safety Comments URL: https://news.ycombinator.com/item?id=48129561 Points: 70 # Comments: 88",
+      "publishedAt": "2026-05-14T00:27:20.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -124,16 +174,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://news.ycombinator.com/item?id=48128003",
-      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
-      "url": "https://news.ycombinator.com/item?id=48128003",
-      "summary": "I wanted to try codex after 5 months of claude code max subscription. And then I went back to my previous projects on claude design only to realize I don't have access to them anymore. This is a first. I never lost access to any of my past sessions because I unsubscribed in any of the LLM apps. I actually wanted to try out codex previously, but had similar experience with my credits. They gave extra credits equivalent to my montly subscription price, with some time limit because claude has so many issues that month. And as soon as plan ended. I lost access to the credits. Even after resubscribing, I still don't have access to those credits. I have sympathies towards the engineers, especially the ones that are putting themselves on X. But only when someone with large following has some issue, they sort it out. Having worked at a billing company, I can see how complex contracts sound good for the growth/sales folks but are also horrible for engineers actually implementing those contracts. Their complex rate limiting which is now a norm, identifying other harnesses to count them against extra usage are all probably not easy to implement without very rough edge cases. But all the \"bugs\" are just where the user gets screwed is what is problematic. I just wanted to post this here, after tagging them multiple times on X to alert other users. Comments URL: https://news.ycombinator.com/item?id=48128003 Points: 224 # Comments: 65",
-      "publishedAt": "2026-05-13T21:40:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "the-verge:https://www.theverge.com/news/930092/youtube-creators-shows-sponsors-netflix-upfront",
       "title": "YouTube is courting creators — and sponsors — with streaming shows",
       "url": "https://www.theverge.com/news/930092/youtube-creators-shows-sponsors-netflix-upfront",
@@ -174,20 +214,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "title": "Meta won't let you block its AI account on Threads",
-      "url": "https://www.theverge.com/tech/929091/meta-ai-threads-account-block",
-      "summary": "Article URL: https://www.theverge.com/tech/929091/meta-ai-threads-account-block Comments URL: https://news.ycombinator.com/item?id=48126981 Points: 141 # Comments: 65",
-      "publishedAt": "2026-05-13T20:22:21.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
       "title": "Princeton mandates proctoring for in-person exams, upending 133 year precedent",
       "url": "https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent",
-      "summary": "Article URL: https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent Comments URL: https://news.ycombinator.com/item?id=48126848 Points: 285 # Comments: 395",
+      "summary": "Article URL: https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent Comments URL: https://news.ycombinator.com/item?id=48126848 Points: 315 # Comments: 447",
       "publishedAt": "2026-05-13T20:12:16.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -269,36 +299,6 @@
       "url": "https://www.theverge.com/streaming/930009/johh-damaro-disney-trump-fcc-the-view-equal-time-doctrine",
       "summary": "A week ago, newly appointed Disney CEO Josh D'Amaro was busy regaling investors with plans to turn Disney Plus into the company's \"digital centerpiece.\" By last Friday, though, his attention had presumably shifted to a fight with the Trump administration over free speech. Disney-owned ABC has now accused the administration of violating its First Amendment [&#8230;]",
       "publishedAt": "2026-05-13T19:15:21.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip",
-      "title": "The physics of how Olympic weightlifters exploit barbell's \"whip\"",
-      "url": "https://arstechnica.com/science/2026/05/the-physics-of-how-olympic-weightlifters-exploit-barbells-whip",
-      "summary": "The type of bar matters when it comes to how it bends and recoils, but why is still a mystery.",
-      "publishedAt": "2026-05-13T19:05:35.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
-      "title": "Netflix’s ad ambitions just keep growing",
-      "url": "https://www.theverge.com/streaming/929627/netflix-ads-plan-upfront-2026",
-      "summary": "For the second year in a row, Netflix's ad-supported tier more than doubled its monthly viewerbase. During its 2026 upfront presentation, Netflix revealed that its $8.99-per-month plan reaches more than 250 million people around the globe, a significant leap from 94 million users reported last year. The streaming service reported earning $1.5 billion from ads [&#8230;]",
-      "publishedAt": "2026-05-13T18:45:32.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale",
-      "title": "Everything at The Criterion Collection is 30 percent off right now",
-      "url": "https://www.theverge.com/gadgets/929760/the-criterion-collection-spring-sale-anora-wes-anderson-deal-sale",
-      "summary": "If you’ve been meaning to grow your physical movie collection, now’s a good time to do it. Through May 25th, The Criterion Collection is taking 30 percent off every disc on its site, including standard Blu-rays, 4K releases, box sets, and even films that are currently only available to preorder. The sale spans every category [&#8230;]",
-      "publishedAt": "2026-05-13T18:41:49.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"

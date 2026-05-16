@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/clickhouse-query-plan-contention",
+      "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+      "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention",
+      "summary": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
+      "publishedAt": "2026-05-14T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services",
       "title": "Data readiness for agentic AI in financial services",
       "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services",
@@ -153,16 +163,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft",
-      "title": "The Download: making drugs in orbit and NASA’s nuclear-powered spacecraft",
-      "url": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup called Varda Space Industries is betting that the future of pharmaceuticals lies in orbit. The company has signed a&#8230;",
-      "publishedAt": "2026-05-13T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
     },
     {
       "id": "openai-news:https://openai.com/index/building-codex-windows-sandbox",

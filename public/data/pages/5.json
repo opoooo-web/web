@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine",
+      "title": "Amazon Redshift introduces AWS Graviton-based RG instances with an integrated data lake query engine",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-redshift-introduces-aws-graviton-based-rg-instances-with-an-integrated-data-lake-query-engine",
+      "summary": "Amazon Redshift RG instances, powered by AWS Graviton, run data warehouse and data lake workloads up to 2.4x as fast as RA3 instances at 30% lower price per vCPU. Its integrated data lake query engine supports open table formats such as Apache Iceberg.",
+      "publishedAt": "2026-05-12T16:05:12.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "openai-news:https://openai.com/academy/how-finance-teams-use-codex",
       "title": "How finance teams use Codex",
       "url": "https://openai.com/academy/how-finance-teams-use-codex",
@@ -45,20 +55,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/what-parameter-golf-taught-us",
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "id": "openai-news:https://openai.com/index/nvidia",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "url": "https://openai.com/index/nvidia",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/nvidia",
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "id": "openai-news:https://openai.com/index/what-parameter-golf-taught-us",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
       "publishedAt": "2026-05-12T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -275,16 +285,6 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "publishedAt": "2026-05-07T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/index/testing-ads-in-chatgpt",
       "title": "Testing ads in ChatGPT",
       "url": "https://openai.com/index/testing-ads-in-chatgpt",
@@ -295,10 +295,10 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/simplex",
-      "title": "Simplex rethinks software development with Codex",
-      "url": "https://openai.com/index/simplex",
-      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "id": "openai-news:https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
       "publishedAt": "2026-05-07T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",

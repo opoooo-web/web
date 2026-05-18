@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/simplex",
+      "title": "Simplex rethinks software development with Codex",
+      "url": "https://openai.com/index/simplex",
+      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "publishedAt": "2026-05-07T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
       "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
       "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
@@ -145,20 +155,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/mrc-supercomputer-networking",
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "url": "https://openai.com/index/mrc-supercomputer-networking",
-      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "id": "openai-news:https://openai.com/index/gpt-5-5-instant-system-card",
+      "title": "GPT-5.5 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "summary": "",
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/gpt-5-5-instant-system-card",
-      "title": "GPT-5.5 Instant System Card",
-      "url": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "summary": "",
+      "id": "openai-news:https://openai.com/index/mrc-supercomputer-networking",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "url": "https://openai.com/index/mrc-supercomputer-networking",
+      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
       "publishedAt": "2026-05-05T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -293,16 +303,6 @@
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/agents-stripe-projects",
-      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-      "url": "https://blog.cloudflare.com/agents-stripe-projects",
-      "summary": "Starting today, agents can now be Cloudflare customers. They can create a Cloudflare account, start a paid subscription, register a domain, and get back an API token to deploy code right away. Humans can be in the loop to grant permission, but there’s no need to go to the dashboard, copy and paste API tokens, or enter credit card details.",
-      "publishedAt": "2026-04-30T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

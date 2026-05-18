@@ -1,99 +1,91 @@
 {
-  "generatedAt": "2026-05-17T10:00:45.229Z",
+  "generatedAt": "2026-05-18T16:34:35.800Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Recent developments showcase the rapid evolution of AI, with OpenAI introducing its GPT-5.5 model and AWS enhancing its Bedrock AgentCore for advanced agent capabilities. Ethical considerations are also in focus as ArXiv moves to ban AI-generated submissions. Meanwhile, ongoing discussions about digital privacy and the impact of social media highlight the broader societal implications of technology, while NASA continues its vital science missions in space.",
+  "narrative": "Today's technology briefing highlights significant developments in AI and cybersecurity, alongside updates in consumer tech and space exploration. Key themes include the expanding role of AI assistants, major data breaches, and advancements in foundational technology.",
   "highlights": [
     {
-      "title": "Mozilla to UK regulators: VPNs are essential privacy and security tools",
-      "whyItMatters": "Highlights the ongoing importance of privacy tools and regulatory discussions in the tech landscape.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://blog.mozilla.org/netpolicy/2026/05/15/mozilla-to-uk-regulators-vpns-are-essential-privacy-and-security-tools-and-should-not-be-undermined",
-      "category": "Developer",
-      "publishedAt": "2026-05-17T06:17:26.000Z"
-    },
-    {
-      "title": "AWS Weekly Roundup: Amazon Bedrock AgentCore payments, Agent Toolkit for AWS, and more (May 11, 2026)",
-      "whyItMatters": "Showcases advancements in AI agent capabilities and managed services from major cloud providers.",
-      "sourceName": "AWS News Blog",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-agentcore-payments-agent-toolkit-for-aws-and-more-may-11-2026",
-      "category": "Infrastructure",
-      "publishedAt": "2026-05-11T16:08:26.000Z"
-    },
-    {
-      "title": "Playing Atari ST Music on the Amiga with Zero CPU",
-      "whyItMatters": "Demonstrates innovative approaches to retro computing and efficient system utilization.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arnaud-carre.github.io/2026-05-15-ym-fast-emu",
-      "category": "Developer",
-      "publishedAt": "2026-05-17T08:00:04.000Z"
-    },
-    {
-      "title": "Introducing GPT-5.5",
-      "whyItMatters": "Marks a significant milestone in the development of large language models, impacting AI capabilities.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-5-5",
-      "category": "AI",
-      "publishedAt": "2026-04-23T11:00:00.000Z"
-    },
-    {
-      "title": "Snap, YouTube, and TikTok settle suit over harm to students",
-      "whyItMatters": "Highlights the growing legal and social responsibility of tech platforms regarding user well-being.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/932153/snap-youtube-tiktok-lawsuit-social-media-addiction-schools",
-      "category": "Technology",
-      "publishedAt": "2026-05-16T18:34:23.000Z"
-    },
-    {
-      "title": "NASA Science, Cargo Launch on 34th SpaceX Resupply Mission to Station",
-      "whyItMatters": "Represents ongoing progress in space exploration and scientific research in orbital environments.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-34th-spacex-resupply-mission-to-station",
-      "category": "Science",
-      "publishedAt": "2026-05-15T22:52:14.000Z"
-    },
-    {
-      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
-      "whyItMatters": "Addresses critical concerns about academic integrity and the responsible use of AI in scientific publishing.",
+      "title": "NYC Health and Hospitals says hackers stole medical data and fingerprints during breach affecting at least 1.8 million people",
+      "whyItMatters": "The New York public healthcare system said hackers stole personal and medical data, and scans of biometrics — including fingerprints — in one of the largest recorded breaches of 2026.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work",
+      "sourceUrl": "https://techcrunch.com/2026/05/18/nyc-health-and-hospitals-says-hackers-stole-medical-data-and-fingerprints-during-breach-affecting-at-least-1-8-million-people",
       "category": "Technology",
-      "publishedAt": "2026-05-16T18:54:28.000Z"
+      "publishedAt": "2026-05-18T16:32:33.000Z"
     },
     {
-      "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
-      "whyItMatters": "Illustrates the emergence of new AI-powered developer tools and programming paradigms.",
+      "title": "Inside Anduril and Meta’s quest to make smart glasses for warfare",
+      "whyItMatters": "The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it’s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare",
+      "category": "Science",
+      "publishedAt": "2026-05-18T16:01:39.000Z"
+    },
+    {
+      "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+      "whyItMatters": ".",
+      "sourceName": "Hugging Face Blog",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
+      "category": "AI",
+      "publishedAt": "2026-05-18T16:00:21.000Z"
+    },
+    {
+      "title": "A Rust-Python thing I am working on. Apache 2 licence",
+      "whyItMatters": "Article URL: https://github.com/KevinKenya/nairobi-connector-open-source Comments URL: https://news.ycombinator.com/item?id=48181645 Points: 6 # Comments: 1",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://crates.io/crates/zerostack/1.0.0",
+      "sourceUrl": "https://github.com/KevinKenya/nairobi-connector-open-source",
       "category": "Developer",
-      "publishedAt": "2026-05-16T22:23:50.000Z"
+      "publishedAt": "2026-05-18T16:06:05.000Z"
+    },
+    {
+      "title": "Project Glasswing: what Mythos showed us",
+      "whyItMatters": "Article URL: https://blog.cloudflare.com/cyber-frontier-models/ Comments URL: https://news.ycombinator.com/item?id=48179732 Points: 87 # Comments: 18",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://blog.cloudflare.com/cyber-frontier-models",
+      "category": "Developer",
+      "publishedAt": "2026-05-18T13:37:11.000Z"
+    },
+    {
+      "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+      "whyItMatters": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/clickhouse-query-plan-contention",
+      "category": "Infrastructure",
+      "publishedAt": "2026-05-14T13:00:00.000Z"
+    },
+    {
+      "title": "Five years later, Windows 11 brings back much-missed taskbar options (and more)",
+      "whyItMatters": "Microsoft is also testing a smaller taskbar and more customizable Start menu.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/05/five-years-later-windows-11-brings-back-much-missed-taskbar-options-and-more",
+      "category": "Technology",
+      "publishedAt": "2026-05-18T16:03:02.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "New frontier models like GPT-5.5 and agentic AI advancements are rapidly transforming various industries, from finance to scientific research.",
-      "itemCount": 34
-    },
-    {
       "name": "Technology",
-      "summary": "Discussions around digital well-being, social media regulation, and hardware innovations continue to shape the broader technology landscape.",
-      "itemCount": 17
+      "summary": "Covers a wide range of technological advancements and news, including software, hardware, and digital services.",
+      "itemCount": 112
     },
     {
-      "name": "Infrastructure",
-      "summary": "Cloud providers are expanding their AI infrastructure and addressing critical network vulnerabilities to support the growing demands of the agentic web.",
-      "itemCount": 12
+      "name": "AI",
+      "summary": "Focuses on artificial intelligence developments, machine learning, and AI applications across industries.",
+      "itemCount": 78
     },
     {
       "name": "Developer",
-      "summary": "The developer community is actively exploring new coding agents, open-source projects, and tackling challenges in web development and security.",
-      "itemCount": 10
+      "summary": "Includes news and updates relevant to software developers, open-source projects, and programming.",
+      "itemCount": 27
     },
     {
       "name": "Science",
-      "summary": "Space exploration, climate research, and health advancements continue to push the boundaries of scientific discovery and human understanding.",
-      "itemCount": 10
+      "summary": "Features discoveries and news from scientific research, space exploration, and environmental studies.",
+      "itemCount": 22
+    },
+    {
+      "name": "Infrastructure",
+      "summary": "Addresses developments in cloud computing, networking, and critical digital infrastructure.",
+      "itemCount": 16
     }
   ],
   "notes": []

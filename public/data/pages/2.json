@@ -5,21 +5,211 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
-      "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
-      "url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
-      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840 Comments URL: https://news.ycombinator.com/item?id=48179029 Points: 112 # Comments: 54",
-      "publishedAt": "2026-05-18T12:49:54.000Z",
+      "id": "the-verge:https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
+      "title": "Amazon Alexa Plus can now create AI-generated podcasts",
+      "url": "https://www.theverge.com/tech/932375/amazon-alexa-plus-ai-podcasts",
+      "summary": "Alexa Plus, Amazon's upgraded AI assistant, can now generate podcasts on \"virtually any topic,\" according to an announcement on Monday. With the update, Amazon says you can give Alexa Plus a topic, and the AI assistant will offer an overview of what its AI hosts plan to talk about, allowing you to steer the conversation [&#8230;]",
+      "publishedAt": "2026-05-18T15:55:25.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/InsForge/InsForge",
+      "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+      "url": "https://github.com/InsForge/InsForge",
+      "summary": "Hi HN, I'm Hang, cofounder of InsForge (YC P26). InsForge is an open-source Heroku for AI coding agents: a backend platform designed for coding agents to deploy, operate, and debug end-to-end. Open source under Apache 2.0 ( https://github.com/InsForge/InsForge ). Quick demo here ( https://youtu.be/7Bax5qz0IfM ). We started InsForge because we just wanted our Claude Code to handle all the backend / infra stuff for us, instead of us jumping between dashboards doing manual config, or copy paste logs and docs back to agents. We first tried creating a folder with bunch of .MD files, and installing MCPs like Supabase, Vercel, GitHub, Context7. But soon we found MCPs have their own problems: (a) Tools get pre-loaded into context, before agents even do anything (b) bad design, payloads are returning 10k+ tokens, and (c) a lot of stuff still can’t be done by MCP: e.g. telemetry and configs. So we think, because coding agents are so good at CLI, why not just put everything in CLI and create Skills to teach them how to use it? That’s InsForge: 1 command to install our CLI + Skills, coding agents can run the entire backend platform [1]. We started with authentication and database, but we kept adding more primitives we wanted, so now we have: - frontend hosting - backend servers (microVM based) [2] - database - auth - storage - LLM model router - cron jobs - realtime - edge functions - vector We have other features to make coding agents more reliable like real backend engineers: - backend branching [3]: agents will 100% mess up, like deleting your database. So inspired by Neon, we branch the entire backend (DB, auth, storage, functions, schedules). Agents work on the branch, you review diffs and then decide to merge or discard. - server telemetry: agents can read logs, CPU, memory, disk to find spikes and root causes themselves. - debug agent [4]: every project gets a dedicated debug agent. So your coding agent can ask questions like “why deployment fail?”, the debug agent will run diagnoses, find the root causes and propose fixes, then send the answer back. - backend advisor [5]: scans your backend daily for security and performance issues, proposes fixes. Then propose remediations, and sends to your coding agent. Give it a spin on InsForge cloud : https://insforge.dev , or read our code here: https://github.com/InsForge/InsForge . We're a small team and reading every comment. Tell us what's good, what sucks, what's missing. We love feedback :) [1] https://insforge.dev/blog/insforge-skills-cli [2] https://insforge.dev/blog/insforge-custom-compute [3] https://insforge.dev/blog/backend-branching [4] https://insforge.dev/blog/introduce-debug-skills [5] https://insforge.dev/blog/backend-health-dashboard Comments URL: https://news.ycombinator.com/item?id=48181342 Points: 18 # Comments: 3",
+      "publishedAt": "2026-05-18T15:40:42.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
-      "title": "AI eats the world (Spring 26) [pdf]",
-      "url": "https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf",
-      "summary": "Article URL: https://static1.squarespace.com/static/50363cf324ac8e905e7df861/t/6a0af5d0484fbf5fe9a7743e/1779103184855/2026-Spring-AI.pdf Comments URL: https://news.ycombinator.com/item?id=48179021 Points: 137 # Comments: 75",
-      "publishedAt": "2026-05-18T12:49:28.000Z",
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/beacon-of-light",
+      "title": "Beacon of Light",
+      "url": "https://www.nasa.gov/image-article/beacon-of-light",
+      "summary": "The heart of galaxy M77 shines brightly in this May 7, 2026, image from NASA&#8217;s James Webb Space Telescope. The intense glow is due to gas being pulled by the strong gravity of the central black hole into a tight and rapid orbit around it. The motion of the gas causes it to heat up, [&#8230;]",
+      "publishedAt": "2026-05-18T15:31:45.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients",
+      "title": "Kin Health raises $9M to build an AI notetaker for patients",
+      "url": "https://techcrunch.com/2026/05/18/kin-health-raises-9m-to-build-an-ai-notetaker-for-patients",
+      "summary": "The app is similar to a meeting notetaker: you can record doctor visits, and it will return an AI summary of the meeting, with the next steps, all of which you share with family and friends if you want to.",
+      "publishedAt": "2026-05-18T15:26:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://archestra.ai/blog/only-responsible-ai",
+      "title": "We stopped AI bot spam in our GitHub repo using Git's –author flag",
+      "url": "https://archestra.ai/blog/only-responsible-ai",
+      "summary": "Article URL: https://archestra.ai/blog/only-responsible-ai Comments URL: https://news.ycombinator.com/item?id=48181125 Points: 279 # Comments: 131",
+      "publishedAt": "2026-05-18T15:24:19.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://radleybalko.substack.com/p/truth-power-and-honest-journalism",
+      "title": "Garry Tan, the CEO of YC, accused me of unethical reporting",
+      "url": "https://radleybalko.substack.com/p/truth-power-and-honest-journalism",
+      "summary": "Article URL: https://radleybalko.substack.com/p/truth-power-and-honest-journalism Comments URL: https://news.ycombinator.com/item?id=48181041 Points: 195 # Comments: 20",
+      "publishedAt": "2026-05-18T15:18:19.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
+      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
+      "summary": "",
+      "publishedAt": "2026-05-18T15:12:46.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/932276/philips-hue-amazon-scribe-super-mario-rpg-deal-sale",
+      "title": "Philips Hue smart lights and a whole lot more are over 20 percent off",
+      "url": "https://www.theverge.com/gadgets/932276/philips-hue-amazon-scribe-super-mario-rpg-deal-sale",
+      "summary": "Woot is having a day-long sale on a range of tech, including a mix of new and open-box Philips Hue smart lighting. The retailer’s already-discounted prices are even cheaper today when you enter the code SAVETWENTY at checkout through midnight Central Time. The products included in the sale serve as a great introduction to setting [&#8230;]",
+      "publishedAt": "2026-05-18T15:03:03.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/927121/best-college-graduation-gift-ideas",
+      "title": "The Verge’s 2026 college graduation gift guide",
+      "url": "https://www.theverge.com/gadgets/927121/best-college-graduation-gift-ideas",
+      "summary": "Graduating from college is exciting, but it can also feel slightly terrifying. Along with celebrating a huge accomplishment, many grads jump right into looking for a job. Some might be getting their first apartment, too, which brings on a whole new set of responsibilities. That's why getting the right graduation gift is so important: They [&#8230;]",
+      "publishedAt": "2026-05-18T15:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes",
+      "title": "Amazon&#8217;s new Alexa+ powered feature can generate podcast episodes",
+      "url": "https://techcrunch.com/2026/05/18/amazons-new-alexa-powered-feature-can-generate-podcast-episodes",
+      "summary": "Amazon’s Alexa+ can now generate custom AI podcasts on demand, as the company expands its assistant into a personalized AI content platform.",
+      "publishedAt": "2026-05-18T14:56:47.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/05/bmw-sends-off-the-6th-gen-m3-cs-with-a-manual-gearbox-rear-wheel-drive",
+      "title": "BMW sends off the 6th-gen M3 CS with a manual gearbox, rear-wheel drive",
+      "url": "https://arstechnica.com/cars/2026/05/bmw-sends-off-the-6th-gen-m3-cs-with-a-manual-gearbox-rear-wheel-drive",
+      "summary": "The 2027 M3 CS Handschalter is lighter and comes with three pedals instead of two.",
+      "publishedAt": "2026-05-18T14:33:34.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/2b2tplace/1m_release",
+      "title": "1024000^2 Blocks, 2B2T Minecraft Server World Download Project, and Discoveries",
+      "url": "https://github.com/2b2tplace/1m_release",
+      "summary": "Article URL: https://github.com/2b2tplace/1m_release Comments URL: https://news.ycombinator.com/item?id=48180204 Points: 107 # Comments: 65",
+      "publishedAt": "2026-05-18T14:13:07.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "title": "The Open Agent Leaderboard",
+      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
+      "summary": "",
+      "publishedAt": "2026-05-18T14:12:58.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+      "title": "Actually, democracy dies in H.R.",
+      "url": "https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html",
+      "summary": "https://archive.ph/RKltX Comments URL: https://news.ycombinator.com/item?id=48180091 Points: 224 # Comments: 157",
+      "publishedAt": "2026-05-18T14:04:26.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/05/did-artemis-ii-break-through-registrations-at-space-camp-double-afterward",
+      "title": "Did Artemis II break through? Registrations at Space Camp double afterward.",
+      "url": "https://arstechnica.com/space/2026/05/did-artemis-ii-break-through-registrations-at-space-camp-double-afterward",
+      "summary": "Isaacman's $25 million donation leads to impressive new facilities.",
+      "publishedAt": "2026-05-18T13:49:37.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/18/open-source-tool-maker-grafana-labs-says-hackers-stole-its-code-refuses-to-pay-ransom",
+      "title": "Open source tool maker Grafana Labs says hackers stole its code, refuses to pay ransom",
+      "url": "https://techcrunch.com/2026/05/18/open-source-tool-maker-grafana-labs-says-hackers-stole-its-code-refuses-to-pay-ransom",
+      "summary": "The open source project said hackers stole its codebase and threatened to publish its source code if the company did not pay.",
+      "publishedAt": "2026-05-18T13:42:19.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.cloudflare.com/cyber-frontier-models",
+      "title": "Project Glasswing: what Mythos showed us",
+      "url": "https://blog.cloudflare.com/cyber-frontier-models",
+      "summary": "Article URL: https://blog.cloudflare.com/cyber-frontier-models/ Comments URL: https://news.ycombinator.com/item?id=48179732 Points: 183 # Comments: 80",
+      "publishedAt": "2026-05-18T13:37:11.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/zakirullin/files.md",
+      "title": "Show HN: Files.md – Open-source alternative to Obsidian",
+      "url": "https://github.com/zakirullin/files.md",
+      "summary": "Article URL: https://github.com/zakirullin/files.md Comments URL: https://news.ycombinator.com/item?id=48179677 Points: 374 # Comments: 200",
+      "publishedAt": "2026-05-18T13:33:33.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/05/bug-bounty-businesses-bombarded-with-ai-slop",
+      "title": "Bug bounty businesses bombarded with AI slop",
+      "url": "https://arstechnica.com/ai/2026/05/bug-bounty-businesses-bombarded-with-ai-slop",
+      "summary": "\"Never-ending\" AI slop strains corporate hacking reward schemes.",
+      "publishedAt": "2026-05-18T13:23:34.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.bbc.co.uk/news/articles/cvg0yy3gp71o",
+      "title": "'We mould trees to grow into the shape of chairs'",
+      "url": "https://www.bbc.co.uk/news/articles/cvg0yy3gp71o",
+      "summary": "Article URL: https://www.bbc.co.uk/news/articles/cvg0yy3gp71o Comments URL: https://news.ycombinator.com/item?id=48179183 Points: 176 # Comments: 46",
+      "publishedAt": "2026-05-18T13:01:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
+      "title": "Enough with the AI FOMO, go slow-mo, says Domo CDO",
+      "url": "https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840",
+      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/17/enough-with-the-ai-fomo-go-slow-mo-says-domo-cdo/5240840 Comments URL: https://news.ycombinator.com/item?id=48179029 Points: 133 # Comments: 70",
+      "publishedAt": "2026-05-18T12:49:54.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -28,7 +218,7 @@
       "id": "hacker-news:https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
       "title": "Linux security mailing list 'almost unmanageable'",
       "url": "https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633",
-      "summary": "Article URL: https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633 Comments URL: https://news.ycombinator.com/item?id=48178692 Points: 137 # Comments: 62",
+      "summary": "Article URL: https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633 Comments URL: https://news.ycombinator.com/item?id=48178692 Points: 170 # Comments: 84",
       "publishedAt": "2026-05-18T12:20:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,21 +228,11 @@
       "id": "hacker-news:https://walkinglabs.github.io/learn-harness-engineering/en",
       "title": "Learn Harness Engineering",
       "url": "https://walkinglabs.github.io/learn-harness-engineering/en",
-      "summary": "Article URL: https://walkinglabs.github.io/learn-harness-engineering/en/ Comments URL: https://news.ycombinator.com/item?id=48178652 Points: 18 # Comments: 0",
+      "summary": "Article URL: https://walkinglabs.github.io/learn-harness-engineering/en/ Comments URL: https://news.ycombinator.com/item?id=48178652 Points: 65 # Comments: 2",
       "publishedAt": "2026-05-18T12:17:04.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/932262/sony-1000x-headphone-collexion-image-spec-leaks",
-      "title": "Leaked images reveal Sony’s 10th anniversary ‘ColleXion’ headphones",
-      "url": "https://www.theverge.com/tech/932262/sony-1000x-headphone-collexion-image-spec-leaks",
-      "summary": "We now have a good idea of what Sony's upcoming 10th anniversary headphones will look like before their expected launch tomorrow. Leaked image renders of what appears to be Sony's 1000X \"The ColleXion\" Edition have been shared online by OnLeaks and HotEUDeals, showing thicker leatherette padding and \"generously sized\" earcups compared to Sony's current WH-1000XM6 [&#8230;]",
-      "publishedAt": "2026-05-18T12:10:03.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/05/18/1137407/the-download-musk-altman-trial-trump-tech-trading",
@@ -63,36 +243,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://www.plough.com/en/topics/faith/discipleship/when-kierkegaard-got-cancelled",
-      "title": "When Kierkegaard Got Cancelled",
-      "url": "https://www.plough.com/en/topics/faith/discipleship/when-kierkegaard-got-cancelled",
-      "summary": "Article URL: https://www.plough.com/en/topics/faith/discipleship/when-kierkegaard-got-cancelled Comments URL: https://news.ycombinator.com/item?id=48178510 Points: 26 # Comments: 5",
-      "publishedAt": "2026-05-18T12:03:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://spectrum.ieee.org/voice-ai-audio-attacks",
-      "title": "Voice AI Systems Are Vulnerable to Hidden Audio Attacks",
-      "url": "https://spectrum.ieee.org/voice-ai-audio-attacks",
-      "summary": "Article URL: https://spectrum.ieee.org/voice-ai-audio-attacks Comments URL: https://news.ycombinator.com/item?id=48178378 Points: 37 # Comments: 8",
-      "publishedAt": "2026-05-18T11:51:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/stephenlthorn/auto-identity-remove",
-      "title": "Show HN: Auto-identity-remove – Automated data broker opt-out runner for macOS",
-      "url": "https://github.com/stephenlthorn/auto-identity-remove",
-      "summary": "Article URL: https://github.com/stephenlthorn/auto-identity-remove Comments URL: https://news.ycombinator.com/item?id=48178184 Points: 298 # Comments: 119",
-      "publishedAt": "2026-05-18T11:32:42.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/space/2026/05/the-us-space-enterprise-is-desperately-waiting-for-starship-will-it-finally-deliver",
@@ -108,61 +258,21 @@
       "id": "techcrunch:https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses",
       "title": "South Korea&#8217;s LetinAR is building optics behind AI glasses",
       "url": "https://techcrunch.com/2026/05/18/south-koreas-letinar-is-building-the-optics-behind-ai-glasses",
-      "summary": "A lens the size of a thumbnail — and the South Korean startup that makes it could become the optical backbone of the AI glasses era.",
+      "summary": "A lens the size of a thumbnail — and the South Korean startup that makes it — could become the optical backbone of the AI glasses era.",
       "publishedAt": "2026-05-18T11:00:00.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their",
-      "title": "NASA still maintains some of the Voyager spacecraft code from the 70s era",
-      "url": "https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their",
-      "summary": "Article URL: https://spacedaily.com/nasa-still-maintains-some-of-the-voyager-spacecraft-code-in-a-1970s-era-programming-language-that-almost-nobody-on-earth-fully-understands-anymore-and-the-handful-of-engineers-who-do-are-now-in-their/ Comments URL: https://news.ycombinator.com/item?id=48177716 Points: 68 # Comments: 66",
-      "publishedAt": "2026-05-18T10:43:56.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:http://www.csl.sri.com/users/neumann/psos.pdf",
-      "title": "The foundations of a provably secure operating system (PSOS) (1979) [pdf]",
-      "url": "http://www.csl.sri.com/users/neumann/psos.pdf",
-      "summary": "Article URL: http://www.csl.sri.com/users/neumann/psos.pdf Comments URL: https://news.ycombinator.com/item?id=48177300 Points: 86 # Comments: 49",
-      "publishedAt": "2026-05-18T09:40:51.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://lalitm.com/post/dont-answer-the-first-question",
-      "title": "Don't answer the first question",
-      "url": "https://lalitm.com/post/dont-answer-the-first-question",
-      "summary": "Article URL: https://lalitm.com/post/dont-answer-the-first-question/ Comments URL: https://news.ycombinator.com/item?id=48177163 Points: 41 # Comments: 28",
-      "publishedAt": "2026-05-18T09:21:42.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.noemamag.com/there-is-no-hard-problem-of-consciousness",
-      "title": "It is time to give up the dualism introduced by the debate on consciousness",
-      "url": "https://www.noemamag.com/there-is-no-hard-problem-of-consciousness",
-      "summary": "Article URL: https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/ Comments URL: https://news.ycombinator.com/item?id=48175140 Points: 214 # Comments: 541",
-      "publishedAt": "2026-05-18T02:59:34.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://gencad.github.io",
-      "title": "GenCAD",
-      "url": "https://gencad.github.io",
-      "summary": "Article URL: https://gencad.github.io/ Comments URL: https://news.ycombinator.com/item?id=48173429 Points: 403 # Comments: 108",
-      "publishedAt": "2026-05-17T21:40:35.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
+      "id": "openai-news:https://openai.com/index/dell-codex-enterprise-partnership",
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "url": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "publishedAt": "2026-05-18T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats",
@@ -192,116 +302,6 @@
       "publishedAt": "2026-05-17T16:32:04.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive",
-      "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
-      "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive",
-      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
-      "publishedAt": "2026-05-17T16:05:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis",
-      "title": "For Eclipse, the $2.5B Cerebras win is just the start of realizing its physical-world thesis",
-      "url": "https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis",
-      "summary": "Investing in the real world was lonely for Lior Susan 10 years ago. Now his firm finds itself at the center of the tech world's action.",
-      "publishedAt": "2026-05-17T15:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/05/a-revolutionary-cancer-treatment-could-transform-autoimmune-disease",
-      "title": "A revolutionary cancer treatment could transform autoimmune disease",
-      "url": "https://arstechnica.com/science/2026/05/a-revolutionary-cancer-treatment-could-transform-autoimmune-disease",
-      "summary": "Researchers are testing CAR T cell therapy as a way to reset the immune system.",
-      "publishedAt": "2026-05-17T11:00:14.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush",
-      "title": "The haves and have nots of the AI gold rush",
-      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush",
-      "summary": "The vibes around the current AI boom aren't great, even in the tech industry.",
-      "publishedAt": "2026-05-16T20:17:16.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo",
-      "title": "Marketing operating system Nectar Social raises $30M Series A led by Menlo",
-      "url": "https://techcrunch.com/2026/05/16/marketing-operating-system-nectar-social-raises-30m-series-a-in-round-led-by-menlo",
-      "summary": "AI-powered marketing platform Nectar Social announced Thursday that it raised a $30 million Series A round led by Menlo Ventures and its Anthology Fund, which was created alongside Anthropic.",
-      "publishedAt": "2026-05-16T19:26:14.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work",
-      "title": "Research repository ArXiv will ban authors for a year if they let AI do all the work",
-      "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work",
-      "summary": "ArXiv is doing more to crack down on the careless use of large language models in scientific papers.",
-      "publishedAt": "2026-05-16T18:54:28.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/the-offline-desk-gadget-that-actually-got-me-to-sit-up-straight",
-      "title": "The offline desk gadget that actually got me to sit up straight",
-      "url": "https://techcrunch.com/2026/05/16/the-offline-desk-gadget-that-actually-got-me-to-sit-up-straight",
-      "summary": "Deep Care's $350 device is pricy, but it runs offline and helps you improve your posture and movement habits",
-      "publishedAt": "2026-05-16T16:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy",
-      "title": "OpenAI co-founder Greg Brockman takes charge of product strategy",
-      "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy",
-      "summary": "OpenAI's latest shakeup comes as the company reportedly plans to combine ChatGPT and its programming product Codex.",
-      "publishedAt": "2026-05-16T15:33:33.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month",
-      "title": "$60B AI chip darling Cerebras almost died early on, burning $8M a month",
-      "url": "https://techcrunch.com/2026/05/16/60b-ai-chip-darling-cerebras-almost-died-early-on-burning-8m-a-month",
-      "summary": "Cerebras Systems was 2026's biggest tech IPO so far. But years ago, it burned through hundreds of millions working on a chip many believed impossible.",
-      "publishedAt": "2026-05-16T15:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support",
-      "title": "Users turn to jailbreaking their older Kindles as Amazon ends support",
-      "url": "https://techcrunch.com/2026/05/16/users-turn-to-jailbreaking-their-older-kindles-as-amazon-ends-support",
-      "summary": "It may be possible to jailbreak an older, end-of-support Kindle and continue adding books to it. But doing so carries risks.",
-      "publishedAt": "2026-05-16T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets",
-      "title": "The US is betting on AI to catch insider trading in prediction markets",
-      "url": "https://arstechnica.com/tech-policy/2026/05/the-us-is-betting-on-ai-to-catch-insider-trading-in-prediction-markets",
-      "summary": "The Commodity Futures Trading Commission wants us to know it's taking this very seriously.",
-      "publishedAt": "2026-05-16T11:00:01.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     }
   ]

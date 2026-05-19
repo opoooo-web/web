@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "publishedAt": "2026-05-07T13:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation",
+      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
+      "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation",
+      "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
+      "publishedAt": "2026-05-07T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/parloa",
+      "title": "Parloa builds service agents customers want to talk to",
+      "url": "https://openai.com/index/parloa",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "publishedAt": "2026-05-07T11:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
       "title": "Advancing voice intelligence with new models in the API",
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
@@ -273,36 +303,6 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
-      "publishedAt": "2026-05-04T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/code-orange-fail-small-complete",
-      "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
-      "url": "https://blog.cloudflare.com/code-orange-fail-small-complete",
-      "summary": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
-      "publishedAt": "2026-05-01T21:07:30.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/dynamic-workflows",
-      "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
-      "url": "https://blog.cloudflare.com/dynamic-workflows",
-      "summary": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
-      "publishedAt": "2026-05-01T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

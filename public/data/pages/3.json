@@ -5,6 +5,156 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start",
+      "title": "Google&#8217;s Gemini Omni turns images, audio, and text into video — and that&#8217;s just the start",
+      "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start",
+      "summary": "Google's Gemini Omni is a new multimodal model that reasons across text, images, audio, and video to generate and edit videos through simple conversation — starting with Omni Flash.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models",
+      "title": "OpenAI is making it easier to check if an image was made by their models",
+      "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models",
+      "summary": "OpenAI announced two new measures to help detect AI generated imagery: joining the open C2PA standard and adding Google's SynthID to its products.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/moon-venus-conjunction",
+      "title": "Moon-Venus Conjunction",
+      "url": "https://www.nasa.gov/image-article/moon-venus-conjunction",
+      "summary": "The Moon and Venus, center, are seen in conjunction above the Washington Monument, Monday, May 18, 2026, as viewed from the Mary W. Jackson NASA Headquarters Building in Washington. The Moon and Venus look close together because they line up from our point of view on Earth. In reality, they are separated by millions of [&#8230;]",
+      "publishedAt": "2026-05-19T17:07:23.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gaming/2026/05/you-probably-dont-need-a-1000-hz-gaming-monitor",
+      "title": "The era of 1,000 Hz gaming monitors has arrived, but why?",
+      "url": "https://arstechnica.com/gaming/2026/05/you-probably-dont-need-a-1000-hz-gaming-monitor",
+      "summary": "LG's latest hits one frame per millisecond at a full 1080p resolution.",
+      "publishedAt": "2026-05-19T16:26:56.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/05/bipartisan-bill-in-congress-includes-130-annual-ev-registration-fee",
+      "title": "EV drivers will pay $130 a year under Congress' 2026 transportation bill",
+      "url": "https://arstechnica.com/cars/2026/05/bipartisan-bill-in-congress-includes-130-annual-ev-registration-fee",
+      "summary": "Politicians say they want EVs to pay \"their fair share for the use of our roads.\"",
+      "publishedAt": "2026-05-19T16:12:01.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gaming/2026/05/civilization-vii-finally-lets-you-build-a-civilization-that-stands-the-test-of-time",
+      "title": "Civilization VII finally lets you build a civ that stands the test of time",
+      "url": "https://arstechnica.com/gaming/2026/05/civilization-vii-finally-lets-you-build-a-civilization-that-stands-the-test-of-time",
+      "summary": "Civ 7 ’s devs talk walking back the game's most controversial decision.",
+      "publishedAt": "2026-05-19T16:00:01.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://superlog.sh",
+      "title": "Show HN: Superlog (YC P26) – Observability that installs itself and fixes bugs",
+      "url": "https://superlog.sh",
+      "summary": "Hey HN, we’re Nico and Arseniy, co-founders of Superlog ( https://superlog.sh ). We're building a self-installing, self healing observability tool meant not to be opened. It has a wizard that daily sets up proper logging and an agent that investigates errors and opens PRs. Super short demo: https://www.youtube.com/watch?v=xFhU9Mk247M . In our earlier startups, we tried Sentry, Datadog, Grafana, Dash0, and nothing was good enough. Proper telemetry and alerting still requires a ton of manual setup. We struggled with adding good logs, so debugging was tough, especially as codebases grow at a faster pace. Meanwhile, the Datadog/Dash0 bill kept climbing, and we still spent engineering hours to learn, configure, and maintain our observability tooling. With Sentry, we found ourselves flooded by a stream of alerts into our Slack channel, most were duplicates or lacked context, so alert fatigue/constant interrupts were a real pain. The #ops notification is consistently the worst feeling on a Saturday morning We’ve seen too many times servers run out of memory and disk, and three AWS metrics giving us three different values. Half of the graphs on dashboards are normally empty or outdated, and manually clicking through UIs, especially when the team is small, seems like a huge waste of time. At some point we realized that solving this problem would be more valuable than the things we had been working on, and we had the expertise to do it, since Arseniy had spent years at Datadog, getting paged during the night to debug production incidents. So we decided to build a platform that would just work: agent-first, MCP-native, zero-setup. Here’s how Superlog works: we have a wizard that scans your repo, and automatically instruments it with well-structured logs, traces and metrics via OpenTelemetry. We make sure to highlight main failure modes, endpoint performance, usage per tenant, and LLM/upstream cost (by callsite, tenant and model). Errors get fingerprinted and grouped into incidents, so you see one issue, not a thousand duplicates. When you get a notification from Superlog, you see a clear failure summary, its inferred severity and impact upfront. Then the agent investigates and tries to solve the issue. If it has enough context, it produces a concise and tested PR. If it doesn't, it posts its findings for the investigating team, and automatically pulls in the engineers that could contribute more context based on documentation, previous investigations and Slack threads. Either way the output is one clean PR per incident, posted in Slack, that you can merge, ignore, or open as a Claude Code session and modify. Three things we think are different from other observability vendors: (1) We solve the setup pain. The wizard will instrument everything with native OTel SDKs, respecting the semantic conventions, with proper service and environment tagging. We’re also working on native automatic dashboards and alerts, so that you can see what’s going on in a glance and don’t miss subtle failure modes. (2) Our telemetry doesn’t decay. The wizard runs daily, and keeps adding logs, alerts and dashboards where it’s needed. You don't have to remember to instrument new features. The next time something breaks, the data you need to debug it is already there. (3) Our goal is to solve alert fatigue. We use agents to merge similar errors and refine the summaries, giving you relevant information upfront. We have a custom evaluation setup that makes sure that our summaries are dense and correct, and severity and impact is on point. We also give you confidence scores for every LLM-enhanced metric so that wrong guesses don’t get boosted. Important: superlog telemetry is vendor-neutral, so you keep all the logs/metrics/traces we install. Pricing is on the site. We're early, so expect rough edges and please tell us when you find them. You can try it at https://superlog.sh . We'd love to hear what you're using today, what's broken about it, and whether the \"one mergeable PR per incident\" model sounds useful or terrifying. Especially keen to hear from folks running integration-heavy products, anyone who's rolled their own observability, and anyone who has tried Sentry / Datadog MCPs and given up. Comments and feedback welcome! Comments URL: https://news.ycombinator.com/item?id=48195021 Points: 39 # Comments: 37",
+      "publishedAt": "2026-05-19T15:54:06.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://virtualosmuseum.org",
+      "title": "I’ve built a virtual museum with nearly every operating system you can think of",
+      "url": "https://virtualosmuseum.org",
+      "summary": "Article URL: https://virtualosmuseum.org/ Comments URL: https://news.ycombinator.com/item?id=48195009 Points: 448 # Comments: 102",
+      "publishedAt": "2026-05-19T15:53:38.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "title": "Copy Fail, Dirty Frag, and Fragnesia kernel vulnerabilities",
+      "url": "https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html",
+      "summary": "Article URL: https://www.gentoo.org/news/2026/05/19/copy-fail-fragnesia-vulnerabilities.html Comments URL: https://news.ycombinator.com/item?id=48194614 Points: 91 # Comments: 31",
+      "publishedAt": "2026-05-19T15:27:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://twitter.com/karpathy/status/2056753169888334312",
+      "title": "I’ve joined Anthropic",
+      "url": "https://twitter.com/karpathy/status/2056753169888334312",
+      "summary": "https://xcancel.com/karpathy/status/2056753169888334312 https://www.axios.com/2026/05/19/anthropic-openai-karpathy-a... , https://archive.ph/h6T3X Comments URL: https://news.ycombinator.com/item?id=48194352 Points: 1005 # Comments: 407",
+      "publishedAt": "2026-05-19T15:07:45.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science",
+      "title": "Johnson’s Cindy Evans Prepares Artemis Teams for Lunar Science",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/johnsons-cindy-evans-prepares-artemis-teams-for-lunar-science",
+      "summary": "NASA’s Artemis II crew had many technical and operational responsibilities during their historic mission to the Moon, but they also served an important role as scientific ambassadors to Earth’s nearest neighbor. On their 10-day journey, the crew flew by the far side of the Moon, analyzing and photographing geologic features such as impact craters and [&#8230;]",
+      "publishedAt": "2026-05-19T15:00:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.ox.ac.uk/news/2026-05-15-why-is-almost-everyone-right-handed-the-answer-may-lie-in-how-we-learned-to-walk",
+      "title": "Why is almost everyone right-handed? A new study connects it to bipedalism",
+      "url": "https://www.ox.ac.uk/news/2026-05-15-why-is-almost-everyone-right-handed-the-answer-may-lie-in-how-we-learned-to-walk",
+      "summary": "Article URL: https://www.ox.ac.uk/news/2026-05-15-why-is-almost-everyone-right-handed-the-answer-may-lie-in-how-we-learned-to-walk Comments URL: https://news.ycombinator.com/item?id=48194098 Points: 58 # Comments: 85",
+      "publishedAt": "2026-05-19T14:50:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/electrical-utility-megamerger-is-all-about-the-data-centers",
+      "title": "Electrical utility megamerger is all about the data centers",
+      "url": "https://arstechnica.com/tech-policy/2026/05/electrical-utility-megamerger-is-all-about-the-data-centers",
+      "summary": "NextEra’s blockbuster deal with Dominion likely means higher bills for consumers.",
+      "publishedAt": "2026-05-19T13:45:31.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.openbsd.org/79.html",
+      "title": "OpenBSD 7.9",
+      "url": "https://www.openbsd.org/79.html",
+      "summary": "Article URL: https://www.openbsd.org/79.html Comments URL: https://news.ycombinator.com/item?id=48192882 Points: 339 # Comments: 255",
+      "publishedAt": "2026-05-19T13:11:51.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+      "title": "NASA’s New Shock Detectives Project Invites Volunteers to Help Study Solar Wind",
+      "url": "https://science.nasa.gov/get-involved/citizen-science/nasas-new-shock-detectives-project-invites-volunteers-to-help-study-solar-wind",
+      "summary": "NASA’s Magnetospheric Multiscale (MMS) mission has collected more than ten years of data from this zone – more than scientists can analyze alone. As Shock Detectives, you’ll help sort the chaotic from peaceful regions of the data, giving researchers a crucial set of clues.",
+      "publishedAt": "2026-05-19T13:05:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/space/2026/05/vast-space-seeks-to-diversify-by-building-satellites-as-well-as-space-stations",
       "title": "In addition to space stations, Vast says it will now build high-power satellites",
       "url": "https://arstechnica.com/space/2026/05/vast-space-seeks-to-diversify-by-building-satellites-as-well-as-space-stations",
@@ -35,6 +185,16 @@
       "category": "Science"
     },
     {
+      "id": "hacker-news:https://github.com/antoinezambelli/forge",
+      "title": "Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks",
+      "url": "https://github.com/antoinezambelli/forge",
+      "summary": "Hi HN, I'm Antoine Zambelli, AI Director at Texas Instruments. I built Forge, an open-source reliability layer for self-hosted LLM tool-calling. What it does: - Adds domain-and-tool-agnostic guardrails (retry nudges, step enforcement, error recovery, VRAM-aware context management) to local models running on consumer hardware - Takes an 8B model from ~53% to ~99% on multi-step agentic workflows without changing the model - just the system around it - Ships with an eval harness and interactive dashboard so you can reproduce every number I wanted to run a handful of always-on agentic systems for my portfolio, didn't want to pay cloud frontier costs, and immediately hit the compounding math problem on local models. 90% per-step accuracy sounds great, but with a 5-step workflow that's a 40% failure rate. No existing framework seemed to address this mechanical reliability issue - they all seemed tailor-made for cloud frontier. Demo video: https://youtu.be/MzRgJoJAXGc (side-by-side: same model, same task, with and without Forge guardrails) The paper (accepted to ACM CAIS '26, presenting May 26-29 in San Jose) covers the peer-reviewed findings across 97 model/backend configurations, 18 scenarios, 50 runs each. Key numbers: - Ministral 8B with Forge: 99.3%. Claude Sonnet with Forge: 100%. The gap between a free local 8B model on a $600 GPU and a frontier API is less than 1 point. - The same 8B local model with Forge (99.3%) outperforms Claude Sonnet without guardrails (87.2%) - an 8B model with framework support beats the best result you can get through frontier API alone. - Error recovery scores 0% for every model tested - local and frontier - without the retry mechanism. Not a capability gap, an architectural absence. I'm currently using this for my home assistant running on Ministral 14B-Reasoning, and for my locally hosted agentic coding harness (8B managed to contribute to the codebase!). The guardrail stack has five layers, each independently toggleable. The two that carry the most weight (per ablation study with McNemar's test): retry nudges (24-49 point drops when disabled) and error recovery (~10 point drops, significant for every model tested). Step enforcement is situational - only fires for models with weaker sequencing discipline. Rescue parsing and context compaction showed no significance in the eval but are retained for production workloads where they activate once in a while. One thing I really didn't expect: the serving backend matters. Same Mistral-Nemo 12B weights produce 7% accuracy on llama-server with native function calling and 83% on Llamafile in prompt mode. A 75-point swing from infrastructure alone. I don't think anyone's published this because standard benchmarks don't control for serving backend. Another surprise: there's no distinction in current LLM tool-calling between \"the tool ran successfully and returned data\" and \"the tool ran successfully but found nothing.\" Both return a value, the orchestrator marks the step complete, and bad data cascades downstream. It's the equivalent of HTTP having 200 but no 404. Forge adds this as a new exception class (ToolResolutionError) - the model sees the error and can retry instead of silently passing garbage forward. Biggest technical challenge was context compaction for memory-constrained hardware. Both Ollama and Llamafile silently fall back to CPU when the model exceeds VRAM - no warning, no error, just 10-100x slower inference. Forge queries nvidia-smi at startup and derives a token budget to prevent this. How to try it: - Clone the repo, run the eval harness on a model I haven't tested. If you get interesting results I'll add them to the dashboard. - Try the proxy server mode - point any OpenAI-compatible client at Forge and it handles guardrails transparently. It's the newest model and I'd love more eyes on it. - Dogfooding led me to optimize model parameters in v0.6.0. The harder eval suite (26 scenarios) is designed to raise the ceiling so no one sits at 100%. Several that did on the original suite can't sweep it - including Opus 4.6. Curious if anyone finds scenarios that expose gaps I haven't thought of. Paper numbers based on pre v0.6.0 code. Background: prior ML publication in unsupervised learning (83 citations). This paper accepted to ACM CAIS '26 - presenting May 26-29. Repo: https://github.com/antoinezambelli/forge Paper: https://www.caisconf.org/program/2026/demos/forge-agentic-re... https://github.com/antoinezambelli/forge/blob/main/docs/forg... Dashboard: https://github.com/antoinezambelli/forge/docs/results/dashbo... Comments URL: https://news.ycombinator.com/item?id=48192383 Points: 96 # Comments: 31",
+      "publishedAt": "2026-05-19T12:23:07.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o",
       "title": "The Download: Musk v. Altman, smart glasses for warfare, and Google I/O",
       "url": "https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o",
@@ -48,7 +208,7 @@
       "id": "hacker-news:https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence",
       "title": "Apple unveils new accessibility features",
       "url": "https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/ Comments URL: https://news.ycombinator.com/item?id=48192224 Points: 478 # Comments: 248",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/05/apple-unveils-new-accessibility-features-and-updates-with-apple-intelligence/ Comments URL: https://news.ycombinator.com/item?id=48192224 Points: 537 # Comments: 273",
       "publishedAt": "2026-05-19T12:04:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -75,20 +235,10 @@
       "category": "Technology"
     },
     {
-      "id": "openai-news:https://openai.com/index/advancing-content-provenance",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "publishedAt": "2026-05-19T10:45:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "hacker-news:https://superspl.at/scene/84df8849",
-      "title": "Gaussian Splat of a Strawberry",
+      "title": "Show HN: Gaussian Splat of a Strawberry",
       "url": "https://superspl.at/scene/84df8849",
-      "summary": "Article URL: https://superspl.at/scene/84df8849 Comments URL: https://news.ycombinator.com/item?id=48191602 Points: 409 # Comments: 161",
+      "summary": "The Setup: https://i.imgur.com/o0hgybh.jpeg https://i.imgur.com/mcNiomp.jpeg https://i.imgur.com/vIjw6pc.jpeg https://i.imgur.com/nzOwmSC.jpeg Comments URL: https://news.ycombinator.com/item?id=48191602 Points: 440 # Comments: 175",
       "publishedAt": "2026-05-19T10:38:47.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,18 +248,8 @@
       "id": "hacker-news:https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github",
       "title": "CISA Admin Leaked AWS GovCloud Keys on GitHub",
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github",
-      "summary": "Article URL: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/ Comments URL: https://news.ycombinator.com/item?id=48190454 Points: 297 # Comments: 137",
+      "summary": "Article URL: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/ Comments URL: https://news.ycombinator.com/item?id=48190454 Points: 339 # Comments: 146",
       "publishedAt": "2026-05-19T07:45:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised",
-      "title": "Mini Shai-Hulud Strikes Again: 314 npm Packages Compromised",
-      "url": "https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised",
-      "summary": "Article URL: https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/ Comments URL: https://news.ycombinator.com/item?id=48189368 Points: 316 # Comments: 244",
-      "publishedAt": "2026-05-19T05:04:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -125,16 +265,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
-      "title": "Peter Neumann has died",
-      "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html",
-      "summary": "https://en.wikipedia.org/wiki/Peter_G._Neumann Comments URL: https://news.ycombinator.com/item?id=48188787 Points: 288 # Comments: 23",
-      "publishedAt": "2026-05-19T03:17:45.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict",
       "title": "Here’s why Elon Musk lost his suit against OpenAI",
       "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict",
@@ -142,16 +272,6 @@
       "publishedAt": "2026-05-19T00:53:10.000Z",
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/blog/curiosity-blog-sols-4893-4899-drilling-at-campo-marte-and-a-visit-from-the-psyche-spacecraft",
-      "title": "Curiosity Blog, Sols 4893-4899: Drilling at Campo Marte and a Visit From the Psyche Spacecraft",
-      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4893-4899-drilling-at-campo-marte-and-a-visit-from-the-psyche-spacecraft",
-      "summary": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, May 15, 2026 After freeing the rover’s arm from the “Atacama” block, we are ready to drill again! The new drill target will represent the same geologic stratum as Atacama, which is the layered sulfate unit above the boxwork […]",
-      "publishedAt": "2026-05-19T00:33:45.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
       "category": "Science"
     },
     {
@@ -183,126 +303,6 @@
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
       "category": "AI"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/johnson/johnson-photographers-honored-for-award-winning-portraits",
-      "title": "Johnson Photographers Honored for Award-Winning Portraits",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/johnson-photographers-honored-for-award-winning-portraits",
-      "summary": "Three photographers at NASA’s Johnson Space Center who inspire the world through visual storytelling earned top honors in the portrait category at the 2025 NASA Imagery Experts Program Annual Awards.&#160; “Congratulations to all three on this impressive achievement and for capturing such breathtaking imagery,” said Johnson Director Vanessa Wyche. “Their work represents the collaboration, precision, [&#8230;]",
-      "publishedAt": "2026-05-18T21:28:32.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/05/ebola-outbreak-who-declares-emergency-us-restricts-travel-american-infected",
-      "title": "Ebola outbreak: WHO declares emergency, US restricts travel, American infected",
-      "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-who-declares-emergency-us-restricts-travel-american-infected",
-      "summary": "CDC is working to move the infected American and six others to Germany.",
-      "publishedAt": "2026-05-18T20:41:14.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/legal-fail-dont-use-ai-to-sue-facebook-users-for-calling-you-a-bad-date",
-      "title": "Legal fail: Don’t use AI to sue Facebook users for calling you a bad date",
-      "url": "https://arstechnica.com/tech-policy/2026/05/legal-fail-dont-use-ai-to-sue-facebook-users-for-calling-you-a-bad-date",
-      "summary": "Fake citations dashed a dude’s “Are We Dating the Same Guy” revenge lawsuit.",
-      "publishedAt": "2026-05-18T20:27:15.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/05/one-mars-spacecraft-two-senators-and-a-cloud-of-questions",
-      "title": "One Mars spacecraft, two senators, and a cloud of questions",
-      "url": "https://arstechnica.com/space/2026/05/one-mars-spacecraft-two-senators-and-a-cloud-of-questions",
-      "summary": "\"I think there's plenty of fire lit under them already.\"",
-      "publishedAt": "2026-05-18T19:49:00.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026",
-      "title": "AWS Weekly Roundup: AWS Transform at 1 year, Claude Platform on AWS, EC2 M3 Ultra Mac instances, and more (May 18, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026",
-      "summary": "Just a year ago, we launched AWS Transform for .NET, Mainframe and VMware workloads, the first agentic AI service purpose-built for modernizing enterprise applications at scale. At re:Invent 2025, we introduced AWS Transform custom, which enables organizations to modernize and transform code at scale using AWS-managed and custom transformations. You can upgrade language versions, migrate […]",
-      "publishedAt": "2026-05-18T19:13:20.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/05/1000-year-old-burial-reveals-close-bonds-between-people-and-dingoes",
-      "title": "Australian Aboriginals cared for a dingo's grave for decades",
-      "url": "https://arstechnica.com/science/2026/05/1000-year-old-burial-reveals-close-bonds-between-people-and-dingoes",
-      "summary": "For some ancient Aboriginal Australian communities, dingoes were part of the family.",
-      "publishedAt": "2026-05-18T18:37:55.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity",
-      "title": "Elon Musk took too long to sue OpenAI, jury unanimously agrees",
-      "url": "https://arstechnica.com/tech-policy/2026/05/elon-musk-loses-trial-accusing-sam-altman-openai-of-stealing-a-charity",
-      "summary": "Musk plans to appeal after judge immediately affirmed the jury's decision.",
-      "publishedAt": "2026-05-18T18:09:41.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/05/pompeii-victim-idd-as-a-likely-doctor",
-      "title": "Pompeii victim ID'd as a likely doctor",
-      "url": "https://arstechnica.com/science/2026/05/pompeii-victim-idd-as-a-likely-doctor",
-      "summary": "New X-rays and CT scans showed small case with locking mechanism containing metal instruments.",
-      "publishedAt": "2026-05-18T18:03:32.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/culture/2026/05/new-lanterns-teaser-brings-back-the-superhero-vibes",
-      "title": "Guy Gardner makes a cameo in new Lanterns teaser",
-      "url": "https://arstechnica.com/culture/2026/05/new-lanterns-teaser-brings-back-the-superhero-vibes",
-      "summary": "\"This ring? It's the greatest weapon in the Universe. When and if to use it, that's the whole ball game.\"",
-      "publishedAt": "2026-05-18T17:36:41.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week",
-      "title": "What to expect from Google this week",
-      "url": "https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at Google I/O&#8230;",
-      "publishedAt": "2026-05-18T17:35:43.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/the-dory-sign-is-e-ink-smart-screen-simplicity-at-its-finest",
-      "title": "The Dory Sign is E ink, smart screen simplicity at its finest",
-      "url": "https://arstechnica.com/gadgets/2026/05/the-dory-sign-is-e-ink-smart-screen-simplicity-at-its-finest",
-      "summary": "Dory CEO claims the $149 signs won't be bricked should Dory go out of business.",
-      "publishedAt": "2026-05-18T17:26:15.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/maven/nasas-maven-makes-1st-discovery-of-atmospheric-effect-at-mars",
-      "title": "NASA’s MAVEN Makes 1st Discovery of Atmospheric Effect at Mars",
-      "url": "https://science.nasa.gov/missions/maven/nasas-maven-makes-1st-discovery-of-atmospheric-effect-at-mars",
-      "summary": "In December 2023, scientists looking at Mars data stumbled across something completely unexpected — observations of an atmospheric effect never before seen in the Red Planet’s atmosphere. Using instruments aboard NASA’s MAVEN (Mars Atmosphere and Volatile Evolution) mission, scientists identified a phenomenon known to occur in Earth’s magnetosphere, where charged particles are squeezed like toothpaste […]",
-      "publishedAt": "2026-05-18T17:09:43.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     }
   ]
 }

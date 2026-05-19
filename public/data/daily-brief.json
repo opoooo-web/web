@@ -1,86 +1,109 @@
 {
-  "generatedAt": "2026-05-19T21:48:29.161Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-05-19T23:34:20.184Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "Google I/O 2026 unveiled a profound shift towards an \"agentic AI\" future, introducing new Gemini models like Flash and Omni, deep AI integration across Workspace, and a re-envisioned search that handles complex tasks. This intense AI focus, highlighted by calls of \"the foothills of the singularity,\" coincides with broader industry movements in AI provenance (SynthID adoption by OpenAI) and debates surrounding tech privacy and regulatory oversight, while NASA's Psyche mission successfully performed a crucial Mars flyby.",
   "highlights": [
     {
-      "title": "We react to Google I/O 2026",
-      "whyItMatters": "What better way to unwind from a two-hour-long keynote presentation than to pour over the weirdest and wildest details, from a Gmail bot you can converse with to DeepMind's leader saying the singularity is near. The Vergecast went live right after the show, with Senior AI Reporter Hayden Field joining me to discuss the highlights. [&#8230;]",
+      "title": "Google I/O 2026: Welcome to the agentic Gemini era",
+      "whyItMatters": "Google positioned AI agents, driven by new Gemini models (3.5 Flash, Omni), as the core of its future, aiming for AI to proactively handle complex tasks across its ecosystem and transform search from links to direct action.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "category": "AI",
+      "publishedAt": "2026-05-19T17:45:00.000Z"
+    },
+    {
+      "title": "OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool",
+      "whyItMatters": "Major AI players collaborating on content provenance standardizes the detection of AI-generated images, crucial for combating misinformation and establishing trust.",
+      "sourceName": "OpenAI",
+      "sourceUrl": "https://openai.com/index/advancing-content-provenance/",
+      "category": "Developer",
+      "publishedAt": "2026-05-19T19:34:30.000Z"
+    },
+    {
+      "title": "Plex is tripling the price of a lifetime pass to $750 after doubling it last year",
+      "whyItMatters": "This significant price increase for a popular media server service could alienate long-time users and push them towards alternative subscription models or competitors.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/podcast/934202/we-react-to-google-i-o-2026",
+      "sourceUrl": "https://www.theverge.com/tech/934269/plex-pass-lifetime-subscription-triple-750-price-hike",
       "category": "Technology",
-      "publishedAt": "2026-05-19T21:48:26.000Z"
+      "publishedAt": "2026-05-19T23:03:48.000Z"
     },
     {
-      "title": "Google just declared itself a contender in AI design at IO 2026",
-      "whyItMatters": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026",
-      "category": "Technology",
-      "publishedAt": "2026-05-19T21:33:30.000Z"
-    },
-    {
-      "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
-      "whyItMatters": "Google expands Gmail’s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026",
-      "category": "Technology",
-      "publishedAt": "2026-05-19T21:25:31.000Z"
-    },
-    {
-      "title": "The future of Google is a search box that does everything",
-      "whyItMatters": "Last year, after watching Google's I/O keynote, I wrote that it felt like Google's future was Google googling. After watching this year's I/O keynote on Tuesday, I don't think Google just wants to google for you - I think it wants to do everything for you, all from a search box. Take the trusty Google [&#8230;]",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
-      "category": "Technology",
-      "publishedAt": "2026-05-19T21:24:14.000Z"
-    },
-    {
-      "title": "How to use Google’s new AI agents to go beyond your standard searches",
-      "whyItMatters": "Google is launching AI-powered “information agents” that can monitor topics in the background and proactively alert users to updates and changes.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches",
-      "category": "Technology",
-      "publishedAt": "2026-05-19T21:16:25.000Z"
+      "title": "NASA’s Psyche Mission Aces Mars Flyby, Targets Metal-Rich Asteroid",
+      "whyItMatters": "The successful Mars gravity assist is a critical milestone for the Psyche mission, propelling it towards its primary target, a metal-rich asteroid, to study planetary core formation.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/missions/psyche-mission/nasas-psyche-mission-aces-mars-flyby-targets-metal-rich-asteroid",
+      "category": "Science",
+      "publishedAt": "2026-05-19T19:49:33.000Z"
     },
     {
       "title": "Discord enables end-to-end encrypted voice and video calling for every user",
-      "whyItMatters": "Good news! Discord's hundreds of millions of users now have their communications scrambled, so not even Discord can see them.",
+      "whyItMatters": "This move significantly enhances user privacy and security for hundreds of millions of Discord users, bringing it in line with other secure communication platforms.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user",
       "category": "Technology",
       "publishedAt": "2026-05-19T21:14:08.000Z"
+    },
+    {
+      "title": "FBI seeks US-wide access to license plate cameras, wants \"data in near real time\"",
+      "whyItMatters": "Expanding real-time access to nationwide license plate reader data raises significant concerns about mass surveillance and privacy for US citizens.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/05/fbi-seeks-us-wide-access-to-license-plate-cameras-wants-data-in-near-real-time",
+      "category": "Technology",
+      "publishedAt": "2026-05-19T21:29:33.000Z"
+    },
+    {
+      "title": "Wear OS 7 will keep track of deliveries and sports scores on your wrist",
+      "whyItMatters": "Bringing iPhone-style Live Updates to Wear OS 7 improves the utility and convenience of smartwatches by providing glanceable, real-time information directly on the wrist.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/934323/google-wear-os-7-smartwatch-battery-life-wear-widgets-io-2026",
+      "category": "Technology",
+      "publishedAt": "2026-05-19T23:24:36.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "118 source-linked updates, led by NVIDIA Blog.",
-      "itemCount": 118
+      "name": "Google I/O & Agentic AI",
+      "summary": "Google's I/O event was dominated by AI, showcasing new Gemini models (3.5 Flash, Omni), agentic AI capabilities, deep integration into Workspace (Gmail, Docs, Keep), AI-powered search, smart glasses, and tools for AI app development, signaling a future where AI performs tasks proactively.",
+      "itemCount": 30
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "name": "AI Development & Trust",
+      "summary": "The AI landscape is grappling with content provenance, as OpenAI adopts Google's SynthID watermarking, while a legal battle between Elon Musk and Sam Altman over OpenAI's origins concluded. Other developments include new defenses against AI phishing and an acquisition by Mistral AI.",
+      "itemCount": 9
     },
     {
-      "name": "Developer",
-      "summary": "29 source-linked updates, led by Hacker News.",
-      "itemCount": 29
+      "name": "Space Exploration & Science",
+      "summary": "NASA's Psyche mission successfully performed a gravity-assist Mars flyby, capturing detailed images of the Martian surface, and is now en route to its metal-rich asteroid target. Separately, NASA's science chief emphasized the need for mass-produced satellites, and a new citizen science project 'Shock Detectives' was launched.",
+      "itemCount": 11
     },
     {
-      "name": "Infrastructure",
-      "summary": "23 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 23
+      "name": "Consumer Tech & Services",
+      "summary": "Plex announced a significant price hike for its lifetime pass. Google's Wear OS 7 will introduce Live Updates. Nintendo released a Switch 2 bundle, Discord enabled end-to-end encryption for voice/video, and new trackers and high refresh rate monitors were also released.",
+      "itemCount": 9
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Cybersecurity & Surveillance",
+      "summary": "The FBI is seeking broad access to nationwide license plate camera data, raising privacy concerns. Separately, CISA suffered a major security lapse with credentials found publicly on GitHub, and a report highlighted the industrialization of cybercrime.",
+      "itemCount": 4
+    },
+    {
+      "name": "Tech Policy & Regulation",
+      "summary": "Minnesota became the first state to ban prediction markets. Democrats previewed potential action against the Ticketmaster settlement, and Congress's transportation bill includes an annual EV registration fee.",
+      "itemCount": 3
+    },
+    {
+      "name": "Software Development",
+      "summary": "New observability platform Superlog aims to automate logging and bug fixing, while discussions explored common pitfalls for open-source projects and fundamental concepts like TTYs.",
+      "itemCount": 3
+    },
+    {
+      "name": "Industry & Environment",
+      "summary": "A major electrical utility merger driven by data center needs could lead to higher consumer bills. Other industry news includes an acquisition in defense tech, a Tesla lithium refinery's wastewater discharge, and Cloudflare's integration with Anthropic's AI agents.",
+      "itemCount": 4
     }
   ],
   "notes": [
-    "Gemini HTTP 429"
+    "The briefing heavily reflects Google's dominant presence at I/O 2026, which accounted for a significant portion of reported technology news."
   ]
 }

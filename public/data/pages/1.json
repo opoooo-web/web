@@ -5,6 +5,296 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hugging-face-blog:https://huggingface.co/blog/Dharma-AI/specialization-beats-scale-a-strategic-variable-mo",
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale-a-strategic-variable-mo",
+      "summary": "",
+      "publishedAt": "2026-05-22T15:25:59.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites",
+      "title": "A Forth-inspired language for writing websites",
+      "url": "https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites",
+      "summary": "Article URL: https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites Comments URL: https://news.ycombinator.com/item?id=48236887 Points: 5 # Comments: 0",
+      "publishedAt": "2026-05-22T15:00:50.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/superset-sh/superset",
+      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
+      "url": "https://github.com/superset-sh/superset",
+      "summary": "Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset ( https://github.com/superset-sh/superset ), an open-source agentic IDE for running coding agents like Claude Code, Codex, OpenCode etc in parallel. Demo: https://www.youtube.com/watch?v=YWDHn7gUwfg Try it: https://superset.sh/ We’re three engineers who’ve built and maintained large codebases, and we kept wanting to work on more than one thing at a time. Once CLI coding agents got good enough we found ourselves running several of them in parallel: triaging Github issues, adding a few ui features, reviewing PRs, researching a refactor, etc. The funny part was that we and a lot of our friends had all hacked together similar scripts around git worktrees. Worktrees are a nice primitive for this because each agent can get an isolated copy of the repo, but the workflows around them can feel pretty messy, setting up/tearing down environments and managing dev servers. We first posted here a few months ago when Superset was mostly an open-source terminal for managing git worktrees ( https://news.ycombinator.com/item?id=46368739 ). Since then, it has changed a lot based on feedback from people using it on real codebases, plus contributions from our open-source community. The product has grown into something closer to an IDE for managing agent work across many worktrees, repos, and machines. The biggest thing we learned is that the hard part is not just “run more agents.” It is managing all the state around them: worktrees, ports, terminal sessions, environment setup, diffs, tasks, and PRs. Once you have five or ten agents running, the bottleneck often becomes remembering what each one is doing and actual human review. We added task / issue tracking so work can move from issue → agent → diff → PR → review without losing the context all in Superset. But there's a lot more work to improve this experience over time. We also launched Remote Workspaces, currently in beta. The idea is that you can run coding agents on remote machines instead of using all the memory and CPU on your laptop, while still managing the work from the Superset desktop app.To support Remote workspaces, we isolated the core functionality of our Electron app into a headless Hono server such that it can be deployed into any workspaces and talk to any client (such as our desktop app, mobile, web, etc) and still provide the same interface that our desktop app has. A lot of our next work is around making agent work easier to manage when you are not sitting at your main dev machine. We’re building more functionality into the Superset CLI, improving remote workspace flows, and working on Superset Mobile (coming soon) so you can check on agents, review progress, and steer work from your phone. We’d love more feedback on Superset, especially if you are daily driving coding agents! Comments URL: https://news.ycombinator.com/item?id=48236770 Points: 11 # Comments: 6",
+      "publishedAt": "2026-05-22T14:53:55.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/936018/trump-mobile-t1-phone-still-hasnt-shipped",
+      "title": "The Trump phone is not here",
+      "url": "https://www.theverge.com/gadgets/936018/trump-mobile-t1-phone-still-hasnt-shipped",
+      "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. It's now been more than a week since Trump Mobile announced that phones would \"start shipping this week.\" Last week Trump Mobile announced that the T1 Phone was ready to [&#8230;]",
+      "publishedAt": "2026-05-22T14:46:20.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-to-compete-contract-for-jet-propulsion-laboratory-management",
+      "title": "NASA to Compete Contract for Jet Propulsion Laboratory Management",
+      "url": "https://www.nasa.gov/news-release/nasa-to-compete-contract-for-jet-propulsion-laboratory-management",
+      "summary": "NASA announced plans Friday to compete the next contract for managing and operating the agency’s federally funded research and development center (FFRDC) in Southern California at the Jet Propulsion Laboratory (JPL), to ensure continued accountability and strong value for U.S. taxpayers. The California Institute of Technology (Caltech) has managed the laboratory since its inception in [&#8230;]",
+      "publishedAt": "2026-05-22T14:34:04.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses",
+      "title": "Trump Mobile confirms it exposed customers&#8217; personal data, including phone numbers and home addresses",
+      "url": "https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses",
+      "summary": "President Trump’s branded cell phone maker and cell provider said the exposure was linked to a third-party platform, and was evaluating whether it needs to notify customers.",
+      "publishedAt": "2026-05-22T14:30:52.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
+      "title": "The literary world isn’t prepared for AI",
+      "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize",
+      "summary": "Since 2012, the British literary magazine Granta has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI. Jamir Nazir's \"The Serpent in the Grove\" has many of the hallmarks [&#8230;]",
+      "publishedAt": "2026-05-22T14:30:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/22/meta-quietly-launches-a-new-reddit-like-app-called-forum",
+      "title": "Meta quietly launches a new Reddit-like app called Forum",
+      "url": "https://techcrunch.com/2026/05/22/meta-quietly-launches-a-new-reddit-like-app-called-forum",
+      "summary": "The company describes the app as a \"dedicated space built for deeper discussions, real answers and communities you care about.\"",
+      "publishedAt": "2026-05-22T14:24:16.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan",
+      "title": "Why would you disrespect your favorite artist with an AI remix?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan",
+      "summary": "AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a new tool from Spotify will make them even easier to generate and [&#8230;]",
+      "publishedAt": "2026-05-22T14:20:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/05/ai-put-synthetic-quotes-in-his-book-but-this-author-wants-to-keep-using-it",
+      "title": "AI put \"synthetic quotes\" in his book. But this author wants to keep using it.",
+      "url": "https://arstechnica.com/ai/2026/05/ai-put-synthetic-quotes-in-his-book-but-this-author-wants-to-keep-using-it",
+      "summary": "Steven Rosenbaum explains how inaccurate quotes got into his book The Future of Truth .",
+      "publishedAt": "2026-05-22T14:05:56.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public",
+      "title": "Smart ring maker Oura files to go public",
+      "url": "https://techcrunch.com/2026/05/22/smart-ring-maker-oura-files-to-go-public",
+      "summary": "The Finnish company said in September that it has sold 5.5 million smart rings to date.",
+      "publishedAt": "2026-05-22T14:03:35.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/transportation/936078/tesla-model-y-missing-sticker-recall",
+      "title": "Tesla recalls thousands of Model Ys at risk of&#8230; missing a sticker",
+      "url": "https://www.theverge.com/transportation/936078/tesla-model-y-missing-sticker-recall",
+      "summary": "The National Highway Traffic Safety Administration (NHTSA) has issued a recall for 14,575 Model Y vehicles over an issue that Tesla can't fix with its usual software update: a missing label. According to the recall report, Model Ys made between November 17th, 2024 and April 21st, 2026 could be missing a weight certification sticker due [&#8230;]",
+      "publishedAt": "2026-05-22T14:03:29.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-announces-realignment-to-accelerate-mission-delivery",
+      "title": "NASA Announces Realignment to Accelerate Mission Delivery",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-realignment-to-accelerate-mission-delivery",
+      "summary": "Editor’s Note: This advisory was updated May 22, 2026 to include a retirement. NASA announced Friday an agencywide realignment to increase mission focus and move out on the National Space Policy. These changes position the agency to better deliver on the nation’s highest‑priority objectives with speed and efficiency. During the Ignition event in late March, [&#8230;]",
+      "publishedAt": "2026-05-22T14:01:35.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/935285/i-love-boosters-boots-riley-interview",
+      "title": "Boots Riley turns class struggle into comedy with I Love Boosters",
+      "url": "https://www.theverge.com/entertainment/935285/i-love-boosters-boots-riley-interview",
+      "summary": "Before Boots Riley became the writer / director / musician behind Sorry to Bother You and I'm a Virgo, he was a young community organizer fighting for social justice as part of the Progressive Labor Party. Riley has channeled his anti-establishment, pro-worker politics into every piece of art that he's made. But his belief that [&#8230;]",
+      "publishedAt": "2026-05-22T14:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/general/new-material-melt-moon-rocks",
+      "title": "New Material Could Help NASA Melt Moon Rocks, Harness Lunar Resources",
+      "url": "https://www.nasa.gov/general/new-material-melt-moon-rocks",
+      "summary": "A material recently discovered and tested at NASA’s Glenn Research Center in Cleveland could help astronauts pack lighter for future missions to the Moon. NASA is researching ways explorers could “live off the land” by harnessing lunar resources, including melting Moon rocks to extract metals for building infrastructure and oxygen for fuel and life support. [&#8230;]",
+      "publishedAt": "2026-05-22T14:00:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/22/audio-generation-app-huxe-founded-by-former-notebooklm-developers-shuts-down",
+      "title": "Audio generation app Huxe, founded by former NotebookLM developers, shuts down",
+      "url": "https://techcrunch.com/2026/05/22/audio-generation-app-huxe-founded-by-former-notebooklm-developers-shuts-down",
+      "summary": "Huxe said that it has pulled its app from App Store and Play Store, and that it will stop working later this month",
+      "publishedAt": "2026-05-22T13:48:03.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
+      "title": "The post-search Google era begins",
+      "url": "https://www.theverge.com/podcast/936037/google-io-2026-search-agents-vergecast",
+      "summary": "Google is many things, but most of the time it's a verb: It is what it is to search the internet for information. But what if it's an AI agent doing the searching? And it's doing it proactively? Without even telling you about it? In the world Google imagines, in which so much of the [&#8230;]",
+      "publishedAt": "2026-05-22T13:47:41.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.openculture.com/2026/05/the-spread-of-christianity-animated-from-antiquity-until-today.html",
+      "title": "The Spread of Christianity Animated",
+      "url": "https://www.openculture.com/2026/05/the-spread-of-christianity-animated-from-antiquity-until-today.html",
+      "summary": "Article URL: https://www.openculture.com/2026/05/the-spread-of-christianity-animated-from-antiquity-until-today.html Comments URL: https://news.ycombinator.com/item?id=48235733 Points: 10 # Comments: 0",
+      "publishedAt": "2026-05-22T13:40:55.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p",
+      "title": "AI has a multiplying effect on existing technical skills",
+      "url": "https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p",
+      "summary": "Article URL: https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/ Comments URL: https://news.ycombinator.com/item?id=48235526 Points: 96 # Comments: 114",
+      "publishedAt": "2026-05-22T13:22:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost",
+      "title": "Sam Altman Won in Court Against Elon Musk. But, We All Lost",
+      "url": "https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost",
+      "summary": "Article URL: https://www.newyorker.com/news/letter-from-silicon-valley/sam-altman-won-in-court-against-elon-musk-but-really-we-all-lost Comments URL: https://news.ycombinator.com/item?id=48235361 Points: 90 # Comments: 52",
+      "publishedAt": "2026-05-22T13:07:16.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/935482/the-boys-finale-review",
+      "title": "The Boys limped through its last season, but made up for it with the finale",
+      "url": "https://www.theverge.com/entertainment/935482/the-boys-finale-review",
+      "summary": "It's hard existing in a world seemingly designed for the undeservingly powerful and painfully boring few. They have been gifted what many of us only dream of: the ability to effectively do whatever they like, free from everyday concerns like money, housing, and health. But instead of living in quiet serenity, many choose to use [&#8230;]",
+      "publishedAt": "2026-05-22T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/935898/asus-rog-zephyrus-g14-2026-intel-nvidia-review",
+      "title": "If I could only have one laptop for work and gaming, I&#8217;d get this one",
+      "url": "https://www.theverge.com/tech/935898/asus-rog-zephyrus-g14-2026-intel-nvidia-review",
+      "summary": "I've loved the Asus ROG Zephyrus G14 since it launched in 2020. I bought one for my wife after reading about how awesome it was on a little site called The Verge dot com. Since then, the G14 has gotten some facelifts, chip bumps, an occasional special edition, a full redesign, and a 16-inch sibling [&#8230;]",
+      "publishedAt": "2026-05-22T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science",
+      "title": "The Download: coding&#8217;s future, the &#8216;Steroid Olympics,&#8217; and AI-driven science",
+      "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claude, attendees were asked if they’d shipped code&#8230;",
+      "publishedAt": "2026-05-22T12:10:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android",
+      "title": "Circle Medical (YC S15) Is Hiring a Mobile Engineer",
+      "url": "https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android",
+      "summary": "Article URL: https://www.ycombinator.com/companies/circle-medical/jobs/onMKAG9-mobile-engineer-android Comments URL: https://news.ycombinator.com/item?id=48234688 Points: 0 # Comments: 0",
+      "publishedAt": "2026-05-22T12:01:07.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.economist.com/science-and-technology/2026/05/20/breakthroughs-for-batteries-could-soon-make-them-much-better",
+      "title": "Breakthroughs for batteries could soon make them better",
+      "url": "https://www.economist.com/science-and-technology/2026/05/20/breakthroughs-for-batteries-could-soon-make-them-much-better",
+      "summary": "Article URL: https://www.economist.com/science-and-technology/2026/05/20/breakthroughs-for-batteries-could-soon-make-them-much-better Comments URL: https://news.ycombinator.com/item?id=48234503 Points: 50 # Comments: 58",
+      "publishedAt": "2026-05-22T11:39:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/hubble-captures-galaxy-cluster",
+      "title": "Hubble Captures Galaxy Cluster",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-captures-galaxy-cluster",
+      "summary": "Look closely at this image from NASA’s Hubble Space Telescope and you’ll see galaxies of various shapes and sizes clustered together toward the center-left of the image. A few foreground stars shine brightly and are easily distinguished by the spikes that appear to extend outward from each star. These spikes, called diffraction spikes, are the […]",
+      "publishedAt": "2026-05-22T11:37:42.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/health/2026/05/doctors-outraged-after-rfk-jr-fires-leaders-of-key-preventive-medicine-panel",
+      "title": "First vaccines, now mammograms? RFK Jr.’s latest firings have doctors outraged.",
+      "url": "https://arstechnica.com/health/2026/05/doctors-outraged-after-rfk-jr-fires-leaders-of-key-preventive-medicine-panel",
+      "summary": "Doctors are angry and alarmed that preventive care could go the way of vaccines.",
+      "publishedAt": "2026-05-22T11:30:38.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://annas-archive.gl/blog/llms-txt.html",
+      "title": "If you’re an LLM, please read this",
+      "url": "https://annas-archive.gl/blog/llms-txt.html",
+      "summary": "Article URL: https://annas-archive.gl/blog/llms-txt.html Comments URL: https://news.ycombinator.com/item?id=48234413 Points: 418 # Comments: 261",
+      "publishedAt": "2026-05-22T11:28:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://deno.com/blog/v2.8",
+      "title": "Deno 2.8",
+      "url": "https://deno.com/blog/v2.8",
+      "summary": "Article URL: https://deno.com/blog/v2.8 Comments URL: https://news.ycombinator.com/item?id=48234380 Points: 39 # Comments: 12",
+      "publishedAt": "2026-05-22T11:23:30.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/space/2026/05/rocket-report-starship-launch-delayed-german-launch-company-may-aid-canada",
       "title": "Rocket Report: Starship launch delayed, German launch company may aid Canada",
       "url": "https://arstechnica.com/space/2026/05/rocket-report-starship-launch-delayed-german-launch-company-may-aid-canada",
@@ -12,296 +302,6 @@
       "publishedAt": "2026-05-22T11:20:43.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
-      "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
-      "url": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus",
-      "summary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible [&#8230;]",
-      "publishedAt": "2026-05-22T11:05:25.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/the-58000-tv-bill-when-directv-sued-o-j-simpson-for-piracy",
-      "title": "The $58,000 TV bill: When DirecTV sued O.J. Simpson for piracy",
-      "url": "https://arstechnica.com/tech-policy/2026/05/the-58000-tv-bill-when-directv-sued-o-j-simpson-for-piracy",
-      "summary": "In 2001, the FBI raided O.J.'s house and found smartcards, bootloaders.",
-      "publishedAt": "2026-05-22T11:00:43.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/news/935982/microsoft-yusuf-mehdi-leaving",
-      "title": "Microsoft’s consumer marketing chief to leave next year",
-      "url": "https://www.theverge.com/news/935982/microsoft-yusuf-mehdi-leaving",
-      "summary": "Yusuf Mehdi, executive vice president and consumer chief marketing officer at Microsoft, is leaving the company after 35 years. Mehdi announced his departure in an internal memo on Thursday, noting that he will leave Microsoft next year. He will remain focused on marketing for Windows, Copilot for consumers and the Microsoft 365 consumer business until [&#8230;]",
-      "publishedAt": "2026-05-22T10:57:07.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale",
-      "title": "A hacker group is poisoning open source code at an unprecedented scale",
-      "url": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale",
-      "summary": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
-      "publishedAt": "2026-05-22T10:30:14.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting",
-      "title": "Google I/O showed how the path for AI-driven science is shifting",
-      "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting",
-      "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the&#8230;",
-      "publishedAt": "2026-05-22T10:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/news/935967/microsoft-copilot-floating-button-office-excel-apps-removal",
-      "title": "Microsoft is letting Office users remove an annoying Copilot button",
-      "url": "https://www.theverge.com/news/935967/microsoft-copilot-floating-button-office-excel-apps-removal",
-      "summary": "Microsoft is rolling out Office app updates next week that allow users to disable a floating Copilot button. The button appeared in Word, Excel, and PowerPoint in recent weeks, and floats above the bottom right-hand section of spreadsheets or documents. It has angered many Excel users in particular, because it obstructs cells and you can't [&#8230;]",
-      "publishedAt": "2026-05-22T09:52:19.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes",
-      "title": "The Enhanced Games fit right in with the rest of 2026’s longevity vibes",
-      "url": "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes",
-      "summary": "This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers have said that competitors will only be taking substances that&#8230;",
-      "publishedAt": "2026-05-22T09:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/finnish-phone-maker-hmd-bundles-indian-ai-chatbot-onto-new-smartphone-in-push-to-reach-local-market",
-      "title": "Finnish phone-maker HMD bundles Indian AI chatbot onto new smartphone in push to reach local market",
-      "url": "https://techcrunch.com/2026/05/21/finnish-phone-maker-hmd-bundles-indian-ai-chatbot-onto-new-smartphone-in-push-to-reach-local-market",
-      "summary": "HMD is pre-loading Sarvam's Indus chatbot app, which supports 22 Indic languages",
-      "publishedAt": "2026-05-22T06:41:28.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/tornado-draws-a-jagged-line-in-mississippi",
-      "title": "Tornado Draws a Jagged Line in Mississippi",
-      "url": "https://science.nasa.gov/earth/earth-observatory/tornado-draws-a-jagged-line-in-mississippi",
-      "summary": "The strongest of several twisters to touch down in the southern part of the state in early May 2026 left a visible path of damaged vegetation.",
-      "publishedAt": "2026-05-22T04:01:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket",
-      "title": "Ground system issue scrubs first launch of SpaceX's Starship V3 rocket",
-      "url": "https://arstechnica.com/space/2026/05/ground-system-issue-scrubs-first-launch-of-spacexs-starship-v3-rocket",
-      "summary": "Engineers could make another attempt to launch Starship as soon as Friday evening.",
-      "publishedAt": "2026-05-22T02:05:37.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods",
-      "title": "Waymo expands pause to four cities as robotaxis keep driving into floods",
-      "url": "https://techcrunch.com/2026/05/21/waymo-pauses-service-in-four-cities-as-robotaxis-keep-driving-into-floods",
-      "summary": "Waymo's robotaxi service is now suspended in both Atlanta and San Antonio, as the company works to stop its vehicles from driving into flooded roads.",
-      "publishedAt": "2026-05-22T00:37:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff",
-      "title": "SpaceX scrubs first Starship V3 launch just before liftoff",
-      "url": "https://techcrunch.com/2026/05/21/spacex-scrubs-first-starship-v3-launch-just-before-liftoff",
-      "summary": "SpaceX fueled the third-generation rocket booster and ship and was just moments away from liftoff, before calling a scrub. It's expected to try again Friday.",
-      "publishedAt": "2026-05-22T00:07:47.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/934621/anker-liberty-5-pro-max-wireless-headphones-earbuds-ai-thus-chip",
-      "title": "Anker’s new earbuds are the first with its AI chip that boosts noise reduction",
-      "url": "https://www.theverge.com/tech/934621/anker-liberty-5-pro-max-wireless-headphones-earbuds-ai-thus-chip",
-      "summary": "Anker has announced a new version of its Soundcore Liberty Pro earbuds: the new Liberty 5 Pro. These are the company's first earbuds featuring the Thus AI audio chip Anker announced last month, here being used to bolster noise reduction capabilities and help ensure the user's voice can be clearly heard during calls, even in [&#8230;]",
-      "publishedAt": "2026-05-21T23:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/935766/soundcore-liberty-5-pro-series-earbuds-review",
-      "title": "Anker’s new earbuds have the best call quality I’ve ever heard",
-      "url": "https://www.theverge.com/tech/935766/soundcore-liberty-5-pro-series-earbuds-review",
-      "summary": "Soundcore, Anker's audio brand, has mostly lived in the budget-to-midrange world, but with its new Liberty 5 Pro earbuds, it's aiming at the big guys. The two new earbuds - the Liberty 5 Pro and Liberty 5 Pro Max - use Anker's new Thus chip, which has more processing power than previous Soundcore earbuds to [&#8230;]",
-      "publishedAt": "2026-05-21T23:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/policy/935735/live-nation-ticketmaster-states-remedies-request-break-up",
-      "title": "States ask judge to break up Live Nation-Ticketmaster",
-      "url": "https://www.theverge.com/policy/935735/live-nation-ticketmaster-states-remedies-request-break-up",
-      "summary": "A federal judge is officially being tasked with deciding whether to break up Live Nation-Ticketmaster. More than 30 states are asking Judge Arun Subramanian to order a sale of the ticketing giant, a \"sufficient number\" of large amphitheaters, and limit its ability to tie access to its remaining amps to the use of its promotions [&#8230;]",
-      "publishedAt": "2026-05-21T22:27:03.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/iot-gadget-maker-acurite-shares-reasoning-for-killing-customers-favorite-app",
-      "title": "IoT gadget maker AcuRite shares reasoning for killing customers’ favorite app",
-      "url": "https://arstechnica.com/gadgets/2026/05/iot-gadget-maker-acurite-shares-reasoning-for-killing-customers-favorite-app",
-      "summary": "\"The move to AcuRite NOW has not been as smooth as some customers expected ...\"",
-      "publishedAt": "2026-05-21T22:26:34.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/05/as-grok-flounders-spacex-bets-future-on-beating-big-tech-at-ai",
-      "title": "As Grok flounders, SpaceX bets future on beating Big Tech at AI",
-      "url": "https://arstechnica.com/ai/2026/05/as-grok-flounders-spacex-bets-future-on-beating-big-tech-at-ai",
-      "summary": "SpaceX IPO filing pitches orbital data centers as Grok lags rival AI services.",
-      "publishedAt": "2026-05-21T21:51:26.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle",
-      "title": "Who will benefit most from SpaceX IPO? Mostly Elon — and a few from his inner circle",
-      "url": "https://techcrunch.com/2026/05/21/who-will-benefit-most-from-spacex-ipo-mostly-elon-and-a-few-from-his-inner-circle",
-      "summary": "Elon Musk has the largest stake in SpaceX by billions of shares. The other biggest shareholders also have longstanding and deep ties to Musk.",
-      "publishedAt": "2026-05-21T21:39:03.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-to-showcase-mission-to-boost-swift-spacecrafts-orbit",
-      "title": "NASA to Showcase Mission to Boost Swift Spacecraft’s Orbit",
-      "url": "https://www.nasa.gov/news-release/nasa-to-showcase-mission-to-boost-swift-spacecrafts-orbit",
-      "summary": "Media are invited to NASA’s Wallops Flight Facility in Virginia on Wednesday, June 17, to view Northrop Grumman’s Pegasus XL rocket, carrying a Katalyst robotic spacecraft that will attempt to boost the orbit of NASA’s Neil Gehrels Swift Observatory. Katalyst’s robotic servicing spacecraft, called LINK, will launch on Pegasus in June to rendezvous with Swift [&#8230;]",
-      "publishedAt": "2026-05-21T21:36:15.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/waymo-halts-freeway-rides-after-robotaxis-struggle-in-construction-zones",
-      "title": "Waymo halts freeway rides after robotaxis struggle in construction zones",
-      "url": "https://techcrunch.com/2026/05/21/waymo-halts-freeway-rides-after-robotaxis-struggle-in-construction-zones",
-      "summary": "The service suspension comes as Waymo has also paused operations in Atlanta and San Antonio after its robotaxis drove into flooded streets.",
-      "publishedAt": "2026-05-21T21:13:23.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/05/att-sues-california-in-attempt-to-shut-off-old-phone-network",
-      "title": "AT&T sues California in attempt to shut off old phone network",
-      "url": "https://arstechnica.com/tech-policy/2026/05/att-sues-california-in-attempt-to-shut-off-old-phone-network",
-      "summary": "AT&#038;T asks a court and the FCC to block California phone requirements.",
-      "publishedAt": "2026-05-21T21:10:01.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-joins-artemis-accords-workshop-as-global-signings-rise",
-      "title": "NASA Joins Artemis Accords Workshop as Global Signings Rise",
-      "url": "https://www.nasa.gov/news-release/nasa-joins-artemis-accords-workshop-as-global-signings-rise",
-      "summary": "The United States participated in an Artemis Accords workshop in Lima, Peru, last week, following a new wave of nations committing to safe and responsible exploration of the Moon, Mars, and beyond. Leading up to the event, six countries, including Latvia, Jordan, Morocco, Malta, Ireland, and Paraguay, joined the growing coalition of Artemis Accords signatories [&#8230;]",
-      "publishedAt": "2026-05-21T21:03:31.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/nycmayor-zohran-mamdani-takes-to-twitch-to-chat-with-new-yorkers",
-      "title": "NYC Mayor Zohran Mamdani takes to Twitch to chat with New Yorkers",
-      "url": "https://techcrunch.com/2026/05/21/nycmayor-zohran-mamdani-takes-to-twitch-to-chat-with-new-yorkers",
-      "summary": "New York City Mayor Zohran Mamdani is launching a Twitch series today at 4 p.m. ET.",
-      "publishedAt": "2026-05-21T21:00:42.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world",
-      "title": "Roundtables: Can AI Learn to Understand the World?",
-      "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world",
-      "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter&#8230;",
-      "publishedAt": "2026-05-21T20:41:05.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
-      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
-      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. After nearly a month, [&#8230;]",
-      "publishedAt": "2026-05-21T20:15:18.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/artemis/nasa-seeks-interest-for-artemis-mission-cubesats",
-      "title": "NASA Seeks Interest for Artemis Mission CubeSats",
-      "url": "https://www.nasa.gov/missions/artemis/nasa-seeks-interest-for-artemis-mission-cubesats",
-      "summary": "Organizations interested in launching CubeSats&#160;on future Artemis missions should respond to NASA’s request for information (RFI) by Monday, June 1, for initial consideration. “The SLS (Space Launch System) rocket and the Artemis missions provide great opportunities for teams to conduct important, science and technology investigations that contribute to the expansion of human space exploration,” said [&#8230;]",
-      "publishedAt": "2026-05-21T20:11:17.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/935631/firefox-project-nova-redesign",
-      "title": "Firefox is working on a rounded redesign with easy-to-find controls for privacy and AI",
-      "url": "https://www.theverge.com/tech/935631/firefox-project-nova-redesign",
-      "summary": "Firefox is getting a drastic visual overhaul with a redesigned Settings section that will make it easier to find and use privacy settings, including the switch for turning off all present and future AI features. Mozilla calls the redesign \"Project Nova\" and plans to begin rolling it out later this year. It features rounded UI [&#8230;]",
-      "publishedAt": "2026-05-21T20:05:09.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
-      "title": "In desperate times, graduates find hope in humiliating tech CEOs",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos",
-      "summary": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric Schmidt face loud and sustained jeers from students after praising [&#8230;]",
-      "publishedAt": "2026-05-21T20:00:06.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/news/935598/luigi-mangione-new-york-case-press-credentials-supporters",
-      "title": "Who gets to own the Luigi Mangione story?",
-      "url": "https://www.theverge.com/news/935598/luigi-mangione-new-york-case-press-credentials-supporters",
-      "summary": "On Monday morning, a judge overseeing the New York state case on the killing of the UnitedHealthcare CEO ruled that some evidence collected by police could not be shown to a jury. It wasn't the only news coming out of the hearing. Outside the courthouse, Molly Crane-Newman, a New York Daily News reporter, captured on [&#8230;]",
-      "publishedAt": "2026-05-21T19:51:22.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     }
   ]

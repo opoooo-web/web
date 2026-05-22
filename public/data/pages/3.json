@@ -48,7 +48,7 @@
       "id": "hacker-news:https://freenet.org",
       "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
       "url": "https://freenet.org",
-      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine. Architecturally, this new Freenet is a global, decentralized key-value store where keys are webassembly contracts which define what values (aka \"state\") are valid for that key, how or when the values can be mutated, and how the state can be efficiently synchronized between peers. We've developed a unique (AFAIK) solution to the consistency problem, every contract must define a \"merge\" operation for the contract's associated state. This operation must be commutative, meaning that you can merge multiple states in any order and you'll get the same end result. This approach allows state updates to spread through the network like a virus[2], which typically achieves consistent global state in a few seconds or less. Like the world wide web, Freenet applications can be downloaded from the network itself and run in a web browser - similar to single-page apps on the normal web. However, rather than connecting back to an API running in a datacenter, the webapp connects locally to the Freenet peer and interacts with Freenet contracts and delegates over a local websocket connection. If you'd like to try Freenet we have convenient installers for the major desktop OSs but not yet mobile, and you can be chatting with other users on River within seconds[3]. Happy to answer any questions, you're also welcome to read our FAQ[4], or watch a talk I gave back in March[5]. [1] https://github.com/freenet/river [2] https://freenet.org/about/news/summary-delta-sync/ [3] https://freenet.org/quickstart/ [4] https://freenet.org/faq/ [5] https://youtu.be/3SxNBz1VTE0 Comments URL: https://news.ycombinator.com/item?id=48223362 Points: 231 # Comments: 126",
+      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine. Architecturally, this new Freenet is a global, decentralized key-value store where keys are webassembly contracts which define what values (aka \"state\") are valid for that key, how or when the values can be mutated, and how the state can be efficiently synchronized between peers. We've developed a unique (AFAIK) solution to the consistency problem, every contract must define a \"merge\" operation for the contract's associated state. This operation must be commutative, meaning that you can merge multiple states in any order and you'll get the same end result. This approach allows state updates to spread through the network like a virus[2], which typically achieves consistent global state in a few seconds or less. Like the world wide web, Freenet applications can be downloaded from the network itself and run in a web browser - similar to single-page apps on the normal web. However, rather than connecting back to an API running in a datacenter, the webapp connects locally to the Freenet peer and interacts with Freenet contracts and delegates over a local websocket connection. If you'd like to try Freenet we have convenient installers for the major desktop OSs but not yet mobile, and you can be chatting with other users on River within seconds[3]. Happy to answer any questions, you're also welcome to read our FAQ[4], or watch a talk I gave back in March[5]. [1] https://github.com/freenet/river [2] https://freenet.org/about/news/summary-delta-sync/ [3] https://freenet.org/quickstart/ [4] https://freenet.org/faq/ [5] https://youtu.be/3SxNBz1VTE0 Comments URL: https://news.ycombinator.com/item?id=48223362 Points: 276 # Comments: 173",
       "publishedAt": "2026-05-21T14:34:57.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -78,7 +78,7 @@
       "id": "hacker-news:https://blog.simbastack.com/indexed-a-year-of-video-locally",
       "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
       "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally",
-      "summary": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 321 # Comments: 95",
+      "summary": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 370 # Comments: 110",
       "publishedAt": "2026-05-21T14:01:37.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -125,20 +125,10 @@
       "category": "Science"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it",
-      "title": "Google is pitching an AI agent ecosystem to consumers who may not buy it",
-      "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it",
-      "summary": "One of the most promising introductions at Google’s I/O developer conference on Tuesday was a new way for consumers to use the web: AI agents. Unfortunately, it was also the most confusing.",
-      "publishedAt": "2026-05-21T13:52:23.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "hacker-news:https://www.0xsid.com/blog/antigravity-bait-n-switch",
       "title": "Google's Antigravity bait and switch",
       "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "summary": "Article URL: https://www.0xsid.com/blog/antigravity-bait-n-switch Comments URL: https://news.ycombinator.com/item?id=48222529 Points: 583 # Comments: 279",
+      "summary": "Article URL: https://www.0xsid.com/blog/antigravity-bait-n-switch Comments URL: https://news.ycombinator.com/item?id=48222529 Points: 661 # Comments: 299",
       "publishedAt": "2026-05-21T13:50:59.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -193,6 +183,16 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
+      "title": "Cekura (YC F24) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
+      "summary": "Article URL: https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us Comments URL: https://news.ycombinator.com/item?id=48221230 Points: 0 # Comments: 0",
+      "publishedAt": "2026-05-21T12:00:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "openai-news:https://openai.com/index/adventhealth",

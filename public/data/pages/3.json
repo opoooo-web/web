@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts",
+      "title": "Spotify takes on Google&#8217;s NotebookLM with its new app",
+      "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts",
+      "summary": "Spotify is releasing the new desktop app as a research preview in more than 20 markets.",
+      "publishedAt": "2026-05-21T15:27:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts",
+      "title": "Spotify adds AI-powered Q&#038;A and briefing generation features to podcasts",
+      "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts",
+      "summary": "Spotify will let you generate daily or weekly briefs based on your prompts",
+      "publishedAt": "2026-05-21T15:27:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool",
+      "title": "Spotify launches an ElevenLabs-powered audiobook creation tool",
+      "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool",
+      "summary": "The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.",
+      "publishedAt": "2026-05-21T15:27:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement",
       "title": "Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement",
       "url": "https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement",
@@ -18,7 +48,7 @@
       "id": "hacker-news:https://freenet.org",
       "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
       "url": "https://freenet.org",
-      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine. Architecturally, this new Freenet is a global, decentralized key-value store where keys are webassembly contracts which define what values (aka \"state\") are valid for that key, how or when the values can be mutated, and how the state can be efficiently synchronized between peers. We've developed a unique (AFAIK) solution to the consistency problem, every contract must define a \"merge\" operation for the contract's associated state. This operation must be commutative, meaning that you can merge multiple states in any order and you'll get the same end result. This approach allows state updates to spread through the network like a virus[2], which typically achieves consistent global state in a few seconds or less. Like the world wide web, Freenet applications can be downloaded from the network itself and run in a web browser - similar to single-page apps on the normal web. However, rather than connecting back to an API running in a datacenter, the webapp connects locally to the Freenet peer and interacts with Freenet contracts and delegates over a local websocket connection. If you'd like to try Freenet we have convenient installers for the major desktop OSs but not yet mobile, and you can be chatting with other users on River within seconds[3]. Happy to answer any questions, you're also welcome to read our FAQ[4], or watch a talk I gave back in March[5]. [1] https://github.com/freenet/river [2] https://freenet.org/about/news/summary-delta-sync/ [3] https://freenet.org/quickstart/ [4] https://freenet.org/faq/ [5] https://youtu.be/3SxNBz1VTE0 Comments URL: https://news.ycombinator.com/item?id=48223362 Points: 150 # Comments: 68",
+      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine. Architecturally, this new Freenet is a global, decentralized key-value store where keys are webassembly contracts which define what values (aka \"state\") are valid for that key, how or when the values can be mutated, and how the state can be efficiently synchronized between peers. We've developed a unique (AFAIK) solution to the consistency problem, every contract must define a \"merge\" operation for the contract's associated state. This operation must be commutative, meaning that you can merge multiple states in any order and you'll get the same end result. This approach allows state updates to spread through the network like a virus[2], which typically achieves consistent global state in a few seconds or less. Like the world wide web, Freenet applications can be downloaded from the network itself and run in a web browser - similar to single-page apps on the normal web. However, rather than connecting back to an API running in a datacenter, the webapp connects locally to the Freenet peer and interacts with Freenet contracts and delegates over a local websocket connection. If you'd like to try Freenet we have convenient installers for the major desktop OSs but not yet mobile, and you can be chatting with other users on River within seconds[3]. Happy to answer any questions, you're also welcome to read our FAQ[4], or watch a talk I gave back in March[5]. [1] https://github.com/freenet/river [2] https://freenet.org/about/news/summary-delta-sync/ [3] https://freenet.org/quickstart/ [4] https://freenet.org/faq/ [5] https://youtu.be/3SxNBz1VTE0 Comments URL: https://news.ycombinator.com/item?id=48223362 Points: 231 # Comments: 126",
       "publishedAt": "2026-05-21T14:34:57.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -48,7 +78,7 @@
       "id": "hacker-news:https://blog.simbastack.com/indexed-a-year-of-video-locally",
       "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
       "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally",
-      "summary": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 252 # Comments: 88",
+      "summary": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 321 # Comments: 95",
       "publishedAt": "2026-05-21T14:01:37.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -105,6 +135,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "title": "Google's Antigravity bait and switch",
+      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
+      "summary": "Article URL: https://www.0xsid.com/blog/antigravity-bait-n-switch Comments URL: https://news.ycombinator.com/item?id=48222529 Points: 583 # Comments: 279",
+      "publishedAt": "2026-05-21T13:50:59.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms",
       "title": "US government takes $2 billion equity stake in nine quantum computing firms",
       "url": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms",
@@ -112,16 +152,6 @@
       "publishedAt": "2026-05-21T13:48:38.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/wayves-self-driving-tech-is-headed-to-us-cars-made-by-stellantis",
-      "title": "Wayve&#8217;s self-driving tech is headed to US cars made by Stellantis",
-      "url": "https://techcrunch.com/2026/05/21/wayves-self-driving-tech-is-headed-to-us-cars-made-by-stellantis",
-      "summary": "Wayve's self-driving tech will show up in Stellantis vehicles in 2028.",
-      "publishedAt": "2026-05-21T13:46:07.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -205,16 +235,6 @@
       "category": "Science"
     },
     {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/new-eruption-in-the-bismarck-sea",
-      "title": "New Eruption in the Bismarck Sea",
-      "url": "https://science.nasa.gov/earth/earth-observatory/new-eruption-in-the-bismarck-sea",
-      "summary": "Satellite imagery shows a surge of new volcanic activity in the ocean near Papua New Guinea.",
-      "publishedAt": "2026-05-21T04:01:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/space/2026/05/spacex-submits-detailed-financial-filing-ahead-of-going-public-in-june",
       "title": "Famously secret about its finances, SpaceX opens its books for the first time",
       "url": "https://arstechnica.com/space/2026/05/spacex-submits-detailed-financial-filing-ahead-of-going-public-in-june",
@@ -280,26 +300,6 @@
       "url": "https://arstechnica.com/cars/2026/05/leaving-the-v8-in-the-past-the-all-electric-mercedes-amg-gt-4-door",
       "summary": "The 0–60 time is impressive, the miles/kWh number even more so.",
       "publishedAt": "2026-05-20T19:53:34.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements",
-      "title": "100 things we announced at I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements",
-      "summary": "This year at Google I/O 2026, we announced Gemini Omni, Google Antigravity, Universal Cart and so much more. Here are the highlights.",
-      "publishedAt": "2026-05-20T19:30:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/amd-reportedly-plans-ryzen-5800x3d-re-release-for-upgraders-on-a-budget",
-      "title": "\"Ryzen 5800X3D 10th Anniversary Edition\" may help you avoid paying for a new PC",
-      "url": "https://arstechnica.com/gadgets/2026/05/amd-reportedly-plans-ryzen-5800x3d-re-release-for-upgraders-on-a-budget",
-      "summary": "It could be one way to make your old PC play nicely with a high-end GPU.",
-      "publishedAt": "2026-05-20T19:19:44.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"

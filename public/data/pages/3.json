@@ -5,146 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts",
-      "title": "Spotify takes on Google&#8217;s NotebookLM with its new app",
-      "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts",
-      "summary": "Spotify is releasing the new desktop app as a research preview in more than 20 markets.",
-      "publishedAt": "2026-05-21T15:27:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts",
-      "title": "Spotify adds AI-powered Q&#038;A and briefing generation features to podcasts",
-      "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts",
-      "summary": "Spotify will let you generate daily or weekly briefs based on your prompts",
-      "publishedAt": "2026-05-21T15:27:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool",
-      "title": "Spotify launches an ElevenLabs-powered audiobook creation tool",
-      "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool",
-      "summary": "The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.",
-      "publishedAt": "2026-05-21T15:27:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement",
-      "title": "Spotify will reserve tickets for top fans of an artists in a bid to drum up engagement",
-      "url": "https://techcrunch.com/2026/05/21/spotify-will-reserve-tickets-for-top-fans-of-an-artists-in-a-bid-to-drum-up-engagement",
-      "summary": "Spotify said that it will monitor activity like streams and shares to determine who is a top fan",
-      "publishedAt": "2026-05-21T15:26:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://freenet.org",
-      "title": "Show HN: Freenet, a peer-to-peer platform for decentralized apps",
-      "url": "https://freenet.org",
-      "summary": "For the past 5 years or so I've been working on a ground-up redesign of Freenet, my peer-to-peer project from the early 2000s (now renamed Hyphanet). The new Freenet has been up and running since December along with some early applications like River[1], our decentralized group chat and Delta - a decentralized CMS. Users have already started to build their own apps on Freenet including games, and we have some interesting apps in development like Atlas, a search/recommendation engine. Architecturally, this new Freenet is a global, decentralized key-value store where keys are webassembly contracts which define what values (aka \"state\") are valid for that key, how or when the values can be mutated, and how the state can be efficiently synchronized between peers. We've developed a unique (AFAIK) solution to the consistency problem, every contract must define a \"merge\" operation for the contract's associated state. This operation must be commutative, meaning that you can merge multiple states in any order and you'll get the same end result. This approach allows state updates to spread through the network like a virus[2], which typically achieves consistent global state in a few seconds or less. Like the world wide web, Freenet applications can be downloaded from the network itself and run in a web browser - similar to single-page apps on the normal web. However, rather than connecting back to an API running in a datacenter, the webapp connects locally to the Freenet peer and interacts with Freenet contracts and delegates over a local websocket connection. If you'd like to try Freenet we have convenient installers for the major desktop OSs but not yet mobile, and you can be chatting with other users on River within seconds[3]. Happy to answer any questions, you're also welcome to read our FAQ[4], or watch a talk I gave back in March[5]. [1] https://github.com/freenet/river [2] https://freenet.org/about/news/summary-delta-sync/ [3] https://freenet.org/quickstart/ [4] https://freenet.org/faq/ [5] https://youtu.be/3SxNBz1VTE0 Comments URL: https://news.ycombinator.com/item?id=48223362 Points: 276 # Comments: 173",
-      "publishedAt": "2026-05-21T14:34:57.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not",
-      "title": "Anthropic’s Code with Claude showed off coding&#8217;s future—whether you like it or not",
-      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not",
-      "summary": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was completely written&#8230;",
-      "publishedAt": "2026-05-21T14:30:45.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-welcomes-16th-deputy-administrator-matt-anderson",
-      "title": "NASA Welcomes 16th Deputy Administrator Matt Anderson",
-      "url": "https://www.nasa.gov/news-release/nasa-welcomes-16th-deputy-administrator-matt-anderson",
-      "summary": "Matt Anderson was sworn in Thursday as NASA’s 16th deputy administrator by NASA Administrator Jared Isaacman. The oath was taken during a ceremony held at the Eisenhower Executive Office Building in Washington. As NASA deputy administrator, Anderson will help lead the agency’s efforts to execute the President’s national space policy, strengthen America’s leadership in space, [&#8230;]",
-      "publishedAt": "2026-05-21T14:08:50.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://blog.simbastack.com/indexed-a-year-of-video-locally",
-      "title": "Indexing a year of video locally on a 2021 MacBook with Gemma4-31B (50GB swap)",
-      "url": "https://blog.simbastack.com/indexed-a-year-of-video-locally",
-      "summary": "Article URL: https://blog.simbastack.com/indexed-a-year-of-video-locally/ Comments URL: https://news.ycombinator.com/item?id=48222733 Points: 370 # Comments: 110",
-      "publishedAt": "2026-05-21T14:01:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy",
-      "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
-      "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy",
-      "summary": "The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.",
-      "publishedAt": "2026-05-21T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface",
-      "title": "Hark raises $700M Series A for its secretive &#8216;universal&#8217; AI interface",
-      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface",
-      "summary": "Hark expects to release its first multimodal models this summer, which it says will power a personal AI platform that works with existing products and services. The company expects to follow that with hardware devices built specifically for those systems.",
-      "publishedAt": "2026-05-21T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement",
-      "title": "Maka Kids is redefining kids’ screen time with a streaming app optimized for well-being, not engagement",
-      "url": "https://techcrunch.com/2026/05/21/maka-kids-is-redefining-kids-screen-time-with-a-streaming-app-optimized-for-well-being-not-engagement",
-      "summary": "Maka Kids is building a streaming app for children ages zero to six featuring content designed for healthy development. The startup has now raised $3 million in seed funding to scale its platform.",
-      "publishedAt": "2026-05-21T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/station/iss-research/nasa-highlights-2025-international-space-station-science-results",
-      "title": "NASA Highlights 2025 International Space Station Science Results",
-      "url": "https://www.nasa.gov/missions/station/iss-research/nasa-highlights-2025-international-space-station-science-results",
-      "summary": "To dive deeper into the International Space Station research achievements from the past year, browse the 2025 Annual Highlights of Results, which NASA released in May 2026. In 2025, researchers using the orbital laboratory conducted more than 750 investigations that advanced understanding of life in space, drove innovations to benefit people on Earth, and supported [&#8230;]",
-      "publishedAt": "2026-05-21T14:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "title": "Google's Antigravity bait and switch",
-      "url": "https://www.0xsid.com/blog/antigravity-bait-n-switch",
-      "summary": "Article URL: https://www.0xsid.com/blog/antigravity-bait-n-switch Comments URL: https://news.ycombinator.com/item?id=48222529 Points: 661 # Comments: 299",
-      "publishedAt": "2026-05-21T13:50:59.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms",
-      "title": "US government takes $2 billion equity stake in nine quantum computing firms",
-      "url": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms",
-      "summary": "Beneficiaries include startup backed by firm with links to the Trump family.",
-      "publishedAt": "2026-05-21T13:48:38.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/cars/2026/05/plug-in-hybrids-get-plugged-in-more-than-you-might-think",
       "title": "Plug-in hybrids get plugged in more than you might think",
       "url": "https://arstechnica.com/cars/2026/05/plug-in-hybrids-get-plugged-in-more-than-you-might-think",
@@ -183,16 +43,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
-      "title": "Cekura (YC F24) Is Hiring",
-      "url": "https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
-      "summary": "Article URL: https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us Comments URL: https://news.ycombinator.com/item?id=48221230 Points: 0 # Comments: 0",
-      "publishedAt": "2026-05-21T12:00:20.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "openai-news:https://openai.com/index/adventhealth",
@@ -303,6 +153,156 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements",
+      "title": "100 things we announced at I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements",
+      "summary": "This year at Google I/O 2026, we announced Gemini Omni, Google Antigravity, Universal Cart and so much more. Here are the highlights.",
+      "publishedAt": "2026-05-20T19:30:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/amd-reportedly-plans-ryzen-5800x3d-re-release-for-upgraders-on-a-budget",
+      "title": "\"Ryzen 5800X3D 10th Anniversary Edition\" may help you avoid paying for a new PC",
+      "url": "https://arstechnica.com/gadgets/2026/05/amd-reportedly-plans-ryzen-5800x3d-re-release-for-upgraders-on-a-budget",
+      "summary": "It could be one way to make your old PC play nicely with a high-end GPU.",
+      "publishedAt": "2026-05-20T19:19:44.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings",
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings",
+      "summary": "See and hear your colleagues in true-to-life size and sound, making hybrid meetings feel more inclusive and connected.",
+      "publishedAt": "2026-05-20T16:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals",
+      "title": "Green steel startup Boston Metal is doubling down on critical metals",
+      "url": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals",
+      "summary": "The startup Boston Metal has raised a $75 million funding round to produce critical metals, MIT Technology Review can exclusively report.&#160;&#160; The company has been known largely for its efforts to clean up steel production, an industry that&#8217;s responsible for about 8% of global greenhouse emissions today. With the additional money, the new focus could&#8230;",
+      "publishedAt": "2026-05-20T13:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial",
+      "title": "The Download: fully artificial chicken eggs and why Musk lost",
+      "url": "https://www.technologyreview.com/2026/05/20/1137579/the-download-colossal-biosciences-egg-musk-altman-trial",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell The baby chicks were shifting and starting to pip—or trying to hatch. But not from an egg. Instead, these chickens were&#8230;",
+      "publishedAt": "2026-05-20T12:10:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/ramp",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/the-next-phase-of-education-for-countries",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders",
+      "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders",
+      "summary": "At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies’ joint developer community, which provides curated learning paths, hands-on labs and events that help them build using the full-stack NVIDIA AI platform on Google Cloud. Launched at Google I/O last year, the community [&#8230;]",
+      "publishedAt": "2026-05-19T20:30:09.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-openai-for-singapore",
+      "title": "Introducing OpenAI for Singapore",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "publishedAt": "2026-05-19T20:30:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "publishedAt": "2026-05-19T18:38:09.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+      "title": "I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+      "summary": "At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
+      "summary": "One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/products-and-platforms/products/workspace/workspace-updates",
+      "title": "New ways to create and get things done in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates",
+      "summary": "Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "summary": "The latest from Google I/O: See how we’re helping you get more done with Gemini.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
     }
   ]
 }

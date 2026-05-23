@@ -1,86 +1,83 @@
 {
-  "generatedAt": "2026-05-23T21:09:42.564Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-05-23T22:10:33.353Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "SpaceX's Starship V3 made a largely successful debut, reflecting a booming space industry also seeing renewed investment in renewable energy like solar. Simultaneously, AI advancements bring both impressive multimodal capabilities and significant ethical quandaries, particularly around synthetic media and data privacy, while user data remains a central battleground for cybersecurity and regulatory scrutiny.",
   "highlights": [
     {
-      "title": "Pardon MIE?",
-      "whyItMatters": "Article URL: https://ironpeak.be/blog/bypassing-apple-mie/ Comments URL: https://news.ycombinator.com/item?id=48251229 Points: 4 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://ironpeak.be/blog/bypassing-apple-mie",
-      "category": "Developer",
-      "publishedAt": "2026-05-23T20:36:42.000Z"
-    },
-    {
-      "title": "SolarSquare in talks to raise up to $60M as India&#8217;s rooftop solar market draws major VC interest",
-      "whyItMatters": "SolarSquare could be valued at up to $500 million in the financing expected to close next month.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest",
-      "category": "Technology",
-      "publishedAt": "2026-05-23T20:03:13.000Z"
-    },
-    {
-      "title": "It's time to talk about my writerdeck",
-      "whyItMatters": "Article URL: https://veronicaexplains.net/my-first-writerdeck/ Comments URL: https://news.ycombinator.com/item?id=48250144 Points: 121 # Comments: 72",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://veronicaexplains.net/my-first-writerdeck",
-      "category": "Developer",
-      "publishedAt": "2026-05-23T18:45:37.000Z"
-    },
-    {
-      "title": "Texas woman arrested for Facebook post about town water quality",
-      "whyItMatters": "Article URL: https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality Comments URL: https://news.ycombinator.com/item?id=48249747 Points: 404 # Comments: 176",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
-      "category": "Developer",
-      "publishedAt": "2026-05-23T18:02:42.000Z"
-    },
-    {
       "title": "SpaceX's Starship V3—still a work in progress—mostly successful on first flight",
-      "whyItMatters": "SpaceX has more to prove before flying Starship all the way to low-Earth orbit.",
+      "whyItMatters": "Marks a critical step in the development of SpaceX's next-generation rocket, essential for its ambitious space exploration and colonization goals.",
       "sourceName": "Ars Technica",
       "sourceUrl": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight",
       "category": "Technology",
       "publishedAt": "2026-05-23T17:54:54.000Z"
     },
     {
-      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
-      "whyItMatters": "Article URL: https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html Comments URL: https://news.ycombinator.com/item?id=48248954 Points: 65 # Comments: 5",
+      "title": "SolarSquare in talks to raise up to $60M as India&#8217;s rooftop solar market draws major VC interest",
+      "whyItMatters": "Signals significant venture capital confidence and growth in the renewable energy sector, particularly in emerging markets like India.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/23/solarsquare-in-talks-to-raise-up-to-60m-as-indias-rooftop-solar-market-draws-major-vc-interest",
+      "category": "Technology",
+      "publishedAt": "2026-05-23T20:03:13.000Z"
+    },
+    {
+      "title": "Google’s new anything-to-anything AI model is wild",
+      "whyItMatters": "Showcases advanced multimodal AI capabilities and the potential for new, immersive user experiences, despite ongoing public scrutiny of AI performance.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "category": "Technology",
+      "publishedAt": "2026-05-23T11:00:00.000Z"
+    },
+    {
+      "title": "US scrambles to stop Internet users re-creating dead pilots’ voices",
+      "whyItMatters": "Highlights the critical ethical, legal, and privacy challenges posed by AI's ability to generate realistic audio from limited data, forcing government intervention.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/05/ai-users-re-create-dead-pilots-voices-from-crash-investigation-docs",
+      "category": "Technology",
+      "publishedAt": "2026-05-22T19:39:04.000Z"
+    },
+    {
+      "title": "Oura says it gets government demands for user data",
+      "whyItMatters": "Brings to light increasing government interest in accessing personal health and biometric data collected by wearable devices, raising significant privacy concerns for users.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
+      "sourceUrl": "https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/",
       "category": "Developer",
-      "publishedAt": "2026-05-23T16:24:50.000Z"
+      "publishedAt": "2026-05-23T14:09:57.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "117 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 117
+      "name": "Space Exploration & Industry",
+      "summary": "Progress in space launch capabilities and NASA's strategic shifts aim to accelerate mission delivery amidst evolving geopolitical dynamics.",
+      "itemCount": 12
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by TechCrunch.",
-      "itemCount": 50
+      "name": "Artificial Intelligence (AI) Advances & Ethics",
+      "summary": "AI continues to advance with new multimodal models and applications, yet faces significant challenges in accuracy, ethical use, and public adoption, prompting concerns over data misuse.",
+      "itemCount": 16
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Digital Privacy & Cybersecurity",
+      "summary": "Growing concerns over personal data privacy are highlighted by government demands for user data, security vulnerabilities, and legal battles challenging data practices and online freedoms.",
+      "itemCount": 8
     },
     {
-      "name": "Infrastructure",
-      "summary": "23 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 23
+      "name": "Green Technology & Energy Transition",
+      "summary": "Increased investment in renewable energy, particularly solar, signifies a global shift towards sustainable power sources, though some high-profile figures' commitments remain fluid.",
+      "itemCount": 3
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Software & Developer Tools",
+      "summary": "The developer ecosystem sees activity across open-source projects, performance evaluation, and new language/tool integrations, alongside discussions on fundamental computing principles.",
+      "itemCount": 11
+    },
+    {
+      "name": "Tech Policy & Regulation",
+      "summary": "Governments and legal entities are increasingly scrutinizing tech companies and digital behavior, leading to debates over content moderation, platform regulations, and civil liberties online.",
+      "itemCount": 6
     }
   ],
   "notes": [
-    "Gemini HTTP 429"
+    "This briefing focuses on core technology and policy news; general consumer deals, lifestyle content, and entertainment reviews were excluded for conciseness."
   ]
 }

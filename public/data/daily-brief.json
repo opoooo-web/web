@@ -1,113 +1,95 @@
 {
-  "generatedAt": "2026-05-24T04:43:02.678Z",
-  "generatedBy": "gemini",
+  "generatedAt": "2026-05-24T08:01:16.991Z",
+  "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "SpaceX successfully launched its Starship V3 as NASA undergoes a major reorganization to streamline operations, signaling significant developments in space exploration. Meanwhile, Microsoft faced a dual week, open-sourcing historical DOS code while grappling with internal account security breaches. The widespread integration of AI continued to spark both innovation, like Google's new models, and controversy, with ethical concerns over voice recreation and scrutiny on AI startup valuations.",
+  "narrative": "The technology landscape is buzzing with advancements in AI and space exploration. Google unveiled a groundbreaking multimodal AI model, while SpaceX's Starship V3 achieved a mostly successful first flight. Concurrently, cybersecurity remains a critical focus with new features to combat spyware and the broader adoption of AI agents in enterprise environments.",
   "highlights": [
     {
-      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "whyItMatters": "This release provides invaluable historical context for developers and computer enthusiasts, offering a rare glimpse into the foundational software of early personal computing.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date",
-      "category": "Developer",
-      "publishedAt": "2026-05-24T01:21:13.000Z"
-    },
-    {
-      "title": "Scammers are abusing an internal Microsoft account to send spam links",
-      "whyItMatters": "This incident highlights ongoing cybersecurity vulnerabilities, even within major tech companies, raising concerns about internal system security and user trust.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam",
-      "category": "Developer",
-      "publishedAt": "2026-05-24T00:51:32.000Z"
+      "title": "Google’s new anything-to-anything AI model is wild",
+      "whyItMatters": "Google introduces a novel multimodal AI model that can process and generate content across various data types, pushing the boundaries of AI capabilities.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+      "category": "AI",
+      "publishedAt": "2026-05-23T11:00:00.000Z"
     },
     {
       "title": "SpaceX's Starship V3—still a work in progress—mostly successful on first flight",
-      "whyItMatters": "The successful maiden flight of Starship V3 marks a crucial milestone for SpaceX's ambitious plans for deep space travel and satellite deployment, despite the booster loss.",
+      "whyItMatters": "SpaceX's latest Starship iteration demonstrates significant progress in space launch technology, marking a key step towards ambitious space exploration goals.",
       "sourceName": "Ars Technica",
       "sourceUrl": "https://arstechnica.com/space/2026/05/spacexs-starship-v3-still-a-work-in-progress-mostly-successful-on-first-flight",
       "category": "Technology",
       "publishedAt": "2026-05-23T17:54:54.000Z"
     },
     {
-      "title": "AI is being used to resurrect the voices of dead pilots",
-      "whyItMatters": "This raises significant ethical and legal questions regarding the use of AI to reconstruct sensitive audio from accident investigations, impacting privacy and data handling policies.",
+      "title": "These special phone and app features can help protect you from spyware",
+      "whyItMatters": "New security features from major tech companies are empowering users with enhanced protection against increasingly sophisticated spyware threats.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots",
+      "sourceUrl": "https://techcrunch.com/2026/05/23/you-dont-have-to-click-anything-to-get-hacked-anymore-heres-how-to-fight-back",
       "category": "Technology",
-      "publishedAt": "2026-05-22T23:03:33.000Z"
+      "publishedAt": "2026-05-23T16:00:00.000Z"
     },
     {
-      "title": "Google’s AI search is so broken it can ‘disregard’ what you’re looking for",
-      "whyItMatters": "This issue exposes critical flaws in the reliability and consistency of Google's AI Overviews, impacting fundamental search functionality and user experience.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard",
-      "category": "Technology",
-      "publishedAt": "2026-05-22T20:39:54.000Z"
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "whyItMatters": "OpenAI's recognition as an industry leader highlights the growing importance and adoption of AI-powered coding agents in enterprise software development.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "category": "AI",
+      "publishedAt": "2026-05-22T00:00:00.000Z"
     },
     {
-      "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
-      "whyItMatters": "This report sheds light on potentially misleading financial reporting practices within the AI startup sector, impacting investor confidence and market transparency.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups",
-      "category": "Technology",
-      "publishedAt": "2026-05-22T20:40:48.000Z"
+      "title": "The AWS MCP Server is now generally available",
+      "whyItMatters": "AWS is enhancing cloud infrastructure with a managed Model Context Protocol server, providing secure and authenticated access for AI agents to AWS services.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available",
+      "category": "Infrastructure",
+      "publishedAt": "2026-05-06T15:36:44.000Z"
     },
     {
-      "title": "Police boast of hacking VPN where criminals \"believed themselves to be safe\"",
-      "whyItMatters": "This incident demonstrates increasing law enforcement capabilities to bypass privacy tools, raising concerns about digital surveillance and the effectiveness of anonymity services.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/05/police-boast-of-hacking-vpn-where-criminals-believed-themselves-to-be-safe",
-      "category": "Technology",
-      "publishedAt": "2026-05-22T18:43:54.000Z"
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "whyItMatters": "ChatGPT's new default model offers significant improvements in accuracy, reduced hallucinations, and enhanced personalization for users.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/gpt-5-5-instant",
+      "category": "AI",
+      "publishedAt": "2026-05-05T10:00:00.000Z"
     },
     {
-      "title": "NASA undertakes major reorganization to reduce bureaucracy and move faster",
-      "whyItMatters": "This strategic realignment aims to enhance efficiency and accelerate mission delivery, potentially reshaping the future direction and pace of U.S. space exploration endeavors.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/05/to-achieve-major-goals-nasa-seeks-to-streamline-its-organization",
-      "category": "Technology",
-      "publishedAt": "2026-05-22T14:28:42.000Z"
+      "title": "New Material Could Help NASA Melt Moon Rocks, Harness Lunar Resources",
+      "whyItMatters": "NASA is exploring innovative materials to enable future lunar missions to extract and utilize resources directly from the Moon's surface, reducing mission payload and cost.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/general/new-material-melt-moon-rocks",
+      "category": "Science",
+      "publishedAt": "2026-05-22T14:00:00.000Z"
+    },
+    {
+      "title": "Anthropic’s Code with Claude showed off coding’s future—whether you like it or not",
+      "whyItMatters": "Anthropic's event showcased the evolving role of AI in software development, with AI increasingly assisting or even fully generating code.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not",
+      "category": "Science",
+      "publishedAt": "2026-05-21T14:30:45.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Space Exploration",
-      "summary": "Space agencies and private companies are actively pursuing ambitious missions, with SpaceX's Starship V3 undergoing tests and an IPO filing, while NASA reorganizes for efficiency and explores lunar resource utilization.",
-      "itemCount": 16
-    },
-    {
-      "name": "Artificial Intelligence (AI)",
-      "summary": "AI continues its widespread integration and evolution, marked by Google's new models and AI glasses, but also faces significant challenges including search result anomalies, ethical concerns over voice resurrection, and financial reporting scrutiny for startups.",
-      "itemCount": 17
-    },
-    {
-      "name": "Cybersecurity & Privacy",
-      "summary": "Cybersecurity remains a critical concern with incidents ranging from internal Microsoft account abuse to high-profile data breaches and legal challenges over encryption, alongside new tools for spyware protection.",
-      "itemCount": 7
-    },
-    {
-      "name": "Software Development & Open Source",
-      "summary": "The developer community saw significant historical software releases like early DOS source code, along with new browser APIs and explorations into low-level computing and deep learning fundamentals.",
-      "itemCount": 7
-    },
-    {
-      "name": "Consumer Tech & Gadgets",
-      "summary": "Innovations and issues in consumer tech include new social platforms for music, specialized writing devices, browser choices, and reminders about gadget safety, alongside deals for travel essentials.",
-      "itemCount": 9
-    },
-    {
-      "name": "Business & Market Trends",
-      "summary": "The startup ecosystem is dynamic, with various companies seeking significant funding or going public, though concerns remain regarding the transparency of financial reporting in the AI sector.",
+      "name": "Artificial Intelligence",
+      "summary": "AI continues to advance rapidly with new multimodal models, enhanced language capabilities, and a significant focus on AI agents for various applications.",
       "itemCount": 5
     },
     {
-      "name": "Tech Policy & Regulation",
-      "summary": "Policy and legal actions are shaping various tech sectors, from immigration and national security contracts to debates over platform regulations and ethical dilemmas posed by AI.",
-      "itemCount": 7
+      "name": "Space Exploration",
+      "summary": "Space agencies and private companies are making strides in rocket development and lunar resource utilization, paving the way for future missions.",
+      "itemCount": 2
+    },
+    {
+      "name": "Cybersecurity & Infrastructure",
+      "summary": "Efforts to bolster digital security are intensifying with new features to combat spyware and advancements in cloud infrastructure for AI agents.",
+      "itemCount": 2
+    },
+    {
+      "name": "Developer Tools & Practices",
+      "summary": "The development community is exploring the impact of AI on coding and optimizing existing infrastructure for better performance and resilience.",
+      "itemCount": 2
     }
   ],
-  "notes": [
-    "The ongoing issues with Google's AI Overviews suggest that AI integration into core services still faces significant challenges in reliability and user experience.",
-    "The ethical and legal implications of AI being used to reconstruct voices from sensitive accident data highlight the urgent need for clear policy frameworks to govern advanced AI capabilities."
-  ]
+  "notes": []
 }

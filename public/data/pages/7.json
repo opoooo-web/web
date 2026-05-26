@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/parloa",
+      "title": "Parloa builds service agents customers want to talk to",
+      "url": "https://openai.com/index/parloa",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "publishedAt": "2026-05-07T11:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
       "title": "Advancing voice intelligence with new models in the API",
       "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
@@ -290,16 +300,6 @@
       "url": "https://blog.cloudflare.com/code-orange-fail-small-complete",
       "summary": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
       "publishedAt": "2026-05-01T21:07:30.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/dynamic-workflows",
-      "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
-      "url": "https://blog.cloudflare.com/dynamic-workflows",
-      "summary": "Dynamic Workflows is a library that lets you route durable execution to tenant-provided code on the fly. Built on Dynamic Workers, it enables platforms to serve millions of unique workflows at near-zero idle cost.",
-      "publishedAt": "2026-05-01T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"

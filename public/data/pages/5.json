@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "google-ai:https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026",
+      "summary": "The latest from Google I/O: See how we’re helping you get more done with Gemini.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
       "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5",
       "title": "Gemini 3.5: frontier intelligence with action",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5",
@@ -293,16 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/clickhouse-query-plan-contention",
-      "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
-      "url": "https://blog.cloudflare.com/clickhouse-query-plan-contention",
-      "summary": "When a partitioning change to our petabyte-scale ClickHouse cluster caused critical billing jobs to stall, standard metrics showed no obvious errors. This post explores how we identified severe lock contention in ClickHouse's query planner and built upstream patches to fix it.",
-      "publishedAt": "2026-05-14T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

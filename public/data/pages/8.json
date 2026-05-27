@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026",
+      "title": "The latest AI news we announced in April 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026",
+      "summary": "Here are Google’s latest AI updates from April 2026",
+      "publishedAt": "2026-05-04T17:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks",
+      "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks",
+      "summary": "Event-Driven Webhooks are a push-based notification system that eliminates the need for inefficient polling.",
+      "publishedAt": "2026-05-04T15:30:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "url": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "publishedAt": "2026-05-04T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/code-orange-fail-small-complete",
+      "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
+      "url": "https://blog.cloudflare.com/code-orange-fail-small-complete",
+      "summary": "We have completed a massive engineering effort to make our infrastructure more resilient. Through new tools like Snapstone and the Engineering Codex, we've implemented safer configuration changes and automated best practices to prevent future incidents.",
+      "publishedAt": "2026-05-01T21:07:30.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/dynamic-workflows",
       "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
       "url": "https://blog.cloudflare.com/dynamic-workflows",
@@ -125,16 +165,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents",
-      "title": "NVIDIA Launches Nemotron 3 Nano Omni Model, Unifying Vision, Audio and Language for up to 9x More Efficient AI Agents",
-      "url": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents",
-      "summary": "AI agent systems today juggle separate models for vision, speech and language — losing time and context as they pass data from one model to the other. Unveiled today, NVIDIA Nemotron 3 Nano Omni is an open multimodal model that brings these capabilities together into one system, enabling agents to deliver faster, smarter responses with [&#8230;]",
-      "publishedAt": "2026-04-28T16:00:28.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
       "id": "google-ai:https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years",
       "title": "Celebrating 20 years of Google Translate: Fun facts, tips and new features to try",
       "url": "https://blog.google/products-and-platforms/products/translate/fun-facts-google-translate-20-years",
@@ -165,20 +195,20 @@
       "category": "Infrastructure"
     },
     {
-      "id": "openai-news:https://openai.com/index/our-commitment-to-community-safety",
-      "title": "Our commitment to community safety",
-      "url": "https://openai.com/index/our-commitment-to-community-safety",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "id": "openai-news:https://openai.com/index/openai-on-aws",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "url": "https://openai.com/index/openai-on-aws",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
       "publishedAt": "2026-04-28T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/openai-on-aws",
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "url": "https://openai.com/index/openai-on-aws",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "id": "openai-news:https://openai.com/index/our-commitment-to-community-safety",
+      "title": "Our commitment to community safety",
+      "url": "https://openai.com/index/our-commitment-to-community-safety",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
       "publishedAt": "2026-04-28T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-04-24T19:00:00.000Z",
       "sourceId": "google-ai",
       "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/deepseekv4",
-      "title": "DeepSeek-V4: a million-token context that agents can actually use",
-      "url": "https://huggingface.co/blog/deepseekv4",
-      "summary": "",
-      "publishedAt": "2026-04-24T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/introducing-gpt-5-5",
-      "title": "Introducing GPT-5.5",
-      "url": "https://openai.com/index/introducing-gpt-5-5",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "publishedAt": "2026-04-23T11:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/gpt-5-5-system-card",
-      "title": "GPT-5.5 System Card",
-      "url": "https://openai.com/index/gpt-5-5-system-card",
-      "summary": "",
-      "publishedAt": "2026-04-23T11:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

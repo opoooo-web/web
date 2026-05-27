@@ -4,6 +4,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer",
+      "title": "Pelica (YC P25) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer",
+      "summary": "Article URL: https://www.ycombinator.com/companies/pelica/jobs/MDeC49o-machine-learning-engineer Comments URL: https://news.ycombinator.com/item?id=48301851 Points: 0 # Comments: 0",
+      "publishedAt": "2026-05-27T22:52:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
+      "title": "A Google employee allegedly used inside information to win $1.2 million on Polymarket",
+      "url": "https://www.theverge.com/tech/938635/google-polymarket-insider-trading-prediction-market-bets",
+      "summary": "Federal prosecutors charged a Google employee with fraud after he allegedly made $1.2 million on Polymarket bets related to Search-related trends in 2025, as reported earlier by ABC News. In their now-unsealed complaint, prosecutors allege that Michele Spagnuolo \"knew the outcome of these wagers before the trading public did because he had accessed Google's confidential, [&#8230;]",
+      "publishedAt": "2026-05-27T22:30:02.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://radar.cloudflare.com/traffic/ir?dateRange=28d",
+      "title": "Internet traffic in Iran increasing",
+      "url": "https://radar.cloudflare.com/traffic/ir?dateRange=28d",
+      "summary": "Article URL: https://radar.cloudflare.com/traffic/ir?dateRange=28d Comments URL: https://news.ycombinator.com/item?id=48301603 Points: 27 # Comments: 9",
+      "publishedAt": "2026-05-27T22:24:25.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/wildland-fire-management/nasa-develops-sensor-to-improve-firefighter-safety",
       "title": "NASA Develops Sensor to Improve Firefighter Safety",
       "url": "https://www.nasa.gov/wildland-fire-management/nasa-develops-sensor-to-improve-firefighter-safety",
@@ -64,16 +94,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.pcmag.com/news/iphones-running-ios-26-freeze-facetime-calls-when-theres-nudity",
-      "title": "iPhones Running iOS 26 Are Freezing FaceTime Calls When They Detect Nudity",
-      "url": "https://www.pcmag.com/news/iphones-running-ios-26-freeze-facetime-calls-when-theres-nudity",
-      "summary": "Article URL: https://www.pcmag.com/news/iphones-running-ios-26-freeze-facetime-calls-when-theres-nudity Comments URL: https://news.ycombinator.com/item?id=48300509 Points: 36 # Comments: 19",
-      "publishedAt": "2026-05-27T20:53:47.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth",
       "title": "Mystery GPS jammer in Iran becomes test for NASA satellites’ capabilities",
       "url": "https://arstechnica.com/gadgets/2026/05/nasa-satellites-can-spot-gps-jammers-on-earth",
@@ -84,6 +104,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://z3ugma.github.io/2019/11/18/warm-up-your-macbook",
+      "title": "Warm up your MacBook (2019)",
+      "url": "https://z3ugma.github.io/2019/11/18/warm-up-your-macbook",
+      "summary": "Article URL: https://z3ugma.github.io/2019/11/18/warm-up-your-macbook/ Comments URL: https://news.ycombinator.com/item?id=48300342 Points: 32 # Comments: 32",
+      "publishedAt": "2026-05-27T20:42:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://science.nasa.gov/missions/landsat/released-nasa-goddard-issues-draft-request-for-proposal-for-the-landsat-10-spacecraft",
       "title": "Released: NASA Goddard Issues Draft Request for Proposal for the Landsat 10 Spacecraft",
       "url": "https://science.nasa.gov/missions/landsat/released-nasa-goddard-issues-draft-request-for-proposal-for-the-landsat-10-spacecraft",
@@ -92,6 +122,16 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+      "title": "Show HN: Open-Source AI Racing Harness",
+      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+      "summary": "Hi I'm Dan from Elodin, making an open source real-time capable flight software simulation. For AI Grand Prix contestants, the wait for the Round 1 virtual qualifier simulation has been grueling. If you’re competing, check out our simulation harness to tide you over, built to match the published competition constraints and message format. It runs against real Betaflight, which we learned requires at least 1000 sensor samples per second to run real-time correctly. The competition warranted introducing a new feature to generate the camera sensor directly in the simulation loop. Typically people connect to Unreal or similar game engine to create a camera sensor, which works well but is very heavy. For the simple needs of this challenge, creating sample directly in the loop is very handy and easy to use. Happy to hear your feedback on this! While it's not fancy looking currently, it uses the Rust Bevy game engine, which should allow us to improve the visual fidelity quickly. We all should easily be able to shift our implementation to the published competition sim once it lands. Hope you enjoy and good luck! Comments URL: https://news.ycombinator.com/item?id=48300280 Points: 9 # Comments: 4",
+      "publishedAt": "2026-05-27T20:37:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/transportation/938513/ferrari-luce-ev",
@@ -147,7 +187,7 @@
       "id": "hacker-news:https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators",
       "title": "YouTube to automatically label AI-generated videos",
       "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators",
-      "summary": "https://variety.com/2026/digital/news/youtube-ai-video-label... Comments URL: https://news.ycombinator.com/item?id=48299753 Points: 289 # Comments: 156",
+      "summary": "https://variety.com/2026/digital/news/youtube-ai-video-label... Comments URL: https://news.ycombinator.com/item?id=48299753 Points: 425 # Comments: 234",
       "publishedAt": "2026-05-27T20:00:51.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -164,10 +204,20 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum",
+      "title": "I'm Getting into Mesh Networks (Meshtastic, MeshCore, and Reticulum)",
+      "url": "https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum",
+      "summary": "Article URL: https://www.jonaharagon.com/posts/im-getting-into-mesh-networks-meshtastic-meshcore-and-reticulum/ Comments URL: https://news.ycombinator.com/item?id=48299638 Points: 18 # Comments: 5",
+      "publishedAt": "2026-05-27T19:52:49.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://sverre.me/blog/rust-on-kindle",
       "title": "Rust (and Slint) on a Jailbroken Kindle",
       "url": "https://sverre.me/blog/rust-on-kindle",
-      "summary": "Article URL: https://sverre.me/blog/rust-on-kindle/ Comments URL: https://news.ycombinator.com/item?id=48299623 Points: 46 # Comments: 6",
+      "summary": "Article URL: https://sverre.me/blog/rust-on-kindle/ Comments URL: https://news.ycombinator.com/item?id=48299623 Points: 76 # Comments: 8",
       "publishedAt": "2026-05-27T19:51:47.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -184,10 +234,20 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://2earth.github.io/website/20260525.html",
+      "title": "On Labubu and the Hyperreal",
+      "url": "https://2earth.github.io/website/20260525.html",
+      "summary": "Article URL: https://2earth.github.io/website/20260525.html Comments URL: https://news.ycombinator.com/item?id=48299335 Points: 56 # Comments: 59",
+      "publishedAt": "2026-05-27T19:31:47.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
       "title": "What Apple and Google are doing to push notifications",
       "url": "https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications",
-      "summary": "Article URL: https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications Comments URL: https://news.ycombinator.com/item?id=48299220 Points: 100 # Comments: 84",
+      "summary": "Article URL: https://www.jacquescorbytuech.com/writing/what-apple-and-google-are-doing-your-push-notifications Comments URL: https://news.ycombinator.com/item?id=48299220 Points: 137 # Comments: 135",
       "publishedAt": "2026-05-27T19:24:10.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -241,66 +301,6 @@
       "publishedAt": "2026-05-27T18:52:45.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole",
-      "title": "\"Little red dot\" in early Universe is a naked supermassive black hole",
-      "url": "https://arstechnica.com/science/2026/05/little-red-dot-in-early-universe-is-a-naked-supermassive-black-hole",
-      "summary": "The black hole accounts for over two-thirds the mass of the object it inhabits.",
-      "publishedAt": "2026-05-27T18:37:57.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/learning-resources/science-activation/girl-scouts-event-brings-space-science-to-the-next-generation",
-      "title": "Girl Scouts Event Brings Space Science to the Next Generation",
-      "url": "https://science.nasa.gov/learning-resources/science-activation/girl-scouts-event-brings-space-science-to-the-next-generation",
-      "summary": "In early May 2026, NASA employees, contractors, and volunteers helped to bring Heliophysics to girls of all ages in a fun-filled weekend of hands-on science activities and experiments.",
-      "publishedAt": "2026-05-27T18:27:07.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/27/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak",
-      "title": "UK Visa Portal exposed thousands of applicants’ passports and selfies — then called the lawyers on us",
-      "url": "https://techcrunch.com/2026/05/27/uk-visa-portal-spilled-thousands-of-applicants-passports-and-selfies-online-and-hasnt-fixed-the-leak",
-      "summary": "The third-party website exposed passports, selfies, and the location data of applicants who submitted their documents as part of the U.K. visa application process. Instead of fixing the issue, the website sent attorneys.",
-      "publishedAt": "2026-05-27T18:25:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network",
-      "title": "US Space Force confirms SpaceX will build sensor-to-shooter targeting network",
-      "url": "https://arstechnica.com/space/2026/05/us-space-force-confirms-spacex-will-build-sensor-to-shooter-targeting-network",
-      "summary": "\"We aren’t trading speed for scale; we are demanding both,\" says the military's program manager.",
-      "publishedAt": "2026-05-27T18:19:51.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans",
-      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions, with more to come, including AI plans",
-      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans",
-      "summary": "Meta is rolling out paid subscription plans for Instagram, Facebook, and WhatsApp worldwide, while also testing new AI, creator, and business-focused offerings under its broader “Meta One” subscription brand.",
-      "publishedAt": "2026-05-27T18:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/05/27/with-a-new-100m-raise-princetons-thea-energy-is-now-a-top-funded-fusion-startup",
-      "title": "With a new $100M raise, Princeton&#8217;s Thea Energy is now a top-funded fusion startup",
-      "url": "https://techcrunch.com/2026/05/27/with-a-new-100m-raise-princetons-thea-energy-is-now-a-top-funded-fusion-startup",
-      "summary": "Thea Energy's pixel-inspired magnets could give its power plant plans a boost. The fusion startup hopes to get a commercial reactor working by 2034.",
-      "publishedAt": "2026-05-27T17:54:28.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     }
   ]

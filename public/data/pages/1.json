@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/05/27/airbnb-backed-weroad-raises-58m-to-take-its-group-travel-platform-to-the-us",
+      "title": "Airbnb-backed WeRoad raises $58M to take its group travel platform to the US",
+      "url": "https://techcrunch.com/2026/05/27/airbnb-backed-weroad-raises-58m-to-take-its-group-travel-platform-to-the-us",
+      "summary": "WeRoad, the Milan-based group travel startup, has raised a $58 million Series C round led by Airbnb as it prepares for its first major expansion outside Europe. The funding brings the company’s total capital raised to roughly $100 million and will finance WeRoad’s push into the U.S., beginning with Austin. The new investment reflects a [&#8230;]",
+      "publishedAt": "2026-05-27T08:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/craigmccaskill/posthorn",
+      "title": "Show HN: Posthorn, self-hosted mail without the mail server",
+      "url": "https://github.com/craigmccaskill/posthorn",
+      "summary": "Introducing Posthorn, a self hosted email gateway. One docker container (or Go binary) between every self hosted app on your VPS and your transactional email provider. Set up Posthorn once, point your apps to it, done. I was trying to deploy Ghost on a DigitalOcean droplet and found that DO and many different VPS services have started to block the default SMTP ports to try to combat the various types of abuse they get. To actually configure my app, I had to hack together a Postfix relay. In another project, I had a static site which had a contact form, but my free Formspree account was occasionally hitting usage limits and I desperately wanted some of the anti-spam features they had gated behind their paid accounts so I put together a caddy module to catch HTTP POSTs and bounce them to my provider. I kept bumping into these same email issues. Many of the services I wanted to host (Gitea, Mastodon, Umami, Comentario) ran into the same limitations. This felt like a really common issue that had no good solution. Posthorn is what I built to solve this. It's a small Go binary (or 10 MB docker image) that sits between your self hosted apps and your transactional email provider of choice (shipping with support for Postmark, Resend, Mailgun, Amazon SES or an outbound SMTP relay). It also accepts POSTs from HTML forms to support static site needs while adding security layers such as honeypot fields, origin checks and IP rate limiting. There's also a JSON HTTP API that supports Bearer auth for backend scripts or cron jobs that just want a /send endpoint. I now use this personally in multiple scenarios and I've spent a lot of time beating this up and testing against what I can validate. I'd love to hear how this might be useful for you, what breaks and any feedback you might have. It's open source under Apache 2.0 and I'd love contributions. I'm planning to support and grow this for the long haul. Code: https://github.com/craigmccaskill/posthorn Docs: https://posthorn.dev/ Longer write up: https://craigmccaskill.com/introducing-posthorn/ Previous HN discussion on the exact issue I'm trying to solve: https://news.ycombinator.com/item?id=43620318 Comments URL: https://news.ycombinator.com/item?id=48289624 Points: 18 # Comments: 11",
+      "publishedAt": "2026-05-27T04:26:26.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/ever-restless-mount-dukono-erupts",
       "title": "Ever Restless Mount Dukono Erupts",
       "url": "https://science.nasa.gov/earth/earth-observatory/ever-restless-mount-dukono-erupts",
@@ -15,31 +35,11 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://www.seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon",
-      "title": "The just-say-no engineer was a ZIRP phenomenon",
-      "url": "https://www.seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon",
-      "summary": "Article URL: https://www.seangoedecke.com/the-just-say-no-engineer-was-a-zirp-phenomenon/ Comments URL: https://news.ycombinator.com/item?id=48289439 Points: 32 # Comments: 8",
-      "publishedAt": "2026-05-27T03:56:42.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://gearcommit.nanocorp.app",
-      "title": "Gear Commit: Dev gadget box personalized from GitHub activity",
-      "url": "https://gearcommit.nanocorp.app",
-      "summary": "Article URL: https://gearcommit.nanocorp.app/ Comments URL: https://news.ycombinator.com/item?id=48288761 Points: 5 # Comments: 0",
-      "publishedAt": "2026-05-27T02:29:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://pop.rdi.sh/where-does-next-token-prediction-leave-us",
-      "title": "Where does next-token prediction leave us?",
-      "url": "https://pop.rdi.sh/where-does-next-token-prediction-leave-us",
-      "summary": "Article URL: https://pop.rdi.sh/where-does-next-token-prediction-leave-us/ Comments URL: https://news.ycombinator.com/item?id=48288191 Points: 65 # Comments: 28",
-      "publishedAt": "2026-05-27T01:10:44.000Z",
+      "id": "hacker-news:https://tsduck.io",
+      "title": "TSDuck: Open-source toolkit for MPEG-TS analysis and manipulation",
+      "url": "https://tsduck.io",
+      "summary": "Article URL: https://tsduck.io/ Comments URL: https://news.ycombinator.com/item?id=48288709 Points: 24 # Comments: 1",
+      "publishedAt": "2026-05-27T02:22:59.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -48,18 +48,8 @@
       "id": "hacker-news:https://codeberg.org/lindenii/tunecat",
       "title": "Tunecat: Simple Internet Radio",
       "url": "https://codeberg.org/lindenii/tunecat",
-      "summary": "Article URL: https://codeberg.org/lindenii/tunecat/ Comments URL: https://news.ycombinator.com/item?id=48288174 Points: 21 # Comments: 0",
+      "summary": "Article URL: https://codeberg.org/lindenii/tunecat/ Comments URL: https://news.ycombinator.com/item?id=48288174 Points: 48 # Comments: 3",
       "publishedAt": "2026-05-27T01:08:16.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud",
-      "title": "Stripe is friendly to “friendly fraud”",
-      "url": "https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud",
-      "summary": "Article URL: https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud/ Comments URL: https://news.ycombinator.com/item?id=48287982 Points: 179 # Comments: 121",
-      "publishedAt": "2026-05-27T00:40:05.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -78,7 +68,7 @@
       "id": "hacker-news:https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country",
       "title": "Erin Brockovich made a map to track data centers around the country",
       "url": "https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country",
-      "summary": "Article URL: https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/ Comments URL: https://news.ycombinator.com/item?id=48287952 Points: 168 # Comments: 168",
+      "summary": "Article URL: https://www.niemanlab.org/2026/05/erin-brockovich-made-a-map-to-track-data-centers-around-the-country/ Comments URL: https://news.ycombinator.com/item?id=48287952 Points: 223 # Comments: 207",
       "publishedAt": "2026-05-27T00:36:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,7 +78,7 @@
       "id": "hacker-news:https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446",
       "title": "Sonny Rollins, jazz saxophonist, has died",
       "url": "https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446",
-      "summary": "Article URL: https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446/ Comments URL: https://news.ycombinator.com/item?id=48287678 Points: 71 # Comments: 12",
+      "summary": "Article URL: https://www.rollingstone.com/music/music-news/sonny-rollins-jazz-legend-saxophone-colossus-dead-obit-1234715446/ Comments URL: https://news.ycombinator.com/item?id=48287678 Points: 109 # Comments: 14",
       "publishedAt": "2026-05-27T00:03:04.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -108,7 +98,7 @@
       "id": "hacker-news:https://developers.cloudflare.com/flagship",
       "title": "Cloudflare Flagship",
       "url": "https://developers.cloudflare.com/flagship",
-      "summary": "Article URL: https://developers.cloudflare.com/flagship/ Comments URL: https://news.ycombinator.com/item?id=48287468 Points: 130 # Comments: 63",
+      "summary": "Article URL: https://developers.cloudflare.com/flagship/ Comments URL: https://news.ycombinator.com/item?id=48287468 Points: 203 # Comments: 100",
       "publishedAt": "2026-05-26T23:36:06.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -173,16 +163,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://xlii.space/eng/from-rust-to-ruby",
-      "title": "From Rust to Ruby",
-      "url": "https://xlii.space/eng/from-rust-to-ruby",
-      "summary": "Article URL: https://xlii.space/eng/from-rust-to-ruby/ Comments URL: https://news.ycombinator.com/item?id=48286561 Points: 56 # Comments: 25",
-      "publishedAt": "2026-05-26T21:57:03.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-to-announce-artemis-iii-crew-provide-mission-progress-update",
@@ -255,11 +235,11 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943",
-      "title": "Big tech's anti-labor playbook has come for Wikipedia",
-      "url": "https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943",
-      "summary": "Article URL: https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943 Comments URL: https://news.ycombinator.com/item?id=48285592 Points: 385 # Comments: 219",
-      "publishedAt": "2026-05-26T20:33:24.000Z",
+      "id": "hacker-news:https://www.oliverio.dev/blog/the-worst-job-interview-i-had",
+      "title": "The worst job interview I ever had",
+      "url": "https://www.oliverio.dev/blog/the-worst-job-interview-i-had",
+      "summary": "Article URL: https://www.oliverio.dev/blog/the-worst-job-interview-i-had Comments URL: https://news.ycombinator.com/item?id=48285344 Points: 258 # Comments: 217",
+      "publishedAt": "2026-05-26T20:11:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -286,10 +266,20 @@
     },
     {
       "id": "hacker-news:https://www.science.org/content/blog-post/methyl-methacrylate-tank",
-      "title": "Chemistry behind the Garden Grove chemical tank",
+      "title": "That Methyl Methacrylate Tank",
       "url": "https://www.science.org/content/blog-post/methyl-methacrylate-tank",
-      "summary": "Article URL: https://www.science.org/content/blog-post/methyl-methacrylate-tank Comments URL: https://news.ycombinator.com/item?id=48284712 Points: 284 # Comments: 107",
+      "summary": "Article URL: https://www.science.org/content/blog-post/methyl-methacrylate-tank Comments URL: https://news.ycombinator.com/item?id=48284712 Points: 325 # Comments: 127",
       "publishedAt": "2026-05-26T19:25:16.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters",
+      "title": "The Melancholy of Slaying Monsters",
+      "url": "https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters",
+      "summary": "Article URL: https://thereader.mitpress.mit.edu/the-strange-melancholy-of-slaying-monsters/ Comments URL: https://news.ycombinator.com/item?id=48284711 Points: 43 # Comments: 6",
+      "publishedAt": "2026-05-26T19:25:13.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -300,6 +290,16 @@
       "url": "https://www.theverge.com/gadgets/937534/google-health-fitbit-app-ai",
       "summary": "The Fitbit app is no more. Along with the launch of the new Fitbit Air (which you can expect a full review of once we've spent more time with it), Google has officially replaced it with Google Health, as previously announced, and many of the responses we've seen so far are full of confusion, frustration, [&#8230;]",
       "publishedAt": "2026-05-26T19:00:15.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/937560/ge-profile-opal-ultra-nugget-ice-maker-deal-sale",
+      "title": "GE’s nugget ice maker is nearly half off if you buy it refurbished",
+      "url": "https://www.theverge.com/gadgets/937560/ge-profile-opal-ultra-nugget-ice-maker-deal-sale",
+      "summary": "If you’re looking for ways to make staying cool and hydrated easier this summer, Woot is currently selling a refurbished GE Profile Opal 2.0 Ultra Nugget Ice Maker for $264.99 through June 3rd. That’s $184 less than buying new at its full price, and comes with a 90-day warranty. If you want a brand new [&#8230;]",
+      "publishedAt": "2026-05-26T18:50:35.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"

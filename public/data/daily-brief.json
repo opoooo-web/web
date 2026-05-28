@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-05-28T04:44:11.288Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-05-28T08:54:22.033Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "Today's technology briefing reveals significant advancements in AI, with YouTube introducing custom AI video feeds and Cognition securing substantial funding for AI coding. Concurrently, the gaming industry is experiencing shifts, exemplified by changes in handheld gaming, while critical developments in environmental science, like NASA's new firefighter safety sensors, address pressing global challenges. Cybersecurity remains a key focus, as evidenced by successful efforts to dismantle botnets targeting open-source developers.",
   "highlights": [
     {
+      "title": "YouTube will let you ask AI to make a custom video feed",
+      "whyItMatters": "This innovation allows users to personalize content consumption, reflecting a growing trend in AI-driven media experiences.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/streaming/938759/youtube-custom-ai-feed-prompt-availability",
+      "category": "Technology",
+      "publishedAt": "2026-05-28T08:49:07.000Z"
+    },
+    {
+      "title": "Vertu wants CEOs to run companies from an AI foldable starting at $6,880",
+      "whyItMatters": "This signifies the emergence of ultra-premium, AI-integrated devices targeting executive productivity and luxury markets.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/28/vertu-wants-ceos-to-run-companies-from-an-ai-foldable-starting-at-6880",
+      "category": "Technology",
+      "publishedAt": "2026-05-28T07:00:00.000Z"
+    },
+    {
+      "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+      "whyItMatters": "This research explores novel computational approaches inspired by nature, potentially pushing the boundaries of AI capabilities beyond current paradigms.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot",
+      "category": "Developer",
+      "publishedAt": "2026-05-28T06:40:31.000Z"
+    },
+    {
+      "title": "The golden age of handheld gaming is already over",
+      "whyItMatters": "The shift in handheld gaming prices and market dynamics indicates evolving consumer preferences and technological trends in the gaming sector.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/games/938451/steam-deck-price-hike-end-of-handheld-gaming-era",
+      "category": "Technology",
+      "publishedAt": "2026-05-28T06:30:23.000Z"
+    },
+    {
       "title": "A Shift in What’s Shaping U.S. Landscapes",
-      "whyItMatters": "Wild disturbances are on the rise, while land disturbed by human activity has been decreasing.",
+      "whyItMatters": "Understanding the increasing impact of wild disturbances versus human activity is crucial for environmental policy and conservation efforts.",
       "sourceName": "NASA Breaking News",
       "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-shift-in-whats-shaping-u-s-landscapes",
       "category": "Science",
       "publishedAt": "2026-05-28T04:00:00.000Z"
     },
     {
-      "title": "Hallucinate – Massively Multiplayer Online Rave",
-      "whyItMatters": "Article URL: https://hallucinate.site Comments URL: https://news.ycombinator.com/item?id=48304260 Points: 19 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://hallucinate.site",
-      "category": "Developer",
-      "publishedAt": "2026-05-28T03:50:01.000Z"
-    },
-    {
-      "title": "RamAIn (YC W26) Is Hiring",
-      "whyItMatters": "Article URL: https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer Comments URL: https://news.ycombinator.com/item?id=48303599 Points: 0 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.ycombinator.com/companies/ramain/jobs/hqvmyKN-founding-gtm-engineer",
-      "category": "Developer",
-      "publishedAt": "2026-05-28T02:21:11.000Z"
-    },
-    {
-      "title": "Google employee charged with $1M Polymarket insider trading bet on search term",
-      "whyItMatters": "Article URL: https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html Comments URL: https://news.ycombinator.com/item?id=48302822 Points: 80 # Comments: 35",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.cnbc.com/2026/05/27/google-employee-polymarket-insider-trading.html",
-      "category": "Developer",
-      "publishedAt": "2026-05-28T00:49:58.000Z"
-    },
-    {
-      "title": "Google engineer charged with insider trading after making $1.2M on Polymarket",
-      "whyItMatters": "According to the complaint, a Google engineer risked over $2.7 million on wagers related to Google's 2025 Year in Search campaign.",
+      "title": "AI coding startup Cognition raises $1B at $25B pre-money valuation",
+      "whyItMatters": "This substantial funding highlights strong investor confidence and rapid growth in the AI-powered software development market.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/27/google-engineer-charged-with-insider-trading-after-making-1-2m-on-polymarket",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation",
       "category": "Technology",
-      "publishedAt": "2026-05-28T00:45:37.000Z"
+      "publishedAt": "2026-05-27T16:00:00.000Z"
     },
     {
-      "title": "Can we have the day off?",
-      "whyItMatters": "Article URL: https://mlsu.io/posts/day-off/ Comments URL: https://news.ycombinator.com/item?id=48302745 Points: 760 # Comments: 434",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://mlsu.io/posts/day-off",
-      "category": "Developer",
-      "publishedAt": "2026-05-28T00:40:26.000Z"
+      "title": "NASA Develops Sensor to Improve Firefighter Safety",
+      "whyItMatters": "New sensor technology from NASA enhances wildfire management and protects frontline personnel during critical operations.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/wildland-fire-management/nasa-develops-sensor-to-improve-firefighter-safety",
+      "category": "Science",
+      "publishedAt": "2026-05-27T21:45:25.000Z"
+    },
+    {
+      "title": "CrowdStrike and Google take down botnet used by hackers to target open source software developers",
+      "whyItMatters": "This collaborative effort demonstrates significant progress in combating sophisticated cyber threats against critical open-source infrastructure and developer communities.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/27/crowdstrike-and-google-take-down-botnet-used-by-hackers-to-target-software-developers-in-supply-chain-attacks",
+      "category": "Technology",
+      "publishedAt": "2026-05-27T16:59:19.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "114 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 114
+      "name": "AI Advancements & Applications",
+      "summary": "Recent developments showcase new AI capabilities in personalized content, executive tools, and coding, reflecting rapid innovation and significant investment.",
+      "itemCount": 3
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by TechCrunch.",
-      "itemCount": 50
+      "name": "Gaming Industry Trends",
+      "summary": "The handheld gaming market is experiencing notable shifts, impacting pricing and consumer interest in portable entertainment devices.",
+      "itemCount": 1
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Environmental Science & Technology",
+      "summary": "Key advancements in science address critical environmental issues, including landscape changes and enhanced safety for firefighters.",
+      "itemCount": 2
     },
     {
-      "name": "Infrastructure",
-      "summary": "26 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 26
-    },
-    {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Cybersecurity & Developer Tools",
+      "summary": "Efforts to combat botnets and secure open-source software highlight ongoing challenges and progress in protecting digital infrastructure.",
+      "itemCount": 2
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

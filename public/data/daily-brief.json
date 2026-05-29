@@ -1,93 +1,80 @@
 {
-  "generatedAt": "2026-05-28T12:46:16.949Z",
+  "generatedAt": "2026-05-29T08:53:13.491Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is buzzing with AI advancements and their varied impacts. While AI models like Gemini are integrating deeper into daily life through smart home automations and personalized content feeds, the enterprise sector is grappling with the significant costs and varying reliability of frontier LLMs. Alongside these developments, climate tech is seeing increased public investment, and debates around digital policy continue with major platforms facing regulatory fines.",
+  "narrative": "This daily brief synthesizes important signals across technology, AI, infrastructure, science, and developer domains, highlighting recent critical events and emerging trends that are shaping the future.",
   "highlights": [
     {
-      "title": "Five frontier LLMs disagree on 67% of 1k real-world fact-check claims",
-      "whyItMatters": "This reveals significant reliability concerns for advanced AI models in factual verification, prompting a need for improved accuracy.",
+      "title": "Blue Origin explosion is a major setback for NASA’s Moon plans and Amazon’s Starlink competitor",
+      "whyItMatters": "This development has significant implications for its respective field.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/science/939677/blue-origin-explosion-nasa-leo-setback-delays",
+      "category": "Technology",
+      "publishedAt": "2026-05-29T08:03:45.000Z"
+    },
+    {
+      "title": "US Military personnel are being targeted using location data",
+      "whyItMatters": "This development has significant implications for its respective field.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://lenz.io/research/llm-disagreement",
+      "sourceUrl": "https://www.reuters.com/business/media-telecom/pentagon-says-us-military-personnel-are-reportedly-being-targeted-using-location-2026-05-28",
       "category": "Developer",
-      "publishedAt": "2026-05-28T12:20:19.000Z"
+      "publishedAt": "2026-05-29T07:10:52.000Z"
     },
     {
-      "title": "The Download: climate tech goes public and the AI Hype Index returns",
-      "whyItMatters": "Climate tech companies are attracting significant public investment, signaling a growing market and focus on sustainable solutions.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index",
-      "category": "Science",
-      "publishedAt": "2026-05-28T12:10:00.000Z"
-    },
-    {
-      "title": "Oura unveils its Ring 5 with a thinner, lighter design starting at $399",
-      "whyItMatters": "Wearable technology continues to evolve towards more discreet and advanced health monitoring, appealing to a broader market.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/28/oura-unveils-its-ring-5-with-a-thinner-lighter-design-starting-at-399",
-      "category": "Technology",
-      "publishedAt": "2026-05-28T12:00:00.000Z"
-    },
-    {
-      "title": "Temu fined more than $230 million by EU over illegal product sales",
-      "whyItMatters": "This highlights increasing regulatory scrutiny on major e-commerce platforms to ensure compliance with digital services acts and consumer safety.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/policy/938792/temu-eu-dsa-fine-illegal-products",
-      "category": "Technology",
-      "publishedAt": "2026-05-28T11:47:40.000Z"
-    },
-    {
-      "title": "Gemini for Google Home can now use your cameras to trigger automations",
-      "whyItMatters": "The integration of advanced AI with smart home cameras enables more intelligent and proactive home automation features, enhancing user convenience and security.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/938771/google-home-gemini-ai-camera-automations",
-      "category": "Technology",
-      "publishedAt": "2026-05-28T11:07:17.000Z"
-    },
-    {
-      "title": "AI sticker shock hits corporate America",
-      "whyItMatters": "Companies are facing unexpectedly high costs for AI adoption, suggesting a need for more efficient and cost-effective AI solutions in the enterprise.",
+      "title": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
+      "whyItMatters": "This development has significant implications for its respective field.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
+      "sourceUrl": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code",
       "category": "Developer",
-      "publishedAt": "2026-05-28T10:39:32.000Z"
+      "publishedAt": "2026-05-29T07:05:31.000Z"
     },
     {
-      "title": "YouTube will let you ask AI to make a custom video feed",
-      "whyItMatters": "This feature signals a significant shift towards hyper-personalized content discovery powered by AI, potentially changing how users consume media.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/streaming/938759/youtube-custom-ai-feed-prompt-availability",
-      "category": "Technology",
-      "publishedAt": "2026-05-28T08:49:07.000Z"
+      "title": "Zot now supports Claude Opus 4.8",
+      "whyItMatters": "This development has significant implications for its respective field.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.zot.sh",
+      "category": "Developer",
+      "publishedAt": "2026-05-29T05:48:21.000Z"
     },
     {
-      "title": "NASA Develops Sensor to Improve Firefighter Safety",
-      "whyItMatters": "Technological advancements from space research are being applied to critical real-world problems like wildfire safety, demonstrating tangible benefits of scientific innovation.",
+      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
+      "whyItMatters": "This development has significant implications for its respective field.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
+      "category": "Developer",
+      "publishedAt": "2026-05-29T05:45:36.000Z"
+    },
+    {
+      "title": "Painting the Growing Season in the Maize Triangle",
+      "whyItMatters": "This development has significant implications for its respective field.",
       "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/wildland-fire-management/nasa-develops-sensor-to-improve-firefighter-safety",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/painting-the-growing-season-in-the-maize-triangle",
       "category": "Science",
-      "publishedAt": "2026-05-27T21:45:25.000Z"
+      "publishedAt": "2026-05-29T04:00:00.000Z"
+    },
+    {
+      "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
+      "whyItMatters": "This development has significant implications for its respective field.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/HeidiSQL/HeidiSQL",
+      "category": "Developer",
+      "publishedAt": "2026-05-29T03:14:39.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Advancements & Impact",
-      "summary": "Breakthroughs in AI are reshaping consumer experiences and enterprise operations, from smart home automation to coding agents, despite ongoing discussions about model reliability and economic implications.",
+      "name": "Technology",
+      "summary": "Key updates in the area of Technology.",
+      "itemCount": 1
+    },
+    {
+      "name": "Developer",
+      "summary": "Key updates in the area of Developer.",
       "itemCount": 5
     },
     {
-      "name": "Consumer Technology & Gadgets",
-      "summary": "The consumer electronics market continues to innovate with new wearable devices and integrated digital features, enhancing user interaction and experience.",
-      "itemCount": 2
-    },
-    {
-      "name": "Space & Environmental Science",
-      "summary": "Space agencies are making significant strides in understanding the cosmos and Earth's climate, with new missions and technologies addressing both cosmic phenomena and terrestrial environmental challenges.",
-      "itemCount": 2
-    },
-    {
-      "name": "Digital Economy & Policy",
-      "summary": "The digital landscape sees significant business developments and regulatory actions, particularly concerning e-commerce, data privacy, and the broader economic shifts influenced by AI.",
+      "name": "Science",
+      "summary": "Key updates in the area of Science.",
       "itemCount": 1
     }
   ],

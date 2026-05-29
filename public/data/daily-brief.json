@@ -1,81 +1,81 @@
 {
-  "generatedAt": "2026-05-29T08:53:13.491Z",
+  "generatedAt": "2026-05-29T12:28:54.408Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "This daily brief synthesizes important signals across technology, AI, infrastructure, science, and developer domains, highlighting recent critical events and emerging trends that are shaping the future.",
+  "narrative": "Today's technology brief highlights significant advancements in AI, from innovative hardware focusing on memory bottlenecks to practical prototypes developed by university labs and OpenAI's biodefense initiatives. The space sector faces a setback with a Blue Origin rocket explosion, impacting NASA's lunar ambitions, while NASA's X-59 prepares for its first supersonic flight. Global health remains a concern with the challenging Ebola outbreak.",
   "highlights": [
     {
+      "title": "Jony Ive’s funky Ferrari",
+      "whyItMatters": "Ferrari's first electric vehicle signals a new era for luxury automotive design and technology.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
+      "category": "Technology",
+      "publishedAt": "2026-05-29T12:25:12.000Z"
+    },
+    {
+      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+      "whyItMatters": "New investment targets memory as a critical bottleneck in AI, potentially reshaping future hardware development.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck",
+      "category": "Technology",
+      "publishedAt": "2026-05-29T12:00:00.000Z"
+    },
+    {
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "whyItMatters": "University students are developing practical AI prototypes, demonstrating innovation in education and work.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs",
+      "category": "AI",
+      "publishedAt": "2026-05-29T12:00:00.000Z"
+    },
+    {
+      "title": "The deadly Ebola outbreak is proving difficult to control",
+      "whyItMatters": "The ongoing Ebola outbreak poses a significant global health challenge, requiring sustained public health efforts.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control",
+      "category": "Science",
+      "publishedAt": "2026-05-29T11:19:52.000Z"
+    },
+    {
       "title": "Blue Origin explosion is a major setback for NASA’s Moon plans and Amazon’s Starlink competitor",
-      "whyItMatters": "This development has significant implications for its respective field.",
+      "whyItMatters": "A rocket explosion marks a significant setback for commercial spaceflight and ambitious lunar and satellite internet projects.",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/science/939677/blue-origin-explosion-nasa-leo-setback-delays",
       "category": "Technology",
       "publishedAt": "2026-05-29T08:03:45.000Z"
     },
     {
-      "title": "US Military personnel are being targeted using location data",
-      "whyItMatters": "This development has significant implications for its respective field.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.reuters.com/business/media-telecom/pentagon-says-us-military-personnel-are-reportedly-being-targeted-using-location-2026-05-28",
-      "category": "Developer",
-      "publishedAt": "2026-05-29T07:10:52.000Z"
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "whyItMatters": "OpenAI's new initiative uses AI to enhance biodefense and prepare for future public health challenges.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "category": "AI",
+      "publishedAt": "2026-05-29T03:00:00.000Z"
     },
     {
-      "title": "Undisclosed addition in jqwik instructed AI coding agents to delete app output",
-      "whyItMatters": "This development has significant implications for its respective field.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arstechnica.com/security/2026/05/fed-up-with-vibe-coders-dev-sneaks-data-nuking-prompt-injection-into-their-code",
-      "category": "Developer",
-      "publishedAt": "2026-05-29T07:05:31.000Z"
-    },
-    {
-      "title": "Zot now supports Claude Opus 4.8",
-      "whyItMatters": "This development has significant implications for its respective field.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.zot.sh",
-      "category": "Developer",
-      "publishedAt": "2026-05-29T05:48:21.000Z"
-    },
-    {
-      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
-      "whyItMatters": "This development has significant implications for its respective field.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
-      "category": "Developer",
-      "publishedAt": "2026-05-29T05:45:36.000Z"
-    },
-    {
-      "title": "Painting the Growing Season in the Maize Triangle",
-      "whyItMatters": "This development has significant implications for its respective field.",
+      "title": "NASA’s X-59 Prepares for First Supersonic Flight",
+      "whyItMatters": "NASA's X-59 quiet supersonic research aircraft is nearing its first supersonic flight, pushing boundaries in aviation.",
       "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/painting-the-growing-season-in-the-maize-triangle",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-x-59-prepares-for-first-supersonic-flight",
       "category": "Science",
-      "publishedAt": "2026-05-29T04:00:00.000Z"
-    },
-    {
-      "title": "HeidiSQL – Lightweight MariaDB, MySQL, SQL Server, PostgreSQL and SQLite Manager",
-      "whyItMatters": "This development has significant implications for its respective field.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/HeidiSQL/HeidiSQL",
-      "category": "Developer",
-      "publishedAt": "2026-05-29T03:14:39.000Z"
+      "publishedAt": "2026-05-28T22:29:20.000Z"
     }
   ],
   "topics": [
     {
       "name": "Technology",
-      "summary": "Key updates in the area of Technology.",
-      "itemCount": 1
+      "summary": "Recent developments in AI hardware, electric vehicles, and significant events in space technology and gaming handhelds.",
+      "itemCount": 3
     },
     {
-      "name": "Developer",
-      "summary": "Key updates in the area of Developer.",
-      "itemCount": 5
+      "name": "AI",
+      "summary": "Innovations in AI prototypes, biodefense applications, and the strategic importance of AI in various sectors.",
+      "itemCount": 2
     },
     {
       "name": "Science",
-      "summary": "Key updates in the area of Science.",
-      "itemCount": 1
+      "summary": "Updates on a deadly Ebola outbreak and advancements in aeronautical engineering with NASA's X-59.",
+      "itemCount": 2
     }
   ],
   "notes": []

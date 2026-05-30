@@ -1,80 +1,93 @@
 {
-  "generatedAt": "2026-05-29T12:28:54.408Z",
+  "generatedAt": "2026-05-30T10:19:01.794Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's technology brief highlights significant advancements in AI, from innovative hardware focusing on memory bottlenecks to practical prototypes developed by university labs and OpenAI's biodefense initiatives. The space sector faces a setback with a Blue Origin rocket explosion, impacting NASA's lunar ambitions, while NASA's X-59 prepares for its first supersonic flight. Global health remains a concern with the challenging Ebola outbreak.",
+  "narrative": "Today's top tech news highlights significant advancements in AI, space exploration, and developer tools. Companies like NVIDIA and Google are pushing the boundaries of AI with new models and hardware, while SpaceX continues to secure major contracts and NASA makes strides in telescope and Mars rover missions. The developer community also sees innovation with new build systems and open-source security solutions.",
   "highlights": [
     {
-      "title": "Jony Ive’s funky Ferrari",
-      "whyItMatters": "Ferrari's first electric vehicle signals a new era for luxury automotive design and technology.",
+      "title": "Nvidia, Microsoft, and Arm tease new N1X laptop processors",
+      "whyItMatters": "This signals a major push for Arm-powered laptops with enhanced AI capabilities, potentially reshaping the PC market.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
+      "sourceUrl": "https://www.theverge.com/news/940275/nvidia-n1x-laptop-processor-arm-microsoft-teaser",
       "category": "Technology",
-      "publishedAt": "2026-05-29T12:25:12.000Z"
+      "publishedAt": "2026-05-29T23:03:29.000Z"
     },
     {
-      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
-      "whyItMatters": "New investment targets memory as a critical bottleneck in AI, potentially reshaping future hardware development.",
+      "title": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
+      "whyItMatters": "Securing substantial government contracts demonstrates strong financial backing and strategic importance for SpaceX's future, especially before its anticipated IPO.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo",
       "category": "Technology",
-      "publishedAt": "2026-05-29T12:00:00.000Z"
+      "publishedAt": "2026-05-29T22:21:38.000Z"
     },
     {
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "whyItMatters": "University students are developing practical AI prototypes, demonstrating innovation in education and work.",
-      "sourceName": "Google AI",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs",
-      "category": "AI",
-      "publishedAt": "2026-05-29T12:00:00.000Z"
-    },
-    {
-      "title": "The deadly Ebola outbreak is proving difficult to control",
-      "whyItMatters": "The ongoing Ebola outbreak poses a significant global health challenge, requiring sustained public health efforts.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control",
-      "category": "Science",
-      "publishedAt": "2026-05-29T11:19:52.000Z"
-    },
-    {
-      "title": "Blue Origin explosion is a major setback for NASA’s Moon plans and Amazon’s Starlink competitor",
-      "whyItMatters": "A rocket explosion marks a significant setback for commercial spaceflight and ambitious lunar and satellite internet projects.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/science/939677/blue-origin-explosion-nasa-leo-setback-delays",
-      "category": "Technology",
-      "publishedAt": "2026-05-29T08:03:45.000Z"
-    },
-    {
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "whyItMatters": "OpenAI's new initiative uses AI to enhance biodefense and prepare for future public health challenges.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "category": "AI",
-      "publishedAt": "2026-05-29T03:00:00.000Z"
-    },
-    {
-      "title": "NASA’s X-59 Prepares for First Supersonic Flight",
-      "whyItMatters": "NASA's X-59 quiet supersonic research aircraft is nearing its first supersonic flight, pushing boundaries in aviation.",
+      "title": "NASA Awards Contract for Johnson Space Center Infrastructure",
+      "whyItMatters": "This significant investment in infrastructure at Johnson Space Center will support future space missions and research.",
       "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-x-59-prepares-for-first-supersonic-flight",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-johnson-space-center-infrastructure",
       "category": "Science",
-      "publishedAt": "2026-05-28T22:29:20.000Z"
+      "publishedAt": "2026-05-29T21:24:11.000Z"
+    },
+    {
+      "title": "Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
+      "whyItMatters": "This open-source project offers a new solution for efficient large language model inference, beneficial for AI developers.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/jmaczan/tiny-vllm",
+      "category": "Developer",
+      "publishedAt": "2026-05-29T19:38:27.000Z"
+    },
+    {
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "whyItMatters": "Google showcases the advanced capabilities of its latest AI models, Gemini Omni and 3.5, indicating progress in AI development.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos",
+      "category": "AI",
+      "publishedAt": "2026-05-29T17:30:00.000Z"
+    },
+    {
+      "title": "Microsoft under fire for threatening security researcher with criminal investigation",
+      "whyItMatters": "This incident highlights ongoing tensions between tech giants and security researchers regarding responsible disclosure and software security.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation",
+      "category": "Technology",
+      "publishedAt": "2026-05-29T17:03:39.000Z"
+    },
+    {
+      "title": "Startup offers free home cleaning—if it can record it all for robot training",
+      "whyItMatters": "This innovative approach to data collection for robot training raises questions about privacy and the future of service automation.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home",
+      "category": "Technology",
+      "publishedAt": "2026-05-29T16:16:14.000Z"
+    },
+    {
+      "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+      "whyItMatters": "A prominent figure in AI coding agents emphasizes collaboration over replacement, shaping the ongoing debate about AI's role in software development.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans",
+      "category": "Technology",
+      "publishedAt": "2026-05-29T16:13:47.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Technology",
-      "summary": "Recent developments in AI hardware, electric vehicles, and significant events in space technology and gaming handhelds.",
-      "itemCount": 3
+      "name": "AI Advancement & Integration",
+      "summary": "Google unveils new Gemini models and NVIDIA's CPU shows strong AI performance, while AI coding agents and robot training data collection raise questions about their societal and industry impact.",
+      "itemCount": 4
     },
     {
-      "name": "AI",
-      "summary": "Innovations in AI prototypes, biodefense applications, and the strategic importance of AI in various sectors.",
+      "name": "Space & Infrastructure",
+      "summary": "SpaceX secures significant government contracts, and NASA invests in critical space center infrastructure and continues its deep space exploration.",
       "itemCount": 2
     },
     {
-      "name": "Science",
-      "summary": "Updates on a deadly Ebola outbreak and advancements in aeronautical engineering with NASA's X-59.",
+      "name": "Developer Tools & Open Source",
+      "summary": "New high-performance LLM inference engines and open-source security camera systems are emerging, providing advanced tools for developers.",
+      "itemCount": 2
+    },
+    {
+      "name": "Tech & Policy Concerns",
+      "summary": "Microsoft faces scrutiny for its interactions with security researchers, and a botnet of 17 million devices is dismantled, highlighting persistent cybersecurity threats.",
       "itemCount": 2
     }
   ],

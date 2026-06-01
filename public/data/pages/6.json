@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders",
+      "title": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders",
+      "summary": "At this year’s Google I/O conference, NVIDIA and Google Cloud are accelerating the work of more than 100,000 developers in the companies’ joint developer community, which provides curated learning paths, hands-on labs and events that help them build using the full-stack NVIDIA AI platform on Google Cloud. Launched at Google I/O last year, the community [&#8230;]",
+      "publishedAt": "2026-05-19T20:30:09.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-openai-for-singapore",
+      "title": "Introducing OpenAI for Singapore",
+      "url": "https://openai.com/index/introducing-openai-for-singapore",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "publishedAt": "2026-05-19T20:30:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "summary": "",
+      "publishedAt": "2026-05-19T18:38:09.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
       "id": "google-ai:https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
       "title": "How AI Mode is changing the way people search in the U.S.",
       "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
@@ -205,30 +235,10 @@
       "category": "Developer"
     },
     {
-      "id": "openai-news:https://openai.com/index/databricks",
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "url": "https://openai.com/index/databricks",
-      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "title": "How sales teams use Codex",
       "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
       "summary": "See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "publishedAt": "2026-05-15T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "title": "How data science teams use Codex",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -245,10 +255,30 @@
       "category": "AI"
     },
     {
+      "id": "openai-news:https://openai.com/index/databricks",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "url": "https://openai.com/index/databricks",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "title": "How business operations teams use Codex",
       "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
       "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "publishedAt": "2026-05-15T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "title": "How data science teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -273,36 +303,6 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/sea-david-chen",
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "url": "https://openai.com/index/sea-david-chen",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "publishedAt": "2026-05-14T20:30:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
-      "summary": "",
-      "publishedAt": "2026-05-14T18:55:01.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-subnautica-2",
-      "title": "Sea You in the Cloud: ‘Subnautica 2’ Early Access Dives Onto GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-subnautica-2",
-      "summary": "Editor&#8217;s note: The Gaijin single sign-on feature is now up and running. Dive masks on — Subnautica 2 is making a splash on GeForce NOW day-and-date with launch, so members can plunge into the title’s brand-new alien ocean from almost any device. It leads 11 new games joining the cloud this week. A limited-time HITMAN [&#8230;]",
-      "publishedAt": "2026-05-14T13:00:08.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
     }
   ]
 }

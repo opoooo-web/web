@@ -1,102 +1,95 @@
 {
-  "generatedAt": "2026-06-02T11:44:36.557Z",
+  "generatedAt": "2026-06-02T16:56:58.644Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech world is buzzing with AI advancements, ranging from agentic AI in healthcare and physical systems to significant investments in AI infrastructure by giants like Alphabet. Amidst this innovation, security concerns arise with Meta's AI chatbot being exploited to hijack Instagram accounts. Major players like Microsoft and Anthropic are also making headlines with their annual conferences and IPO filings, respectively.",
+  "narrative": "This daily brief highlights significant advancements in AI, developer tools, and space exploration. Key announcements include Microsoft's new developer-focused hardware and Windows enhancements, alongside OpenAI's expanded Codex tools for enterprise. Efforts to ensure AI safety and secure critical infrastructure are also prominent, with NASA pushing forward on lunar base technology.",
   "highlights": [
     {
-      "title": "Rehumanizing global health care with agentic AI",
-      "whyItMatters": "Agentic AI is being explored as a solution to address increasing strain and underinvestment in global healthcare, aiming to improve fragmented access to care and reduce staff burnout.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/06/02/1137827/rehumanizing-global-health-care-with-agentic-ai",
-      "category": "Science",
-      "publishedAt": "2026-06-02T11:23:34.000Z"
-    },
-    {
-      "title": "How to watch Microsoft’s Build 2026 conference",
-      "whyItMatters": "Microsoft's annual Build conference is a key event for developers to learn about the latest innovations, especially with its timing between Google I/O and Apple's WWDC.",
+      "title": "Microsoft created the mini Surface dev box that Qualcomm couldn't",
+      "whyItMatters": "Microsoft introduces a new mini PC aimed at developers, powered by Nvidia's Arm-based RTX Spark chips, optimized for sustained workloads and local AI tasks.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/941379/microsoft-build-conference-2026-how-to-watch-livestream",
+      "sourceUrl": "https://www.theverge.com/news/941271/microsoft-surface-rtx-spark-dev-box-specs-availability",
       "category": "Technology",
-      "publishedAt": "2026-06-02T11:00:00.000Z"
+      "publishedAt": "2026-06-02T16:30:00.000Z"
     },
     {
-      "title": "Pacific Fusion’s latest prototype packs 440 gigawatts into an 80-nanosecond burst",
-      "whyItMatters": "This significant power output in a sub-scale prototype marks a crucial step for Pacific Fusion towards a demonstration power plant, indicating potential breakthroughs in energy technology.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/02/pacific-fusions-latest-prototype-packs-440-gigawatts-into-an-80-nanosecond-burst",
+      "title": "Microsoft’s new developer-optimized Windows embraces Linux even more",
+      "whyItMatters": "Microsoft's Build conference highlights a developer-focused Windows experience with enhanced Linux integration and performance.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/news/941314/microsoft-windows-11-developer-optimized-experience-linux",
       "category": "Technology",
-      "publishedAt": "2026-06-02T11:00:00.000Z"
+      "publishedAt": "2026-06-02T16:30:00.000Z"
+    },
+    {
+      "title": "OpenAI launches new Codex tools for white-collar work",
+      "whyItMatters": "OpenAI expands Codex's capabilities for enterprise users, focusing on knowledge work and workplace applications.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work",
+      "category": "Technology",
+      "publishedAt": "2026-06-02T16:00:00.000Z"
+    },
+    {
+      "title": "NASA Testing Wastewater Treatment Facility for Future Moon Base",
+      "whyItMatters": "NASA is testing a mobile wastewater treatment system for future long-duration missions on the Moon and Mars, a critical step for sustainable space exploration.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-testing-wastewater-treatment-facility-for-future-moon-base",
+      "category": "Science",
+      "publishedAt": "2026-06-02T14:31:18.000Z"
+    },
+    {
+      "title": "Anthropic scales Claude Mythos to critical infrastructure in 15+ countries",
+      "whyItMatters": "Anthropic is expanding its security vulnerability program and access to Mythos for critical infrastructure protection, emphasizing AI's role in cybersecurity.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries",
+      "category": "Technology",
+      "publishedAt": "2026-06-02T14:44:21.000Z"
+    },
+    {
+      "title": "ZeroDrift raises $10M to protect AI models from themselves",
+      "whyItMatters": "A new AI compliance service aims to safeguard AI models by flagging and replacing messages that might pose compliance issues.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves",
+      "category": "Technology",
+      "publishedAt": "2026-06-02T12:32:59.000Z"
     },
     {
       "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
-      "whyItMatters": "NVIDIA's Jetson platform is expanding agentic AI capabilities to physical systems, enabling more sophisticated and autonomous real-world applications.",
+      "whyItMatters": "NVIDIA announces JetPack 7.2 and NemoClaw support on Jetson, bringing agentic AI skills and performance gains to physical AI applications.",
       "sourceName": "NVIDIA Blog",
       "sourceUrl": "https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world",
       "category": "AI",
       "publishedAt": "2026-06-02T02:00:40.000Z"
     },
     {
-      "title": "Codex is becoming a productivity tool for everyone",
-      "whyItMatters": "OpenAI's Codex is transforming knowledge work by leveraging AI for research, data analysis, workflow automation, and content creation, making it a universal productivity tool.",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "whyItMatters": "OpenAI outlines its governance framework, aligning AI safety, security, and risk practices with emerging regulations.",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/codex-for-knowledge-work",
+      "sourceUrl": "https://openai.com/index/openai-frontier-governance-framework",
       "category": "AI",
-      "publishedAt": "2026-06-02T02:00:00.000Z"
-    },
-    {
-      "title": "Alphabet plans to raise $80B to pay for AI buildout",
-      "whyItMatters": "Alphabet's substantial capital raise underscores the massive investment and increasing demand for AI solutions and infrastructure across enterprises and consumers.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout",
-      "category": "Technology",
-      "publishedAt": "2026-06-01T22:55:09.000Z"
-    },
-    {
-      "title": "Hackers duped Meta AI support chatbot to steal celebrity Instagram accounts",
-      "whyItMatters": "This incident highlights critical security vulnerabilities in AI-powered support systems and the potential for malicious exploitation of AI agents to compromise user accounts.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/06/meta-ai-support-chatbot-gave-hackers-access-to-notable-instagram-accounts",
-      "category": "Technology",
-      "publishedAt": "2026-06-01T20:44:37.000Z"
-    },
-    {
-      "title": "Anthropic has officially filed to go public",
-      "whyItMatters": "Anthropic's IPO filing is a significant milestone for a major AI powerhouse, setting the stage for a potentially massive public offering in the rapidly evolving AI market.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
-      "category": "Technology",
-      "publishedAt": "2026-06-01T16:40:38.000Z"
+      "publishedAt": "2026-05-28T00:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence (AI)",
-      "summary": "AI continues to expand its reach, with advancements in agentic AI for healthcare and physical systems, new models for enterprise, significant infrastructure investments, and ongoing discussions about AI policy and ethics.",
-      "itemCount": 27
+      "name": "AI Development & Deployment",
+      "summary": "Focuses on new AI tools, agentic AI, and enterprise adoption, including compliance and governance.",
+      "itemCount": 4
     },
     {
-      "name": "Technology Innovations",
-      "summary": "From new hardware like Nvidia's RTX Spark PCs and Google Pixel Watch 5 to major tech conferences and startup valuations, the technology sector sees continuous innovation and market activity.",
-      "itemCount": 18
+      "name": "Space & Science Exploration",
+      "summary": "Advances in space technology and scientific research for future missions.",
+      "itemCount": 2
     },
     {
-      "name": "Space & Science",
-      "summary": "NASA's ongoing missions, including spacewalk training and telescope arrivals, alongside scientific discoveries like lithium extraction and insights into Ebola outbreaks, highlight continuous exploration and research.",
-      "itemCount": 14
+      "name": "Developer Tools & Platforms",
+      "summary": "Innovations in development environments, coding agents, and related infrastructure.",
+      "itemCount": 2
     },
     {
-      "name": "Developer Tools & Security",
-      "summary": "Developers are exploring new coding techniques and tools, while the industry grapples with significant security challenges, including supply chain attacks and AI-driven account hijacking.",
-      "itemCount": 20
-    },
-    {
-      "name": "Cloud & Infrastructure",
-      "summary": "Major cloud providers like AWS and Cloudflare are introducing next-generation services, optimizing performance, and building new data platforms to support agentic AI applications and critical enterprise workloads.",
-      "itemCount": 10
+      "name": "Cybersecurity & AI Safety",
+      "summary": "Addressing security vulnerabilities and implementing safe AI practices.",
+      "itemCount": 2
     }
   ],
-  "notes": [
-    "XAI_API_KEY not configured"
-  ]
+  "notes": []
 }

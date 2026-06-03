@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections",
+      "title": "Trump signs narrower executive order on AI oversight after industry objections",
+      "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections",
+      "summary": "After industry objections, President Trump signed a revised AI executive order requiring only voluntary prerelease government reviews of advanced models.",
+      "publishedAt": "2026-06-02T16:23:08.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gaming/2026/06/why-a-neo-geo-port-of-doom-is-functionally-impossible",
+      "title": "Why a Neo Geo port of Doom is functionally impossible",
+      "url": "https://arstechnica.com/gaming/2026/06/why-a-neo-geo-port-of-doom-is-functionally-impossible",
+      "summary": "Sprite-based graphics architecture makes first-person 3D a challenge.",
+      "publishedAt": "2026-06-02T16:19:34.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/look-up",
+      "title": "Look Up!",
+      "url": "https://www.nasa.gov/image-article/look-up",
+      "summary": "Astronauts Sophie Adenot of ESA (European Space Agency) and Jack Hathaway of NASA, both Expedition 74 flight engineers, look out a window in the cupola, monitoring the automated approach and docking of the SpaceX Dragon cargo spacecraft to the International Space Station on May 17, 2026. The orbital outpost was soaring 259 miles above the [&#8230;]",
+      "publishedAt": "2026-06-02T16:06:20.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/space/2026/06/another-falcon-9-lookalike-joins-chinas-growing-roster-of-rockets",
       "title": "In a surprise launch, China debuts another big rocket designed for reusability",
       "url": "https://arstechnica.com/space/2026/06/another-falcon-9-lookalike-joins-chinas-growing-roster-of-rockets",
@@ -13,16 +43,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://github.com/shiihaa-app/shiihaa-breath-detection",
-      "title": "Show HN: Live breath detection and biofeedback from a phone microphone",
-      "url": "https://github.com/shiihaa-app/shiihaa-breath-detection",
-      "summary": "Hi everyone, I am Felix, a famliy doctor from ZH, Switzerland. A couple of month ago I started this little project called shii • haa, a breathing app that uses the phone`s microphone for live biofeedback My prior work in emergency medicine and intensive care was closesly linked to breathing, mostly in critical situations... and let me to reevaluate my own way of breathing. over time one question popped into my mind: can medical knowledge and biofeedback make an app actually promote self-awareness instead of attaching your goals to the award system of the app. it combines signal processing, a breathing state machine and ML. The state machine follows inhale, exhale and transitions in the mic signal. A quality layer rejects noisy or ambiguous windows before signals are used for feedback. All processing is done on-device, no speech or raw audio is uploaded. What I'm trying to avoid is turning breathing into another score or game. The app gives feedback on rhythm, depth and regularity, but the point is more \"notice what you are doing\" than \"perform well\". I'd be interested in feedback, especially from people who have worked on signal processing, health UX, or Android/iOS audio issues. Comments URL: https://news.ycombinator.com/item?id=48372036 Points: 43 # Comments: 14",
-      "publishedAt": "2026-06-02T16:02:47.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work",
@@ -92,16 +112,6 @@
       "publishedAt": "2026-06-02T14:49:05.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/02/x-caters-to-creators-with-new-react-with-video-feature",
-      "title": "X caters to creators with new &#8216;React with Video&#8217; feature",
-      "url": "https://techcrunch.com/2026/06/02/x-caters-to-creators-with-new-react-with-video-feature",
-      "summary": "X will now let you 'react with video' to posts.",
-      "publishedAt": "2026-06-02T14:46:28.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -293,16 +303,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
-      "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
-      "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock",
-      "summary": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are now generally available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security, governance, and pay-per-token pricing.",
-      "publishedAt": "2026-06-01T21:33:28.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

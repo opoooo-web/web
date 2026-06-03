@@ -5,20 +5,80 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "openai-news:https://openai.com/index/virgin-atlantic",
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "url": "https://openai.com/index/virgin-atlantic",
-      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-local-zones-in-istanbul-open-source-extenddb-kiro-web-and-more-may-25-2026",
+      "title": "AWS Weekly Roundup: AWS Local Zones in Istanbul, open-source ExtendDB, Kiro Web, and more (May 25, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-local-zones-in-istanbul-open-source-extenddb-kiro-web-and-more-may-25-2026",
+      "summary": "There’s something genuinely energizing about working with startups — something I’ve been doing intensely for more than two years now. Startups operate at a different frequency: the urgency is real, the constraints are tight, and the stakes are personal. Helping them navigate the challenge of proving their business model requires not just technical depth but […]",
+      "publishedAt": "2026-05-25T20:11:10.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "github-blog:https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code",
+      "title": "GitHub for Beginners: Getting started with Git and GitHub in VS Code",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code",
+      "summary": "Discover how to use VS Code to interact with GitHub and maintain your projects. The post GitHub for Beginners: Getting started with Git and GitHub in VS Code appeared first on The GitHub Blog .",
+      "publishedAt": "2026-05-25T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/agent-glossary",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "summary": "",
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap",
+      "summary": "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity.",
+      "publishedAt": "2026-05-22T18:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row",
+      "title": "GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row",
+      "summary": "We are committed to empowering every developer by building an open, secure, and AI-powered platform that defines the future of software development. The post GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a row appeared first on The GitHub Blog .",
+      "publishedAt": "2026-05-22T16:10:21.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
     },
     {
       "id": "openai-news:https://openai.com/index/gartner-2026-agentic-coding-leader",
       "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
       "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "publishedAt": "2026-05-22T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/virgin-atlantic",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "url": "https://openai.com/index/virgin-atlantic",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
       "publishedAt": "2026-05-22T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -125,16 +185,6 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/ramp",
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "url": "https://openai.com/index/ramp",
-      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "publishedAt": "2026-05-20T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/index/model-disproves-discrete-geometry-conjecture",
       "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
       "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
@@ -149,6 +199,16 @@
       "title": "The next phase of OpenAI’s Education for Countries",
       "url": "https://openai.com/index/the-next-phase-of-education-for-countries",
       "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "publishedAt": "2026-05-20T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/ramp",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "url": "https://openai.com/index/ramp",
+      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
       "publishedAt": "2026-05-20T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -242,66 +302,6 @@
       "publishedAt": "2026-05-19T17:45:00.000Z",
       "sourceId": "google-ai",
       "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
-      "title": "I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
-      "summary": "At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
-      "publishedAt": "2026-05-19T17:45:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/claude-managed-agents",
-      "title": "Announcing Claude Managed Agents on Cloudflare",
-      "url": "https://blog.cloudflare.com/claude-managed-agents",
-      "summary": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools and runtimes.",
-      "publishedAt": "2026-05-19T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/advancing-content-provenance",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "url": "https://openai.com/index/advancing-content-provenance",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "publishedAt": "2026-05-19T10:45:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/ettin-reranker",
-      "title": "Introducing the Ettin Reranker Family",
-      "url": "https://huggingface.co/blog/ettin-reranker",
-      "summary": "",
-      "publishedAt": "2026-05-19T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai",
-      "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: ‘Demand Is Going Parabolic, Utterly Parabolic’",
-      "url": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai",
-      "summary": "Agentic AI inference at one-tenth the cost per token with NVIDIA Vera Rubin NVL72. Agent sandboxes run 50% faster on NVIDIA Vera than traditional CPUs — while enterprise data queries are up to 3x faster with the Vera CPU. And 5,000 enterprises like Lilly, Samsung and Honeywell are running AI workloads on Dell AI Factories [&#8230;]",
-      "publishedAt": "2026-05-18T22:28:59.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/vera-cpu-delivery",
-      "title": "Vera Arrives: NVIDIA’s First CPU Built for Agents Lands at Top AI Labs",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery",
-      "summary": "The first NVIDIA Vera CPUs arrived at three of the world's leading AI labs on Friday — Anthropic in San Francisco, OpenAI in Mission Bay, SpaceXAI in Palo Alto — followed by a delivery to Oracle Cloud Infrastructure in Santa Clara on Monday. NVIDIA Vice President of Hyperscale and High-Performance Computing Ian Buck hand-delivered them.",
-      "publishedAt": "2026-05-18T21:48:17.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
       "category": "AI"
     }
   ]

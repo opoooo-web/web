@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+      "title": "I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+      "summary": "At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
+      "publishedAt": "2026-05-19T17:45:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/claude-managed-agents",
+      "title": "Announcing Claude Managed Agents on Cloudflare",
+      "url": "https://blog.cloudflare.com/claude-managed-agents",
+      "summary": "Cloudflare has integrated with Anthropic's Claude Managed Agents to provide a fast, isolated execution environment for autonomous code delivery. This means builders can scale agent workflows globally while strictly controlling access to private backends and easily customizing their agent’s tools and runtimes.",
+      "publishedAt": "2026-05-19T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/advancing-content-provenance",
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "url": "https://openai.com/index/advancing-content-provenance",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+      "publishedAt": "2026-05-19T10:45:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/ettin-reranker",
+      "title": "Introducing the Ettin Reranker Family",
+      "url": "https://huggingface.co/blog/ettin-reranker",
+      "summary": "",
+      "publishedAt": "2026-05-19T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026",
       "title": "AWS Weekly Roundup: AWS Transform at 1 year, Claude Platform on AWS, EC2 M3 Ultra Mac instances, and more (May 18, 2026)",
       "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-transform-at-1-year-claude-platform-on-aws-ec2-m3-ultra-mac-instances-and-more-may-18-2026",
@@ -85,20 +125,20 @@
       "category": "Developer"
     },
     {
-      "id": "openai-news:https://openai.com/index/personal-finance-chatgpt",
-      "title": "A new personal finance experience in ChatGPT",
-      "url": "https://openai.com/index/personal-finance-chatgpt",
-      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "id": "openai-news:https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "title": "How business operations teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
+      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "title": "How data science teams use Codex",
-      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "id": "openai-news:https://openai.com/index/personal-finance-chatgpt",
+      "title": "A new personal finance experience in ChatGPT",
+      "url": "https://openai.com/index/personal-finance-chatgpt",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -125,10 +165,10 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "title": "How business operations teams use Codex",
-      "url": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
+      "id": "openai-news:https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "title": "How data science teams use Codex",
+      "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
       "publishedAt": "2026-05-15T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -263,46 +303,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/what-parameter-golf-taught-us",
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "url": "https://openai.com/index/what-parameter-golf-taught-us",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/nvidia",
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "url": "https://openai.com/index/nvidia",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/autoscout24",
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "url": "https://openai.com/index/autoscout24",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "publishedAt": "2026-05-12T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "title": "Building Blocks for Foundation Model Training and Inference on AWS",
-      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
-      "summary": "",
-      "publishedAt": "2026-05-11T23:18:26.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     }
   ]
 }

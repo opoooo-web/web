@@ -48,7 +48,7 @@
       "id": "hacker-news:https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released",
       "title": "Elixir v1.20: Now a gradually typed language",
       "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released",
-      "summary": "Article URL: https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/ Comments URL: https://news.ycombinator.com/item?id=48388324 Points: 641 # Comments: 238",
+      "summary": "Article URL: https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/ Comments URL: https://news.ycombinator.com/item?id=48388324 Points: 745 # Comments: 269",
       "publishedAt": "2026-06-03T19:02:26.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,18 +98,8 @@
       "id": "hacker-news:https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378",
       "title": "Artificial intelligence is not conscious – Ted Chiang",
       "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378",
-      "summary": "https://web.archive.org/web/20260603173839/https://www.theat... https://archive.is/bcpZl Comments URL: https://news.ycombinator.com/item?id=48387270 Points: 323 # Comments: 575",
+      "summary": "https://web.archive.org/web/20260603173839/https://www.theat... https://archive.is/bcpZl Comments URL: https://news.ycombinator.com/item?id=48387270 Points: 412 # Comments: 730",
       "publishedAt": "2026-06-03T17:51:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes",
-      "title": "Embryos shape their limbs: a key discovery of \"genetic brakes\"",
-      "url": "https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes",
-      "summary": "Article URL: https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes Comments URL: https://news.ycombinator.com/item?id=48387251 Points: 63 # Comments: 5",
-      "publishedAt": "2026-06-03T17:50:16.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -128,7 +118,7 @@
       "id": "hacker-news:https://news.ycombinator.com/item?id=48387095",
       "title": "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
       "url": "https://news.ycombinator.com/item?id=48387095",
-      "summary": "Hey HN, we’re Shalin & Kanyes, best friends who've been hacking together for 10+yrs, and now founders of Hyper ( https://heyhyper.ai/ ). Hyper is a shared “company brain” that plugs into information flowing inside a company to make AI agents and automations better and ultimately save people time. Models have gotten good enough that they can (mostly) take on long-horizon, complex tasks. We believe the bottleneck now is that these smart-enough models often lack information about your company, which is scattered in people's heads, Slack threads, stale docs, and in back-and-forth convos with AI. MCP is useful for getting some info in front of an agent, but there are problems: (1) Once the session dies, so does the insight, so instead of copy-pasting a whole doc each time you're telling the agent to dig through Drive each time - not much of a win; (2) Even when MCP works, what it gathers isn't comprehensive, because people decide things on a whiteboard, brainstorm out loud, post a little in Slack, and scribble the rest in a doc, which leaves the agent working from partial information; (3) And even if it had everything, it doesn't do the meta-reasoning required to do a great job. If you paste in a Notion doc and it won't learn your design taste or your writing style unless you tell it to, and it won't know why a decision was made or when. As undergrads 5 years ago, we were into the tools-for-thought wave and became power users of Notion, Obsidian, Roam, Anki, real believers in building a second brain. After GPT-3.5 came out we started to realize how much more powerful that second brain could be if an AI could actually read it, because suddenly it would know our backstory, our taste, our preferences, and unlock genuinely new capabilities. That’s why we’re building Hyper. We know it’s not for everybody! But for people who do want to be on the cutting edge, this is a force multiplier that makes agents faster and better. It increases the number of tasks they can do, and how effectively they do them. Hyper works by ingesting everything you give it access to, Docs, Slack, Email, Calendar, Granola, and synthesizes it into a knowledge graph of facts and their relationships with embeddings for semantic search. The memory system we’ve built is hybrid, with two modalities. Episodes are the raw source items kept as the source of truth. Facts are the meaning pulled out of each episode, stored as subject-predicate-object records with a plain summary and timestamps for when the fact was introduced and when it was invalidated (subject=person, predicate=works_at, object=company). Facts form a graph with typed edges between them: X is in tension with Y, A is derived from B, J supersedes K. Every time a new fact comes in we update the facts in its neighborhood, so the graph stays current, and that's how we handle stale information. When \"we'll ship Friday\" is later contradicted by \"we're shipping Monday,\" the new fact supersedes the old one instead of both looking equally true, and we never auto-discard the superseded version, so you can still ask how you landed on Monday. Every fact carries provenance back to its source and access-control tags for who is allowed to see it. At retrieval we query-expand, then fuse semantic search over embeddings with Postgres full-text search using reciprocal rank fusion, and we only ever evaluate a query against the facts and episodes that person has access to, which means two people on the same team can ask the same question and get different answers. We keep information fresh with webhooks where they exist and polling where they don't, hashing contents to catch changes for sources that don’t handle native dedupe. Agents read and write through two paths: lifecycle hooks in tools like Claude Code, Cowork, Codex, and Cursor, where we inject relevant context on every prompt and pull interesting facts out of every response, and plain MCP tool calls for everything that doesn't expose hooks. We love it! and so do our early users: one CEO uses Hyper to draft emails in his voice with full company context. What took hours/week now takes minutes and gets sharper each time Hyper learns more how he thinks and how his company is changing. Another YC founder one-shotted a launch video script because Hyper already knew their product, voice, positioning accumulated over months. We have a 3-day free trial, explained more on our pricing page ( https://heyhyper.ai/pricing ) and there are more details in our FAQ ( https://heyhyper.ai/faq ), including things like privacy, compliance, and how we’re different from other “memory” companies.. Give it a spin! break it! and tell us where it falls short: https://heyhyper.ai/ . We'd love to build you a 10-star experience :) Comments welcome! Comments URL: https://news.ycombinator.com/item?id=48387095 Points: 58 # Comments: 58",
+      "summary": "Hey HN, we’re Shalin & Kanyes, best friends who've been hacking together for 10+yrs, and now founders of Hyper ( https://heyhyper.ai/ ). Hyper is a shared “company brain” that plugs into information flowing inside a company to make AI agents and automations better and ultimately save people time. Models have gotten good enough that they can (mostly) take on long-horizon, complex tasks. We believe the bottleneck now is that these smart-enough models often lack information about your company, which is scattered in people's heads, Slack threads, stale docs, and in back-and-forth convos with AI. MCP is useful for getting some info in front of an agent, but there are problems: (1) Once the session dies, so does the insight, so instead of copy-pasting a whole doc each time you're telling the agent to dig through Drive each time - not much of a win; (2) Even when MCP works, what it gathers isn't comprehensive, because people decide things on a whiteboard, brainstorm out loud, post a little in Slack, and scribble the rest in a doc, which leaves the agent working from partial information; (3) And even if it had everything, it doesn't do the meta-reasoning required to do a great job. If you paste in a Notion doc and it won't learn your design taste or your writing style unless you tell it to, and it won't know why a decision was made or when. As undergrads 5 years ago, we were into the tools-for-thought wave and became power users of Notion, Obsidian, Roam, Anki, real believers in building a second brain. After GPT-3.5 came out we started to realize how much more powerful that second brain could be if an AI could actually read it, because suddenly it would know our backstory, our taste, our preferences, and unlock genuinely new capabilities. That’s why we’re building Hyper. We know it’s not for everybody! But for people who do want to be on the cutting edge, this is a force multiplier that makes agents faster and better. It increases the number of tasks they can do, and how effectively they do them. Hyper works by ingesting everything you give it access to, Docs, Slack, Email, Calendar, Granola, and synthesizes it into a knowledge graph of facts and their relationships with embeddings for semantic search. The memory system we’ve built is hybrid, with two modalities. Episodes are the raw source items kept as the source of truth. Facts are the meaning pulled out of each episode, stored as subject-predicate-object records with a plain summary and timestamps for when the fact was introduced and when it was invalidated (subject=person, predicate=works_at, object=company). Facts form a graph with typed edges between them: X is in tension with Y, A is derived from B, J supersedes K. Every time a new fact comes in we update the facts in its neighborhood, so the graph stays current, and that's how we handle stale information. When \"we'll ship Friday\" is later contradicted by \"we're shipping Monday,\" the new fact supersedes the old one instead of both looking equally true, and we never auto-discard the superseded version, so you can still ask how you landed on Monday. Every fact carries provenance back to its source and access-control tags for who is allowed to see it. At retrieval we query-expand, then fuse semantic search over embeddings with Postgres full-text search using reciprocal rank fusion, and we only ever evaluate a query against the facts and episodes that person has access to, which means two people on the same team can ask the same question and get different answers. We keep information fresh with webhooks where they exist and polling where they don't, hashing contents to catch changes for sources that don’t handle native dedupe. Agents read and write through two paths: lifecycle hooks in tools like Claude Code, Cowork, Codex, and Cursor, where we inject relevant context on every prompt and pull interesting facts out of every response, and plain MCP tool calls for everything that doesn't expose hooks. We love it! and so do our early users: one CEO uses Hyper to draft emails in his voice with full company context. What took hours/week now takes minutes and gets sharper each time Hyper learns more how he thinks and how his company is changing. Another YC founder one-shotted a launch video script because Hyper already knew their product, voice, positioning accumulated over months. We have a 3-day free trial, explained more on our pricing page ( https://heyhyper.ai/pricing ) and there are more details in our FAQ ( https://heyhyper.ai/faq ), including things like privacy, compliance, and how we’re different from other “memory” companies.. Give it a spin! break it! and tell us where it falls short: https://heyhyper.ai/ . We'd love to build you a 10-star experience :) Comments welcome! Comments URL: https://news.ycombinator.com/item?id=48387095 Points: 66 # Comments: 58",
       "publishedAt": "2026-06-03T17:39:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -178,7 +168,7 @@
       "id": "hacker-news:https://github.com/duanebester/gooey",
       "title": "Gooey: A GPU-accelerated UI framework for Zig",
       "url": "https://github.com/duanebester/gooey",
-      "summary": "Article URL: https://github.com/duanebester/gooey Comments URL: https://news.ycombinator.com/item?id=48386725 Points: 150 # Comments: 52",
+      "summary": "Article URL: https://github.com/duanebester/gooey Comments URL: https://news.ycombinator.com/item?id=48386725 Points: 176 # Comments: 67",
       "publishedAt": "2026-06-03T17:12:27.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -228,7 +218,7 @@
       "id": "hacker-news:https://www.espressif.com/en/products/socs/esp32-s31",
       "title": "ESP32-S31",
       "url": "https://www.espressif.com/en/products/socs/esp32-s31",
-      "summary": "Article URL: https://www.espressif.com/en/products/socs/esp32-s31 Comments URL: https://news.ycombinator.com/item?id=48385965 Points: 274 # Comments: 148",
+      "summary": "Article URL: https://www.espressif.com/en/products/socs/esp32-s31 Comments URL: https://news.ycombinator.com/item?id=48385965 Points: 294 # Comments: 155",
       "publishedAt": "2026-06-03T16:10:25.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -243,6 +233,16 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b",
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b",
+      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/ Comments URL: https://news.ycombinator.com/item?id=48385906 Points: 822 # Comments: 323",
+      "publishedAt": "2026-06-03T16:04:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason",
@@ -295,14 +295,14 @@
       "category": "Technology"
     },
     {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
-      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that [&#8230;]",
-      "publishedAt": "2026-06-03T15:00:57.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
+      "id": "hacker-news:https://letsencrypt.org/2026/06/03/pq-certs",
+      "title": "A Post-Quantum Future for Let's Encrypt",
+      "url": "https://letsencrypt.org/2026/06/03/pq-certs",
+      "summary": "Article URL: https://letsencrypt.org/2026/06/03/pq-certs Comments URL: https://news.ycombinator.com/item?id=48385114 Points: 258 # Comments: 141",
+      "publishedAt": "2026-06-03T15:06:09.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     }
   ]
 }

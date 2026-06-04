@@ -5,34 +5,104 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/chatgpt-memory-dreaming",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "publishedAt": "2026-06-04T09:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://uruky.com/?il=en",
+      "title": "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
+      "url": "https://uruky.com/?il=en",
+      "summary": "You can get a 2h free trial by solving a proof-of-work captcha when topping up your account for the first time. If you'd like to learn more, an independent interview was posted a couple of weeks ago [1], and the FAQ [2] has a lot of information as well. For the source code sharing, we've talked with lawyers and are inclined to no longer require the NDA/NCC for privacy reasons shared with us before (signing requires identification), but instead use a source-available permissive license that doesn't allow competition, like PolyForm Shield [3] (we do still have about 6 months before finalising a decision, here). This does come with a lot more risks for us (it's harder to track down if someone publishes the code or uses it against the license), but given we've already passed 100 monthly active accounts, we're feeling more confident it's an acceptable risk. The plan is to give logged in accounts (who are 12 months old or more) a way to download a ZIP of the current code base that's in the server. Obviously there's no easy way to prove that's the case, but we're open to ideas/suggestions if someone here has them. [1]: https://theprivacydad.com/interview-with-the-engineer-of-uru... [2]: https://uruky.com/faq [3]: https://polyformproject.org/licenses/shield/1.0.0 Comments URL: https://news.ycombinator.com/item?id=48396004 Points: 194 # Comments: 182",
+      "publishedAt": "2026-06-04T08:56:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii",
+      "title": "A Moonlit Earth as Seen From Artemis II",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii",
+      "summary": "An astronaut’s photo, taken en route to the Moon, reveals our planet and its place in space in a novel way.",
+      "publishedAt": "2026-06-04T04:01:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/03/benchmark-raises-its-first-ever-growth-fund-as-part-of-2b-capital-raise",
+      "title": "Benchmark raises its first-ever growth fund as part of $2B capital haul",
+      "url": "https://techcrunch.com/2026/06/03/benchmark-raises-its-first-ever-growth-fund-as-part-of-2b-capital-raise",
+      "summary": "The legendary Silicon Valley VC firm abandons its more than 20-year tradition of keeping its funds to about $425 million.",
+      "publishedAt": "2026-06-04T03:52:15.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says",
+      "title": "Flesh-eating screwworm infection confirmed in South Texas, USDA says",
+      "url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says",
+      "summary": "With the case confirmed, it is the fly's first breach of the US-Mexico border.",
+      "publishedAt": "2026-06-04T02:46:35.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/blog/curiosity-blog-sols-4908-4912-goodbye-campo-marte-its-been-fun",
+      "title": "Curiosity Blog, Sols 4908-4912: Goodbye Campo Marte, It’s Been Fun!",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-4908-4912-goodbye-campo-marte-its-been-fun",
+      "summary": "By Susanne P. Schwenzer, Professor of Planetary Mineralogy at The Open University, UK Earth planning date: Friday, May 29, 2026 Drilling always keeps the rover in place for a little while, and our 47th successful drill, “Campo Marte,” was no exception. The team used the time wisely and on top of the drilling, we also […]",
+      "publishedAt": "2026-06-04T01:28:11.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app",
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app",
+      "summary": "Article URL: https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/ Comments URL: https://news.ycombinator.com/item?id=48392343 Points: 372 # Comments: 199",
+      "publishedAt": "2026-06-04T00:56:32.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/03/firstclub-doubles-valuation-to-255m-in-nine-months-on-quality-first-grocery-bet",
+      "title": "Quick-commerce FirstClub doubles valuation to $255M in 9 months",
+      "url": "https://techcrunch.com/2026/06/03/firstclub-doubles-valuation-to-255m-in-nine-months-on-quality-first-grocery-bet",
+      "summary": "The Bengaluru startup has crossed 1 million orders and reached a $50 million annualized GMV run rate within a year of launch.",
+      "publishedAt": "2026-06-04T00:30:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "hacker-news:https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
       "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
       "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-      "summary": "Article URL: https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html Comments URL: https://news.ycombinator.com/item?id=48392004 Points: 639 # Comments: 603",
+      "summary": "Article URL: https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html Comments URL: https://news.ycombinator.com/item?id=48392004 Points: 702 # Comments: 664",
       "publishedAt": "2026-06-04T00:18:02.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hugging-face-blog:https://huggingface.co/blog/hf-cli-for-agents",
-      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "url": "https://huggingface.co/blog/hf-cli-for-agents",
-      "summary": "",
+      "id": "openai-news:https://openai.com/index/biodefense-in-the-intelligence-age",
+      "title": "Biodefense in the Intelligence Age",
+      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "summary": "An action plan for AI-powered biological resilience",
       "publishedAt": "2026-06-04T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "hacker-news:https://maxleiter.com/blog/weights",
-      "title": "They’re made out of weights",
-      "url": "https://maxleiter.com/blog/weights",
-      "summary": "Article URL: https://maxleiter.com/blog/weights Comments URL: https://news.ycombinator.com/item?id=48391611 Points: 1276 # Comments: 548",
-      "publishedAt": "2026-06-03T23:37:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says",
@@ -56,22 +126,12 @@
     },
     {
       "id": "ars-technica:https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress",
-      "title": "Microsoft, Atom Computing, EeroQ update their quantum computing progress",
+      "title": "Microsoft, Atom Computing update their quantum computing progress",
       "url": "https://arstechnica.com/science/2026/06/microsoft-atom-computing-eeroq-update-their-quantum-computing-progress",
       "summary": "Some quantum computing companies we've covered have done recent progress updates.",
       "publishedAt": "2026-06-03T22:09:41.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/video/defense-tech-is-flooded-with-money-but-whos-built-to-last",
-      "title": "Defense tech is flooded with money, but who&#8217;s built to last?",
-      "url": "https://techcrunch.com/video/defense-tech-is-flooded-with-money-but-whos-built-to-last",
-      "summary": "Defense tech is red hot right now.&#160;Anduril&#160;and&#160;Mach Industries&#160;just doubled and quadrupled their valuations, respectively,&#160;and the U.S.&#160;government is proposing&#160;a&#160;40% increase&#160;in defense budget. A wave of new startups&#160;is&#160;chasing those government contracts, but according to Ross Fubini, the venture investor who wrote Anduril’s first check, most of them&#160;will get lost in the Valley of Death between prototype contract [&#8230;]",
-      "publishedAt": "2026-06-03T20:51:41.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -85,16 +145,6 @@
       "category": "Technology"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/06/03/uber-to-put-500-data-collection-vehicles-on-the-road-this-year",
-      "title": "Uber to put 500 data-collection vehicles on the road this year",
-      "url": "https://techcrunch.com/2026/06/03/uber-to-put-500-data-collection-vehicles-on-the-road-this-year",
-      "summary": "The modified Ioniq 5 will be loaded with sensors to capture data for Uber's new AV Labs division.",
-      "publishedAt": "2026-06-03T20:08:28.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen",
       "title": "Can't make sense of Dashlane's vault theft notification? You're not alone.",
       "url": "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-advisory-warning-20-encrypted-vaults-were-stolen",
@@ -102,26 +152,6 @@
       "publishedAt": "2026-06-03T19:53:14.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal",
-      "title": "Alphabet&#8217;s record-breaking $85B raise for Google&#8217;s AI business is a helluva good signal",
-      "url": "https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal",
-      "summary": "If Alphabet's record-breaking $85 billion stock sale signals investor appetite for AI-related offerings, we can see that investors are ready to chow.",
-      "publishedAt": "2026-06-03T19:38:32.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/03/meta-mercifully-spun-out-vr-fitness-game-supernatural-instead-of-just-killing-it",
-      "title": "Meta mercifully spun out VR fitness game Supernatural instead of just killing it",
-      "url": "https://techcrunch.com/2026/06/03/meta-mercifully-spun-out-vr-fitness-game-supernatural-instead-of-just-killing-it",
-      "summary": "Meta appears to have listened to the Supernatural users who protested the app's sad fate after sweeping layoffs.",
-      "publishedAt": "2026-06-03T19:22:53.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -133,16 +163,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released",
-      "title": "Elixir v1.20: Now a gradually typed language",
-      "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released",
-      "summary": "Article URL: https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/ Comments URL: https://news.ycombinator.com/item?id=48388324 Points: 929 # Comments: 370",
-      "publishedAt": "2026-06-03T19:02:26.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/trumps-ai-executive-order-may-not-prevent-dangerous-deployments",
@@ -283,26 +303,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "google-ai:https://blog.google/products-and-platforms/products/search/thrifting-tips",
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips",
-      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
-      "publishedAt": "2026-06-03T13:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "title": "Direct Preference Optimization Beyond Chatbots",
-      "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-      "summary": "",
-      "publishedAt": "2026-06-03T12:55:11.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     }
   ]
 }

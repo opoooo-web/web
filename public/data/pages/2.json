@@ -5,14 +5,204 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://github.com/zdk/lowfat",
-      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
-      "url": "https://github.com/zdk/lowfat",
-      "summary": "Hi HN, Not sure if anyone would be interested. But, just wanted to share that I've been maintaining my small tool called 'lowfat' that helps me filters some of my verbose CLI output. It's a single binary, works as an agent hook or a shell wrapper. It has a plugin system to customize filters per command. The idea is pretty simple: agents don't need the full kubectl get -o yaml or any 10k-line dump to make decisions. So that lowfat sits in between, strips the noise, and passes through what matters. Here's my real report after 2 months of personal use: lowfat history --all lowfat plugin candidates ───────────────────────────────────────────────────────── # command runs avg raw cost savings source status 1 kubectl get 101x 14.4K 1.5M 93.9% plugin good 2 grep 103x 13.5K 1.4M 96.2% plugin good 3 git diff 81x 995 80.6K 57.9% built-in good 4 kubectl 90x 485 43.6K 33.6% plugin good 5 docker 127x 5.5K 693.6K 96.1% built-in good 6 ls 489x 117 57.3K 56.2% built-in good 7 find 30x 16.5K 495.0K 95.5% plugin good 8 git show 63x 490 30.9K 38.0% built-in good 9 git 177x 368 65.2K 76.1% built-in good 10 git log 86x 556 47.8K 78.5% built-in good 11 kubectl logs 5x 3.6K 17.8K 43.0% plugin good 12 git status 86x 152 13.1K 58.0% built-in good 13 docker ps 20x 467 9.3K 52.8% plugin good 14 kubectl describe 6x 656 3.9K 1.2% plugin weak 15 docker images 9x 940 8.5K 61.8% built-in good 16 k get 2x 2.1K 4.2K 35.9% plugin good 17 terraform 10x 395 3.9K 32.1% plugin good 18 git commit 32x 77 2.5K 0.0% built-in weak 19 docker build 8x 487 3.9K 37.6% built-in good 20 docker compose 22x 979 21.5K 89.4% built-in good total: 4.4M raw → 4.1M saved (91.8%) My toolset above is kind limited, but it works pretty well for my usecase without any interruption Kinda help me not reaching the token limit for my company Bedrock limit usage and keep optimizing the saving on the go for later usage. But, why not alternatives ( https://github.com/zdk/lowfat#alternatives ) ? The answers are: - My goal is to make the core lightweight but extensible via plugins i.e. not trying to bundle every command in the installed binary so that people own their output filters. - Customizable per usecase via plugin or filter pipelines as I am using my own toolset. - Customizable for non-public CLI tools, for example, some enterprise might have their interal CLI tools that public won't have access. - People should own their data. So the design is local-first, No telemetry forever. - I kinda love UNIX-style composible pipes, so lowfat-filter has implemented this style. - Be able to adjust aggressiveness of the filter, so we can control that we won't strip something the agent needed. GitHub: https://github.com/zdk/lowfat Anyway, if anyone is interested, feedbacks and questions are welcome! Thanks! Comments URL: https://news.ycombinator.com/item?id=48409955 Points: 52 # Comments: 36",
-      "publishedAt": "2026-06-05T09:10:42.000Z",
+      "id": "hacker-news:https://www.economist.com/leaders/2026/06/04/indias-surprise-baby-bust-is-a-warning-to-the-world",
+      "title": "India's surprise baby bust",
+      "url": "https://www.economist.com/leaders/2026/06/04/indias-surprise-baby-bust-is-a-warning-to-the-world",
+      "summary": "https://archive.ph/ZDxIe Comments URL: https://news.ycombinator.com/item?id=48413254 Points: 33 # Comments: 141",
+      "publishedAt": "2026-06-05T14:44:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/06/not-the-next-r8-audi-reveals-mid-engined-plug-in-hybrid-v8-nuvolari",
+      "title": "Not the next R8? Audi reveals mid-engined plug-in hybrid V8 Nuvolari.",
+      "url": "https://arstechnica.com/cars/2026/06/not-the-next-r8-audi-reveals-mid-engined-plug-in-hybrid-v8-nuvolari",
+      "summary": "The Huracan gave us the R8s, now the Temerario lends itself to a new Audi.",
+      "publishedAt": "2026-06-05T14:44:04.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/05/nasa-briefly-sheltered-space-station-astronauts-in-spacexs-dragon-due-to-leaks",
+      "title": "NASA briefly sheltered space station astronauts in SpaceX&#8217;s Dragon due to leaks",
+      "url": "https://techcrunch.com/2026/06/05/nasa-briefly-sheltered-space-station-astronauts-in-spacexs-dragon-due-to-leaks",
+      "summary": "The space agency said Roscosmos discovered new leaks in the Russian service module.",
+      "publishedAt": "2026-06-05T14:42:52.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations",
+      "title": "NSA said to be readying Anthropic&#8217;s Mythos for use in cyber operations",
+      "url": "https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations",
+      "summary": "The U.S. eavesdropping agency is reportedly preparing Anthropic's Mythos for use in cyberattacks, despite a federal ban on using the AI model maker.",
+      "publishedAt": "2026-06-05T14:32:57.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm",
+      "title": "I tested every IP KVM in my Homelab",
+      "url": "https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm",
+      "summary": "Article URL: https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/ Comments URL: https://news.ycombinator.com/item?id=48413072 Points: 127 # Comments: 39",
+      "publishedAt": "2026-06-05T14:30:50.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money",
+      "title": "Rocket Report: Blue Origin explosion still making headlines; Impulse raises money",
+      "url": "https://arstechnica.com/space/2026/06/rocket-report-blue-origin-explosion-still-making-headlines-impulse-raises-money",
+      "summary": "NASA expects to begin stacking the SLS rocket this summer for next year's Artemis III launch.",
+      "publishedAt": "2026-06-05T14:20:54.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/report/943944/maha-rfk-jr-cotton-natural-fiber-clothing-microplastics",
+      "title": "MAHA wants to make cotton the new beef tallow",
+      "url": "https://www.theverge.com/report/943944/maha-rfk-jr-cotton-natural-fiber-clothing-microplastics",
+      "summary": "In between beef tallow fries, raw milk, and vaccine denialism, Make America Healthy Again figureheads have set their sights on another slice of life: our clothing. \"The MAHA movement doesn't stop with what we EAT - It's also about what we WEAR,\" Secretary of Agriculture Brooke Rollins said in a post on X in late [&#8230;]",
+      "publishedAt": "2026-06-05T14:13:21.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/column/943639/optimizer-glp-1-tech-withings-oura-health",
+      "title": "What do you mean my new smart scale is ‘built for GLP-1 users’?",
+      "url": "https://www.theverge.com/column/943639/optimizer-glp-1-tech-withings-oura-health",
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. A few days ago, I walked into the basement of a midtown gym. Smoothies and healthy snacks were passed out. [&#8230;]",
+      "publishedAt": "2026-06-05T14:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
+      "title": "This AI startup says it can tell if a script will make a hit film",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
+      "summary": "When Quilty hit the industry trades earlier this year, the AI startup promised that its tool could accurately predict a film's success just by reading the script. When people actually got a chance to experiment with Quilty's product, though, they were left skeptical. Even with all the available data in the world, it predicted the [&#8230;]",
+      "publishedAt": "2026-06-05T13:57:31.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do",
+      "title": "Safety officials finally have a good idea of what a big rocket explosion can do",
+      "url": "https://arstechnica.com/space/2026/06/safety-officials-finally-have-a-good-idea-of-what-a-big-rocket-explosion-can-do",
+      "summary": "Overpressure from the Blue Origin blast shattered windows at a hangar about a mile away from the pad.",
+      "publishedAt": "2026-06-05T13:55:05.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/943852/trump-phone-made-in-the-usa-ftc-assembled-china",
+      "title": "Why isn’t the Trump phone made in the USA?",
+      "url": "https://www.theverge.com/tech/943852/trump-phone-made-in-the-usa-ftc-assembled-china",
+      "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. This week, I'm investigating where it might have been built - and why it definitely wasn't the US. Almost a year after its announcement, the Trump phone has \"launched.\" A [&#8230;]",
+      "publishedAt": "2026-06-05T13:33:12.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india",
+      "title": "AirTrunk commits $30B to build 5GW of AI data centers in India",
+      "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india",
+      "summary": "The Australian data center operator plans to set up 5GW of capacity in India.",
+      "publishedAt": "2026-06-05T13:03:10.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/ai-gateway-spend-limits",
+      "title": "Your AI bill is out of control. Cloudflare can fix it now.",
+      "url": "https://blog.cloudflare.com/ai-gateway-spend-limits",
+      "summary": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
+      "publishedAt": "2026-06-05T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/943219/skylight-buddy-kids-calendar-chore-tracker-review",
+      "title": "This chunky little tablet got my kid to clean up his toys",
+      "url": "https://www.theverge.com/tech/943219/skylight-buddy-kids-calendar-chore-tracker-review",
+      "summary": "Never underestimate the power that a cheap tablet holds over a kid under six. The Skylight Buddy is a device with one job: to be a cute little guy that helps your kid track routines and chores. It's $139.99, plus an optional subscription. And to my surprise, even though it offers a pretty limited set [&#8230;]",
+      "publishedAt": "2026-06-05T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://alexispurslane.github.io/rsync-analysis",
+      "title": "Did Claude increase bugs in rsync?",
+      "url": "https://alexispurslane.github.io/rsync-analysis",
+      "summary": "Article URL: https://alexispurslane.github.io/rsync-analysis/ Comments URL: https://news.ycombinator.com/item?id=48411635 Points: 64 # Comments: 62",
+      "publishedAt": "2026-06-05T12:43:33.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts",
+      "title": "The Download: AI hacking beyond Mythos, and chatbots&#8217; impact on our brains",
+      "url": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports emerged that attackers had used Meta’s AI customer support agent to steal Instagram accounts. Their approach was&#8230;",
+      "publishedAt": "2026-06-05T12:10:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://nango.dev/careers",
+      "title": "Nango (YC W23, dev infra) is hiring staff back end engineers",
+      "url": "https://nango.dev/careers",
+      "summary": "Article URL: https://nango.dev/careers Comments URL: https://news.ycombinator.com/item?id=48411227 Points: 0 # Comments: 0",
+      "publishedAt": "2026-06-05T12:00:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/942839/macbook-neo-customization-color-mods-official-parts-frankenlaptop",
+      "title": "I customized a MacBook Neo with colorful spare parts",
+      "url": "https://www.theverge.com/tech/942839/macbook-neo-customization-color-mods-official-parts-frankenlaptop",
+      "summary": "The MacBook Neo is Apple's cheapest laptop, its most colorful, and its easiest to repair in years. That means owners can buy replacement parts in all four of its available colors and swap them in on their own. So that got us thinking: What if we bought a Neo just to see how funky we [&#8230;]",
+      "publishedAt": "2026-06-05T12:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/apple/2026/06/steve-jobs-in-exile-is-a-fine-profile-of-jobs-years-at-next",
+      "title": "Steve Jobs in Exile is a fine profile of Jobs' years at NeXT",
+      "url": "https://arstechnica.com/apple/2026/06/steve-jobs-in-exile-is-a-fine-profile-of-jobs-years-at-next",
+      "summary": "“Why don’t we just frickin’ call Apple?”",
+      "publishedAt": "2026-06-05T11:15:29.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/06/amd-radeon-rx-9070-gre-review-shrinkflation-isnt-just-for-groceries-anymore",
+      "title": "Review: AMD's Radeon RX 9070 GRE is a disappointing way to spend $549",
+      "url": "https://arstechnica.com/gadgets/2026/06/amd-radeon-rx-9070-gre-review-shrinkflation-isnt-just-for-groceries-anymore",
+      "summary": "The superior RX 9070 also launched for $549 just over a year ago.",
+      "publishedAt": "2026-06-05T11:00:55.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains",
@@ -38,7 +228,7 @@
       "id": "hacker-news:https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603",
       "title": "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
       "url": "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603",
-      "summary": "Article URL: https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/ Comments URL: https://news.ycombinator.com/item?id=48409675 Points: 114 # Comments: 103",
+      "summary": "Article URL: https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/ Comments URL: https://news.ycombinator.com/item?id=48409675 Points: 129 # Comments: 129",
       "publishedAt": "2026-06-05T08:33:37.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -48,48 +238,8 @@
       "id": "hacker-news:https://arxiv.org/abs/2606.03673",
       "title": "Tracing a powerful GNSS interference source over Europe",
       "url": "https://arxiv.org/abs/2606.03673",
-      "summary": "Article URL: https://arxiv.org/abs/2606.03673 Comments URL: https://news.ycombinator.com/item?id=48409664 Points: 260 # Comments: 114",
+      "summary": "Article URL: https://arxiv.org/abs/2606.03673 Comments URL: https://news.ycombinator.com/item?id=48409664 Points: 305 # Comments: 148",
       "publishedAt": "2026-06-05T08:32:16.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/geo-tp/ESP32-Bit-Pirate",
-      "title": "ESP32 Bit Pirate, a Hardware Hacking Tool with WebCLI That Speaks Every Protocol",
-      "url": "https://github.com/geo-tp/ESP32-Bit-Pirate",
-      "summary": "Article URL: https://github.com/geo-tp/ESP32-Bit-Pirate Comments URL: https://news.ycombinator.com/item?id=48409306 Points: 114 # Comments: 36",
-      "publishedAt": "2026-06-05T07:40:04.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://ladybird.org/posts/changing-how-we-develop-ladybird",
-      "title": "Changing how we develop Ladybird",
-      "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird",
-      "summary": "Article URL: https://ladybird.org/posts/changing-how-we-develop-ladybird/ Comments URL: https://news.ycombinator.com/item?id=48409191 Points: 652 # Comments: 435",
-      "publishedAt": "2026-06-05T07:26:33.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story",
-      "title": "Lee Kuan Yew's Singapore Story (2023)",
-      "url": "https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story",
-      "summary": "Article URL: https://www.historytoday.com/archive/feature/lee-kuan-yews-singapore-story Comments URL: https://news.ycombinator.com/item?id=48409173 Points: 105 # Comments: 92",
-      "publishedAt": "2026-06-05T07:23:44.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://passo.uno/fine-tuning-docs-llm",
-      "title": "Fine-tuning an LLM to write docs like it's 1995",
-      "url": "https://passo.uno/fine-tuning-docs-llm",
-      "summary": "Article URL: https://passo.uno/fine-tuning-docs-llm/ Comments URL: https://news.ycombinator.com/item?id=48408442 Points: 151 # Comments: 52",
-      "publishedAt": "2026-06-05T05:46:06.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -115,26 +265,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://isupmap.com",
-      "title": "The IsUpMap lets you check the status of over 100 major sites at once",
-      "url": "https://isupmap.com",
-      "summary": "Article URL: https://isupmap.com/ Comments URL: https://news.ycombinator.com/item?id=48408067 Points: 108 # Comments: 37",
-      "publishedAt": "2026-06-05T04:44:48.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://herbsutter.com/2026/06/04/c-the-documentary-released-today",
-      "title": "C++: The Documentary",
-      "url": "https://herbsutter.com/2026/06/04/c-the-documentary-released-today",
-      "summary": "Article URL: https://herbsutter.com/2026/06/04/c-the-documentary-released-today/ Comments URL: https://news.ycombinator.com/item?id=48408016 Points: 280 # Comments: 194",
-      "publishedAt": "2026-06-05T04:37:01.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire",
       "title": "Fighting Fire With Fire",
       "url": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire",
@@ -145,26 +275,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes",
-      "title": "Linear Cosine Palettes(2025)",
-      "url": "https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes",
-      "summary": "Article URL: https://blog.djnavarro.net/posts/2025-09-14_cosine-palettes/ Comments URL: https://news.ycombinator.com/item?id=48407653 Points: 52 # Comments: 2",
-      "publishedAt": "2026-06-05T03:40:02.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux",
-      "title": "Azure Linux 4.0 is Microsoft's first general-purpose Linux",
-      "url": "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux",
-      "summary": "Article URL: https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/ Comments URL: https://news.ycombinator.com/item?id=48407499 Points: 145 # Comments: 119",
-      "publishedAt": "2026-06-05T03:14:28.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/06/04/founders-fund-launches-game-show-starring-sam-altman-palmer-luckey-and-other-tech-elites",
       "title": "Founders Fund launches game show starring Sam Altman, Palmer Luckey, and other tech elites",
       "url": "https://techcrunch.com/2026/06/04/founders-fund-launches-game-show-starring-sam-altman-palmer-luckey-and-other-tech-elites",
@@ -172,16 +282,6 @@
       "publishedAt": "2026-06-05T00:06:47.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified",
-      "title": "Valve says it&#8217;s ready to launch the Steam Machine this summer",
-      "url": "https://www.theverge.com/games/943657/valve-steam-machine-frame-summer-launch-verified",
-      "summary": "Valve now says that the delayed Steam Machine PC and Steam Frame VR headset are set to launch sometime this summer. In a Thursday blog post detailing its Verified programs for both pieces of hardware, Valve concludes by saying that \"We're excited for players to try your titles on the new Steam hardware once they [&#8230;]",
-      "publishedAt": "2026-06-04T22:48:53.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -202,106 +302,6 @@
       "publishedAt": "2026-06-04T22:29:50.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet",
-      "title": "The skeptic’s guide to humanoid robots going viral on the Internet",
-      "url": "https://arstechnica.com/ai/2026/06/the-skeptics-guide-to-humanoid-robots-going-viral-on-the-internet",
-      "summary": "Robot demonstrations can distort public perceptions of robotic capabilities.",
-      "publishedAt": "2026-06-04T22:23:36.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/04/filtr-is-a-new-privacy-tool-that-blocks-ads-in-almost-every-iphone-and-mac-app",
-      "title": "Filtr is a new privacy tool that blocks ads in almost every iPhone and Mac app",
-      "url": "https://techcrunch.com/2026/06/04/filtr-is-a-new-privacy-tool-that-blocks-ads-in-almost-every-iphone-and-mac-app",
-      "summary": "This popular ad blocker app for iPhones, iPads, and Macs can now block ads from loading inside apps, including web browsers, thanks to a new feature in the latest Apple software.",
-      "publishedAt": "2026-06-04T21:44:09.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18",
-      "title": "Defense tech, AI, and fundraising take center stage at StrictlyVC Los Angeles on June 18",
-      "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18",
-      "summary": "On Thursday, June 18, at The Aerospace Corporation Campus, investors, founders, and tech leaders will gather for an evening of conversation exploring some of the most consequential shifts taking place across venture capital, defense technology, artificial intelligence, and advanced industry. Secure your spot today.",
-      "publishedAt": "2026-06-04T21:30:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data",
-      "title": "AT&T and Verizon lose Supreme Court case over fines for selling location data",
-      "url": "https://arstechnica.com/tech-policy/2026/06/att-and-verizon-lose-supreme-court-case-over-fines-for-selling-location-data",
-      "summary": "FCC did not violate carriers' right to jury trial, court says in 8-1 ruling.",
-      "publishedAt": "2026-06-04T21:25:19.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/04/startup-battlefield-is-returning-to-australia-heres-what-happened-the-last-time-we-came-to-sydney",
-      "title": "Startup Battlefield is returning to Australia — here&#8217;s what happened the last time we came to Sydney",
-      "url": "https://techcrunch.com/2026/06/04/startup-battlefield-is-returning-to-australia-heres-what-happened-the-last-time-we-came-to-sydney",
-      "summary": "On August 19, Startup Battlefield is returning to Sydney in partnership with Stripe, one of the world's most iconic technology companies. We're taking over Stripe Tour Sydney for a night that the Australian startup ecosystem won't forget.",
-      "publishedAt": "2026-06-04T20:55:38.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda",
-      "title": "These LLMs are the best at resisting Russian propaganda",
-      "url": "https://arstechnica.com/ai/2026/06/these-llms-are-the-best-at-resisting-russian-propaganda",
-      "summary": "Estonian government benchmark shows how dozens of models combat Russia's \"strategic narratives.\"",
-      "publishedAt": "2026-06-04T20:44:31.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing",
-      "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
-      "url": "https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing",
-      "summary": "NASA’s&#160;Hi-Rate Composite Aircraft Manufacturing (HiCAM) project brought together its full team of Advanced Composites Consortium partners for&#160;a&#160;2026&#160;spring&#160;review at NASA’s Langley Research Center in Hampton, Virginia.&#160;&#160; The meeting took place May 5-7, bringing together&#160;about 150 people from the&#160;consortium, a&#160;22-member public-private partnership.&#160;&#160; The review gave NASA and industry partners a chance to look at recent progress and [&#8230;]",
-      "publishedAt": "2026-06-04T20:36:24.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/943445/cyberdeck-tiktok",
-      "title": "Cyberdecks used to look like little laptops, but now they&#8217;re getting more personal",
-      "url": "https://www.theverge.com/tech/943445/cyberdeck-tiktok",
-      "summary": "DIYer and TikTok user Annike Tan, who goes by @ubeboobey, can carry her cyberdeck around without anyone noticing because it doesn't look like a computer at all. Tan, who has been featured in The Cut and Wired, went viral earlier this year with a mermaid-themed cyberdeck she made inside an old purse. She has since [&#8230;]",
-      "publishedAt": "2026-06-04T20:07:31.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults",
-      "title": "Dashlane explains how attackers managed to download encrypted password vaults",
-      "url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults",
-      "summary": "By targeting large numbers of users, attackers increased their chances of success.",
-      "publishedAt": "2026-06-04T20:02:04.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling",
-      "title": "Elon Musk tries again to escape FTC audits of X data handling",
-      "url": "https://arstechnica.com/tech-policy/2026/06/elon-musk-tries-again-to-escape-ftc-audits-of-x-data-handling",
-      "summary": "Musk can't be trusted to protect X user privacy, public commenters warn FTC.",
-      "publishedAt": "2026-06-04T19:49:12.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     }
   ]

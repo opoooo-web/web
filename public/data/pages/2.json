@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://blog.podman.io/2025/10/podman-6-machine-usability-improvements",
+      "title": "Podman 6: machine usability improvements (2025)",
+      "url": "https://blog.podman.io/2025/10/podman-6-machine-usability-improvements",
+      "summary": "Article URL: https://blog.podman.io/2025/10/podman-6-machine-usability-improvements/ Comments URL: https://news.ycombinator.com/item?id=48434963 Points: 98 # Comments: 6",
+      "publishedAt": "2026-06-07T14:01:27.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far",
       "title": "Hacked, leaked, and held for ransom: the worst breaches of 2026 so far",
       "url": "https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far",
@@ -15,20 +25,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://gitlab.com/cznic/sqlite",
-      "title": "sqlite: A CGo-free port of SQLite/SQLite3",
-      "url": "https://gitlab.com/cznic/sqlite",
-      "summary": "Article URL: https://gitlab.com/cznic/sqlite Comments URL: https://news.ycombinator.com/item?id=48434906 Points: 38 # Comments: 25",
-      "publishedAt": "2026-06-07T13:53:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://github.com/anthropics/claude-code/issues/65697",
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
-      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/65697 Comments URL: https://news.ycombinator.com/item?id=48434436 Points: 407 # Comments: 235",
+      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/65697 Comments URL: https://news.ycombinator.com/item?id=48434436 Points: 452 # Comments: 259",
       "publishedAt": "2026-06-07T13:06:52.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,7 +38,7 @@
       "id": "hacker-news:https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do",
       "title": "LLMs are eroding my software engineering career and I don't know what to do",
       "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do",
-      "summary": "Article URL: https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/ Comments URL: https://news.ycombinator.com/item?id=48434312 Points: 732 # Comments: 689",
+      "summary": "Article URL: https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/ Comments URL: https://news.ycombinator.com/item?id=48434312 Points: 796 # Comments: 773",
       "publishedAt": "2026-06-07T12:49:29.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -58,7 +58,7 @@
       "id": "hacker-news:https://github.com/devenjarvis/lathe",
       "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
       "url": "https://github.com/devenjarvis/lathe",
-      "summary": "Hey HN! Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand ( gasp ) in a local UI built for exactly that. It's a Go CLI plus LLM agent skills (Claude Code / Cursor / Codex). You prompt something like \"/lathe build a 3D slicer in Erlang\", run `lathe serve` to spin up a local webapp, and read it in your browser. Every tutorial comes with the things that have made self-learning a pleasant experience for me in the past: - table of contents that follows along as you scroll - side-notes that nudge you to think - exercises for the reader - sources backing up the content that you can use to take you deeper To help make up for the lack of human brainpower behind the tutorial, you can also ask questions about the content, have another LLM verify the tutorial actually compiles and runs, or extend it with another part (no more \"Part 4 of 6\" that hasn't seen an update since 2021). I didn't build lathe to replace human-written tutorials. I built lathe because I _love_ human-written tutorials, but wanted to learn technical domains where no good human-written tutorial exists yet (building a 3D slicer from scratch, making embedded Zig approachable, etc). There's a longer story in the README about how I got started with programming through PSP homebrew tutorials, and why losing that to LLMs bugged me enough to build this. I'm not here to sell you anything (there's nothing close to a VC-backed startup here :D). It's an LLM, and its output is usually good but not perfect by any means. So far, my experience is that because you're the one typing and actually engaged, you catch the weird stuff (and I'm finding that pushing back on it is its own kind of learning). And yes, it's vibecoded, because it's low scope, low risk, and scratching a personal itch. I run it on Claude Code + macOS personally, other setups should work but I haven't been able to verify them yet. If you can find resources to learn something that was written by a human, read that first. But Lathe is here to fill in the gaps when that isn't the case, and I hope it serves as an example where LLMs can help us think better, rather than less. Repo: https://github.com/devenjarvis/lathe Would love your feedback if you decide to check it out! Comments URL: https://news.ycombinator.com/item?id=48433756 Points: 206 # Comments: 41",
+      "summary": "Hey HN! Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand ( gasp ) in a local UI built for exactly that. It's a Go CLI plus LLM agent skills (Claude Code / Cursor / Codex). You prompt something like \"/lathe build a 3D slicer in Erlang\", run `lathe serve` to spin up a local webapp, and read it in your browser. Every tutorial comes with the things that have made self-learning a pleasant experience for me in the past: - table of contents that follows along as you scroll - side-notes that nudge you to think - exercises for the reader - sources backing up the content that you can use to take you deeper To help make up for the lack of human brainpower behind the tutorial, you can also ask questions about the content, have another LLM verify the tutorial actually compiles and runs, or extend it with another part (no more \"Part 4 of 6\" that hasn't seen an update since 2021). I didn't build lathe to replace human-written tutorials. I built lathe because I _love_ human-written tutorials, but wanted to learn technical domains where no good human-written tutorial exists yet (building a 3D slicer from scratch, making embedded Zig approachable, etc). There's a longer story in the README about how I got started with programming through PSP homebrew tutorials, and why losing that to LLMs bugged me enough to build this. I'm not here to sell you anything (there's nothing close to a VC-backed startup here :D). It's an LLM, and its output is usually good but not perfect by any means. So far, my experience is that because you're the one typing and actually engaged, you catch the weird stuff (and I'm finding that pushing back on it is its own kind of learning). And yes, it's vibecoded, because it's low scope, low risk, and scratching a personal itch. I run it on Claude Code + macOS personally, other setups should work but I haven't been able to verify them yet. If you can find resources to learn something that was written by a human, read that first. But Lathe is here to fill in the gaps when that isn't the case, and I hope it serves as an example where LLMs can help us think better, rather than less. Repo: https://github.com/devenjarvis/lathe Would love your feedback if you decide to check it out! Comments URL: https://news.ycombinator.com/item?id=48433756 Points: 242 # Comments: 44",
       "publishedAt": "2026-06-07T11:16:46.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,8 +88,18 @@
       "id": "hacker-news:https://www.ioccc.org/2025",
       "title": "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
       "url": "https://www.ioccc.org/2025",
-      "summary": "Article URL: https://www.ioccc.org/2025/ Comments URL: https://news.ycombinator.com/item?id=48432199 Points: 352 # Comments: 85",
+      "summary": "Article URL: https://www.ioccc.org/2025/ Comments URL: https://news.ycombinator.com/item?id=48432199 Points: 361 # Comments: 88",
       "publishedAt": "2026-06-07T05:47:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index",
+      "title": "I design with Claude more than Figma now",
+      "url": "https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index",
+      "summary": "Article URL: https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/ Comments URL: https://news.ycombinator.com/item?id=48431981 Points: 261 # Comments: 232",
+      "publishedAt": "2026-06-07T05:04:24.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -292,16 +302,6 @@
       "publishedAt": "2026-06-05T18:57:20.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms",
-      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
-      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms",
-      "summary": "SpaceX won’t get easy access to billions of dollars from passive investors.",
-      "publishedAt": "2026-06-05T18:45:20.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     }
   ]

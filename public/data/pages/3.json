@@ -5,10 +5,70 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/06/09/apple-brings-streaming-style-subscription-bundles-to-the-app-store",
+      "title": "Apple brings streaming-style subscription bundles to the App Store",
+      "url": "https://techcrunch.com/2026/06/09/apple-brings-streaming-style-subscription-bundles-to-the-app-store",
+      "summary": "Apple is expanding its App Bundles feature to allow developers to partner with one another on discounted subscription packages.",
+      "publishedAt": "2026-06-09T14:55:36.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations",
+      "title": "Apple&#8217;s App Store rolls out personalized recommendations",
+      "url": "https://techcrunch.com/2026/06/09/apples-app-store-rolls-out-personalized-recommendations",
+      "summary": "Apple will now recommend apps based on your downloads and behavior.",
+      "publishedAt": "2026-06-09T14:30:17.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/learning-resources/nasa-knows-what-is-mass-distribution",
+      "title": "NASA Knows: What Is Mass Distribution?",
+      "url": "https://www.nasa.gov/learning-resources/nasa-knows-what-is-mass-distribution",
+      "summary": "This article is for students grades 5-8. Mass distribution affects everything from galaxy shapes to aircraft design to planetary rotation. It’s used to map stars in our universe, figure out what planets are made of, and even to determine how luggage is loaded onto an airplane. Mass distribution can be a tricky thing to understand. [&#8230;]",
+      "publishedAt": "2026-06-09T14:26:32.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/06/gold-isnt-inert-it-just-has-bodyguards-protecting-it",
+      "title": "Gold isn’t inert, it just has bodyguards protecting it",
+      "url": "https://arstechnica.com/science/2026/06/gold-isnt-inert-it-just-has-bodyguards-protecting-it",
+      "summary": "Individual gold atoms move around to form oxidation-proof structures.",
+      "publishedAt": "2026-06-09T14:23:59.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/06/heres-audis-next-q7-suv-and-us-only-sq7-now-with-an-rs-v8",
+      "title": "Here's Audi's next Q7 SUV and US-only SQ7, now with an RS V8",
+      "url": "https://arstechnica.com/cars/2026/06/heres-audis-next-q7-suv-and-us-only-sq7-now-with-an-rs-v8",
+      "summary": "At night, the car projects its turn signals onto the road to alert other road users.",
+      "publishedAt": "2026-06-09T14:00:20.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams",
+      "title": "Sandstone raises $30M to bring AI to in-house legal teams",
+      "url": "https://techcrunch.com/2026/06/09/sandstone-raises-30m-to-bring-ai-to-in-house-legal-teams",
+      "summary": "Sandstone's Series A comes just six months after a Sequoia-led seed round.",
+      "publishedAt": "2026-06-09T13:47:25.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "hacker-news:https://arxiv.org/abs/2605.15184",
       "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
       "url": "https://arxiv.org/abs/2605.15184",
-      "summary": "Article URL: https://arxiv.org/abs/2605.15184 Comments URL: https://news.ycombinator.com/item?id=48460863 Points: 97 # Comments: 43",
+      "summary": "Article URL: https://arxiv.org/abs/2605.15184 Comments URL: https://news.ycombinator.com/item?id=48460863 Points: 105 # Comments: 50",
       "publishedAt": "2026-06-09T13:27:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,7 +148,7 @@
       "id": "hacker-news:https://qunabu.github.io/Gravity",
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
       "url": "https://qunabu.github.io/Gravity",
-      "summary": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well. What's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU. Tech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: https://github.com/qunabu/Gravity Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality Comments URL: https://news.ycombinator.com/item?id=48459837 Points: 117 # Comments: 29",
+      "summary": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well. What's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU. Tech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: https://github.com/qunabu/Gravity Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality Comments URL: https://news.ycombinator.com/item?id=48459837 Points: 131 # Comments: 35",
       "publishedAt": "2026-06-09T11:46:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +158,7 @@
       "id": "hacker-news:https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
       "title": "Test-case reducers are underappreciated debugging tools",
       "url": "https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
-      "summary": "Article URL: https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html Comments URL: https://news.ycombinator.com/item?id=48459659 Points: 29 # Comments: 3",
+      "summary": "Article URL: https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html Comments URL: https://news.ycombinator.com/item?id=48459659 Points: 63 # Comments: 8",
       "publishedAt": "2026-06-09T11:27:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -115,16 +175,6 @@
       "category": "AI"
     },
     {
-      "id": "hacker-news:https://staniks.github.io/articles/catlantean-3d-blog-1",
-      "title": "Making Graphics Like it's 1993",
-      "url": "https://staniks.github.io/articles/catlantean-3d-blog-1",
-      "summary": "Article URL: https://staniks.github.io/articles/catlantean-3d-blog-1/ Comments URL: https://news.ycombinator.com/item?id=48459294 Points: 659 # Comments: 108",
-      "publishedAt": "2026-06-09T10:46:14.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise",
       "title": "Learning to lead in a hybrid human-AI enterprise",
       "url": "https://www.technologyreview.com/2026/06/09/1137830/learning-to-lead-in-a-hybrid-human-ai-enterprise",
@@ -133,6 +183,16 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/notion",
+      "title": "What Codex unlocks for Notion",
+      "url": "https://openai.com/index/notion",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/06/09/1138545/david-sinclair-plans-to-test-whole-body-rejuvenation-drugs-in-the-xprize-competition",
@@ -243,66 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era",
-      "title": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
-      "url": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era",
-      "summary": "You'll need an M1 or better to run the next release of macOS.",
-      "publishedAt": "2026-06-08T21:03:56.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads",
-      "title": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads",
-      "url": "https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads",
-      "summary": "This promises to be a solid release for aging iPhones.",
-      "publishedAt": "2026-06-08T20:55:58.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/meta-alleges-nso-violated-spyware-injunction-with-new-whatsapp-attacks",
-      "title": "Meta alleges NSO violated spyware injunction with new WhatsApp attacks",
-      "url": "https://arstechnica.com/tech-policy/2026/06/meta-alleges-nso-violated-spyware-injunction-with-new-whatsapp-attacks",
-      "summary": "WhatsApp disrupted spear phishing attempts, asks court to hold NSO in contempt.",
-      "publishedAt": "2026-06-08T20:26:14.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem",
-      "title": "The fastest humans in the galaxy just got a spiffy patch to prove it",
-      "url": "https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem",
-      "summary": "\"It is actually challenging how you measure [Mach] from space.\"",
-      "publishedAt": "2026-06-08T19:40:05.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/johnson/how-nasa-science-and-artemis-are-shaping-the-2026-fifa-world-cup",
-      "title": "How NASA Science and Artemis Are Shaping the 2026 FIFA World Cup",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/how-nasa-science-and-artemis-are-shaping-the-2026-fifa-world-cup",
-      "summary": "As&#160;the FIFA World Cup&#160;approaches, NASA is bringing&#160;space science and&#160;engineering&#160;to soccer fans&#160;worldwide.&#160;From&#160;June 11&#160;to July 19,&#160;2026,&#160;NASA will&#160;host an&#160;exhibit&#160;at FIFA Fan Festival™&#160;Houston where visitors can learn how research aboard the International Space Station benefits life on Earth&#160;and&#160;experience missions in low Earth orbit, the Moon,&#160;and&#160;beyond&#160;through the Artemis program.&#160; On June 11, as the FIFA World Cup begins, NASA’s exhibit [&#8230;]",
-      "publishedAt": "2026-06-08T19:36:08.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant",
-      "title": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
-      "url": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant",
-      "summary": "New features coming this fall alongside two-tiered, Google-powered AI model overhaul.",
-      "publishedAt": "2026-06-08T19:30:05.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

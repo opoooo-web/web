@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hugging-face-blog:https://huggingface.co/blog/hf-cli-for-agents",
+      "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+      "url": "https://huggingface.co/blog/hf-cli-for-agents",
+      "summary": "",
+      "publishedAt": "2026-06-04T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/improve-your-application-resilience-with-amazon-cognito-multi-region-replication",
+      "title": "Improve your application resilience with Amazon Cognito multi-Region replication",
+      "url": "https://aws.amazon.com/blogs/aws/improve-your-application-resilience-with-amazon-cognito-multi-region-replication",
+      "summary": "Amazon Cognito now offers multi-Region replication that automatically synchronizes user data, credentials, and pool configurations to a secondary AWS Region, enabling uninterrupted authentication during regional failovers without forced password resets—plus new support for customer managed KMS keys for encryption control.",
+      "publishedAt": "2026-06-03T22:37:29.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/enforce-first-as-bgp",
+      "title": "Enforcing the First AS in BGP AS_PATHs",
+      "url": "https://blog.cloudflare.com/enforce-first-as-bgp",
+      "summary": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
+      "publishedAt": "2026-06-03T17:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
       "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
       "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-06-01T12:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
-      "publishedAt": "2026-06-01T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/ai-cloud-ecosystem",
-      "title": "NVIDIA AI Cloud Ecosystem Expands Worldwide to Meet Global AI Compute Demand",
-      "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem",
-      "summary": "The NVIDIA AI Cloud ecosystem is accelerating the global buildout of AI factory infrastructure. Partners are expanding capacity to meet growing demand from enterprises, startups, nations, AI labs and developers scaling agentic AI applications. NVIDIA AI Clouds are a growing ecosystem of purpose-built clouds serving the exploding token demand behind today’s most popular AI applications. [&#8230;]",
-      "publishedAt": "2026-06-01T05:00:56.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-      "title": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-      "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-      "summary": "As factories move from isolated automation to plant-wide intelligence, manufacturers need AI systems that can connect live machine signals, quality systems, work instructions and operational alerts into a unified decision layer. Today at GTC Taipei at COMPUTEX, NVIDIA announced the NVIDIA Factory Operations Blueprint (FOX) — a reference design for building an autonomous factory manager [&#8230;]",
-      "publishedAt": "2026-06-01T05:00:47.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
       "category": "AI"
     }
   ]

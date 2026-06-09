@@ -5,10 +5,90 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app",
+      "title": "Apple gives Siri its own dedicated app",
+      "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app",
+      "summary": "Siri is finally getting its own app.",
+      "publishedAt": "2026-06-08T18:33:42.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature",
+      "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+      "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature",
+      "summary": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
+      "publishedAt": "2026-06-08T18:23:04.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=48449187",
+      "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "url": "https://news.ycombinator.com/item?id=48449187",
+      "summary": "Comments URL: https://news.ycombinator.com/item?id=48449187 Points: 333 # Comments: 548",
+      "publishedAt": "2026-06-08T18:22:39.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.apple.com/apple-intelligence",
+      "title": "Siri AI",
+      "url": "https://www.apple.com/apple-intelligence",
+      "summary": "Article URL: https://www.apple.com/apple-intelligence/ Comments URL: https://news.ycombinator.com/item?id=48449084 Points: 603 # Comments: 566",
+      "publishedAt": "2026-06-08T18:17:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/06/apples-ios-27-macos-27-golden-gate-and-other-updates-focus-on-refinement",
+      "title": "Apple's iOS 27, macOS 27 Golden Gate, and other updates focus on refinement",
+      "url": "https://arstechnica.com/gadgets/2026/06/apples-ios-27-macos-27-golden-gate-and-other-updates-focus-on-refinement",
+      "summary": "Apple's OSes come with Liquid Glass tweaks and performance optimizations.",
+      "publishedAt": "2026-06-08T18:07:13.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=48448313",
+      "title": "Ask HN: Why hasn't there been a real competitor to Ticketmaster yet?",
+      "url": "https://news.ycombinator.com/item?id=48448313",
+      "summary": "It feels like every event/venue is selling tickets exclusively through Ticketmaster. Every other ticketing platform seems to only hold resale tickets in their inventory which just transfers the tickets to your Ticketmaster account when bought. With all the hate Ticketmaster has gotten and all the other ticketing platforms out there, I'm surprised Ticketmaster still has a hold of pretty much the entire market. How are they doing this? Why haven't the other platforms been able to compete? Comments URL: https://news.ycombinator.com/item?id=48448313 Points: 188 # Comments: 166",
+      "publishedAt": "2026-06-08T17:28:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/man-jailed-for-a-month-despite-flock-showing-he-was-5-miles-from-crime-scene",
+      "title": "Man jailed for a month despite Flock showing he was 5 miles from crime scene",
+      "url": "https://arstechnica.com/tech-policy/2026/06/man-jailed-for-a-month-despite-flock-showing-he-was-5-miles-from-crime-scene",
+      "summary": "Cop seemingly ignored Flock camera timestamp to justify arrests.",
+      "publishedAt": "2026-06-08T17:20:30.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/06/f1-in-monaco-finally-the-cars-were-flat-out-in-qualifying",
+      "title": "F1 in Monaco: Finally, the cars were flat-out in qualifying",
+      "url": "https://arstechnica.com/cars/2026/06/f1-in-monaco-finally-the-cars-were-flat-out-in-qualifying",
+      "summary": "The cars are too big to race well, but the competition for pole position is thrilling.",
+      "publishedAt": "2026-06-08T16:56:21.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "hacker-news:https://gitdot.io",
       "title": "Show HN: Gitdot – A better GitHub. Open-source, written in Rust",
       "url": "https://gitdot.io",
-      "summary": "What works now: user signups, org creations, private/public repos, and importing GitHub repositories (both as read-only mirrors and full migrations). So basically, you can create, push and pull to a repo, but we don't have many features quite yet (issues, PRs, CI). What is a bit unique is: 1) we built it in Rust and 2) the website is a little odd. Its design is inspired by CLIs (e.g., fzf, broot, vim) instead of web apps, and as such, lacks some affordances that you might typically expect in favor of keyboard-driven instant navigations (we have the very ambitious goal of an FCP of 100ms). In case you're curious, here's how we we built it: https://gitdot.io/designs We recognize that we're making some bold claims here and are also well aware that we have much to learn. Building software is still hard, and that's a fact we seem to relearn everyday. But we wanted to share what we built so far nonetheless. Cheers, thank y'all for reading, and till the next —paul & mikkel. Comments URL: https://news.ycombinator.com/item?id=48447806 Points: 239 # Comments: 212",
+      "summary": "What works now: user signups, org creations, private/public repos, and importing GitHub repositories (both as read-only mirrors and full migrations). So basically, you can create, push and pull to a repo, but we don't have many features quite yet (issues, PRs, CI). What is a bit unique is: 1) we built it in Rust and 2) the website is a little odd. Its design is inspired by CLIs (e.g., fzf, broot, vim) instead of web apps, and as such, lacks some affordances that you might typically expect in favor of keyboard-driven instant navigations (we have the very ambitious goal of an FCP of 100ms). In case you're curious, here's how we we built it: https://gitdot.io/designs We recognize that we're making some bold claims here and are also well aware that we have much to learn. Building software is still hard, and that's a fact we seem to relearn everyday. But we wanted to share what we built so far nonetheless. Cheers, thank y'all for reading, and till the next —paul & mikkel. Comments URL: https://news.ycombinator.com/item?id=48447806 Points: 275 # Comments: 252",
       "publishedAt": "2026-06-08T16:52:11.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -28,7 +108,7 @@
       "id": "hacker-news:https://oldavista.com",
       "title": "Old'aVista – The most powerful guide to the old Internet",
       "url": "https://oldavista.com",
-      "summary": "Article URL: https://oldavista.com/ Comments URL: https://news.ycombinator.com/item?id=48447111 Points: 91 # Comments: 20",
+      "summary": "Article URL: https://oldavista.com/ Comments URL: https://news.ycombinator.com/item?id=48447111 Points: 121 # Comments: 28",
       "publishedAt": "2026-06-08T16:02:10.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -42,26 +122,6 @@
       "publishedAt": "2026-06-08T16:00:00.000Z",
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.foodwatch.org/en/eu-banned-pesticides-found-in-rice-tea-and-spices",
-      "title": "EU-banned pesticides found in rice, tea and spices",
-      "url": "https://www.foodwatch.org/en/eu-banned-pesticides-found-in-rice-tea-and-spices",
-      "summary": "Article URL: https://www.foodwatch.org/en/eu-banned-pesticides-found-in-rice-tea-and-spices Comments URL: https://news.ycombinator.com/item?id=48447062 Points: 384 # Comments: 157",
-      "publishedAt": "2026-06-08T15:59:04.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.wheresyoured.at/ai-is-slowing-down",
-      "title": "AI is slowing down",
-      "url": "https://www.wheresyoured.at/ai-is-slowing-down",
-      "summary": "Article URL: https://www.wheresyoured.at/ai-is-slowing-down/ Comments URL: https://news.ycombinator.com/item?id=48446893 Points: 532 # Comments: 551",
-      "publishedAt": "2026-06-08T15:46:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
@@ -243,66 +303,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
-      "title": "NVIDIA, KRAFTON, NC and Reigning ‘League of Legends’ Champions T1 Celebrate RTX Spark at Korea’s PC Bangs",
-      "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
-      "summary": "At GTC Taipei at COMPUTEX last week, NVIDIA unveiled RTX Spark, the superchip that reinvents Windows PCs for the era of personal AI agents. On the heels of this announcement, NVIDIA founder and CEO Jensen Huang headed to South Korea, where he introduced RTX Spark to the nation’s passionate gaming community. Leading game developers — [&#8230;]",
-      "publishedAt": "2026-06-07T07:00:15.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints",
-      "title": "Scientists ejected from diabetes conference for distributing journal reprints",
-      "url": "https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints",
-      "summary": "Those ousted included ADA journal Editor-in-Chief Steven Kahn and former ADA President Desmond Schatz.",
-      "publishedAt": "2026-06-06T20:53:07.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight",
-      "title": "NASA&#8217;s X-59 Aircraft Flies Supersonic for First Time",
-      "url": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight",
-      "summary": "NASA’s&#160;experimental&#160;X-59&#160;aircraft&#160;marked&#160;a major milestone&#160;Friday,&#160;June&#160;5,&#160;when it&#160;flew faster than the speed of sound for the first time,&#160;setting the stage for&#160;demonstrating&#160;its quiet supersonic capabilities&#160;later this year.&#160; NASA test pilot Jim “Clue” Less&#160;took off&#160;and landed&#160;at Edwards Air Force Base&#160;in California, reaching a top speed of&#160;approximately&#160;Mach&#160;1.1&#160;(713&#160;mph)&#160;and altitude of&#160;43,400 feet.&#160;The&#160;X-59’s&#160;flight began at&#160;11:08&#160;a.m.&#160;PDT&#160;and lasted 81&#160;minutes,&#160;with&#160;the team focusing on flying qualities&#160;at&#160;both subsonic and then [&#8230;]",
-      "publishedAt": "2026-06-05T20:44:57.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-announces-winners-of-2026-university-innovation-competition",
-      "title": "NASA Announces Winners of 2026 University Innovation Competition",
-      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-announces-winners-of-2026-university-innovation-competition",
-      "summary": "NASA announced the Massachusetts Institute of Technology project, Exploration-Class Lunar Integrated Power SystEm, as the first place winner for the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) competition, which challenges students to bridge gaps in aerospace technology by innovating new system concepts and prototypes. Another&#160;team&#160;from&#160;the same university&#160;won second place overall for their project,&#160;Mars Exploration Layered Infrastructure for Operations, Research, and Advancement,&#160;while&#160;Virginia Polytechnic Institute and State University&#160;took third&#160;place&#160;with&#160;the Mars [&#8230;]",
-      "publishedAt": "2026-06-05T20:17:11.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth",
-      "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
-      "url": "https://science.nasa.gov/missions/artemis/artemis-2/nasas-artemis-ii-moon-mission-research-continues-on-earth",
-      "summary": "Results from Artemis II’s science investigations will help support safe human exploration of deep space and provide a blueprint for how future missions will conduct science on the lunar surface as NASA builds a Moon Base and develops an enduring human presence there.",
-      "publishedAt": "2026-06-05T19:16:48.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis",
-      "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
-      "url": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis",
-      "summary": "You can use the new console experience on Amazon Bedrock to browse and compare the latest AI models side by side, organize work into projects with streamlined evaluation workflows, and access project-aware live documentation with auto-prefilled code snippets ready to copy and run.",
-      "publishedAt": "2026-06-05T19:15:11.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

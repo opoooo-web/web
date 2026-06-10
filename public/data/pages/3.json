@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids",
+      "title": "FCC wants to kill burner phones by forcing telecoms to get all customers' IDs",
+      "url": "https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids",
+      "summary": "Article URL: https://www.404media.co/fcc-wants-to-kill-burner-phones-by-forcing-telecoms-to-get-all-customers-ids/ Comments URL: https://news.ycombinator.com/item?id=48462308 Points: 438 # Comments: 275",
+      "publishedAt": "2026-06-09T15:21:46.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root",
+      "title": "High-severity vulnerability in Linux caused by a single faulty character",
+      "url": "https://arstechnica.com/security/2026/06/a-single-errant-character-in-the-linux-kernel-allows-attacker-to-gain-root",
+      "summary": "Use-after-free bug can be exploited to evade sandbox defenses.",
+      "publishedAt": "2026-06-09T15:12:43.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/09/ios-27-features-we-didnt-see-on-stage",
+      "title": "iOS 27 features we didn&#8217;t see onstage",
+      "url": "https://techcrunch.com/2026/06/09/ios-27-features-we-didnt-see-on-stage",
+      "summary": "While iOS 27 isn't bringing major changes, it's still got many small features that could improve everyday usage for iPhone users.",
+      "publishedAt": "2026-06-09T15:06:12.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/06/09/apple-brings-streaming-style-subscription-bundles-to-the-app-store",
       "title": "Apple brings streaming-style subscription bundles to the App Store",
       "url": "https://techcrunch.com/2026/06/09/apple-brings-streaming-style-subscription-bundles-to-the-app-store",
@@ -68,7 +98,7 @@
       "id": "hacker-news:https://arxiv.org/abs/2605.15184",
       "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
       "url": "https://arxiv.org/abs/2605.15184",
-      "summary": "Article URL: https://arxiv.org/abs/2605.15184 Comments URL: https://news.ycombinator.com/item?id=48460863 Points: 105 # Comments: 50",
+      "summary": "Article URL: https://arxiv.org/abs/2605.15184 Comments URL: https://news.ycombinator.com/item?id=48460863 Points: 122 # Comments: 53",
       "publishedAt": "2026-06-09T13:27:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -148,18 +178,8 @@
       "id": "hacker-news:https://qunabu.github.io/Gravity",
       "title": "Show HN: Gravity – interactive solar-system simulator, from Newton to Einstein",
       "url": "https://qunabu.github.io/Gravity",
-      "summary": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well. What's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU. Tech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: https://github.com/qunabu/Gravity Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality Comments URL: https://news.ycombinator.com/item?id=48459837 Points: 131 # Comments: 35",
+      "summary": "Just for fun and self education, I've built this over a weekend to teach myself why orbits exist, not just show planets going around. Something that was never clearly explain to me in school. It opens with a guided tour that builds the idea up step by step: two bodies and the equal/opposite force, inertia (the Sun is removed and Earth just drifts straight), then \"an orbit is falling and continuously missing,\" cosmic velocities with a little rocket, Voyager 1 & 2's real gravity assists (the clock runs the actual 1977–1989 dates so the planets orbit into their grand-tour alignment and the slingshots line up), and it ends on Einstein — gravity as curved spacetime, the classic rubber-sheet well. What's real: every body uses its real radius/mass and J2000 orbital elements; positions come from solving Kepler's equation each frame. You can toggle to an N-body mode (symplectic leapfrog) that shows live energy drift (~1e-6%) so you can see the integrator is honest. The only thing faked is scale — at true scale you can't see anything — so there's a toggle between true scale and a log-remapped \"visual\" scale, with physics always running in real AU. Tech: TypeScript + Three.js + Vite, fully client-side, no backend, works offline (surface textures are generated procedurally from value-noise; only Earth uses a real image). Source: https://github.com/qunabu/Gravity Happy to answer questions — and feedback on the physics or the explanations is very welcome. This project might be totally inaccurate in terms of real physics, this is how i do understand this on my own - i'm happy to confront this with reality Comments URL: https://news.ycombinator.com/item?id=48459837 Points: 142 # Comments: 34",
       "publishedAt": "2026-06-09T11:46:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
-      "title": "Test-case reducers are underappreciated debugging tools",
-      "url": "https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
-      "summary": "Article URL: https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html Comments URL: https://news.ycombinator.com/item?id=48459659 Points: 63 # Comments: 8",
-      "publishedAt": "2026-06-09T11:27:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -235,16 +255,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet",
-      "title": "Zepto&#8217;s IPO filing reveals fast growth, bigger losses, and a valuation question nobody&#8217;s answered yet",
-      "url": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet",
-      "summary": "Zepto's advertising revenue jumped 151%, outpacing the company's 104% growth in operating revenue.",
-      "publishedAt": "2026-06-09T05:07:17.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "nasa-breaking-news:https://science.nasa.gov/missions/station/san-franciscos-metropolitan-mosaic",
       "title": "San Francisco’s Metropolitan Mosaic",
       "url": "https://science.nasa.gov/missions/station/san-franciscos-metropolitan-mosaic",
@@ -255,16 +265,6 @@
       "category": "Science"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart",
-      "title": "Why Apple&#8217;s slow-and-steady AI bet is starting to look pretty smart",
-      "url": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart",
-      "summary": "Can Apple's new AI glow-up put to bed accusations that it's losing an all-important industry race?",
-      "publishedAt": "2026-06-09T01:56:48.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation",
       "title": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation",
       "url": "https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation",
@@ -273,6 +273,16 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "title": "Industrial policy for the Intelligence Age",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "publishedAt": "2026-06-09T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
     },
     {
       "id": "hugging-face-blog:https://huggingface.co/blog/github-ci-hf-jobs",
@@ -293,16 +303,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026",
-      "title": "AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026",
-      "summary": "This week, the&nbsp;AWS IoT Device SDK for Swift&nbsp;reached general availability. As a member of the&nbsp;Swift Server Workgroup (SSWG), this one caught my attention. The SDK brings production-ready MQTT 5 connectivity, Device Shadow, Jobs, and fleet provisioning to Swift developers on macOS, iOS, tvOS, and Linux. I’m curious to see what you will build with it. […]",
-      "publishedAt": "2026-06-08T21:27:12.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

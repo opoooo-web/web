@@ -1,86 +1,78 @@
 {
-  "generatedAt": "2026-06-10T14:30:20.095Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-06-10T18:10:11.023Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "The tech landscape is heavily influenced by AI's rapid expansion, leading to concerns over data retention, ethical guardrails, and immense energy demands for new data centers. Simultaneously, public skepticism towards AI is emerging, notably from recent graduates. Amidst these shifts, advancements continue in space exploration, and consumer platforms are introducing more user control over algorithms.",
   "highlights": [
     {
-      "title": "Britain Became as Poor as Mississippi",
-      "whyItMatters": "Article URL: https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303/ Comments URL: https://news.ycombinator.com/item?id=48476751 Points: 5 # Comments: 0",
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "whyItMatters": "This reveals growing requirements for data retention by AI developers (Anthropic) for safety, but raises privacy concerns as data leaves AWS's security boundary, impacting enterprise users.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.theatlantic.com/magazine/2026/07/uk-productivity-economy-reform-party/687303",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48473166",
       "category": "Developer",
-      "publishedAt": "2026-06-10T14:23:12.000Z"
+      "publishedAt": "2026-06-10T08:21:38.000Z"
     },
     {
-      "title": "ServiceNow tells customers a bug left some of their data exposed to the internet",
-      "whyItMatters": "ServiceNow is used by thousands of enterprises to automate their internal processes, but says several customers had data accessed because of a security bug.",
+      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
+      "whyItMatters": "This reflects significant public backlash and skepticism, particularly among new graduates, towards the uncritical embrace of AI, prompting tech giants to address this sentiment.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+      "category": "Technology",
+      "publishedAt": "2026-06-10T17:45:11.000Z"
+    },
+    {
+      "title": "Why everyone’s an energy company now",
+      "whyItMatters": "Illustrates the profound impact of AI data centers on global energy demand, pushing diverse companies, including automakers, to invest heavily in energy storage and power solutions.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/10/servicenow-tells-customers-a-bug-left-some-of-their-data-exposed-to-the-internet",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/why-everyones-an-energy-company-now",
       "category": "Technology",
-      "publishedAt": "2026-06-10T14:13:02.000Z"
+      "publishedAt": "2026-06-10T12:45:00.000Z"
     },
     {
-      "title": "Valve is phasing out physical Steam gift cards due to scammers",
-      "whyItMatters": "After over a decade, Steam will no longer sell physical gift cards in stores. In a support page spotted earlier by Windows Central, Valve says it will no longer restock its gift cards once they run out, citing scammers who \"continue to have an impact on Steam customers and other unsuspecting individuals.\" In its post, [&#8230;]",
+      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
+      "whyItMatters": "Signals concrete progress and ambitious timelines for NASA's lunar return mission, highlighting ongoing commitment to deep space human exploration.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it",
+      "category": "Technology",
+      "publishedAt": "2026-06-09T18:42:19.000Z"
+    },
+    {
+      "title": "You can just tell the Instagram algorithm what you want now",
+      "whyItMatters": "Represents a move towards greater user control and transparency over social media algorithms, potentially mitigating concerns about curated content and 'algorithm traps.'",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/games/947741/valve-steam-physical-gift-cards-scammers",
+      "sourceUrl": "https://www.theverge.com/tech/947898/meta-instagram-your-algorithm-main-feed-tell",
       "category": "Technology",
-      "publishedAt": "2026-06-10T14:10:38.000Z"
-    },
-    {
-      "title": "Five questions for the duo behind The Pelley Minutes",
-      "whyItMatters": "Websites are so back! Today's website worth visiting is The Pelley Minutes, a clever project that puts the career of longtime 60 Minutes correspondent Scott Pelley into perspective. The show may only be 60 minutes long, but Pelley racked up nearly 37,000 minutes in his 37-year long career, reporting on almost everything humanity has put [&#8230;]",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/report/947472/five-questions-for-the-duo-behind-the-pelley-minutes",
-      "category": "Technology",
-      "publishedAt": "2026-06-10T14:06:17.000Z"
-    },
-    {
-      "title": "Notes on DeepSeek",
-      "whyItMatters": "Article URL: https://twitter.com/NikoMcCarty/status/2064686557400100884 Comments URL: https://news.ycombinator.com/item?id=48476474 Points: 9 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://twitter.com/NikoMcCarty/status/2064686557400100884",
-      "category": "Developer",
-      "publishedAt": "2026-06-10T14:03:40.000Z"
-    },
-    {
-      "title": "PgDog is funded and coming to a database near you",
-      "whyItMatters": "Article URL: https://pgdog.dev/blog/our-funding-announcement Comments URL: https://news.ycombinator.com/item?id=48476466 Points: 15 # Comments: 3",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://pgdog.dev/blog/our-funding-announcement",
-      "category": "Developer",
-      "publishedAt": "2026-06-10T14:02:59.000Z"
+      "publishedAt": "2026-06-10T17:06:10.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "112 source-linked updates, led by OpenAI News.",
-      "itemCount": 112
+      "name": "AI Data & Ethics",
+      "summary": "Concerns over AI model training data retention, user privacy, content rights, and the ethical guardrails applied to frontier models are prominent, alongside public skepticism about AI's societal impact.",
+      "itemCount": 11
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by TechCrunch.",
-      "itemCount": 50
+      "name": "AI Innovation & Investment",
+      "summary": "The rapid development of new AI models and tools continues, with significant investment in AI coding agents and enterprise applications, while companies explore faster text generation and local AI capabilities.",
+      "itemCount": 11
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Space Exploration & Fusion",
+      "summary": "NASA is advancing ambitious missions like Artemis III to the Moon and utilizing the Webb Telescope for scientific discoveries, while private sector companies like Avalanche Energy are making strides in fusion power development.",
+      "itemCount": 11
     },
     {
-      "name": "Infrastructure",
-      "summary": "28 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 28
+      "name": "Digital Infrastructure & Energy",
+      "summary": "The immense power requirements of AI data centers are transforming the energy landscape, leading to new data center deals and prompting companies across various sectors to invest in energy storage and efficient cloud infrastructure.",
+      "itemCount": 8
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Consumer Tech & Platform Updates",
+      "summary": "Major platforms are introducing features for enhanced user control over content algorithms and new functionalities for smart devices, while addressing security concerns and adapting business models.",
+      "itemCount": 11
     }
   ],
   "notes": [
-    "Gemini HTTP 503"
+    "All provided source items are dated in 2026, indicating a forward-looking or simulated news brief."
   ]
 }

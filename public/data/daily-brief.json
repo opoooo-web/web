@@ -1,78 +1,86 @@
 {
-  "generatedAt": "2026-06-10T18:10:11.023Z",
-  "generatedBy": "gemini",
-  "model": "gemini-2.5-flash",
-  "narrative": "The tech landscape is heavily influenced by AI's rapid expansion, leading to concerns over data retention, ethical guardrails, and immense energy demands for new data centers. Simultaneously, public skepticism towards AI is emerging, notably from recent graduates. Amidst these shifts, advancements continue in space exploration, and consumer platforms are introducing more user control over algorithms.",
+  "generatedAt": "2026-06-10T20:46:56.156Z",
+  "generatedBy": "local-fallback",
+  "model": null,
+  "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
   "highlights": [
     {
-      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
-      "whyItMatters": "This reveals growing requirements for data retention by AI developers (Anthropic) for safety, but raises privacy concerns as data leaves AWS's security boundary, impacting enterprise users.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com/item?id=48473166",
-      "category": "Developer",
-      "publishedAt": "2026-06-10T08:21:38.000Z"
+      "title": "NASA Awards Contract for Construction Services in California",
+      "whyItMatters": "NASA has selected multiple small businesses for the Western Regional Multiple Award Construction Contract, which supports a broad range of facility enhancement, modernization, and sustainment work at NASA’s Armstrong Flight Research Center in Edwards, California, NASA’s Ames Research Center in California’s Silicon Valley, and other federal agencies in the region. The contract provides general construction, [&#8230;]",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-construction-services-in-california",
+      "category": "Science",
+      "publishedAt": "2026-06-10T20:32:25.000Z"
     },
     {
-      "title": "Microsoft, like, totally gets why students are booing AI-pilled graduation speakers",
-      "whyItMatters": "This reflects significant public backlash and skepticism, particularly among new graduates, towards the uncritical embrace of AI, prompting tech giants to address this sentiment.",
+      "title": "Apple, Google add support for Thread 1.4",
+      "whyItMatters": "Apple and Google are updating their smart home streaming devices to Thread 1.4. As first spotted by Matter Alpha and 9to5 Google, the latest spec has arrived on compatible Apple TVs in the tvOS 27 developer beta and the Google TV Streamer through a software update. This lays the groundwork for these devices, which serve [&#8230;]",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/news/947831/college-speakers-booed-ai-microsoft",
+      "sourceUrl": "https://www.theverge.com/tech/947888/apple-google-add-support-for-thread-1-4",
       "category": "Technology",
-      "publishedAt": "2026-06-10T17:45:11.000Z"
+      "publishedAt": "2026-06-10T20:25:46.000Z"
     },
     {
-      "title": "Why everyone’s an energy company now",
-      "whyItMatters": "Illustrates the profound impact of AI data centers on global energy demand, pushing diverse companies, including automakers, to invest heavily in energy storage and power solutions.",
+      "title": "Everyone wants a piece of Tesla&#8217;s battery business",
+      "whyItMatters": "Electricity demand from AI data centers is pushing everyone — including automakers like GM and Ford — into the energy storage business.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/10/why-everyones-an-energy-company-now",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/everyone-wants-a-piece-of-teslas-battery-business",
       "category": "Technology",
-      "publishedAt": "2026-06-10T12:45:00.000Z"
+      "publishedAt": "2026-06-10T20:21:25.000Z"
     },
     {
-      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
-      "whyItMatters": "Signals concrete progress and ambitious timelines for NASA's lunar return mission, highlighting ongoing commitment to deep space human exploration.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it",
+      "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
+      "whyItMatters": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues",
       "category": "Technology",
-      "publishedAt": "2026-06-09T18:42:19.000Z"
+      "publishedAt": "2026-06-10T20:19:31.000Z"
     },
     {
-      "title": "You can just tell the Instagram algorithm what you want now",
-      "whyItMatters": "Represents a move towards greater user control and transparency over social media algorithms, potentially mitigating concerns about curated content and 'algorithm traps.'",
+      "title": "Kalshi adds required employment verification for some prediction market bets",
+      "whyItMatters": "The CFTC is considering its first regulation for prediction markets, as arrests over \"insider trading\" on everything from military operations to Google Search data continue to stack up. As CoinDesk reports, a notice of proposed rulemaking says \"the proposal would establish a structured framework for evaluating whether such contracts involve an activity enumerated in Section [&#8230;]",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/947898/meta-instagram-your-algorithm-main-feed-tell",
+      "sourceUrl": "https://www.theverge.com/business/948083/kalshi-prediction-markets-insider-trading",
       "category": "Technology",
-      "publishedAt": "2026-06-10T17:06:10.000Z"
+      "publishedAt": "2026-06-10T20:18:16.000Z"
+    },
+    {
+      "title": "Raspberry Pi 5 – 16 GB, $350",
+      "whyItMatters": "Article URL: https://www.adafruit.com/product/6125?src=raspberrypi Comments URL: https://news.ycombinator.com/item?id=48481857 Points: 12 # Comments: 9",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.adafruit.com/product/6125?src=raspberrypi",
+      "category": "Developer",
+      "publishedAt": "2026-06-10T20:05:21.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Data & Ethics",
-      "summary": "Concerns over AI model training data retention, user privacy, content rights, and the ethical guardrails applied to frontier models are prominent, alongside public skepticism about AI's societal impact.",
-      "itemCount": 11
+      "name": "AI",
+      "summary": "107 source-linked updates, led by NVIDIA Blog.",
+      "itemCount": 107
     },
     {
-      "name": "AI Innovation & Investment",
-      "summary": "The rapid development of new AI models and tools continues, with significant investment in AI coding agents and enterprise applications, while companies explore faster text generation and local AI capabilities.",
-      "itemCount": 11
+      "name": "Technology",
+      "summary": "50 source-linked updates, led by The Verge.",
+      "itemCount": 50
     },
     {
-      "name": "Space Exploration & Fusion",
-      "summary": "NASA is advancing ambitious missions like Artemis III to the Moon and utilizing the Webb Telescope for scientific discoveries, while private sector companies like Avalanche Energy are making strides in fusion power development.",
-      "itemCount": 11
+      "name": "Infrastructure",
+      "summary": "33 source-linked updates, led by AWS News Blog.",
+      "itemCount": 33
     },
     {
-      "name": "Digital Infrastructure & Energy",
-      "summary": "The immense power requirements of AI data centers are transforming the energy landscape, leading to new data center deals and prompting companies across various sectors to invest in energy storage and efficient cloud infrastructure.",
-      "itemCount": 8
+      "name": "Developer",
+      "summary": "30 source-linked updates, led by Hacker News.",
+      "itemCount": 30
     },
     {
-      "name": "Consumer Tech & Platform Updates",
-      "summary": "Major platforms are introducing features for enhanced user control over content algorithms and new functionalities for smart devices, while addressing security concerns and adapting business models.",
-      "itemCount": 11
+      "name": "Science",
+      "summary": "20 source-linked updates, led by NASA Breaking News.",
+      "itemCount": 20
     }
   ],
   "notes": [
-    "All provided source items are dated in 2026, indicating a forward-looking or simulated news brief."
+    "Gemini HTTP 429"
   ]
 }

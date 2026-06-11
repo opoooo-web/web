@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-06-11T01:42:38.318Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-06-11T07:08:38.193Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology landscape is buzzing with developments across AI, infrastructure, science, and developer communities. Highlights include AI's application in drone navigation and black hole simulations, alongside critical discussions around AI ethics and safety. Innovation in conversational AI is also notable, with systems like Apple's Siri becoming more refined.",
   "highlights": [
     {
+      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
+      "whyItMatters": "This highlights an unexpected application of consumer gaming technology in military drone navigation, showcasing the diverse and sometimes unforeseen impacts of data collection.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation",
+      "category": "Developer",
+      "publishedAt": "2026-06-11T06:42:06.000Z"
+    },
+    {
+      "title": "Opendoor’s India exit is fueling a bigger conversation about AI and outsourcing",
+      "whyItMatters": "This signifies a shift in global business strategies concerning AI and outsourcing, particularly within the Indian market.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing",
+      "category": "Technology",
+      "publishedAt": "2026-06-11T04:02:19.000Z"
+    },
+    {
+      "title": "Air Pollution’s Daily Pulse Over the Northeast",
+      "whyItMatters": "NASA's TEMPO mission reveals new insights into daily air pollution patterns, crucial for environmental monitoring and public health.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/air-pollutions-daily-pulse-over-the-northeast",
+      "category": "Science",
+      "publishedAt": "2026-06-11T04:01:00.000Z"
+    },
+    {
+      "title": "Anthropic’s Dario Amodei has just one direct report",
+      "whyItMatters": "This unique organizational structure at a leading AI company could indicate highly focused leadership in advanced AI development.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report",
+      "category": "Technology",
+      "publishedAt": "2026-06-11T03:53:06.000Z"
+    },
+    {
       "title": "AI agent runs amok in Fedora and elsewhere",
-      "whyItMatters": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 75 # Comments: 7",
+      "whyItMatters": "This raises concerns about the stability and control of AI agents in operating systems, emphasizing the need for robust AI governance.",
       "sourceName": "Hacker News",
       "sourceUrl": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9",
       "category": "Developer",
       "publishedAt": "2026-06-11T00:10:08.000Z"
     },
     {
-      "title": "Bluesky is getting ‘communities’",
-      "whyItMatters": "Bluesky will be getting \"communities,\" which will function as smaller spaces where you can \"go deeper and hang out with people who care about the same stuff\" sometime this year, according to head of product Alex Benzer. They will be built on the decentralized AT Protocol that underpins Bluesky, with Benzer saying that \"it's a [&#8230;]",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/948215/bluesky-communities-at-protocol-atmosphere-reddit",
-      "category": "Technology",
-      "publishedAt": "2026-06-11T00:05:48.000Z"
-    },
-    {
       "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "whyItMatters": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "whyItMatters": "This demonstrates the powerful application of AI in complex scientific research, enabling advancements in understanding extreme cosmic phenomena.",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/using-codex-to-simulate-black-holes",
       "category": "AI",
       "publishedAt": "2026-06-11T00:00:00.000Z"
     },
     {
-      "title": "Deficient executive control in transformer attention",
-      "whyItMatters": "Article URL: https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838 Comments URL: https://news.ycombinator.com/item?id=48484282 Points: 16 # Comments: 3",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://academic.oup.com/pnasnexus/article/5/6/pgag149/8698838",
-      "category": "Developer",
-      "publishedAt": "2026-06-10T23:35:01.000Z"
-    },
-    {
-      "title": "Framework delays its first Laptop 13 Pro shipments by a month",
-      "whyItMatters": "The Framework Laptop 13 Pro is delayed. The new 13-inch Framework flagship was set to launch in June, but shipments from the first batch are now expected in July - and there's still a chance some shipments could slip to early August. If you're not in the first batch, your Laptop 13 Pro shifts from [&#8230;]",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/948044/framework-laptop-13-pro-delay-shipment-july-august",
-      "category": "Technology",
-      "publishedAt": "2026-06-10T23:12:51.000Z"
-    },
-    {
       "title": "Apple’s new Siri AI knows when to shut up",
-      "whyItMatters": "Apple's new Siri AI is finally here, and so far, it seems like it works. I have access and have been messing around with it, and my biggest impression so far is that Siri AI is quite curt - which I mean as a compliment. Many AI chatbots are cheery and wordy. While a more [&#8230;]",
+      "whyItMatters": "This indicates a significant refinement in conversational AI design, focusing on more natural and less verbose user interactions.",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/tech/948155/apple-siri-ai-chatbot-personality",
       "category": "Technology",
       "publishedAt": "2026-06-10T22:52:17.000Z"
+    },
+    {
+      "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+      "whyItMatters": "This news brings to light critical issues around AI safety and corporate ethics in the rapidly evolving AI development landscape.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims",
+      "category": "Technology",
+      "publishedAt": "2026-06-10T22:31:19.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "113 source-linked updates, led by OpenAI News.",
-      "itemCount": 113
+      "name": "AI Applications",
+      "summary": "AI is finding diverse applications from military drone navigation to complex astrophysics and improving user interaction in personal assistants.",
+      "itemCount": 3
     },
     {
-      "name": "Technology",
-      "summary": "49 source-linked updates, led by The Verge.",
-      "itemCount": 49
+      "name": "AI Ethics & Governance",
+      "summary": "Discussions around AI ethics, safety, and corporate responsibility are intensifying as AI agents become more prevalent and impactful.",
+      "itemCount": 3
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Science & Environment",
+      "summary": "New scientific research using advanced observational missions is providing crucial insights into environmental patterns.",
+      "itemCount": 1
     },
     {
-      "name": "Infrastructure",
-      "summary": "28 source-linked updates, led by AWS News Blog.",
-      "itemCount": 28
-    },
-    {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Technology & Business Strategy",
+      "summary": "Business strategies in leading technology firms are evolving, showcasing unique organizational approaches to innovation.",
+      "itemCount": 1
     }
   ],
-  "notes": [
-    "Gemini HTTP 503"
-  ]
+  "notes": []
 }

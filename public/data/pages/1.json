@@ -5,6 +5,286 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+      "title": "Siri is good now??",
+      "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+      "summary": "You'd be forgiven for thinking this day would never come. Siri has spent a decade and half somewhere between \"sort of useful at a few things\" and \"utterly disastrous, why did I even try, can it honestly not even set a timer.\" But the wildest thing just happened: Apple put out a new version of [&#8230;]",
+      "publishedAt": "2026-06-12T17:17:04.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts",
+      "title": "Robinhood sees &#8216;record-breaking&#8217; traffic after SpaceX stock debuts",
+      "url": "https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts",
+      "summary": "The trading platform says some customers experienced intermittent disruptions, but that those issues have resolved.",
+      "publishedAt": "2026-06-12T17:05:06.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://apply.gauntletai.com/register/champions",
+      "title": "Gauntlet AI will fly you to Austin, train you in AI, give $200k+ job",
+      "url": "https://apply.gauntletai.com/register/champions",
+      "summary": "Article URL: https://apply.gauntletai.com/register/champions?utm_source=Third%20Party&utm_campaign=Hacker%20News&utm_medium=organic&utm_content=HN Comments URL: https://news.ycombinator.com/item?id=48506575 Points: 0 # Comments: 0",
+      "publishedAt": "2026-06-12T17:00:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://bitboard.work",
+      "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "url": "https://bitboard.work",
+      "summary": "We’re Connor and Ambar from BitBoard ( https://bitboard.work ). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI. Today, we’re launching dashboards that you and your agents can work on together. You can connect your coding agent or AI chat to BitBoard and build live reporting. Here’s a demo: https://www.youtube.com/watch?v=HPl0K565a7c . AI tools treat data analysis as ephemeral, making it hard to report or collaborate. Legacy BI tools weren’t intended for AI users, so they bolt on chatbots and can’t offer meaningful control to your agents. Software can now make far more of a business legible than BI ever could, but neither legacy BI nor chat bots are built to handle it. Our original product was AI agents for administrative tasks in healthcare ( https://news.ycombinator.com/item?id=44237769 ), but customers kept pulling us toward their data analysis problems: queries scattered across disparate sources, spreadsheets floating everywhere. We kept building tooling for addressing that, and at a certain point those tools were becoming our product. We ran into several problems. Agents made bad inferences because they had no context on the business. They couldn't be trusted to make decisions because nothing checked their work. And anything one agent or one person figured out was invisible to everyone else. In BitBoard, humans and agents interact with the same data primitives but get tools designed for their own work. We’re building dashboards to make the human reading experience better. These dashboards progressively use intelligence - starting from code or SQL queries and leading to full embedded apps. Humans and agents will need to agree on methods to interpret data, so we’re letting both contribute to canonical sources, entities, and measures (using your favorite semantic model or ours). Every answer comes with provenance, and the same call with the same parameters returns the same number. Looking ahead, these shared primitives let long-running agents operate inside a business, and we're building those agents too. An agent needs a measurable goal and a way to verify its work. BitBoard gives it both. The agent takes a problem like a metric drifting or a funnel leaking and figures out what to do next. Its work becomes datasets, dashboards, and traces that the team can observe and sign off on. Technically, we’re building a collaboration engine with isomorphic updates for humans and AI, columnar analysis (we use DuckDB and Apache Arrow), grounding and verification infrastructure, and enabling long running tasks with agent containers and traces. For agentic work we’re big fans of applying LLM judgement to discover problems, and then generating deterministic software to automate them. Try it out at https://app.bitboard.work . (We require an email so we can set up your account). We’re excited about how data analysis and science can change in the age of LLMs, and welcome all your thoughts! Comments URL: https://news.ycombinator.com/item?id=48506545 Points: 5 # Comments: 0",
+      "publishedAt": "2026-06-12T16:58:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.politico.com/www.politico.eu/article/new-privacy-frontier-europe-eyes-crackdown-smart-glasses",
+      "title": "New privacy frontier: Europe eyes crackdown on smart glasses",
+      "url": "https://www.politico.com/www.politico.eu/article/new-privacy-frontier-europe-eyes-crackdown-smart-glasses",
+      "summary": "Article URL: https://www.politico.com/www.politico.eu/article/new-privacy-frontier-europe-eyes-crackdown-smart-glasses/ Comments URL: https://news.ycombinator.com/item?id=48506324 Points: 5 # Comments: 0",
+      "publishedAt": "2026-06-12T16:41:16.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://sgaud.com/texts/pdf",
+      "title": "A PDF that changes based on who is reading",
+      "url": "https://sgaud.com/texts/pdf",
+      "summary": "Article URL: https://sgaud.com/texts/pdf Comments URL: https://news.ycombinator.com/item?id=48506209 Points: 8 # Comments: 3",
+      "publishedAt": "2026-06-12T16:32:50.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/948917/elon-musk-trillionaire-how-much-visualization",
+      "title": "A trillion dollars is a stupid amount of money",
+      "url": "https://www.theverge.com/tech/948917/elon-musk-trillionaire-how-much-visualization",
+      "summary": "Elon Musk is now officially the world's first trillionaire. That is a colossal amount of wealth (and by proxy, power) for one individual to have. Its scale - a thousand times more than a billion - is difficult to fathom for those of us who aren't among the 3,363 billionaires that currently exist in our [&#8230;]",
+      "publishedAt": "2026-06-12T16:26:29.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
+      "title": "Elon Musk is the world&#8217;s first trillionaire",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
+      "summary": "Elon Musk's net worth has passed the trillion-dollar mark after SpaceX's IPO. His net worth, which was hovering around $800 billion before the IPO, includes the value of his 4.8 billion shares in SpaceX, along with his wealth from his other companies, like Tesla. Shares of SPCX opened at $150 and have remained well above [&#8230;]",
+      "publishedAt": "2026-06-12T16:24:39.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer",
+      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer",
+      "summary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
+      "publishedAt": "2026-06-12T16:23:25.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/948464/trump-phone-t1-hands-on",
+      "title": "I held the Trump phone",
+      "url": "https://www.theverge.com/tech/948464/trump-phone-t1-hands-on",
+      "summary": "Where's the Trump phone? We're going to keep talking about it every week. We've reached out, as usual, to ask about the Trump phone's whereabouts. We don't have the phones we preordered yet, but this week included an unexpected in-person encounter with the T1. You see a lot of interesting phones when you're among tech [&#8230;]",
+      "publishedAt": "2026-06-12T16:05:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/allenai/olmo-eval",
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "summary": "",
+      "publishedAt": "2026-06-12T15:56:10.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-after-spacexs-historic-ipo",
+      "title": "Elon Musk becomes the world&#8217;s first trillionaire after SpaceX&#8217;s historic IPO",
+      "url": "https://techcrunch.com/2026/06/12/elon-musk-becomes-the-worlds-first-trillionaire-after-spacexs-historic-ipo",
+      "summary": "The SpaceX IPO has boosted Musk's paper wealth to more than $1,000,000,000,000 at a time when he is more hated -- and powerful -- than ever.",
+      "publishedAt": "2026-06-12T15:55:06.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/12/spacex-opens-at-150-an-11-pop-for-the-most-anticipated-debut-in-history",
+      "title": "SpaceX opens at $150, an 11% pop for the most anticipated debut in history",
+      "url": "https://techcrunch.com/2026/06/12/spacex-opens-at-150-an-11-pop-for-the-most-anticipated-debut-in-history",
+      "summary": "The company made its heavily anticipated debut on Friday, trading higher than its initial $135 IPO price.",
+      "publishedAt": "2026-06-12T15:54:44.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.documentfoundation.org/blog/2026/06/11/euro-office-open-standards-and-native-odf",
+      "title": "Euro-Office, open standards, and native ODF",
+      "url": "https://blog.documentfoundation.org/blog/2026/06/11/euro-office-open-standards-and-native-odf",
+      "summary": "Article URL: https://blog.documentfoundation.org/blog/2026/06/11/euro-office-open-standards-and-native-odf/ Comments URL: https://news.ycombinator.com/item?id=48505690 Points: 27 # Comments: 2",
+      "publishedAt": "2026-06-12T15:51:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://keygen.music",
+      "title": "Keygen.music",
+      "url": "https://keygen.music",
+      "summary": "Article URL: https://keygen.music Comments URL: https://news.ycombinator.com/item?id=48505561 Points: 32 # Comments: 9",
+      "publishedAt": "2026-06-12T15:42:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612",
+      "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself",
+      "url": "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612",
+      "summary": "Article URL: https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/ Comments URL: https://news.ycombinator.com/item?id=48505452 Points: 25 # Comments: 16",
+      "publishedAt": "2026-06-12T15:32:56.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure",
+      "title": "NASA to Cover 34th SpaceX Resupply Mission Space Station Departure",
+      "url": "https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure",
+      "summary": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft is scheduled to depart the International Space Station on Tuesday, June 16, for its return to Earth. Watch NASA’s live undocking coverage beginning at 11:45 a.m. EDT on NASA+, Amazon Prime, and the agency’s YouTube channel. [&#8230;]",
+      "publishedAt": "2026-06-12T15:32:54.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://stackscope.dev",
+      "title": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
+      "url": "https://stackscope.dev",
+      "summary": "Hey all, I built StackScope, a crawler/catalogue that looks at new product launches and shows what they were built with. It watches launches from Product Hunt, Show HN, and PeerPush, then crawls the public site behind each one. The goal is to show what people actually launched with: hosting, frameworks, analytics, DNS, security headers, legal pages, AI-builder signals, and other public clues. I started building it because most stack-detection sites look at the web as a whole. I was more interested in the current indie launch scene: what people are choosing right now, at the point they first put something in public. A few implementation details: it runs on .NET, uses Playwright for rendered pages, and has a first-party fingerprint catalogue rather than one copied from Wappalyzer/etc. robots.txt is honoured, and the bot identifies itself. Frustratingly, I am still waiting for verified bot status from Cloudflare and currently that knocks out about 10% of all sites. There is also a private readiness check: paste a URL, get the same style of report, fix things, and recrawl. No account or email needed. I'd be interested in feedback on the usefulness of this, the methodology, and any obvious false positives. Jonathan. Comments URL: https://news.ycombinator.com/item?id=48505364 Points: 11 # Comments: 3",
+      "publishedAt": "2026-06-12T15:26:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells",
+      "title": "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
+      "url": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells",
+      "summary": "Article URL: https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/ Comments URL: https://news.ycombinator.com/item?id=48505231 Points: 122 # Comments: 30",
+      "publishedAt": "2026-06-12T15:15:24.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "title": "Show HN: Script to bulk delete Claude chats from the web UI",
+      "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+      "summary": "I haven't found a way to delete all chats in bulk like you can on Chatgpt. With Claude, you have to scroll to the bottom, select everything, and delete. The problem is, if you have a lot of chats, it becomes impossible. I created this script. It does it alone. I hope it helps someone. (conversations disappear from the UI slowly, over several minutes, and remember to keep the tab open until the console shows \"Finished\", refreshing away from the page can stop the deletion process.) Comments URL: https://news.ycombinator.com/item?id=48505161 Points: 29 # Comments: 7",
+      "publishedAt": "2026-06-12T15:08:59.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/948806/govee-table-lamp-classic-jbl-charge-6-deal-sale",
+      "title": "Govee&#8217;s rechargeable smart table lamp is down to $60",
+      "url": "https://www.theverge.com/gadgets/948806/govee-table-lamp-classic-jbl-charge-6-deal-sale",
+      "summary": "Whether you’re planning a backyard barbeque or a World Cup watch party, Govee’s Table Lamp Classic can help set the mood with color-changing lighting effects. Right now it&#8217;s down to just $59.99 ($20 off) at Amazon, which is its best price yet. The rechargeable lamp can last up to 30 hours on a single charge, [&#8230;]",
+      "publishedAt": "2026-06-12T15:07:45.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/lawsuit-chatgpt-validated-suicidal-womans-distrust-of-crisis-lines",
+      "title": "Lawsuit: ChatGPT validated suicidal woman's distrust of crisis lines",
+      "url": "https://arstechnica.com/tech-policy/2026/06/lawsuit-chatgpt-validated-suicidal-womans-distrust-of-crisis-lines",
+      "summary": "Did chatbot abandon mental health guardrails when a vulnerable user pushed back?",
+      "publishedAt": "2026-06-12T15:03:52.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf",
+      "title": "Introduction to UEFI HTTP(s) Boot with QEMU/OVMF",
+      "url": "https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf",
+      "summary": "Article URL: https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf/ Comments URL: https://news.ycombinator.com/item?id=48504929 Points: 18 # Comments: 0",
+      "publishedAt": "2026-06-12T14:50:06.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "title": "Slightly reducing the sloppiness of AI generated front end",
+      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+      "summary": "Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html Comments URL: https://news.ycombinator.com/item?id=48504912 Points: 61 # Comments: 36",
+      "publishedAt": "2026-06-12T14:48:38.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://wexio.io/blog/free-whatsapp-business-api",
+      "title": "WhatsApp Business API pricing 2026: what's free and where markup hides",
+      "url": "https://wexio.io/blog/free-whatsapp-business-api",
+      "summary": "Article URL: https://wexio.io/blog/free-whatsapp-business-api Comments URL: https://news.ycombinator.com/item?id=48504753 Points: 17 # Comments: 6",
+      "publishedAt": "2026-06-12T14:37:30.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
+      "title": "SpaceX’s massive IPO: all the latest news",
+      "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
+      "summary": "SpaceX&#8217;s IPO on Friday allows the public to buy shares of the combined rocket, AI, and social media company for the first time, and is raising enough money to likely make Elon Musk the first trillionaire.&#160; He&#8217;ll have more wealth, on paper at least, than the economies of nations like Ireland, Sweden, or his home [&#8230;]",
+      "publishedAt": "2026-06-12T14:35:48.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime",
+      "title": "A Call to Action: Stop the FCC's KYC Regime",
+      "url": "https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime",
+      "summary": "Article URL: https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime/ Comments URL: https://news.ycombinator.com/item?id=48504697 Points: 222 # Comments: 143",
+      "publishedAt": "2026-06-12T14:33:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://yalereview.org/article/sheila-liming-the-end-of-books",
+      "title": "A dumpster arrived behind my university's library",
+      "url": "https://yalereview.org/article/sheila-liming-the-end-of-books",
+      "summary": "Article URL: https://yalereview.org/article/sheila-liming-the-end-of-books Comments URL: https://news.ycombinator.com/item?id=48504543 Points: 65 # Comments: 40",
+      "publishedAt": "2026-06-12T14:21:22.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know",
       "title": "SpaceX IPO: Everything you need to know",
       "url": "https://techcrunch.com/2026/06/12/spacex-ipo-everything-you-need-to-know",
@@ -23,286 +303,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/black-eye-galaxy",
-      "title": "Black Eye Galaxy",
-      "url": "https://www.nasa.gov/image-article/black-eye-galaxy",
-      "summary": "This March 20, 2026, image of Messier 64, or the Black Eye Galaxy, is a composite view from NASA’s Hubble Space Telescope and James Webb Space Telescope. It shows Messier 64 captured at near- and mid-infrared wavelengths by Webb, while Hubble’s image shows the galaxy in ultraviolet, visible, and near-infrared light. Messier 64 is characterized [&#8230;]",
-      "publishedAt": "2026-06-12T13:59:55.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/science/947926/spacex-ipo-stock-shares-trading-elon-musk",
-      "title": "SpaceX is now public",
-      "url": "https://www.theverge.com/science/947926/spacex-ipo-stock-shares-trading-elon-musk",
-      "summary": "SpaceX is now a publicly traded company. In one of the most highly anticipated and controversial public offerings of all time, the rocket venture helmed by Elon Musk started trading on Nasdaq on June 12th at the take-it-or-leave-it price of $135-per-share - though most retail investors will likely pay far more. The IPO is historic [&#8230;]",
-      "publishedAt": "2026-06-12T13:54:49.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://news.ycombinator.com/item?id=48504034",
-      "title": "Meta Down",
-      "url": "https://news.ycombinator.com/item?id=48504034",
-      "summary": "Meta is currently down, facebook, insta. The outage is not registered on https://metastatus.com/ , possibly implying a greater outage. Comments URL: https://news.ycombinator.com/item?id=48504034 Points: 56 # Comments: 36",
-      "publishedAt": "2026-06-12T13:49:14.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://qz.com/spacex-tesla-merger-gwynne-shotwell-ipo-061226",
-      "title": "SpaceX's president is floating a Tesla merger as the company begins trading",
-      "url": "https://qz.com/spacex-tesla-merger-gwynne-shotwell-ipo-061226",
-      "summary": "Article URL: https://qz.com/spacex-tesla-merger-gwynne-shotwell-ipo-061226 Comments URL: https://news.ycombinator.com/item?id=48504013 Points: 24 # Comments: 9",
-      "publishedAt": "2026-06-12T13:47:21.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/943057/ooni-portable-pizza-oven-is-great-for-bbqs",
-      "title": "Sorry, the Ooni pizza oven is totally worth it",
-      "url": "https://www.theverge.com/gadgets/943057/ooni-portable-pizza-oven-is-great-for-bbqs",
-      "summary": "Summer is approaching, which means it's time to enjoy some gloriously warm weather beside the grill. But let me pitch you on an alternative: Instead of the usual burgers, hot dogs, and kebabs, what if you made pizza? I've been doing this for a few years now, and while I still love to grill, it [&#8230;]",
-      "publishedAt": "2026-06-12T13:30:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the",
-      "title": "The Unsung Hero of the Lord of the Rings",
-      "url": "https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the",
-      "summary": "Article URL: https://www.theculturist.io/p/the-unsung-hero-of-the-lord-of-the Comments URL: https://news.ycombinator.com/item?id=48503796 Points: 11 # Comments: 10",
-      "publishedAt": "2026-06-12T13:22:59.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
-      "title": "Hazel (YC W24) Is Hiring a Full Stack Engineer",
-      "url": "https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
-      "summary": "Article URL: https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci Comments URL: https://news.ycombinator.com/item?id=48503717 Points: 0 # Comments: 0",
-      "publishedAt": "2026-06-12T13:14:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/scaling-security-scans",
-      "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
-      "url": "https://blog.cloudflare.com/scaling-security-scans",
-      "summary": "Cloudflare Security Insights system now processes over 120 scans per second, providing frequent insights for all customers. By optimizing Kafka consumers, Postgres queries, and our API, we scaled our throughput 10x without adding hardware.",
-      "publishedAt": "2026-06-12T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev",
-      "title": "BMW’s Neue Klasse M concept brings next-gen EV tech to motorsports",
-      "url": "https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev",
-      "summary": "Just in time for Le Mans, BMW is pulling the cover off its new M performance concept built on the Bavarian automaker's Neue Klasse next-generation architecture. The concept is the debut of a new design language for BMW's M division, signaling a shift toward a more electrified future. The company says it is built on [&#8230;]",
-      "publishedAt": "2026-06-12T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/942678/nintendo-ds-rules-for-travel",
-      "title": "The Nintendo DS is still the best gaming handheld for travel",
-      "url": "https://www.theverge.com/games/942678/nintendo-ds-rules-for-travel",
-      "summary": "Even with the looming specter of rising prices, there's never been a better time for portable gaming. The Steam Deck has ushered in a new era of handheld PCs, the Analogue Pocket and other Game Boy-style remakes are making retro games more approachable than ever, the Playdate has led to an alternate universe of weirdo [&#8230;]",
-      "publishedAt": "2026-06-12T12:30:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/942658/summer-upgrade-week-2026",
-      "title": "Summer Upgrade Week",
-      "url": "https://www.theverge.com/tech/942658/summer-upgrade-week-2026",
-      "summary": "The sun is out, the sky is clear. It’s time to get outside and disconnect — from work, at least. This summer, we’re looking at all the ways to upgrade our free time indoors and out, from smart lights for the backyard to great gadgets to bring camping to ways to wind down at the local library.",
-      "publishedAt": "2026-06-12T12:30:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://encryptedspaces.org",
-      "title": "Encrypted Spaces An architecture for collaborative applications",
-      "url": "https://encryptedspaces.org",
-      "summary": "Article URL: https://encryptedspaces.org/ Comments URL: https://news.ycombinator.com/item?id=48503219 Points: 3 # Comments: 0",
-      "publishedAt": "2026-06-12T12:22:07.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception",
-      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
-      "url": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first&#8230;",
-      "publishedAt": "2026-06-12T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://arxiv.org/abs/2606.13473",
-      "title": "Maxproof",
-      "url": "https://arxiv.org/abs/2606.13473",
-      "summary": "Article URL: https://arxiv.org/abs/2606.13473 Comments URL: https://news.ycombinator.com/item?id=48503014 Points: 55 # Comments: 3",
-      "publishedAt": "2026-06-12T12:00:02.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/06/cameras-sensors-and-3d-body-scans-all-the-tech-helping-eliminate-blown-calls",
-      "title": "Cameras, sensors, and 3D body scans: All the tech helping eliminate blown calls",
-      "url": "https://arstechnica.com/gadgets/2026/06/cameras-sensors-and-3d-body-scans-all-the-tech-helping-eliminate-blown-calls",
-      "summary": "This World Cup, refs will use digital twins of each player to view plays from every angle.",
-      "publishedAt": "2026-06-12T11:45:18.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies",
-      "title": "US surveillance law to expire for first time after lawmakers reject Trump&#8217;s controversial pick to lead spy agencies",
-      "url": "https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies",
-      "summary": "The spy law known as Section 702, which authorizes the NSA and FBI's warrantless surveillance, will all but certainly expire on Friday for the first time.",
-      "publishedAt": "2026-06-12T11:43:32.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/hubble-sees-swarm-of-galaxies",
-      "title": "Hubble Sees Swarm of Galaxies",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-sees-swarm-of-galaxies",
-      "summary": "Looking somewhat like a swarm of bees returning to their hive, this NASA Hubble Space Telescope image features the galaxy cluster MACS0329-0211.",
-      "publishedAt": "2026-06-12T11:34:50.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans",
-      "title": "Ebola cases in DRC rise to 676 as Kenya protests erupt over US plans",
-      "url": "https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans",
-      "summary": "Outbreak responses are still playing catch-up as US works to isolate itself.",
-      "publishedAt": "2026-06-12T11:30:23.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/942932/portable-light-camping-work-travel",
-      "title": "This portable light is great for way more than camping",
-      "url": "https://www.theverge.com/tech/942932/portable-light-camping-work-travel",
-      "summary": "It's intended for camping, but BougeRV's T1 light is so versatile that it also makes for a great summer travel companion that'll continue to light the dark corners of your life long after you return. I used it for a few months during a recent road trip in my camper van, and it's the light [&#8230;]",
-      "publishedAt": "2026-06-12T11:30:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.nytimes.com/2026/06/12/arts/design/david-hockney-dead.html",
-      "title": "David Hockney, Who Restored the Human Form to Art, Dies at 88",
-      "url": "https://www.nytimes.com/2026/06/12/arts/design/david-hockney-dead.html",
-      "summary": "Article URL: https://www.nytimes.com/2026/06/12/arts/design/david-hockney-dead.html Comments URL: https://news.ycombinator.com/item?id=48502730 Points: 59 # Comments: 9",
-      "publishedAt": "2026-06-12T11:26:54.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses",
-      "title": "Pokémon Go players unwittingly contributed to tech with military drone uses",
-      "url": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses",
-      "summary": "The repurposing of Pokémon Go data for AI training continues to draw scrutiny.",
-      "publishedAt": "2026-06-12T11:15:41.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://blog.osull.com/2026/06/12/ryanair-dark-ux-patterns-summer-2026-refresher",
-      "title": "Ryanair dark UX patterns summer 2026 refresher",
-      "url": "https://blog.osull.com/2026/06/12/ryanair-dark-ux-patterns-summer-2026-refresher",
-      "summary": "Article URL: https://blog.osull.com/2026/06/12/ryanair-dark-ux-patterns-summer-2026-refresher/ Comments URL: https://news.ycombinator.com/item?id=48502601 Points: 128 # Comments: 99",
-      "publishedAt": "2026-06-12T11:11:42.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/verizon-sent-man-a-refurbished-phone-with-mdm-then-deleted-his-data-remotely",
-      "title": "Verizon sent man a refurbished phone with MDM, then deleted his data remotely",
-      "url": "https://arstechnica.com/tech-policy/2026/06/verizon-sent-man-a-refurbished-phone-with-mdm-then-deleted-his-data-remotely",
-      "summary": "Failure raises questions about how Verizon prepares refurbished phones for new users.",
-      "publishedAt": "2026-06-12T11:00:41.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/06/rocket-report-nova-moving-through-test-campaign-spacex-ipo-launches-friday",
-      "title": "Rocket Report: Nova moving through test campaign; SpaceX IPO launches Friday",
-      "url": "https://arstechnica.com/space/2026/06/rocket-report-nova-moving-through-test-campaign-spacex-ipo-launches-friday",
-      "summary": "\"If I needed to fly on another vehicle, what would that look like?\"",
-      "publishedAt": "2026-06-12T11:00:13.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "title": "Kimi K2.7-Code: open-source coding model with better token efficiency",
-      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
-      "summary": "Article URL: https://huggingface.co/moonshotai/Kimi-K2.7-Code Comments URL: https://news.ycombinator.com/item?id=48502347 Points: 172 # Comments: 76",
-      "publishedAt": "2026-06-12T10:42:50.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.fastmail.com/blog/the-future-of-email",
-      "title": "The Future of Email",
-      "url": "https://www.fastmail.com/blog/the-future-of-email",
-      "summary": "Article URL: https://www.fastmail.com/blog/the-future-of-email/ Comments URL: https://news.ycombinator.com/item?id=48502321 Points: 104 # Comments: 97",
-      "publishedAt": "2026-06-12T10:38:31.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction",
-      "title": "You do your own time",
-      "url": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction",
-      "summary": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eustace was holding the screwdriver she’d&#8230;",
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now",
-      "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
-      "url": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now",
-      "summary": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But&#8230;",
-      "publishedAt": "2026-06-12T09:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
     }
   ]
 }

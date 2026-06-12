@@ -1,102 +1,100 @@
 {
-  "generatedAt": "2026-06-12T14:16:48.681Z",
-  "generatedBy": "gemini",
+  "generatedAt": "2026-06-12T17:18:53.372Z",
+  "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech world is abuzz with SpaceX's highly anticipated IPO, which launched with talks of a potential Tesla merger, signaling significant shifts in the space and automotive sectors. Simultaneously, major investments are pouring into AI, notably Jeff Bezos's new startup, Prometheus, aiming to build an 'artificial general engineer.' This comes amidst heightened concerns over cybersecurity, evidenced by compromised software packages and critical security vulnerabilities, alongside the expiration of a key US surveillance law.",
+  "narrative": "The technology landscape is buzzing with major developments, as Elon Musk becomes the world's first trillionaire following SpaceX's highly anticipated IPO. Concurrently, significant strides are being made in AI, with Jeff Bezos's new venture aiming to build an 'artificial general engineer' and Google DeepMind accelerating local AI capabilities. These advancements are set against a backdrop of evolving tech policy debates, particularly concerning surveillance and privacy.",
   "highlights": [
     {
-      "title": "SpaceX is now public",
-      "whyItMatters": "Elon Musk's rocket venture has completed its historic public offering, attracting significant attention and marking a new phase for the company.",
+      "title": "Elon Musk becomes world's first trillionaire after SpaceX IPO",
+      "whyItMatters": "This marks a historic financial milestone and underscores the growing influence of space and technology ventures.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/science/947926/spacex-ipo-stock-shares-trading-elon-musk",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
       "category": "Technology",
-      "publishedAt": "2026-06-12T13:54:49.000Z"
+      "publishedAt": "2026-06-12T16:24:39.000Z"
     },
     {
-      "title": "Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’",
-      "whyItMatters": "Amazon founder Jeff Bezos's new AI venture, Prometheus, has secured $12 billion to develop AI tools for designing physical products, indicating a major push into advanced AI for physical engineering.",
+      "title": "SpaceX's highly anticipated IPO goes public at $150 a share",
+      "whyItMatters": "The public debut of SpaceX is a major event for investors and the space industry, signaling new phases of growth and investment.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/12/spacex-opens-at-150-an-11-pop-for-the-most-anticipated-debut-in-history",
+      "category": "Technology",
+      "publishedAt": "2026-06-12T15:54:44.000Z"
+    },
+    {
+      "title": "Jeff Bezos’ AI startup Prometheus aims to build an ‘artificial general engineer’",
+      "whyItMatters": "This new venture from a prominent tech leader signifies a strategic focus on advanced AI for designing physical products.",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
       "category": "Technology",
       "publishedAt": "2026-06-12T14:03:39.000Z"
     },
     {
-      "title": "SpaceX's president is floating a Tesla merger as the company begins trading",
-      "whyItMatters": "Early discussions about a potential merger between SpaceX and Tesla suggest significant future strategic moves for two of Elon Musk's most prominent companies.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com/item?id=48504013",
-      "category": "Developer",
-      "publishedAt": "2026-06-12T13:47:21.000Z"
+      "title": "OpenAI introduces new Academy courses for applying AI at work and advances agentic AI",
+      "whyItMatters": "These initiatives are crucial for democratizing AI skills and enhancing productivity through intelligent agents in various workflows.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "category": "AI",
+      "publishedAt": "2026-06-12T10:00:00.000Z"
     },
     {
-      "title": "AUR Packages Compromised with Infostealer and Rootkit",
-      "whyItMatters": "A significant security breach has affected hundreds of Arch Linux User Repository (AUR) packages, potentially exposing users to infostealers and rootkits.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577",
-      "category": "Developer",
-      "publishedAt": "2026-06-12T05:59:39.000Z"
+      "title": "Google DeepMind releases DiffusionGemma, a model that runs local AI 4x faster",
+      "whyItMatters": "This advancement improves the speed and accessibility of AI models for local deployment, impacting various AI applications.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost",
+      "category": "Technology",
+      "publishedAt": "2026-06-10T19:29:21.000Z"
     },
     {
-      "title": "US surveillance law to expire for first time after lawmakers reject Trump’s controversial pick to lead spy agencies",
-      "whyItMatters": "The expiration of Section 702, a key US surveillance law, for the first time in history has profound implications for national security and digital privacy debates.",
+      "title": "US surveillance law (Section 702) set to expire for the first time",
+      "whyItMatters": "The expiration of this key surveillance law will significantly impact privacy, national security, and technology policy debates.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/06/12/us-spy-law-to-expire-for-first-time-after-lawmakers-reject-trumps-controversial-pick-to-lead-spy-agencies",
       "category": "Technology",
       "publishedAt": "2026-06-12T11:43:32.000Z"
     },
     {
-      "title": "AI agent bankrupted their operator while trying to scan DN42",
-      "whyItMatters": "This incident serves as a cautionary tale, highlighting the potential for AI agents to incur unexpected and substantial operational costs if not properly managed.",
+      "title": "CRISPR technology selectively shreds cancer cells, including 'undruggable' cancers",
+      "whyItMatters": "This scientific breakthrough offers new hope for treating difficult-to-target cancers, potentially revolutionizing oncology.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian",
-      "category": "Developer",
-      "publishedAt": "2026-06-12T04:42:53.000Z"
+      "sourceUrl": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells",
+      "category": "Science",
+      "publishedAt": "2026-06-12T15:15:24.000Z"
+    },
+    {
+      "title": "Cloudflare scales security insights and introduces real-time WAF rules",
+      "whyItMatters": "Enhanced security capabilities provide better protection against cyber threats, crucial for maintaining online safety and infrastructure integrity.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/scaling-security-scans",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-12T13:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence (AI)",
-      "summary": "AI continues to attract massive investment and development, from Jeff Bezos's ambitious 'artificial general engineer' project and new AI-powered coding models to applications in call screening, video generation, and content creation. Discussions also cover the practical challenges of AI agent costs and ethical concerns regarding data usage and AI behavior.",
-      "itemCount": 16
+      "name": "AI Advancements & Applications",
+      "summary": "Focus on breakthroughs in AI models, agentic AI, and practical implementations across diverse industries, from engineering to banking.",
+      "itemCount": 3
     },
     {
-      "name": "Space Industry & Exploration",
-      "summary": "The space sector is buzzing with SpaceX's highly anticipated IPO and speculative talks of a Tesla merger, indicating dynamic movements in commercial spaceflight. Meanwhile, NASA actively pursues new space technology research, deep-space astronomy, and updates on its Artemis missions.",
-      "itemCount": 12
-    },
-    {
-      "name": "Cybersecurity & Privacy",
-      "summary": "The digital landscape faces significant security threats, including major software package compromises (AUR), critical vulnerabilities (Oracle), and controversies surrounding surveillance laws (Section 702 expiration). Efforts to enhance security insights and data protection are ongoing amidst these challenges.",
-      "itemCount": 7
-    },
-    {
-      "name": "Consumer Technology & Gadgets",
-      "summary": "New products and software updates are enhancing daily life, from revamped smart home interfaces (Amazon Echo Hub) and popular gaming handhelds (Nintendo DS) to productivity apps (screenshot organizer) and outdoor tech. User experiences and product utility remain key themes.",
-      "itemCount": 8
-    },
-    {
-      "name": "Developer Tools & Platforms",
-      "summary": "Reports on platform availability and stability (GitHub) are crucial for developers, alongside announcements for new job opportunities and innovative tools like FablePool for collaborative AI prompt building and DeltaDB for version control.",
-      "itemCount": 4
-    },
-    {
-      "name": "Automotive & Transportation",
-      "summary": "Innovations in the automotive sector focus on electrification, with BMW unveiling a new EV performance concept. Autonomous driving services are also evolving, exemplified by Waymo's introduction of a loyalty program.",
+      "name": "Space & Economy",
+      "summary": "Highlights major financial events like SpaceX's IPO and its impact on the global economy and individual wealth.",
       "itemCount": 2
     },
     {
-      "name": "Health & Biotech",
-      "summary": "Research into reversing aging through cellular reprogramming is gaining traction, while studies delve into the hidden sense of interoception. Public health updates include information on ongoing disease outbreaks.",
-      "itemCount": 4
+      "name": "Technology Policy & Privacy",
+      "summary": "Covers significant regulatory shifts, surveillance law expirations, and new privacy frontiers like smart glasses.",
+      "itemCount": 2
     },
     {
-      "name": "Social Media & Digital Communication",
-      "summary": "Social media platforms navigate outages (Meta) and introduce new community features (Bluesky). Broader debates include global legislative efforts to ban social media for children and legal challenges against online censorship.",
-      "itemCount": 4
+      "name": "Developer Tools & Infrastructure",
+      "summary": "Updates on new developer tools, cloud infrastructure enhancements, and advancements in network security and efficiency.",
+      "itemCount": 1
+    },
+    {
+      "name": "Biotech & Scientific Breakthroughs",
+      "summary": "Explores major scientific discoveries and medical innovations, including advanced cancer treatments and space research.",
+      "itemCount": 1
     }
   ],
-  "notes": [
-    "Some 'Hacker News' items link to the discussion thread, with the original article URL embedded in the summary, per the instruction to use the provided 'url' field.",
-    "The 'publishedAt' timestamps for 'Hacker News' items reflect the publication time of the discussion thread, not necessarily the original article's publication date."
-  ]
+  "notes": []
 }

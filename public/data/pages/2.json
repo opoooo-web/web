@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/130-billion-in-data-center-projects-blocked-by-protests-so-far-this-year",
+      "title": "$130 billion in data center projects blocked by protests so far this year",
+      "url": "https://arstechnica.com/tech-policy/2026/06/130-billion-in-data-center-projects-blocked-by-protests-so-far-this-year",
+      "summary": "Winning fight against AI data centers gives people a \"taste of political power.\"",
+      "publishedAt": "2026-06-12T17:18:49.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+      "title": "Siri is good now??",
+      "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+      "summary": "You'd be forgiven for thinking this day would never come. Siri has spent a decade and half somewhere between \"sort of useful at a few things\" and \"utterly disastrous, why did I even try, can it honestly not even set a timer.\" But the wildest thing just happened: Apple put out a new version of [&#8230;]",
+      "publishedAt": "2026-06-12T17:17:04.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://piwodlaiwo.github.io/pirates",
+      "title": "Pirates, a naval warfare game inspired by Sid Meier's Pirates",
+      "url": "https://piwodlaiwo.github.io/pirates",
+      "summary": "Article URL: https://piwodlaiwo.github.io/pirates/ Comments URL: https://news.ycombinator.com/item?id=48506659 Points: 190 # Comments: 73",
+      "publishedAt": "2026-06-12T17:07:46.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts",
+      "title": "Robinhood sees &#8216;record-breaking&#8217; traffic after SpaceX stock debuts",
+      "url": "https://techcrunch.com/2026/06/12/robinhood-sees-record-breaking-traffic-after-spacex-stock-debuts",
+      "summary": "The trading platform says some customers experienced intermittent disruptions, but those issues have resolved.",
+      "publishedAt": "2026-06-12T17:05:06.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://bitboard.work",
+      "title": "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "url": "https://bitboard.work",
+      "summary": "We’re Connor and Ambar from BitBoard ( https://bitboard.work ). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI. Today, we’re launching dashboards that you and your agents can work on together. You can connect your coding agent or AI chat to BitBoard and build live reporting. Here’s a demo: https://www.youtube.com/watch?v=HPl0K565a7c . AI tools treat data analysis as ephemeral, making it hard to report or collaborate. Legacy BI tools weren’t intended for AI users, so they bolt on chatbots and can’t offer meaningful control to your agents. Software can now make far more of a business legible than BI ever could, but neither legacy BI nor chat bots are built to handle it. Our original product was AI agents for administrative tasks in healthcare ( https://news.ycombinator.com/item?id=44237769 ), but customers kept pulling us toward their data analysis problems: queries scattered across disparate sources, spreadsheets floating everywhere. We kept building tooling for addressing that, and at a certain point those tools were becoming our product. We ran into several problems. Agents made bad inferences because they had no context on the business. They couldn't be trusted to make decisions because nothing checked their work. And anything one agent or one person figured out was invisible to everyone else. In BitBoard, humans and agents interact with the same data primitives but get tools designed for their own work. We’re building dashboards to make the human reading experience better. These dashboards progressively use intelligence - starting from code or SQL queries and leading to full embedded apps. Humans and agents will need to agree on methods to interpret data, so we’re letting both contribute to canonical sources, entities, and measures (using your favorite semantic model or ours). Every answer comes with provenance, and the same call with the same parameters returns the same number. Looking ahead, these shared primitives let long-running agents operate inside a business, and we're building those agents too. An agent needs a measurable goal and a way to verify its work. BitBoard gives it both. The agent takes a problem like a metric drifting or a funnel leaking and figures out what to do next. Its work becomes datasets, dashboards, and traces that the team can observe and sign off on. Technically, we’re building a collaboration engine with isomorphic updates for humans and AI, columnar analysis (we use DuckDB and Apache Arrow), grounding and verification infrastructure, and enabling long running tasks with agent containers and traces. For agentic work we’re big fans of applying LLM judgement to discover problems, and then generating deterministic software to automate them. Try it out at https://app.bitboard.work . (We require an email so we can set up your account). We’re excited about how data analysis and science can change in the age of LLMs, and welcome all your thoughts! Comments URL: https://news.ycombinator.com/item?id=48506545 Points: 34 # Comments: 19",
+      "publishedAt": "2026-06-12T16:58:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/ai/2026/06/when-it-comes-to-total-water-use-ai-data-centers-are-a-drop-in-the-bucket",
       "title": "When it comes to total water use, AI data centers are a drop in the bucket",
       "url": "https://arstechnica.com/ai/2026/06/when-it-comes-to-total-water-use-ai-data-centers-are-a-drop-in-the-bucket",
@@ -13,16 +63,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time",
-      "title": "Looking Forward to Postgres 19: It's About Time",
-      "url": "https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time",
-      "summary": "Article URL: https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time Comments URL: https://news.ycombinator.com/item?id=48506372 Points: 128 # Comments: 37",
-      "publishedAt": "2026-06-12T16:44:47.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams",
@@ -36,9 +76,9 @@
     },
     {
       "id": "hacker-news:https://sgaud.com/texts/pdf",
-      "title": "A PDF that changes based on how its read",
+      "title": "Adaptive PDFs",
       "url": "https://sgaud.com/texts/pdf",
-      "summary": "Article URL: https://sgaud.com/texts/pdf Comments URL: https://news.ycombinator.com/item?id=48506209 Points: 111 # Comments: 57",
+      "summary": "Article URL: https://sgaud.com/texts/pdf Comments URL: https://news.ycombinator.com/item?id=48506209 Points: 118 # Comments: 63",
       "publishedAt": "2026-06-12T16:32:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -128,7 +168,7 @@
       "id": "hacker-news:https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612",
       "title": "Where Did Earth Get Its Oceans? Maybe It Made Them Itself",
       "url": "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612",
-      "summary": "Article URL: https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/ Comments URL: https://news.ycombinator.com/item?id=48505452 Points: 93 # Comments: 56",
+      "summary": "Article URL: https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/ Comments URL: https://news.ycombinator.com/item?id=48505452 Points: 103 # Comments: 60",
       "publishedAt": "2026-06-12T15:32:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -145,20 +185,10 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://stackscope.dev",
-      "title": "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
-      "url": "https://stackscope.dev",
-      "summary": "Hey all, I built StackScope, a crawler/catalogue that looks at new product launches and shows what they were built with. It watches launches from Product Hunt, Show HN, and PeerPush, then crawls the public site behind each one. The goal is to show what people actually launched with: hosting, frameworks, analytics, DNS, security headers, legal pages, AI-builder signals, and other public clues. I started building it because most stack-detection sites look at the web as a whole. I was more interested in the current indie launch scene: what people are choosing right now, at the point they first put something in public. A few implementation details: it runs on .NET, uses Playwright for rendered pages, and has a first-party fingerprint catalogue rather than one copied from Wappalyzer/etc. robots.txt is honoured, and the bot identifies itself. Frustratingly, I am still waiting for verified bot status from Cloudflare and currently that knocks out about 10% of all sites. There is also a private readiness check: paste a URL, get the same style of report, fix things, and recrawl. No account or email needed. I'd be interested in feedback on the usefulness of this, the methodology, and any obvious false positives. Jonathan. Comments URL: https://news.ycombinator.com/item?id=48505364 Points: 38 # Comments: 12",
-      "publishedAt": "2026-06-12T15:26:12.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells",
       "title": "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
       "url": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells",
-      "summary": "Article URL: https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/ Comments URL: https://news.ycombinator.com/item?id=48505231 Points: 602 # Comments: 159",
+      "summary": "Article URL: https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/ Comments URL: https://news.ycombinator.com/item?id=48505231 Points: 686 # Comments: 173",
       "publishedAt": "2026-06-12T15:15:24.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -188,18 +218,8 @@
       "id": "hacker-news:https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf",
       "title": "Introduction to UEFI HTTP(s) Boot with QEMU/OVMF",
       "url": "https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf",
-      "summary": "Article URL: https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf/ Comments URL: https://news.ycombinator.com/item?id=48504929 Points: 66 # Comments: 24",
+      "summary": "Article URL: https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf/ Comments URL: https://news.ycombinator.com/item?id=48504929 Points: 77 # Comments: 27",
       "publishedAt": "2026-06-12T14:50:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "title": "Slightly reducing the sloppiness of AI generated front end",
-      "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-      "summary": "Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html Comments URL: https://news.ycombinator.com/item?id=48504912 Points: 152 # Comments: 105",
-      "publishedAt": "2026-06-12T14:48:38.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -282,26 +302,6 @@
       "publishedAt": "2026-06-12T11:43:32.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/hubble-sees-swarm-of-galaxies",
-      "title": "Hubble Sees Swarm of Galaxies",
-      "url": "https://science.nasa.gov/missions/hubble/hubble-sees-swarm-of-galaxies",
-      "summary": "Looking somewhat like a swarm of bees returning to their hive, this NASA Hubble Space Telescope image features the galaxy cluster MACS0329-0211.",
-      "publishedAt": "2026-06-12T11:34:50.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans",
-      "title": "Ebola cases in DRC rise to 676 as Kenya protests erupt over US plans",
-      "url": "https://arstechnica.com/health/2026/06/ebola-cases-in-drc-rise-to-676-as-kenya-protests-erupt-over-us-plans",
-      "summary": "Outbreak responses are still playing catch-up as US works to isolate itself.",
-      "publishedAt": "2026-06-12T11:30:23.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     }
   ]

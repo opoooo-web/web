@@ -5,24 +5,14 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
-      "title": "Formal methods and the future of programming",
-      "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
-      "summary": "Article URL: https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1 Comments URL: https://news.ycombinator.com/item?id=48526633 Points: 170 # Comments: 60",
-      "publishedAt": "2026-06-14T12:35:27.000Z",
+      "id": "hacker-news:https://paulgraham.com/earn.html",
+      "title": "How to earn a billion dollars",
+      "url": "https://paulgraham.com/earn.html",
+      "summary": "Article URL: https://paulgraham.com/earn.html Comments URL: https://news.ycombinator.com/item?id=48526360 Points: 523 # Comments: 1535",
+      "publishedAt": "2026-06-14T11:50:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/column/948594/solid-state-batteries-semi-solid-state",
-      "title": "Solid-state batteries still aren’t ready, but gels are",
-      "url": "https://www.theverge.com/column/948594/solid-state-batteries-semi-solid-state",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on e-bikes, power stations, and how to work anywhere, follow Thomas Ricker. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started Lithium-ion batteries are everywhere as we [&#8230;]",
-      "publishedAt": "2026-06-14T12:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
@@ -65,6 +55,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://traceapp.info",
+      "title": "Show HN: Trace – Offline Mac meeting transcripts you can flag mid-call",
+      "url": "https://traceapp.info",
+      "summary": "I'm the developer of Trace, a non-intrusive, shortcut-driven Mac app that records and transcribes your meetings on-device. I know, another meeting transcription app. Please bear with me though, I'm confident that this is at least a little novel. I primarily built Trace for myself. I'd been using MacWhisper, but there was enough fiddling before each call that I'd forget to start it and walk out of an hour-long meeting with nothing written down. So the things I cared about most were that it's quick to activate and stays out of the way. You activate Trace by pressing a global shortcut (configurable), which reveals a small bar at the bottom of your screen (there's also a keystroke and/or option to hide it entirely if you'd rather not see it at all). As I was building it I wanted to bake in a couple of workflows I'd wished for in other transcription apps. 1. Mid-meeting you can press another global shortcut to mark a \"key moment\" and type a note. The note shows up in the resulting transcript inline at that timestamp. I wanted to add this because I kept catching myself thinking \"wait, that bit matters\" in meetings and reaching to jot it down in a separate app like Obsidian, which I then needed to add context to, which took me out of the meeting. I use it all the time. If I paste the transcript into an LLM afterwards (which I find myself doing more and more these days) the important moments are flagged so it doesn't gloss over them. This is more noticeable in longer meetings with lots of topics. 2. With another keyboard shortcut you can summon a rough live recap (subtitles, basically) to quickly recap what's just been said. Trace uses standard macOS microphone and system recording APIs to capture both sides of the conversation as two separate tracks and then runs the system side through on-device diarization to identify speakers. Right now we only label them as \"Speaker 1\", \"Speaker 2\", etc but there are plans for speaker labelling in the future. You can also show a \"live recap\" as the call is happening to review what someone just said. All transcription models run on your machine. To be clear though, Trace doesn't do any of the summarising itself, it just produces a markdown transcript, so if you want summaries then you need to pass the output to an AI. The app is sandboxed and your audio/transcripts are never uploaded anywhere - they just exist as audio files and markdown on disk. The only network call Trace is required to make is on the first run to download the speech and speaker models (around 500MB) from Hugging Face, and after that it can be used fully offline. If enabled, a Google Calendar integration can auto-name sessions but that needs a network connection. The app is £9.99 on the macOS App Store. I've been using it every day for months now and I'm super happy with how it's improved my workflow. Feedback very welcome. Comments URL: https://news.ycombinator.com/item?id=48521236 Points: 132 # Comments: 53",
+      "publishedAt": "2026-06-13T20:41:58.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/entertainment/947064/xmen-97-season-2-disney-plus-marvel-masters-of-the-universe-mattel",
       "title": "X-Men ’97 has what Master of the Universe is missing",
       "url": "https://www.theverge.com/entertainment/947064/xmen-97-season-2-disney-plus-marvel-masters-of-the-universe-mattel",
@@ -73,6 +73,16 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.bbc.co.uk/programmes/w3ct8k70",
+      "title": "Why does paper fold so well?",
+      "url": "https://www.bbc.co.uk/programmes/w3ct8k70",
+      "summary": "Article URL: https://www.bbc.co.uk/programmes/w3ct8k70 Comments URL: https://news.ycombinator.com/item?id=48520596 Points: 8 # Comments: 1",
+      "publishedAt": "2026-06-13T19:31:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown",
@@ -290,16 +300,6 @@
       "url": "https://arstechnica.com/ai/2026/06/heres-what-jeff-bezos-new-startup-prometheus-will-do",
       "summary": "It isn't the only startup tackling physical AI, but it's one of the best-funded.",
       "publishedAt": "2026-06-12T18:45:40.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/06/have-politics-finally-come-for-the-national-academies-of-science",
-      "title": "Have politics finally come for the National Academies of Science?",
-      "url": "https://arstechnica.com/science/2026/06/have-politics-finally-come-for-the-national-academies-of-science",
-      "summary": "A pending report on climate attribution may be setting the stage for conflict.",
-      "publishedAt": "2026-06-12T18:31:36.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"

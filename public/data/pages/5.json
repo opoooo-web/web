@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/openai-on-oracle-cloud",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "url": "https://openai.com/index/openai-on-oracle-cloud",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "publishedAt": "2026-06-10T20:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/halos-os-robotaxi-safety",
+      "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
+      "url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety",
+      "summary": "A car pulls up to the curb. The app says, “Your ride is here.” No one’s in the driver’s seat. For people who live in one of the dozens of cities now hosting robotaxi services, this is already a reality. The robotaxi industry has moved from prototype milestones to commercial operations, with an expanding ecosystem [&#8230;]",
+      "publishedAt": "2026-06-10T19:00:12.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion",
+      "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion",
+      "summary": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. NVIDIA has optimized DiffusionGemma to run even faster across NVIDIA GeForce RTX GPUs, the NVIDIA RTX PRO platform and NVIDIA DGX Spark systems, from local PCs to the cloud. Rather than generating text one word at a time, DiffusionGemma generates multiple words in parallel to output whole blocks of text, opening a new, low-latency frontier for the kind of single-user workloads that developers, [&#8230;]",
+      "publishedAt": "2026-06-10T16:15:20.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
       "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
       "title": "Give GitHub Copilot CLI real code intelligence with language servers",
       "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-06-05T14:45:00.000Z",
       "sourceId": "google-ai",
       "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/ai-gateway-spend-limits",
-      "title": "Your AI bill is out of control. Cloudflare can fix it now.",
-      "url": "https://blog.cloudflare.com/ai-gateway-spend-limits",
-      "summary": "AI Gateway now features real-time spend limits to prevent runaway token bills across multiple AI providers. By integrating with Cloudflare Access, companies can use identity-driven budgets and policies.",
-      "publishedAt": "2026-06-05T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/korea-ecosystem-2026",
-      "title": "Seoul Purpose: How NVIDIA and South Korea Are Building the Future of AI",
-      "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
-      "summary": "Home to cutting-edge sovereign AI infrastructure and robotics innovators, as well as one of the world’s most passionate gaming communities, South Korea is one of the world’s centers of AI. NVIDIA founder and CEO Jensen Huang is in Seoul this week to meet the partners and builders behind that work. Monday, June 8, 10:00 a.m. [&#8230;]",
-      "publishedAt": "2026-06-05T05:38:37.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-      "summary": "",
-      "publishedAt": "2026-06-04T18:57:45.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
       "category": "AI"
     }
   ]

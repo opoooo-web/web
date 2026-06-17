@@ -1,100 +1,101 @@
+
 {
-  "generatedAt": "2026-06-17T11:18:25.531Z",
+  "generatedAt": "2026-06-17T16:07:33.097Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Recent advancements highlight the rapid integration of AI across various sectors, from experimental shopping applications to advanced robotaxi services and new language models. Simultaneously, the tech and science communities are exploring novel approaches in robotics and developer tools, while also addressing challenges within the scientific landscape.",
+  "narrative": "Today's tech landscape is dominated by advancements in AI agents, with new tools for enterprise AI applications from Amazon Bedrock and NVIDIA's expanding AI Factory. Developers are also seeing new features in Android 17 and an increased focus on engineering discipline in AI development. In space, NASA continues its exploration with new Hubble images and quantum lab upgrades, while clean energy efforts are gaining traction with new solar and geothermal initiatives.",
   "highlights": [
     {
-      "title": "Uber will bring its premium robotaxi service to Houston in 2027",
-      "whyItMatters": "Uber's expansion of robotaxi services to Houston signifies a major step in autonomous vehicle deployment and urban mobility.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/17/uber-will-bring-its-premium-robotaxi-service-to-houston-in-2027",
-      "category": "Technology",
-      "publishedAt": "2026-06-17T11:00:00.000Z"
-    },
-    {
-      "title": "Pinterest launches an experimental AI shopping app called &#8216;Ask Pinterest&#8217;",
-      "whyItMatters": "Pinterest's new AI shopping app demonstrates how conversational AI is enhancing e-commerce and personalized recommendations.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest",
-      "category": "AI",
-      "publishedAt": "2026-06-17T11:00:00.000Z"
-    },
-    {
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "whyItMatters": "This initiative bridges AI models from Hugging Face directly to robotic hardware, accelerating practical applications of AI in robotics.",
-      "sourceName": "Hugging Face Blog",
-      "sourceUrl": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "category": "AI",
-      "publishedAt": "2026-06-17T10:18:05.000Z"
-    },
-    {
-      "title": "U.S. Science Is in Chaos",
-      "whyItMatters": "A critical assessment of the state of U.S. science highlights potential systemic issues affecting research and innovation.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken",
-      "category": "Science",
-      "publishedAt": "2026-06-17T09:54:21.000Z"
-    },
-    {
-      "title": "The next humanoid robot might not look human at all",
-      "whyItMatters": "Evolving designs for humanoid robots suggest a departure from human-like forms, focusing on functionality over traditional appearance.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
-      "category": "Technology",
-      "publishedAt": "2026-06-17T09:46:56.000Z"
-    },
-    {
-      "title": "Show HN: High-Res Neural Cellular Automata",
-      "whyItMatters": "New developments in Neural Cellular Automata enable real-time, high-resolution pattern generation, impacting graphics and simulation.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://cells2pixels.github.io",
-      "category": "Developer",
-      "publishedAt": "2026-06-17T09:28:36.000Z"
-    },
-    {
-      "title": "GLM-5.2 is the new leading open weights model on Artificial Analysis",
-      "whyItMatters": "GLM-5.2's emergence as a top open-source model signifies progress in accessible AI development and research.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
-      "category": "AI",
-      "publishedAt": "2026-06-17T09:12:00.000Z"
-    },
-    {
-      "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
-      "whyItMatters": "Amazon S3's new annotation feature enhances object storage with rich, queryable context for AI agents and autonomous workflows.",
+      "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+      "whyItMatters": "This simplifies building enterprise RAG pipelines with native data connectors and agentic retrievers, allowing developers to focus on business outcomes.",
       "sourceName": "AWS News Blog",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications",
       "category": "Infrastructure",
-      "publishedAt": "2026-06-16T23:13:10.000Z"
+      "publishedAt": "2026-06-17T15:09:20.000Z"
+    },
+    {
+      "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+      "whyItMatters": "This new feature enables AI agents to provide current, cited web knowledge without data egress, streamlining agent development on Bedrock AgentCore.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-17T15:00:11.000Z"
+    },
+    {
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "whyItMatters": "Google's conversational AI system, AMIE, demonstrates capabilities matching primary care physicians in complex disease management, signaling a leap in medical AI.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
+      "category": "AI",
+      "publishedAt": "2026-06-17T15:00:00.000Z"
+    },
+    {
+      "title": "HPE AI Factory With NVIDIA Expands for the Era of Agents",
+      "whyItMatters": "This expansion provides enterprises with tools like NVIDIA Vera CPU and Agent Toolkit to move agentic AI from proof of concept to production.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/hpe-ai-factory-agentic-enterprise",
+      "category": "AI",
+      "publishedAt": "2026-06-16T16:30:27.000Z"
+    },
+    {
+      "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+      "whyItMatters": "The release of Android 17 brings new multitasking features and expands Google's AI models to its devices, enhancing user experience.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features",
+      "category": "Technology",
+      "publishedAt": "2026-06-16T18:00:00.000Z"
+    },
+    {
+      "title": "NASA’s Quantum Lab Aboard Space Station Gets Chilly Upgrade",
+      "whyItMatters": "The upgraded Cold Atom Lab in space will improve fundamental matter exploration and quantum technology development by leveraging microgravity.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/missions/station/iss-research/cold-atom-laboratory/nasas-quantum-lab-aboard-space-station-gets-chilly-upgrade",
+      "category": "Science",
+      "publishedAt": "2026-06-16T16:50:40.000Z"
+    },
+    {
+      "title": "SpaceX alum nabs $22M to turn rocket engines into geothermal power plants",
+      "whyItMatters": "Critical Energy's innovative approach aims to repurpose rocket engines for geothermal power, targeting significant clean energy production by 2045.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/17/spacex-alum-nabs-22m-to-turn-rocket-engines-into-geothermal-power-plants",
+      "category": "Technology",
+      "publishedAt": "2026-06-17T13:30:00.000Z"
+    },
+    {
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "whyItMatters": "OpenAI's recognition in Gartner's Magic Quadrant highlights Codex's innovation and impact on enterprise-scale AI coding agent deployment.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "category": "AI",
+      "publishedAt": "2026-05-22T00:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Technology",
-      "summary": "Technological innovations are advancing, with notable progress in autonomous systems and evolving hardware designs for future applications.",
-      "itemCount": 2
+      "name": "AI Agent Advancements",
+      "summary": "Recent developments showcase new AI agent tools, including Amazon Bedrock's knowledge base and web search capabilities, NVIDIA's expanded AI Factory, and OpenAI's recognition as a leader in enterprise coding agents, emphasizing their role in accelerating enterprise AI and developer workflows.",
+      "itemCount": 8
     },
     {
-      "name": "AI",
-      "summary": "The field of AI is seeing rapid development, from enhancing consumer experiences to bridging models with robotics and introducing leading open-source frameworks.",
-      "itemCount": 3
+      "name": "Technology & Gadgets",
+      "summary": "Updates in consumer technology feature the launch of Android 17 with new multitasking tools and expanded Gemini features, alongside news on gaming, streaming services, and privacy changes from Apple.",
+      "itemCount": 6
     },
     {
-      "name": "Science",
-      "summary": "Discussions around the current state of U.S. science reveal challenges and opportunities for future research and innovation.",
-      "itemCount": 1
+      "name": "Infrastructure & Cloud",
+      "summary": "Cloud providers like AWS and Cloudflare are enhancing their services with AI-powered features for resilience, security, and data management, alongside new Graviton5 processors from AWS.",
+      "itemCount": 5
     },
     {
-      "name": "Developer",
-      "summary": "New tools and techniques are emerging for developers, including advanced simulation methods and improved AI development platforms.",
-      "itemCount": 1
+      "name": "Science & Space Exploration",
+      "summary": "NASA continues its scientific endeavors with new Hubble images, quantum lab upgrades on the ISS, and machine learning applications for flash flood warnings, alongside research on geoengineering and clean energy.",
+      "itemCount": 4
     },
     {
-      "name": "Infrastructure",
-      "summary": "Cloud infrastructure continues to evolve with features that enhance data management and support advanced AI-driven workflows.",
-      "itemCount": 1
+      "name": "Developer Tools & Practices",
+      "summary": "Developers are seeing new version control systems, AI coding platforms, and discussions on the need for more engineering discipline in AI development, as highlighted by various tech blogs.",
+      "itemCount": 5
     }
   ],
-  "notes": []
+  "notes": ["XAI_API_KEY not configured"]
 }

@@ -5,14 +5,104 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
-      "title": "Volkswagen started blocking GrapheneOS users",
-      "url": "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
-      "summary": "Article URL: https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3 Comments URL: https://news.ycombinator.com/item?id=48571526 Points: 547 # Comments: 351",
-      "publishedAt": "2026-06-17T15:04:47.000Z",
+      "id": "hacker-news:https://github.com/Adam-CAD/CADAM",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "url": "https://github.com/Adam-CAD/CADAM",
+      "summary": "Hey HN! I'm Zach from Adam ( https://adam.new/ ). We're building AI agents for mechanical CAD software. We’ve built the company on two fundamental beliefs: - AI will be the primary medium for creating mechanical designs just like it is in software today. - The best paradigm for CAD generation is to generate CAD as code (text -> code -> CAD). We’re building CADAM, an open source Text to CAD platform. It's a React app (TanStack Start) with a Supabase backend for auth, database, and file storage. Think of it like AI TinkerCAD. Demo: https://www.youtube.com/watch?v=iESOr7EGWqk Try it: https://adam.new/cadam/ What it does: - Generates parametric 3D models from natural language, with support for both text prompts and image references. - Outputs OpenSCAD code with automatically extracted parameters that surface as interactive sliders for instant dimension tweaking - Exports as .STL or .SCAD (plus OBJ, GLB/GLTF, FBX, and DXF) Under the hood: - One agentic endpoint with two modes that swap system prompts and tools: a parametric mode that writes/edits OpenSCAD via a build_parametric_model tool, and a mesh mode that generates 3D textured meshes. - Simple parameter tweaks bypass the model entirely; adjusting a slider does a deterministic regex update on the SCAD source, requiring no LLM call. - Model-agnostic via the Vercel AI SDK: Anthropic (Claude), Google (Gemini), and OpenAI/others through OpenRouter, with adaptive thinking auto-enabled on newer models. Surprisingly, in our evals Gemini 3.1 Pro is the top model. - Runs fully in-browser by compiling OpenSCAD to WebAssembly (in a Web Worker, so the UI never blocks) and rendering with Three.js via React Three Fiber - Supports BOSL, BOSL2, and MCAD libraries, plus custom font support (Geist) for text in models Future improvements: - Support both build123d and CadQuery. This will allow us to move beyond CSG primitives to constraint-driven modeling and provide direct comparisons to other code-as-CAD primitives. - Better spatial context: UI for face/edge selection and viewport image integration to give LLMs spatial understanding You can clone the repo and run it locally! Contributions are very welcome. Comments URL: https://news.ycombinator.com/item?id=48572553 Points: 183 # Comments: 86",
+      "publishedAt": "2026-06-17T16:14:04.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
+      "title": "Can anyone look cool wearing Snap’s $2,000 glasses?",
+      "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
+      "summary": "Yesterday, Snap debuted its new $2,195 Specs glasses. In an interview with CNBC, Snap CEO Evan Spiegel described the Specs as something the company had been working on for more than 12 years, an attempt to \"bring computing into the world\" and \"make it more human.\" He positioned them as a device to help people [&#8230;]",
+      "publishedAt": "2026-06-17T16:13:34.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/17/paypal-ventures-shutters-as-company-restructuring-continues",
+      "title": "PayPal Ventures shutters as company restructuring continues",
+      "url": "https://techcrunch.com/2026/06/17/paypal-ventures-shutters-as-company-restructuring-continues",
+      "summary": "The corporate venture arm ends after 10 years and 80 investments.",
+      "publishedAt": "2026-06-17T16:10:13.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100",
+      "title": "Ten months later, the $100 Google Home Speaker is finally available for preorder",
+      "url": "https://arstechnica.com/google/2026/06/the-gemini-powered-google-home-speaker-arrives-on-june-25-for-100",
+      "summary": "Google's new smart speaker is more about Gemini than audio quality.",
+      "publishedAt": "2026-06-17T15:57:14.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets",
+      "title": "Towers once planned for California shuttle launches leveled for SpaceX rockets",
+      "url": "https://arstechnica.com/space/2026/06/towers-once-planned-for-california-shuttle-launches-leveled-for-spacex-rockets",
+      "summary": "\"Space Launch Complex-6 represents six decades of American innovation.\"",
+      "publishedAt": "2026-06-17T15:47:09.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/951533/gta-v-ps5-xbox-series-x-upgrade",
+      "title": "We got free GTA V upgrades before GTA VI",
+      "url": "https://www.theverge.com/games/951533/gta-v-ps5-xbox-series-x-upgrade",
+      "summary": "Rockstar Games will allow players to upgrade older versions of Grand Theft Auto V for PlayStation 5 and Xbox Series X / S for free just months before the launch of GTA VI. Starting June 18th, players with any version of GTA V on PS4 or the digital version on Xbox One can get the [&#8230;]",
+      "publishedAt": "2026-06-17T15:45:36.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/allenai/molmomotion",
+      "title": "MolmoMotion: Language-guided 3D motion forecasting",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "summary": "",
+      "publishedAt": "2026-06-17T15:26:44.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span",
+      "title": "The slowtech revolution is here to kill your phone addiction and rescue your attention span",
+      "url": "https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span",
+      "summary": "“People just really want to take back control of their time, their lives, their attention... They’re down for whatever helps them do that.”",
+      "publishedAt": "2026-06-17T15:24:41.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted",
+      "title": "\"Truly evil\" FDA rejection of gene therapy overturned after Trump official ousted",
+      "url": "https://arstechnica.com/health/2026/06/truly-evil-fda-rejection-of-gene-therapy-overturned-after-trump-official-ousted",
+      "summary": "Gene therapy company UniQure had another FDA meeting after Vinay Prasad's exit.",
+      "publishedAt": "2026-06-17T15:12:31.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications",
+      "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications",
+      "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for complex multi-step queries—all integrated with AgentCore Gateway so developers can focus on business outcomes rather than infrastructure management.",
+      "publishedAt": "2026-06-17T15:09:20.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
     },
     {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge",
@@ -85,36 +175,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "hacker-news:https://lore.org",
-      "title": "Lore – Open source version control system designed for scalability",
-      "url": "https://lore.org",
-      "summary": "Article URL: https://lore.org/ Comments URL: https://news.ycombinator.com/item?id=48571081 Points: 1054 # Comments: 560",
-      "publishedAt": "2026-06-17T14:30:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai",
-      "title": "Pramaana Labs raises $27M seed round from Khosla Ventures to bring formal verification to AI",
-      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai",
-      "summary": "Pramaana will focus on highly sensitive verticals like law, drug discovery, and tax preparation — where errors can be costly and reliability is at a premium.",
-      "publishedAt": "2026-06-17T14:15:22.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.thesignalist.io/s/the-dialogue-dividend",
-      "title": "Why thinking out loud with someone beats thinking alone",
-      "url": "https://www.thesignalist.io/s/the-dialogue-dividend",
-      "summary": "Article URL: https://www.thesignalist.io/s/the-dialogue-dividend/ Comments URL: https://news.ycombinator.com/item?id=48569894 Points: 206 # Comments: 95",
-      "publishedAt": "2026-06-17T13:00:38.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-one-stack",
       "title": "Introducing the Cloudflare One stack: agent-powered deployment",
       "url": "https://blog.cloudflare.com/cloudflare-one-stack",
@@ -133,16 +193,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://github.com/rxi/microui",
-      "title": "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
-      "url": "https://github.com/rxi/microui",
-      "summary": "Article URL: https://github.com/rxi/microui Comments URL: https://news.ycombinator.com/item?id=48569205 Points: 211 # Comments: 73",
-      "publishedAt": "2026-06-17T12:04:28.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/cars/2026/06/native-nacs-ports-infotainment-upgrade-for-my27-porsche-taycan",
@@ -165,16 +215,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.rfc-editor.org/info/rfc10008",
-      "title": "RFC 10008: The new HTTP Query Method",
-      "url": "https://www.rfc-editor.org/info/rfc10008",
-      "summary": "Article URL: https://www.rfc-editor.org/info/rfc10008/ Comments URL: https://news.ycombinator.com/item?id=48568502 Points: 340 # Comments: 147",
-      "publishedAt": "2026-06-17T10:51:17.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hugging-face-blog:https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
@@ -193,16 +233,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "hacker-news:https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken",
-      "title": "U.S. science is in chaos",
-      "url": "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken",
-      "summary": "Article URL: https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/ Comments URL: https://news.ycombinator.com/item?id=48568058 Points: 754 # Comments: 914",
-      "publishedAt": "2026-06-17T09:54:21.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "hugging-face-blog:https://huggingface.co/blog/zai-org/glm-52-blog",
@@ -273,36 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvidia-xr-ai",
-      "title": "Hands Free, AIs Forward: NVIDIA XR AI Brings Agents to AR Glasses",
-      "url": "https://blogs.nvidia.com/blog/nvidia-xr-ai",
-      "summary": "NVIDIA XR AI is now available in public beta, giving developers a framework for building multimodal AI agents for AR glasses and XR devices. &#160;",
-      "publishedAt": "2026-06-16T22:30:41.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
-      "title": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
-      "url": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
-      "summary": "NAACP lawsuit says xAI uses gas turbines without permits for Grok data center.",
-      "publishedAt": "2026-06-16T22:22:44.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software",
-      "title": "Year of free HPE software a “step in the correct direction” in VMware rivalry",
-      "url": "https://arstechnica.com/information-technology/2026/06/hpe-tempts-vmware-users-partners-with-year-of-free-virtualization-software",
-      "summary": "Partner tells Ars that HPE should be giving out more free VM Essentials licenses.",
-      "publishedAt": "2026-06-16T22:11:15.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

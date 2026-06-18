@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/enforce-first-as-bgp",
+      "title": "Enforcing the First AS in BGP AS_PATHs",
+      "url": "https://blog.cloudflare.com/enforce-first-as-bgp",
+      "summary": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
+      "publishedAt": "2026-06-03T17:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "publishedAt": "2026-06-03T13:15:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/products-and-platforms/products/search/thrifting-tips",
+      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips",
+      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
+      "publishedAt": "2026-06-03T13:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
       "title": "Direct Preference Optimization Beyond Chatbots",
       "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
@@ -25,20 +55,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/public-policy-agenda",
-      "title": "OpenAI public policy agenda",
-      "url": "https://openai.com/index/public-policy-agenda",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "id": "openai-news:https://openai.com/index/frontier-safety-blueprint",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "url": "https://openai.com/index/frontier-safety-blueprint",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
       "publishedAt": "2026-06-03T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/frontier-safety-blueprint",
-      "title": "A blueprint for democratic governance of frontier AI",
-      "url": "https://openai.com/index/frontier-safety-blueprint",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "id": "openai-news:https://openai.com/index/public-policy-agenda",
+      "title": "OpenAI public policy agenda",
+      "url": "https://openai.com/index/public-policy-agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
       "publishedAt": "2026-06-03T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-05-29T00:00:00.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey",
-      "title": "Introducing the next generation of AWS Resilience Hub for generative AI-based SRE resilience journey",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey",
-      "summary": "AWS launches the next generation of AWS Resilience Hub with a significantly expanded experience that brings together a new application model, dependency discovery assessment, generative AI-powered failure mode analysis, modular resilience policies, and organization-wide reporting.",
-      "publishedAt": "2026-05-28T19:29:55.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications",
-      "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications",
-      "summary": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings.",
-      "publishedAt": "2026-05-28T18:26:16.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
-      "title": "Catch up on 12 major I/O 2026 moments",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos",
-      "summary": "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more.",
-      "publishedAt": "2026-05-28T15:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
       "category": "AI"
     }
   ]

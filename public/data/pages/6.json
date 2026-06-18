@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
+      "summary": "Custom agents let GitHub Copilot CLI understand your stack and team workflows, turning one-off terminal prompts into repeatable, reviewable processes. The post From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI appeared first on The GitHub Blog .",
+      "publishedAt": "2026-06-09T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/nextdoor",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "publishedAt": "2026-06-09T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/mishig/spaces-agents-md",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "summary": "",
+      "publishedAt": "2026-06-09T10:46:19.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/notion",
+      "title": "What Codex unlocks for Notion",
+      "url": "https://openai.com/index/notion",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "publishedAt": "2026-06-09T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/frontier-model-defense",
+      "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
+      "url": "https://blog.cloudflare.com/frontier-model-defense",
+      "summary": "In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.",
+      "publishedAt": "2026-06-09T06:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "openai-news:https://openai.com/index/industrial-policy-for-the-intelligence-age",
       "title": "Industrial policy for the Intelligence Age",
       "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
@@ -253,56 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/enforce-first-as-bgp",
-      "title": "Enforcing the First AS in BGP AS_PATHs",
-      "url": "https://blog.cloudflare.com/enforce-first-as-bgp",
-      "summary": "BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.",
-      "publishedAt": "2026-06-03T17:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
-      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
-      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
-      "summary": "What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a situation — it’s that [&#8230;]",
-      "publishedAt": "2026-06-03T15:00:57.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills",
-      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
-      "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills",
-      "summary": "At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. The core challenge in physical AI research isn’t simply developing stronger models. It’s building a full workflow around them — reconstructing real-world scenes, generating edge-case scenarios, training policies, evaluating [&#8230;]",
-      "publishedAt": "2026-06-03T15:00:35.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "publishedAt": "2026-06-03T13:15:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "google-ai:https://blog.google/products-and-platforms/products/search/thrifting-tips",
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
-      "url": "https://blog.google/products-and-platforms/products/search/thrifting-tips",
-      "summary": "Uncover second-hand scores with AI tools in Google Search and Shopping.",
-      "publishedAt": "2026-06-03T13:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
     }
   ]
 }

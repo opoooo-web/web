@@ -1,90 +1,98 @@
 {
-  "generatedAt": "2026-06-18T09:48:04.297Z",
-  "generatedBy": "gemini",
+  "generatedAt": "2026-06-18T13:43:47.448Z",
+  "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is marked by the relentless expansion of AI into diverse sectors, from medical diagnostics and space missions to developer tools, yet this rapid advancement is met with significant public apprehension and evolving regulatory challenges. Meanwhile, critical cybersecurity vulnerabilities persist, as seen with hardware security flaws and widespread data breaches, while shifts in enterprise IT and a new era of public-private space exploration reshape core industries.",
+  "narrative": "Today's technology brief highlights significant advancements in AI, with Adobe integrating AI assistants into creative suites, Midjourney expanding into medical imaging, and major players like Google, OpenAI, and NVIDIA unveiling new AI models and infrastructure. Cybersecurity remains a critical concern, evidenced by a massive Fortinet breach and Cloudflare's new security offerings. Additionally, space exploration continues with NASA announcing a public-private partnership for a Mars mission and new Hubble observations.",
   "highlights": [
     {
+      "title": "Photoshop and Premiere now have AI assistants",
+      "whyItMatters": "Adobe's integration of AI assistants into its creative suite signifies a major shift in how creative professionals will interact with their tools, promising enhanced automation and efficiency.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+      "category": "Technology",
+      "publishedAt": "2026-06-18T13:00:00.000Z"
+    },
+    {
       "title": "Midjourney goes from generating cat images to full-body ultrasound scans",
-      "whyItMatters": "This marks a significant and unexpected pivot for a prominent AI image generator into highly sensitive medical diagnostics, showcasing AI's expanding capabilities beyond entertainment and raising questions about regulation and trust in new applications.",
+      "whyItMatters": "Midjourney's pivot to medical imaging with ultrasound-based full-body scanners demonstrates the rapid and diverse application of AI in critical sectors like healthcare.",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952011/midjourney-medical-ai-ultrasound-scan",
       "category": "Technology",
       "publishedAt": "2026-06-18T03:12:31.000Z"
     },
     {
-      "title": "AMD silently removes memory encryption from consumer Ryzen CPUs",
-      "whyItMatters": "A major security feature's quiet removal from widely used consumer CPUs could leave users vulnerable and raises concerns about transparency and commitment to security from a leading chip manufacturer.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change",
-      "category": "Developer",
-      "publishedAt": "2026-06-18T08:08:00.000Z"
+      "title": "Two-thirds of Americans think AI is advancing too quickly",
+      "whyItMatters": "Public perception of AI's rapid advancement reveals societal concerns about its pace and potential implications, which could influence future regulatory landscapes.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+      "category": "Technology",
+      "publishedAt": "2026-06-17T17:20:24.000Z"
+    },
+    {
+      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
+      "whyItMatters": "NVIDIA's leading performance on the new AgentPerf benchmark indicates significant progress in hardware optimization for advanced agentic AI workloads, crucial for the next generation of AI systems.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis",
+      "category": "AI",
+      "publishedAt": "2026-06-12T21:00:08.000Z"
+    },
+    {
+      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
+      "whyItMatters": "The recall of Waymo robotaxis highlights ongoing safety challenges and the complexity of deploying autonomous vehicle technology in dynamic real-world environments.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones",
+      "category": "Technology",
+      "publishedAt": "2026-06-18T11:59:11.000Z"
     },
     {
       "title": "NASA picks Eric Schmidt’s rocket company for Mars mission, setting up a race with SpaceX",
-      "whyItMatters": "NASA's partnership with Relativity Space signifies a growing trend in public-private collaboration for ambitious space exploration, fostering competition in the commercial space sector for high-profile missions.",
+      "whyItMatters": "NASA's partnership with Relativity Space for a Mars mission signifies a growing trend in public-private collaborations for ambitious space exploration, potentially accelerating advancements.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/06/17/nasa-picks-eric-schmidts-rocket-company-for-mars-mission-setting-up-a-race-with-spacex",
       "category": "Technology",
-      "publishedAt": "2026-06-18T06:26:24.000Z"
-    },
-    {
-      "title": "Anthropic got hit by export rules nobody understands",
-      "whyItMatters": "This incident highlights the immediate and disruptive impact of unclear export controls on advanced AI, creating uncertainty for developers, users, and international access to cutting-edge models amidst geopolitical complexities.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
-      "category": "Technology",
-      "publishedAt": "2026-06-17T18:28:50.000Z"
-    },
-    {
-      "title": "Tesco moving 40k server workloads off VMware amid Broadcom's abusive conduct",
-      "whyItMatters": "A large enterprise's public decision to migrate away from a major vendor due to dissatisfaction signals potential widespread repercussions for Broadcom's strategy and highlights ongoing concerns about vendor lock-in and market power in cloud infrastructure.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arstechnica.com/information-technology/2026/06/tesco-moving-40000-server-workloads-off-vmware-amid-broadcoms-abusive-conduct/",
-      "category": "Developer",
-      "publishedAt": "2026-06-17T21:00:53.000Z"
+      "publishedAt": "2026-06-17T06:26:24.000Z"
     },
     {
       "title": "Massive breach spills credentials for thousands of sensitive networks",
-      "whyItMatters": "This incident underscores persistent and significant cybersecurity vulnerabilities affecting critical infrastructure and major corporations like Oracle, Lenovo, and FedEx, necessitating heightened vigilance and improved security protocols across industries.",
+      "whyItMatters": "A significant cybersecurity breach impacting major companies underscores the persistent and evolving threat landscape, necessitating continuous vigilance and robust security measures.",
       "sourceName": "Ars Technica",
       "sourceUrl": "https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks",
       "category": "Technology",
       "publishedAt": "2026-06-17T19:54:31.000Z"
     },
     {
-      "title": "Two-thirds of Americans think AI is advancing too quickly",
-      "whyItMatters": "A significant portion of the public expresses discomfort with AI's rapid pace, indicating a disconnect between technological innovation and public readiness, which could influence future adoption and regulation of AI technologies.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
-      "category": "Technology",
-      "publishedAt": "2026-06-17T17:20:24.000Z"
+      "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+      "whyItMatters": "AWS's new Bedrock feature streamlines the development of enterprise AI applications, making advanced AI capabilities more accessible and efficient for businesses.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-17T15:09:20.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence (AI)",
-      "summary": "AI's rapid expansion is evident in new applications like medical imaging, design tools, and smart home integration, alongside significant advancements in AI agents for development and cloud services. However, this growth is shadowed by public unease, regulatory challenges, and national security concerns surrounding access to advanced models.",
-      "itemCount": 25
+      "name": "AI Advancements & Applications",
+      "summary": "Significant progress in AI, including new models, enterprise integrations, and enhanced AI assistants across various sectors from creative design to medical diagnostics.",
+      "itemCount": 26
     },
     {
-      "name": "Cybersecurity & Data Privacy",
-      "summary": "Critical security vulnerabilities are emerging, including the silent removal of memory encryption from AMD CPUs and massive data breaches affecting thousands of sensitive networks, highlighting a persistent need for robust digital safeguards and transparency.",
-      "itemCount": 4
+      "name": "Cybersecurity & Infrastructure",
+      "summary": "Focus on digital security, network resilience, and cloud infrastructure advancements, highlighted by major data breaches and new protective measures.",
+      "itemCount": 16
+    },
+    {
+      "name": "Developer Ecosystem & Tools",
+      "summary": "New tools, frameworks, and discussions within the developer community, particularly around AI-powered coding and workflow improvements.",
+      "itemCount": 16
+    },
+    {
+      "name": "Technology Trends & Consumer Impact",
+      "summary": "Emerging trends in consumer technology, including AR/VR, smart devices, and societal discussions on the pace and impact of technological change.",
+      "itemCount": 23
     },
     {
       "name": "Space Exploration & Science",
-      "summary": "The scientific community continues its quest for fundamental discoveries like dark matter and cosmic companions, while NASA leverages public-private partnerships to propel future Mars missions, underscoring ongoing exploration and research efforts.",
-      "itemCount": 7
-    },
-    {
-      "name": "Software Development & Cloud Infrastructure",
-      "summary": "New tools and services are continually enhancing developer workflows and cloud infrastructure, with AWS and Cloudflare pushing agent-powered solutions for security and management, and a major enterprise moving away from VMware due to vendor conduct concerns.",
-      "itemCount": 20
-    },
-    {
-      "name": "Consumer Technology & Market Dynamics",
-      "summary": "The consumer tech landscape features new smart home devices and AR glasses, but also faces economic pressures leading to potential price increases for devices like iPhones, signaling shifts in market accessibility and affordability.",
+      "summary": "Breakthroughs in space missions, scientific discoveries like dark matter research, and environmental observations.",
       "itemCount": 10
     }
   ],

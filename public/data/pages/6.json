@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion",
+      "title": "NVIDIA Accelerates Google DeepMind’s DiffusionGemma for Local AI",
+      "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-local-gemma-diffusion",
+      "summary": "Today, Google DeepMind released DiffusionGemma — an experimental open model built for exceptionally fast text generation. NVIDIA has optimized DiffusionGemma to run even faster across NVIDIA GeForce RTX GPUs, the NVIDIA RTX PRO platform and NVIDIA DGX Spark systems, from local PCs to the cloud. Rather than generating text one word at a time, DiffusionGemma generates multiple words in parallel to output whole blocks of text, opening a new, low-latency frontier for the kind of single-user workloads that developers, [&#8230;]",
+      "publishedAt": "2026-06-10T16:15:20.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
+      "title": "Give GitHub Copilot CLI real code intelligence with language servers",
+      "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
+      "summary": "Install and configure LSP servers for GitHub Copilot CLI, replacing brute-force grep/decompile with real code intelligence. The post Give GitHub Copilot CLI real code intelligence with language servers appeared first on The GitHub Blog .",
+      "publishedAt": "2026-06-10T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors",
+      "title": "Now available: Amazon EC2 M9g and M9gd instances powered by new AWS Graviton5 processors",
+      "url": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors",
+      "summary": "AWS launches Amazon EC2 M9g and M9gd instances, powered by AWS Graviton5 processors. AWS Graviton5 is most powerful, and most energy eﬃcient processor AWS has ever built, and oﬀers up to 25% better compute performance compared to Graviton4-based instances.",
+      "publishedAt": "2026-06-10T15:04:30.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/private-origins-dns-routing",
+      "title": "Route public traffic to private applications with Cloudflare",
+      "url": "https://blog.cloudflare.com/private-origins-dns-routing",
+      "summary": "Application Services for Private Origins is available now in closed beta. Route public hostnames to private IP origins over your existing IPsec, GRE, CNI, or Cloudflare Mesh paths. No public IPs or extra connector software required.",
+      "publishedAt": "2026-06-10T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "publishedAt": "2026-06-10T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/lseg",
       "title": "From data to decisions: how LSEG is scaling trusted AI",
       "url": "https://openai.com/index/lseg",
@@ -252,56 +302,6 @@
       "publishedAt": "2026-06-04T18:57:45.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list",
-      "title": "Forecast: Fun Ahead — 18 Games Join in June to Stream on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-june-2026-games-list",
-      "summary": "June’s forecast with GeForce NOW: 100% chance of gaming. GeForce NOW is lining up new adventures for the month, from big-name blockbusters to quirky indies ready for the spotlight. Members can dive into fresh worlds, squad up in new playlists and discover “just one more run” favorites — all streaming from the cloud, no downloads [&#8230;]",
-      "publishedAt": "2026-06-04T13:00:27.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/voidzero-joins-cloudflare",
-      "title": "VoidZero is joining Cloudflare",
-      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare",
-      "summary": "VoidZero, the team behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. Vite stays open source, vendor-agnostic, and built for everyone.",
-      "publishedAt": "2026-06-04T12:59:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/endava-frontiers",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "publishedAt": "2026-06-04T12:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/chatgpt-memory-dreaming",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "publishedAt": "2026-06-04T09:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/biodefense-in-the-intelligence-age",
-      "title": "Biodefense in the Intelligence Age",
-      "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "summary": "An action plan for AI-powered biological resilience",
-      "publishedAt": "2026-06-04T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

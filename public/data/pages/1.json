@@ -5,14 +5,104 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth",
+      "title": "Zero-Touch OAuth for MCP",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth",
+      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 12 # Comments: 3",
+      "publishedAt": "2026-06-18T21:54:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-mission-to-study-space-weather-impacts-of-earths-atmosphere",
+      "title": "NASA Mission to Study Space Weather Impacts of Earth’s Atmosphere",
+      "url": "https://www.nasa.gov/news-release/nasa-mission-to-study-space-weather-impacts-of-earths-atmosphere",
+      "summary": "NASA selected a mission concept to research how space weather and dynamics within Earth’s atmosphere influence the space environment and help improve prediction capabilities for impacts on crucial technology, such as GPS and low Earth orbit satellites, as well as astronauts in space. The DAPHNE (Dynamic Atmosphere-Ionosphere Explorer) mission will enter Phase B of development, [&#8230;]",
+      "publishedAt": "2026-06-18T21:33:07.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus",
+      "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus",
+      "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads.",
+      "publishedAt": "2026-06-18T21:22:10.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round",
+      "title": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round",
+      "summary": "Startup Baseten is reportedly close to finalizing a $1.5 billion round at a $13 billion as the “inference gold rush\" marches on.",
+      "publishedAt": "2026-06-18T21:20:13.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling",
+      "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling",
+      "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned events, and target tracking to scale dynamically on real-time metrics. You can choose proactive scaling by using predictive scaling (automatic) and scheduled scaling […]",
+      "publishedAt": "2026-06-18T21:06:38.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "hacker-news:https://bomwiki.com",
+      "title": "Everything Is BOM: Bill of Materials Encyclopedia",
+      "url": "https://bomwiki.com",
+      "summary": "Article URL: https://bomwiki.com/ Comments URL: https://news.ycombinator.com/item?id=48591562 Points: 36 # Comments: 13",
+      "publishedAt": "2026-06-18T21:03:31.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else",
+      "title": "NASA asks Northrop Grumman to stop working on lunar HALO module",
+      "url": "https://arstechnica.com/space/2026/06/nasas-1-1-billion-gateway-habitation-module-is-unlikely-to-be-used-for-something-else",
+      "summary": "\"We are reassigning most affected employees across existing opportunities and programs.\"",
+      "publishedAt": "2026-06-18T20:49:55.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.intheweights.com",
+      "title": "Show HN: Are You in the Weights?",
+      "url": "https://www.intheweights.com",
+      "summary": "With more traffic moving off-web and into LLMs, I got curious about what traces we leave \"in the weights\". My design partner and I built a site in the past few weeks that checks recognition across frontier and small models. It queries many of them in parallel, clusters the responses, and tells you how strongly they recognize you. Happy to answer any questions here! Comments URL: https://news.ycombinator.com/item?id=48591348 Points: 113 # Comments: 83",
+      "publishedAt": "2026-06-18T20:49:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
       "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
       "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
-      "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be comprised of current Snap staff who are leaving the social media company to focus on AI video development.",
+      "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.",
       "publishedAt": "2026-06-18T20:30:00.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.dpolakovic.space/blogs/zork-part2",
+      "title": "Zork name origin got an update on Wikipedia",
+      "url": "https://www.dpolakovic.space/blogs/zork-part2",
+      "summary": "Article URL: https://www.dpolakovic.space/blogs/zork-part2#update Comments URL: https://news.ycombinator.com/item?id=48591066 Points: 24 # Comments: 1",
+      "publishedAt": "2026-06-18T20:27:28.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/games/952582/valve-steam-controller-reservations-orders-behind-estimated-date",
@@ -65,6 +155,16 @@
       "category": "Technology"
     },
     {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification",
+      "title": "Android verification is coming: Google confirms timeline and supported app stores",
+      "url": "https://arstechnica.com/gadgets/2026/06/google-shares-updated-timeline-for-rolling-out-android-developer-verification",
+      "summary": "A new system service will roll out this month ahead of big changes starting in September.",
+      "publishedAt": "2026-06-18T19:53:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs",
       "title": "The 11 standout startups from YC&#8217;s Demo Day, according to VCs",
       "url": "https://techcrunch.com/2026/06/18/the-11-standout-startups-from-ycs-demo-day-according-to-vcs",
@@ -72,6 +172,16 @@
       "publishedAt": "2026-06-18T19:52:19.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds",
+      "title": "Apple patches high-severity eavesdropping vulnerability in Beats Studio Buds",
+      "url": "https://arstechnica.com/apple/2026/06/apple-patches-high-severity-eavesdropping-vulnerability-in-beats-studio-buds",
+      "summary": "The vulnerability, disclosed 12 months ago, affects multiple manufacturers.",
+      "publishedAt": "2026-06-18T19:41:35.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
       "category": "Technology"
     },
     {
@@ -83,16 +193,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive",
-      "title": "Integer Quantization: Deep Dive",
-      "url": "https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive",
-      "summary": "Article URL: https://hello-fri-end.github.io/2026/06/integer-quantization-deep-dive/ Comments URL: https://news.ycombinator.com/item?id=48590280 Points: 8 # Comments: 1",
-      "publishedAt": "2026-06-18T19:25:46.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/gadgets/952326/hbo-max-annual-plan-deal-sale",
@@ -145,6 +245,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine",
+      "title": "I told them forced consent was unlawful. 5 years later it cost Elkjop €1.8M",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine",
+      "summary": "https://web.archive.org/web/20260618212028/https://www.thatp... https://archive.ph/I4zjA Comments URL: https://news.ycombinator.com/item?id=48589501 Points: 153 # Comments: 50",
+      "publishedAt": "2026-06-18T18:31:23.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://science.nasa.gov/photojournal/desert-field-test-with-nasa-advanced-rover-prototype",
       "title": "Desert Field Test With NASA Advanced Rover Prototype",
       "url": "https://science.nasa.gov/photojournal/desert-field-test-with-nasa-advanced-rover-prototype",
@@ -193,116 +303,6 @@
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/952441/yueban-xiaoban-self-driving-autonomous-toilet",
-      "title": "This robotic self-driving toilet comes to you",
-      "url": "https://www.theverge.com/tech/952441/yueban-xiaoban-self-driving-autonomous-toilet",
-      "summary": "During a recent expo in Shanghai that focuses on elderly care, assistive devices, and rehabilitation medicine, a Chinese company called Yueban debuted a smart toilet that does something we haven't seen before; it comes to you. The autonomous self-driving Xiaoban toilet was designed to improve accessibility for those dealing with mobility issues due to age, [&#8230;]",
-      "publishedAt": "2026-06-18T18:08:17.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/nasas-lucy-reveals-wobbling-peanut-shaped-asteroid",
-      "title": "NASA’s Lucy Reveals Wobbling, Peanut-Shaped Asteroid",
-      "url": "https://science.nasa.gov/missions/nasas-lucy-reveals-wobbling-peanut-shaped-asteroid",
-      "summary": "Even small asteroids lead complex lives. During its flyby of the asteroid Donaldjohanson last year, NASA’s Lucy spacecraft revealed the asteroid to be a wobbly, peanut-shaped body that has undergone a lot of activity in its relatively short history. Formed as fragments coalesced after a violent collision 155 million years ago, the asteroid was transformed by the […]",
-      "publishedAt": "2026-06-18T18:04:41.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/mivos-new-app-takes-a-mindful-approach-to-managing-screen-time",
-      "title": "Mivo’s new app takes a mindful approach to managing screen time",
-      "url": "https://techcrunch.com/2026/06/18/mivos-new-app-takes-a-mindful-approach-to-managing-screen-time",
-      "summary": "Doomscrolling on social media is a very common problem and can feel like an endless loop of constantly losing track of time. Instead of tackling this issue with strict limits, a new mindful screen time app called Mivo Scrolling is trying to shake things up. Launched last month, Mivo doesn&#8217;t look super different from other [&#8230;]",
-      "publishedAt": "2026-06-18T18:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/build-your-own-vulnerability-harness",
-      "title": "Build your own vulnerability harness",
-      "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness",
-      "summary": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.",
-      "publishedAt": "2026-06-18T17:59:40.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "title": "AI data centers just got a government-mandated fast lane to the grid",
-      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid",
-      "summary": "FERC told grid operators to give data centers a fast lane for interconnections, but it failed to address electricity supply shortages.",
-      "publishedAt": "2026-06-18T17:49:23.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes",
-      "title": "Before SpaceX IPO, investors in China secretly acquired stakes",
-      "url": "https://arstechnica.com/information-technology/2026/06/before-spacex-ipo-investors-in-china-secretly-acquired-stakes",
-      "summary": "One previously unreported SpaceX investor has ties to Chinese military contractors.",
-      "publishedAt": "2026-06-18T17:42:18.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk",
-      "title": "The Token Compression Illusion: Why I'm Skeptical of RTK",
-      "url": "https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk",
-      "summary": "Article URL: https://mroczek.dev/articles/the-token-compression-illusion-why-im-skeptical-of-rtk/ Comments URL: https://news.ycombinator.com/item?id=48588755 Points: 36 # Comments: 48",
-      "publishedAt": "2026-06-18T17:37:00.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/952283/walmart-plus-half-off-deal-sale",
-      "title": "A year of Walmart Plus is half off ahead of Prime Day",
-      "url": "https://www.theverge.com/gadgets/952283/walmart-plus-half-off-deal-sale",
-      "summary": "Do you often find yourself shopping at the big blue, or perhaps you’re just looking for an alternative to Amazon? Either way, Walmart is currently offering a year of its Walmart Plus subscription for $49, which typically costs $98. The membership includes perks like free delivery on orders over $35, free next-day and two-day shipping [&#8230;]",
-      "publishedAt": "2026-06-18T17:33:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/952354/firefox-home-page-widgets",
-      "title": "Firefox’s new home page widgets are helping me focus",
-      "url": "https://www.theverge.com/tech/952354/firefox-home-page-widgets",
-      "summary": "I launched Firefox this morning to find some new blocks on my home page. The widgets that are currently rolling out add sports scores, time zones, a focus timer, and a checklist, which are already some of my favorite new Firefox features in years. I usually have Focus Friend open on my phone when I [&#8230;]",
-      "publishedAt": "2026-06-18T17:29:50.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it",
-      "title": "The smartphone era created an attention crisis. Slowtech is fixing it",
-      "url": "https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it",
-      "summary": "“People just really want to take back control of their time, their lives, their attention... They’re down for whatever helps them do that.”",
-      "publishedAt": "2026-06-18T17:16:30.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/texas-government-data-breach-allowed-hackers-to-steal-3-million-drivers-licenses-and-passports",
-      "title": "Texas government data breach allowed hackers to steal 3 million driver&#8217;s licenses and passports",
-      "url": "https://techcrunch.com/2026/06/18/texas-government-data-breach-allowed-hackers-to-steal-3-million-drivers-licenses-and-passports",
-      "summary": "A data breach involving government-issued ID documents affects over three million people in Texas.",
-      "publishedAt": "2026-06-18T17:12:53.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

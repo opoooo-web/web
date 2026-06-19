@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "publishedAt": "2026-06-18T17:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone",
       "title": "&#8216;Queer Eye&#8217; life coach Karamo Brown launches Kē, a wellness app featuring his AI digital clone",
       "url": "https://techcrunch.com/2026/06/18/queer-eyes-life-coach-karamo-brown-launches-ke-a-wellness-app-featuring-his-ai-digital-clone",
@@ -88,7 +98,7 @@
       "id": "hacker-news:https://dfdxlabs.com/research/2026/robotics-setup",
       "title": "Building a robotics research setup that lives next to my desk",
       "url": "https://dfdxlabs.com/research/2026/robotics-setup",
-      "summary": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: starting with physical and software setup. A few decisions I'm least settled on, and would love some pushback/feedback on: - single arm vs. bimanual (I went single for cost/space, knowing it rules out things like folding cloth) - not calibrating camera extrinsics/intrinsics for now - RGB vs. RGB-D for from-scratch policies (ACT / Diffusion Policy) And one I'm more confident about but expect disagreement on: not building on ROS 2 / LeRobot, and writing my own stack instead. Happy to get into the reasoning. Comments URL: https://news.ycombinator.com/item?id=48586329 Points: 65 # Comments: 24",
+      "summary": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: starting with physical and software setup. A few decisions I'm least settled on, and would love some pushback/feedback on: - single arm vs. bimanual (I went single for cost/space, knowing it rules out things like folding cloth) - not calibrating camera extrinsics/intrinsics for now - RGB vs. RGB-D for from-scratch policies (ACT / Diffusion Policy) And one I'm more confident about but expect disagreement on: not building on ROS 2 / LeRobot, and writing my own stack instead. Happy to get into the reasoning. Comments URL: https://news.ycombinator.com/item?id=48586329 Points: 89 # Comments: 28",
       "publishedAt": "2026-06-18T14:51:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +108,7 @@
       "id": "hacker-news:https://tester.army",
       "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
       "url": "https://tester.army",
-      "summary": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy ( https://tester.army ). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your tests in natural language and handle everything in between. We've built the platform fully around agents. Our agent will reliably execute the tests, but your coding agent can manage everything in our platform, from defining tests in natural language to running them on your behalf. Check out our demo video: https://www.youtube.com/watch?v=291IkUbPrlk . We started TesterArmy because testing is still far too painful. AI coding tools have made it dramatically faster to write and ship code, but testing is still a bottleneck. Traditional E2E tests are slow to set up and expensive to maintain. Managing auth and test users is painful. Setting up staging environments is painful. Running tests reliably is painful. We think most teams do not actually want to spend their time writing selectors or maintaining test infrastructure. They just want confidence that their core flows work. With TesterArmy, an engineer can sign up, give an agent our CLI, and let it handle creating tests and running them on schedule or on GitHub. When something breaks, TesterArmy alerts your team through Slack or Discord. Over the past few months, we scaled from 0 to 30+ teams using our product every day. We caught bugs in critical flows, including onboarding, checkout, and AI chat. We've got many of our customers migrating from already established competitors to us because of the quality and reliability of our agents. Here are a few of the recent bugs that our agent found (there were quite a lot of them!): 1) Timezone bug that affected the booking flow in one of our clients' apps, the dashboard was very complex and hard to catch by a human. 2) Regression in agent orchestration that caused a sandboxed environment to be stuck on loading, thanks to TesterArmy, the team was able to resolve it before it hit production. 3) Incorrectly counting the order amount in a complex dashboard flow with checkout, thanks to TesterArmy, the team was able to resolve it before it affected revenue 4) Catching a regression in an AI chat flow that would result in a user not being able to retrieve their data due to broken tool calling. And many more, mostly related to some incorrect API calls, 404s, unhandled errors, etc. If this sounds useful, we would love your feedback at https://tester.army . We have a bunch of free test runs for you to try. And don’t worry, we won’t make you do sales calls, and we don’t have long onboarding or annoying setup. Our goal is an it-just-works experience. If you're looking for an end-to-end testing solution, we'd love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=48586299 Points: 116 # Comments: 49",
+      "summary": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy ( https://tester.army ). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your tests in natural language and handle everything in between. We've built the platform fully around agents. Our agent will reliably execute the tests, but your coding agent can manage everything in our platform, from defining tests in natural language to running them on your behalf. Check out our demo video: https://www.youtube.com/watch?v=291IkUbPrlk . We started TesterArmy because testing is still far too painful. AI coding tools have made it dramatically faster to write and ship code, but testing is still a bottleneck. Traditional E2E tests are slow to set up and expensive to maintain. Managing auth and test users is painful. Setting up staging environments is painful. Running tests reliably is painful. We think most teams do not actually want to spend their time writing selectors or maintaining test infrastructure. They just want confidence that their core flows work. With TesterArmy, an engineer can sign up, give an agent our CLI, and let it handle creating tests and running them on schedule or on GitHub. When something breaks, TesterArmy alerts your team through Slack or Discord. Over the past few months, we scaled from 0 to 30+ teams using our product every day. We caught bugs in critical flows, including onboarding, checkout, and AI chat. We've got many of our customers migrating from already established competitors to us because of the quality and reliability of our agents. Here are a few of the recent bugs that our agent found (there were quite a lot of them!): 1) Timezone bug that affected the booking flow in one of our clients' apps, the dashboard was very complex and hard to catch by a human. 2) Regression in agent orchestration that caused a sandboxed environment to be stuck on loading, thanks to TesterArmy, the team was able to resolve it before it hit production. 3) Incorrectly counting the order amount in a complex dashboard flow with checkout, thanks to TesterArmy, the team was able to resolve it before it affected revenue 4) Catching a regression in an AI chat flow that would result in a user not being able to retrieve their data due to broken tool calling. And many more, mostly related to some incorrect API calls, 404s, unhandled errors, etc. If this sounds useful, we would love your feedback at https://tester.army . We have a bunch of free test runs for you to try. And don’t worry, we won’t make you do sales calls, and we don’t have long onboarding or annoying setup. Our goal is an it-just-works experience. If you're looking for an end-to-end testing solution, we'd love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=48586299 Points: 121 # Comments: 56",
       "publishedAt": "2026-06-18T14:49:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -118,7 +128,7 @@
       "id": "hacker-news:https://blog.ui.com/article/introducing-enterprise-nas",
       "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
       "url": "https://blog.ui.com/article/introducing-enterprise-nas",
-      "summary": "Article URL: https://blog.ui.com/article/introducing-enterprise-nas Comments URL: https://news.ycombinator.com/item?id=48585866 Points: 320 # Comments: 275",
+      "summary": "Article URL: https://blog.ui.com/article/introducing-enterprise-nas Comments URL: https://news.ycombinator.com/item?id=48585866 Points: 352 # Comments: 300",
       "publishedAt": "2026-06-18T14:24:30.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -138,7 +148,7 @@
       "id": "hacker-news:https://github.com/cajal-technologies/talos",
       "title": "Show HN: Talos – Open-source WASM interpreter for Lean",
       "url": "https://github.com/cajal-technologies/talos",
-      "summary": "At Cajal (YC W26) we’re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of software comes with a mathematical proof that it does what its author intended - in doing so, eliminating many classes of exploits. Talos is part of the foundation for that. Talos provides a Wasm interpreter optimized for reasoning at the binary level, together with a weakest-precondition calculus layer for proving properties about programs. Because we reason directly about WebAssembly, any language with a Wasm backend is in scope: Rust, C++, Go, C, Swift, Kotlin, Zig, C#, and many more. To make this possible, we use Lean: a programming language and theorem prover that lets you both write software and mathematically prove that it's correct - all in one system. That's what lets Talos double as both an executable interpreter and the formal object Lean reasons about. Lean also integrates with modern AI proving tools, discharging goals automatically via both proof search and direct evaluation. To see Talos in action check out a proof for Stein's GCD algorithm, implemented in the popular Rust crate num-integer: https://github.com/cajal-technologies/talos/blob/main/progra... . Our roadmap: - Full Wasm coverage by first passing the official W3C testsuite, then later verifying against SpecTec (formal Wasm spec) - Arbitrary crate verification - any Rust crate that compiles to Wasm should be in scope - Building our proof library codelib, to make verifying increasingly complex programs tractable We would love to hear the community’s feedback on Talos and comments on the state of formal verification right now. Contributions are also welcome! Comments URL: https://news.ycombinator.com/item?id=48584761 Points: 43 # Comments: 5",
+      "summary": "At Cajal (YC W26) we’re excited to share Talos ( https://github.com/cajal-technologies/talos ), an open source framework for formal verification of WebAssembly modules in Lean. AI is now writing tons of the code that gets pushed to production. As code generation gets cheaper, verification becomes the bottleneck. We believe in a future where every piece of software comes with a mathematical proof that it does what its author intended - in doing so, eliminating many classes of exploits. Talos is part of the foundation for that. Talos provides a Wasm interpreter optimized for reasoning at the binary level, together with a weakest-precondition calculus layer for proving properties about programs. Because we reason directly about WebAssembly, any language with a Wasm backend is in scope: Rust, C++, Go, C, Swift, Kotlin, Zig, C#, and many more. To make this possible, we use Lean: a programming language and theorem prover that lets you both write software and mathematically prove that it's correct - all in one system. That's what lets Talos double as both an executable interpreter and the formal object Lean reasons about. Lean also integrates with modern AI proving tools, discharging goals automatically via both proof search and direct evaluation. To see Talos in action check out a proof for Stein's GCD algorithm, implemented in the popular Rust crate num-integer: https://github.com/cajal-technologies/talos/blob/main/progra... . Our roadmap: - Full Wasm coverage by first passing the official W3C testsuite, then later verifying against SpecTec (formal Wasm spec) - Arbitrary crate verification - any Rust crate that compiles to Wasm should be in scope - Building our proof library codelib, to make verifying increasingly complex programs tractable We would love to hear the community’s feedback on Talos and comments on the state of formal verification right now. Contributions are also welcome! Comments URL: https://news.ycombinator.com/item?id=48584761 Points: 60 # Comments: 8",
       "publishedAt": "2026-06-18T13:10:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -175,21 +185,21 @@
       "category": "Infrastructure"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign",
-      "title": "Adobe adds its AI assistant to Premiere, Illustrator, and InDesign",
-      "url": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign",
-      "summary": "Adobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign, and Frame.io.",
-      "publishedAt": "2026-06-18T13:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "hacker-news:https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty",
       "title": "W Social, public institutions and the theater of European digital sovereignty",
       "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty",
-      "summary": "Article URL: https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48584497 Points: 201 # Comments: 136",
+      "summary": "Article URL: https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48584497 Points: 223 # Comments: 143",
       "publishedAt": "2026-06-18T12:46:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
+      "title": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
+      "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
+      "summary": "https://web.archive.org/web/20260618100028/https://www.wired... Comments URL: https://news.ycombinator.com/item?id=48584484 Points: 115 # Comments: 107",
+      "publishedAt": "2026-06-18T12:44:09.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -208,8 +218,18 @@
       "id": "hacker-news:https://orchidfiles.com/github-repositories-distributing-malware",
       "title": "I found 10k GitHub repositories distributing Trojan malware",
       "url": "https://orchidfiles.com/github-repositories-distributing-malware",
-      "summary": "Article URL: https://orchidfiles.com/github-repositories-distributing-malware/ Comments URL: https://news.ycombinator.com/item?id=48583928 Points: 765 # Comments: 192",
+      "summary": "Article URL: https://orchidfiles.com/github-repositories-distributing-malware/ Comments URL: https://news.ycombinator.com/item?id=48583928 Points: 824 # Comments: 214",
       "publishedAt": "2026-06-18T11:45:43.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://spectrum.ieee.org/modos-e-paper-monitor",
+      "title": "Modos Color Monitor Pushes E-Paper Displays Further",
+      "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
+      "summary": "Article URL: https://spectrum.ieee.org/modos-e-paper-monitor Comments URL: https://news.ycombinator.com/item?id=48583897 Points: 292 # Comments: 70",
+      "publishedAt": "2026-06-18T11:41:21.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -228,7 +248,7 @@
       "id": "hacker-news:https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided",
       "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course (2020)",
       "url": "https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided",
-      "summary": "Article URL: https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/ Comments URL: https://news.ycombinator.com/item?id=48583606 Points: 354 # Comments: 51",
+      "summary": "Article URL: https://www.cs.cornell.edu/courses/cs6120/2025fa/self-guided/ Comments URL: https://news.ycombinator.com/item?id=48583606 Points: 382 # Comments: 53",
       "publishedAt": "2026-06-18T11:04:31.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -243,6 +263,26 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "title": "Hospitals and universities repurposing drugs at lower cost",
+      "url": "https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost",
+      "summary": "Article URL: https://www.kcl.ac.uk/news/hospitals-and-universities-repurposing-drugs-at-90-lower-cost Comments URL: https://news.ycombinator.com/item?id=48583386 Points: 316 # Comments: 143",
+      "publishedAt": "2026-06-18T10:33:22.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git",
+      "title": ".gitignore Isn't the only way to ignore files in Git",
+      "url": "https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git",
+      "summary": "Article URL: https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/ Comments URL: https://news.ycombinator.com/item?id=48583356 Points: 439 # Comments: 136",
+      "publishedAt": "2026-06-18T10:29:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges",
@@ -263,46 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/diagnose-rare-childhood-diseases",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "publishedAt": "2026-06-18T08:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/culture/2026/06/hulk-punisher-join-peter-parker-in-spider-man-brand-new-day-trailer",
-      "title": "Hulk, Punisher join Peter Parker in Spider-Man: Brand New Day trailer",
-      "url": "https://arstechnica.com/culture/2026/06/hulk-punisher-join-peter-parker-in-spider-man-brand-new-day-trailer",
-      "summary": "Peter Parker to Bruce Banner: \"I didn't know you could get that big.\"",
-      "publishedAt": "2026-06-18T06:37:59.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/france-advances-europes-ai-future",
-      "title": "France Advances Europe’s AI Future With NVIDIA Technologies",
-      "url": "https://blogs.nvidia.com/blog/france-advances-europes-ai-future",
-      "summary": "A year ago at NVIDIA GTC Paris at VivaTech, France laid out plans to advance local AI — from new AI factories and national compute capacity to open frontier models and industrial platforms. Now, that AI infrastructure is coming online. AI agents are running in production, startups are deploying applications and the French AI ecosystem [&#8230;]",
-      "publishedAt": "2026-06-18T06:00:59.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/peft-beyond-lora",
-      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
-      "url": "https://huggingface.co/blog/peft-beyond-lora",
-      "summary": "",
-      "publishedAt": "2026-06-18T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     }
   ]
 }

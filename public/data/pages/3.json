@@ -5,10 +5,100 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil",
+      "title": "Apple opens up App Store to new competition in Brazil",
+      "url": "https://techcrunch.com/2026/06/18/apple-opens-up-app-store-to-new-competition-in-brazil",
+      "summary": "Apple’s grip on iPhone app distribution is loosening in another major market: Brazil.",
+      "publishedAt": "2026-06-18T15:48:08.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/18/maptap-a-daily-geography-game-is-my-new-wordle",
+      "title": "MapTap, a daily geography game, is my new Wordle",
+      "url": "https://techcrunch.com/2026/06/18/maptap-a-daily-geography-game-is-my-new-wordle",
+      "summary": "MapTap is a phone game that will make you feel smarter after you play it.",
+      "publishedAt": "2026-06-18T15:47:39.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation",
+      "title": "General Intuition in talks to raise $300M at around $2B valuation",
+      "url": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation",
+      "summary": "The startup trains embodied AI and world models using Medal’s dataset of 2 billion videos per year from 10 million monthly active users.",
+      "publishedAt": "2026-06-18T15:20:37.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight",
+      "title": "A tech worker-backed PAC is bringing a $5M knife to Big Tech’s $100M gunfight",
+      "url": "https://techcrunch.com/2026/06/18/a-tech-worker-backed-pac-is-bringing-a-5m-knife-to-big-techs-100m-gunfight",
+      "summary": "Guardrails positions itself as a populist political movement that runs on small donations from people in the trenches of the AI boom.",
+      "publishedAt": "2026-06-18T15:13:21.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago",
+      "title": "Hunter-gatherers in Siberia died of a plague outbreak 5,500 years ago",
+      "url": "https://arstechnica.com/science/2026/06/hunter-gatherers-in-siberia-died-of-a-plague-outbreak-5500-years-ago",
+      "summary": "We can't blame the Neolithic Transition for the plague anymore.",
+      "publishedAt": "2026-06-18T15:04:40.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://tester.army",
+      "title": "Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps",
+      "url": "https://tester.army",
+      "summary": "Hey HN - we’re Oskar, Szymon, and Piotr, and we’re building TesterArmy ( https://tester.army ). TesterArmy is an agentic testing platform that runs end-to-end checks before deployment and in production. Instead of wasting hours on manual testing or maintaining static scripts, we let you specify your tests in natural language and handle everything in between. We've built the platform fully around agents. Our agent will reliably execute the tests, but your coding agent can manage everything in our platform, from defining tests in natural language to running them on your behalf. Check out our demo video: https://www.youtube.com/watch?v=291IkUbPrlk . We started TesterArmy because testing is still far too painful. AI coding tools have made it dramatically faster to write and ship code, but testing is still a bottleneck. Traditional E2E tests are slow to set up and expensive to maintain. Managing auth and test users is painful. Setting up staging environments is painful. Running tests reliably is painful. We think most teams do not actually want to spend their time writing selectors or maintaining test infrastructure. They just want confidence that their core flows work. With TesterArmy, an engineer can sign up, give an agent our CLI, and let it handle creating tests and running them on schedule or on GitHub. When something breaks, TesterArmy alerts your team through Slack or Discord. Over the past few months, we scaled from 0 to 30+ teams using our product every day. We caught bugs in critical flows, including onboarding, checkout, and AI chat. We've got many of our customers migrating from already established competitors to us because of the quality and reliability of our agents. Here are a few of the recent bugs that our agent found (there were quite a lot of them!): 1) Timezone bug that affected the booking flow in one of our clients' apps, the dashboard was very complex and hard to catch by a human. 2) Regression in agent orchestration that caused a sandboxed environment to be stuck on loading, thanks to TesterArmy, the team was able to resolve it before it hit production. 3) Incorrectly counting the order amount in a complex dashboard flow with checkout, thanks to TesterArmy, the team was able to resolve it before it affected revenue 4) Catching a regression in an AI chat flow that would result in a user not being able to retrieve their data due to broken tool calling. And many more, mostly related to some incorrect API calls, 404s, unhandled errors, etc. If this sounds useful, we would love your feedback at https://tester.army . We have a bunch of free test runs for you to try. And don’t worry, we won’t make you do sales calls, and we don’t have long onboarding or annoying setup. Our goal is an it-just-works experience. If you're looking for an end-to-end testing solution, we'd love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=48586299 Points: 100 # Comments: 45",
+      "publishedAt": "2026-06-18T14:49:44.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die",
+      "title": "The first long-duration resident of the ISS, a cosmonaut, has died",
+      "url": "https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die",
+      "summary": "Two expeditions, two spacewalks, 322 days in space.",
+      "publishedAt": "2026-06-18T14:34:36.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.ui.com/article/introducing-enterprise-nas",
+      "title": "Ubiquiti: Enterprise NAS, Built on ZFS",
+      "url": "https://blog.ui.com/article/introducing-enterprise-nas",
+      "summary": "Article URL: https://blog.ui.com/article/introducing-enterprise-nas Comments URL: https://news.ycombinator.com/item?id=48585866 Points: 258 # Comments: 237",
+      "publishedAt": "2026-06-18T14:24:30.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
+      "title": "Swiss parliament lifts ban on new nuclear power plants",
+      "url": "https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html",
+      "summary": "Article URL: https://www.bluewin.ch/en/news/switzerland/parliament-lifts-ban-on-new-nuclear-power-plants-3257535.html Comments URL: https://news.ycombinator.com/item?id=48585746 Points: 690 # Comments: 565",
+      "publishedAt": "2026-06-18T14:17:07.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://gerrymandle.cc",
       "title": "Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts",
       "url": "https://gerrymandle.cc",
-      "summary": "Article URL: https://gerrymandle.cc/ Comments URL: https://news.ycombinator.com/item?id=48585739 Points: 116 # Comments: 56",
+      "summary": "Article URL: https://gerrymandle.cc/ Comments URL: https://news.ycombinator.com/item?id=48585739 Points: 135 # Comments: 63",
       "publishedAt": "2026-06-18T14:16:25.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -28,7 +118,7 @@
       "id": "hacker-news:https://worksinprogress.co/issue/albertas-war-on-rats",
       "title": "How Alberta Eradicated Rats",
       "url": "https://worksinprogress.co/issue/albertas-war-on-rats",
-      "summary": "Article URL: https://worksinprogress.co/issue/albertas-war-on-rats/ Comments URL: https://news.ycombinator.com/item?id=48584709 Points: 120 # Comments: 89",
+      "summary": "Article URL: https://worksinprogress.co/issue/albertas-war-on-rats/ Comments URL: https://news.ycombinator.com/item?id=48584709 Points: 133 # Comments: 99",
       "publishedAt": "2026-06-18T13:05:58.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -78,7 +168,7 @@
       "id": "hacker-news:https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty",
       "title": "W Social, public institutions and the theater of European digital sovereignty",
       "url": "https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty",
-      "summary": "Article URL: https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48584497 Points: 165 # Comments: 115",
+      "summary": "Article URL: https://blog.elenarossini.com/w-social-public-institutions-and-the-theater-of-european-digital-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48584497 Points: 177 # Comments: 118",
       "publishedAt": "2026-06-18T12:46:04.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,28 +178,8 @@
       "id": "hacker-news:https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
       "title": "The Korean telecom giant at the center of Anthropic's Mythos controversy",
       "url": "https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls",
-      "summary": "https://web.archive.org/web/20260618100028/https://www.wired... Comments URL: https://news.ycombinator.com/item?id=48584484 Points: 73 # Comments: 42",
+      "summary": "https://web.archive.org/web/20260618100028/https://www.wired... Comments URL: https://news.ycombinator.com/item?id=48584484 Points: 100 # Comments: 81",
       "publishedAt": "2026-06-18T12:44:09.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows",
-      "title": "Microsoft new Outlook takes 10 seconds to do what Outlook Classic does instantly",
-      "url": "https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows",
-      "summary": "Article URL: https://www.windowslatest.com/2026/06/15/microsofts-new-outlook-takes-10-seconds-to-do-what-outlook-classic-does-instantly-on-windows/ Comments URL: https://news.ycombinator.com/item?id=48584207 Points: 570 # Comments: 378",
-      "publishedAt": "2026-06-18T12:19:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
-      "title": "Emacs 31 is around the corner: The changes I'm daily driving",
-      "url": "https://www.rahuljuliato.com/posts/emacs-31-around-the-corner",
-      "summary": "Article URL: https://www.rahuljuliato.com/posts/emacs-31-around-the-corner Comments URL: https://news.ycombinator.com/item?id=48584135 Points: 401 # Comments: 217",
-      "publishedAt": "2026-06-18T12:10:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -125,30 +195,10 @@
       "category": "Science"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences",
-      "title": "Pixi&#8217;s new iOS app turns text messages into interactive AR experiences",
-      "url": "https://techcrunch.com/2026/06/18/pixis-new-ios-app-turns-text-messages-into-interactive-ar-experiences",
-      "summary": "Forget stickers, GIFs, and emoji reactions. Pixi is betting that the next evolution of messaging is interactive augmented reality (AR).",
-      "publishedAt": "2026-06-18T12:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones",
-      "title": "Waymo recalls nearly 4,000 robotaxis to stop them driving into highway construction zones",
-      "url": "https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones",
-      "summary": "The company has identified at least 13 instances where its robotaxis drove into highway sections closed for construction.",
-      "publishedAt": "2026-06-18T11:59:11.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "hacker-news:https://orchidfiles.com/github-repositories-distributing-malware",
       "title": "I found 10k GitHub repositories distributing Trojan malware",
       "url": "https://orchidfiles.com/github-repositories-distributing-malware",
-      "summary": "Article URL: https://orchidfiles.com/github-repositories-distributing-malware/ Comments URL: https://news.ycombinator.com/item?id=48583928 Points: 613 # Comments: 138",
+      "summary": "Article URL: https://orchidfiles.com/github-repositories-distributing-malware/ Comments URL: https://news.ycombinator.com/item?id=48583928 Points: 663 # Comments: 150",
       "publishedAt": "2026-06-18T11:45:43.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -158,7 +208,7 @@
       "id": "hacker-news:https://spectrum.ieee.org/modos-e-paper-monitor",
       "title": "Modos Color Monitor Pushes E-Paper Displays Further",
       "url": "https://spectrum.ieee.org/modos-e-paper-monitor",
-      "summary": "Article URL: https://spectrum.ieee.org/modos-e-paper-monitor Comments URL: https://news.ycombinator.com/item?id=48583897 Points: 209 # Comments: 58",
+      "summary": "Article URL: https://spectrum.ieee.org/modos-e-paper-monitor Comments URL: https://news.ycombinator.com/item?id=48583897 Points: 227 # Comments: 66",
       "publishedAt": "2026-06-18T11:41:21.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -253,56 +303,6 @@
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/is-it-agentic-enough",
-      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "url": "https://huggingface.co/blog/is-it-agentic-enough",
-      "summary": "",
-      "publishedAt": "2026-06-18T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-announces-public-private-partnership-to-advance-mars-science",
-      "title": "NASA Announces Public-Private Partnership to Advance Mars Science",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-public-private-partnership-to-advance-mars-science",
-      "summary": "NASA Wednesday announced a new public‑private partnership to advance Mars science by combining the agency’s scientific leadership with commercial innovation. Under this model, NASA will provide the Aeolus atmospheric‑science instrument payload suite, while Relativity Space supplies the spacecraft, rocket, and cruise operations necessary to deliver the instruments to Mars. This partnership reflects NASA’s growing commitment [&#8230;]",
-      "publishedAt": "2026-06-17T22:29:09.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/06/second-carcass-eating-fly-species-cleared-by-fda-for-maggot-wound-therapy",
-      "title": "Second carcass-eating fly species cleared by FDA for maggot wound therapy",
-      "url": "https://arstechnica.com/health/2026/06/second-carcass-eating-fly-species-cleared-by-fda-for-maggot-wound-therapy",
-      "summary": "Maggot therapy lacks robust data, but it has fans and a fail-safe \"bacon therapy.\"",
-      "publishedAt": "2026-06-17T22:11:20.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/06/amazon-quera-promise-useful-quantum-error-correction-by-2028",
-      "title": "Sooner than expected? Useful quantum error correction promised for 2028.",
-      "url": "https://arstechnica.com/science/2026/06/amazon-quera-promise-useful-quantum-error-correction-by-2028",
-      "summary": "Elsewhere, beyond-classical quantum hardware, plus classical computing fires back.",
-      "publishedAt": "2026-06-17T20:44:32.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/california-says-att-lied-to-fcc-in-attempt-to-shut-off-old-phone-network",
-      "title": "California says AT&T lied to FCC in attempt to shut off old phone network",
-      "url": "https://arstechnica.com/tech-policy/2026/06/california-says-att-lied-to-fcc-in-attempt-to-shut-off-old-phone-network",
-      "summary": "FCC considers AT&#038;T petitions to preempt state rules and discontinue phone service.",
-      "publishedAt": "2026-06-17T20:07:40.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

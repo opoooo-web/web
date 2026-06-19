@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges",
+      "title": "Geoengineering still faces major practical challenges",
+      "url": "https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges",
+      "summary": "Solar geoengineering is often portrayed as a sort of emergency brake. Something along the lines of Pull in case of climate emergency to scatter light-reflecting particles to bounce sunlight out of the atmosphere and cool the planet. But it might be less like a simple brake and more like a complicated, entirely unsolved puzzle. Some&#8230;",
+      "publishedAt": "2026-06-18T10:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open",
+      "title": "The search for dark matter has been blown wide open",
+      "url": "https://www.technologyreview.com/2026/06/18/1138755/search-for-dark-matter-blown-wide-open",
+      "summary": "Underneath an Apennine massif, below the Jinping Mountains of Sichuan, and at the bottom of a South Dakota mine, there is a cosmic hunt afoot. Isolated deep beneath these rocky shields, massive detectors filled with liquid xenon aim to make the first direct detections of dark matter, the long-sought invisible substance whose gravity has sculpted&#8230;",
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
       "id": "openai-news:https://openai.com/index/diagnose-rare-childhood-diseases",
       "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
       "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
@@ -125,6 +145,16 @@
       "category": "Infrastructure"
     },
     {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=48574082",
+      "title": "Ask HN: How do you separate intentional test boilerplate from real duplication?",
+      "url": "https://news.ycombinator.com/item?id=48574082",
+      "summary": "I am maintaining an open-source project (deterministic open source duplicate-code detector) and a user asked for a feature which I don’t have a clear answer on how to implement. This seems a very hard problem to solve: -Tests repeat the same scenario. For a structural detector, this flags as repetition (duplication). However, tests are not something people want to delete from the codebases. -The repetitions from tests (on purpose) end up looking like undesired code duplication and the tools canno tell which is which. -One way to solve this would be something like a human in the loop (kind of how linters allow user to accept something once, while keeping the default first run zero-config). Wonder how you have seen this handle and if anyone have any ideas. Here is the the repo: https://github.com/Rafaelpta/dupehound And here is the issue with more detail: https://github.com/Rafaelpta/dupehound/issues/23 Comments URL: https://news.ycombinator.com/item?id=48574082 Points: 5 # Comments: 2",
+      "publishedAt": "2026-06-17T17:54:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",
       "title": "Trellis AI (YC W24) hiring a product lead to build agents for healthcare access",
       "url": "https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",
@@ -215,16 +245,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "hacker-news:https://arun.is/blog/jr-logo",
-      "title": "How Japan's railways stayed one while splitting apart",
-      "url": "https://arun.is/blog/jr-logo",
-      "summary": "Article URL: https://arun.is/blog/jr-logo/ Comments URL: https://news.ycombinator.com/item?id=48570730 Points: 165 # Comments: 130",
-      "publishedAt": "2026-06-17T14:03:58.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-one-stack",
       "title": "Introducing the Cloudflare One stack: agent-powered deployment",
       "url": "https://blog.cloudflare.com/cloudflare-one-stack",
@@ -283,26 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check",
-      "title": "Hacking the atmosphere: Geoengineering gets a reality check",
-      "url": "https://www.technologyreview.com/2026/06/17/1138743/hacking-atmosphere-geoengineering-reality-check",
-      "summary": "Jim Franke pulls away the cover page of a presentation on the wraparound desk in his office, revealing an illustration of an odd-­looking aircraft with massive wings stretching out from a stubby fuselage. The uncrewed plane is soaring thousands of meters higher than commercial jets fly—so high you can see the curvature of the Earth.&#8230;",
-      "publishedAt": "2026-06-17T09:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/introducing-life-sci-bench",
-      "title": "Introducing LifeSciBench",
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "publishedAt": "2026-06-17T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
     }
   ]
 }

@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "title": "Improving health intelligence in ChatGPT",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "publishedAt": "2026-06-18T11:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges",
       "title": "Geoengineering still faces major practical challenges",
       "url": "https://www.technologyreview.com/2026/06/18/1139227/geoengineering-engineering-challenges",
@@ -143,16 +153,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "hacker-news:https://news.ycombinator.com/item?id=48574082",
-      "title": "Ask HN: How do you separate intentional test boilerplate from real duplication?",
-      "url": "https://news.ycombinator.com/item?id=48574082",
-      "summary": "I am maintaining an open-source project (deterministic open source duplicate-code detector) and a user asked for a feature which I don’t have a clear answer on how to implement. This seems a very hard problem to solve: -Tests repeat the same scenario. For a structural detector, this flags as repetition (duplication). However, tests are not something people want to delete from the codebases. -The repetitions from tests (on purpose) end up looking like undesired code duplication and the tools canno tell which is which. -One way to solve this would be something like a human in the loop (kind of how linters allow user to accept something once, while keeping the default first run zero-config). Wonder how you have seen this handle and if anyone have any ideas. Here is the the repo: https://github.com/Rafaelpta/dupehound And here is the issue with more detail: https://github.com/Rafaelpta/dupehound/issues/23 Comments URL: https://news.ycombinator.com/item?id=48574082 Points: 5 # Comments: 2",
-      "publishedAt": "2026-06-17T17:54:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "hacker-news:https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",

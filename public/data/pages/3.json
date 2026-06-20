@@ -5,26 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "techcrunch:https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
-      "title": "Snap spins off AI video team into new company, Dotmo, due to costs",
-      "url": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
-      "summary": "The Snapchat maker is spinning off yet another internal unit. Dotmo will be composed of current Snap staff who are leaving the social media company to focus on AI video development.",
-      "publishedAt": "2026-06-18T20:30:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition",
-      "title": "NASA Awards Contract for Commercial Satellite Data Acquisition",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition",
-      "summary": "NASA has selected eight new companies and will acquire new data products from six existing Commercial Satellite Data Acquisition contract holders to expand the range of commercial satellite data available to researchers, civil agencies, and decision-makers. Such measurements supplement NASA’s Earth satellites by contributing high-resolution and frequent observations to enhance the agency’s set of data. [&#8230;]",
-      "publishedAt": "2026-06-18T20:13:41.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/ferc-large-load-interconnection",
       "title": "How FERC’s Large-Load Interconnection Actions Help Address Grid Stress, Improve Affordability",
       "url": "https://blogs.nvidia.com/blog/ferc-large-load-interconnection",
@@ -255,6 +235,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://dfdxlabs.com/research/2026/robotics-setup",
+      "title": "Building a robotics research setup that lives next to my desk",
+      "url": "https://dfdxlabs.com/research/2026/robotics-setup",
+      "summary": "Quick framing, since the post is long: I did robotic manipulation research at OpenAI from 2017–2020, and the tabletop setup back then cost roughly 10x this one and took a team to run. This project is me testing whether a single person can now do meaningful work on the same class of problems: starting with physical and software setup. A few decisions I'm least settled on, and would love some pushback/feedback on: - single arm vs. bimanual (I went single for cost/space, knowing it rules out things like folding cloth) - not calibrating camera extrinsics/intrinsics for now - RGB vs. RGB-D for from-scratch policies (ACT / Diffusion Policy) And one I'm more confident about but expect disagreement on: not building on ROS 2 / LeRobot, and writing my own stack instead. Happy to get into the reasoning. Comments URL: https://news.ycombinator.com/item?id=48586329 Points: 149 # Comments: 52",
+      "publishedAt": "2026-06-18T14:51:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die",
       "title": "The first long-duration resident of the ISS, a cosmonaut, has died",
       "url": "https://arstechnica.com/space/2026/06/cosmonaut-aleksandr-samokutyaev-56-is-first-former-iss-crew-member-to-die",
@@ -302,6 +292,16 @@
       "publishedAt": "2026-06-18T12:10:00.000Z",
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/hubble-glimpses-merging-galaxy-clusters",
+      "title": "Hubble Glimpses Merging Galaxy Clusters",
+      "url": "https://science.nasa.gov/missions/hubble/hubble-glimpses-merging-galaxy-clusters",
+      "summary": "This NASA Hubble Space Telescope image features a galaxy cluster, called CL0016+1609 or MACS J0018.5+1626, that is very bright at X-ray wavelengths and is one of the most extensively studied clusters at X-ray and radio wavelengths. The X-ray observations of this cluster revealed that it is two clusters merging along our line of sight. Researchers […]",
+      "publishedAt": "2026-06-18T11:36:55.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
       "category": "Science"
     }
   ]

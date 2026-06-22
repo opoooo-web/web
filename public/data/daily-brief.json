@@ -1,28 +1,60 @@
 {
-  "generatedAt": "2026-06-21T21:44:05.851Z",
+  "generatedAt": "2026-06-22T12:27:42.744Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech landscape is rapidly evolving with significant advancements in AI, from practical features in mobile operating systems to breakthroughs in LLM performance and health intelligence. This progress is backed by robust infrastructure development, as well as new tools for AI agents and enhanced cybersecurity measures.",
+  "narrative": "Recent advancements highlight significant progress in AI, particularly in cooling infrastructure and enterprise integration, alongside new developer tools and scientific breakthroughs in computing and subsea engineering. Technological innovations continue to reshape everyday devices and infrastructure.",
   "highlights": [
     {
-      "title": "NSA chief says Mythos breached 'almost all' classified systems in hours",
-      "whyItMatters": "This event highlights the growing impact of advanced AI capabilities on national security and cybersecurity.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://bankwatch.ca/2026/06/21/nsa-chief-says-mythos-breached-almost-all-classified-systems-in-hours",
-      "category": "Developer",
-      "publishedAt": "2026-06-21T21:15:56.000Z"
+      "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
+      "whyItMatters": "This innovation allows AI data centers to operate more energy-efficiently by running cooling liquids at higher temperatures.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories",
+      "category": "AI",
+      "publishedAt": "2026-06-22T05:00:22.000Z"
     },
     {
-      "title": "The Anatomy of an AI-Native Org",
-      "whyItMatters": "Understanding how organizations are structured around AI is crucial for future business models.",
+      "title": "Read this before you vibe-code another app",
+      "whyItMatters": "Highlights potential security risks in rapidly developed applications, emphasizing the need for secure coding practices.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+      "category": "Technology",
+      "publishedAt": "2026-06-22T11:00:00.000Z"
+    },
+    {
+      "title": "The Download: record-breaking subsea tunnels and flexible data centers",
+      "whyItMatters": "Covers advancements in infrastructure with new subsea tunnels and flexible data center designs for technological growth.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers",
+      "category": "Science",
+      "publishedAt": "2026-06-22T12:10:00.000Z"
+    },
+    {
+      "title": "Codex logging bug may write TBs to local SSDs",
+      "whyItMatters": "A critical bug in Codex highlights the importance of robust error handling and storage management in developer tools.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://ajeygore.in/content/the-anatomy-of-an-ai-native-org",
+      "sourceUrl": "https://github.com/openai/codex/issues/28224",
       "category": "Developer",
-      "publishedAt": "2026-06-21T21:34:19.000Z"
+      "publishedAt": "2026-06-22T07:30:17.000Z"
+    },
+    {
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "whyItMatters": "Cloudflare introduces temporary accounts, streamlining deployment for AI agents and accelerating development workflows.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/temporary-accounts",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-19T13:00:00.000Z"
+    },
+    {
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "whyItMatters": "Demonstrates significant enterprise adoption of AI, with Samsung integrating ChatGPT and Codex for global employee use.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "category": "AI",
+      "publishedAt": "2026-06-21T23:00:00.000Z"
     },
     {
       "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
-      "whyItMatters": "This showcases the integration of practical AI features into mainstream mobile operating systems.",
+      "whyItMatters": "Details user-centric AI enhancements in the upcoming iOS, showcasing AI's integration into everyday mobile technology.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27",
       "category": "Technology",
@@ -30,70 +62,38 @@
     },
     {
       "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-      "whyItMatters": "A potential breakthrough in overcoming a long-standing limitation for large language models could accelerate AI development.",
+      "whyItMatters": "A potential breakthrough in LLM architecture could significantly advance AI capabilities by addressing long-standing computational limits.",
       "sourceName": "MIT Technology Review",
       "sourceUrl": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms",
       "category": "Science",
       "publishedAt": "2026-06-19T10:40:24.000Z"
-    },
-    {
-      "title": "NVIDIA Blackwell Leads on First Agentic AI Infrastructure Benchmark",
-      "whyItMatters": "This demonstrates NVIDIA's leadership in high-performance infrastructure optimized for AI agents.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis",
-      "category": "AI",
-      "publishedAt": "2026-06-12T21:00:08.000Z"
-    },
-    {
-      "title": "Temporary Cloudflare Accounts for AI agents",
-      "whyItMatters": "New tools from Cloudflare streamline the deployment and management of AI agents, enhancing infrastructure.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/temporary-accounts",
-      "category": "Infrastructure",
-      "publishedAt": "2026-06-19T13:00:00.000Z"
-    },
-    {
-      "title": "Improving health intelligence in ChatGPT",
-      "whyItMatters": "AI models like ChatGPT are making significant strides in providing more accurate and reliable health information.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "category": "AI",
-      "publishedAt": "2026-06-18T11:00:00.000Z"
-    },
-    {
-      "title": "How we built an internal data analytics agent",
-      "whyItatters": "This shows practical application of AI agents for internal data analytics, improving operational efficiency.",
-      "sourceName": "GitHub Blog",
-      "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent",
-      "category": "Developer",
-      "publishedAt": "2026-06-19T16:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI & Machine Learning",
-      "summary": "Advances in large language models, AI agent infrastructure, and health intelligence are rapidly expanding AI capabilities and applications.",
-      "itemCount": 10
+      "name": "Artificial Intelligence Advancements",
+      "summary": "Innovations in AI cooling, widespread enterprise integration, and breakthroughs in LLM architecture are driving significant progress in artificial intelligence.",
+      "itemCount": 20
     },
     {
-      "name": "Developer Ecosystem",
-      "summary": "New tools and practices are emerging to support AI-native development and enhance cybersecurity within developer workflows.",
-      "itemCount": 7
+      "name": "Emerging Technology & Security",
+      "summary": "New technologies, from advanced mobile features to robotaxis, are emerging, alongside critical discussions on security risks in app development.",
+      "itemCount": 23
     },
     {
-      "name": "Infrastructure & Cloud",
-      "summary": "Cloud providers and specialized platforms are offering new solutions for AI agent deployment, scaling, and security.",
-      "itemCount": 6
+      "name": "Scientific & Space Exploration",
+      "summary": "Groundbreaking discoveries in subsea engineering, advancements in dark matter research, and expanding brain-computer interface trials highlight scientific exploration.",
+      "itemCount": 9
     },
     {
-      "name": "Technology & Innovation",
-      "summary": "From mobile OS enhancements to space exploration, technology continues to evolve with significant innovations impacting various sectors.",
-      "itemCount": 8
+      "name": "Developer Tools & Practices",
+      "summary": "New developer tools and updates are improving coding workflows and addressing critical issues like logging bugs and identity verification.",
+      "itemCount": 14
     },
     {
-      "name": "Science & Research",
-      "summary": "Breakthroughs in understanding fundamental physics and applying AI to scientific problems are driving new discoveries.",
-      "itemCount": 3
+      "name": "Cloud & Infrastructure",
+      "summary": "Key developments in cloud infrastructure are enhancing AI agent deployment, security scanning, and overall network resilience.",
+      "itemCount": 11
     }
   ],
   "notes": []

@@ -5,10 +5,80 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+      "title": "AI's Affordability Crisis",
+      "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
+      "summary": "Article URL: https://blog.dshr.org/2026/06/ais-affordability-crisis.html Comments URL: https://news.ycombinator.com/item?id=48646276 Points: 231 # Comments: 293",
+      "publishedAt": "2026-06-23T15:11:17.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/23/halobraid-raises-7m-from-seven-seven-six-to-end-the-six-hour-hair-salon-appointment",
+      "title": "HaloBraid raises $7M from Seven Seven Six to end the six-hour hair salon appointment",
+      "url": "https://techcrunch.com/2026/06/23/halobraid-raises-7m-from-seven-seven-six-to-end-the-six-hour-hair-salon-appointment",
+      "summary": "HaloBraid aims to help salons speed up braiding with its first device, slated to launch later this year, that acts as a braiding assistant for professional stylists.",
+      "publishedAt": "2026-06-23T15:09:38.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/aeronautics/armd-solicitations",
+      "title": "ARMD Research Solicitations (Updated June 23)",
+      "url": "https://www.nasa.gov/aeronautics/armd-solicitations",
+      "summary": "THIS PAGE WAS UPDATED ON JUNE 23, 2026 This Aeronautics Research Mission Directorate (ARMD) solicitations page compiles the opportunities to collaborate with NASA’s aeronautical innovators and/or contribute to their research to enable new and improved air transportation systems. Most opportunities to participate in research are officially announced through the Web-based NASA Solicitation and Proposal Integrated [&#8230;]",
+      "publishedAt": "2026-06-23T15:00:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://lift4d.github.io",
+      "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+      "url": "https://lift4d.github.io",
+      "summary": "Article URL: https://lift4d.github.io/ Comments URL: https://news.ycombinator.com/item?id=48645721 Points: 103 # Comments: 11",
+      "publishedAt": "2026-06-23T14:40:17.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson",
+      "title": "I Am Artemis: Jason Peterson",
+      "url": "https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson",
+      "summary": "Jason Peterson’s responsibilities for NASA’s Artemis II mission went beyond his usual role as the range operations manager at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Peterson credits his military experience with preparing him for the 12-to-16-hour workdays that helped bring the Artemis II test flight around the Moon and into view for audiences around the world.",
+      "publishedAt": "2026-06-23T14:27:29.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://tikz.dev/editor",
+      "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+      "url": "https://tikz.dev/editor",
+      "summary": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach. I built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works. The way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation). This approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.) Implementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers. Comments URL: https://news.ycombinator.com/item?id=48645437 Points: 300 # Comments: 59",
+      "publishedAt": "2026-06-23T14:24:21.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand",
+      "title": "Meta debuts new, cheaper smart glasses under its own brand",
+      "url": "https://techcrunch.com/2026/06/23/meta-debuts-new-cheaper-smart-glasses-under-its-own-brand",
+      "summary": "The smart glasses are available in several countries starting today in a variety of color and lens combinations.",
+      "publishedAt": "2026-06-23T14:11:23.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "hacker-news:https://mistral.ai/news/ocr-4",
       "title": "Mistral OCR 4",
       "url": "https://mistral.ai/news/ocr-4",
-      "summary": "Article URL: https://mistral.ai/news/ocr-4/ Comments URL: https://news.ycombinator.com/item?id=48645152 Points: 394 # Comments: 105",
+      "summary": "Article URL: https://mistral.ai/news/ocr-4/ Comments URL: https://news.ycombinator.com/item?id=48645152 Points: 419 # Comments: 110",
       "publishedAt": "2026-06-23T14:03:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -75,16 +145,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition",
-      "title": "MSG Made Dossier on Activists Who Opposed Facial Recognition",
-      "url": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition",
-      "summary": "Article URL: https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/ Comments URL: https://news.ycombinator.com/item?id=48644781 Points: 274 # Comments: 76",
-      "publishedAt": "2026-06-23T13:36:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents",
       "title": "How Businesses Are Building Specialized AI They Can Trust",
       "url": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents",
@@ -135,26 +195,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
-      "title": "The Low-Tech AI of Elden Ring",
-      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
-      "summary": "Article URL: https://nega.tv/posts/low-tech-ai-of-elden-ring.html Comments URL: https://news.ycombinator.com/item?id=48643489 Points: 81 # Comments: 48",
-      "publishedAt": "2026-06-23T11:40:50.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/baidu/Unlimited-OCR",
-      "title": "Unlimited OCR: One-shot long-horizon parsing",
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "summary": "Article URL: https://github.com/baidu/Unlimited-OCR Comments URL: https://news.ycombinator.com/item?id=48643426 Points: 408 # Comments: 95",
-      "publishedAt": "2026-06-23T11:35:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026",
       "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
       "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026",
@@ -183,16 +223,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/rising-waters-swamp-lake-naivasha",
-      "title": "Rising Waters Swamp Lake Naivasha",
-      "url": "https://science.nasa.gov/earth/earth-observatory/rising-waters-swamp-lake-naivasha",
-      "summary": "Relentless rains are threatening a lake in Kenya’s Great Rift Valley that has become a key hub in the global flower trade.",
-      "publishedAt": "2026-06-23T04:01:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
@@ -273,36 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers",
-      "title": "GM installs robots at flagship EV factory after laying off 1,300 workers",
-      "url": "https://arstechnica.com/ai/2026/06/gm-installs-robots-at-flagship-ev-factory-after-laying-off-1300-workers",
-      "summary": "US autoworkers union warns of robot automation as dark factory future looms.",
-      "publishedAt": "2026-06-22T21:52:39.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/06/report-kennedy-space-center-not-ready-for-era-of-super-heavy-rockets",
-      "title": "Report: Kennedy Space Center not ready for era of super heavy rockets",
-      "url": "https://arstechnica.com/space/2026/06/report-kennedy-space-center-not-ready-for-era-of-super-heavy-rockets",
-      "summary": "SpaceX has told NASA it plans to launch Starship every eight days from Kennedy.",
-      "publishedAt": "2026-06-22T21:28:19.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/06/man-used-massage-gun-on-his-tired-eyeballs-it-went-as-well-as-youd-expect",
-      "title": "Man used massage gun on his tired eyeballs. It went as well as you'd expect.",
-      "url": "https://arstechnica.com/health/2026/06/man-used-massage-gun-on-his-tired-eyeballs-it-went-as-well-as-youd-expect",
-      "summary": "He had retinal tears and bruises from squishing his eyeballs with the gun.",
-      "publishedAt": "2026-06-22T21:02:08.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

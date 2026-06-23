@@ -1,81 +1,99 @@
 {
-  "generatedAt": "2026-06-22T17:54:28.172Z",
+  "generatedAt": "2026-06-23T13:47:42.346Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology sector is buzzing with developments across AI, infrastructure, and space. Key highlights include Amazon's expansion of Alexa into new markets, Google's investment in AI for filmmaking, and significant advancements in space exploration by NASA and SpaceX.",
+  "narrative": "The technology landscape is increasingly shaped by advancements in AI, with NVIDIA and OpenAI driving innovations in agentic AI for enterprise and open-source communities. Infrastructure providers are adapting with new cloud services and security measures to support these demands, while scientific research leverages AI for breakthroughs in chipmaking and environmental monitoring.",
   "highlights": [
     {
-      "title": "Amazon is testing Alexa+ in India with Hindi support",
-      "whyItMatters": "Amazon is expanding its voice assistant services with local language support, indicating a push into new markets.",
+      "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+      "whyItMatters": "This highlights NVIDIA's significant influence in high-performance computing, critical for advanced AI and scientific research globally.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026",
+      "category": "AI",
+      "publishedAt": "2026-06-23T09:00:38.000Z"
+    },
+    {
+      "title": "How Businesses Are Building Specialized AI They Can Trust",
+      "whyItMatters": "This focuses on the growing trend of reliable, specialized AI solutions tailored for enterprise workflows, essential for widespread AI adoption in business.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-agent-toolkit-open-models-tools-skills-secure-runtime-ai-agents",
+      "category": "AI",
+      "publishedAt": "2026-06-23T13:00:07.000Z"
+    },
+    {
+      "title": "OpenAI launches new initiative to help find and patch open source bugs",
+      "whyItMatters": "This initiative uses AI to enhance cybersecurity and maintain the health of open-source projects, a fundamental component of the tech industry.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support",
+      "sourceUrl": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs",
       "category": "Technology",
-      "publishedAt": "2026-06-22T17:31:29.000Z"
+      "publishedAt": "2026-06-23T00:11:31.000Z"
     },
     {
-      "title": "From pledge to practice: Building a more inclusive open source ecosystem",
-      "whyItMatters": "GitHub's initiative highlights ongoing efforts to improve accessibility and inclusivity in open-source development.",
-      "sourceName": "GitHub Blog",
-      "sourceUrl": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem",
-      "category": "Developer",
-      "publishedAt": "2026-06-22T17:20:31.000Z"
+      "title": "AWS Lambda introduces MicroVMs for isolated sandboxes with full lifecycle control",
+      "whyItMatters": "This new serverless compute primitive from AWS significantly enhances security and flexibility for cloud applications through VM-level isolation.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-22T22:40:07.000Z"
     },
     {
-      "title": "Google invests in A24 to build AI movie tools",
-      "whyItMatters": "Google's DeepMind is collaborating with a film studio to integrate AI into movie production, potentially transforming filmmaking.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership",
-      "category": "Technology",
-      "publishedAt": "2026-06-22T17:18:13.000Z"
-    },
-    {
-      "title": "Doorbell cam filmed Tesla Autopilot crash that killed woman in her home",
-      "whyItMatters": "This incident raises critical safety concerns about autonomous driving technologies and their real-world implications.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/woman-killed-when-tesla-driver-using-autopilot-crashed-into-her-home",
-      "category": "Technology",
-      "publishedAt": "2026-06-22T17:10:52.000Z"
-    },
-    {
-      "title": "Valve is working with AMD to bring FSR 4 to the Steam Machine",
-      "whyItMatters": "Collaboration between Valve and AMD aims to enhance gaming performance on the Steam Machine with advanced upscaling technology.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/games/952210/valve-steam-machine-fsr4-amd-upscaler",
-      "category": "Technology",
-      "publishedAt": "2026-06-22T17:10:00.000Z"
-    },
-    {
-      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
-      "whyItMatters": "SpaceX is providing significant computing resources to an open-source AI lab, fueling advancements in AI research.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab",
-      "category": "Technology",
-      "publishedAt": "2026-06-22T16:51:29.000Z"
-    },
-    {
-      "title": "NASA to Cover US Spacewalk 95, Host Preview News Conference",
-      "whyItMatters": "NASA is preparing for a critical spacewalk to maintain the International Space Station, showcasing ongoing human space exploration efforts.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-cover-us-spacewalk-95-host-preview-news-conference",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "whyItMatters": "This highlights the monumental investment and technological complexity required for producing advanced semiconductors, which are vital for all modern electronics and AI.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking",
       "category": "Science",
-      "publishedAt": "2026-06-22T16:45:24.000Z"
+      "publishedAt": "2026-06-23T09:00:00.000Z"
+    },
+    {
+      "title": "Valve confirms it’s working with Intel and Nvidia on SteamOS for more GPUs",
+      "whyItMatters": "This collaboration could greatly expand Linux-based gaming and offer more open hardware options for handheld gaming PCs, challenging current market leaders.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/games/952634/valve-intel-nvidia-steamos-gpus-linux",
+      "category": "Technology",
+      "publishedAt": "2026-06-23T13:00:00.000Z"
+    },
+    {
+      "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+      "whyItMatters": "This substantial investment in gas-powered data centers raises concerns about the environmental impact of expanding AI infrastructure, despite efficiency claims.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us",
+      "category": "Technology",
+      "publishedAt": "2026-06-22T20:37:19.000Z"
+    },
+    {
+      "title": "Elephant alert! AI warning systems aim to avoid deadly clashes in India",
+      "whyItMatters": "This demonstrates AI's practical application in wildlife conservation, providing a critical solution to mitigate human-wildlife conflict and protect endangered species.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/23/1138562/elephant-alert-ai-warning-systems-avoid-deadly-clashes-india",
+      "category": "Science",
+      "publishedAt": "2026-06-23T09:00:00.000Z"
     }
   ],
   "topics": [
     {
+      "name": "AI",
+      "summary": "The field of Artificial Intelligence continues its rapid expansion, with a strong focus on agentic systems, enterprise adoption, and ethical considerations.",
+      "itemCount": 27
+    },
+    {
       "name": "Technology",
-      "summary": "Innovations in AI, autonomous systems, and hardware continue to drive the technology sector forward.",
-      "itemCount": 5
+      "summary": "Innovations in consumer electronics, gaming hardware, and digital services are creating new user experiences and market dynamics.",
+      "itemCount": 20
     },
     {
       "name": "Developer",
-      "summary": "Efforts are underway to foster a more inclusive open-source ecosystem, alongside new tools for agent-based development.",
-      "itemCount": 1
+      "summary": "The developer community is seeing new tools and platforms emerge, alongside discussions on open-source contributions and the impact of AI on coding workflows.",
+      "itemCount": 16
+    },
+    {
+      "name": "Infrastructure",
+      "summary": "Cloud computing, data centers, and network security are evolving to support the increasing demands of AI and global digital services.",
+      "itemCount": 14
     },
     {
       "name": "Science",
-      "summary": "Significant progress in space exploration and astronomical observations continues to expand our understanding of the universe.",
-      "itemCount": 1
+      "summary": "Scientific research, from space exploration to environmental monitoring and medical advancements, benefits from technological innovations and AI applications.",
+      "itemCount": 13
     }
   ],
   "notes": []

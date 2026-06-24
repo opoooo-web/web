@@ -5,14 +5,54 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
-      "title": "AI's Affordability Crisis",
-      "url": "https://blog.dshr.org/2026/06/ais-affordability-crisis.html",
-      "summary": "Article URL: https://blog.dshr.org/2026/06/ais-affordability-crisis.html Comments URL: https://news.ycombinator.com/item?id=48646276 Points: 231 # Comments: 293",
-      "publishedAt": "2026-06-23T15:11:17.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
+      "id": "github-blog:https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+      "title": "I automated my job (and it made me a better leader)",
+      "url": "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader",
+      "summary": "Explore how my day as a senior leader looks now that I use 40 automations to help, and learn more about some of my favorites. The post I automated my job (and it made me a better leader) appeared first on The GitHub Blog .",
+      "publishedAt": "2026-06-23T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
       "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/armstrong/this-is-how-nasa-flight-tests-new-technology",
+      "title": "This is How NASA Flight Tests New Technology",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/this-is-how-nasa-flight-tests-new-technology",
+      "summary": "Flight tests are a big part of how NASA turns breakthrough ideas into reality. From flying humans faster than the speed of sound to proving designs that helped shape the space shuttle, flight testing transforms bold concepts into safer, more efficient technologies that benefit the public. “Flight tests are a way to safely and effectively [&#8230;]",
+      "publishedAt": "2026-06-23T16:00:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "github-blog:https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source",
+      "summary": "We’re calling for targeted amendments to resolve conflicts with open source licensing and align with international transparency frameworks while preserving regulatory intent. The post GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source appeared first on The GitHub Blog .",
+      "publishedAt": "2026-06-23T15:48:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/hanging-in-the-balance",
+      "title": "Hanging in the Balance",
+      "url": "https://www.nasa.gov/image-article/hanging-in-the-balance",
+      "summary": "The Moon appears half-illuminated in this photo captured by the Artemis II crew on flight day 6. The terminator – the difference between light and darkness – provides a stark contrast and even greater perspective of the Moon&#8217;s rocky, uneven, and otherworldly surface features. The near side, which is what we can see from Earth, [&#8230;]",
+      "publishedAt": "2026-06-23T15:43:54.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach",
+      "title": "Password manager maker LastPass says hackers stole customer support case data during Klue breach",
+      "url": "https://techcrunch.com/2026/06/23/password-manager-maker-lastpass-says-hackers-stole-customer-support-case-data-during-klue-breach",
+      "summary": "This is the second data breach to affect LastPass customers in recent years, after one of the password manager's tech partners was recently breached.",
+      "publishedAt": "2026-06-23T15:12:37.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/23/halobraid-raises-7m-from-seven-seven-six-to-end-the-six-hour-hair-salon-appointment",
@@ -35,16 +75,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://lift4d.github.io",
-      "title": "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
-      "url": "https://lift4d.github.io",
-      "summary": "Article URL: https://lift4d.github.io/ Comments URL: https://news.ycombinator.com/item?id=48645721 Points: 103 # Comments: 11",
-      "publishedAt": "2026-06-23T14:40:17.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nasa-breaking-news:https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson",
       "title": "I Am Artemis: Jason Peterson",
       "url": "https://www.nasa.gov/humans-in-space/i-am-artemis-jason-peterson",
@@ -58,7 +88,7 @@
       "id": "hacker-news:https://tikz.dev/editor",
       "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
       "url": "https://tikz.dev/editor",
-      "summary": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach. I built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works. The way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation). This approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.) Implementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers. Comments URL: https://news.ycombinator.com/item?id=48645437 Points: 300 # Comments: 59",
+      "summary": "Hi all! TikZ is a widely-used LaTeX package for drawing figures in papers. It uses commands like \\draw[->] (0,0) -- (1,2); to draw lines, shapes, text, etc. Academics usually code up their figures by hand, so there is lots of twiddling around with the coordinates and recompiling until things look nice. I guess it’s a bit like SVG, but it’s more code than markup, for example it has loops with \\foreach. I built an open-source WYSIWYG TikZ editor (available for web and desktop) that allows you to edit your TikZ source code visually by dragging and resizing elements. It simultaneously shows the source code and the rendered figure, and lets you edit either one while the two views stay in sync. I’m not aware of any other editors that are simultaneously source editors and WYSIWYG (even for editing SVG or HTML), and I’m quite pleased with how well the combination works. The way the app is implemented is by parsing the TikZ code, and at all times keeping track of the exact source location of each object. Thereby, when a user drags an element to a new position, the app can override just the numbers in the coordinate without changing anything else in the code (such as line breaks or indentation). This approach essentially required reimplementing a large fraction of TikZ, which is the kind of task that no human would ever want to do. I think building software that doesn’t exist yet because it would be impossibly tedious to code up is one of the great new possibilities thanks to coding agents, and it’s worth brainstorming for other examples. (This app was built almost entirely by Codex.) Implementing the app came with lots of fun side quests, including building converters from SVG / pptx / ipe to TikZ, re-implementing the LaTeX hyphenation and line-breaking algorithm to support multi-line nodes, and making a color picker that uses the red!20!black color mixing notation used in LaTeX papers. Comments URL: https://news.ycombinator.com/item?id=48645437 Points: 352 # Comments: 66",
       "publishedAt": "2026-06-23T14:24:21.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -73,16 +103,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://mistral.ai/news/ocr-4",
-      "title": "Mistral OCR 4",
-      "url": "https://mistral.ai/news/ocr-4",
-      "summary": "Article URL: https://mistral.ai/news/ocr-4/ Comments URL: https://news.ycombinator.com/item?id=48645152 Points: 419 # Comments: 110",
-      "publishedAt": "2026-06-23T14:03:19.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/hubble-details-early-galaxy-transforming-neighborhood",
@@ -103,16 +123,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/webb/nasas-webb-pinpoints-millions-of-stars-within-cigar-galaxy",
-      "title": "NASA’s Webb Pinpoints Millions of Stars Within Cigar Galaxy",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-pinpoints-millions-of-stars-within-cigar-galaxy",
-      "summary": "Located 12 million light-years away and undergoing rapid star formation, edge-on spiral galaxy Messier 82 (M82) is a scientifically unique sight to behold, and now NASA’s James Webb Space Telescope has revealed previously unseen details. M82’s intense star formation, thought to be the result of a galaxy merger, will be a short-lived event in astronomical […]",
-      "publishedAt": "2026-06-23T14:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     },
     {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/everyone-pays-the-price-as-patent-holders-on-seeds-stifle-innovation",
@@ -195,10 +205,30 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "title": "The Low-Tech AI of Elden Ring",
+      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "summary": "Article URL: https://nega.tv/posts/low-tech-ai-of-elden-ring.html Comments URL: https://news.ycombinator.com/item?id=48643489 Points: 122 # Comments: 59",
+      "publishedAt": "2026-06-23T11:40:50.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://lucumr.pocoo.org/2026/6/23/the-coming-loop",
+      "title": "The Coming Loop",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop",
+      "summary": "Article URL: https://lucumr.pocoo.org/2026/6/23/the-coming-loop/ Comments URL: https://news.ycombinator.com/item?id=48643180 Points: 358 # Comments: 251",
+      "publishedAt": "2026-06-23T11:06:41.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026",
       "title": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
       "url": "https://blogs.nvidia.com/blog/top500-green500-supercomputers-isc-2026",
-      "summary": "News Highlights: NVIDIA technology runs 81% of the TOP500 and 90% of the systems new to the list. 26 systems on the TOP500 adopted the NVIDIA Grace CPU, up eight from the previous list. The top eight systems on the Green500 run on NVIDIA GPUs and nine of the top 10 use NVIDIA technologies. No. [&#8230;]",
+      "summary": "NVIDIA technologies power more than 400 of the world’s 500 fastest supercomputers — 81% of the TOP500 — according to the latest rankings released this week at the ISC High Performance conference in Hamburg, Germany.",
       "publishedAt": "2026-06-23T09:00:38.000Z",
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
@@ -273,36 +303,6 @@
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/22/tesla-pushes-back-on-autopilot-narrative-after-fatal-texas-crash",
-      "title": "Tesla pushes back on Autopilot narrative after fatal Texas crash",
-      "url": "https://techcrunch.com/2026/06/22/tesla-pushes-back-on-autopilot-narrative-after-fatal-texas-crash",
-      "summary": "Whether the Autopilot system was truly active, overridden, or malfunctioning likely won't be resolved until investigators finish combing through the vehicle's data logs.",
-      "publishedAt": "2026-06-22T22:59:57.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/22/shareholders-sue-ubers-board-over-sexual-assaults-other-incidents",
-      "title": "Shareholders sue Uber&#8217;s board over sexual assaults, other incidents",
-      "url": "https://techcrunch.com/2026/06/22/shareholders-sue-ubers-board-over-sexual-assaults-other-incidents",
-      "summary": "The lawsuit, led by a Detroit pension fund, alleges Uber's board and management has cut too many compliance corners, resulting in thousands of lawsuits.",
-      "publishedAt": "2026-06-22T22:43:12.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
-      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
-      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
-      "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructure to manage.",
-      "publishedAt": "2026-06-22T22:40:07.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

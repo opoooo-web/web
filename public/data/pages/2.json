@@ -5,24 +5,124 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://github.com/inkeep/open-knowledge",
-      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
-      "url": "https://github.com/inkeep/open-knowledge",
-      "summary": "Hi HN, Nick here. We’re launching OpenKnowledge ( https://openknowledge.ai/ ), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and Cursor. Available as MacOS app or CLI. Fully free/local and OSS ( https://github.com/inkeep/open-knowledge ). We built this because we wanted a “Google docs” like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true “what you see is what you get” UI and it didn’t integrate well with Claude/Codex outside of community plugins. So we built OpenKnowledge. It takes shape as: 1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer. 2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience. 3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing 4. An embedded terminal and CLI for TUI-first users OSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/trees On the architecture side, the interesting eng. challenges included: 1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity. 2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync. The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private. In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute. We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it. Comments URL: https://news.ycombinator.com/item?id=48675435 Points: 77 # Comments: 33",
-      "publishedAt": "2026-06-25T16:04:46.000Z",
+      "id": "the-verge:https://www.theverge.com/gadgets/957106/prime-day-ipad-deals-apple-price-hikes",
+      "title": "You won&#8217;t have long to get these iPad deals before Apple&#8217;s price hike",
+      "url": "https://www.theverge.com/gadgets/957106/prime-day-ipad-deals-apple-price-hikes",
+      "summary": "Apple just raised prices across its iPad and MacBook lineup. The good news is that many retailers are still selling their inventory at the old prices or far less, which means you can still score some of the best iPad deals we may see in awhile — if ever again. So if you&#8217;ve been thinking [&#8230;]",
+      "publishedAt": "2026-06-25T18:04:13.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "title": "Anthropic says Alibaba must be punished for largest Claude cloning attack",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities",
+      "summary": "Alibaba allegedly used 25,000 accounts to mine Claude over 28.8 million exchanges.",
+      "publishedAt": "2026-06-25T18:01:48.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/06/planet-orbits-so-close-to-its-star-that-their-magnetic-fields-connect",
+      "title": "Planet orbits so close to its star that their magnetic fields connect",
+      "url": "https://arstechnica.com/science/2026/06/planet-orbits-so-close-to-its-star-that-their-magnetic-fields-connect",
+      "summary": "At the right point of the orbit and stellar cycle, the star's chromosphere brightens.",
+      "publishedAt": "2026-06-25T18:00:39.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most",
+      "title": "a16z-backed Base Power is offering cheaper electricity to the power grid that needs it most",
+      "url": "https://techcrunch.com/2026/06/25/a16z-backed-base-power-is-offering-cheaper-electricity-to-the-power-grid-that-needs-it-most",
+      "summary": "Base Power is skipping the PJM's troubled interconnection queue by placing its batteries at people's homes, offering backup services in exchange.",
+      "publishedAt": "2026-06-25T17:52:05.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
+      "title": "Anthropic&#8217;s Claude is winning over paid consumers, a market owned by ChatGPT",
+      "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt",
+      "summary": "Despite ChatGPT's commanding market lead, consumers who pay for AI have been increasingly choosing Anthropic's Claude, data shows.",
+      "publishedAt": "2026-06-25T17:38:27.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
+      "title": "Besimple AI (YC P25) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
+      "summary": "Article URL: https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data Comments URL: https://news.ycombinator.com/item?id=48676256 Points: 0 # Comments: 0",
+      "publishedAt": "2026-06-25T17:00:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "google-ai:https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-      "title": "Our latest Google Finance upgrades, including a new app",
-      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
-      "summary": "The new Google Finance is coming out of beta and launching a new Android app.",
-      "publishedAt": "2026-06-25T16:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
+      "id": "techcrunch:https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+      "title": "General Intuition&#8217;s $2.3B bet that video games can train AI agents for the real world",
+      "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+      "summary": "General Intuition has raised $320 million to scale AI trained on millions of hours of gameplay, betting action data can help AI develop something closer to human intuition.",
+      "publishedAt": "2026-06-25T16:55:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x",
+      "title": "Databricks’ former AI chief thinks he can cut AI’s power bill by 1,000x",
+      "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x",
+      "summary": "Un-0 is an image-generation system tool that shows for the first time how the company's technology can replicate conventional AI systems.",
+      "publishedAt": "2026-06-25T16:48:11.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/06/25/hacked-klue-says-criminals-are-deleting-stolen-customer-data-but-now-other-hackers-are-making-threats",
+      "title": "Hacked Klue says criminals are deleting stolen customer data, but now other hackers are making threats",
+      "url": "https://techcrunch.com/2026/06/25/hacked-klue-says-criminals-are-deleting-stolen-customer-data-but-now-other-hackers-are-making-threats",
+      "summary": "Market research company Klue told customers that it believes the hacking group that stole their data is now deleting it. The company, however, warned about a second group of hackers wanting ransom.",
+      "publishedAt": "2026-06-25T16:40:15.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/millions-of-stars-in-cigar-galaxy",
+      "title": "Millions of Stars in Cigar Galaxy",
+      "url": "https://www.nasa.gov/image-article/millions-of-stars-in-cigar-galaxy",
+      "summary": "NASA’s James Webb Space Telescope recently observed edge-on starburst galaxy Messier 82 (M82), nicknamed the Cigar Galaxy. Webb’s new view of M82, added to archival data from NASA&#8217;s Hubble Space Telescope, gives us a more complete picture of this starburst galaxy. Because Webb can see infrared light, it is able to peer through clouds of [&#8230;]",
+      "publishedAt": "2026-06-25T16:24:23.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "summary": "",
+      "publishedAt": "2026-06-25T16:11:42.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
       "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://github.com/inkeep/open-knowledge",
+      "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "summary": "Hi HN, Nick here. We’re launching OpenKnowledge ( https://openknowledge.ai/ ), a “what you see is what you get” markdown editor that has direct integrations with Claude, Codex, and Cursor. Available as MacOS app or CLI. Fully free/local and OSS ( https://github.com/inkeep/open-knowledge ). We built this because we wanted a “Google docs” like experience for writing and sharing markdown files across our team. Obsidian is the best alternative we tried, but found it doesn’t have a true “what you see is what you get” UI and it didn’t integrate well with Claude/Codex outside of community plugins. So we built OpenKnowledge. It takes shape as: 1. A MacOS app with a file navigator, the WYSIWYG editor, and link explorer. 2. Integrations with the Claude, Codex, and Cursor desktop apps. The agents can open an OpenKnowledge editor within their embedded web browsers for a side-by-side experience. 3. Built-in mcps, skills, and RAG for LLM-wiki and “AI Second Brain” scenarios + spec writing 4. An embedded terminal and CLI for TUI-first users OSS stack includes: Tiptap/prosemirror, CodeMirror, yjs (CRDT), Electron (MacOS app), Orama, remark/rehype/micromark/mdast, @pierre/trees On the architecture side, the interesting eng. challenges included: 1. A pipeline to convert ProseMirror to markdown in a bidirectional lossless way. ProseMirror uses ASTs, which are not designed to have byte-fidelity. 2. A dual-observer CRDT to keep the ProseMirror and markdown state in-sync. The CRDT + git also power a collaborative experience that shows what Agents are doing in the markdown, have undo/redo, and version history. The “Share” and cloud-sync functionality are geared for team collaboration. They feel “no-code” but leverage git/GitHub under the hood, which also means data stays fully private. In that spirit, we made OpenKnowledge open source for anybody who’s curious or who’d like to contribute. We’re actively thinking about plugins/extensibility and what’s next. If you have suggestions or feedback, would love to hear it. Comments URL: https://news.ycombinator.com/item?id=48675435 Points: 147 # Comments: 67",
+      "publishedAt": "2026-06-25T16:04:46.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/06/25/parker-conrad-knows-which-employees-are-worth-their-ai-spend-and-says-rippling-can-help-you-too",
@@ -45,20 +145,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates",
-      "title": "Windows 10 quietly gets one more year of support and updates",
-      "url": "https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates",
-      "summary": "Article URL: https://www.neowin.net/news/windows-10-quietly-gets-one-more-year-of-support-and-updates/ Comments URL: https://news.ycombinator.com/item?id=48675369 Points: 184 # Comments: 147",
-      "publishedAt": "2026-06-25T15:59:54.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://scrollprize.org/firstscroll",
       "title": "An entire Herculaneum scroll has been read for the first time",
       "url": "https://scrollprize.org/firstscroll",
-      "summary": "Preprint: https://scrollprize.org/pdf/main.pdf https://github.com/ScrollPrize/villa Comments URL: https://news.ycombinator.com/item?id=48675179 Points: 583 # Comments: 143",
+      "summary": "Preprint: https://scrollprize.org/pdf/main.pdf https://github.com/ScrollPrize/villa Comments URL: https://news.ycombinator.com/item?id=48675179 Points: 794 # Comments: 182",
       "publishedAt": "2026-06-25T15:48:07.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -68,18 +158,8 @@
       "id": "hacker-news:https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
       "title": "IBM debuts sub-1 nanometer chip technology",
       "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
-      "summary": "Article URL: https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology Comments URL: https://news.ycombinator.com/item?id=48674967 Points: 184 # Comments: 103",
+      "summary": "Article URL: https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology Comments URL: https://news.ycombinator.com/item?id=48674967 Points: 227 # Comments: 134",
       "publishedAt": "2026-06-25T15:33:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624",
-      "title": "How physicists track and trap the elusive neutrino",
-      "url": "https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624",
-      "summary": "Article URL: https://www.quantamagazine.org/how-physicists-track-and-trap-the-elusive-neutrino-20260624/ Comments URL: https://news.ycombinator.com/item?id=48674619 Points: 40 # Comments: 14",
-      "publishedAt": "2026-06-25T15:11:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -88,7 +168,7 @@
       "id": "hacker-news:https://yllan.org/software/OS9Map",
       "title": "OS9Map",
       "url": "https://yllan.org/software/OS9Map",
-      "summary": "Article URL: https://yllan.org/software/OS9Map/ Comments URL: https://news.ycombinator.com/item?id=48674484 Points: 120 # Comments: 18",
+      "summary": "Article URL: https://yllan.org/software/OS9Map/ Comments URL: https://news.ycombinator.com/item?id=48674484 Points: 149 # Comments: 21",
       "publishedAt": "2026-06-25T15:01:06.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -148,7 +228,7 @@
       "id": "hacker-news:https://ziglang.org/devlog/2026",
       "title": "Zig's new bitCast semantics and LLVM back end improvements",
       "url": "https://ziglang.org/devlog/2026",
-      "summary": "Article URL: https://ziglang.org/devlog/2026/#2026-06-25 Comments URL: https://news.ycombinator.com/item?id=48673825 Points: 177 # Comments: 69",
+      "summary": "Article URL: https://ziglang.org/devlog/2026/#2026-06-25 Comments URL: https://news.ycombinator.com/item?id=48673825 Points: 198 # Comments: 78",
       "publishedAt": "2026-06-25T14:19:28.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -168,7 +248,7 @@
       "id": "hacker-news:https://hackernewstrends.com",
       "title": "Show HN: I made Google Trends for Hacker News by indexing 18 years of comments",
       "url": "https://hackernewstrends.com",
-      "summary": "Article URL: https://hackernewstrends.com Comments URL: https://news.ycombinator.com/item?id=48673671 Points: 547 # Comments: 137",
+      "summary": "Article URL: https://hackernewstrends.com Comments URL: https://news.ycombinator.com/item?id=48673671 Points: 601 # Comments: 142",
       "publishedAt": "2026-06-25T14:08:55.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -223,86 +303,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/06/every-homo-naledi-we-know-of-is-female-and-the-implications-are-fascinating",
-      "title": "Every Homo naledi we know of is female, and the implications are fascinating",
-      "url": "https://arstechnica.com/science/2026/06/every-homo-naledi-we-know-of-is-female-and-the-implications-are-fascinating",
-      "summary": "\"There is no natural explanation,\" says paleoanthropologist John Hawks.",
-      "publishedAt": "2026-06-25T13:28:54.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://trakkr.ai/bias",
-      "title": "Political bias in AI: Where the AI models stand",
-      "url": "https://trakkr.ai/bias",
-      "summary": "Article URL: https://trakkr.ai/bias Comments URL: https://news.ycombinator.com/item?id=48672779 Points: 71 # Comments: 148",
-      "publishedAt": "2026-06-25T13:08:31.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
-      "title": "Apple raises prices of MacBooks, iPads",
-      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25",
-      "summary": "https://9to5mac.com/2026/06/25/apple-price-increases-mac-ipa... Comments URL: https://news.ycombinator.com/item?id=48672732 Points: 483 # Comments: 705",
-      "publishedAt": "2026-06-25T13:02:56.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026",
-      "title": "The Ultimate Summer Sale Pairing: Steam Sale Meets GeForce NOW Discounts",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-steam-summer-sale-2026",
-      "summary": "Summer savings are heating up. From the Steam Summer Sale to GeForce NOW membership discounts, this week’s GFN Thursday delivers double the deals and more ways to get the most value from cloud gaming. Plus, Dark Scrolls joins the growing Devolver lineup, alongside Square Enix’s The Adventures of Elliot: The Millennium Tales. They lead the [&#8230;]",
-      "publishedAt": "2026-06-25T13:00:34.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/rollbacks-for-workflows",
-      "title": "How we built saga rollbacks for Cloudflare Workflows",
-      "url": "https://blog.cloudflare.com/rollbacks-for-workflows",
-      "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
-      "publishedAt": "2026-06-25T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law",
-      "title": "The Download: Europe&#8217;s heat wave hits the grid, and IBM&#8217;s chip targets Moore&#8217;s Law",
-      "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Europe’s extreme heat is shutting down power plants Europe is in the middle of a record-breaking heat wave, and the grid is being pushed to its limits as people turn to&#8230;",
-      "publishedAt": "2026-06-25T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
-      "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
-      "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
-      "summary": "Amazon’s latest India investment comes as global tech companies race to expand AI infrastructure in the country.",
-      "publishedAt": "2026-06-25T12:00:38.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://lingochunk.com/try",
-      "title": "Show HN: Turn native language audio into flashcards and shadowing practice",
-      "url": "https://lingochunk.com/try",
-      "summary": "Here is a tool I built initially for myself to help with my German and Greek language studies. It started as a hack for creating Anki cards from native language audio. It extracts the words, finds their base forms (lemmas) and groups the examples by the lemma. At some point I realised that I have a transcription with word level timestamps that opens a lot of other opportunities. So I added a mode to click the first and last word in the transcript and it starts looping with the right gap and repeat count. Another feature I use a lot is selecting an audio fragment, sending a predefined prompt to an AI to \"explain grammar\" or \"explain nuances of meaning\" and I still experimenting with prompts. And because shadowing is so easy I also use it as a player to improve my English pronunciation. (I am not a native English speaker.) I made a quick video showing the workflow for creating Anki cards and shadowing: https://youtu.be/TaR58uuDBvU?si=o5aGLAi2S-BZ7Zy9 The app supports 15 input languages (Japanese and Chinese are the latest experimental additions), and more than 30 output languages. I would really appreciate it if you could try it https://lingochunk.com/try . I know there are other tools with similar functionality but I created something that fits my workflow and it is fun to build. Also I struggled to find public domain audio for the try page. I'd be grateful if anyone could point me to public domain sources (I used LibriVox, Wikimedia and FSI courses), or if you're a creator, let me feature some of your own recordings with credits and links. Comments URL: https://news.ycombinator.com/item?id=48671886 Points: 66 # Comments: 28",
-      "publishedAt": "2026-06-25T11:29:13.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

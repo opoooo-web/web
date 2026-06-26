@@ -1,91 +1,94 @@
 {
-  "generatedAt": "2026-06-25T15:18:22.707Z",
+  "generatedAt": "2026-06-26T10:30:13.330Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech world sees significant shifts as AI infrastructure investments surge globally, with new sub-1 nanometer chip technology promising to extend Moore's Law. Concurrently, AI's role in enterprise is expanding rapidly, driving innovations in software delivery, data management, and even scientific research. However, concerns about AI governance, security, and ethical use are also emerging, alongside practical challenges in managing AI budgets and ensuring responsible development.",
+  "narrative": "The technology sector is experiencing dynamic shifts, with major players like Apple and Microsoft adjusting to new market conditions and AI advancements impacting various facets of development. Breakthroughs in AI are not only driving innovation in areas like chip technology and research but are also raising important policy and ethical considerations.",
   "highlights": [
     {
-      "title": "IBM Unveils Sub-1nm Chip Technology",
-      "whyItMatters": "This breakthrough could significantly extend Moore's Law, enabling more powerful and energy-efficient computing for years to come.",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "whyItMatters": "This development is crucial for accelerating large language model processing and efficiency.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "category": "AI",
+      "publishedAt": "2026-06-24T06:00:00.000Z"
+    },
+    {
+      "title": "Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line",
+      "whyItMatters": "Apple's strategic shift highlights a strong focus on AI capabilities in future hardware.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true",
+      "category": "Technology",
+      "publishedAt": "2026-06-25T17:38:44.000Z"
+    },
+    {
+      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+      "whyItMatters": "Understanding the neurological impacts of extreme weather events is critical for public health.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why",
+      "category": "Science",
+      "publishedAt": "2026-06-26T09:00:00.000Z"
+    },
+    {
+      "title": "We All Depend on Open Source. We Will Defend It Together",
+      "whyItMatters": "This initiative emphasizes the importance of collaborative efforts in protecting critical open-source infrastructure.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://akrites.org/letter",
+      "category": "Developer",
+      "publishedAt": "2026-06-26T05:40:36.000Z"
+    },
+    {
+      "title": "IBM claims world’s first sub-1 nanometer chip technology",
+      "whyItMatters": "This advancement pushes the boundaries of semiconductor technology, promising significant performance gains.",
       "sourceName": "Ars Technica",
       "sourceUrl": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology",
       "category": "Technology",
       "publishedAt": "2026-06-25T10:00:55.000Z"
     },
     {
-      "title": "Amazon's $13B Investment in India AI Infrastructure",
-      "whyItMatters": "This massive investment highlights the global race to expand AI capabilities and infrastructure, particularly in emerging markets.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment",
-      "category": "Technology",
-      "publishedAt": "2026-06-25T12:00:38.000Z"
-    },
-    {
-      "title": "OpenAI and Broadcom Partner for LLM Inference Chip",
-      "whyItMatters": "This collaboration addresses the growing demand for specialized hardware to efficiently run large language models, indicating a maturing AI ecosystem.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/gadgets/2026/06/openai-and-broadcom-announce-chip-designed-for-llm-inference-at-scale",
-      "category": "Technology",
-      "publishedAt": "2026-06-24T22:28:18.000Z"
-    },
-    {
-      "title": "AI Agents Transforming Work and Productivity",
-      "whyItMatters": "From automating jobs to enhancing customer experiences, AI agents are proving to be a significant force in improving efficiency and expanding capabilities across various industries.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/how-agents-are-transforming-work",
+      "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
+      "whyItMatters": "The availability of advanced AI models with strong safeguards on cloud platforms expands access to responsible AI.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available",
       "category": "AI",
-      "publishedAt": "2026-06-25T02:00:00.000Z"
+      "publishedAt": "2026-06-09T17:40:31.000Z"
     },
     {
-      "title": "NASA's Roman Space Telescope Previews Milky Way Heart",
-      "whyItMatters": "This preview from Euclid and upcoming observations by Roman will significantly advance our understanding of galactic structures and the universe.",
+      "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
+      "whyItMatters": "This highlights the ongoing challenges and intricacies in modern hardware interface standards.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity",
+      "category": "Developer",
+      "publishedAt": "2026-06-26T01:10:52.000Z"
+    },
+    {
+      "title": "NASA Selects Rocket Lab to Launch Sun, Earth Science Missions",
+      "whyItMatters": "New launch contracts enable critical scientific missions to further our understanding of Earth and the Sun.",
       "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/missions/roman-space-telescope/euclid-view-of-milky-way-heart-previews-core-survey-by-nasas-roman",
+      "sourceUrl": "https://www.nasa.gov/missions/tsis-2/nasa-selects-rocket-lab-to-launch-sun-earth-science-missions",
       "category": "Science",
-      "publishedAt": "2026-06-24T18:41:45.000Z"
-    },
-    {
-      "title": "Europe's Heat Wave Impacts Power Grids",
-      "whyItMatters": "The extreme heat highlights the vulnerability of existing infrastructure to climate change and the urgent need for resilient energy systems.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law",
-      "category": "Science",
-      "publishedAt": "2026-06-25T12:10:00.000Z"
-    },
-    {
-      "title": "Companies Address AI Budget Overruns",
-      "whyItMatters": "The rapid adoption of AI is leading to unexpected costs, prompting companies to implement strategies for managing and rationing AI token usage.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks",
-      "category": "Technology",
-      "publishedAt": "2026-06-24T20:09:45.000Z"
+      "publishedAt": "2026-06-25T20:06:40.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Advancement & Infrastructure",
-      "summary": "Significant strides are being made in AI, with new chip technologies, increased investments in AI infrastructure, and the development of specialized AI agents for various applications.",
-      "itemCount": 11
-    },
-    {
-      "name": "Global Tech & Business Trends",
-      "summary": "Major tech companies are making substantial investments and strategic moves in AI, while also facing challenges like supply chain issues and adapting to new market demands.",
-      "itemCount": 7
-    },
-    {
-      "name": "Developer Tools & Practices",
-      "summary": "New tools and frameworks are emerging to support developers in building AI-powered applications, managing secrets, and optimizing workflows.",
-      "itemCount": 5
-    },
-    {
-      "name": "Space & Scientific Discovery",
-      "summary": "NASA continues its ambitious space exploration programs, and scientific research is advancing with new efforts in genomics and environmental monitoring.",
-      "itemCount": 5
-    },
-    {
-      "name": "Cybersecurity & Privacy",
-      "summary": "Ongoing efforts to enhance digital security, address data breaches, and combat cybercrime are crucial in an increasingly interconnected world.",
+      "name": "AI Innovation & Deployment",
+      "summary": "AI continues to advance rapidly with new chips, models, and platforms enhancing capabilities and accessibility.",
       "itemCount": 2
+    },
+    {
+      "name": "Technology Hardware & Trends",
+      "summary": "Key developments in chip technology and consumer electronics signal shifts in market focus and pricing.",
+      "itemCount": 3
+    },
+    {
+      "name": "Science & Space Exploration",
+      "summary": "Scientific research addresses climate impacts and space missions expand our knowledge of the universe.",
+      "itemCount": 2
+    },
+    {
+      "name": "Developer Ecosystem & Open Source",
+      "summary": "The open-source community is actively collaborating to secure and enhance developer tools and platforms.",
+      "itemCount": 1
     }
   ],
   "notes": []

@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/rollbacks-for-workflows",
+      "title": "How we built saga rollbacks for Cloudflare Workflows",
+      "url": "https://blog.cloudflare.com/rollbacks-for-workflows",
+      "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
+      "publishedAt": "2026-06-25T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law",
       "title": "The Download: Europe&#8217;s heat wave hits the grid, and IBM&#8217;s chip targets Moore&#8217;s Law",
       "url": "https://www.technologyreview.com/2026/06/25/1139738/the-download-europe-heat-wave-ibm-chip-moores-law",
@@ -293,16 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "summary": "",
-      "publishedAt": "2026-06-22T13:18:56.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     }
   ]
 }

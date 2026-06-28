@@ -1,9 +1,25 @@
 {
-  "generatedAt": "2026-06-28T20:37:44.433Z",
+  "generatedAt": "2026-06-28T22:16:55.826Z",
   "generatedBy": "local-fallback",
   "model": null,
   "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
   "highlights": [
+    {
+      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "whyItMatters": "China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced the gap in the capabilities between its models and those of [&#8230;]",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "category": "Technology",
+      "publishedAt": "2026-06-28T21:42:51.000Z"
+    },
+    {
+      "title": "California law targeting loud streaming ads takes effect on July 1",
+      "whyItMatters": "Streaming ads might be getting a lot quieter.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1",
+      "category": "Technology",
+      "publishedAt": "2026-06-28T21:34:14.000Z"
+    },
     {
       "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
       "whyItMatters": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists. Spark is their new incubator program for independent artists that provides grants, mentorship, and marketing support. To apply, artists need to be an unsigned singer, songwriter, or [&#8230;]",
@@ -14,7 +30,7 @@
     },
     {
       "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
-      "whyItMatters": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format. I tried to make it safe and predictable: no use of the system /tmp, no use of eval. Groq is supported by default, and other providers can be added with dedicated Bash scripts in the extras/providers/ folder. Example: echo \"explains the command: ls -l\" | ./bash4llm Comments URL: https://news.ycombinator.com/item?id=48710827 Points: 6 # Comments: 3",
+      "whyItMatters": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format. I tried to make it safe and predictable: no use of the system /tmp, no use of eval. Groq is supported by default, and other providers can be added with dedicated Bash scripts in the extras/providers/ folder. Example: echo \"explains the command: ls -l\" | ./bash4llm Comments URL: https://news.ycombinator.com/item?id=48710827 Points: 12 # Comments: 9",
       "sourceName": "Hacker News",
       "sourceUrl": "https://github.com/kamaludu/bash4llm",
       "category": "Developer",
@@ -22,47 +38,31 @@
     },
     {
       "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
-      "whyItMatters": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand the correlation between parameters and data and growth of the model and how the GPU works and how some layers can be optimized. So I started working on it with a research aspect by making nanoeuler grow more and more but doing one step after another starting from Shakespeare.txt and understanding what a text generation model understands at 23 million parameters. For example, nanoeuler at that number had understood that Name: started a line and wrote that line with sense. I wrote everything in CUDA because I wanted to not use any intermediary between the model in training and inference and what it had to do. Then the use of SFT and much more, even if in small ways, were really useful to understand the various step to make an llm like a chatbot.Any feedback, help, or suggestions are absolutely welcome! Comments URL: https://news.ycombinator.com/item?id=48710778 Points: 8 # Comments: 1",
+      "whyItMatters": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand the correlation between parameters and data and growth of the model and how the GPU works and how some layers can be optimized. So I started working on it with a research aspect by making nanoeuler grow more and more but doing one step after another starting from Shakespeare.txt and understanding what a text generation model understands at 23 million parameters. For example, nanoeuler at that number had understood that Name: started a line and wrote that line with sense. I wrote everything in CUDA because I wanted to not use any intermediary between the model in training and inference and what it had to do. Then the use of SFT and much more, even if in small ways, were really useful to understand the various step to make an llm like a chatbot.Any feedback, help, or suggestions are absolutely welcome! Comments URL: https://news.ycombinator.com/item?id=48710778 Points: 24 # Comments: 3",
       "sourceName": "Hacker News",
       "sourceUrl": "https://github.com/JustVugg/nanoeuler",
       "category": "Developer",
       "publishedAt": "2026-06-28T19:38:14.000Z"
     },
     {
-      "title": "TOP500 at ISC'26: We Have a New Number 1 – By George Cozma",
-      "whyItMatters": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number Comments URL: https://news.ycombinator.com/item?id=48710775 Points: 18 # Comments: 7",
+      "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
+      "whyItMatters": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number Comments URL: https://news.ycombinator.com/item?id=48710775 Points: 38 # Comments: 26",
       "sourceName": "Hacker News",
       "sourceUrl": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
       "category": "Developer",
       "publishedAt": "2026-06-28T19:38:00.000Z"
-    },
-    {
-      "title": "Ford rehires 'gray beard' engineers after AI falls short",
-      "whyItMatters": "Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 60 # Comments: 27",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
-      "category": "Developer",
-      "publishedAt": "2026-06-28T19:35:57.000Z"
-    },
-    {
-      "title": "The US Used to Demand the Best Tech. Now We Ban It",
-      "whyItMatters": "Article URL: https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it Comments URL: https://news.ycombinator.com/item?id=48710437 Points: 25 # Comments: 15",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
-      "category": "Developer",
-      "publishedAt": "2026-06-28T19:07:49.000Z"
     }
   ],
   "topics": [
     {
       "name": "AI",
-      "summary": "102 source-linked updates, led by OpenAI News.",
-      "itemCount": 102
+      "summary": "101 source-linked updates, led by OpenAI News.",
+      "itemCount": 101
     },
     {
       "name": "Technology",
-      "summary": "49 source-linked updates, led by The Verge.",
-      "itemCount": 49
+      "summary": "50 source-linked updates, led by The Verge.",
+      "itemCount": 50
     },
     {
       "name": "Infrastructure",

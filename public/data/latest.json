@@ -4,6 +4,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://arxiv.org/abs/2401.07013",
+      "title": "Knowledge Distillation of Black-Box Large Language Models",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "summary": "Article URL: https://arxiv.org/abs/2401.07013 Comments URL: https://news.ycombinator.com/item?id=48712420 Points: 11 # Comments: 8",
+      "publishedAt": "2026-06-28T22:32:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://qsoe.net",
+      "title": "A QNX-inspired operating system with selectable kernels",
+      "url": "https://qsoe.net",
+      "summary": "Article URL: https://qsoe.net Comments URL: https://news.ycombinator.com/item?id=48712338 Points: 14 # Comments: 1",
+      "publishedAt": "2026-06-28T22:21:51.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://xonaly.com",
+      "title": "Xonaly – Canada's Independent Search Engine",
+      "url": "https://xonaly.com",
+      "summary": "Article URL: https://xonaly.com/ Comments URL: https://news.ycombinator.com/item?id=48712324 Points: 13 # Comments: 1",
+      "publishedAt": "2026-06-28T22:20:56.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
       "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
       "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
@@ -24,6 +54,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html",
+      "title": "POSIX Is Not a Shell",
+      "url": "https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html",
+      "summary": "Article URL: https://alganet.github.io/blog/2026-06-28-12-POSIX-Is-Not-A-Shell.html Comments URL: https://news.ycombinator.com/item?id=48711403 Points: 15 # Comments: 3",
+      "publishedAt": "2026-06-28T20:39:50.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
       "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
       "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
@@ -37,7 +77,7 @@
       "id": "hacker-news:https://github.com/kamaludu/bash4llm",
       "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
       "url": "https://github.com/kamaludu/bash4llm",
-      "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format. I tried to make it safe and predictable: no use of the system /tmp, no use of eval. Groq is supported by default, and other providers can be added with dedicated Bash scripts in the extras/providers/ folder. Example: echo \"explains the command: ls -l\" | ./bash4llm Comments URL: https://news.ycombinator.com/item?id=48710827 Points: 12 # Comments: 9",
+      "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal. I created it because I wanted something simple that worked without installing Python, Node, or any other runtime. It uses only Bash, curl, and jq. You can send prompts, start a small chat, process files line by line, stream output, and save session metadata in JSON format. I tried to make it safe and predictable: no use of the system /tmp, no use of eval. Groq is supported by default, and other providers can be added with dedicated Bash scripts in the extras/providers/ folder. Example: echo \"explains the command: ls -l\" | ./bash4llm Comments URL: https://news.ycombinator.com/item?id=48710827 Points: 21 # Comments: 13",
       "publishedAt": "2026-06-28T19:43:10.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -47,7 +87,7 @@
       "id": "hacker-news:https://github.com/JustVugg/nanoeuler",
       "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
       "url": "https://github.com/JustVugg/nanoeuler",
-      "summary": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand the correlation between parameters and data and growth of the model and how the GPU works and how some layers can be optimized. So I started working on it with a research aspect by making nanoeuler grow more and more but doing one step after another starting from Shakespeare.txt and understanding what a text generation model understands at 23 million parameters. For example, nanoeuler at that number had understood that Name: started a line and wrote that line with sense. I wrote everything in CUDA because I wanted to not use any intermediary between the model in training and inference and what it had to do. Then the use of SFT and much more, even if in small ways, were really useful to understand the various step to make an llm like a chatbot.Any feedback, help, or suggestions are absolutely welcome! Comments URL: https://news.ycombinator.com/item?id=48710778 Points: 24 # Comments: 3",
+      "summary": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic. The two interesting reasons that led me to create nanoeuler were (1) interfacing with llm does not mean understanding how they are composed and (2), working on llm with a very low-level layer to understand the correlation between parameters and data and growth of the model and how the GPU works and how some layers can be optimized. So I started working on it with a research aspect by making nanoeuler grow more and more but doing one step after another starting from Shakespeare.txt and understanding what a text generation model understands at 23 million parameters. For example, nanoeuler at that number had understood that Name: started a line and wrote that line with sense. I wrote everything in CUDA because I wanted to not use any intermediary between the model in training and inference and what it had to do. Then the use of SFT and much more, even if in small ways, were really useful to understand the various step to make an llm like a chatbot.Any feedback, help, or suggestions are absolutely welcome! Comments URL: https://news.ycombinator.com/item?id=48710778 Points: 30 # Comments: 8",
       "publishedAt": "2026-06-28T19:38:14.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -57,18 +97,8 @@
       "id": "hacker-news:https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
       "title": "TOP500 at ISC’26: We have a New Number 1 Supercomputer",
       "url": "https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number",
-      "summary": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number Comments URL: https://news.ycombinator.com/item?id=48710775 Points: 38 # Comments: 26",
+      "summary": "Article URL: https://chipsandcheese.com/p/top500-at-isc26-we-have-a-new-number Comments URL: https://news.ycombinator.com/item?id=48710775 Points: 53 # Comments: 28",
       "publishedAt": "2026-06-28T19:38:00.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
-      "title": "The US Used to Demand the Best Tech. Now We Ban It",
-      "url": "https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it",
-      "summary": "Article URL: https://www.pcmag.com/opinions/the-us-used-to-demand-the-best-tech-now-we-ban-it Comments URL: https://news.ycombinator.com/item?id=48710437 Points: 78 # Comments: 59",
-      "publishedAt": "2026-06-28T19:07:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -77,7 +107,7 @@
       "id": "hacker-news:https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
       "title": "Do LLMs pass the mirror test?",
       "url": "https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test",
-      "summary": "Article URL: https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test Comments URL: https://news.ycombinator.com/item?id=48710414 Points: 15 # Comments: 8",
+      "summary": "Article URL: https://blog.pascalschuster.de/article/do-llms-pass-the-mirror-test Comments URL: https://news.ycombinator.com/item?id=48710414 Points: 38 # Comments: 27",
       "publishedAt": "2026-06-28T19:06:07.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -97,7 +127,7 @@
       "id": "hacker-news:https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
       "title": "Computer-Aided Language Development in Nonspeaking Children (1968) [pdf]",
       "url": "https://archive.org/details/colby1968-computer-aided-language-development-in-non-speaking-children",
-      "summary": "http://i.stanford.edu/pub/cstr/reports/cs/tr/68/85/CS-TR-68-... Comments URL: https://news.ycombinator.com/item?id=48710350 Points: 13 # Comments: 1",
+      "summary": "http://i.stanford.edu/pub/cstr/reports/cs/tr/68/85/CS-TR-68-... Comments URL: https://news.ycombinator.com/item?id=48710350 Points: 19 # Comments: 1",
       "publishedAt": "2026-06-28T18:59:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -105,9 +135,9 @@
     },
     {
       "id": "hacker-news:https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa",
-      "title": "British Origami: the 1955 exhibition by Akira Yoshizawa",
+      "title": "British Origami: the 1955 exhibition by Akira Yoshizawa (2005)",
       "url": "https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa",
-      "summary": "Article URL: https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/ Comments URL: https://news.ycombinator.com/item?id=48710325 Points: 9 # Comments: 1",
+      "summary": "Article URL: https://www.britishorigami.org/cp-lister-list/the-1955-exhibition-by-akira-yoshizawa/ Comments URL: https://news.ycombinator.com/item?id=48710325 Points: 14 # Comments: 1",
       "publishedAt": "2026-06-28T18:56:46.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -127,7 +157,7 @@
       "id": "hacker-news:https://github.com/librepods-org/librepods",
       "title": "Librepods: AirPods liberated",
       "url": "https://github.com/librepods-org/librepods",
-      "summary": "Article URL: https://github.com/librepods-org/librepods Comments URL: https://news.ycombinator.com/item?id=48710232 Points: 181 # Comments: 55",
+      "summary": "Article URL: https://github.com/librepods-org/librepods Comments URL: https://news.ycombinator.com/item?id=48710232 Points: 220 # Comments: 65",
       "publishedAt": "2026-06-28T18:48:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -137,8 +167,18 @@
       "id": "hacker-news:https://dam.stanford.edu/memory-prices.html",
       "title": "Historical memory prices 1960-2026",
       "url": "https://dam.stanford.edu/memory-prices.html",
-      "summary": "Article URL: https://dam.stanford.edu/memory-prices.html Comments URL: https://news.ycombinator.com/item?id=48710092 Points: 76 # Comments: 25",
+      "summary": "Article URL: https://dam.stanford.edu/memory-prices.html Comments URL: https://news.ycombinator.com/item?id=48710092 Points: 109 # Comments: 33",
       "publishedAt": "2026-06-28T18:32:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "title": "The cost YAGNI was never about",
+      "url": "https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about",
+      "summary": "Article URL: https://newsletter.kentbeck.com/p/the-cost-yagni-was-never-about Comments URL: https://news.ycombinator.com/item?id=48710082 Points: 87 # Comments: 60",
+      "publishedAt": "2026-06-28T18:31:54.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -147,7 +187,7 @@
       "id": "hacker-news:https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
       "title": "GLM 5.2 beats Claude in our benchmarks",
       "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
-      "summary": "Article URL: https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=48709670 Points: 178 # Comments: 58",
+      "summary": "Article URL: https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=48709670 Points: 301 # Comments: 128",
       "publishedAt": "2026-06-28T17:50:47.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -177,7 +217,7 @@
       "id": "hacker-news:http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
       "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
       "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
-      "summary": "Article URL: http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html Comments URL: https://news.ycombinator.com/item?id=48709187 Points: 78 # Comments: 15",
+      "summary": "Article URL: http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html Comments URL: https://news.ycombinator.com/item?id=48709187 Points: 87 # Comments: 17",
       "publishedAt": "2026-06-28T16:58:59.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -187,7 +227,7 @@
       "id": "hacker-news:https://frequal.com/Perspectives/DrmFreeAuthors.html",
       "title": "Show HN: DRM-Free Books",
       "url": "https://frequal.com/Perspectives/DrmFreeAuthors.html",
-      "summary": "After several years of mandatory DRM lockdowns from most commercial book sources, now authors have a choice when it comes to DRM for their books. Pick authors and books that are DRM-free, or download DRM-free classics that are out of copyright. https://frequal.com/Perspectives/DrmFreeAuthors.html Comments URL: https://news.ycombinator.com/item?id=48709186 Points: 45 # Comments: 20",
+      "summary": "After several years of mandatory DRM lockdowns from most commercial book sources, now authors have a choice when it comes to DRM for their books. Pick authors and books that are DRM-free, or download DRM-free classics that are out of copyright. https://frequal.com/Perspectives/DrmFreeAuthors.html Comments URL: https://news.ycombinator.com/item?id=48709186 Points: 53 # Comments: 28",
       "publishedAt": "2026-06-28T16:58:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -197,7 +237,7 @@
       "id": "hacker-news:https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
       "title": "Professor denounces mass AI fraud on an exam at Brown",
       "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
-      "summary": "Article URL: https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html Comments URL: https://news.ycombinator.com/item?id=48708991 Points: 73 # Comments: 67",
+      "summary": "Article URL: https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html Comments URL: https://news.ycombinator.com/item?id=48708991 Points: 141 # Comments: 189",
       "publishedAt": "2026-06-28T16:41:12.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -207,7 +247,7 @@
       "id": "hacker-news:https://antoine.fi/mri-analysis-using-claude-code-opus",
       "title": "I used Claude Code to get a second opinion on my MRI",
       "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "summary": "Article URL: https://antoine.fi/mri-analysis-using-claude-code-opus Comments URL: https://news.ycombinator.com/item?id=48708941 Points: 260 # Comments: 367",
+      "summary": "Article URL: https://antoine.fi/mri-analysis-using-claude-code-opus Comments URL: https://news.ycombinator.com/item?id=48708941 Points: 296 # Comments: 396",
       "publishedAt": "2026-06-28T16:35:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -227,7 +267,7 @@
       "id": "hacker-news:https://www.openculture.com/2020/10/daisugi.html",
       "title": "Daisugi, the Japanese technique of growing trees out of other trees (2020)",
       "url": "https://www.openculture.com/2020/10/daisugi.html",
-      "summary": "https://x.com/wrathofgnon/status/1250287741247426565 , https://xcancel.com/wrathofgnon/status/1250287741247426565 Comments URL: https://news.ycombinator.com/item?id=48708859 Points: 85 # Comments: 28",
+      "summary": "https://x.com/wrathofgnon/status/1250287741247426565 , https://xcancel.com/wrathofgnon/status/1250287741247426565 Comments URL: https://news.ycombinator.com/item?id=48708859 Points: 93 # Comments: 33",
       "publishedAt": "2026-06-28T16:28:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -237,18 +277,8 @@
       "id": "hacker-news:https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing",
       "title": "Tokenmaxxing is dead, long live tokenmaxxing",
       "url": "https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing",
-      "summary": "Article URL: https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing Comments URL: https://news.ycombinator.com/item?id=48708795 Points: 84 # Comments: 104",
+      "summary": "Article URL: https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing Comments URL: https://news.ycombinator.com/item?id=48708795 Points: 97 # Comments: 117",
       "publishedAt": "2026-06-28T16:24:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.righto.com/2026/06/space-shuttle-io-processor-boards.html",
-      "title": "Examining circuit boards from the Space Shuttle's I/O Processor",
-      "url": "https://www.righto.com/2026/06/space-shuttle-io-processor-boards.html",
-      "summary": "Article URL: https://www.righto.com/2026/06/space-shuttle-io-processor-boards.html Comments URL: https://news.ycombinator.com/item?id=48708700 Points: 70 # Comments: 14",
-      "publishedAt": "2026-06-28T16:16:07.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -264,26 +294,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://arxiv.org/abs/2606.25313",
-      "title": "Programmable Probabilistic Computer with 1M p-bits",
-      "url": "https://arxiv.org/abs/2606.25313",
-      "summary": "Article URL: https://arxiv.org/abs/2606.25313 Comments URL: https://news.ycombinator.com/item?id=48708496 Points: 38 # Comments: 0",
-      "publishedAt": "2026-06-28T15:55:31.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://zanagrams.com",
-      "title": "Show HN: Zanagrams",
-      "url": "https://zanagrams.com",
-      "summary": "Article URL: https://zanagrams.com/ Comments URL: https://news.ycombinator.com/item?id=48708182 Points: 120 # Comments: 42",
-      "publishedAt": "2026-06-28T15:26:14.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia",
       "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
       "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia",
@@ -292,16 +302,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://pudding.cool/2026/06/menu-story",
-      "title": "5k menus from the New York Public Library’s Buttolph Collection (1880-1920)",
-      "url": "https://pudding.cool/2026/06/menu-story",
-      "summary": "https://pudding.cool/2026/06/menu-collection/ Comments URL: https://news.ycombinator.com/item?id=48707763 Points: 293 # Comments: 78",
-      "publishedAt": "2026-06-28T14:44:56.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

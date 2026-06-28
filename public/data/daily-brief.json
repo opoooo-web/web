@@ -1,78 +1,86 @@
 {
-  "generatedAt": "2026-06-28T04:56:05.838Z",
-  "generatedBy": "gemini",
-  "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is currently grappling with the rapid evolution of AI, marked by both innovative applications and significant ethical and practical challenges, including job displacement and government intervention in model rollouts. Concurrently, major tech players like Apple face supply chain pressures and rising costs attributed to AI investments, while cybersecurity threats escalate with mass 0-day drops. Space exploration continues with NASA advancements and SpaceX's expansion plans, even as automotive and social media sectors navigate regulatory scrutiny and shifting user experiences.",
+  "generatedAt": "2026-06-28T08:29:38.719Z",
+  "generatedBy": "local-fallback",
+  "model": null,
+  "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
   "highlights": [
     {
-      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
-      "whyItMatters": "Indicates a severe and widespread cybersecurity threat, potentially impacting numerous systems globally.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/bikini/exploitarium",
-      "category": "Developer",
-      "publishedAt": "2026-06-27T14:31:00.000Z"
+      "title": "TMD’s keyless bike lock is a $280 solution to a $60 problem",
+      "whyItMatters": "I've seen lots of so-called \"smart\" bike locks over the years, but none so far could justify the added cost. A newcomer that got its start securing ATMs for banks is trying to change that. There's nothing wholly unique about the TMD Chain Lock, but the combination of materials, performance, and insurance-friendly ART-2 certification makes [&#8230;]",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/957603/tmd-smart-keyless-bike-lock-review",
+      "category": "Technology",
+      "publishedAt": "2026-06-28T07:00:00.000Z"
     },
     {
-      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
-      "whyItMatters": "Reveals increasing government oversight on advanced AI model releases due to safety concerns, potentially setting precedents for future AI development.",
+      "title": "Indian payments chief thinks AI will be heavily involved in next era of digital payment growth",
+      "whyItMatters": "Dilip Asbe said that newer UPI apps could be more competitive with a viable commercial model",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm",
+      "sourceUrl": "https://techcrunch.com/2026/06/27/indian-payments-chief-thinks-ai-will-be-heavily-involved-in-next-era-of-digital-payment-growth",
       "category": "Technology",
-      "publishedAt": "2026-06-26T18:32:14.000Z"
+      "publishedAt": "2026-06-28T05:00:00.000Z"
+    },
+    {
+      "title": "Bashblog – a single bash script to create blogs",
+      "whyItMatters": "Article URL: https://github.com/cfenollosa/bashblog Comments URL: https://news.ycombinator.com/item?id=48704454 Points: 28 # Comments: 3",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/cfenollosa/bashblog",
+      "category": "Developer",
+      "publishedAt": "2026-06-28T04:48:32.000Z"
+    },
+    {
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "whyItMatters": "Article URL: https://github.com/itsthelore/wayfinder-router Comments URL: https://news.ycombinator.com/item?id=48704373 Points: 52 # Comments: 9",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/itsthelore/wayfinder-router",
+      "category": "Developer",
+      "publishedAt": "2026-06-28T04:31:18.000Z"
     },
     {
       "title": "Ford hired AI and sacked humans. It backfired badly",
-      "whyItMatters": "Illustrates the significant risks and potential negative consequences of rushed AI automation, including job displacement and operational failures.",
+      "whyItMatters": "Article URL: https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html Comments URL: https://news.ycombinator.com/item?id=48703968 Points: 166 # Comments: 91",
       "sourceName": "Hacker News",
       "sourceUrl": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
       "category": "Developer",
       "publishedAt": "2026-06-28T03:09:13.000Z"
     },
     {
-      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
-      "whyItMatters": "Indicates a strategic move by major tech companies to reduce dependence on third-party GPU suppliers like Nvidia, potentially reshaping the AI hardware market.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia",
-      "category": "Technology",
-      "publishedAt": "2026-06-26T17:43:22.000Z"
-    },
-    {
-      "title": "Apple wants permission to buy memory from a blacklisted Chinese supplier",
-      "whyItMatters": "Reveals the intricate supply chain challenges and geopolitical pressures faced by major tech companies like Apple, impacting component sourcing and costs.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt",
-      "category": "Technology",
-      "publishedAt": "2026-06-27T17:28:18.000Z"
+      "title": "Marfa Public Radio Puts You to Sleep",
+      "whyItMatters": "Article URL: https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep Comments URL: https://news.ycombinator.com/item?id=48703759 Points: 190 # Comments: 49",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
+      "category": "Developer",
+      "publishedAt": "2026-06-28T02:23:08.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence (AI)",
-      "summary": "AI continues to be a dominant theme, showcasing advancements in LLMs and agentic systems, but also facing significant challenges in ethical deployment, job impacts, and government regulation. There's a growing trend for major tech companies to develop custom AI hardware.",
-      "itemCount": 17
+      "name": "AI",
+      "summary": "102 source-linked updates, led by OpenAI News.",
+      "itemCount": 102
     },
     {
-      "name": "Space Exploration & Industry",
-      "summary": "NASA advances human lunar and in-space refueling technologies, alongside deep-space observations. Meanwhile, SpaceX plans to expand Starlink mobile services, and the space industry faces both successes and challenges in rocket development.",
-      "itemCount": 14
+      "name": "Technology",
+      "summary": "49 source-linked updates, led by The Verge.",
+      "itemCount": 49
     },
     {
-      "name": "Consumer Technology & Policy",
-      "summary": "Tech giants like Apple face scrutiny over pricing and supply chains, while social media platforms explore new algorithmic customization and 'super app' ambitions. Regulatory actions are shaping streaming service advertising and potentially influencing market competition.",
-      "itemCount": 16
+      "name": "Infrastructure",
+      "summary": "39 source-linked updates, led by Cloudflare Blog.",
+      "itemCount": 39
     },
     {
-      "name": "Cybersecurity & Privacy",
-      "summary": "A surge in undisclosed zero-day exploits highlights critical vulnerabilities, while discussions around X11 security and the wider 'Post-Mythos' cybersecurity era reflect an adapting threat landscape. Legal and policy issues also arise concerning data and communications.",
-      "itemCount": 6
+      "name": "Developer",
+      "summary": "30 source-linked updates, led by Hacker News.",
+      "itemCount": 30
     },
     {
-      "name": "Automotive & EVs",
-      "summary": "The automotive industry sees continued shifts toward EVs, but faces challenges from AI integration failures at Ford to regulatory scrutiny for Polestar. Robotaxi infrastructure is also an emerging area of innovation.",
-      "itemCount": 6
+      "name": "Science",
+      "summary": "20 source-linked updates, led by NASA Breaking News.",
+      "itemCount": 20
     }
   ],
   "notes": [
-    "The publishedAt dates for these items span from June 25th to June 28th, 2026, providing a snapshot of recent developments."
+    "Gemini HTTP 429"
   ]
 }

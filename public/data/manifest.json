@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T14:29:32.651Z",
+  "generatedAt": "2026-06-29T17:48:51.199Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,15 +14,20 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 50
+      "count": 66
     },
     {
-      "name": "Hugging Face Blog",
-      "category": "AI",
-      "count": 26
+      "name": "Ars Technica",
+      "category": "Technology",
+      "count": 20
     },
     {
       "name": "AWS News Blog",
+      "category": "Infrastructure",
+      "count": 20
+    },
+    {
+      "name": "Cloudflare Blog",
       "category": "Infrastructure",
       "count": 20
     },
@@ -37,19 +42,14 @@
       "count": 20
     },
     {
-      "name": "Ars Technica",
-      "category": "Technology",
-      "count": 19
-    },
-    {
-      "name": "Cloudflare Blog",
-      "category": "Infrastructure",
-      "count": 19
-    },
-    {
       "name": "NVIDIA Blog",
       "category": "AI",
       "count": 18
+    },
+    {
+      "name": "Google AI",
+      "category": "AI",
+      "count": 16
     },
     {
       "name": "GitHub Blog",
@@ -67,15 +67,16 @@
       "count": 10
     },
     {
-      "name": "Google AI",
-      "category": "AI",
-      "count": 9
-    },
-    {
       "name": "The Verge",
       "category": "Technology",
-      "count": 9
+      "count": 10
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "message": "HTTP 429"
+    }
+  ]
 }

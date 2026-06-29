@@ -1,86 +1,95 @@
 {
-  "generatedAt": "2026-06-29T05:01:41.293Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-06-29T10:00:12.867Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology sector is marked by both significant advancements and emerging challenges. China has notably reclaimed the top position in supercomputing, highlighting a shift in global tech leadership, while IBM is pushing semiconductor boundaries with sub-1nm chip technology. AI continues to be a central theme, with new models being previewed and critical discussions ongoing regarding its ethical deployment and legal ramifications, as seen with OpenAI's controlled GPT-5.6 rollout and the use of ChatGPT logs in court. Meanwhile, traditional industries are re-evaluating AI's practical applications, and innovative infrastructure solutions are emerging to manage AI traffic and support space exploration efforts.",
   "highlights": [
     {
-      "title": "Age verification is just a precursor to automated attribution of speech",
-      "whyItMatters": "Article URL: https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026 Comments URL: https://news.ycombinator.com/item?id=48714529 Points: 142 # Comments: 32",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
-      "category": "Developer",
-      "publishedAt": "2026-06-29T03:42:07.000Z"
-    },
-    {
-      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
-      "whyItMatters": "Article URL: https://danunparsed.com/p/hackerrank-open-source-ats Comments URL: https://news.ycombinator.com/item?id=48713832 Points: 14 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://danunparsed.com/p/hackerrank-open-source-ats",
-      "category": "Developer",
-      "publishedAt": "2026-06-29T01:44:40.000Z"
-    },
-    {
-      "title": "You might not need a service worker",
-      "whyItMatters": "Article URL: https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/ Comments URL: https://news.ycombinator.com/item?id=48713453 Points: 9 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker",
-      "category": "Developer",
-      "publishedAt": "2026-06-29T00:48:17.000Z"
-    },
-    {
-      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
-      "whyItMatters": "Article URL: https://arxiv.org/abs/2401.07013 Comments URL: https://news.ycombinator.com/item?id=48712420 Points: 67 # Comments: 13",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arxiv.org/abs/2401.07013",
-      "category": "Developer",
-      "publishedAt": "2026-06-28T22:32:04.000Z"
-    },
-    {
-      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
-      "whyItMatters": "China's Zhipu AI (Z.ai) released its open-weight GLM-5.2, and some researchers have claimed that it matches Mythos in certain bug-finding and cybersecurity scenarios. While GLM lags behind models from Anthropic and OpenAI in other, more general tasks, it seems that China has dramatically reduced the gap in the capabilities between its models and those of [&#8230;]",
+      "title": "China claims the world’s fastest supercomputer",
+      "whyItMatters": "China has re-claimed the top spot in supercomputing with its LineShine system, despite trade restrictions, signaling a significant advancement in its technological capabilities.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "sourceUrl": "https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer",
       "category": "Technology",
-      "publishedAt": "2026-06-28T21:42:51.000Z"
+      "publishedAt": "2026-06-28T17:20:59.000Z"
     },
     {
-      "title": "California law targeting loud streaming ads takes effect on July 1",
-      "whyItMatters": "Streaming ads might be getting a lot quieter.",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "whyItMatters": "OpenAI has restricted the rollout of its GPT-5.6 model due to government requests, raising concerns about the balance between national security and the accessibility of advanced AI tools.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/06/28/california-law-targeting-loud-streaming-ads-takes-effect-on-july-1",
+      "sourceUrl": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm",
       "category": "Technology",
-      "publishedAt": "2026-06-28T21:34:14.000Z"
+      "publishedAt": "2026-06-26T18:32:14.000Z"
+    },
+    {
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "whyItMatters": "Ford's decision to rehire experienced engineers after AI solutions proved inadequate highlights the limitations of current AI in complex engineering tasks and the enduring value of human expertise.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+      "category": "Technology",
+      "publishedAt": "2026-06-28T19:05:39.000Z"
+    },
+    {
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "whyItMatters": "The use of ChatGPT logs in a criminal trial marks a significant legal precedent for AI-generated content as evidence, raising questions about data privacy and the evidentiary weight of AI interactions.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "category": "Technology",
+      "publishedAt": "2026-06-28T14:12:06.000Z"
+    },
+    {
+      "title": "IBM has unveiled chip technology that could help extend Moore’s Law another decade",
+      "whyItMatters": "IBM's new sub-1nm chip technology, featuring 100 billion transistors, represents a major leap in semiconductor density, potentially extending Moore's Law and enabling more powerful and energy-efficient computing.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/06/25/1139696/ibm-unveils-sub1nm-chip",
+      "category": "Science",
+      "publishedAt": "2026-06-25T10:00:00.000Z"
+    },
+    {
+      "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
+      "whyItMatters": "AWS's new WAF feature allows content creators to monetize AI bot access to their content, addressing concerns about data scraping and establishing new revenue models in the AI era.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-15T20:42:13.000Z"
+    },
+    {
+      "title": "NASA Announces Winners for 2026 Human Lander Challenge",
+      "whyItMatters": "NASA's selection of student-developed solutions for lunar lander life support systems highlights advancements in space technology and collaborative efforts to support future Artemis missions.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-announces-winners-for-2026-human-lander-challenge",
+      "category": "Science",
+      "publishedAt": "2026-06-26T19:44:48.000Z"
+    },
+    {
+      "title": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+      "whyItMatters": "NVIDIA and AWS are partnering to provide scalable AI infrastructure solutions, focusing on low-latency inference and efficient vector search, making AI deployment more practical for enterprises.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-aws-ai-production-scale",
+      "category": "AI",
+      "publishedAt": "2026-06-24T00:05:37.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "101 source-linked updates, led by OpenAI News.",
-      "itemCount": 101
+      "name": "Artificial Intelligence (AI) Development & Governance",
+      "summary": "Explores advancements in AI models, their varied applications across industries, and the growing ethical, regulatory, and legal discussions surrounding their deployment and use.",
+      "itemCount": 5
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "name": "Global Tech Competition & Infrastructure",
+      "summary": "Focuses on the shifting landscape of global technology leadership, including breakthroughs in supercomputing, semiconductor innovation, and cloud infrastructure development.",
+      "itemCount": 4
     },
     {
-      "name": "Infrastructure",
-      "summary": "39 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 39
+      "name": "Space Exploration & Innovation",
+      "summary": "Covers progress in space missions, lunar exploration, and the scientific and engineering advancements driving humanity's reach beyond Earth.",
+      "itemCount": 1
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
-    },
-    {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Computing Hardware & Systems",
+      "summary": "Highlights innovations in chip technology, processing power, and the foundational hardware systems that enable next-generation computing, from supercomputers to cloud infrastructure.",
+      "itemCount": 3
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

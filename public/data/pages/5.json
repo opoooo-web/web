@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/rollbacks-for-workflows",
+      "title": "How we built saga rollbacks for Cloudflare Workflows",
+      "url": "https://blog.cloudflare.com/rollbacks-for-workflows",
+      "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
+      "publishedAt": "2026-06-25T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/how-agents-are-transforming-work",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "publishedAt": "2026-06-25T02:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
       "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
@@ -112,16 +132,6 @@
       "publishedAt": "2026-06-23T13:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/ibm-research/cuga-apps",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "summary": "",
-      "publishedAt": "2026-06-23T12:51:55.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
       "category": "AI"
     },
     {
@@ -275,16 +285,6 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/patch-the-planet",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/index/daybreak-securing-the-world",
       "title": "Daybreak: Tools for securing every organization in the world",
       "url": "https://openai.com/index/daybreak-securing-the-world",
@@ -295,13 +295,13 @@
       "category": "AI"
     },
     {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/liquid-cooling-ai-factories",
-      "title": "Hotter Than a Hot Tub: The 45°C Breakthrough to Cool AI’s Biggest Machines",
-      "url": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories",
-      "summary": "Hot tubs sit at about 38 to 40 degrees Celsius, warm enough that most people can only soak for about 15 minutes. NVIDIA’s newest AI servers can run their cooling liquid even hotter — up to 45 degrees Celsius, or 113 degrees Fahrenheit. That higher temperature limit is precisely what makes them more energy efficient. [&#8230;]",
-      "publishedAt": "2026-06-22T05:00:22.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
+      "id": "openai-news:https://openai.com/index/patch-the-planet",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "url": "https://openai.com/index/patch-the-planet",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "publishedAt": "2026-06-22T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

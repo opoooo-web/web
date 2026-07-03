@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
+      "title": "Weber marks down grills and griddles to their best prices ever for July 4th",
+      "url": "https://www.theverge.com/gadgets/960558/weber-july-4th-grill-griddle-sale-deal",
+      "summary": "If our recent Decoder interview with Weber Blackstone CEO Roger Dahle has you craving freshly grilled meats or veggies, Weber just so happens to have a variety of grills, smokers, griddles, and accessories selling at big discounts ahead of the July 4th holiday. It makes a bunch of models, but we’ve landed on a range [&#8230;]",
+      "publishedAt": "2026-07-02T18:19:03.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record",
+      "title": "NASA’s Artemis II Breaks Agency Streaming Record",
+      "url": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record",
+      "summary": "NASA’s live coverage of the Artemis II mission mission&#160;drew unprecedented&#160;public&#160;interest&#160;– including&#160;more than&#160;149.4&#160;million views&#160;of&#160;the launch, lunar flyby, splashdown&#160;on&#160;NASA-owned&#160;platforms, including the 24/7 streams covering the mission and the Orion spacecraft&#160;views&#160;–&#160;demonstrating&#160;strong, sustained global engagement throughout the mission.&#160; Around the Clock Live Broadcast NASA’s Artemis II Crew Launches to the Moon broadcast set unprecedented viewership records across the agency’s [&#8230;]",
+      "publishedAt": "2026-07-02T18:02:21.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/02/boeing-owned-wisk-aero-accused-of-firing-manager-who-raised-safety-concerns",
+      "title": "Boeing-owned Wisk Aero accused of firing manager who raised safety concerns",
+      "url": "https://techcrunch.com/2026/07/02/boeing-owned-wisk-aero-accused-of-firing-manager-who-raised-safety-concerns",
+      "summary": "A former software manager claims Wisk rushed software testing ahead of a crucial 2025 flight test.",
+      "publishedAt": "2026-07-02T17:30:04.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet",
+      "title": "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
+      "url": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet",
+      "summary": "New US rules would legalize quiet supersonic flights without the sonic boom.",
+      "publishedAt": "2026-07-02T17:29:37.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready",
       "title": "Ars Live recap: When are the big rockets NASA desperately needs going to be ready?",
       "url": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready",
@@ -43,16 +83,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://people.xiph.org/~xiphmont/demo/neil-young.html",
-      "title": "24-bit/192kHz music downloads and why they make no sense (2012)",
-      "url": "https://people.xiph.org/~xiphmont/demo/neil-young.html",
-      "summary": "Article URL: https://people.xiph.org/~xiphmont/demo/neil-young.html#toc_wd2bm Comments URL: https://news.ycombinator.com/item?id=48763790 Points: 88 # Comments: 166",
-      "publishedAt": "2026-07-02T16:24:49.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/science/2026/07/artificial-cell-manages-a-few-rounds-of-cell-division",
@@ -98,8 +128,18 @@
       "id": "hacker-news:https://zk.golf",
       "title": "Show HN: zkGolf – Competitive optimization of formally verified circuits",
       "url": "https://zk.golf",
-      "summary": "Zero-Knowledge Proofs (ZKPs) let an untrusted proved show that computation was executed correctly without revealing the inputs to the verifier. However to prove anything, the computation first has to be expressed as a circuit: a system of polynomial equations (constraints) over a finite field. Circuits are the assembly language of zk and every constraint costs prover (and sometimes verifier) time, so production circuits are aggressively hand-optimized. Over the last months, we have been experimenting with writing formal specifications instead and letting LLMs produce the circuits: as long as they could prove that their implementation was correct. It started with SHA-256: we hand wrote a specification in Lean for SHA-256 compression, and then we asked LLMs to write the circuit, targeting R1CS arithmetization and large fields. It took a few hours of work for Opus 4.7, and some light steering into the right direction, but in the end the model came up with a reasonable implementation. We then asked the LLM to aggressively optimize the circuits, by driving down a cost metric of the circuit (number of constraints). We immediately got very promising results, just by asking to come up with optimization ideas, implement them and prove that the new circuit still satisfies soundness and completeness. Sometimes, it came up with unsound optimizations, however, since it could not prove them, it backtracked and got itself back on to the right approach. The result was a (non-deterministic) circuit beating the current, human optimized, state of the art for SHA256 compression. This experience lead us to create \"zk.golf\" which is an open competition to produce optimized, formally verified circuits to lower the bar for the use of ZKPs and make their application more efficient. Come play ( https://zk.golf/llms.txt ) and learn about formal verification. Comments URL: https://news.ycombinator.com/item?id=48763246 Points: 34 # Comments: 3",
+      "summary": "Zero-Knowledge Proofs (ZKPs) let an untrusted proved show that computation was executed correctly without revealing the inputs to the verifier. However to prove anything, the computation first has to be expressed as a circuit: a system of polynomial equations (constraints) over a finite field. Circuits are the assembly language of zk and every constraint costs prover (and sometimes verifier) time, so production circuits are aggressively hand-optimized. Over the last months, we have been experimenting with writing formal specifications instead and letting LLMs produce the circuits: as long as they could prove that their implementation was correct. It started with SHA-256: we hand wrote a specification in Lean for SHA-256 compression, and then we asked LLMs to write the circuit, targeting R1CS arithmetization and large fields. It took a few hours of work for Opus 4.7, and some light steering into the right direction, but in the end the model came up with a reasonable implementation. We then asked the LLM to aggressively optimize the circuits, by driving down a cost metric of the circuit (number of constraints). We immediately got very promising results, just by asking to come up with optimization ideas, implement them and prove that the new circuit still satisfies soundness and completeness. Sometimes, it came up with unsound optimizations, however, since it could not prove them, it backtracked and got itself back on to the right approach. The result was a (non-deterministic) circuit beating the current, human optimized, state of the art for SHA256 compression. This experience lead us to create \"zk.golf\" which is an open competition to produce optimized, formally verified circuits to lower the bar for the use of ZKPs and make their application more efficient. Come play ( https://zk.golf/llms.txt ) and learn about formal verification. Comments URL: https://news.ycombinator.com/item?id=48763246 Points: 50 # Comments: 6",
       "publishedAt": "2026-07-02T15:40:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://kendal.codeberg.page/inkwell",
+      "title": "Show HN: Inkwell – An RSS reader for e-ink devices",
+      "url": "https://kendal.codeberg.page/inkwell",
+      "summary": "Article URL: https://kendal.codeberg.page/inkwell/ Comments URL: https://news.ycombinator.com/item?id=48763222 Points: 37 # Comments: 5",
+      "publishedAt": "2026-07-02T15:38:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -128,7 +168,7 @@
       "id": "hacker-news:https://mathstodon.xyz/@iblech/116769502749142438",
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
       "url": "https://mathstodon.xyz/@iblech/116769502749142438",
-      "summary": "Article URL: https://mathstodon.xyz/@iblech/116769502749142438 Comments URL: https://news.ycombinator.com/item?id=48763035 Points: 378 # Comments: 182",
+      "summary": "Article URL: https://mathstodon.xyz/@iblech/116769502749142438 Comments URL: https://news.ycombinator.com/item?id=48763035 Points: 424 # Comments: 190",
       "publishedAt": "2026-07-02T15:25:16.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -165,26 +205,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://manufact.com",
-      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
-      "url": "https://manufact.com",
-      "summary": "Hi HN, we are Pietro and Luigi, cofounders of Manufact ( https://manufact.com ), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: https://github.com/mcp-use/mcp-use . We did a Show HN about that last year: https://news.ycombinator.com/item?id=44747229 . Today we want to tell you about our cloud product, Manufact, which is to mcp-use as Vercel is to Next.js. Manufact is an MCP vertical cloud designed for dev teams putting MCP Apps and servers in production.You can ship, iterate on, test and monitor your MCPs, and get them ready for the store submissions. All with the best developer and agent experience in mind. Here is a demo video of the product: https://www.youtube.com/watch?v=R2rbr5OT9LI . We have been working on MCP since April 2025. Our first focus was making it easy to build agents that could use any MCP server, and a lot of people started using our SDKs. Then the harness revolution kicked off: Claude Code, Claude Cowork, ChatGPT, Codex, OpenCode started shipping agent harnesses that made most standalone agent frameworks redundant. That pushed us to the other side of the connection, the servers. If agents were going to consolidate into a few harnesses, then first-class integration with the rest of a company's systems (i.e. MCP) would become the thing that mattered, so we started building up our server SDKs. Then in succession: 1. Oct 2025. ChatGPT Apps SDK. OpenAI brings app UIs to ChatGPT, built on top of MCP and the work of mcp-ui. 2. Late 2025. The stores open. ChatGPT starts accepting app submissions, Claude grows its connector directory with selected partners. 3. Jan 2026. MCP Apps becomes official. SEP-1865 merges as the first MCP extension (io.modelcontextprotocol/ui): one UI standard any host can render. Today, all the major clients fully support MCP and are opening marketplaces of reviewed MCPs that can be one click installed. All major tech companies have an MCP server, and many of those are reporting that already 15+% of their usage comes from their MCP, and we start to have a good way to distribute them just now. MCP can return fully interactive UIs. So companies can (1) display data in more meaningful ways to their users (e.g. analytics, ecommerce) and (2) display their branding in some of the most used products on the planet (ChatGPT, Claude etc). Numbers: an engineer at Amplitude reported that their MCP saw a 2x increase in retention after adding UI to their MCP. Clients (Claude, ChatGPT, Cursor) are starting to dynamically present MCP servers/apps to users, based on their intent. Products will be organically discovered on the chats! We feel that MCP is reaching its maturity moment. Now that MCPs are starting to be easy to install and discover, there is going to be a huge incentive for users to use them and for companies to create them: 1 - Most work is already done from AI chats, this is not going to stop, MCP gives you a way to interact with products without manually using their dashboards. 2 - MCP allows you to bring the context together in one place: you can read an email, create a ticket while plugged into the source code of your product, or your knowledge base. Aggregation of products that was not possible before, will happen in the chat, orchestrated by increasingly intelligent models. If AI apps (Codex, Claude Desktop) are the new browsers, as PG said in a recent tweet https://x.com/paulg/status/2069080429236191504 , then MCPs are the new websites. But there is a catch: - Submission process on the stores is still quite tricky, manual and takes up valuable time. - Hardly anybody knows how to design a good MCP: most of them are 1:1 proxies of the API and are abandoned, since being one shotted a few months ago. - The MCP Spec advances quickly and it is not easy to keep track of the changes, and what they mean for your server. - Auth is still a mystery for most teams (API key in the URL ???). - Most companies are not even aware that MCPs can return interactive UIs. - Clients still have to consolidate behavior, some do dynamic tool discovery, some don't, some persist authentication properly some don't. We built Manufact and mcp-use to solve these problems. Our SDKs help them build good MCPs, our inspector helps them test locally, and our cloud helps them ship/publish and monitor them in production. To deploy on Manufact you just need to connect a Github app, pick the repo, we'll detect the framework you are working with and get you a live MCP url as soon as possible. In our platform, that live URL will be used to give you a chat where you can try/debug your MCP immediately and share it with your team. If you push an update on a new experimental branch, you'll be able to test that as well thanks to preview deployments. Once your server is ready to go live, we help you make sure that it does not break. You can configure automated tests that will take your MCP server, install it in ChatGPT and Claude and test it. We do not test the model, we test the client (model + harness). This way you reliably know if your server breaks where people use it. Since publishing on the store is a major distribution unlock for companies (your MCP can be dynamically discovered and one click installed across Claude products, and ChatGPT), we collected a set of requirements that will keep your submission from being rejected. You check this locally before going through the actual review process. Once your server is live, you'll want to understand how it is used. Our analytics are designed for MCP, so you'll know how many users are hitting your MCP, how many tool calls you receive, from which client. You can try out https://manufact.com for free today. We have usage-based pricing and on our free account we give free credits for you to try it out. If you have an MCP already, just connect your Github repo and deploy, if not you can build one using our skill and SDKs pretty simply (we will guide you in the onboarding). We would love to hear feedback about the product in the comments, and hear thoughts from everyone about MCP. Thanks! :) Comments URL: https://news.ycombinator.com/item?id=48762862 Points: 97 # Comments: 61",
-      "publishedAt": "2026-07-02T15:11:20.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
-      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
-      "summary": "Article URL: https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv Comments URL: https://news.ycombinator.com/item?id=48762725 Points: 548 # Comments: 177",
-      "publishedAt": "2026-07-02T15:02:26.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "the-verge:https://www.theverge.com/gadgets/960664/godox-key-light-elgato-insta360-deal-sale",
       "title": "Godox’s feature-packed key light is down to its best price yet",
       "url": "https://www.theverge.com/gadgets/960664/godox-key-light-elgato-insta360-deal-sale",
@@ -203,6 +223,16 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://apple.github.io/foundationdb/flow.html",
+      "title": "FoundationDB's Flow – Bringing Actor-Based Concurrency to C++11",
+      "url": "https://apple.github.io/foundationdb/flow.html",
+      "summary": "Article URL: https://apple.github.io/foundationdb/flow.html Comments URL: https://news.ycombinator.com/item?id=48762372 Points: 44 # Comments: 6",
+      "publishedAt": "2026-07-02T14:41:56.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/image-article/good-morning-earth",
@@ -228,7 +258,7 @@
       "id": "hacker-news:https://blog.podman.io/2026/07/introducing-podman-v6-0-0",
       "title": "Podman v6.0.0",
       "url": "https://blog.podman.io/2026/07/introducing-podman-v6-0-0",
-      "summary": "Article URL: https://blog.podman.io/2026/07/introducing-podman-v6-0-0/ Comments URL: https://news.ycombinator.com/item?id=48762098 Points: 344 # Comments: 130",
+      "summary": "Article URL: https://blog.podman.io/2026/07/introducing-podman-v6-0-0/ Comments URL: https://news.ycombinator.com/item?id=48762098 Points: 419 # Comments: 171",
       "publishedAt": "2026-07-02T14:23:09.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-07-02T14:04:28.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
-      "title": "AI won’t save advertising, says Digitas’ Amy Lanzi",
-      "url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators",
-      "summary": "We’ve got a special Decoder today — I had the chance to talk with Amy Lanzi, the CEO of Digitas North America, in front of a live audience at the Uber Villa at the Cannes Lions advertising festival in the South of France. I know, it’s a hard gig, but I do it for you. [&#8230;]",
-      "publishedAt": "2026-07-02T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/webb/nasas-webb-reveals-stars-sparking-to-life-in-cosmic-celebration",
-      "title": "NASA’s Webb Reveals Stars Sparking to Life in Cosmic Celebration",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-stars-sparking-to-life-in-cosmic-celebration",
-      "summary": "NASA’s James Webb Space Telescope has captured the infrared light of numerous features that previously were impossible to see beyond the thick dust of the FS Tau star system. In addition to myriad background galaxies that burst into view like fireworks for the United States’ 250th anniversary celebrations, this image flickers with a number of […]",
-      "publishedAt": "2026-07-02T14:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment",
-      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
-      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment",
-      "summary": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
-      "publishedAt": "2026-07-02T13:53:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     }
   ]

@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://www.zachtronics.com/exapunks",
+      "title": "Exapunks (2018)",
+      "url": "https://www.zachtronics.com/exapunks",
+      "summary": "Article URL: https://www.zachtronics.com/exapunks/ Comments URL: https://news.ycombinator.com/item?id=48765663 Points: 298 # Comments: 101",
+      "publishedAt": "2026-07-02T18:41:19.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees",
       "title": "Travel app Hopper to pay $35M in FTC settlement over ‘unfairly’ charging hidden fees",
       "url": "https://techcrunch.com/2026/07/02/travel-app-hopper-to-pay-35m-in-ftc-settlement-over-unfairly-charging-hidden-fees",
@@ -18,7 +28,7 @@
       "id": "hacker-news:https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data",
       "title": "Postgres transactions are a distributed systems superpower",
       "url": "https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data",
-      "summary": "Article URL: https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data Comments URL: https://news.ycombinator.com/item?id=48765639 Points: 166 # Comments: 68",
+      "summary": "Article URL: https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data Comments URL: https://news.ycombinator.com/item?id=48765639 Points: 183 # Comments: 80",
       "publishedAt": "2026-07-02T18:38:32.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -28,7 +38,7 @@
       "id": "hacker-news:https://github.com/segaboy/vulkan-netbsd",
       "title": "This is my attempt to get Vulkan going on NetBSD",
       "url": "https://github.com/segaboy/vulkan-netbsd",
-      "summary": "Article URL: https://github.com/segaboy/vulkan-netbsd Comments URL: https://news.ycombinator.com/item?id=48765607 Points: 100 # Comments: 25",
+      "summary": "Article URL: https://github.com/segaboy/vulkan-netbsd Comments URL: https://news.ycombinator.com/item?id=48765607 Points: 111 # Comments: 30",
       "publishedAt": "2026-07-02T18:36:09.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -165,16 +175,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://zk.golf",
-      "title": "Show HN: zkGolf – Competitive optimization of formally verified circuits",
-      "url": "https://zk.golf",
-      "summary": "Zero-Knowledge Proofs (ZKPs) let an untrusted proved show that computation was executed correctly without revealing the inputs to the verifier. However to prove anything, the computation first has to be expressed as a circuit: a system of polynomial equations (constraints) over a finite field. Circuits are the assembly language of zk and every constraint costs prover (and sometimes verifier) time, so production circuits are aggressively hand-optimized. Over the last months, we have been experimenting with writing formal specifications instead and letting LLMs produce the circuits: as long as they could prove that their implementation was correct. It started with SHA-256: we hand wrote a specification in Lean for SHA-256 compression, and then we asked LLMs to write the circuit, targeting R1CS arithmetization and large fields. It took a few hours of work for Opus 4.7, and some light steering into the right direction, but in the end the model came up with a reasonable implementation. We then asked the LLM to aggressively optimize the circuits, by driving down a cost metric of the circuit (number of constraints). We immediately got very promising results, just by asking to come up with optimization ideas, implement them and prove that the new circuit still satisfies soundness and completeness. Sometimes, it came up with unsound optimizations, however, since it could not prove them, it backtracked and got itself back on to the right approach. The result was a (non-deterministic) circuit beating the current, human optimized, state of the art for SHA256 compression. This experience lead us to create \"zk.golf\" which is an open competition to produce optimized, formally verified circuits to lower the bar for the use of ZKPs and make their application more efficient. Come play ( https://zk.golf/llms.txt ) and learn about formal verification. Comments URL: https://news.ycombinator.com/item?id=48763246 Points: 57 # Comments: 8",
-      "publishedAt": "2026-07-02T15:40:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai",
       "title": "Achieving operational excellence with AI",
       "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai",
@@ -198,7 +198,7 @@
       "id": "hacker-news:https://mathstodon.xyz/@iblech/116769502749142438",
       "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
       "url": "https://mathstodon.xyz/@iblech/116769502749142438",
-      "summary": "Article URL: https://mathstodon.xyz/@iblech/116769502749142438 Comments URL: https://news.ycombinator.com/item?id=48763035 Points: 447 # Comments: 200",
+      "summary": "Article URL: https://mathstodon.xyz/@iblech/116769502749142438 Comments URL: https://news.ycombinator.com/item?id=48763035 Points: 481 # Comments: 206",
       "publishedAt": "2026-07-02T15:25:16.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -255,6 +255,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://apple.github.io/foundationdb/flow.html",
+      "title": "FoundationDB's Flow – Bringing Actor-Based Concurrency to C++11",
+      "url": "https://apple.github.io/foundationdb/flow.html",
+      "summary": "Article URL: https://apple.github.io/foundationdb/flow.html Comments URL: https://news.ycombinator.com/item?id=48762372 Points: 73 # Comments: 13",
+      "publishedAt": "2026-07-02T14:41:56.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/image-article/good-morning-earth",
       "title": "Good Morning, Earth!",
       "url": "https://www.nasa.gov/image-article/good-morning-earth",
@@ -292,16 +302,6 @@
       "publishedAt": "2026-07-02T14:14:48.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026",
-      "title": "Tesla sales increase by 25% in Q2 2026",
-      "url": "https://arstechnica.com/cars/2026/07/tesla-sales-increase-by-25-in-q2-2026",
-      "summary": "Deliveries outstripped production, suggesting Tesla has cleared some inventory.",
-      "publishedAt": "2026-07-02T14:11:07.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     }
   ]

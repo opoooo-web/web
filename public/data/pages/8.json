@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/torch-mlp-fusion",
       "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
       "url": "https://huggingface.co/blog/torch-mlp-fusion",
@@ -63,16 +73,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available",
-      "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
-      "url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available",
-      "summary": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 delivers Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use.",
-      "publishedAt": "2026-06-09T17:40:31.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     },
     {
       "id": "openai-news:https://openai.com/index/nextdoor",
@@ -143,16 +143,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/realtime-threat-intel-waf-rules",
-      "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
-      "url": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules",
-      "summary": "Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors and targeted industries in real time.",
-      "publishedAt": "2026-06-08T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     },
     {
       "id": "openai-news:https://openai.com/index/built-to-benefit-everyone-our-plan",
@@ -302,6 +292,16 @@
       "publishedAt": "2026-06-03T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "title": "Adding MCP Tools to Reachy Mini",
+      "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+      "summary": "",
+      "publishedAt": "2026-06-03T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
       "category": "AI"
     }
   ]

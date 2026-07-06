@@ -5,6 +5,86 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
+      "title": "If you use Google, you&#8217;re training its AI. Here&#8217;s how to opt out.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
+      "summary": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+      "publishedAt": "2026-07-06T17:04:58.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/iOfficeAI/OfficeCLI",
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "summary": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 96 # Comments: 28",
+      "publishedAt": "2026-07-06T16:47:44.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users",
+      "title": "Secret Claude tracker shocks users after Anthropic’s anti-surveillance stance",
+      "url": "https://arstechnica.com/tech-policy/2026/07/anthropic-outed-for-claude-tracker-that-secretly-monitored-chinese-users",
+      "summary": "Anthropic accused of spying on users; engineer says “experiment” is over.",
+      "publishedAt": "2026-07-06T16:44:18.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=48806976",
+      "title": "Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)",
+      "url": "https://news.ycombinator.com/item?id=48806976",
+      "summary": "Comments URL: https://news.ycombinator.com/item?id=48806976 Points: 0 # Comments: 0",
+      "publishedAt": "2026-07-06T16:33:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
+      "title": "Former Xbox studios Double Fine and Compulsion will keep games after going indie",
+      "url": "https://www.theverge.com/games/961749/xbox-layoffs-compulsion-double-fine-indie",
+      "summary": "Microsoft is spinning off four of its Xbox game studios - Compulsion Games, Double Fine Productions, Ninja Theory, and Undead Labs - as part of the restructuring announced today. However, two that are going independent, Double Fine and Compulsion, will get to keep their franchises and games catalogs, according to Xbox CEO Asha Sharma. \"Compulsion [&#8230;]",
+      "publishedAt": "2026-07-06T16:22:34.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus",
+      "title": "Apple brings back card payments for Apple Account purchases in India after a four-year hiatus",
+      "url": "https://techcrunch.com/2026/07/06/apple-brings-back-card-payments-for-apple-account-purchases-in-india-after-a-four-year-hiatus",
+      "summary": "Apple has started a phased rollout of card payments for Apple Account purchases in India after adapting to the country's payments framework.",
+      "publishedAt": "2026-07-06T16:21:03.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
+      "title": "Show HN: Pulpie – Models for Cleaning the Web",
+      "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
+      "summary": "Hey HN, I'm Shreyash, founder of Feyn. We built Pulpie, a family of Pareto optimal models for cleaning the web. Pulpie strips boilerplate (ads, footers, sidebars) from raw HTML and returns just the main content as HTML or Markdown. We match SOTA extraction quality while being 20x cheaper. Cleaning 1 billion webpages costs $7,900 with Pulpie versus $159,000 with Dripper, the current leading extractor. The gains come from architecture. Today's leading extractors are decoders that generate output one token at a time. Each step reads the full model from memory to produce a single token. Conversely, Pulpie models are encoders. They run one forward pass over the full input HTML and label each block as boilerplate or content. As a result, Pulpie is compute-bound while decoders are memory-bound. Cheaper GPUs have relatively more compute than memory bandwidth. This makes Pulpie easy to run optimally. Here's Pulpie and Dripper cleaning the same pages side by side: https://www.youtube.com/watch?v=ibd-tIiQECo . You can try a side-by-side comparison yourself: https://huggingface.co/spaces/feyninc/pulpie Our motivation for Pulpie came from building a deep research harness. Every search API returns noisy content that contains ads, nav elements, and sidebars. In one instance, an ad for \"Gemini on Pixel\" slipped into our search results, got passed into LLM context, and ended up in the final answer served to the user. Pretty embarrassing moment for us but it helped us realize how bad data kills model intelligence. We built Pulpie to get clean data for cheap. All models are open source on Hugging Face. You can read about our training process and how to use Pulpie here: https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cl... Happy to answer any questions! Comments URL: https://news.ycombinator.com/item?id=48806575 Points: 78 # Comments: 17",
+      "publishedAt": "2026-07-06T16:04:27.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go",
+      "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
+      "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go",
+      "summary": "Move affects ~20% of the gaming division, which will refocus on its biggest franchises.",
+      "publishedAt": "2026-07-06T16:01:54.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/open-models-icml-2026",
       "title": "How Open Models Are Driving AI Research",
       "url": "https://blogs.nvidia.com/blog/open-models-icml-2026",
@@ -28,7 +108,7 @@
       "id": "hacker-news:https://arxiv.org/abs/2607.01504",
       "title": "Kani: A Model Checker for Rust",
       "url": "https://arxiv.org/abs/2607.01504",
-      "summary": "Article URL: https://arxiv.org/abs/2607.01504 Comments URL: https://news.ycombinator.com/item?id=48806410 Points: 98 # Comments: 5",
+      "summary": "Article URL: https://arxiv.org/abs/2607.01504 Comments URL: https://news.ycombinator.com/item?id=48806410 Points: 116 # Comments: 7",
       "publishedAt": "2026-07-06T15:53:24.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -53,16 +133,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.theargumentmag.com/p/should-dayquil-be-legal",
-      "title": "Should DayQuil Be Legal?",
-      "url": "https://www.theargumentmag.com/p/should-dayquil-be-legal",
-      "summary": "Article URL: https://www.theargumentmag.com/p/should-dayquil-be-legal Comments URL: https://news.ycombinator.com/item?id=48806289 Points: 136 # Comments: 179",
-      "publishedAt": "2026-07-06T15:44:44.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/humans-in-space/commercial-space/nasa-seeks-industry-input-on-second-phase-of-commercial-space-stations",
@@ -98,18 +168,8 @@
       "id": "hacker-news:https://writingclub.world/1picture1000words",
       "title": "1k Words: A Writing Contest",
       "url": "https://writingclub.world/1picture1000words",
-      "summary": "Article URL: https://writingclub.world/1picture1000words Comments URL: https://news.ycombinator.com/item?id=48806073 Points: 65 # Comments: 31",
+      "summary": "Article URL: https://writingclub.world/1picture1000words Comments URL: https://news.ycombinator.com/item?id=48806073 Points: 74 # Comments: 35",
       "publishedAt": "2026-07-06T15:30:08.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/karola3vax/CS2FOW",
-      "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
-      "url": "https://github.com/karola3vax/CS2FOW",
-      "summary": "Article URL: https://github.com/karola3vax/CS2FOW Comments URL: https://news.ycombinator.com/item?id=48805965 Points: 72 # Comments: 35",
-      "publishedAt": "2026-07-06T15:23:34.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -145,16 +205,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-      "summary": "Article URL: https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo Comments URL: https://news.ycombinator.com/item?id=48805624 Points: 225 # Comments: 165",
-      "publishedAt": "2026-07-06T15:01:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nasa-breaking-news:https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies",
       "title": "NASA’s CAPSTONE Completes Extended Mission Testing Lunar Technologies",
       "url": "https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies",
@@ -175,16 +225,6 @@
       "category": "AI"
     },
     {
-      "id": "hacker-news:https://github.com/christopherkarani/Swarm",
-      "title": "Show HN: I Built LangGraph for Swift",
-      "url": "https://github.com/christopherkarani/Swarm",
-      "summary": "Article URL: https://github.com/christopherkarani/Swarm Comments URL: https://news.ycombinator.com/item?id=48805437 Points: 20 # Comments: 3",
-      "publishedAt": "2026-07-06T14:47:45.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year",
       "title": "Canadian spy agency says it hacked drug traffickers, extremists, and a ransomware gang last year",
       "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year",
@@ -203,16 +243,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://news.xbox.com/en-us/2026/07/06/resetting-xbox",
-      "title": "Resetting Xbox",
-      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox",
-      "summary": "Article URL: https://news.xbox.com/en-us/2026/07/06/resetting-xbox/ Comments URL: https://news.ycombinator.com/item?id=48804993 Points: 342 # Comments: 299",
-      "publishedAt": "2026-07-06T14:18:23.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/ai/2026/07/uk-regulator-warns-of-arms-race-to-keep-up-with-ai-use-in-financial-services",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-07-06T13:31:24.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://dernocua.github.io/notes/aluminum-foil.html",
-      "title": "Aluminum foil (2021)",
-      "url": "https://dernocua.github.io/notes/aluminum-foil.html",
-      "summary": "Article URL: https://dernocua.github.io/notes/aluminum-foil.html Comments URL: https://news.ycombinator.com/item?id=48804297 Points: 206 # Comments: 96",
-      "publishedAt": "2026-07-06T13:28:57.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/workers-cache",
-      "title": "Your Worker can now have its own cache in front of it",
-      "url": "https://blog.cloudflare.com/workers-cache",
-      "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
-      "publishedAt": "2026-07-06T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups",
-      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
-      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups",
-      "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
-      "publishedAt": "2026-07-06T13:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     }
   ]

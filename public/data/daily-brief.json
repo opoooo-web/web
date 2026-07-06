@@ -1,99 +1,91 @@
 {
-  "generatedAt": "2026-07-06T09:11:27.057Z",
+  "generatedAt": "2026-07-06T12:59:56.729Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is buzzing with significant advancements in AI, reflected in new model releases like GPT-5.6 Sol Ultra, hardware innovations such as LLM-optimized inference chips, and discussions around the cost-effectiveness of AI versus human engineers. Robotics and smart glasses continue to attract substantial investment, while critical infrastructure providers are rolling out new features to support AI traffic monetization and scalable compute. In scientific breakthroughs, a device capable of reviving donor eyeballs hints at future transplant possibilities, and NASA navigates both cosmic observations and urgent satellite rescue missions.",
+  "narrative": "Today's brief highlights significant progress in AI, particularly in robotics and agentic systems, alongside key developments in developer tools, sustainable technology, and space science. Cloud infrastructure continues to evolve with faster deployment capabilities.",
   "highlights": [
     {
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "whyItMatters": "This release brings new capabilities for robotics development, focusing on improved evaluation and iterative design.",
+      "sourceName": "Hugging Face Blog",
+      "sourceUrl": "https://huggingface.co/blog/lerobot-release-v060",
+      "category": "AI",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "title": "Road to Elm 1.0",
+      "whyItMatters": "The development of Elm 1.0 promises faster build times and a more stable experience for developers.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://elm-lang.org/news/faster-builds",
+      "category": "Developer",
+      "publishedAt": "2026-07-06T11:47:37.000Z"
+    },
+    {
+      "title": "Bentley teases its first EV, the Torcal",
+      "whyItMatters": "Bentley's entry into the electric vehicle market signifies a shift towards electrification in luxury automotive brands.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/cars/2026/07/06/bentley-teases-its-first-ev-the-torcal",
+      "category": "Technology",
+      "publishedAt": "2026-07-06T11:30:38.000Z"
+    },
+    {
+      "title": "Study: ultra-black coating could reduce satellite light pollution",
+      "whyItMatters": "New research offers a potential solution to mitigate light pollution caused by satellites, aiding astronomical observations.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.surrey.ac.uk/news/astrophysicists-show-how-worlds-darkest-coating-could-protect-night-sky-satellite-light-pollution",
+      "category": "Science",
+      "publishedAt": "2026-07-06T11:29:30.000Z"
+    },
+    {
+      "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
+      "whyItMatters": "AWS CloudFormation Express mode significantly speeds up infrastructure deployments, boosting developer and AI agent productivity.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-30T21:30:33.000Z"
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "whyItMatters": "The integration of GPT-5.6 Sol Ultra into Codex promises enhanced AI capabilities for coding and scientific applications.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "category": "AI",
+      "publishedAt": "2026-07-06T01:04:03.000Z"
+    },
+    {
       "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
-      "whyItMatters": "This signals significant investor confidence and rapid growth in the smart wearables sector.",
+      "whyItMatters": "Even Realities' significant funding round reflects growing investor confidence and innovation in the smart glasses market.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent",
       "category": "Technology",
       "publishedAt": "2026-07-06T09:00:00.000Z"
-    },
-    {
-      "title": "GPT-5.6 Sol Ultra will be in Codex",
-      "whyItMatters": "The integration of a next-generation AI model like GPT-5.6 Sol Ultra into developer tools promises substantial advancements in coding assistance and automation.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://twitter.com/thsottiaux/status/2073933490513752151",
-      "category": "Developer",
-      "publishedAt": "2026-07-06T01:04:03.000Z"
-    },
-    {
-      "title": "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon",
-      "whyItMatters": "This highlights a realistic outlook on humanoid robot deployment, focusing on industrial applications before consumer markets.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon",
-      "category": "Technology",
-      "publishedAt": "2026-07-06T06:05:29.000Z"
-    },
-    {
-      "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
-      "whyItMatters": "This scientific breakthrough could revolutionize eye transplant procedures, offering new hope for restoring sight.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible",
-      "category": "Science",
-      "publishedAt": "2026-07-03T17:34:37.000Z"
-    },
-    {
-      "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-      "whyItMatters": "NVIDIA's strategy to scale AI compute through partnerships is crucial for meeting the escalating demand for AI infrastructure.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout",
-      "category": "AI",
-      "publishedAt": "2026-07-02T03:34:48.000Z"
-    },
-    {
-      "title": "Cloudflare introduces a Monetization Gateway and new AI traffic options",
-      "whyItMatters": "These new tools empower content creators to control and monetize AI access to their data, crucial for the agentic internet.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/monetization-gateway",
-      "category": "Infrastructure",
-      "publishedAt": "2026-07-01T13:00:00.000Z"
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "whyItMatters": "This collaboration indicates a significant push towards specialized hardware for more efficient and scalable large language model inference.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "category": "AI",
-      "publishedAt": "2026-06-24T06:00:00.000Z"
-    },
-    {
-      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
-      "whyItMatters": "This research provides insights into optimizing AI-powered developer tools, enhancing productivity and flexibility across various AI models.",
-      "sourceName": "GitHub Blog",
-      "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks",
-      "category": "Developer",
-      "publishedAt": "2026-06-25T22:59:45.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Models & Hardware",
-      "summary": "Major advancements in AI models like GPT-5.6 Sol Ultra and new LLM-optimized inference chips are driving the next wave of intelligent systems.",
+      "name": "AI",
+      "summary": "Recent advancements in AI models and applications, including robotics and agentic AI for various industries.",
       "itemCount": 2
     },
     {
-      "name": "Robotics & Smart Devices",
-      "summary": "Significant investments in smart glasses and the public listing of humanoid robotics companies highlight the growth in advanced hardware.",
+      "name": "Developer",
+      "summary": "Updates in programming languages, open-source projects, and software engineering practices, enhancing productivity.",
       "itemCount": 2
     },
     {
-      "name": "Cloud & AI Infrastructure",
-      "summary": "Cloud providers are innovating with new features for AI compute at scale, agentic Internet business models, and content monetization.",
+      "name": "Technology",
+      "summary": "Innovations in consumer electronics, electric vehicles, and broader tech industry trends.",
+      "itemCount": 2
+    },
+    {
+      "name": "Science",
+      "summary": "Discoveries and research in space, environmental science, and scientific breakthroughs, impacting various fields.",
       "itemCount": 1
     },
     {
-      "name": "Space & Medical Science",
-      "summary": "Breakthroughs include devices to revive donor eyeballs for transplants and NASA missions for satellite rescue and cosmic observations.",
+      "name": "Infrastructure",
+      "summary": "Advancements in cloud computing, network management, and deployment technologies for faster, more efficient operations.",
       "itemCount": 1
-    },
-    {
-      "name": "Developer Productivity & Security",
-      "summary": "AI's role in developer tools, like GitHub Copilot, is expanding, alongside increased focus on open-source security and compliance.",
-      "itemCount": 2
     }
   ],
   "notes": []

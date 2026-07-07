@@ -5,6 +5,176 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://github.com/jimparis/qr-font",
+      "title": "Jim's TrueType QR Code Font",
+      "url": "https://github.com/jimparis/qr-font",
+      "summary": "https://qr.jim.sh/ Comments URL: https://news.ycombinator.com/item?id=48820119 Points: 89 # Comments: 9",
+      "publishedAt": "2026-07-07T16:30:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork",
+      "title": "Claude Cowork expands to mobile and web",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork",
+      "summary": "With this update, users can start a task from their desk, get status updates on their phone, and pick up the finished output later — even if their laptop is closed.",
+      "publishedAt": "2026-07-07T16:27:18.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/mplsllc/macsurf/releases/tag/v1.86",
+      "title": "MacSurf 1.68 – NetSurf on OS 9 Released",
+      "url": "https://github.com/mplsllc/macsurf/releases/tag/v1.86",
+      "summary": "Article URL: https://github.com/mplsllc/macsurf/releases/tag/v1.86 Comments URL: https://news.ycombinator.com/item?id=48820022 Points: 54 # Comments: 8",
+      "publishedAt": "2026-07-07T16:24:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree",
+      "title": "Artemis II Crew and Apollo 14 Moon Tree",
+      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree",
+      "summary": "In this photograph, the Artemis II crew participates in the dedication of the Apollo 14 Moon tree at the Lunar Receiving Park at NASA&#8217;s Johnson Space Center on June 25, 2026. This tree is a second-generation Apollo Moon tree of the loblolly pine species. The original Apollo Moon trees were grown from seeds carried aboard [&#8230;]",
+      "publishedAt": "2026-07-07T16:16:50.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
+      "title": "Facing US export controls, China's DeepSeek plans to make its own chips",
+      "url": "https://arstechnica.com/ai/2026/07/facing-us-export-controls-chinas-deepseek-plans-to-make-its-own-chips",
+      "summary": "It's early, but the plan is to reduce dependency on Nvidia and Huawei.",
+      "publishedAt": "2026-07-07T16:14:53.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/rowboatlabs/rowboat",
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "Claude’s desktop app is brilliant, but for our own daily work we kept wanting it to be less like a chat app and more like a full-fledged work app. Rowboat is our attempt at that, including the ability to build your own work surfaces inside Rowboat (more below). Our repo is https://github.com/rowboatlabs/rowboat , and there’s a demo video here: https://www.youtube.com/watch?v=et5yQABJ3xI In a previous startup, we built a deep-learning product for enterprise support reps, including teams supporting P&G brands. Models took live notes, suggested replies, and recommended actions while support reps were on calls or handling emails. One lesson stuck with us: it's not enough for the AI to be right, the help has to show up where the work is happening. So we added what we came to call “work surfaces”: dedicated areas for email, meetings, notes, browser, and parallel coding, where the assistant can help inside the workflow itself rather than only through chat: - Email client: Rowboat has a simple email client that sorts incoming emails into important vs. everything else, and pre-creates drafts for important emails. As you edit and send emails, it takes notes on your style, so future drafts get closer to your voice. - Meeting notes: We built a Granola-style local meeting notetaker. Notes are stored as plain Markdown files on your machine. After a meeting, Rowboat feeds the notes back into the knowledge graph and updates the relevant people, project, and topic notes. - Browser: We added a built-in browser, isolated from your main one, where you can log in only to the accounts you want the assistant to help with. The assistant uses browser-use skills to navigate websites. - Parallel coding: The code-mode inside Rowboat lets you spin multiple instances of Claude Code or Codex and either work with them directly or let Rowboat use your work context to orchestrate them. We built an ACP (Agent Client Protocol) client in Rowboat for this. - Notes: Rowboat has an Obsidian-style local note-taking system. It comes with graph view, bases view, and voice notes. You can also sync Google Docs files and edit them inside Rowboat. You can also build your own work surfaces inside Rowboat (web apps). Each app gets its own UI and a background agent, and can use all of Rowboat's tools, product integrations, and your work memory. For instance: an app to manage GitHub activity, project tracking, or ads campaign management. There are a few community apps at launch you can search and install, and you can publish your own by creating a GitHub repo for it and registering it. Rowboat also indexes your work into a knowledge graph that all of the above surfaces use to have better context. We did a Show HN a few months back on this: https://news.ycombinator.com/item?id=46962641 . As an example that ties some of these together: you can create an app inside Rowboat that collects feature requests from your email, meetings, and Slack and ranks them, then uses Claude Code to draft a first version of the top-ranked feature, pulling prior context about it from your knowledge graph. Rowboat is local-first: data is stored as plain Markdown files you can read, edit, or delete anytime. It is Apache-2.0 and works with any LLM, including local models through Ollama or LM Studio. We’d love to hear your thoughts, and contributions are welcome! Comments URL: https://news.ycombinator.com/item?id=48819808 Points: 29 # Comments: 7",
+      "publishedAt": "2026-07-07T16:10:44.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs",
+      "title": "Doom developer id reportedly cut in half as part of Xbox layoffs",
+      "url": "https://www.theverge.com/games/962223/doom-id-software-xbox-layoffs",
+      "summary": "As part of the mass layoffs hitting Xbox, Doom developer id Software has laid off around 50 percent of its staff, according to Game Developer. One source claimed to the publication that the cuts equate to more than 90 redundancies. Another source said that id's QA department was significantly impacted. The report was published the [&#8230;]",
+      "publishedAt": "2026-07-07T16:09:48.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "github-blog:https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide",
+      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide",
+      "summary": "New Innovation Graph data shows global developer communities growing faster than ever, with collaboration reaching new highs across many economies. The post Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide appeared first on The GitHub Blog .",
+      "publishedAt": "2026-07-07T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://30papers.com",
+      "title": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
+      "url": "https://30papers.com",
+      "summary": "Article URL: https://30papers.com/ Comments URL: https://news.ycombinator.com/item?id=48819608 Points: 229 # Comments: 38",
+      "publishedAt": "2026-07-07T15:58:13.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots",
+      "title": "Dragonflies maneuver like fighter pilots",
+      "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots",
+      "summary": "Male dragonflies' dramatic aerial combat maneuvers emerge from relatively simple vision-based rules.",
+      "publishedAt": "2026-07-07T15:54:18.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/july-2026-satellite-puzzler",
+      "title": "July 2026 Satellite Puzzler",
+      "url": "https://science.nasa.gov/earth/earth-observatory/july-2026-satellite-puzzler",
+      "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
+      "publishedAt": "2026-07-07T15:48:16.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://pgdog.dev/blog/why-yet-another-connection-pooler",
+      "title": "Why we built yet another Postgres connection pooler",
+      "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+      "summary": "Article URL: https://pgdog.dev/blog/why-yet-another-connection-pooler Comments URL: https://news.ycombinator.com/item?id=48819308 Points: 83 # Comments: 15",
+      "publishedAt": "2026-07-07T15:36:49.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
+      "title": "Microsoft fire idTech team at Id software",
+      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
+      "summary": "Article URL: https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/ Comments URL: https://news.ycombinator.com/item?id=48819244 Points: 407 # Comments: 409",
+      "publishedAt": "2026-07-07T15:33:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "summary": "",
+      "publishedAt": "2026-07-07T15:20:06.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts",
+      "title": "X adds a video editor to encourage creators to post original content, not stolen reposts",
+      "url": "https://techcrunch.com/2026/07/07/x-adds-a-video-editor-to-encourage-creators-to-post-original-content-not-stolen-reposts",
+      "summary": "X is rolling out a new video editor and recorder for iOS with multilingual captions, green-screen effects, and other editing tools.",
+      "publishedAt": "2026-07-07T15:19:33.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
+      "title": "Chat Control passed first round in EU Parliament",
+      "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
+      "summary": "Article URL: https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html Comments URL: https://news.ycombinator.com/item?id=48819008 Points: 453 # Comments: 197",
+      "publishedAt": "2026-07-07T15:16:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://replicated.live/blog/away",
+      "title": "Automating AI Away",
+      "url": "https://replicated.live/blog/away",
+      "summary": "Article URL: https://replicated.live/blog/away Comments URL: https://news.ycombinator.com/item?id=48818937 Points: 70 # Comments: 36",
+      "publishedAt": "2026-07-07T15:11:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
       "title": "Discord accidentally banned over 8,000 people for posting grids and other &#8216;benign&#8217; images",
       "url": "https://www.theverge.com/games/962156/discord-accidental-bans-grid-images",
@@ -16,7 +186,7 @@
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund",
-      "title": "Chemistry Ventures is raising $500M for its second fund",
+      "title": "VC firm Chemistry is raising $500M for its second fund",
       "url": "https://techcrunch.com/2026/07/07/chemistry-ventures-is-raising-500m-for-its-second-fund",
       "summary": "Chemistry Ventures, the VC firm launched by Bessemer, Index Ventures, and Andreessen Horowitz alums, is raising $500M for its second fund.",
       "publishedAt": "2026-07-07T15:02:02.000Z",
@@ -38,7 +208,7 @@
       "id": "hacker-news:https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html",
       "title": "The revenge of the philosophy majors",
       "url": "https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html",
-      "summary": "Article URL: https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html Comments URL: https://news.ycombinator.com/item?id=48818544 Points: 72 # Comments: 99",
+      "summary": "Article URL: https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html Comments URL: https://news.ycombinator.com/item?id=48818544 Points: 105 # Comments: 167",
       "publishedAt": "2026-07-07T14:41:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -68,7 +238,7 @@
       "id": "hacker-news:https://fightchatcontrol.eu/chat-control-overview",
       "title": "Chat Control 1.0 and 2.0 Explained",
       "url": "https://fightchatcontrol.eu/chat-control-overview",
-      "summary": "Article URL: https://fightchatcontrol.eu/chat-control-overview Comments URL: https://news.ycombinator.com/item?id=48818311 Points: 71 # Comments: 4",
+      "summary": "Article URL: https://fightchatcontrol.eu/chat-control-overview Comments URL: https://news.ycombinator.com/item?id=48818311 Points: 260 # Comments: 83",
       "publishedAt": "2026-07-07T14:23:15.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -92,16 +262,6 @@
       "publishedAt": "2026-07-07T14:00:00.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/962084/microsoft-storage-hogging-windows-11-folder",
-      "title": "Microsoft fixes storage-hogging Windows 11 folder",
-      "url": "https://www.theverge.com/tech/962084/microsoft-storage-hogging-windows-11-folder",
-      "summary": "Microsoft is addressing a Windows 11 bug that caused a folder to take up several gigabytes of storage space. As spotted earlier by Windows Latest, Microsoft included the patch in its optional June 2026 update (KB5095093), which \"improves disk space usage for the CapabilityAccessManager.db-wal file.\" The CapabilityAccessManager.db-wal file is installed on Windows 11 PCs by [&#8230;]",
-      "publishedAt": "2026-07-07T13:52:58.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -135,56 +295,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
-      "title": "Solos debuts an even lighter version of its camera-less smart glasses",
-      "url": "https://www.theverge.com/tech/961711/solos-airgo-a6-smart-glasses-ai-assistant-privacy",
-      "summary": "Solos announced a new version of its AirGo smart glasses, one that forgoes cameras for a sleeker design and an AI assistant that relies on voice interactions. Last year's AirGo A5 weighed 36 to 40 grams depending on the frame style, but the new AirGo A6 weigh around 19 grams. Part of the weight savings [&#8230;]",
-      "publishedAt": "2026-07-07T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
-      "title": "Dua Lipa opens library for banned and censored books in Portugal",
-      "url": "https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
-      "summary": "Article URL: https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal Comments URL: https://news.ycombinator.com/item?id=48817017 Points: 221 # Comments: 181",
-      "publishedAt": "2026-07-07T12:50:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much",
-      "title": "98% isn't much",
-      "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much",
-      "summary": "Article URL: https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/ Comments URL: https://news.ycombinator.com/item?id=48816959 Points: 371 # Comments: 250",
-      "publishedAt": "2026-07-07T12:45:14.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.youtube.com/watch?v=3R0Lp86GEBk",
-      "title": "A better way to tie gym shorts (or any drawstring) [video]",
-      "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
-      "summary": "Article URL: https://www.youtube.com/watch?v=3R0Lp86GEBk Comments URL: https://news.ycombinator.com/item?id=48816956 Points: 324 # Comments: 122",
-      "publishedAt": "2026-07-07T12:45:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://postgres.saneengineer.com",
-      "title": "Show HN: PostgreSQL performance and cost across 23 EC2 instance types",
-      "url": "https://postgres.saneengineer.com",
-      "summary": "Hey! I'm Andrei. I got frustrated by how people tend to build overcomplicated backend systems, being \"motivated\" by big tech case studies and popular books. So, I started exploring lean architecture, and building my digital garden of ideas, approaches and data that align with this direction. Here I want to present one of the tools – Sizing tool for PostgreSQL. I've benchmarked PostgreSQL on different EC2 instances and disks, with different initial data sets to see performance that these instances can give you. And I've built a tool to visualize this data, which I welcome you to explore. So, you can put your usual input parameters, like needed RPS and disk size as input, and find out which instance will be the most cost-efficient for your needs. You can read about the methodology here: https://postgres.saneengineer.com/about I've tested one workload – mixed 90/10 read/write, and only selected configurations. But it is extensible, and I (and you – benchmark is open source: https://github.com/anivaniuk/sanebench ) can run more configurations to have more data represented. Does it look interesting? What workload should I benchmark next? Comments URL: https://news.ycombinator.com/item?id=48816900 Points: 67 # Comments: 10",
-      "publishedAt": "2026-07-07T12:40:28.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning",
       "title": "The Download: your stake in OpenAI, and the Treasury&#8217;s AI warning",
       "url": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning",
@@ -193,116 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom",
-      "title": "Savi&#8217;s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
-      "url": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom",
-      "summary": "The company just raised $7 million in seed funding, and is launching its app for iPhone and Android on Tuesday.",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner",
-      "title": "ULA's last six Atlas Vs can't launch anything besides Boeing's Starliner",
-      "url": "https://arstechnica.com/space/2026/07/after-a-stellar-career-ulas-atlas-v-rocket-last-act-is-waiting-on-starliner",
-      "summary": "Amazon says it has enough satellites in orbit to begin initial broadband service at mid-latitudes later this year.",
-      "publishedAt": "2026-07-07T11:15:15.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale",
-      "title": "The foundational elements of AI architecture that IT leaders need to scale",
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale",
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture—the&#8230;",
-      "publishedAt": "2026-07-07T11:10:52.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics",
-      "title": "How AI could enable autonomous robot workers in workplaces—and maybe homes",
-      "url": "https://arstechnica.com/features/2026/07/robot-workers-rising-how-ai-may-drive-general-purpose-autonomy-in-robotics",
-      "summary": "Top robotics researchers and founders explain how robot autonomy is evolving.",
-      "publishedAt": "2026-07-07T11:00:18.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution",
-      "title": "Why worms (and microbes) are catching on as a manure pollution solution",
-      "url": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution",
-      "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squirming red earthworms.&#8230;",
-      "publishedAt": "2026-07-07T10:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
-      "title": "The first American autonomous ground vehicles are fighting in Ukraine",
-      "url": "https://techcrunch.com/2026/07/07/the-first-american-autonomous-ground-vehicles-are-fighting-in-ukraine",
-      "summary": "Forterra has deployed more than 100 of its self-driving ATVs in conflict zones in Ukraine.",
-      "publishedAt": "2026-07-07T09:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
-      "summary": "We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-      "publishedAt": "2026-07-07T08:54:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics",
-      "title": "NVIDIA and Hugging Face Bring New Models and Frameworks to LeRobot for the Open Robotics Community",
-      "url": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics",
-      "summary": "Open source AI has shown how quickly developers can innovate when models, data and tools are shared. Robotics has the same opportunity, but advancements in physical AI development can still be gated by costly and fragmented resources, from large datasets and robot foundation models to simulation, compute and validation tools. NVIDIA and Hugging Face are [&#8230;]",
-      "publishedAt": "2026-07-07T06:00:26.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up",
-      "title": "The World Cup From 250 Miles Up",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up",
-      "summary": "Over the years, astronauts aboard the International Space Station have photographed several of the cities hosting the 2026 FIFA World Cup.",
-      "publishedAt": "2026-07-07T04:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it",
-      "title": "Netflix invented binge-watching. Now it may have outgrown it.",
-      "url": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it",
-      "summary": "A new report suggests Netflix viewers aren’t sticking around for Season 2. The bigger issue may be that binge-watching itself is no longer the advantage it once was.",
-      "publishedAt": "2026-07-07T00:47:33.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/lerobot-release-v060",
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "url": "https://huggingface.co/blog/lerobot-release-v060",
-      "summary": "",
-      "publishedAt": "2026-07-07T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     }
   ]
 }

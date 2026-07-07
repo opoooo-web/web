@@ -5,6 +5,66 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai",
+      "title": "Your family&#8217;s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in&#8230;",
+      "publishedAt": "2026-07-06T18:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs",
+      "title": "NRC is (sort of) getting rid of \"as low as reasonably achievable\" standard",
+      "url": "https://arstechnica.com/science/2026/07/nuclear-regulatory-commission-plans-really-minor-changes-to-safety-regs",
+      "summary": "Its issues with current nuclear safety standards are termed semantic, not physical.",
+      "publishedAt": "2026-07-06T17:48:45.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.anthropic.com/research/global-workspace",
+      "title": "A global workspace in language models",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "summary": "Article URL: https://www.anthropic.com/research/global-workspace Comments URL: https://news.ycombinator.com/item?id=48808002 Points: 255 # Comments: 88",
+      "publishedAt": "2026-07-06T17:44:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/V4bel/Januscape",
+      "title": "Januscape: Guest-to-Host Escape in KVM/x86 [CVE-2026-53359]",
+      "url": "https://github.com/V4bel/Januscape",
+      "summary": "Article URL: https://github.com/V4bel/Januscape Comments URL: https://news.ycombinator.com/item?id=48807908 Points: 71 # Comments: 24",
+      "publishedAt": "2026-07-06T17:35:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview",
+      "title": "Five questions for Dr. Rubin, who’s armed with a mic and a bowtie",
+      "url": "https://www.theverge.com/science/961483/doctor-zachary-rubin-md-interview",
+      "summary": "Bullshit is cheap but truth is expensive. Anyone with half a brain cell can post wild misinformation that goes mega viral, which wastes the time and expertise of highly trained people who feel an obligation to inform others of the truth. Today I want you to meet one of those highly-trained people, Dr. Zachary Rubin, [&#8230;]",
+      "publishedAt": "2026-07-06T17:15:29.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift",
+      "title": "Katalyst's satellite rescue mission is now in pursuit of NASA's Swift",
+      "url": "https://arstechnica.com/space/2026/07/katalysts-satellite-rescue-mission-is-now-in-pursuit-of-nasas-swift",
+      "summary": "It will take several weeks for the Link spacecraft to rendezvous with NASA's Swift observatory.",
+      "publishedAt": "2026-07-06T17:14:09.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
       "title": "If you use Google, you&#8217;re training its AI. Here&#8217;s how to opt out.",
       "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out",
@@ -18,7 +78,7 @@
       "id": "hacker-news:https://github.com/iOfficeAI/OfficeCLI",
       "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
       "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "summary": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 96 # Comments: 28",
+      "summary": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 120 # Comments: 34",
       "publishedAt": "2026-07-06T16:47:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -65,16 +125,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
-      "title": "Show HN: Pulpie – Models for Cleaning the Web",
-      "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web",
-      "summary": "Hey HN, I'm Shreyash, founder of Feyn. We built Pulpie, a family of Pareto optimal models for cleaning the web. Pulpie strips boilerplate (ads, footers, sidebars) from raw HTML and returns just the main content as HTML or Markdown. We match SOTA extraction quality while being 20x cheaper. Cleaning 1 billion webpages costs $7,900 with Pulpie versus $159,000 with Dripper, the current leading extractor. The gains come from architecture. Today's leading extractors are decoders that generate output one token at a time. Each step reads the full model from memory to produce a single token. Conversely, Pulpie models are encoders. They run one forward pass over the full input HTML and label each block as boilerplate or content. As a result, Pulpie is compute-bound while decoders are memory-bound. Cheaper GPUs have relatively more compute than memory bandwidth. This makes Pulpie easy to run optimally. Here's Pulpie and Dripper cleaning the same pages side by side: https://www.youtube.com/watch?v=ibd-tIiQECo . You can try a side-by-side comparison yourself: https://huggingface.co/spaces/feyninc/pulpie Our motivation for Pulpie came from building a deep research harness. Every search API returns noisy content that contains ads, nav elements, and sidebars. In one instance, an ad for \"Gemini on Pixel\" slipped into our search results, got passed into LLM context, and ended up in the final answer served to the user. Pretty embarrassing moment for us but it helped us realize how bad data kills model intelligence. We built Pulpie to get clean data for cheap. All models are open source on Hugging Face. You can read about our training process and how to use Pulpie here: https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cl... Happy to answer any questions! Comments URL: https://news.ycombinator.com/item?id=48806575 Points: 78 # Comments: 17",
-      "publishedAt": "2026-07-06T16:04:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go",
       "title": "The incredible shrinking Xbox: Five studios, 3,200 employees let go",
       "url": "https://arstechnica.com/gaming/2026/07/the-incredible-shrinking-xbox-five-studios-3200-employees-let-go",
@@ -103,16 +153,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://arxiv.org/abs/2607.01504",
-      "title": "Kani: A Model Checker for Rust",
-      "url": "https://arxiv.org/abs/2607.01504",
-      "summary": "Article URL: https://arxiv.org/abs/2607.01504 Comments URL: https://news.ycombinator.com/item?id=48806410 Points: 116 # Comments: 7",
-      "publishedAt": "2026-07-06T15:53:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-5-on-aws-amazon-workspaces-for-ai-agents-aws-service-availability-updates-and-more-july-6-2026",
@@ -163,16 +203,6 @@
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"
-    },
-    {
-      "id": "hacker-news:https://writingclub.world/1picture1000words",
-      "title": "1k Words: A Writing Contest",
-      "url": "https://writingclub.world/1picture1000words",
-      "summary": "Article URL: https://writingclub.world/1picture1000words Comments URL: https://news.ycombinator.com/item?id=48806073 Points: 74 # Comments: 35",
-      "publishedAt": "2026-07-06T15:30:08.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-07-06T14:15:30.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir",
-      "title": "Can Partiful keep the party going?",
-      "url": "https://www.theverge.com/report/960635/partiful-app-event-planning-data-palantir",
-      "summary": "One hundred dollars will buy you 8 pounds of glitter; 10 Domino's pizzas; 406 miniature disco balls from Temu; or 100 cans of Coors Light. For a friend's birthday party one year, Ayla D'Silva spent $100 on sour candy and made a \"sour candy salad.\" Even sweeter was that she didn't have to foot the [&#8230;]",
-      "publishedAt": "2026-07-06T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/webb/nasa-webb-uncovers-unusual-galaxy-shaped-by-cosmic-collision",
-      "title": "NASA Webb Uncovers Unusual Galaxy Shaped by Cosmic Collision",
-      "url": "https://science.nasa.gov/missions/webb/nasa-webb-uncovers-unusual-galaxy-shaped-by-cosmic-collision",
-      "summary": "In new images from NASA’s James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer, and far more complex, than ever seen before. Webb’s unprecedented sensitivity across near- and mid-infrared wavelengths cuts through the thick lanes of dust that obscure Centaurus A’s center in visible light, showing […]",
-      "publishedAt": "2026-07-06T14:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026",
-      "title": "Microsoft is selling off four Xbox studios as part of significant gaming cuts",
-      "url": "https://www.theverge.com/news/961546/xbox-layoffs-studio-sales-2026",
-      "summary": "Microsoft is laying off 4,800 employees today, and more than 30 percent of the job losses are in the company's Xbox division. The significant gaming cuts will affect nearly every part of Xbox and also involve four game studios being spun off to be run independently from Microsoft. Today's layoffs, which are being described as [&#8230;]",
-      "publishedAt": "2026-07-06T13:31:24.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     }
   ]

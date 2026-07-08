@@ -1,76 +1,91 @@
 {
-  "generatedAt": "2026-07-08T11:58:23.007Z",
+  "generatedAt": "2026-07-08T14:42:23.096Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's briefing highlights significant advancements in AI, technology, and developer tools. Key developments include new AI capabilities for enterprise and open source, alongside critical security updates and hardware innovations. Space and scientific research also show progress, emphasizing continuous evolution across various tech sectors.",
+  "narrative": "This daily brief highlights significant strides in AI, with new robotics navigation models and substantial investments in AI chip development. However, these advancements are accompanied by growing cybersecurity concerns, as AI tools are exploited for malicious purposes and agent-based systems reveal security vulnerabilities. Meanwhile, the aerospace sector continues to attract major funding for next-generation propulsion, and global resource dynamics show important shifts in critical mineral supply chains.",
   "highlights": [
     {
-      "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
-      "whyItMatters": "This signifies a major investment in domestic chip production and supply chain strengthening.",
+      "title": "Mistral's Robostral Navigate: a state of the art robotics navigation model",
+      "whyItMatters": "This new model signifies advancements in autonomous robotics navigation.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips",
-      "category": "Developer",
-      "publishedAt": "2026-07-08T11:30:56.000Z"
+      "sourceUrl": "https://mistral.ai/news/robostral-navigate",
+      "category": "AI",
+      "publishedAt": "2026-07-08T14:09:17.000Z"
     },
     {
-      "title": "List of European organizations that have banned personal messaging apps at work",
-      "whyItMatters": "The growing trend of banning personal messaging apps at work highlights increasing concerns over data security and productivity.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.birdy.chat/blog/the-growing-list-of-european-organisations-that-ban-personal-messaging-apps-at-work",
-      "category": "Developer",
-      "publishedAt": "2026-07-08T11:03:34.000Z"
-    },
-    {
-      "title": "The robotaxi law that could ban Tesla",
-      "whyItMatters": "A potential robotaxi law in New Jersey could significantly impact Tesla's autonomous vehicle strategy by requiring lidar and radar.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/transportation/962309/new-jersey-robotaxi-bill-lidar-tesla",
-      "category": "Technology",
-      "publishedAt": "2026-07-08T11:00:00.000Z"
-    },
-    {
-      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
-      "whyItMatters": "This unusual discovery of an obfuscated bash script on a consumer product raises questions about embedded code in everyday items.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores",
-      "category": "Developer",
-      "publishedAt": "2026-07-08T08:46:06.000Z"
-    },
-    {
-      "title": "Geosql: A Claude/Codex skill for geospatial data",
-      "whyItMatters": "The development of Geosql showcases AI's expanding capabilities in handling specialized data, particularly for geospatial analysis.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/dekart-xyz/geosql",
-      "category": "Developer",
-      "publishedAt": "2026-07-08T08:37:26.000Z"
-    },
-    {
-      "title": "Samsung will launch its new wide foldable on July 22nd",
-      "whyItMatters": "Samsung's upcoming foldable phone launch signals continued innovation and diversification in the mobile device market.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/962658/samsung-galaxy-unpacked-wide-foldable-watch-july",
-      "category": "Technology",
-      "publishedAt": "2026-07-08T08:13:52.000Z"
-    },
-    {
-      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
-      "whyItMatters": "ZML's new software aims to reduce the cost of running AI, potentially democratizing access to powerful AI inference capabilities.",
+      "title": "Venus Aerospace raises $90M Series B to build a new kind of rocket engine",
+      "whyItMatters": "Significant funding boosts innovation in advanced rocket propulsion technology.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips",
+      "sourceUrl": "https://techcrunch.com/2026/07/08/venus-aerospace-raises-90m-series-b-to-build-a-new-kind-of-rocket-engine",
       "category": "Technology",
-      "publishedAt": "2026-07-08T08:00:00.000Z"
+      "publishedAt": "2026-07-08T14:07:49.000Z"
+    },
+    {
+      "title": "Cloudflare Meerkat - Globally distributed consensus",
+      "whyItMatters": "Cloudflare's new Meerkat system enhances distributed consensus for improved system reliability.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://blog.cloudflare.com/meerkat-introduction",
+      "category": "Developer",
+      "publishedAt": "2026-07-08T13:18:03.000Z"
+    },
+    {
+      "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "whyItMatters": "AI tools are being exploited for malicious purposes, raising significant cybersecurity concerns.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+      "category": "Technology",
+      "publishedAt": "2026-07-08T07:00:51.000Z"
+    },
+    {
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "whyItMatters": "A security flaw in GitHub's AI agent highlights risks of exposing sensitive data in AI-assisted development.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "category": "Developer",
+      "publishedAt": "2026-07-08T05:25:35.000Z"
+    },
+    {
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "whyItMatters": "Massive investment in AI hardware continues, signaling rapid growth and fierce competition in the sector.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close",
+      "category": "Technology",
+      "publishedAt": "2026-07-08T07:16:00.000Z"
+    },
+    {
+      "title": "US rare earths flow to Asia as domestic demand is slow to emerge",
+      "whyItMatters": "This trend impacts domestic technology supply chains and global resource distribution, highlighting economic shifts.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/07/08/us-rare-earths-flow-to-asia-as-domestic-demand-is-slow-to-emerge",
+      "category": "Technology",
+      "publishedAt": "2026-07-08T13:26:10.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Developer",
-      "summary": "Key developments for developers include Apple's increased chip spend, security concerns with messaging apps, and new AI tools for geospatial data.",
-      "itemCount": 4
+      "name": "AI Innovation & Funding",
+      "summary": "New AI models for robotics navigation emerge, while AI chip makers secure significant investments, pushing the boundaries of artificial intelligence.",
+      "itemCount": 2
     },
     {
-      "name": "Technology",
-      "summary": "Technological advancements include new robotaxi laws impacting autonomous vehicles, Samsung's latest foldable device, and innovative AI inference software.",
-      "itemCount": 3
+      "name": "Cybersecurity in AI",
+      "summary": "Concerns rise as AI tools are exploited to create botnets, and security flaws in AI agents lead to data leaks, highlighting the need for robust defenses.",
+      "itemCount": 2
+    },
+    {
+      "name": "Space Technology & Investment",
+      "summary": "Aerospace companies secure substantial funding for developing next-generation rocket engines, driving progress in space exploration.",
+      "itemCount": 1
+    },
+    {
+      "name": "Distributed Systems & Infrastructure",
+      "summary": "Advancements in global consensus mechanisms are improving the reliability and scalability of web infrastructure.",
+      "itemCount": 1
+    },
+    {
+      "name": "Global Resource & Supply Chains",
+      "summary": "Trends in rare earth minerals indicate shifting international supply chains and challenges for domestic demand.",
+      "itemCount": 1
     }
   ],
   "notes": []

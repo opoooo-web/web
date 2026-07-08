@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hugging-face-blog:https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "summary": "",
+      "publishedAt": "2026-07-07T15:20:06.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale",
+      "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+      "url": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale",
+      "summary": "Max single-threaded CPUs at scale are a new category of CPUs built for the agentic AI era. Across the creation and deployment of an agentic system, the CPU is on the critical path for reasoning, response time and learning. CPUs are the processor which executes the work the AI model commands: the tool calling, code [&#8230;]",
+      "publishedAt": "2026-07-07T15:00:52.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge",
       "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
       "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge",
@@ -175,16 +195,6 @@
       "category": "AI"
     },
     {
-      "id": "nasa-breaking-news:https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies",
-      "title": "NASA’s CAPSTONE Completes Extended Mission Testing Lunar Technologies",
-      "url": "https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies",
-      "summary": "As NASA prepares for a sustained human presence on the Moon, missions will increasingly require spacecraft that can navigate and communicate without a direct connection to Earth. NASA’s Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment, or CAPSTONE, validated and advanced these capabilities. Designed to test and validate technologies in lunar orbit, CAPSTONE launched [&#8230;]",
-      "publishedAt": "2026-07-06T15:00:54.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities",
       "title": "How Nations Are Deploying AI for Strategic Priorities",
       "url": "https://blogs.nvidia.com/blog/nations-deploy-ai-strategic-priorities",
@@ -293,16 +303,6 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks",
-      "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
-      "url": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks",
-      "summary": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk operation.",
-      "publishedAt": "2026-07-01T17:20:30.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

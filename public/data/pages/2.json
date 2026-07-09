@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment",
+      "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "publishedAt": "2026-07-08T19:19:15.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.cloudflare.com/drop",
+      "title": "Cloudflare Drop",
+      "url": "https://www.cloudflare.com/drop",
+      "summary": "Article URL: https://www.cloudflare.com/drop/ Comments URL: https://news.ycombinator.com/item?id=48836233 Points: 340 # Comments: 165",
+      "publishedAt": "2026-07-08T19:18:26.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules",
+      "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
+      "url": "https://arstechnica.com/tech-policy/2026/07/new-york-can-restrict-sports-gambling-on-prediction-markets-us-judge-rules",
+      "summary": "Kalshi tried to ignore gambling laws on its prediction market, NY governor says.",
+      "publishedAt": "2026-07-08T19:14:02.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week",
+      "title": "Google pays $250K for Linux vulnerability allowing guest VM escapes",
+      "url": "https://arstechnica.com/security/2026/07/high-severity-guest-vm-escape-is-1-of-2-linux-vulnerabilities-to-surface-this-week",
+      "summary": "Both vulnerabilities allow untrusted users to gain root privileges.",
+      "publishedAt": "2026-07-08T19:01:19.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
       "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
       "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
@@ -35,16 +75,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
-      "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
-      "url": "https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
-      "summary": "Article URL: https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997 Comments URL: https://news.ycombinator.com/item?id=48835439 Points: 71 # Comments: 12",
-      "publishedAt": "2026-07-08T18:21:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia",
       "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
       "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia",
@@ -68,7 +98,7 @@
       "id": "hacker-news:https://x.ai/news/grok-4-5",
       "title": "Grok 4.5",
       "url": "https://x.ai/news/grok-4-5",
-      "summary": "https://cursor.com/blog/grok-4-5 Comments URL: https://news.ycombinator.com/item?id=48835111 Points: 450 # Comments: 538",
+      "summary": "https://cursor.com/blog/grok-4-5 Comments URL: https://news.ycombinator.com/item?id=48835111 Points: 531 # Comments: 712",
       "publishedAt": "2026-07-08T18:00:32.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +128,7 @@
       "id": "hacker-news:https://microsoft.github.io/flint-chart",
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
       "url": "https://microsoft.github.io/flint-chart",
-      "summary": "Data visualizations are the bridge between user and data. But building AI agents that can generate visualizations reliably can be very tricky: - simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; - complex chart specs with explicit details can produce good-looking charts, but they are verbose and agents can struggle with reliability We figured out it is a limitation on the language issue (not just AI capability thing) -- current visualization languages are a bit too low-level for AI agents, requiring them to explicitly make visual decisions that are supposed to be handled by a good compiler. Flint is a visualization intermediate language to address this issue, allow AI agents to solve this last-mile human-agent interaction problem. It provides a simple semantic-type based specification, and contains a layout optimization engine that can produce good-looking charts (filled with derived low-level details) from simple high-level specs. The result is also very human understandable and adaptable. Flint powers data formulator for generating visualizations (another open source project from microsoft https://data-formulator.ai/ ). Flint is available open source, and we built a MCP server that you can directly plug flint in your favorite agent app to play with data. Comments URL: https://news.ycombinator.com/item?id=48834924 Points: 185 # Comments: 71",
+      "summary": "Data visualizations are the bridge between user and data. But building AI agents that can generate visualizations reliably can be very tricky: - simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; - complex chart specs with explicit details can produce good-looking charts, but they are verbose and agents can struggle with reliability We figured out it is a limitation on the language issue (not just AI capability thing) -- current visualization languages are a bit too low-level for AI agents, requiring them to explicitly make visual decisions that are supposed to be handled by a good compiler. Flint is a visualization intermediate language to address this issue, allow AI agents to solve this last-mile human-agent interaction problem. It provides a simple semantic-type based specification, and contains a layout optimization engine that can produce good-looking charts (filled with derived low-level details) from simple high-level specs. The result is also very human understandable and adaptable. Flint powers data formulator for generating visualizations (another open source project from microsoft https://data-formulator.ai/ ). Flint is available open source, and we built a MCP server that you can directly plug flint in your favorite agent app to play with data. Comments URL: https://news.ycombinator.com/item?id=48834924 Points: 235 # Comments: 94",
       "publishedAt": "2026-07-08T17:46:12.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -178,7 +208,7 @@
       "id": "hacker-news:https://openai.com/index/introducing-gpt-live",
       "title": "GPT‑Live",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "summary": "Article URL: https://openai.com/index/introducing-gpt-live/ Comments URL: https://news.ycombinator.com/item?id=48834405 Points: 584 # Comments: 395",
+      "summary": "Article URL: https://openai.com/index/introducing-gpt-live/ Comments URL: https://news.ycombinator.com/item?id=48834405 Points: 649 # Comments: 425",
       "publishedAt": "2026-07-08T17:03:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -203,16 +233,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules",
-      "title": "EU now one step away from reviving private message scanning rules",
-      "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules",
-      "summary": "Article URL: https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/ Comments URL: https://news.ycombinator.com/item?id=48834296 Points: 348 # Comments: 134",
-      "publishedAt": "2026-07-08T16:53:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/google/2026/07/google-revamps-android-ai-dev-benchmark-adds-fable-5-and-other-agents",
@@ -245,6 +265,16 @@
       "category": "Science"
     },
     {
+      "id": "nasa-breaking-news:https://science.nasa.gov/directorates/smd/planetary-science-division/mars-exploration-program/nasa-awards-contracts-for-mars-advanced-surface-mobility-technology",
+      "title": "NASA Awards Contracts for Mars Advanced Surface Mobility Technology",
+      "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/mars-exploration-program/nasa-awards-contracts-for-mars-advanced-surface-mobility-technology",
+      "summary": "July 8, 2026 C.13 NASA Awards Contracts for Mars Advanced Surface Mobility Technology NASA has selected seven companies for contract awards under the Mars Exploration Program’s Science Transport and Robotic Innovation for Deployment and Exploration, or STRIDE, initiative to advance next-generation commercial robotic surface mobility for future Mars exploration. The STRIDE awards will support the […]",
+      "publishedAt": "2026-07-08T16:22:50.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents",
       "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
       "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents",
@@ -268,41 +298,11 @@
       "id": "hacker-news:https://devblogs.microsoft.com/typescript/announcing-typescript-7-0",
       "title": "TypeScript 7",
       "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0",
-      "summary": "Article URL: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/ Comments URL: https://news.ycombinator.com/item?id=48833715 Points: 454 # Comments: 169",
+      "summary": "Article URL: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/ Comments URL: https://news.ycombinator.com/item?id=48833715 Points: 520 # Comments: 205",
       "publishedAt": "2026-07-08T16:06:35.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-      "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages",
-      "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record. The post How GitHub Copilot enables zero DNS configuration for GitHub Pages appeared first on The GitHub Blog .",
-      "publishedAt": "2026-07-08T16:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates",
-      "title": "These AI startups are growing revenue at faster and faster rates",
-      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates",
-      "summary": "There are a lot of fast-growing AI startups, but some are growing even faster, they say.",
-      "publishedAt": "2026-07-08T15:41:06.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo",
-      "title": "Two teens learn the hard way not to do toy gun drive-bys from a Waymo",
-      "url": "https://arstechnica.com/cars/2026/07/two-teens-learn-the-hard-way-not-to-do-toy-gun-drivebys-from-a-waymo",
-      "summary": "The robotaxi stopped, called 911, and waited for the San Mateo Police to show up.",
-      "publishedAt": "2026-07-08T15:40:44.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

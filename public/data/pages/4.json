@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/hubble-captures-star-studded-cluster",
+      "title": "Hubble Captures Star-Studded Cluster",
+      "url": "https://www.nasa.gov/image-article/hubble-captures-star-studded-cluster",
+      "summary": "This image from NASA’s&#160;Hubble Space Telescope showcases&#160;Messier 3&#160;(M3), one of the Milky Way galaxy’s most massive globular clusters, or spherical collections of gravitationally bound stars.&#160;Globular clusters&#160;are made up of ancient stars that formed at roughly the same time from the same cloud of gas, giving those stars similar ages. Around 150 known globular clusters are [&#8230;]",
+      "publishedAt": "2026-07-08T14:13:53.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/government-national-security-partnerships",
+      "title": "Our approach to government and national security partnerships",
+      "url": "https://openai.com/index/government-national-security-partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "publishedAt": "2026-07-08T13:30:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/separating-signal-from-noise-coding-evaluations",
       "title": "Separating signal from noise in coding evaluations",
       "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
@@ -100,16 +120,6 @@
       "url": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health",
       "summary": "Following its longest hibernation period ever of nearly a year, NASA’s New Horizons spacecraft has emerged in good health and is ready to begin transmitting science data gathered in the distant Kuiper Belt far beyond Pluto. On June 23, flight controllers at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, confirmed New Horizons, […]",
       "publishedAt": "2026-07-07T17:48:49.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree",
-      "title": "Artemis II Crew and Apollo 14 Moon Tree",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-crew-and-apollo-14-moon-tree",
-      "summary": "In this photograph, the Artemis II crew participates in the dedication of the Apollo 14 Moon tree at the Lunar Receiving Park at NASA&#8217;s Johnson Space Center on June 25, 2026. This tree is a second-generation Apollo Moon tree of the loblolly pine species. The original Apollo Moon trees were grown from seeds carried aboard [&#8230;]",
-      "publishedAt": "2026-07-07T16:16:50.000Z",
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
@@ -293,16 +303,6 @@
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/workers-cache",
-      "title": "Your Worker can now have its own cache in front of it",
-      "url": "https://blog.cloudflare.com/workers-cache",
-      "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
-      "publishedAt": "2026-07-06T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

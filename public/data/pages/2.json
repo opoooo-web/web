@@ -5,6 +5,76 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
+      "title": "Microsoft&#8217;s Xbox reset is pivoting Obsidian to make Fallout instead of Avowed",
+      "url": "https://www.theverge.com/games/963024/microsoft-xbox-reset-obsidian-fallout-layoffs",
+      "summary": "As part of Microsoft's big Xbox \"reset,\" which includes layoffs affecting 3,200 staffers, jettisoning studios, and shifting investments to focus on \"higher priority projects,\" Obsidian Entertainment is changing its plans. The studio, behind games like Grounded and The Outer Worlds, is starting work on a new Fallout title and has canceled \"multiple projects,\" including a [&#8230;]",
+      "publishedAt": "2026-07-08T18:50:27.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected",
+      "title": "Elon Musk says X will send DMs when posts you&#8217;ve engaged with are corrected",
+      "url": "https://techcrunch.com/2026/07/08/elon-musk-says-x-will-send-dms-when-posts-youve-engaged-with-are-corrected",
+      "summary": "X plans to send users direct messages when posts they’ve liked, replied to, or reposted receive Community Notes, an update aimed at addressing criticism that the platform’s crowdsourced fact-checking system often arrives too late to curb misinformation.",
+      "publishedAt": "2026-07-08T18:46:20.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool",
+      "title": "Google Photos adds a new AI &#8216;Video Remix&#8217; tool",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool",
+      "summary": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos.",
+      "publishedAt": "2026-07-08T18:30:08.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
+      "title": "OpenMandriva: Statement regarding attempted distribution sabotage",
+      "url": "https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997",
+      "summary": "Article URL: https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997 Comments URL: https://news.ycombinator.com/item?id=48835439 Points: 71 # Comments: 12",
+      "publishedAt": "2026-07-08T18:21:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia",
+      "title": "Aussie gov't tells volunteers to throw out thousands of functioning test routers",
+      "url": "https://arstechnica.com/gadgets/2026/07/thousands-of-routers-bricked-after-government-program-concludes-in-australia",
+      "summary": "But the devices could \"easily be reflashed.\"",
+      "publishedAt": "2026-07-08T18:10:16.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps",
+      "title": "TikTok users don't have as much agency over their FYPs as they think",
+      "url": "https://arstechnica.com/science/2026/07/how-much-control-do-tiktok-users-really-have-over-fyps",
+      "summary": "The \"not interested\" feature is your friend, but users must intentionally and constantly curate their FYPs",
+      "publishedAt": "2026-07-08T18:00:49.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://x.ai/news/grok-4-5",
+      "title": "Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "summary": "https://cursor.com/blog/grok-4-5 Comments URL: https://news.ycombinator.com/item?id=48835111 Points: 450 # Comments: 538",
+      "publishedAt": "2026-07-08T18:00:32.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
       "title": "America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph",
       "url": "https://www.theverge.com/transportation/962753/fiat-topolino-ev-us-price-specs-micromobiilty",
@@ -28,18 +98,8 @@
       "id": "hacker-news:https://microsoft.github.io/flint-chart",
       "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
       "url": "https://microsoft.github.io/flint-chart",
-      "summary": "Data visualizations are the bridge between user and data. But building AI agents that can generate visualizations reliably can be very tricky: - simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; - complex chart specs with explicit details can produce good-looking charts, but they are verbose and agents can struggle with reliability We figured out it is a limitation on the language issue (not just AI capability thing) -- current visualization languages are a bit too low-level for AI agents, requiring them to explicitly make visual decisions that are supposed to be handled by a good compiler. Flint is a visualization intermediate language to address this issue, allow AI agents to solve this last-mile human-agent interaction problem. It provides a simple semantic-type based specification, and contains a layout optimization engine that can produce good-looking charts (filled with derived low-level details) from simple high-level specs. The result is also very human understandable and adaptable. Flint powers data formulator for generating visualizations (another open source project from microsoft https://data-formulator.ai/ ). Flint is available open source, and we built a MCP server that you can directly plug flint in your favorite agent app to play with data. Comments URL: https://news.ycombinator.com/item?id=48834924 Points: 132 # Comments: 58",
+      "summary": "Data visualizations are the bridge between user and data. But building AI agents that can generate visualizations reliably can be very tricky: - simple chart specs can be reliable, but generated charts are often of low quality due to reliance on system defaults; - complex chart specs with explicit details can produce good-looking charts, but they are verbose and agents can struggle with reliability We figured out it is a limitation on the language issue (not just AI capability thing) -- current visualization languages are a bit too low-level for AI agents, requiring them to explicitly make visual decisions that are supposed to be handled by a good compiler. Flint is a visualization intermediate language to address this issue, allow AI agents to solve this last-mile human-agent interaction problem. It provides a simple semantic-type based specification, and contains a layout optimization engine that can produce good-looking charts (filled with derived low-level details) from simple high-level specs. The result is also very human understandable and adaptable. Flint powers data formulator for generating visualizations (another open source project from microsoft https://data-formulator.ai/ ). Flint is available open source, and we built a MCP server that you can directly plug flint in your favorite agent app to play with data. Comments URL: https://news.ycombinator.com/item?id=48834924 Points: 185 # Comments: 71",
       "publishedAt": "2026-07-08T17:46:12.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.flatpanelshd.com/news.php?id=1783340582&subaction=showfull",
-      "title": "PlayStation can delete all your digital games after 3 years of inactivity (EU)",
-      "url": "https://www.flatpanelshd.com/news.php?id=1783340582&subaction=showfull",
-      "summary": "Article URL: https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582 Comments URL: https://news.ycombinator.com/item?id=48834919 Points: 183 # Comments: 84",
-      "publishedAt": "2026-07-08T17:45:26.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -53,16 +113,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://e360.yale.edu/features/cassandra-rauert-interview",
-      "title": "What Do We Know About the Microplastics Inside Us?",
-      "url": "https://e360.yale.edu/features/cassandra-rauert-interview",
-      "summary": "Article URL: https://e360.yale.edu/features/cassandra-rauert-interview Comments URL: https://news.ycombinator.com/item?id=48834898 Points: 160 # Comments: 86",
-      "publishedAt": "2026-07-08T17:43:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/gadgets/962163/switchbot-bot-rechargeable-hands-on-review",
@@ -128,7 +178,7 @@
       "id": "hacker-news:https://openai.com/index/introducing-gpt-live",
       "title": "GPT‑Live",
       "url": "https://openai.com/index/introducing-gpt-live",
-      "summary": "Article URL: https://openai.com/index/introducing-gpt-live/ Comments URL: https://news.ycombinator.com/item?id=48834405 Points: 526 # Comments: 363",
+      "summary": "Article URL: https://openai.com/index/introducing-gpt-live/ Comments URL: https://news.ycombinator.com/item?id=48834405 Points: 584 # Comments: 395",
       "publishedAt": "2026-07-08T17:03:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -158,7 +208,7 @@
       "id": "hacker-news:https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules",
       "title": "EU now one step away from reviving private message scanning rules",
       "url": "https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules",
-      "summary": "Article URL: https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/ Comments URL: https://news.ycombinator.com/item?id=48834296 Points: 300 # Comments: 122",
+      "summary": "Article URL: https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/ Comments URL: https://news.ycombinator.com/item?id=48834296 Points: 348 # Comments: 134",
       "publishedAt": "2026-07-08T16:53:06.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -205,16 +255,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://cognition.com/blog/swe-1-7",
-      "title": "SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence",
-      "url": "https://cognition.com/blog/swe-1-7",
-      "summary": "Article URL: https://cognition.com/blog/swe-1-7 Comments URL: https://news.ycombinator.com/item?id=48833866 Points: 234 # Comments: 120",
-      "publishedAt": "2026-07-08T16:19:36.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers",
       "title": "Another massive data breach exposed millions of driver&#8217;s license numbers",
       "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers",
@@ -228,7 +268,7 @@
       "id": "hacker-news:https://devblogs.microsoft.com/typescript/announcing-typescript-7-0",
       "title": "TypeScript 7",
       "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0",
-      "summary": "Article URL: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/ Comments URL: https://news.ycombinator.com/item?id=48833715 Points: 382 # Comments: 144",
+      "summary": "Article URL: https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/ Comments URL: https://news.ycombinator.com/item?id=48833715 Points: 454 # Comments: 169",
       "publishedAt": "2026-07-08T16:06:35.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -262,46 +302,6 @@
       "publishedAt": "2026-07-08T15:40:44.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.hmans.dev/blog/chatto-is-open-source",
-      "title": "Chatto is now open source",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-      "summary": "Article URL: https://www.hmans.dev/blog/chatto-is-open-source Comments URL: https://news.ycombinator.com/item?id=48833116 Points: 598 # Comments: 170",
-      "publishedAt": "2026-07-08T15:19:50.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread",
-      "title": "Ocean rift zone saw spreading happen in a sudden burst",
-      "url": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread",
-      "summary": "The crust expands at mid-ocean rifts. But how?",
-      "publishedAt": "2026-07-08T15:09:38.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
-      "summary": "NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA Nemotron 3 Ultra, achieving the highest accuracy among open models, while completing more tasks at higher throughput and running at 10x [&#8230;]",
-      "publishedAt": "2026-07-08T15:00:27.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview",
-      "title": "This jumping $800 robot camera dog filled me with joy",
-      "url": "https://www.theverge.com/gadgets/962538/mondo-robotics-beni-robot-dog-preview",
-      "summary": "What if you had a drone that wasn't a buzzy, annoying fly people wanted to swat - but rather a cute dog that runs and jumps? What if it could do tricks on command and film your tricks as well? What if it could get right back up after a nasty-looking crash, dozens of times [&#8230;]",
-      "publishedAt": "2026-07-08T15:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     }
   ]

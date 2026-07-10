@@ -5,186 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
-      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
-      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
-      "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructure to manage.",
-      "publishedAt": "2026-06-22T22:40:07.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/hyper-bug",
-      "title": "How we found a bug in the hyper HTTP library",
-      "url": "https://blog.cloudflare.com/hyper-bug",
-      "summary": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions.",
-      "publishedAt": "2026-06-22T18:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026",
-      "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026",
-      "summary": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI launches in his keynote, all built around one thesis: agents that compound value […]",
-      "publishedAt": "2026-06-22T14:46:17.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
-      "summary": "",
-      "publishedAt": "2026-06-22T13:18:56.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/patch-the-planet",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "url": "https://openai.com/index/patch-the-planet",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/daybreak-securing-the-world",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "url": "https://openai.com/index/daybreak-securing-the-world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "publishedAt": "2026-06-22T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/codex-maxxing-long-running-work",
-      "title": "Codex-maxxing for long-running work",
-      "url": "https://openai.com/index/codex-maxxing-long-running-work",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/local-models-pr-triage",
-      "title": "We got local models to triage the OpenClaw repo for FREE!*",
-      "url": "https://huggingface.co/blog/local-models-pr-triage",
-      "summary": "",
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "publishedAt": "2026-06-21T23:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/temporary-accounts",
-      "title": "Temporary Cloudflare Accounts for AI agents",
-      "url": "https://blog.cloudflare.com/temporary-accounts",
-      "summary": "The moment an agent needs to deploy something, it slams face-first into a wall built for humans. Today we're rolling out Temporary Accounts on Cloudflare Workers. Any agent can now run wrangler deploy — temporary and get a live Worker in seconds.",
-      "publishedAt": "2026-06-19T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus",
-      "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus",
-      "summary": "Announcing the general availability of Amazon Elastic Compute Cloud (Amazon EC2) G7 instances, delivering high performance GPU acceleration for AI inference, graphics, and data analytics workloads.",
-      "publishedAt": "2026-06-18T21:22:10.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling",
-      "title": "Amazon ECS introduces new high-resolution metrics for faster service auto scaling",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling",
-      "summary": "Amazon Elastic Container Service (Amazon ECS) service auto scaling automatically adjusts task counts to meet workload demand with comprehensive scaling policies, including predictive scaling for recurring traffic patterns, scheduled scaling for planned events, and target tracking to scale dynamically on real-time metrics. You can choose proactive scaling by using predictive scaling (automatic) and scheduled scaling […]",
-      "publishedAt": "2026-06-18T21:06:38.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "summary": "",
-      "publishedAt": "2026-06-18T18:13:13.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/build-your-own-vulnerability-harness",
-      "title": "Build your own vulnerability harness",
-      "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness",
-      "summary": "We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.",
-      "publishedAt": "2026-06-18T17:59:40.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "publishedAt": "2026-06-18T17:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/celebrating-12-years-of-project-galileo",
-      "title": "Celebrating 12 years of Project Galileo",
-      "url": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo",
-      "summary": "To mark the 12th anniversary of Project Galileo, Cloudflare has released its first comprehensive report analyzing cyberattacks against civil society.",
-      "publishedAt": "2026-06-18T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "title": "Improving health intelligence in ChatGPT",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "publishedAt": "2026-06-18T11:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/diagnose-rare-childhood-diseases",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "publishedAt": "2026-06-18T08:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "hugging-face-blog:https://huggingface.co/blog/peft-beyond-lora",
       "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
       "url": "https://huggingface.co/blog/peft-beyond-lora",
@@ -302,6 +122,186 @@
       "publishedAt": "2026-06-17T10:18:05.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/ai-chemist-improves-reaction",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "publishedAt": "2026-06-17T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/zai-org/glm-52-blog",
+      "title": "GLM-5.2: Built for Long-Horizon Tasks",
+      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "summary": "",
+      "publishedAt": "2026-06-17T09:01:25.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-life-sci-bench",
+      "title": "Introducing LifeSciBench",
+      "url": "https://openai.com/index/introducing-life-sci-bench",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "summary": "",
+      "publishedAt": "2026-06-17T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects",
+      "title": "Amazon S3 annotations: attach rich, queryable context directly to your objects",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects",
+      "summary": "Amazon S3 now lets you attach up to 1 GB of rich, mutable, and queryable context directly to your objects using annotations, purpose-built for AI agents and autonomous workflows that need to discover, understand, and act on data at scale without maintaining separate metadata systems.",
+      "publishedAt": "2026-06-16T23:13:10.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/dmarc-management-ga",
+      "title": "Cloudflare DMARC Management is now generally available",
+      "url": "https://blog.cloudflare.com/dmarc-management-ga",
+      "summary": "Get unified visibility into your email authentication posture and reach full DMARC enforcement with deeper reporting, record analysis, and SPF audits free for every Cloudflare customer.",
+      "publishedAt": "2026-06-16T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/deployment-simulation",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "url": "https://openai.com/index/deployment-simulation",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "publishedAt": "2026-06-16T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access",
+      "title": "AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access",
+      "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access",
+      "summary": "AWS WAF launches AI traffic monetization, a new Bot Control capability that enables content providers and publishers price, meter, and collect payment from AI bots and agents accessing their content and APIs. AWS WAF now lets you set a price for that access, accept payment through third-party providers, and grant scoped access directly at the edge.",
+      "publishedAt": "2026-06-15T20:42:13.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026",
+      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+      "publishedAt": "2026-06-15T15:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare",
+      "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
+      "url": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare",
+      "summary": "Cloudflare is deepening our investment in AI with the addition of team members from Ensemble AI, focusing on machine learning infrastructure and efficiency.",
+      "publishedAt": "2026-06-15T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026",
+      "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026",
+      "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to see them go live this week. I just won’t be […]",
+      "publishedAt": "2026-06-15T11:41:48.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/introducing-openai-partner-network",
+      "title": "Introducing the OpenAI Partner Network",
+      "url": "https://openai.com/index/introducing-openai-partner-network",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "publishedAt": "2026-06-14T17:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/academy-courses-applying-ai-at-work",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "publishedAt": "2026-06-12T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/preply",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "url": "https://openai.com/index/preply",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "publishedAt": "2026-06-12T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments",
+      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "publishedAt": "2026-06-11T20:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/openai-to-acquire-ona",
+      "title": "OpenAI to acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/using-codex-to-simulate-black-holes",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "url": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "publishedAt": "2026-06-11T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

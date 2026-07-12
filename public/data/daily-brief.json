@@ -1,99 +1,91 @@
 {
-  "generatedAt": "2026-07-12T09:18:08.573Z",
+  "generatedAt": "2026-07-12T11:33:10.157Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is buzzing with advancements in AI, particularly in agentic systems and open models, while infrastructure providers focus on scaling compute and enhancing security. Key developments include new AI chips and frameworks, as well as significant investments in data centers and cloud services to support the growing demand for AI. Science and developer communities are also leveraging AI for complex tasks, from medical research to code development, indicating a broad integration of AI across various sectors.",
+  "narrative": "Recent developments highlight a dynamic shift in technology and AI, from evolving social media engagement to significant advancements in distributed AI computing and smart device privacy. Concurrently, the booming GPU market faces scrutiny over its financing, while legal challenges over AI trade secrets underscore growing industry competition. Breakthroughs in fundamental science, like precision tests of Einstein's theory, continue alongside rapid AI model innovation, as evidenced by OpenAI's GPT-5.6 release.",
   "highlights": [
     {
+      "title": "Death of the Status Update: Why 55% of Americans Stopped Posting on Social Media",
+      "whyItMatters": "A significant shift in social media usage indicates evolving user behavior and potential implications for online communication platforms.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://ca.pcmag.com/social-media/16790/the-death-of-the-status-update-why-55-of-americans-stopped-posting-on-social-media",
+      "category": "Developer",
+      "publishedAt": "2026-07-12T10:14:40.000Z"
+    },
+    {
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "whyItMatters": "Innovations in distributed AI computing are crucial for scaling complex AI models and applications efficiently.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.iroh.computer/blog/mesh-llm",
+      "category": "Developer",
+      "publishedAt": "2026-07-11T22:38:57.000Z"
+    },
+    {
+      "title": "Smart glasses without a camera? Even Realities bets productivity beats recording everyone",
+      "whyItMatters": "A new approach to smart glasses prioritizes privacy and productivity, aiming to avoid the surveillance concerns of camera-equipped devices.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/11/smart-glasses-without-a-camera-even-realities-bets-productivity-beats-recording-everyone",
+      "category": "Technology",
+      "publishedAt": "2026-07-11T17:30:00.000Z"
+    },
+    {
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "whyItMatters": "This article sheds light on the economic drivers and interconnected investments fueling the rapid expansion of GPU technology for AI.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "category": "Developer",
+      "publishedAt": "2026-07-11T17:21:49.000Z"
+    },
+    {
+      "title": "An orbiting disco ball gave Einstein’s theory its most precise test yet",
+      "whyItMatters": "Cutting-edge space experiments continue to refine our understanding of fundamental physics, pushing the boundaries of scientific measurement.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet",
+      "category": "Technology",
+      "publishedAt": "2026-07-10T16:11:35.000Z"
+    },
+    {
+      "title": "Apple sues OpenAI over alleged trade secret theft",
+      "whyItMatters": "A major lawsuit highlights increasing tensions and legal battles over intellectual property in the rapidly evolving AI industry.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft",
+      "category": "Technology",
+      "publishedAt": "2026-07-10T21:00:29.000Z"
+    },
+    {
       "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "whyItMatters": "OpenAI released GPT-5.6, offering more intelligence per token and improved performance for complex tasks, signaling a new era of scalable AI capabilities.",
+      "whyItMatters": "OpenAI announces significant advancements in its GPT model, promising enhanced capabilities for complex tasks and broader application in various fields.",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/gpt-5-6",
       "category": "AI",
       "publishedAt": "2026-07-09T10:00:00.000Z"
-    },
-    {
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "whyItMatters": "ChatGPT Work introduces an agent capable of performing long-running tasks across applications and files, transforming how AI assists in complex projects.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "category": "AI",
-      "publishedAt": "2026-07-09T10:00:00.000Z"
-    },
-    {
-      "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-      "whyItMatters": "NVIDIA Nemotron 3 Ultra demonstrates superior performance with LangChain's Deep Agents harness, providing high accuracy and throughput for AI agent orchestration.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack",
-      "category": "AI",
-      "publishedAt": "2026-07-08T15:00:27.000Z"
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "whyItMatters": "Google's Gemini API expands managed agents with new capabilities for reliable, production-ready AI, including background tasks and remote management.",
-      "sourceName": "Google AI",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
-      "category": "AI",
-      "publishedAt": "2026-07-07T08:54:00.000Z"
-    },
-    {
-      "title": "AWS Lambda introduces MicroVMs",
-      "whyItMatters": "AWS Lambda now offers MicroVMs for isolated sandboxes with full lifecycle control and state preservation, enhancing serverless compute capabilities.",
-      "sourceName": "AWS News Blog",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
-      "category": "Infrastructure",
-      "publishedAt": "2026-06-22T22:40:07.000Z"
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "whyItMatters": "OpenAI and Broadcom introduced 'Jalapeño,' a custom AI chip designed to improve LLM inference performance and efficiency across AI systems.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "category": "AI",
-      "publishedAt": "2026-06-24T06:00:00.000Z"
-    },
-    {
-      "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-      "whyItMatters": "AWS Certificate Manager now supports ACME for automated public TLS certificate issuance and renewal, simplifying certificate management and reducing operational risk.",
-      "sourceName": "AWS News Blog",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager",
-      "category": "Infrastructure",
-      "publishedAt": "2026-06-30T20:15:11.000Z"
-    },
-    {
-      "title": "A Jupiter-size planet that escaped its star's death",
-      "whyItMatters": "Scientists discovered a Jupiter-sized planet that mysteriously survived its star's red giant phase, challenging current astronomical models.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/07/a-jupiter-size-planet-that-escaped-its-stars-death",
-      "category": "Science",
-      "publishedAt": "2026-07-11T12:00:58.000Z"
     }
   ],
   "topics": [
     {
       "name": "AI",
-      "summary": "Rapid advancements in AI, including new models like GPT-5.6, enhanced agentic capabilities, specialized chips, and widespread enterprise adoption, continue to drive innovation across industries.",
-      "itemCount": 110
-    },
-    {
-      "name": "Infrastructure",
-      "summary": "Significant developments in cloud infrastructure, such as AWS MicroVMs, improved caching, post-quantum security measures, and automated certificate management, are supporting the growing demands of AI and agentic systems.",
-      "itemCount": 60
+      "summary": "The AI sector is experiencing rapid advancement and expansion, driven by innovations in distributed computing, new model releases like GPT-5.6, and strategic partnerships aiming to integrate AI across diverse industries. The debate surrounding data privacy and responsible AI development remains central, with significant legal and ethical considerations emerging.",
+      "itemCount": 54
     },
     {
       "name": "Technology",
-      "summary": "Innovations in technology span smart glasses, quantum computing, digital privacy regulations, and advancements in gaming and media streaming, reflecting a diverse and evolving landscape.",
-      "itemCount": 55
+      "summary": "The technology landscape is marked by significant shifts in social media, evolving hardware like smart glasses, and major legal disputes concerning AI intellectual property. Innovations in space technology and consumer electronics continue, alongside increasing regulatory scrutiny on major tech platforms.",
+      "itemCount": 49
     },
     {
       "name": "Developer",
-      "summary": "New tools and platforms are emerging for developers, focusing on enhancing coding workflows, securing repositories, and fostering open-source collaboration, particularly in the context of AI and agentic systems.",
-      "itemCount": 35
+      "summary": "The developer ecosystem is seeing rapid innovation in AI-powered coding tools, open-source collaboration, and enhanced security measures for software supply chains. New runtimes and frameworks continue to emerge, supporting distributed AI and improved development workflows.",
+      "itemCount": 42
     },
     {
       "name": "Science",
-      "summary": "Scientific breakthroughs include new insights into planetary dynamics, medical AI applications, environmental solutions, and significant milestones in space exploration and citizen science projects.",
-      "itemCount": 30
+      "summary": "Significant scientific breakthroughs range from new understandings of liquid fracture and cellular computation to cosmic observations and advanced space exploration missions by NASA. Research into AI's inner workings also continues, pushing the boundaries of our understanding of artificial intelligence.",
+      "itemCount": 28
+    },
+    {
+      "name": "Infrastructure",
+      "summary": "Cloud infrastructure is evolving rapidly with new caching strategies, consensus algorithms, and serverless compute options, including MicroVMs and accelerated GPU instances. Security remains a top priority, with advancements in post-quantum encryption and Zero Trust architectures.",
+      "itemCount": 33
     }
   ],
   "notes": []

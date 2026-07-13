@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications",
+      "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications",
+      "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for complex multi-step queries—all integrated with AgentCore Gateway so developers can focus on business outcomes rather than infrastructure management.",
+      "publishedAt": "2026-06-17T15:09:20.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge",
+      "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge",
+      "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can focus on building agents instead of manually adding web search to agents on Bedrock AgentCore and managing its infrastructure.",
+      "publishedAt": "2026-06-17T15:00:11.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
       "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature",
@@ -145,16 +165,6 @@
       "category": "AI"
     },
     {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026",
-      "title": "AWS Weekly Roundup: AWS FinOps Agent in preview, Gemma 4 on Bedrock, Kiro Pro Max, and more (June 15, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-finops-agent-in-preview-gemma-4-on-bedrock-kiro-pro-max-and-more-june-15-2026",
-      "summary": "This week, New York City is hosting AWS Summit, bringing together builders, customers, and AWS teams for a full day of announcements, demos, and technical sessions at the Javits Center. I wrote blog posts for some of the Summit launches, so I am excited to see them go live this week. I just won’t be […]",
-      "publishedAt": "2026-06-15T11:41:48.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "openai-news:https://openai.com/index/introducing-openai-partner-network",
       "title": "Introducing the OpenAI Partner Network",
       "url": "https://openai.com/index/introducing-openai-partner-network",
@@ -292,16 +302,6 @@
       "publishedAt": "2026-06-09T10:46:19.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/notion",
-      "title": "What Codex unlocks for Notion",
-      "url": "https://openai.com/index/notion",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "publishedAt": "2026-06-09T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

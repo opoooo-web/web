@@ -1,86 +1,92 @@
 {
-  "generatedAt": "2026-07-14T06:27:35.035Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-07-14T09:18:43.443Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "Today's tech landscape highlights significant policy changes impacting data centers, groundbreaking advancements in quantum computing, and the continuous evolution of space technology. AI continues its global expansion with localized pricing strategies, while foundational cloud services mark key milestones, underpinning modern digital infrastructure.",
   "highlights": [
     {
-      "title": "Australia is offering free daytime electricity",
-      "whyItMatters": "Article URL: https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/ Comments URL: https://news.ycombinator.com/item?id=48902320 Points: 41 # Comments: 35",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works",
-      "category": "Developer",
-      "publishedAt": "2026-07-14T04:31:48.000Z"
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "whyItMatters": "This marks a significant policy shift impacting the growth of technology infrastructure and AI development.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "category": "Technology",
+      "publishedAt": "2026-07-14T09:00:00.000Z"
     },
     {
-      "title": "Fans of the Arctic",
-      "whyItMatters": "Sediment eroded from ice-capped mountains splays out across a broad river valley on Russia’s Severny Island.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/fans-of-the-arctic",
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "whyItMatters": "Advancements in quantum computing could revolutionize data processing and scientific research.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light",
       "category": "Science",
-      "publishedAt": "2026-07-14T04:01:00.000Z"
+      "publishedAt": "2026-07-14T08:00:00.000Z"
     },
     {
       "title": "YouTrackDB is a general-use object-oriented graph database",
-      "whyItMatters": "Article URL: https://github.com/JetBrains/youtrackdb Comments URL: https://news.ycombinator.com/item?id=48902026 Points: 67 # Comments: 11",
+      "whyItMatters": "New database technologies can improve data management and application development for developers.",
       "sourceName": "Hacker News",
       "sourceUrl": "https://github.com/JetBrains/youtrackdb",
       "category": "Developer",
       "publishedAt": "2026-07-14T03:39:55.000Z"
     },
     {
-      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
-      "whyItMatters": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again",
+      "title": "SpaceX is gearing up for Starship's 13th test flight later this week",
+      "whyItMatters": "Continued progress in reusable rocket technology is crucial for space exploration and satellite deployment.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/07/spacex-is-gearing-up-for-starships-13th-test-flight-later-this-week",
       "category": "Technology",
-      "publishedAt": "2026-07-14T02:46:42.000Z"
+      "publishedAt": "2026-07-14T01:17:14.000Z"
     },
     {
-      "title": "Our Amish Language",
-      "whyItMatters": "Article URL: https://www.thedial.world/articles/news/amish-pennsylvania-dutch Comments URL: https://news.ycombinator.com/item?id=48901645 Points: 29 # Comments: 6",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.thedial.world/articles/news/amish-pennsylvania-dutch",
-      "category": "Developer",
-      "publishedAt": "2026-07-14T02:40:41.000Z"
+      "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+      "whyItMatters": "AWS SQS reaching a two-decade milestone highlights the longevity and critical role of foundational cloud services in distributed systems.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-13T18:13:57.000Z"
     },
     {
-      "title": "Japan develops a method to recover up to 90% of lithium from used EV batteries",
-      "whyItMatters": "Article URL: https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries/ Comments URL: https://news.ycombinator.com/item?id=48901569 Points: 253 # Comments: 62",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://tech.supercarblondie.com/japan-recovers-up-to-90-of-lithium-from-used-ev-batteries",
-      "category": "Developer",
-      "publishedAt": "2026-07-14T02:27:20.000Z"
+      "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+      "whyItMatters": "AI companies are expanding global market reach through localized strategies, increasing accessibility and adoption.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us",
+      "category": "AI",
+      "publishedAt": "2026-07-13T15:34:59.000Z"
+    },
+    {
+      "title": "NASA’s Hubble Discovers First of Star Cluster’s Missing Black Holes",
+      "whyItMatters": "This discovery enhances our understanding of stellar evolution and the dynamics of star clusters.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/missions/hubble/nasas-hubble-discovers-first-of-star-clusters-missing-black-holes",
+      "category": "Science",
+      "publishedAt": "2026-07-13T14:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "100 source-linked updates, led by OpenAI News.",
-      "itemCount": 100
-    },
-    {
       "name": "Technology",
-      "summary": "50 source-linked updates, led by TechCrunch.",
-      "itemCount": 50
+      "summary": "Key developments in tech policy, consumer electronics, and space exploration, shaping the future of digital and physical realms.",
+      "itemCount": 25
     },
     {
-      "name": "Infrastructure",
-      "summary": "40 source-linked updates, led by AWS News Blog.",
-      "itemCount": 40
-    },
-    {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
+      "name": "AI",
+      "summary": "Advancements in artificial intelligence models, agentic systems, and their integration across industries, from scientific research to enterprise solutions.",
       "itemCount": 30
     },
     {
+      "name": "Infrastructure",
+      "summary": "Innovations in cloud computing, data center management, and network security that form the backbone of modern digital services.",
+      "itemCount": 15
+    },
+    {
       "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
+      "summary": "Breakthroughs in quantum mechanics, astronomy, and medical research, pushing the boundaries of human knowledge.",
+      "itemCount": 10
+    },
+    {
+      "name": "Developer",
+      "summary": "Updates on programming languages, development tools, and best practices for the global developer community.",
       "itemCount": 20
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
+      "title": "Microsoft tests Windows Search without all the ads and fluff",
+      "url": "https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
+      "summary": "Microsoft is testing a cleaner version of the Windows 11 search menu that strips it of recommended content and ads. In a blog post on Monday, Microsoft announced that it's rolling out the decluttered Search Box to Windows Insiders in the Experimental channel as the company looks to regain trust with users and fix Windows. [&#8230;]",
+      "publishedAt": "2026-07-13T21:53:20.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
+      "title": "OnePlus is reportedly bailing on the US",
+      "url": "https://www.theverge.com/tech/965084/oneplus-oppo-exit-us-europe",
+      "summary": "OnePlus and its parent company, Oppo, plan to announce in the coming days that OnePlus brand will be leaving the US and European markets, according to a machine translation of a WinFuture report. Should the exit actually happen, it will mark a conclusion to months of rumors about the future of OnePlus. Android Headlines said [&#8230;]",
+      "publishedAt": "2026-07-13T21:48:43.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/armstrong/nasa-study-points-to-smoother-air-taxi-rides",
+      "title": "NASA Study Points to Smoother Air Taxi Rides",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-study-points-to-smoother-air-taxi-rides",
+      "summary": "No one wants to get into an uncomfortable aircraft. NASA research could help the emerging industry of air taxis —small, vertical-takeoff-and-landing aircraft meant for short trips — understand the relationship between comfort and willingness to fly. That’s where NASA comes in, with data that can help identify how to plan air taxi rides that can [&#8230;]",
+      "publishedAt": "2026-07-13T21:46:11.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale",
+      "title": "A two-pack of DJI&#8217;s most capable wireless mics just got its first price cut",
+      "url": "https://www.theverge.com/gadgets/964914/dji-mic-three-bundle-deal-sale",
+      "summary": "Smartphones these days have incredible cameras that are capable of taking smooth, sharp video, but the microphones are often lacking, to say the least. A wireless lavalier microphone can dramatically improve the audio quality of your videos, whether you’re the only one talking, or if you’re getting audio from multiple people. The DJI Mic 3 [&#8230;]",
+      "publishedAt": "2026-07-13T21:03:14.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router",
       "title": "The US government warns that Russia state hackers are coming after your router",
       "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router",
@@ -105,11 +145,11 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "title": "Show HN: YouTube Guitar Tab Parser",
-      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "summary": "I created a simple CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab. There are services that transcribe music from Youtube videos into tabs, but they never work well enough for me. Instead I'm taking a simpler approach. It downloads the video, samples frames, uses Claude vision to locate the tab region, crops every frame to that region, de-duplicates the crops by the bar number printed on each line of the score, and stitches the distinct tab lines vertically into a PDF. I didn't test it on a lot of different Youtube videos yet, so problem will arise for sure. Comments URL: https://news.ycombinator.com/item?id=48898154 Points: 95 # Comments: 58",
-      "publishedAt": "2026-07-13T20:13:14.000Z",
+      "id": "hacker-news:https://github.com/Poseidon-fan/linux-0.11-rs",
+      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
+      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
+      "summary": "Article URL: https://github.com/Poseidon-fan/linux-0.11-rs Comments URL: https://news.ycombinator.com/item?id=48898134 Points: 101 # Comments: 83",
+      "publishedAt": "2026-07-13T20:11:29.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -123,16 +163,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-      "title": "Show HN: I implemented a neural network in SQL",
-      "url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-      "summary": "Two weeks ago I was on my babymoon in Corfu, Greece. While in transit, I was overseeing a GSoC intern submit an important feature to my array database library, Xarray-SQL. He added `to_dataset()`, which completed the roundtrip between thinking of array data in a tabular model simultaneously as gridded rasters (the premise of the project is that every Nd array can be mapped to 2d, where orthogonal dims of the Nd array are just primary keys of a tabular representation). We discussed in chat, now that this feature existed, what demos could we make that would prove this data model works? With down time on a warm beach during a heatwave, cool salty water giving me fresh ideas, I had an idea: what if we used Coiled's Geospatial benchmark discussion as a comprehensive overview of geo and climate queries. Are all of these common operations secretly relational, just with the wrong data model? Using Claude Code on the beach, I can confirm that this seemed to be the case: Claude and I publish a benchmark that illustrated how every common operation in geo and climate sciences (at the 100 TB range) were actually secretly relational operations: https://github.com/xqlsystems/xarray-sql/blob/main/docs/geos... . Most surprisingly of all, from these examples was that a core operation, regridding, was just a sparse matrix-vector product. Claude had pointed out to me that in this data model, matmul was just a `SUM(val * val) ... JOIN .. GROUP BY`. This has a direct parallel to einsum notation, but can be expressed in (arguably) elegant SQL syntax! This capability seemed to be greater than the sum of it's parts. Back in the cool water of the Ionian, I thought about the implications of this more deeply. I reflected that, all of the Coiled benchmarks did, deep down, was _post process_ simulations that happen in numerical/array code. Why couldn't these physics calculations be push down into the database also, if we could so matmul in SQL? Then it hit me: maybe they could, if in addition to linear algebra, if SQL could do calculus! https://bsky.app/profile/al.merose.com/post/3mpbods7wts2y Later on, I implemented autograd on top of DataFusion's visitor pattern based on JAX's implementation. In my simplified array model, it turns out that we only care about partial differentiation on the diagonal of the Jacobian, meaning that `grad()`, `jvp` and `vjp` are just row-wise operations! I then implemented a common physics calculation from the coiled benchmark that required gradients. From here, I realized if I can autograd in the database, why can't I create a neural network? As I came back home, I created some slides, and presented this work to DataFusion's inaugural showcase: https://www.youtube.com/watch?t=1511&v=5o-4hL8vGPw&feature=y... I realized in this synthesis that SQL is not necessarily a toy language for writing neural networks, but in fact, may be highly desirable in the future due to the fundamental principles of relational databases: the logical layer should be independent from the physical layer. If that property holds, and a neural network is a series of relations, could we create a SOTA distributed system for training more easily? For example, if we had one global logical plan of dataflow, could we better distribute work on 1000+ GPUs? Several scientists and engineers and I are working together to explore this weird world of relational arrays at https://xql.systems (discord link at the bottom if you want to get involved). Comments URL: https://news.ycombinator.com/item?id=48897975 Points: 78 # Comments: 17",
-      "publishedAt": "2026-07-13T20:00:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/cars/2026/07/first-time-ev-buyers-in-california-can-now-claim-a-new-rebate",
@@ -162,16 +192,6 @@
       "publishedAt": "2026-07-13T19:00:47.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
-      "title": "States make last-ditch effort to stop the Paramount ‘media behemoth’",
-      "url": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
-      "summary": "A dozen state attorneys general are trying to block the $110 billion merger of Paramount and Warner Bros Discovery they warn would raise movie prices and crush cable TV distributors. The states - California, Arizona, Colorado, Connecticut, Massachusetts, Minnesota, Nevada, New Jersey, New Mexico, New York, Oregon, and Washington - filed suit on Monday, arguing [&#8230;]",
-      "publishedAt": "2026-07-13T18:35:48.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -283,26 +303,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse",
-      "title": "Should AI help you get away with killing your spouse?",
-      "url": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse",
-      "summary": "What does a world of total user-aligned AI actually look like?",
-      "publishedAt": "2026-07-13T16:31:23.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026",
-      "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026",
-      "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering […]",
-      "publishedAt": "2026-07-13T16:18:20.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

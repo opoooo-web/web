@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router",
+      "title": "The US government warns that Russia state hackers are coming after your router",
+      "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router",
+      "summary": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+      "publishedAt": "2026-07-13T21:03:07.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
+      "title": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
+      "url": "https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
+      "summary": "Article URL: https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7 Comments URL: https://news.ycombinator.com/item?id=48898814 Points: 0 # Comments: 0",
+      "publishedAt": "2026-07-13T21:01:00.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai",
+      "title": "Satya Nadella has issued a shocking warning to companies using AI",
+      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai",
+      "summary": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
+      "publishedAt": "2026-07-13T20:59:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale",
       "title": "The Shokz OpenRun Pro are the cheapest they’ve been since January",
       "url": "https://www.theverge.com/gadgets/964982/shokz-openrun-pro-bone-conduction-headphones-summer-deal-sale",
@@ -78,7 +108,7 @@
       "id": "hacker-news:https://github.com/marcelpanse/youtube-guitar-tab-parser",
       "title": "Show HN: YouTube Guitar Tab Parser",
       "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
-      "summary": "I created a simple CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab. There are services that transcribe music from Youtube videos into tabs, but they never work well enough for me. Instead I'm taking a simpler approach. It downloads the video, samples frames, uses Claude vision to locate the tab region, crops every frame to that region, de-duplicates the crops by the bar number printed on each line of the score, and stitches the distinct tab lines vertically into a PDF. I didn't test it on a lot of different Youtube videos yet, so problem will arise for sure. Comments URL: https://news.ycombinator.com/item?id=48898154 Points: 85 # Comments: 52",
+      "summary": "I created a simple CLI that turns a YouTube guitar-lesson video into a PDF of the guitar tab. There are services that transcribe music from Youtube videos into tabs, but they never work well enough for me. Instead I'm taking a simpler approach. It downloads the video, samples frames, uses Claude vision to locate the tab region, crops every frame to that region, de-duplicates the crops by the bar number printed on each line of the score, and stitches the distinct tab lines vertically into a PDF. I didn't test it on a lot of different Youtube videos yet, so problem will arise for sure. Comments URL: https://news.ycombinator.com/item?id=48898154 Points: 95 # Comments: 58",
       "publishedAt": "2026-07-13T20:13:14.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +128,7 @@
       "id": "hacker-news:https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
       "title": "Show HN: I implemented a neural network in SQL",
       "url": "https://github.com/xqlsystems/xarray-sql/blob/claude/xarray-sql-mnist-demo/benchmarks/nn.py",
-      "summary": "Two weeks ago I was on my babymoon in Corfu, Greece. While in transit, I was overseeing a GSoC intern submit an important feature to my array database library, Xarray-SQL. He added `to_dataset()`, which completed the roundtrip between thinking of array data in a tabular model simultaneously as gridded rasters (the premise of the project is that every Nd array can be mapped to 2d, where orthogonal dims of the Nd array are just primary keys of a tabular representation). We discussed in chat, now that this feature existed, what demos could we make that would prove this data model works? With down time on a warm beach during a heatwave, cool salty water giving me fresh ideas, I had an idea: what if we used Coiled's Geospatial benchmark discussion as a comprehensive overview of geo and climate queries. Are all of these common operations secretly relational, just with the wrong data model? Using Claude Code on the beach, I can confirm that this seemed to be the case: Claude and I publish a benchmark that illustrated how every common operation in geo and climate sciences (at the 100 TB range) were actually secretly relational operations: https://github.com/xqlsystems/xarray-sql/blob/main/docs/geos... . Most surprisingly of all, from these examples was that a core operation, regridding, was just a sparse matrix-vector product. Claude had pointed out to me that in this data model, matmul was just a `SUM(val * val) ... JOIN .. GROUP BY`. This has a direct parallel to einsum notation, but can be expressed in (arguably) elegant SQL syntax! This capability seemed to be greater than the sum of it's parts. Back in the cool water of the Ionian, I thought about the implications of this more deeply. I reflected that, all of the Coiled benchmarks did, deep down, was _post process_ simulations that happen in numerical/array code. Why couldn't these physics calculations be push down into the database also, if we could so matmul in SQL? Then it hit me: maybe they could, if in addition to linear algebra, if SQL could do calculus! https://bsky.app/profile/al.merose.com/post/3mpbods7wts2y Later on, I implemented autograd on top of DataFusion's visitor pattern based on JAX's implementation. In my simplified array model, it turns out that we only care about partial differentiation on the diagonal of the Jacobian, meaning that `grad()`, `jvp` and `vjp` are just row-wise operations! I then implemented a common physics calculation from the coiled benchmark that required gradients. From here, I realized if I can autograd in the database, why can't I create a neural network? As I came back home, I created some slides, and presented this work to DataFusion's inaugural showcase: https://www.youtube.com/watch?t=1511&v=5o-4hL8vGPw&feature=y... I realized in this synthesis that SQL is not necessarily a toy language for writing neural networks, but in fact, may be highly desirable in the future due to the fundamental principles of relational databases: the logical layer should be independent from the physical layer. If that property holds, and a neural network is a series of relations, could we create a SOTA distributed system for training more easily? For example, if we had one global logical plan of dataflow, could we better distribute work on 1000+ GPUs? Several scientists and engineers and I are working together to explore this weird world of relational arrays at https://xql.systems (discord link at the bottom if you want to get involved). Comments URL: https://news.ycombinator.com/item?id=48897975 Points: 65 # Comments: 13",
+      "summary": "Two weeks ago I was on my babymoon in Corfu, Greece. While in transit, I was overseeing a GSoC intern submit an important feature to my array database library, Xarray-SQL. He added `to_dataset()`, which completed the roundtrip between thinking of array data in a tabular model simultaneously as gridded rasters (the premise of the project is that every Nd array can be mapped to 2d, where orthogonal dims of the Nd array are just primary keys of a tabular representation). We discussed in chat, now that this feature existed, what demos could we make that would prove this data model works? With down time on a warm beach during a heatwave, cool salty water giving me fresh ideas, I had an idea: what if we used Coiled's Geospatial benchmark discussion as a comprehensive overview of geo and climate queries. Are all of these common operations secretly relational, just with the wrong data model? Using Claude Code on the beach, I can confirm that this seemed to be the case: Claude and I publish a benchmark that illustrated how every common operation in geo and climate sciences (at the 100 TB range) were actually secretly relational operations: https://github.com/xqlsystems/xarray-sql/blob/main/docs/geos... . Most surprisingly of all, from these examples was that a core operation, regridding, was just a sparse matrix-vector product. Claude had pointed out to me that in this data model, matmul was just a `SUM(val * val) ... JOIN .. GROUP BY`. This has a direct parallel to einsum notation, but can be expressed in (arguably) elegant SQL syntax! This capability seemed to be greater than the sum of it's parts. Back in the cool water of the Ionian, I thought about the implications of this more deeply. I reflected that, all of the Coiled benchmarks did, deep down, was _post process_ simulations that happen in numerical/array code. Why couldn't these physics calculations be push down into the database also, if we could so matmul in SQL? Then it hit me: maybe they could, if in addition to linear algebra, if SQL could do calculus! https://bsky.app/profile/al.merose.com/post/3mpbods7wts2y Later on, I implemented autograd on top of DataFusion's visitor pattern based on JAX's implementation. In my simplified array model, it turns out that we only care about partial differentiation on the diagonal of the Jacobian, meaning that `grad()`, `jvp` and `vjp` are just row-wise operations! I then implemented a common physics calculation from the coiled benchmark that required gradients. From here, I realized if I can autograd in the database, why can't I create a neural network? As I came back home, I created some slides, and presented this work to DataFusion's inaugural showcase: https://www.youtube.com/watch?t=1511&v=5o-4hL8vGPw&feature=y... I realized in this synthesis that SQL is not necessarily a toy language for writing neural networks, but in fact, may be highly desirable in the future due to the fundamental principles of relational databases: the logical layer should be independent from the physical layer. If that property holds, and a neural network is a series of relations, could we create a SOTA distributed system for training more easily? For example, if we had one global logical plan of dataflow, could we better distribute work on 1000+ GPUs? Several scientists and engineers and I are working together to explore this weird world of relational arrays at https://xql.systems (discord link at the bottom if you want to get involved). Comments URL: https://news.ycombinator.com/item?id=48897975 Points: 78 # Comments: 17",
       "publishedAt": "2026-07-13T20:00:10.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -115,16 +145,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.whois.com/whois/t.me",
-      "title": "Telegram's t.me domain has been suspended",
-      "url": "https://www.whois.com/whois/t.me",
-      "summary": "Article URL: https://www.whois.com/whois/t.me Comments URL: https://news.ycombinator.com/item?id=48897878 Points: 278 # Comments: 200",
-      "publishedAt": "2026-07-13T19:52:25.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
       "title": "Apple sues OpenAI after ex-engineer allegedly used bug to steal trade secrets",
       "url": "https://arstechnica.com/tech-policy/2026/07/apple-sues-openai-after-ex-engineer-allegedly-used-bug-to-steal-trade-secrets",
@@ -133,16 +153,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://bruceediger.com/posts/tftp-honeypot-results",
-      "title": "TFTP Honey Pot Results",
-      "url": "https://bruceediger.com/posts/tftp-honeypot-results",
-      "summary": "Article URL: https://bruceediger.com/posts/tftp-honeypot-results/ Comments URL: https://news.ycombinator.com/item?id=48897329 Points: 66 # Comments: 28",
-      "publishedAt": "2026-07-13T19:11:17.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/science/2026/07/solution-to-feynmans-reverse-sprinkler-puzzle-also-applies-to-silly-sprinklers",
@@ -293,16 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/what-happens-if-crew-dragon-stops-flying-in-the-2030s",
-      "title": "A \"disaster waiting to happen\"? Industry officials worry about Crew Dragon availability.",
-      "url": "https://arstechnica.com/space/2026/07/what-happens-if-crew-dragon-stops-flying-in-the-2030s",
-      "summary": "\"It's very clear that in the United States there is a big need for an additional crew vehicle.\"",
-      "publishedAt": "2026-07-13T16:05:03.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

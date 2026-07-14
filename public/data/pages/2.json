@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview",
+      "title": "The OLED Xbox Ally X20 is so good, Asus will sell it solo",
+      "url": "https://www.theverge.com/games/965123/asus-rog-xbox-ally-x20-oled-preview",
+      "summary": "When I first told you about the \"OLED Xbox Ally X of my dreams,\" I had to curb my enthusiasm a bit. That's partly because I hadn't yet tried the handheld myself, and partly because Asus was only planning to sell it bundled with a pair of expensive AR glasses! I'm happy to say both [&#8230;]",
+      "publishedAt": "2026-07-14T16:09:09.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://agnost.ai",
+      "title": "Launch HN: Agnost AI (YC S26) – Extract user feedback from agent conversations",
+      "url": "https://agnost.ai",
+      "summary": "Hey HN, we’re Shubham & Parth, childhood friends building Agnost AI ( https://agnost.ai ), product analytics for teams building chat and voice agents. We read production conversations and find behavioral failures like users rageprompting (cursing at the agent), repeatedly rephrasing the same request, correcting the agent, asking for missing features, or leaving after an answer that was technically successful. We have an interactive demo with no signup here: https://app.agnost.ai?demo=true Here's a demo video: https://www.tella.tv/video/agnost-ai-launch-hn-demo-9haa The core problem is that chat and voice products do not have the same metrics as web apps. When the product interface is language, clicks and funnels become much less useful. Users also rarely give explicit feedback, and when they do it's usually sugarcoated. I barely type /feedback in Claude or Codex myself. Most users just curse, ask again, correct the agent, or leave. So product engineers get technical visibility from latency, errors, and traces, but still have to guess whether users got what they wanted. We got here after building around agents for the last year and got a couple of founders asking for something like a PostHog for conversations for the AI assistants they were building. We are not trying to be in the observability or evals space. Observability tells you what happened technically. Evals validate cases you already know. We're more on the discovery side like what users wanted, where they got frustrated, what they asked for repeatedly, and what new evals should exist. Teams send us agent conversation messages through SDKs or OTel, optionally with metadata like account, plan, source, organization, etc. We cluster conversations into product-specific intents. Feature requests and bugs are default categories; most other clusters are created dynamically from the customer’s data and evolve over time. You can create your own cluster in plain English. If a cluster gets too broad, we split it. If a new pattern appears, we suggest it. One AI video editor company used Agnost AI to find feature requests hidden inside chat. The biggest one was that around 70 users wanted auto-subtitles, but users said it as “add this text in this frame” 12x in a single session, “can you caption it”, “give me transcript of audio” and variations across languages. The team later built the feature. Doing this over millions of messages without sending everything to an LLM was the hard part initially. In ClickHouse, “fetch the last 50 events by time across conversations” and “fetch all events in this conversation” want different sort orders, so we had to iterate a lot on sorting keys, partitions, materialized views, and projections. For finding new clusters, sending everything through an LLM was too slow and expensive. HDBSCAN-style embedding clustering also gets painful at scale because of pairwise comparisons. We first split conversations into segments based on cosine drift, run BIRCH to compress the candidate space, and then use HDBSCAN-like clustering on the smaller set. For matching existing clusters, we use embeddings, smaller classifiers/BERT-style models, and LLMs only as fallback for ambiguous cases. We’re live with multiple companies and ingesting ~1M chat and voice messages per day. Pricing is public: Starter is free, Pro is $499/month, and Enterprise is for higher volume, security, retention needs. We use each customer’s data only for that customer. We are SOC 2 Type 1 compliant, Type 2 is in progress, and our SDKs are on PyPI and npm. We’d love feedback from the HN community and people building chat or voice agents: how do you detect these signals today, what feedback methods have worked, and what would block you from trying this? Happy to answer questions and take criticism. Comments URL: https://news.ycombinator.com/item?id=48908950 Points: 29 # Comments: 15",
+      "publishedAt": "2026-07-14T16:06:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "google-ai:https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
       "title": "Celebrating 25 years of visual search innovation",
       "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
@@ -38,8 +58,18 @@
       "id": "hacker-news:https://www.verbaprima.com",
       "title": "Show HN: Opening lines of famous literary works",
       "url": "https://www.verbaprima.com",
-      "summary": "This came from an idea that had been knocking around in my head for several years. I had been collecting opening lines of famous works and thought it would be cool to see one everyday as I opened the browser. I tried different styles but landed on the simple background with the text, let the words speak for themselves. Over time i've added more quotes I believe now there are close to 60, so hopefully you can refresh a few times and get a fresh one every time. I hope you guys like it, enjoy! Comments URL: https://news.ycombinator.com/item?id=48908271 Points: 108 # Comments: 71",
+      "summary": "This came from an idea that had been knocking around in my head for several years. I had been collecting opening lines of famous works and thought it would be cool to see one everyday as I opened the browser. I tried different styles but landed on the simple background with the text, let the words speak for themselves. Over time i've added more quotes I believe now there are close to 60, so hopefully you can refresh a few times and get a fresh one every time. I hope you guys like it, enjoy! Comments URL: https://news.ycombinator.com/item?id=48908271 Points: 125 # Comments: 73",
       "publishedAt": "2026-07-14T15:24:49.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist",
+      "title": "I'm a USB-C Maximalist",
+      "url": "https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist",
+      "summary": "Article URL: https://shkspr.mobi/blog/2026/07/im-a-usb-c-maximalist/ Comments URL: https://news.ycombinator.com/item?id=48908214 Points: 74 # Comments: 119",
+      "publishedAt": "2026-07-14T15:20:36.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -48,7 +78,7 @@
       "id": "hacker-news:https://www.artfish.ai/p/offloading-thinking-to-ai",
       "title": "Are we offloading too much of our thinking to AI?",
       "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
-      "summary": "Article URL: https://www.artfish.ai/p/offloading-thinking-to-ai Comments URL: https://news.ycombinator.com/item?id=48908178 Points: 255 # Comments: 246",
+      "summary": "Article URL: https://www.artfish.ai/p/offloading-thinking-to-ai Comments URL: https://news.ycombinator.com/item?id=48908178 Points: 302 # Comments: 301",
       "publishedAt": "2026-07-14T15:18:13.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -118,7 +148,7 @@
       "id": "hacker-news:https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a",
       "title": "The Agentic Loop: Three loops in a trench coat",
       "url": "https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a",
-      "summary": "Article URL: https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a Comments URL: https://news.ycombinator.com/item?id=48907672 Points: 39 # Comments: 9",
+      "summary": "Article URL: https://www.bobbytables.io/p/the-agentic-loop-three-loops-in-a Comments URL: https://news.ycombinator.com/item?id=48907672 Points: 55 # Comments: 11",
       "publishedAt": "2026-07-14T14:39:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -143,6 +173,16 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.derekthompson.org/p/a-philosophers-one-word-theory-to",
+      "title": "Agnes Callard’s theory of the uni-context",
+      "url": "https://www.derekthompson.org/p/a-philosophers-one-word-theory-to",
+      "summary": "Article URL: https://www.derekthompson.org/p/a-philosophers-one-word-theory-to Comments URL: https://news.ycombinator.com/item?id=48907290 Points: 78 # Comments: 87",
+      "publishedAt": "2026-07-14T14:17:39.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/07/14/telegrams-shortlink-domain-is-back-online-after-day-long-suspension",
@@ -215,10 +255,20 @@
       "category": "Infrastructure"
     },
     {
+      "id": "hacker-news:https://gwern.net/guardian-angel",
+      "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+      "url": "https://gwern.net/guardian-angel",
+      "summary": "Article URL: https://gwern.net/guardian-angel Comments URL: https://news.ycombinator.com/item?id=48906041 Points: 20 # Comments: 1",
+      "publishedAt": "2026-07-14T12:50:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://github.com/Danau5tin/ai-trains-ai",
-      "title": "Show HN: I RL-trained an agent that trains models with RL (for –$1.3k)",
+      "title": "Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)",
       "url": "https://github.com/Danau5tin/ai-trains-ai",
-      "summary": "Article URL: https://github.com/Danau5tin/ai-trains-ai Comments URL: https://news.ycombinator.com/item?id=48905919 Points: 79 # Comments: 37",
+      "summary": "Article URL: https://github.com/Danau5tin/ai-trains-ai Comments URL: https://news.ycombinator.com/item?id=48905919 Points: 87 # Comments: 39",
       "publishedAt": "2026-07-14T12:41:25.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -226,9 +276,9 @@
     },
     {
       "id": "hacker-news:https://ryanjk5.github.io/posts/rjk-duck",
-      "title": "Beautiful Type Erasure with C++26 Reflection",
+      "title": "Show HN: Beautiful Type Erasure with C++26 Reflection",
       "url": "https://ryanjk5.github.io/posts/rjk-duck",
-      "summary": "Article URL: https://ryanjk5.github.io/posts/rjk-duck/ Comments URL: https://news.ycombinator.com/item?id=48905914 Points: 94 # Comments: 37",
+      "summary": "Try it on Compiler Explorer: https://godbolt.org/z/91dj5jeGW Check out the source code: https://github.com/RyanJK5/rjk-duck Comments URL: https://news.ycombinator.com/item?id=48905914 Points: 102 # Comments: 41",
       "publishedAt": "2026-07-14T12:40:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -245,16 +295,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html",
-      "title": "Differentiable Fortran with LFortran and Enzyme",
-      "url": "https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html",
-      "summary": "Article URL: https://docs.pasteurlabs.ai/projects/tesseract-core/latest/blog/2026-07-09-enzyme-lfortran-autodiff.html Comments URL: https://news.ycombinator.com/item?id=48905667 Points: 46 # Comments: 15",
-      "publishedAt": "2026-07-14T12:21:46.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models",
       "title": "The Download: Claude&#8217;s inner workings, and the future of world models",
       "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models",
@@ -263,46 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "title": "How to stop Claude from saying load-bearing",
-      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "summary": "Article URL: https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing Comments URL: https://news.ycombinator.com/item?id=48905248 Points: 283 # Comments: 360",
-      "publishedAt": "2026-07-14T11:46:02.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://adi.bio/reality",
-      "title": "Punch yourself in the face with reality",
-      "url": "https://adi.bio/reality",
-      "summary": "Article URL: https://adi.bio/reality Comments URL: https://news.ycombinator.com/item?id=48905118 Points: 162 # Comments: 79",
-      "publishedAt": "2026-07-14T11:33:19.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.commonreader.co.uk/p/no-spanish-reading-crisis",
-      "title": "No Spanish reading crisis?",
-      "url": "https://www.commonreader.co.uk/p/no-spanish-reading-crisis",
-      "summary": "Article URL: https://www.commonreader.co.uk/p/no-spanish-reading-crisis Comments URL: https://news.ycombinator.com/item?id=48905105 Points: 66 # Comments: 108",
-      "publishedAt": "2026-07-14T11:31:59.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "title": "How to manage AI investments in the agentic era",
-      "url": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "publishedAt": "2026-07-14T10:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
     }
   ]
 }

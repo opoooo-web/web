@@ -5,6 +5,196 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://fhoehl.com/designing-algodeck",
+      "title": "What designing computer science cards taught me about graphic design",
+      "url": "https://fhoehl.com/designing-algodeck",
+      "summary": "Article URL: https://fhoehl.com/designing-algodeck Comments URL: https://news.ycombinator.com/item?id=48923209 Points: 26 # Comments: 10",
+      "publishedAt": "2026-07-15T16:22:14.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
+      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "publishedAt": "2026-07-15T16:20:18.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/vshulcz/deja-vu",
+      "title": "Open-source memory for coding agents, synced over SSH",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "summary": "Article URL: https://github.com/vshulcz/deja-vu/ Comments URL: https://news.ycombinator.com/item?id=48923111 Points: 71 # Comments: 16",
+      "publishedAt": "2026-07-15T16:15:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://spawn-queue.acm.org/doi/pdf/10.1145/3762989",
+      "title": "Unsolved Problems in MLOps",
+      "url": "https://spawn-queue.acm.org/doi/pdf/10.1145/3762989",
+      "summary": "Article URL: https://spawn-queue.acm.org/doi/pdf/10.1145/3762989 Comments URL: https://news.ycombinator.com/item?id=48923109 Points: 25 # Comments: 3",
+      "publishedAt": "2026-07-15T16:15:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://openai.com/supply/co-lab/work-louder",
+      "title": "Codex Micro",
+      "url": "https://openai.com/supply/co-lab/work-louder",
+      "summary": "Article URL: https://openai.com/supply/co-lab/work-louder/ Comments URL: https://news.ycombinator.com/item?id=48923079 Points: 189 # Comments: 154",
+      "publishedAt": "2026-07-15T16:12:58.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser",
+      "title": "Samsung shows off ‘brand new shape’ for Z Fold 8 in Spider-Man teaser",
+      "url": "https://www.theverge.com/tech/965997/samsung-spider-man-galaxy-z-fold-8-teaser",
+      "summary": "Samsung gave a sneak peek of the \"brand new shape\" for its upcoming Galaxy Z Fold 8 in a new teaser for Spider-Man: Brand New Day. The video includes a few shots of Spidey taking a foldable phone off a 3D printer and opening it book-style, but each shot is heavily obscured by lens flares. [&#8230;]",
+      "publishedAt": "2026-07-15T16:05:34.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard",
+      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard",
+      "summary": "The Codex Micro is designed to monitor multiple agentic threads at a glance.",
+      "publishedAt": "2026-07-15T16:00:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "title": "OpenAI finally launches hardware… for Codex",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is developing with former Apple designer Jony Ive, a project already tangled up in a messy lawsuit. Instead, it's a product designed to be used with its coding platform, Codex. The device, a square-shaped block of buttons called Codex Micro, [&#8230;]",
+      "publishedAt": "2026-07-15T16:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/welcome-to-the-sunny-side/misa77",
+      "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
+      "url": "https://github.com/welcome-to-the-sunny-side/misa77",
+      "summary": "I've spent the last few months working on this codec. It has the following characteristics: - SOTA decompression throughput in its ratio class - Decent ratios (comparable to LZ4 at high effort levels) - Slow compression Most of the gains can be attributed to reducing branches and making decompression very friendly to out-of-order cores, by using a smart format. Results on the tarred Silesia corpus on Intel x86-64 follow: codec decode ratio encode misa77 -0 5219 MB/s 42.64% 54.5 MB/s misa77 -1 4274 MB/s 39.65% 51.2 MB/s lz4 2505 MB/s 47.59% 371 MB/s lz4hc -12 2531 MB/s 36.45% 7.31 MB/s Comments URL: https://news.ycombinator.com/item?id=48922838 Points: 83 # Comments: 33",
+      "publishedAt": "2026-07-15T15:58:59.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://coasty.ai/docs",
+      "title": "Launch HN: Coasty (YC S26) – An API for computer-use agents",
+      "url": "https://coasty.ai/docs",
+      "summary": "Hey HN, we’re Nitish and Prateek, the founders of Coasty ( https://coasty.ai/computer-use ). We’re building computer-use agents that can complete workflows inside legacy desktop software and web applications without usable APIs. Developers send Coasty a natural-language task either through our consumer app or through our API, select a machine or browser environment, and any relevant credentials or files. The agent then operates the interface through screenshots, mouse, and keyboard input, verifies the result, and returns a structured run record with screenshots, actions, outputs, and errors. Here is a raw demo of an agent completing a workflow in a legacy application(It’s a mockup): https://drive.google.com/file/d/1ZghU_3vsAYhHVz1bsvE0pkvZYk7... A lot of important software is still difficult to automate. Healthcare teams submit prior authorizations through payer portals, accounting teams enter data into desktop applications, and operations teams move information between internal systems, spreadsheets, and remote desktops. Many of these applications have no API, incomplete APIs, or integrations that take months to build. The usual alternative is RPA, record a sequence of clicks and replay it. That works when the interface and workflow are predictable, but it often breaks when a button moves, a pop-up appears, a page loads slowly, or the application enters an unexpected state. Coasty takes a different approach. The agent observes the current screen, decides what action to take, executes it, and then observes the resulting state before continuing. It does not require DOM access, an accessibility tree, selectors, or an application-specific integration, so the same API can operate browsers, remote desktops, and older Windows applications. A simplified request looks roughly like this: run = coasty.runs.create( environment=\"vm_123\", task=\"\"\" Open the patient record in the billing portal. Enter the attached authorization data. Do not submit if the member ID or procedure code does not match. Return the confirmation number. \"\"\", files=[\"authorization.pdf\"], approval_required=[\"final_submission\"] ) The response includes the final status, extracted outputs, a replay URL, and a timestamped event log: { \"status\": \"completed\", \"output\": { \"confirmation_number\": \"PA-184392\" }, \"replay_url\": \"...\", \"events\": [ { \"type\": \"verification\", \"field\": \"member_id\", \"result\": \"matched\" } ] } The API can also pause a run for human approval, retry from a checkpoint, or return control to the developer when it encounters a condition the workflow did not anticipate. We started working on this last summer, because we saw that models were getting better at vision but kept seeing a gap between computer-use demos and the reliability needed for production workflows. Getting an agent to complete a task once is fairly straightforward. Getting it to repeat that task, recover from unexpected states, avoid silently entering incorrect data, and produce evidence of what it did is much harder. We built several layers around the underlying computer-use model. The system tracks the expected state of the workflow, detects when the application has diverged from that state, and can re-plan instead of continuing blindly. Developers can define invariants such as “the patient name must match the source document” or “never submit without approval,” and the agent checks those conditions during the run. Each run happens in an isolated virtual machine. We expose APIs for provisioning environments, uploading files, starting tasks, streaming events, inserting human approvals, and retrieving the full replay and audit trail. Environments can be kept alive across runs when the application has a long login flow or persistent local state. One problem we are still working through is the tradeoff between speed and reliability. The agent can move faster by taking fewer observations and verification steps, but that becomes risky in workflows involving patient records, payments, or regulatory filings. We currently bias toward slower execution with more checks and let developers configure approval points and verification policies. We are initially working with healthcare operations teams because their workflows combine many of the hardest conditions: payer portals, EHRs, PDFs, spreadsheets, remote desktops, and actions where quiet mistakes are expensive. We also expose the same infrastructure through the developer API for teams building their own agents and vertical automation products. We currently charge based on agent runtime and workflow volume, with separate pricing for dedicated environments and enterprise deployments. We’d especially appreciate feedback from people who have built and/or used browser agents, RPA systems, desktop automation, or agent infrastructure. We’re curious which parts of the API you would want direct control over, where you would prefer higher-level abstractions, and which failure modes have been hardest in your own automation systems. If you've hit weird failure modes automating software like this, we want to hear about them. We'll be here all day answering questions and taking notes! Comments URL: https://news.ycombinator.com/item?id=48922706 Points: 23 # Comments: 2",
+      "publishedAt": "2026-07-15T15:51:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.newyorker.com/magazine/2026/07/20/when-ai-is-a-member-of-the-family",
+      "title": "When A.I. is a member of the family",
+      "url": "https://www.newyorker.com/magazine/2026/07/20/when-ai-is-a-member-of-the-family",
+      "summary": "Article URL: https://www.newyorker.com/magazine/2026/07/20/when-ai-is-a-member-of-the-family Comments URL: https://news.ycombinator.com/item?id=48922487 Points: 42 # Comments: 55",
+      "publishedAt": "2026-07-15T15:37:47.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
+      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
+      "summary": "Article URL: https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/ Comments URL: https://news.ycombinator.com/item?id=48922434 Points: 147 # Comments: 78",
+      "publishedAt": "2026-07-15T15:34:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b",
+      "title": "Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
+      "url": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b",
+      "summary": "If completed, the acquisition would unite two of the biggest names in digital payments.",
+      "publishedAt": "2026-07-15T15:30:26.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts",
+      "title": "NASA’s Perseverance Rover Reads Record of Ancient Mars Impacts",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts",
+      "summary": "NASA’s Perseverance Mars rover has uncovered evidence that a 245-foot-thick (75-meter-thick) stack of ancient rock on the rim of Jezero Crater was built by repeated asteroid impacts. Referred to as the “Broom Point member” by the rover’s science team, this sequence of layered bedrock is likely more than 3.9 billion years old, making it among [&#8230;]",
+      "publishedAt": "2026-07-15T15:30:04.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house",
+      "title": "Daylight saving time is a step closer to becoming permanent in the US",
+      "url": "https://www.theverge.com/policy/965952/daylight-saving-time-permanent-us-house",
+      "summary": "The US is getting closer to observing daylight saving time year-round. On Tuesday, the House advanced the Sunshine Protection Act on a 308 to 117 vote, which would turn clocks one hour ahead permanently, as reported by CBS News. President Donald Trump wrote on Truth Social in May that the bill would save the \"hundreds [&#8230;]",
+      "publishedAt": "2026-07-15T15:29:37.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai",
+      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai",
+      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "publishedAt": "2026-07-15T15:29:33.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/965640/jbl-flip-7-nothing-cmf-buds-pro-2-deal-sale",
+      "title": "JBL&#8217;s Flip 7 speaker is small, versatile, and 40 percent off",
+      "url": "https://www.theverge.com/gadgets/965640/jbl-flip-7-nothing-cmf-buds-pro-2-deal-sale",
+      "summary": "Sure, Bluetooth speakers are awesome to have for picturesque beach trips, camping weekends, and other outdoor adventures. But they’re just as good to have for some sprinkler time in the yard with the kiddo, or for blasting some tunes or a podcast while you make food. No matter the use cases you have in mind, [&#8230;]",
+      "publishedAt": "2026-07-15T15:16:53.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/964658/8bitdo-flippad-controller-gamepad-smartphone-price-hands-on-availability",
+      "title": "8BitDo’s FlipPad is the most pocketable way to turn your phone into a Game Boy",
+      "url": "https://www.theverge.com/tech/964658/8bitdo-flippad-controller-gamepad-smartphone-price-hands-on-availability",
+      "summary": "Both 8BitDo and GameSir announced tiny gamepads designed to turn smartphones into Game Boy-inspired handhelds at CES 2026. GameSir released its Pocket Taco months ago, but the longer wait for 8BitDo's FlipPad has been well worth it. While the Pocket Taco may be a better fit for some players and devices, the FlipPad is a [&#8230;]",
+      "publishedAt": "2026-07-15T15:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise",
+      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise",
+      "summary": "Can a handful of engineers really do the work of an army of consultants?&#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs&#160;and others.&#160;&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan sits down with Ode’s leaders&#160;Chris Taylor&#160;and&#160;Eddie Siegel,&#160;who founded Fractional AI, [&#8230;]",
+      "publishedAt": "2026-07-15T15:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/15/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier",
       "title": "Spotify expands parent-managed accounts to users on its free tier",
       "url": "https://techcrunch.com/2026/07/15/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier",
@@ -28,7 +218,7 @@
       "id": "hacker-news:https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143",
       "title": "OpenAI loses trademark dispute at EU court",
       "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143",
-      "summary": "Article URL: https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/ Comments URL: https://news.ycombinator.com/item?id=48921461 Points: 101 # Comments: 91",
+      "summary": "Article URL: https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/ Comments URL: https://news.ycombinator.com/item?id=48921461 Points: 165 # Comments: 114",
       "publishedAt": "2026-07-15T14:32:36.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,7 +228,7 @@
       "id": "hacker-news:https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded",
       "title": "My midlife crisis Corolla is fast, furious, and modded",
       "url": "https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded",
-      "summary": "Article URL: https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/ Comments URL: https://news.ycombinator.com/item?id=48921303 Points: 47 # Comments: 89",
+      "summary": "Article URL: https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/ Comments URL: https://news.ycombinator.com/item?id=48921303 Points: 103 # Comments: 215",
       "publishedAt": "2026-07-15T14:23:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -58,7 +248,7 @@
       "id": "hacker-news:https://fitelson.org/seminar/dawid.pdf",
       "title": "The well-calibrated Bayesian [pdf] (1982)",
       "url": "https://fitelson.org/seminar/dawid.pdf",
-      "summary": "Article URL: https://fitelson.org/seminar/dawid.pdf Comments URL: https://news.ycombinator.com/item?id=48921121 Points: 39 # Comments: 11",
+      "summary": "Article URL: https://fitelson.org/seminar/dawid.pdf Comments URL: https://news.ycombinator.com/item?id=48921121 Points: 41 # Comments: 15",
       "publishedAt": "2026-07-15T14:11:12.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -66,29 +256,19 @@
     },
     {
       "id": "hacker-news:https://eardatasci.github.io/c/ambiance/index.html",
-      "title": "Towards a Harness That Can Do Anything",
+      "title": "Towards a harness that can do anything",
       "url": "https://eardatasci.github.io/c/ambiance/index.html",
-      "summary": "Article URL: https://eardatasci.github.io/c/ambiance/index.html Comments URL: https://news.ycombinator.com/item?id=48921077 Points: 85 # Comments: 51",
+      "summary": "Article URL: https://eardatasci.github.io/c/ambiance/index.html Comments URL: https://news.ycombinator.com/item?id=48921077 Points: 111 # Comments: 62",
       "publishedAt": "2026-07-15T14:08:28.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://crates.io/crates/fli-tool",
-      "title": "Show HN: 18KB ls alternative in no_std rust and Libc",
-      "url": "https://crates.io/crates/fli-tool",
-      "summary": "Article URL: https://crates.io/crates/fli-tool Comments URL: https://news.ycombinator.com/item?id=48920811 Points: 13 # Comments: 3",
-      "publishedAt": "2026-07-15T13:49:15.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://dev.moe/en/3025",
-      "title": "Mysteries of Telegram Data Centers",
+      "title": "Mysteries of Telegram Data Centers (2022)",
       "url": "https://dev.moe/en/3025",
-      "summary": "Article URL: https://dev.moe/en/3025 Comments URL: https://news.ycombinator.com/item?id=48920475 Points: 154 # Comments: 39",
+      "summary": "Article URL: https://dev.moe/en/3025 Comments URL: https://news.ycombinator.com/item?id=48920475 Points: 190 # Comments: 73",
       "publishedAt": "2026-07-15T13:22:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +278,7 @@
       "id": "hacker-news:https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
       "title": "The Three-Second Theft: Why AI Voice Fraud Outruns Every Defence",
       "url": "https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence",
-      "summary": "Article URL: https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence Comments URL: https://news.ycombinator.com/item?id=48920432 Points: 115 # Comments: 146",
+      "summary": "Article URL: https://smarterarticles.co.uk/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence Comments URL: https://news.ycombinator.com/item?id=48920432 Points: 136 # Comments: 175",
       "publishedAt": "2026-07-15T13:18:15.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -115,191 +295,11 @@
       "category": "Technology"
     },
     {
-      "id": "the-verge:https://www.theverge.com/entertainment/965621/playdate-mmo-pointlessquest",
-      "title": "The tiniest MMO",
-      "url": "https://www.theverge.com/entertainment/965621/playdate-mmo-pointlessquest",
-      "summary": "At its peak, around 12 million people subscribed to World of Warcraft so that they could explore the realm of Azeroth together. The audience for PointlessQuest is quite a bit smaller. On launch day, the game hit a peak of 15 concurrent players… and no, that sentence isn't missing a word. Then again, basically everything [&#8230;]",
-      "publishedAt": "2026-07-15T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls",
       "title": "Rime picks up $24M Series A to help enterprises field customer calls",
       "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls",
       "summary": "Rime is handling over 100 million calls each month across multiple companies.",
       "publishedAt": "2026-07-15T13:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media",
-      "title": "Reelful&#8217;s AI turns your camera roll into short-form videos for social media",
-      "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media",
-      "summary": "The app is designed for people who want to create social content, but find traditional video editing tools too complex or time-consuming.",
-      "publishedAt": "2026-07-15T13:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.ft.com/content/3a023b95-66c3-41e1-b0ce-df752a499541",
-      "title": "SpaceX bond worth 10% less than issue price – heading for junk bond status",
-      "url": "https://www.ft.com/content/3a023b95-66c3-41e1-b0ce-df752a499541",
-      "summary": "Article URL: https://www.ft.com/content/3a023b95-66c3-41e1-b0ce-df752a499541 Comments URL: https://news.ycombinator.com/item?id=48920181 Points: 436 # Comments: 370",
-      "publishedAt": "2026-07-15T12:59:09.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/get-involved/citizen-science/volunteer-measures-record-louisiana-rainfall",
-      "title": "Volunteer Measures Record Louisiana Rainfall",
-      "url": "https://science.nasa.gov/get-involved/citizen-science/volunteer-measures-record-louisiana-rainfall",
-      "summary": "Join a national community of precipitation reporters providing critical data to improve scientific understanding and forecasts.",
-      "publishedAt": "2026-07-15T12:32:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/965884/motorola-edge-70-max-qi2-wireless-price-availability",
-      "title": "The Motorola Edge 70 Max is all about power",
-      "url": "https://www.theverge.com/tech/965884/motorola-edge-70-max-qi2-wireless-price-availability",
-      "summary": "Motorola has launched the Edge 70 Max, its latest flagship phone that's designed for power intensive tasks like streaming video and mobile gaming. Alongside having a huge battery and rapid wired charging support, the Motorola Edge 70 Max is the first Android phone to support full 25W wireless Qi2 charging since Google launched the Pixel [&#8230;]",
-      "publishedAt": "2026-07-15T12:18:22.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel",
-      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
-      "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. PsiQuantum has a plan to make a massive quantum computer out of light The machine that could change the world will be housed in a room that looks like a data&#8230;",
-      "publishedAt": "2026-07-15T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "title": "The US is advancing AI safety through state and federal action",
-      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/964051/home-depot-halloween-skelly-skeleton-12-foot-mobile-app-sounds",
-      "title": "Home Depot’s viral 12-foot skeleton now talks",
-      "url": "https://www.theverge.com/tech/964051/home-depot-halloween-skelly-skeleton-12-foot-mobile-app-sounds",
-      "summary": "The Home Depot is once again upgrading its 12-foot-tall skeleton to help keep the viral piece of Halloween decor popular as spooky season creeps closer. Skelly is borrowing some of the tech introduced in the smaller 6.5-foot Ultra Skelly last year, including letting you speak through the skeleton's moving mouth using a mobile app. The [&#8230;]",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch",
-      "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
-      "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch",
-      "summary": "The startup has reached a $120 million annualized revenue run rate and more than 200,000 paying customers.",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet",
-      "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
-      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet",
-      "summary": "The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/why-realta-fusion-is-building-a-fusion-reactor-at-an-old-hot-dog-factory",
-      "title": "Why Realta Fusion is building a fusion reactor at an old hot dog factory",
-      "url": "https://techcrunch.com/2026/07/15/why-realta-fusion-is-building-a-fusion-reactor-at-an-old-hot-dog-factory",
-      "summary": "An old Oscar Mayer factory in Wisconsin will become America's latest fusion power research and development hub.",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system",
-      "title": "NASA’s Webb Discovers Hidden Planet in Famous Star System",
-      "url": "https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system",
-      "summary": "Astronomers using NASA’s James Webb Space Telescope have discovered a giant planet outside our solar system, called an exoplanet, hiding within one of the most intensely studied planetary systems in our Milky Way galaxy. The young, nearby star Beta Pictoris was already known to host two giant planets: Beta Pictoris b, one of the first […]",
-      "publishedAt": "2026-07-15T12:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space",
-      "title": "A most improbable astronaut just went to space",
-      "url": "https://arstechnica.com/space/2026/07/a-most-improbable-astronaut-just-went-to-space",
-      "summary": "\"I pretty much, at that point in time, gave up on being an astronaut.\"",
-      "publishedAt": "2026-07-15T11:30:07.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually",
-      "title": "How hard is it to build orbital data centers, actually?",
-      "url": "https://arstechnica.com/space/2026/07/how-hard-is-it-to-build-orbital-data-centers-actually",
-      "summary": "\"The ISS radiators are expensive and heavy. We're focused on making them cheap and light.\"",
-      "publishedAt": "2026-07-15T11:00:09.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse",
-      "title": "Backed by $60M in funding, Oak steps out of stealth to fix the identity mess that AI agents are making worse",
-      "url": "https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse",
-      "summary": "Co-founded by serial entrepreneur Shai Morag, Israeli identity management startup Oak is emerging out of stealth with $60 million in seed funding.",
-      "publishedAt": "2026-07-15T11:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/japan-ecosystem-2026",
-      "title": "NVIDIA and Japan Bring Full-Stack AI and Robotics to Every Industry",
-      "url": "https://blogs.nvidia.com/blog/japan-ecosystem-2026",
-      "summary": "Home to leading manufacturers, robotics pioneers, infrastructure builders and iconic gaming companies, of course, Japan is one of the world’s centers of AI — building across the full stack with NVIDIA technologies. This week NVIDIA and its partners in Japan are showcasing the AI ecosystem’s latest advancements. Check back here for updates.",
-      "publishedAt": "2026-07-15T10:51:37.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science",
-      "title": "Sotheby's big T. rex auction raises concerns hype and wealth are upending science",
-      "url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science",
-      "summary": "Private buyers are increasingly outbidding museums for fossils.",
-      "publishedAt": "2026-07-15T10:30:39.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era",
-      "title": "A SpaceX vet raised $65M to pull wire harnesses out of the Cold War era",
-      "url": "https://techcrunch.com/2026/07/15/a-spacex-vet-raised-65m-to-pull-wire-harnesses-out-of-the-cold-war-era",
-      "summary": "Someone has to bundle all the wires that go into rockets, missiles, and satellites.",
-      "publishedAt": "2026-07-15T10:30:00.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"

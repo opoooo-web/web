@@ -5,6 +5,86 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
+      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "publishedAt": "2026-07-15T16:20:18.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard",
+      "title": "OpenAI's first branded hardware is... a light-up keyboard?",
+      "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard",
+      "summary": "The Codex Micro is designed to monitor multiple agentic threads at a glance.",
+      "publishedAt": "2026-07-15T16:00:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/welcome-to-the-sunny-side/misa77",
+      "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
+      "url": "https://github.com/welcome-to-the-sunny-side/misa77",
+      "summary": "I've spent the last few months working on this codec. It has the following characteristics: - SOTA decompression throughput in its ratio class - Decent ratios (comparable to LZ4 at high effort levels) - Slow compression Most of the gains can be attributed to reducing branches and making decompression very friendly to out-of-order cores, by using a smart format. Results on the tarred Silesia corpus on Intel x86-64 follow: codec decode ratio encode misa77 -0 5219 MB/s 42.64% 54.5 MB/s misa77 -1 4274 MB/s 39.65% 51.2 MB/s lz4 2505 MB/s 47.59% 371 MB/s lz4hc -12 2531 MB/s 36.45% 7.31 MB/s Comments URL: https://news.ycombinator.com/item?id=48922838 Points: 122 # Comments: 39",
+      "publishedAt": "2026-07-15T15:58:59.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
+      "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
+      "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
+      "summary": "Article URL: https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/ Comments URL: https://news.ycombinator.com/item?id=48922434 Points: 218 # Comments: 140",
+      "publishedAt": "2026-07-15T15:34:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b",
+      "title": "Stripe and Advent reportedly offered to buy PayPal for around $53.4B",
+      "url": "https://techcrunch.com/2026/07/15/stripe-and-advent-reportedly-offered-to-buy-paypal-for-around-53-4b",
+      "summary": "If completed, the acquisition would unite two of the biggest names in digital payments.",
+      "publishedAt": "2026-07-15T15:30:26.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts",
+      "title": "NASA’s Perseverance Rover Reads Record of Ancient Mars Impacts",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-reads-record-of-ancient-mars-impacts",
+      "summary": "NASA’s Perseverance Mars rover has uncovered evidence that a 245-foot-thick (75-meter-thick) stack of ancient rock on the rim of Jezero Crater was built by repeated asteroid impacts. Referred to as the “Broom Point member” by the rover’s science team, this sequence of layered bedrock is likely more than 3.9 billion years old, making it among [&#8230;]",
+      "publishedAt": "2026-07-15T15:30:04.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai",
+      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai",
+      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "publishedAt": "2026-07-15T15:29:33.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise",
+      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise",
+      "summary": "Can a handful of engineers really do the work of an army of consultants?&#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs&#160;and others.&#160;&#160; On this episode of TechCrunch&#8217;s&#160;Equity&#160;podcast, Rebecca Bellan sits down with Ode’s leaders&#160;Chris Taylor&#160;and&#160;Eddie Siegel,&#160;who founded Fractional AI, [&#8230;]",
+      "publishedAt": "2026-07-15T15:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/15/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier",
       "title": "Spotify expands parent-managed accounts to users on its free tier",
       "url": "https://techcrunch.com/2026/07/15/spotify-expands-parent-managed-accounts-to-users-on-its-free-tier",
@@ -25,16 +105,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded",
-      "title": "My midlife crisis Corolla is fast, furious, and modded",
-      "url": "https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded",
-      "summary": "Article URL: https://www.zocalopublicsquare.org/my-midlife-crisis-corolla-fast-furious-fully-modded/ Comments URL: https://news.ycombinator.com/item?id=48921303 Points: 148 # Comments: 315",
-      "publishedAt": "2026-07-15T14:23:44.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/15/us-charges-russian-bulletproof-web-hosts-over-cyberattacks-that-netted-62m-from-cybercrime-victims",
       "title": "US charges Russian &#8216;bulletproof&#8217; web hosts over cyberattacks that netted $62M from cybercrime victims",
       "url": "https://techcrunch.com/2026/07/15/us-charges-russian-bulletproof-web-hosts-over-cyberattacks-that-netted-62m-from-cybercrime-victims",
@@ -48,18 +118,8 @@
       "id": "hacker-news:https://eardatasci.github.io/c/ambiance/index.html",
       "title": "Towards a harness that can do anything",
       "url": "https://eardatasci.github.io/c/ambiance/index.html",
-      "summary": "Article URL: https://eardatasci.github.io/c/ambiance/index.html Comments URL: https://news.ycombinator.com/item?id=48921077 Points: 154 # Comments: 77",
+      "summary": "Article URL: https://eardatasci.github.io/c/ambiance/index.html Comments URL: https://news.ycombinator.com/item?id=48921077 Points: 162 # Comments: 82",
       "publishedAt": "2026-07-15T14:08:28.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://dev.moe/en/3025",
-      "title": "Mysteries of Telegram Data Centers (2022)",
-      "url": "https://dev.moe/en/3025",
-      "summary": "Article URL: https://dev.moe/en/3025 Comments URL: https://news.ycombinator.com/item?id=48920475 Points: 224 # Comments: 115",
-      "publishedAt": "2026-07-15T13:22:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -73,26 +133,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls",
-      "title": "Rime picks up $24M Series A to help enterprises field customer calls",
-      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls",
-      "summary": "Rime is handling over 100 million calls each month across multiple companies.",
-      "publishedAt": "2026-07-15T13:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://briarproject.org/news/2026-maintenance-mode",
-      "title": "Briar is in maintenance mode",
-      "url": "https://briarproject.org/news/2026-maintenance-mode",
-      "summary": "Article URL: https://briarproject.org/news/2026-maintenance-mode/ Comments URL: https://news.ycombinator.com/item?id=48919869 Points: 137 # Comments: 90",
-      "publishedAt": "2026-07-15T12:33:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://science.nasa.gov/get-involved/citizen-science/volunteer-measures-record-louisiana-rainfall",
@@ -113,16 +153,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://jiga.io/about-us",
-      "title": "Jiga (YC W21) is hiring the best people to make manufacturing great again",
-      "url": "https://jiga.io/about-us",
-      "summary": "Article URL: https://jiga.io/about-us/ Comments URL: https://news.ycombinator.com/item?id=48919510 Points: 0 # Comments: 0",
-      "publishedAt": "2026-07-15T12:00:23.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "openai-news:https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
@@ -273,36 +303,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize",
-      "title": "Nemotron Labs: How Open Models Give Enterprises and Nations AI They Can Trust, Control and Customize",
-      "url": "https://blogs.nvidia.com/blog/nemotron-open-models-ai-trust-control-customize",
-      "summary": "Enterprises have plenty of powerful models to choose from. The real test is whether the AI an enterprise builds uniquely addresses the needs of the business: improving workflows, tapping into domain knowledge and exceeding standards for accuracy and trust.",
-      "publishedAt": "2026-07-14T16:45:13.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
-      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
-      "url": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
-      "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
-      "publishedAt": "2026-07-14T16:28:14.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "google-ai:https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "title": "Celebrating 25 years of visual search innovation",
-      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary",
-      "summary": "Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
-      "publishedAt": "2026-07-14T16:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
     }
   ]
 }

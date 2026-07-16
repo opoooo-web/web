@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://clocks.dev",
+      "title": "Collection of Digital Clock Designs",
+      "url": "https://clocks.dev",
+      "summary": "Article URL: https://clocks.dev Comments URL: https://news.ycombinator.com/item?id=48923380 Points: 193 # Comments: 36",
+      "publishedAt": "2026-07-15T16:33:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
       "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
       "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai",
@@ -28,7 +38,7 @@
       "id": "hacker-news:https://github.com/welcome-to-the-sunny-side/misa77",
       "title": "Show HN: misa77 - a codec that decodes 2x faster than LZ4 (at better ratios)",
       "url": "https://github.com/welcome-to-the-sunny-side/misa77",
-      "summary": "I've spent the last few months working on this codec. It has the following characteristics: - SOTA decompression throughput in its ratio class - Decent ratios (comparable to LZ4 at high effort levels) - Slow compression Most of the gains can be attributed to reducing branches and making decompression very friendly to out-of-order cores, by using a smart format. Results on the tarred Silesia corpus on Intel x86-64 follow: codec decode ratio encode misa77 -0 5219 MB/s 42.64% 54.5 MB/s misa77 -1 4274 MB/s 39.65% 51.2 MB/s lz4 2505 MB/s 47.59% 371 MB/s lz4hc -12 2531 MB/s 36.45% 7.31 MB/s Comments URL: https://news.ycombinator.com/item?id=48922838 Points: 122 # Comments: 39",
+      "summary": "I've spent the last few months working on this codec. It has the following characteristics: - SOTA decompression throughput in its ratio class - Decent ratios (comparable to LZ4 at high effort levels) - Slow compression Most of the gains can be attributed to reducing branches and making decompression very friendly to out-of-order cores, by using a smart format. Results on the tarred Silesia corpus on Intel x86-64 follow: codec decode ratio encode misa77 -0 5219 MB/s 42.64% 54.5 MB/s misa77 -1 4274 MB/s 39.65% 51.2 MB/s lz4 2505 MB/s 47.59% 371 MB/s lz4hc -12 2531 MB/s 36.45% 7.31 MB/s Comments URL: https://news.ycombinator.com/item?id=48922838 Points: 134 # Comments: 40",
       "publishedAt": "2026-07-15T15:58:59.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,7 +48,7 @@
       "id": "hacker-news:https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
       "title": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
       "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu",
-      "summary": "Article URL: https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/ Comments URL: https://news.ycombinator.com/item?id=48922434 Points: 218 # Comments: 140",
+      "summary": "Article URL: https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/ Comments URL: https://news.ycombinator.com/item?id=48922434 Points: 248 # Comments: 162",
       "publishedAt": "2026-07-15T15:34:05.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -118,21 +128,11 @@
       "id": "hacker-news:https://eardatasci.github.io/c/ambiance/index.html",
       "title": "Towards a harness that can do anything",
       "url": "https://eardatasci.github.io/c/ambiance/index.html",
-      "summary": "Article URL: https://eardatasci.github.io/c/ambiance/index.html Comments URL: https://news.ycombinator.com/item?id=48921077 Points: 162 # Comments: 82",
+      "summary": "Article URL: https://eardatasci.github.io/c/ambiance/index.html Comments URL: https://news.ycombinator.com/item?id=48921077 Points: 179 # Comments: 93",
       "publishedAt": "2026-07-15T14:08:28.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models",
-      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
-      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models",
-      "summary": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
-      "publishedAt": "2026-07-15T13:10:47.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     },
     {
       "id": "nasa-breaking-news:https://science.nasa.gov/get-involved/citizen-science/volunteer-measures-record-louisiana-rainfall",

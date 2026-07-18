@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://goliath32.com/blog/z80.html",
+      "title": "The Zilog Z80 has turned 50",
+      "url": "https://goliath32.com/blog/z80.html",
+      "summary": "Article URL: https://goliath32.com/blog/z80.html Comments URL: https://news.ycombinator.com/item?id=48951461 Points: 197 # Comments: 62",
+      "publishedAt": "2026-07-17T19:41:02.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "title": "TikTok is testing an AI likeness detection tool",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been working on a similar tool [&#8230;]",
+      "publishedAt": "2026-07-17T19:34:30.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/news-release/la-nasa-invita-a-los-medios-de-comunicacion-al-lanzamiento-del-telescopio-espacial-roman",
       "title": "La NASA invita a los medios de comunicación al lanzamiento del telescopio espacial Roman",
       "url": "https://www.nasa.gov/news-release/la-nasa-invita-a-los-medios-de-comunicacion-al-lanzamiento-del-telescopio-espacial-roman",
@@ -68,7 +88,7 @@
       "id": "hacker-news:https://app.everything.diena.co",
       "title": "Show HN: A zoomable timeline of 4M Wikipedia events",
       "url": "https://app.everything.diena.co",
-      "summary": "I'm building a journal app in Kotlin Multiplatform and for this purpose I have created a zoomable timeline interface. This is a side-project where I reuse the timeline interface to display 4 million events imported from Wikipedia / Wikidata, scored using PageRank. There is more information on the about page. If you're interested in the stack: I use Kotlin Multiplatform extensively, with Compose Multiplatform for the UI, communicates with the backend using Kotlinx-RPC and behind the hood a simple Postgres database on a Hetzner machine. Comments URL: https://news.ycombinator.com/item?id=48950774 Points: 65 # Comments: 25",
+      "summary": "I'm building a journal app in Kotlin Multiplatform and for this purpose I have created a zoomable timeline interface. This is a side-project where I reuse the timeline interface to display 4 million events imported from Wikipedia / Wikidata, scored using PageRank. There is more information on the about page. If you're interested in the stack: I use Kotlin Multiplatform extensively, with Compose Multiplatform for the UI, communicates with the backend using Kotlinx-RPC and behind the hood a simple Postgres database on a Hetzner machine. Comments URL: https://news.ycombinator.com/item?id=48950774 Points: 75 # Comments: 30",
       "publishedAt": "2026-07-17T18:37:33.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -78,7 +98,7 @@
       "id": "hacker-news:https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time",
       "title": "Lego building instructions through time",
       "url": "https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time",
-      "summary": "Article URL: https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time Comments URL: https://news.ycombinator.com/item?id=48950518 Points: 78 # Comments: 11",
+      "summary": "Article URL: https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time Comments URL: https://news.ycombinator.com/item?id=48950518 Points: 95 # Comments: 19",
       "publishedAt": "2026-07-17T18:21:14.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -128,7 +148,7 @@
       "id": "hacker-news:https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite",
       "title": "Learning a few things about running SQLite",
       "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite",
-      "summary": "Article URL: https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/ Comments URL: https://news.ycombinator.com/item?id=48950122 Points: 183 # Comments: 42",
+      "summary": "Article URL: https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/ Comments URL: https://news.ycombinator.com/item?id=48950122 Points: 210 # Comments: 52",
       "publishedAt": "2026-07-17T17:45:41.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -168,7 +188,7 @@
       "id": "hacker-news:https://news.ycombinator.com/item?id=48949551",
       "title": "Thanks HN for 15 years of support and helping me find my life's work",
       "url": "https://news.ycombinator.com/item?id=48949551",
-      "summary": "Tomorrow is the 15th anniversary of the first day of the Recurse Center ( https://www.recurse.com/ ) My cofounders and I did YC all the way back in the Summer of 2010, with the initial idea of building \"OkCupid for jobs.\" That idea quickly fizzled, and we spent the better part of a year pivoting between other ideas that also failed. Finally, we made something that we wanted ourselves: a self-directed programming retreat, where people built fun projects, contributed to open source, and helped each other become better programmers. After running two small batches, we launched on HN[1] and got an incredible reception. That post on HN helped us reach beyond our personal networks and meet programmers from around the world, many of whom have since become friends. HN brought us the majority of people who came to our next few batches, and in the years since, HN has remained our #2 source of applicants (after word of mouth). Alas, pg's comment[2] on HN when we launched turned out to be prescient: Running free programming retreats isn't a billion-dollar business, but it's still a worthwhile thing to do, and has positively impacted over 3,000 people so far. And 15 years on I still wake up every day excited to keep working on it. So, thanks HN, for helping make the Recurse Center possible, and for helping me find my life's work. [1] https://news.ycombinator.com/item?id=3435183 [2] \"This sounds like a crazy plan for a startup, I realize, but this is the right sort of crazy. In fact, the way the Hackruiters think about Hacker School is a lot like the way we initially thought about YC: if it doesn't make money, it will at least have been a benevolent thing to do.\" Comments URL: https://news.ycombinator.com/item?id=48949551 Points: 408 # Comments: 36",
+      "summary": "Tomorrow is the 15th anniversary of the first day of the Recurse Center ( https://www.recurse.com/ ) My cofounders and I did YC all the way back in the Summer of 2010, with the initial idea of building \"OkCupid for jobs.\" That idea quickly fizzled, and we spent the better part of a year pivoting between other ideas that also failed. Finally, we made something that we wanted ourselves: a self-directed programming retreat, where people built fun projects, contributed to open source, and helped each other become better programmers. After running two small batches, we launched on HN[1] and got an incredible reception. That post on HN helped us reach beyond our personal networks and meet programmers from around the world, many of whom have since become friends. HN brought us the majority of people who came to our next few batches, and in the years since, HN has remained our #2 source of applicants (after word of mouth). Alas, pg's comment[2] on HN when we launched turned out to be prescient: Running free programming retreats isn't a billion-dollar business, but it's still a worthwhile thing to do, and has positively impacted over 3,000 people so far. And 15 years on I still wake up every day excited to keep working on it. So, thanks HN, for helping make the Recurse Center possible, and for helping me find my life's work. [1] https://news.ycombinator.com/item?id=3435183 [2] \"This sounds like a crazy plan for a startup, I realize, but this is the right sort of crazy. In fact, the way the Hackruiters think about Hacker School is a lot like the way we initially thought about YC: if it doesn't make money, it will at least have been a benevolent thing to do.\" Comments URL: https://news.ycombinator.com/item?id=48949551 Points: 498 # Comments: 50",
       "publishedAt": "2026-07-17T16:57:27.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -213,16 +233,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d",
-      "title": "Designing emoji for the way we communicate today",
-      "url": "https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d",
-      "summary": "Article URL: https://blog.google/products-and-platforms/platforms/android/world-emoji-day-noto-3d/ Comments URL: https://news.ycombinator.com/item?id=48949184 Points: 61 # Comments: 75",
-      "publishedAt": "2026-07-17T16:24:13.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets",
@@ -290,16 +300,6 @@
       "url": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
       "summary": "Are we living through a small car renaissance? There's the Slate Truck, Amble's dune buggy, and the Fiat Topolino, as well as a whole galaxy of kei cars and trucks from Japan that have their own built-in fan base. While microcar sales in the US are still as tiny as the vehicles themselves, there are [&#8230;]",
       "publishedAt": "2026-07-17T15:48:39.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
-      "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
-      "url": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
-      "summary": "Federal authorities have arrested a Florida man suspected of stealing at least $220,000 in crypto through malware-infected Steam games, as reported earlier by local news outlet Local10. In the complaint, officials accuse 21-year-old Zyaire Wilkins and co-conspirators of launching eight malware-embedded games from around May 2024 to February 2026, allowing them to infect about 8,000 [&#8230;]",
-      "publishedAt": "2026-07-17T15:34:35.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"

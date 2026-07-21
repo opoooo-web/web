@@ -5,14 +5,194 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://news.ycombinator.com/item?id=48981136",
-      "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "summary": "Hi HN, I’m Alex Southmayd, the founder of Bloomy ( https://bloomylearning.com ) – an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English Language Arts, and Writing). How it works: we diagnose students’ skill gaps, place them on personalized learning paths, and give them standards-aligned lessons and a Socratic AI tutor that scaffolds their learning without just giving away the answer. The goal is to solve the Bloom 2-sigma problem ( https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem ) with AI. Short launch video: https://tinyurl.com/bloomylearning Longer product demo: https://youtu.be/XHvoKt6qMeo Families access for Bloomy: https://bloomylearning.com/families I started as a teacher. I taught 7th-grade English and writing with Teach For America, and every day I struggled to deliver differentiated instruction to 30 students with 30 different sets of needs. Some students needed remediation, some needed acceleration, and many needed a tutor sitting next to them helping them reason through the next step. Benjamin Bloom’s two-sigma result—that one-on-one tutoring can produce much better outcomes than conventional classroom instruction—always felt intuitively true to me. The hard part was making that kind of attention affordable and available to every child. Then AI changed the cost curve. When I saw schools such as Alpha organize academics around mastery rather than seat time, the model clicked. If you’ve heard of Alpha School, that is directionally the kind of learning model that inspired us. But I kept thinking about the families and schools that already exist: homeschool families, microschools, hybrid schools, and regular classrooms where most children are today. Most students and teachers see learning gaps at the wrong resolution. They get a grade, percentile, benchmark score, or broad standard—not “this is the next skill this student should learn.” Existing personalized-learning products often feel like digital worksheets: they provide plenty of practice, but not much diagnosis or teaching. Very few have AI tutors providing the core instruction. Bloomy starts with a diagnostic—we integrate with third-party assessments and provide our own—and creates a learning path for each student. Students work one skill at a time, receive a short lesson, practice at an adaptive difficulty, and only move forward after demonstrating at least 90% mastery. The learning path updates as the student works, based on their performance and our knowledge graph of skill prerequisites (built in collaboration with Learning Commons / Chan Zuckerberg Initiative). Each skill has three stages. Base Camp teaches the concept with worked examples. Climb provides guided practice and Socratic support. Summit is an independent ten-question mastery assessment with no hints or AI assistance. Students need to achieve 90% on the Summit to advance. If they struggle too much, they’ll be routed to a different skill better suited for their level. BloomyBot is not a blank chat window but rather a live, interactive, and observant digital tutor. During practice, it receives the active passage or problem, the question, the student’s attempt, an authored explanation, and relevant misconception context. It follows a scaffolded tutoring ladder: first asking what the student tried, then pointing toward the concept, suggesting a strategy, working through one step together, and only providing heavier scaffolding after the student has struggled, adapting to and learning from the student along the way. Students can interrupt it, and we’ve begun to roll out multilingual support for Spanish, French, and a few other more niche languages that customers have asked for. We currently use a variety of Anthropic and OpenAI models for BloomyBot. The tutor is restricted to the current lesson, redirects unrelated questions, limits conversation length, and is unavailable during mastery assessments. The language model does not choose the curriculum or decide whether a student has mastered a skill. That separation is important. A conventionally “helpful” AI response can be a bad tutoring response: if it gives away the answer, the student completes the task but may not learn anything. Our goal is not to build a homework-answering chatbot. It is to put AI inside a structured loop of diagnosis, instruction, practice, feedback, and independent mastery. LLMs can still be wrong, and we do not claim our constraints eliminate that. We reduce the surface area by grounding BloomyBot in authored lesson content, keeping it on topic, logging conversations, and removing it from assessments. Teachers and parents can review tutoring activity, students can report problems, and safety signals trigger human alerts and a backup audit. We also do not see Bloomy as a replacement for teachers, parents, or human tutors. A good human tutor is better. The narrower question we are testing is whether, during a bounded learning session a student would already be doing, a context-aware tutor can provide better help than static “correct/incorrect” feedback. Longer term, the question becomes more whether a student would perform better with one-on-one AI tutoring (at least in certain aspects of the curriculum) than with many-to-one instruction in a medium- or large-sized classroom. Bloomy is now being used across several settings: traditional districts, charter schools, hybrid schools, microschools, homeschools, and families looking for additional academic support. In an early pilot at a charter school in Massachusetts serving ~150 students in grades 6 through 8, students averaged roughly 1.8 times the expected winter-to-spring NWEA MAP growth. This was an observational pilot, not a randomized study, so we treat it as an encouraging signal rather than proof that Bloomy caused the difference. Parents and teachers can see what a student has mastered, what is in progress, and where support may be needed. We have found that adults generally do not want another generic score; they want to know which small number of skills deserve attention this week. Bloomy makes money through family subscriptions and school licensing. ELA costs $39/month or $279/year per learner, and Writing Studio costs $19/month or $139/year. Math is scheduled to launch July 31 at the same price as ELA. Schools and microschools pay per student, with pricing varying by subject coverage, enrollment, rostering, and implementation needs. Because children use Bloomy, we collect learning responses, progress data, and tutoring conversations. We do not sell personal information, use child data for behavioral advertising, or permit model providers to train general-purpose models on identifiable child data sent by Bloomy. We have Zero Data Retention agreements with both Anthropic and OpenAI. Parents and schools can request access, export, correction, or deletion under the applicable account or school agreement. More background on me: after Teach For America, I taught and designed GMAT and GRE curriculum for Manhattan Prep / Kaplan, led the driver acquisition team for Lyft’s New England markets, completed an MBA at Stanford, and led AI transformation projects at McKinsey (so when models finally became good enough this past January to achieve the kinds of things I am pursuing with Bloomy, I was in the right place at the right time to begin building). Bloomy brings together the different parts of my career that I care most about: educational outcomes, learning design, building products, and getting useful technology into people’s hands. I’d especially value feedback from parents, teachers, engineers working on child-facing AI, and people who have built tutoring, assessment, or adaptive-learning systems. Does the separation between guided AI help and independent mastery make sense? Where do you see the greatest potential with AI in education? Where are our safeguards insufficient? What evidence or product behavior would you need to trust something like this with a student? Certainly there are many dangers and pitfalls we must beware of, too, but I believe we can really move the needle in K-12 (for the first time in a long time) if we use AI responsibly and intelligently. Comments URL: https://news.ycombinator.com/item?id=48981136 Points: 93 # Comments: 96",
-      "publishedAt": "2026-07-20T16:32:10.000Z",
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation",
+      "title": "Colossal Biosciences reportedly in talks to raise new capital at $20B–$30B valuation",
+      "url": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation",
+      "summary": "The de-extinction startup is looking to double or triple its previous valuation, according to the report.",
+      "publishedAt": "2026-07-20T23:39:35.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned",
+      "title": "Trump&#8217;s latest AI czar has already resigned",
+      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned",
+      "summary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
+      "publishedAt": "2026-07-20T22:21:04.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners",
+      "title": "DA: Cop covered bodycam to snap nude prisoners on his iPhone—but other cams caught him",
+      "url": "https://arstechnica.com/tech-policy/2026/07/cop-charged-with-covering-bodycam-to-photograph-naked-prisoners",
+      "summary": "Pennsylvania cop charged with oppression and obstruction.",
+      "publishedAt": "2026-07-20T22:15:51.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round",
+      "title": "Firefighting drones in the works as wildfires plague US nearly year-round",
+      "url": "https://arstechnica.com/ai/2026/07/firefighting-drones-in-the-works-as-wildfires-plague-us-nearly-year-round",
+      "summary": "California and XPRIZE competition tests whether drones can stop wildfires early.",
+      "publishedAt": "2026-07-20T21:55:52.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient",
+      "title": "Google is working on a new AI chip designed to make Gemini more efficient",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient",
+      "summary": "Alphabet, Google's parent company, is reportedly working on a new chip designed to make its Gemini models run much more efficiently.",
+      "publishedAt": "2026-07-20T21:21:15.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/judge-halts-paramounts-111b-purchase-of-warner-bros-in-win-for-us-states",
+      "title": "Judge halts Paramount's $111B purchase of Warner Bros. in win for US states",
+      "url": "https://arstechnica.com/tech-policy/2026/07/judge-halts-paramounts-111b-purchase-of-warner-bros-in-win-for-us-states",
+      "summary": "Judge grants restraining order, saying merger \"likely to violate antitrust laws.\"",
+      "publishedAt": "2026-07-20T21:10:14.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/internal-dns",
+      "title": "Cloudflare Internal DNS is now generally available",
+      "url": "https://blog.cloudflare.com/internal-dns",
+      "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+      "publishedAt": "2026-07-20T20:59:31.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use",
+      "title": "AI&#8217;s most important protocol is getting a little bit easier to use",
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use",
+      "summary": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+      "publishedAt": "2026-07-20T20:50:40.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches",
+      "title": "The Space Force is now seeking to buy up to $30 billion in rocket launches",
+      "url": "https://arstechnica.com/space/2026/07/the-space-force-is-now-seeking-to-buy-up-to-30-billion-in-rocket-launches",
+      "summary": "The Trump administration is asking the Space Force to do a lot. This will require more launches.",
+      "publishedAt": "2026-07-20T20:30:25.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://vincentwoo.com/3d/grace_cathedral",
+      "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
+      "url": "https://vincentwoo.com/3d/grace_cathedral",
+      "summary": "Article URL: https://vincentwoo.com/3d/grace_cathedral/ Comments URL: https://news.ycombinator.com/item?id=48984254 Points: 239 # Comments: 51",
+      "publishedAt": "2026-07-20T20:10:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort",
+      "title": "X relaunches a rebuilt Android app after year-long effort",
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort",
+      "summary": "X says the rebuilt version of its Android app is now available globally.",
+      "publishedAt": "2026-07-20T19:37:39.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be",
+      "title": "OpenAI is scared of open-weight models. Should the US be?",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be",
+      "summary": "Talk of banning Chinese-made open-weight LLMs reveals the challenge of turning AI into a business.",
+      "publishedAt": "2026-07-20T19:33:25.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california",
+      "title": "AT&T loses key ruling in bid to stop offering basic phone service in California",
+      "url": "https://arstechnica.com/tech-policy/2026/07/att-loses-key-ruling-in-bid-to-stop-offering-basic-phone-service-in-california",
+      "summary": "AT&#038;T suffers setback but will keep asking court and FCC to preempt state rules.",
+      "publishedAt": "2026-07-20T19:20:49.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe",
+      "title": "Natural raises $30M to reinvent payments for AI agents — and take on Stripe",
+      "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe",
+      "summary": "The one-year-old startup aims to reinvent financial architecture for autonomous AI transactions.",
+      "publishedAt": "2026-07-20T19:11:25.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled",
+      "title": "Human mathematicians are being outcounterexampled",
+      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled",
+      "summary": "Article URL: https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/ Comments URL: https://news.ycombinator.com/item?id=48983382 Points: 440 # Comments: 216",
+      "publishedAt": "2026-07-20T19:03:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://blaizzy.github.io/nativ",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "url": "https://blaizzy.github.io/nativ",
+      "summary": "Article URL: https://blaizzy.github.io/nativ/ Comments URL: https://news.ycombinator.com/item?id=48982681 Points: 350 # Comments: 122",
+      "publishedAt": "2026-07-20T18:16:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gaming/2026/07/our-playstation-price-analysis-shows-why-physical-games-still-matter",
+      "title": "RIP bargain bin: The price impact of Sony's disc-free PlayStation plan",
+      "url": "https://arstechnica.com/gaming/2026/07/our-playstation-price-analysis-shows-why-physical-games-still-matter",
+      "summary": "Used discs are often cheaper than even deep digital discounts.",
+      "publishedAt": "2026-07-20T18:06:05.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself",
+      "title": "China’s AI models have Trump’s AI world at war with itself",
+      "url": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Over the weekend, several current and former advisors to President Donald Trump on AI publicly lobbed insults at the country’s leading AI companies. David Sacks, the president’s AI and crypto “czar” until&#8230;",
+      "publishedAt": "2026-07-20T18:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026",
+      "title": "AWS Weekly Roundup: One-click Lambda setup prompt, OpenAI GPT-5.6 models on Bedrock, and more (July 20, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-one-click-lambda-setup-prompt-openai-gpt-5-6-models-on-bedrock-and-more-july-20-2026",
+      "summary": "Last week, my team visited Seoul to meet AWS Korea User Group (AWSKRUG) leaders. AWSKRUG is the largest cloud developer community in Korea, with 20 meetup groups organized by topic and area that collectively host over 100 events each year, primarily in Seoul. My team regularly visits countries across the Asia-Pacific region, listens to feedback […]",
+      "publishedAt": "2026-07-20T16:37:34.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
     },
     {
       "id": "github-blog:https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community",
@@ -45,56 +225,6 @@
       "category": "AI"
     },
     {
-      "id": "hacker-news:https://refactoringenglish.com/blog/why-i-stopped-creating-content",
-      "title": "I Stopped “Creating Content”",
-      "url": "https://refactoringenglish.com/blog/why-i-stopped-creating-content",
-      "summary": "Article URL: https://refactoringenglish.com/blog/why-i-stopped-creating-content/ Comments URL: https://news.ycombinator.com/item?id=48980520 Points: 233 # Comments: 187",
-      "publishedAt": "2026-07-20T15:47:28.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/general/from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet",
-      "title": "From Hampton to Mars: How NASA Langley Helped Land on the Red Planet",
-      "url": "https://www.nasa.gov/general/from-hampton-to-mars-how-nasa-langley-helped-land-on-the-red-planet",
-      "summary": "Fifty years ago, NASA’s Viking 1 and 2 landers made the first successful landings on Mars, opening a new era in planetary exploration. Behind that achievement was a team at NASA’s Langley Research Center in Hampton, Virginia, whose steady leadership and technical expertise helped turn an ambitious idea into a mission that reshaped how we [&#8230;]",
-      "publishedAt": "2026-07-20T15:47:15.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai",
-      "title": "Adobe camera app&#8217;s new feature will critique your photos using AI",
-      "url": "https://techcrunch.com/2026/07/20/adobe-camera-apps-new-feature-will-critique-your-photos-using-ai",
-      "summary": "Adobe's Project Indigo can now remove all kinds of backgrounds from photos you snap using the app.",
-      "publishedAt": "2026-07-20T15:45:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/our-first-view-of-the-surface-of-mars",
-      "title": "Our First View of the Surface of Mars",
-      "url": "https://www.nasa.gov/image-article/our-first-view-of-the-surface-of-mars",
-      "summary": "“Touchdown, we have touchdown!” At 5:12 a.m. PDT, July 20, 1976, mission controllers at NASA’s Jet Propulsion Laboratory erupted in cheers as they learned that the Viking 1 lander had survived its descent through the thin Martian atmosphere. Forty minutes later, the lander’s first image began to appear on their monitors, slowly forming line by [&#8230;]",
-      "publishedAt": "2026-07-20T15:38:29.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk",
-      "title": "Hackers are exploiting recently patched WordPress bugs, putting millions of websites at risk",
-      "url": "https://techcrunch.com/2026/07/20/hackers-are-exploiting-recently-patched-wordpress-bugs-putting-millions-of-websites-at-risk",
-      "summary": "Two critical security flaws in WordPress’ software have given hackers the chance to remotely take over tens of millions of websites, according to an estimate by a cybersecurity researcher.",
-      "publishedAt": "2026-07-20T15:35:37.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics",
       "title": "AliExpress hit with record $625M fine after failing to make EU-ordered fixes",
       "url": "https://arstechnica.com/tech-policy/2026/07/aliexpress-fined-625m-for-failing-to-remove-unsafe-toys-dangerous-cosmetics",
@@ -102,36 +232,6 @@
       "publishedAt": "2026-07-20T15:32:45.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos",
-      "title": "YouTube clarifies policies around AI slop and upsetting videos",
-      "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos",
-      "summary": "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue.",
-      "publishedAt": "2026-07-20T15:23:06.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers",
-      "title": "Inference startup Infinity raises $15M from Touring Capital, OpenAI and Anthropic researchers",
-      "url": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers",
-      "summary": "AI infrastructure company Infinity announced Monday a $15 million raise at a $100 million valuation from investors including Touring Capital, Principal VC, and researchers from companies such as OpenAI and Anthropic.",
-      "publishedAt": "2026-07-20T15:15:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/20/hackers-stole-significant-amount-of-data-from-tech-firm-relied-on-by-thousands-of-us-hospitals-and-pharmacies",
-      "title": "Hackers stole &#8216;significant&#8217; amount of data from tech firm relied on by thousands of US hospitals and pharmacies",
-      "url": "https://techcrunch.com/2026/07/20/hackers-stole-significant-amount-of-data-from-tech-firm-relied-on-by-thousands-of-us-hospitals-and-pharmacies",
-      "summary": "Edinburgh-based tech firm Craneware said customer data was stolen during a cyberattack. The company makes software that thousands of U.S. hospitals, pharmacies, and clinics rely on for billing patients, potentially exposing health data.",
-      "publishedAt": "2026-07-20T15:01:20.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -153,16 +253,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-      "title": "China’s open-weights AI strategy is winning",
-      "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing",
-      "summary": "Article URL: https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/ Comments URL: https://news.ycombinator.com/item?id=48979269 Points: 1166 # Comments: 874",
-      "publishedAt": "2026-07-20T14:21:47.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/security/2026/07/pay-up-or-not-ransomware-surge-has-victims-facing-tough-choices",
@@ -213,96 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
-      "title": "AI is more likely than humans to form biases when hiring",
-      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
-      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from&#8230;",
-      "publishedAt": "2026-07-20T08:39:01.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/shaping-the-emerald-city",
-      "title": "Shaping the Emerald City",
-      "url": "https://science.nasa.gov/earth/earth-observatory/shaping-the-emerald-city",
-      "summary": "The hills and basins of Seattle, Washington, have been sculpted by glaciers and modified by humans.",
-      "publishedAt": "2026-07-20T04:01:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch",
-      "title": "India's first privately developed rocket reaches orbit on dramatic debut launch",
-      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch",
-      "summary": "\"On the first attempt, reaching orbit, I never thought it was possible.\"",
-      "publishedAt": "2026-07-19T22:11:21.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease",
-      "title": "As mosquito ranges expand, better monitoring is key to preventing disease",
-      "url": "https://arstechnica.com/science/2026/07/as-mosquito-ranges-expand-better-monitoring-is-key-to-preventing-disease",
-      "summary": "Monitoring is expensive and labor intensive. But it helps public health officials stop outbreaks.",
-      "publishedAt": "2026-07-19T11:19:31.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
-      "title": "Will AI fix prior authorization—or make it worse?",
-      "url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
-      "summary": "The government is piloting a program that uses AI for insurance-coverage decisions.",
-      "publishedAt": "2026-07-18T11:18:25.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits",
-      "title": "NASA Pushes New Wing Design to Find Structural Limits",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits",
-      "summary": "NASA researchers recently put a new wing design, appearing long and thin with a lightweight structural design, through a series of grueling tests to find its structural limits. What they found left them encouraged about the wing’s potential, even when they pushed it past its intended limits. The 15-foot Structural Wing Experiment Evaluating Truss-bracing (SWEET-15) [&#8230;]",
-      "publishedAt": "2026-07-17T23:08:33.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/photojournal/the-growing-crescent-of-mars-as-nasas-psyche-mission-approaches",
-      "title": "The Growing Crescent of Mars as NASA’s Psyche Mission Approaches",
-      "url": "https://science.nasa.gov/photojournal/the-growing-crescent-of-mars-as-nasas-psyche-mission-approaches",
-      "summary": "Description This composite of images taken by NASA’s Psyche mission shows the crescent of Mars grow as the spacecraft approached the planet for a gravity assist from May 2 to May 15, 2026. The series begins with the smallest crescent at the center of the of the image as Mars is farthest from the spacecraft, and progressively […]",
-      "publishedAt": "2026-07-17T22:32:27.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/wordpress-vulnerabilities",
-      "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-      "url": "https://blog.cloudflare.com/wordpress-vulnerabilities",
-      "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
-      "publishedAt": "2026-07-17T21:30:43.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada",
-      "title": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
-      "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada",
-      "summary": "The FireSat program can spot wildfires that other satellites miss.",
-      "publishedAt": "2026-07-17T19:50:18.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

@@ -28,7 +28,7 @@
       "id": "hacker-news:https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
       "title": "Apple Private Cloud Compute SoC 3 audit reports",
       "url": "https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web",
-      "summary": "Article URL: https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web Comments URL: https://news.ycombinator.com/item?id=48995796 Points: 70 # Comments: 23",
+      "summary": "Article URL: https://support.apple.com/guide/certifications/apple-private-cloud-compute-soc-3-audit-apc95a31b9d8/web Comments URL: https://news.ycombinator.com/item?id=48995796 Points: 80 # Comments: 34",
       "publishedAt": "2026-07-21T17:58:21.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -58,7 +58,7 @@
       "id": "hacker-news:https://poolside.ai/blog/introducing-laguna-s-2-1",
       "title": "Laguna S 2.1",
       "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
-      "summary": "Article URL: https://poolside.ai/blog/introducing-laguna-s-2-1 Comments URL: https://news.ycombinator.com/item?id=48995261 Points: 168 # Comments: 34",
+      "summary": "Article URL: https://poolside.ai/blog/introducing-laguna-s-2-1 Comments URL: https://news.ycombinator.com/item?id=48995261 Points: 193 # Comments: 41",
       "publishedAt": "2026-07-21T17:17:06.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -68,7 +68,7 @@
       "id": "hacker-news:https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
       "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
       "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "summary": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 171 # Comments: 160",
+      "summary": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 195 # Comments: 186",
       "publishedAt": "2026-07-21T17:14:06.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -105,16 +105,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://github.com/AlmanacCode/codealmanac",
-      "title": "Show HN: CodeAlmanac – Karpathy-style codebase wiki from your conversations",
-      "url": "https://github.com/AlmanacCode/codealmanac",
-      "summary": "Hey HN! This is Divit from Almanac (YC S26). We built CodeAlmanac, a wiki for your coding agents that updates as you talk to them. It is open-source, local, and free. Here’s a demo: https://www.youtube.com/watch?v=XNQWV3TFBWM Your CC/Codex conversations contain a LOT of knowledge that is forgotten because it was never documented. People have their own methods of documenting their chats. We used to make Markdown files like MANUAL.md and DESIGN.md, and would prompt Claude to keep them updated. The problem is that these files quickly become outdated and messy, and there’s only so much you can put in a single file. So we set out to build CodeAlmanac. We wanted something that was 1) maintained automatically, 2) lived inside our repository, and 3) used our existing Codex/Claude Code subscriptions. CodeAlmanac maintains an almanac/ folder inside your repository. It contains connected Markdown pages that cover things not documented in the codebase, including decisions you have made and why the codebase is shaped this way. The pages are indexed in SQLite and are queryable through a CLI. We add instructions to AGENTS.md or CLAUDE.md so future sessions automatically search the wiki before they start coding. Every five hours, CodeAlmanac uses the Codex/CC SDK to spin up an agent that reads your new conversations and updates the relevant pages. We went with a time-based trigger instead of commits because we saw people commit very frequently, which would lead to high token costs. We originally made CodeAlmanac for individual developers, but the team use case has become much more obvious to us while using it ourselves. We are a team of three, and each of us works with our own coding agents. Before this, I would make some change after a lot of thinking and then later have to call my cofounders and explain why it looked this way. There is almost a sense of relief now knowing that the decisions I made are written down somewhere their agents will actually read. It’s live today for everyone to try. Please let me know your feedback and I’ll be here to answer any questions. Would also love to hear how you all maintain context across conversations today! Comments URL: https://news.ycombinator.com/item?id=48995181 Points: 35 # Comments: 12",
-      "publishedAt": "2026-07-21T17:12:01.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
       "title": "Google releases three new Gemini models — but no 3.5 Pro",
       "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro",
@@ -125,20 +115,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://github.com/mvp/uhubctl",
-      "title": "Uhubctl – Control USB power per-port on smart USB hubs",
-      "url": "https://github.com/mvp/uhubctl",
-      "summary": "Article URL: https://github.com/mvp/uhubctl Comments URL: https://news.ycombinator.com/item?id=48995149 Points: 43 # Comments: 13",
-      "publishedAt": "2026-07-21T17:09:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
       "title": "Meta's AI models are powering the first wave of Genesis Mission projects",
       "url": "https://ai.meta.com/blog/genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino/?_fb_noscript=1",
-      "summary": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 83 # Comments: 56",
+      "summary": "https://www.energy.gov/undersecretaryforscience/genesis-miss... Comments URL: https://news.ycombinator.com/item?id=48995074 Points: 87 # Comments: 62",
       "publishedAt": "2026-07-21T17:03:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -195,6 +175,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://en.help.roblox.com/hc/en-us/articles/49648939984916-Android-Remote-Attestation",
+      "title": "Roblox Officially Supports GrapheneOS",
+      "url": "https://en.help.roblox.com/hc/en-us/articles/49648939984916-Android-Remote-Attestation",
+      "summary": "Article URL: https://en.help.roblox.com/hc/en-us/articles/49648939984916-Android-Remote-Attestation Comments URL: https://news.ycombinator.com/item?id=48994716 Points: 69 # Comments: 10",
+      "publishedAt": "2026-07-21T16:39:30.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/news/968243/instagram-creators-replace-audio-tiktok-competition",
       "title": "Instagram will let users endlessly swap the audio on old posts",
       "url": "https://www.theverge.com/news/968243/instagram-creators-replace-audio-tiktok-competition",
@@ -225,6 +215,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://postquantum.com/security-pqc/anssi-pqc-certification-2027",
+      "title": "France's Anssi Will Block PQC-Free Products from Certification Starting 2027",
+      "url": "https://postquantum.com/security-pqc/anssi-pqc-certification-2027",
+      "summary": "Article URL: https://postquantum.com/security-pqc/anssi-pqc-certification-2027/ Comments URL: https://news.ycombinator.com/item?id=48994116 Points: 81 # Comments: 39",
+      "publishedAt": "2026-07-21T16:02:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
       "title": "How to build interactive experiences with canvases",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
@@ -243,6 +243,16 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://e360.yale.edu/digest/benin-coral-reef",
+      "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
+      "url": "https://e360.yale.edu/digest/benin-coral-reef",
+      "summary": "https://www.frontiersin.org/journals/marine-science/articles... Comments URL: https://news.ycombinator.com/item?id=48993816 Points: 273 # Comments: 49",
+      "publishedAt": "2026-07-21T15:41:51.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
@@ -290,16 +300,6 @@
       "url": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging",
       "summary": "Paul&#160;StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light. The innovation is in two stages. First, the design of a new kind of nulling interferometer &#8212; &#8220;dynamic hierarchical nulling&#8221; &#8212; combining inputs [&#8230;]",
       "publishedAt": "2026-07-21T15:23:51.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/directorates/stmd/niac/niac-studies/interworld-slingshot-resource-surveys",
-      "title": "Interworld Slingshot Resource Surveys",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/interworld-slingshot-resource-surveys",
-      "summary": "Pablo Sobron SanchezSETI Institute This proposal explores a new class of reconnaissance spacecraft that map minerals from orbit using Raman spectroscopy during high-speed flybys&#8211;without landing, sample return, or extended dwell. If feasible, this concept would enable NASA to evaluate ice and ilmenite at the Moon, ore content at asteroids, and volatile-bearing minerals at Mars&#8217; moons&#8211;all [&#8230;]",
-      "publishedAt": "2026-07-21T15:23:49.000Z",
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"

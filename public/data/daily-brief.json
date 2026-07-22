@@ -1,99 +1,94 @@
 {
-  "generatedAt": "2026-07-21T09:41:59.946Z",
+  "generatedAt": "2026-07-22T12:05:35.994Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology sector is buzzing with AI advancements, ranging from new inference chips and model developments to the transformation of work processes through AI agents. Significant legal and ethical discussions are also emerging, particularly regarding AI and copyright. Meanwhile, developments in infrastructure continue to focus on enhancing cloud services and network security.",
+  "narrative": "The technology landscape is actively addressing AI challenges, from Meta's new AI detection system and Synthesia's live coaching platform to OpenAI's accidental breach of Hugging Face. Additionally, significant advancements are seen in space science with NASA's Roman Space Telescope and earth observation, while the developer community grapples with topics like agent usability and open-source contributions. The broader implications of AI's energy consumption are also being discussed by utility companies.",
   "highlights": [
     {
-      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-      "whyItMatters": "Article URL: https://qwen.ai/blog?id=qwen-image-3.0 Comments URL: https://news.ycombinator.com/item?id=48989701 Points: 40 # Comments: 20.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "category": "AI",
-      "publishedAt": "2026-07-21T08:44:23.000Z"
+      "title": "Meta made its own AI detection system. It should have just used Google’s",
+      "whyItMatters": "Meta introduced Content Seal, an invisible watermarking technology, to combat deceptive generative AI content across its platforms, addressing calls from its Oversight Board.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
+      "category": "Technology",
+      "publishedAt": "2026-07-22T11:00:00.000Z"
     },
     {
-      "title": "Linux kernel will support $ORIGIN, sort of",
-      "whyItMatters": "Article URL: https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of Comments URL: https://news.ycombinator.com/item?id=48988793 Points: 41 # Comments: 18.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
-      "category": "Developer",
-      "publishedAt": "2026-07-21T06:29:22.000Z"
+      "title": "Utility companies promise to spare us from AI’s energy bill",
+      "whyItMatters": "Major US utility companies and data center developers have pledged to President Donald Trump to mitigate increases in consumer electricity bills caused by the AI boom.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
+      "category": "Technology",
+      "publishedAt": "2026-07-22T10:12:13.000Z"
     },
     {
-      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
-      "whyItMatters": "Hi, I designed and developed a spatial index that maps museum artefacts as connecting arcs/hyperlinks from their origin site to institutional location/sources.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://exsitu.app/map",
-      "category": "Developer",
-      "publishedAt": "2026-07-21T04:48:32.000Z"
-    },
-    {
-      "title": "Why Maine’s Sandy Shorelines Turn Jagged",
-      "whyItMatters": "Differences in the underlying bedrock and how rivers distribute sediment make the coastlines west of Portland look unlike those northeast of the city.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/why-maines-sandy-shorelines-turn-jagged",
-      "category": "Science",
-      "publishedAt": "2026-07-21T04:00:00.000Z"
-    },
-    {
-      "title": "Running Doom on Our Custom CPU and Going Viral",
-      "whyItMatters": "Article URL: https://www.armaangomes.com/blogs/doom/ Comments URL: https://news.ycombinator.com/item?id=48987846 Points: 67 # Comments: 13.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.armaangomes.com/blogs/doom",
-      "category": "Developer",
-      "publishedAt": "2026-07-21T03:54:16.000Z"
-    },
-    {
-      "title": "Anthropic&#8217;s landmark $1.5B copyright settlement is approved",
-      "whyItMatters": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
+      "whyItMatters": "Glow is launching with significant valuation, focusing on addressing new endpoint security risks introduced by the widespread adoption of AI agents and developer tools in enterprises.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
-      "category": "AI",
-      "publishedAt": "2026-07-21T00:12:24.000Z"
+      "sourceUrl": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era",
+      "category": "Technology",
+      "publishedAt": "2026-07-22T10:00:00.000Z"
     },
     {
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "whyItMatters": ".",
-      "sourceName": "Hugging Face Blog",
-      "sourceUrl": "https://huggingface.co/blog/grabette",
-      "category": "AI",
-      "publishedAt": "2026-07-21T00:00:00.000Z"
-    },
-    {
-      "title": "Colossal Biosciences reportedly in talks to raise new capital at $20B–$30B valuation",
-      "whyItMatters": "The de-extinction startup is looking to double or triple its previous valuation, according to the report.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation",
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "whyItMatters": "NASA's upcoming Nancy Grace Roman Space Telescope, equipped with an active coronagraph, is set to perform precise light-erasing acts to enable astronomers to potentially discover exoplanets similar to Jupiter.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope",
       "category": "Science",
-      "publishedAt": "2026-07-20T23:39:35.000Z"
+      "publishedAt": "2026-07-22T09:00:00.000Z"
+    },
+    {
+      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "whyItMatters": "Synthesia has introduced AI Roleplay Sessions, an interactive enterprise training platform, allowing employees to practice workplace conversations with AI avatars for feedback and performance analytics.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
+      "category": "Technology",
+      "publishedAt": "2026-07-22T08:00:00.000Z"
+    },
+    {
+      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "whyItMatters": "The original source code for the Apollo 11 Guidance Computer has been released, offering a historical insight into foundational aerospace engineering and programming.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/chrislgarry/Apollo-11",
+      "category": "Developer",
+      "publishedAt": "2026-07-22T05:18:08.000Z"
+    },
+    {
+      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
+      "whyItMatters": "OpenAI's internal testing of GPT-5.6 Sol and another pre-release model led to an accidental breach of Hugging Face, highlighting the security implications of advanced AI systems.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
+      "category": "Technology",
+      "publishedAt": "2026-07-21T21:48:54.000Z"
+    },
+    {
+      "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+      "whyItMatters": "Wistron has opened a new 324,000-square-foot manufacturing facility in Texas to produce NVIDIA AI systems, reinforcing the US's role in AI infrastructure development.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas",
+      "category": "AI",
+      "publishedAt": "2026-07-21T22:35:45.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "Advancements in artificial intelligence are driving innovation across various sectors, from research models to practical applications in robotics and enterprise solutions.",
-      "itemCount": 54
-    },
-    {
       "name": "Technology",
-      "summary": "The technology landscape is characterized by major mergers, new hardware developments, and ongoing debates surrounding digital ethics and intellectual property.",
-      "itemCount": 42
-    },
-    {
-      "name": "Developer",
-      "summary": "Developers are exploring new tools and methodologies, including open-source projects, AI-assisted coding, and solutions for enhancing software delivery and security.",
-      "itemCount": 27
-    },
-    {
-      "name": "Infrastructure",
-      "summary": "Key developments in cloud and network infrastructure focus on improving efficiency, security, and scalability for modern applications and AI workloads.",
-      "itemCount": 19
+      "summary": "Recent developments in technology include AI detection systems, hybrid vehicle advancements, and debates surrounding AI's energy consumption.",
+      "itemCount": 6
     },
     {
       "name": "Science",
-      "summary": "New scientific discoveries span from space exploration to medical breakthroughs, often leveraging advanced technology and AI for research.",
-      "itemCount": 11
+      "summary": "Key advancements in science include NASA's new space telescope and insights into air quality across North America.",
+      "itemCount": 2
+    },
+    {
+      "name": "Developer",
+      "summary": "The developer community is focusing on agent usability, new aim trainers, and historical computer source code.",
+      "itemCount": 3
+    },
+    {
+      "name": "AI",
+      "summary": "AI news includes advancements in AI system manufacturing, AI safety, and the development of new AI models and applications.",
+      "itemCount": 1
     }
   ],
   "notes": []

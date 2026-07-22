@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://github.com/open-and-async/mcp",
+      "title": "Show HN: An MCP server that turns async-work practices into tools",
+      "url": "https://github.com/open-and-async/mcp",
+      "summary": "More than a decade ago, I adopted the self-imposed rule, if I answer a question more than once, the third time I need to be able to answer with a URL. Today, I published one very large URL - a book distilling what I learned from helping people work remotely at GitHub, and I wanted to rethink my rule for the age of AI. What if, instead of a URL, I could create an interactive experience that could tailor the guidance to your particular situation? What I ended up building was an Open and Async Advisor MCP server. To install (in claude or any other AI): > claude mcp add open-async -- npx -y @open-and-async/mcp Transparently, yes, it's from a book I wrote which launched today, but the MCP server is open source and free to use. No purchase required. It knows the key principles of the book, and has specialized tools like `draft_decision_doc`, `convert_meeting_to_async`, `score_status_update`, `triage_sync_vs_async`. This is an experiment for me, and I'm genuinely curious if it's helpful for others. Comments URL: https://news.ycombinator.com/item?id=48994186 Points: 16 # Comments: 4",
+      "publishedAt": "2026-07-21T16:06:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
+      "title": "How to build interactive experiences with canvases",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases",
+      "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks. The post How to build interactive experiences with canvases appeared first on The GitHub Blog .",
+      "publishedAt": "2026-07-21T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools",
+      "title": "Threads rolls out parental supervision tools",
+      "url": "https://techcrunch.com/2026/07/21/threads-rolls-out-parental-supervision-tools",
+      "summary": "With the new tools, parents and guardians will be able to view their teen's time spent on Threads, set daily time limits, adjust sleep mode, and manage their privacy settings.",
+      "publishedAt": "2026-07-21T16:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "title": "US threatens sanctions against Chinese AI models over IP theft",
+      "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft",
+      "summary": "Treasury Secretary Scott Bessent said the U.S. could sanction Chinese open AI models over alleged IP theft, expanding the Trump administration's campaign to slow China's AI advances.",
+      "publishedAt": "2026-07-21T15:37:05.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/vera-rubin",
       "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
       "url": "https://blogs.nvidia.com/blog/vera-rubin",
@@ -75,16 +115,6 @@
       "category": "Science"
     },
     {
-      "id": "nasa-breaking-news:https://www.nasa.gov/directorates/stmd/niac/actively-steerable-femtosat-constellations-for-in-situ-exploration-of-saturns-rings-atmosphere-and-magnetosphere",
-      "title": "Actively Steerable Femtosat Constellations for In-situ Exploration of Saturn&#8217;s Rings, Atmosphere, and Magnetosphere",
-      "url": "https://www.nasa.gov/directorates/stmd/niac/actively-steerable-femtosat-constellations-for-in-situ-exploration-of-saturns-rings-atmosphere-and-magnetosphere",
-      "summary": "Michael RubensteinNorthwestern University, Chicago We propose a mission to use ~10,000 actively steerable femtosats to map the ring composition, atmospheric composition and density, and the magnetic field distribution of Saturn. Conducting in-situ surveys of Saturn&#8217;s rings with a single flagship mission, such as Cassini, would carry an unacceptably high risk of mission failure due to [&#8230;]",
-      "publishedAt": "2026-07-21T15:23:41.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe",
       "title": "TreeSize won't renew perpetual-license support unless users subscribe",
       "url": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe",
@@ -93,16 +123,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
-      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber",
-      "summary": "https://console.cloud.google.com/agent-platform/publishers/g... Comments URL: https://news.ycombinator.com/item?id=48993414 Points: 588 # Comments: 465",
-      "publishedAt": "2026-07-21T15:17:16.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories",
@@ -150,26 +170,6 @@
       "url": "https://techcrunch.com/2026/07/21/warner-bros-netflix-paramount-acquisition-timeline-wbd",
       "summary": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
       "publishedAt": "2026-07-21T14:15:39.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/21/uk-government-scraps-plans-for-digital-id-cards-after-millions-of-brits-opposed",
-      "title": "UK government scraps plans for digital ID cards after millions of Brits opposed",
-      "url": "https://techcrunch.com/2026/07/21/uk-government-scraps-plans-for-digital-id-cards-after-millions-of-brits-opposed",
-      "summary": "The new U.K. government scrapped a digital ID program that millions of British people opposed, in place of a tax cut to tackle the cost of living.",
-      "publishedAt": "2026-07-21T14:13:21.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/21/the-xteink-x4-pro-could-be-the-tiny-e-reader-of-your-dreams",
-      "title": "The Xteink X4 Pro could be the tiny e-reader of your dreams",
-      "url": "https://techcrunch.com/2026/07/21/the-xteink-x4-pro-could-be-the-tiny-e-reader-of-your-dreams",
-      "summary": "Xteink makes its pocket-sized e-reader even better with a touchscreen and front light.",
-      "publishedAt": "2026-07-21T14:00:00.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"

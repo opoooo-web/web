@@ -5,21 +5,221 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://github.com/onecli/onecli",
+      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
+      "url": "https://github.com/onecli/onecli",
+      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over... From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. the secrets set inside the OneCLI vault, encrypted on rest, or could fetch in realtime from your bitwarden / 1password wallets. Demo - https://www.youtube.com/watch?v=5e5pbPEzZfY . We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. they keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. Not providing the keys to the agent + adding alerts or human-in-the-loop for sensitive operations, in case someone manipulates the agent, and access logs are being audited. We use it ourselves daily. My OpenClaw runs my day across Attio, Gmail, and my calendar, with human-in-the-loop approval on sensitive actions. The approval is enforced at the network layer, so it holds whether the agent goes through MCP, CLI, curl, or code it wrote on the fly. Guy uses it to review PRs but can't merge without his approval. Companies mostly use it for coding agents currently, which get creative about finding ways to elevate their permissions to reach the goal. With OneCLI, it doesn't matter what the agent finds: if the request isn't in policy, it will not go through. The proxy is written in Rust, the dashboard is Next.js, and secrets are AES-256-GCM encrypted at rest. Everything runs in a Docker container. It works with any agent framework (Claude Code, Codex, Cursor, OpenClaw, Hermes or anything that can set an HTTPS_PROXY). It won't stop an agent from misusing access it legitimately has, so scope policies tightly! happy to answer anything. We believe we can't trust the model to behave and have to set deterministic rules to stay in control. Comments welcome! Comments URL: https://news.ycombinator.com/item?id=49023427 Points: 36 # Comments: 15",
+      "publishedAt": "2026-07-23T15:42:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank",
+      "title": "Crews Move Artemis IV Liquid Hydrogen Tank",
+      "url": "https://www.nasa.gov/image-article/crews-move-artemis-iv-liquid-hydrogen-tank",
+      "summary": "Crews at NASA’s Michoud Assembly Facility in New Orleans transport the 130-foot-tall Artemis IV liquid hydrogen tank out of a production cell inside the main factory building into a detached test building on a separate portion of the 829-acre site on May 15, 2026. The liquid hydrogen tank will form part of the core stage for [&#8230;]",
+      "publishedAt": "2026-07-23T15:20:19.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/missions/maven/nasas-maven-illuminates-new-understanding-of-auroras-at-mars",
+      "title": "NASA’s MAVEN Illuminates New Understanding of Auroras at Mars",
+      "url": "https://science.nasa.gov/missions/maven/nasas-maven-illuminates-new-understanding-of-auroras-at-mars",
+      "summary": "NASA MAVEN (Mars Atmosphere and Volatile Evolution) mission scientists have uncovered a key puzzle piece in understanding certain types of auroras on Mars, finding that they form in a similar way to Earth-based auroras. Results published Thursday in Nature Communications show the same mechanism that circulates and catapults charged particles into Earth’s atmosphere is happening at […]",
+      "publishedAt": "2026-07-23T15:19:33.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "title": "Why Software Factories Fail (or: harness engineering is not enough)",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "summary": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md Comments URL: https://news.ycombinator.com/item?id=49023019 Points: 53 # Comments: 32",
+      "publishedAt": "2026-07-23T15:18:48.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "summary": "https://littletech.org/ https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0... Comments URL: https://news.ycombinator.com/item?id=49023016 Points: 404 # Comments: 409",
+      "publishedAt": "2026-07-23T15:18:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/palmier-io/palmier-pro",
+      "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 - Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor. As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can: - Manage projects inside Palmier Pro - Import media from a public URL or filesystem to the project, and organize them in folders - Search media (by embedding footages using SigLIP2 running locally) - Edit the timeline (tracks/clips/keyframes operations) - Generate images, videos, sound effects, captions, music - Export videos There are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor. We have seen people using MCP server to connect to their own workflow to automate massive-scale video editing (e.g. given this same podcast style, replicate it with other footages that I have). We have also seen people using the in-app chat where it lives closer to the editor UI, with lower latency for faster iteration. We don't believe that AI is going to replace human creativity (nor should it), but where it can really help is in automating the gruntwork in video editing. Most work in the editing workflow is more mechanical than creative. Our vision is to build a video editor where AI can enable more individuals to create. Throughout our experiments, AI is not very good at creative editing, but given a pattern (transcription-based, beat-based), it can do a decent job at rough cut. We built Palmier Pro in Swift as an MVP because we wanted better performance and minimal dependencies (no nodejs/webview), with some native macOS APIs like SpeechAnalyzer and CoreML for us to run some models locally. We use SpeechAnalyzer for local transcriber, SigLip2 to embed video frames, beat_this for beat detection, Silero VAD for silence detection, all running locally. The tradeoff is that we don't support Linux or Windows at the moment. Palmier Pro is open source and free to try out (macOS 26 only at the moment, though - we'll support more platforms over time, but for now are focusing on iterating the core product). No login required except for the AI generation features, which route requests to our backend. We are offering free credits on sign up so you can try out the AI generation as well. We'd love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=49022911 Points: 39 # Comments: 9",
+      "publishedAt": "2026-07-23T15:11:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/969563/halo-campaign-evolved-review-xbox-ps5-pc",
+      "title": "The new Halo remake is a reminder of what Xbox used to be",
+      "url": "https://www.theverge.com/entertainment/969563/halo-campaign-evolved-review-xbox-ps5-pc",
+      "summary": "It's impossible to talk about a new Xbox game without also talking about the state of Xbox. Microsoft's gaming division is in freefall: Recent headlines are dominated by extensive layoffs, decimated studios, and confusing strategies, most of which stem from years of bad decisions and expensive acquisitions. But it wasn't always that way. Through its [&#8230;]",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale",
+      "title": "Amazon’s best 4K streaming sticks are up to 40 percent off",
+      "url": "https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale",
+      "summary": "There&#8217;s no shortage of great shows and movies to watch, but discovering something new isn&#8217;t always easy. Amazon&#8217;s Fire TV Stick 4K Plus and Fire TV Stick 4K Max come with redesigned software that aims to make it easier to finding something you’ll like, and both 4K-ready streaming sticks are back to their lowest prices [&#8230;]",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
+      "title": "AI chip startup Etched defies skeptics, hits $10.3B valuation from big-name investors",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors",
+      "summary": "Etched, founded by three Harvard dropouts, has created new chips and memory components that speed up inference on any AI model -- no GPUs required, it says.",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code",
+      "title": "Edtech platform raises $4.5M to help teach students how to vibe code",
+      "url": "https://techcrunch.com/2026/07/23/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code",
+      "summary": "Imagi announced a $4.5 million seed round, with investors including Brighteye Ventures, Day One Capital, and artist Will.i.am.",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon",
+      "title": "Nvidia is sending GPUs to the moon",
+      "url": "https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon",
+      "summary": "If there's a place in the universe without GPUs, Nvidia is sending them there.",
+      "publishedAt": "2026-07-23T15:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6959699",
+      "title": "Encryption and Globalization 15 Years Later: E2EE and the \"Going Dark\" Debate",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6959699",
+      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6959699 Comments URL: https://news.ycombinator.com/item?id=49022668 Points: 35 # Comments: 14",
+      "publishedAt": "2026-07-23T14:55:45.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://eliemichel.github.io/LearnWebGPU",
+      "title": "Learn WebGPU for C++",
+      "url": "https://eliemichel.github.io/LearnWebGPU",
+      "summary": "Article URL: https://eliemichel.github.io/LearnWebGPU/ Comments URL: https://news.ycombinator.com/item?id=49022663 Points: 38 # Comments: 8",
+      "publishedAt": "2026-07-23T14:55:32.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://learnopengl.com",
+      "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+      "url": "https://learnopengl.com",
+      "summary": "Article URL: https://learnopengl.com/ Comments URL: https://news.ycombinator.com/item?id=49022634 Points: 103 # Comments: 55",
+      "publishedAt": "2026-07-23T14:53:34.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
+      "title": "Google&#8217;s Gemini nears billion-user milestone",
+      "url": "https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini",
+      "summary": "Gemini had over 750 million monthly users in February.",
+      "publishedAt": "2026-07-23T14:52:44.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/amazon-is-bringing-games-to-prime-video",
+      "title": "Amazon is bringing games to Prime Video",
+      "url": "https://techcrunch.com/2026/07/23/amazon-is-bringing-games-to-prime-video",
+      "summary": "Amazon is hoping the addition of games can turn Prime Video into a one-stop entertainment destination, borrowing a strategy from Netflix, which has increasingly embraced party games over the past several years.",
+      "publishedAt": "2026-07-23T14:49:05.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident",
+      "title": "AI arms race in line for a reckoning after OpenAI hacking incident",
+      "url": "https://arstechnica.com/ai/2026/07/ai-arms-race-in-line-for-a-reckoning-after-openai-hacking-incident",
+      "summary": "Aggressive training techniques sharpens threat of bad behavior by leading models.",
+      "publishedAt": "2026-07-23T14:45:05.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/mebemes-new-interrupter-app-helps-you-become-your-best-self-instead-of-doomscrolling",
+      "title": "MeBeMe&#8217;s new ‘interrupter’ app helps you become your best self instead of doomscrolling",
+      "url": "https://techcrunch.com/2026/07/23/mebemes-new-interrupter-app-helps-you-become-your-best-self-instead-of-doomscrolling",
+      "summary": "MeBeMe delivers small tasks to help users become their best selves instead of endlessly scrolling.",
+      "publishedAt": "2026-07-23T14:43:20.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://yamafaktory.github.io/whetuu",
+      "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
+      "url": "https://yamafaktory.github.io/whetuu",
+      "summary": "Article URL: https://yamafaktory.github.io/whetuu/ Comments URL: https://news.ycombinator.com/item?id=49022371 Points: 33 # Comments: 17",
+      "publishedAt": "2026-07-23T14:37:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/h3nock/remux",
+      "title": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
+      "url": "https://github.com/h3nock/remux",
+      "summary": "Article URL: https://github.com/h3nock/remux Comments URL: https://news.ycombinator.com/item?id=49022284 Points: 53 # Comments: 17",
+      "publishedAt": "2026-07-23T14:31:26.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
       "title": "Writing by hand is good for your brain",
       "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "summary": "Article URL: https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your Comments URL: https://news.ycombinator.com/item?id=49022152 Points: 254 # Comments: 100",
+      "summary": "Article URL: https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your Comments URL: https://news.ycombinator.com/item?id=49022152 Points: 514 # Comments: 252",
       "publishedAt": "2026-07-23T14:24:43.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://haqr.eu/tinyrenderer",
-      "title": "Software rendering in 500 lines of bare C++",
-      "url": "https://haqr.eu/tinyrenderer",
-      "summary": "Article URL: https://haqr.eu/tinyrenderer/ Comments URL: https://news.ycombinator.com/item?id=49022038 Points: 88 # Comments: 18",
-      "publishedAt": "2026-07-23T14:17:40.000Z",
+      "id": "hacker-news:https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
+      "title": "Fields Medals 2026",
+      "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
+      "summary": "Article URL: https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026 Comments URL: https://news.ycombinator.com/item?id=49022137 Points: 49 # Comments: 14",
+      "publishedAt": "2026-07-23T14:23:51.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -35,36 +235,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development",
-      "title": "Hybrid-Electric Aicraft Engine Targeting 30% Fuel Efficiency",
-      "url": "https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development",
-      "summary": "Article URL: https://www.rtx.com/news/news-center/2026/07/21/rtxs-pratt-whitney-canada-advances-hybrid-electric-technology-development Comments URL: https://news.ycombinator.com/item?id=49021868 Points: 26 # Comments: 5",
-      "publishedAt": "2026-07-23T14:07:38.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard",
-      "title": "Emacs Is a Lispboard",
-      "url": "https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard",
-      "summary": "Article URL: https://en.andros.dev/blog/06bfd107/emacs-is-a-lispboard/ Comments URL: https://news.ycombinator.com/item?id=49021786 Points: 14 # Comments: 3",
-      "publishedAt": "2026-07-23T14:02:45.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.eso.org/public/news/eso2610",
-      "title": "Astronomers may have found the first exomoon",
-      "url": "https://www.eso.org/public/news/eso2610",
-      "summary": "Article URL: https://www.eso.org/public/news/eso2610/ Comments URL: https://news.ycombinator.com/item?id=49021783 Points: 107 # Comments: 42",
-      "publishedAt": "2026-07-23T14:02:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting",
       "title": "Your backstage pass to TechCrunch Disrupt 2026 is waiting",
       "url": "https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting",
@@ -72,16 +242,6 @@
       "publishedAt": "2026-07-23T14:02:00.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "title": "Apple’s OpenAI lawsuit is about who gets to define the post-smartphone era",
-      "url": "https://www.theverge.com/podcast/968787/apple-openai-trade-secrets-lawsuit-ai-hardware-smartphone-jony-ive",
-      "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI and what this tells us about OpenAI’s future. By now I’m sure most Decoder listeners are familiar with Apple’s allegations in this case. The company says a number of ex-Apple employees at [&#8230;]",
-      "publishedAt": "2026-07-23T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -105,36 +265,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://tangled.org/janantos.tngl.sh/brow6el",
-      "title": "Brow6el: A full-featured web browser for the terminal using Chromium",
-      "url": "https://tangled.org/janantos.tngl.sh/brow6el",
-      "summary": "Article URL: https://tangled.org/janantos.tngl.sh/brow6el Comments URL: https://news.ycombinator.com/item?id=49021647 Points: 20 # Comments: 0",
-      "publishedAt": "2026-07-23T13:55:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
-      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
-      "summary": "Article URL: https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16 Comments URL: https://news.ycombinator.com/item?id=49021597 Points: 45 # Comments: 35",
-      "publishedAt": "2026-07-23T13:51:36.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/transportation/969919/ford-apple-maps-bluecruise-driver-assist",
-      "title": "Ford picks Apple Maps for its next EV platform and updated BlueCruise",
-      "url": "https://www.theverge.com/transportation/969919/ford-apple-maps-bluecruise-driver-assist",
-      "summary": "Ford plans to embed Apple Maps directly into its Universal Electric Vehicle Platform, which will start with a $30,000 midsize pickup truck set for release in 2027. In an announcement on Thursday, Ford says it will use Apple Maps to offer \"turn-by-turn directions using natural language, real-time traffic and incident information, intuitive search featuring detailed [&#8230;]",
-      "publishedAt": "2026-07-23T13:49:51.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame",
       "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame",
@@ -145,16 +275,6 @@
       "category": "AI"
     },
     {
-      "id": "the-verge:https://www.theverge.com/entertainment/969584/hirokazu-kore-eda-sheep-in-a-box-interview",
-      "title": "The sci-fi movie that imagines AI isn’t so dystopian after all",
-      "url": "https://www.theverge.com/entertainment/969584/hirokazu-kore-eda-sheep-in-a-box-interview",
-      "summary": "Imagine you are the parent of an inquisitive seven-year-old who loves his family, playing baseball, and hanging out with his friends. It's the life you've always wanted. And then the worst thing that ever could happen happens: A freak accident takes your son away. But as it turns out, you don't have to live with [&#8230;]",
-      "publishedAt": "2026-07-23T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai",
       "title": "The Download: energy transmission and US threats against Chinese AI",
       "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai",
@@ -163,16 +283,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-      "title": "The right-wing boomers protesting data centers have a lot in common with the left",
-      "url": "https://www.theverge.com/policy/969667/humans-first-data-center-protest-hernando-county-florida-republicans",
-      "summary": "On a gray, humid Saturday morning in central Florida, a little under a dozen people gathered outside the Spring Hill Branch Library to protest the construction of a hyperscale data center in their community. There was no immediate threat - the Hernando County commission had unanimously approved a one-year moratorium on such developments in June [&#8230;]",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines",
@@ -192,116 +302,6 @@
       "publishedAt": "2026-07-23T11:23:21.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated",
-      "title": "I wanted a clock that never needed setting. Things escalated.",
-      "url": "https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated",
-      "summary": "Sure, maybe your clock has a backup battery, but mine has a deployment pipeline!",
-      "publishedAt": "2026-07-23T11:00:50.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
-      "title": "Experts say exploiting Anthropic&#8217;s Fable isn&#8217;t how Kimi K3 got so good",
-      "url": "https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good",
-      "summary": "\"I don't think you get a model this strong and this quickly on the heels of Fable doing strictly distillation,\" one expert told TechCrunch.",
-      "publishedAt": "2026-07-23T11:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering",
-      "title": "Google hit with $1 billion fine for breaking EU antitrust rules",
-      "url": "https://www.theverge.com/tech/943866/google-alphabet-eu-dma-fine-search-services-play-store-steering",
-      "summary": "The European Union has fined Google's parent company Alphabet &#8364;890 million (about $1 billion) for two separate violations of the bloc's Digital Markets Act (DMA). One penalty is for giving its own products preferential treatment in search results, while the other is for blocking Android developers from sending users to alternate payment options. A &#8364;460 [&#8230;]",
-      "publishedAt": "2026-07-23T10:33:08.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe",
-      "title": "The power line that could reshape New York’s grid is hitting snags",
-      "url": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe",
-      "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on a 339-mile power line stretching from Quebec to Queens called the Champlain Hudson Power Express (CHPE).&#8230;",
-      "publishedAt": "2026-07-23T09:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push",
-      "title": "ServiceNow bets $40 million on Indian banking software specialist to expand its financial services push",
-      "url": "https://techcrunch.com/2026/07/22/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push",
-      "summary": "ServiceNow's investment gives BusinessNext a strategic partner to expand its AI-powered banking software globally.",
-      "publishedAt": "2026-07-23T06:09:13.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/olympic-mountain-glory",
-      "title": "Olympic Mountain Glory",
-      "url": "https://science.nasa.gov/earth/earth-observatory/olympic-mountain-glory",
-      "summary": "Snow-capped mountains carved by deep river valleys preside over northwestern Washington state.",
-      "publishedAt": "2026-07-23T04:01:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode",
-      "title": "Watch orcas ram a sunfish so hard it explodes",
-      "url": "https://arstechnica.com/science/2026/07/orcas-team-up-to-ram-sunfish-until-they-explode",
-      "summary": "“We think this may help younger orcas feed more easily, or it could also just be for fun.”",
-      "publishedAt": "2026-07-23T04:00:38.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer",
-      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
-      "url": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer",
-      "summary": "NVIDIA founder and CEO Jensen Huang today visited the Naval Postgraduate School in Monterey, California, to commission an NVIDIA DGX GB300 system — bringing one of the world’s most powerful AI platforms fully online for the students, researchers and faculty at the U.S. military’s flagship graduate university. “Our nation depends on our men and women [&#8230;]",
-      "publishedAt": "2026-07-23T02:00:46.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/nunchaku-diffusers",
-      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "url": "https://huggingface.co/blog/nunchaku-diffusers",
-      "summary": "",
-      "publishedAt": "2026-07-23T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe",
-      "title": "After shocking quarter, IBM insists that AI isn&#8217;t killing the mainframe",
-      "url": "https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe",
-      "summary": "After IBM's stock crashed last week on warnings of poor mainframe sales, the CEO explained that AI wrecked corporate hardware budget, temporarily.",
-      "publishedAt": "2026-07-22T23:47:54.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business",
-      "title": "Google justifies its massive AI spending with a booming cloud business",
-      "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business",
-      "summary": "Google's cloud business is thriving, as companies adopting its AI and AI infrastructure services help the tech giant to report record profits.",
-      "publishedAt": "2026-07-22T22:01:52.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     }
   ]

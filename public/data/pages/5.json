@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/wordpress-vulnerabilities",
+      "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+      "url": "https://blog.cloudflare.com/wordpress-vulnerabilities",
+      "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
+      "publishedAt": "2026-07-17T21:30:43.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "github-blog:https://github.blog/engineering/the-cost-of-saying-yes-has-changed",
       "title": "The cost of saying yes has changed",
       "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed",
@@ -293,16 +303,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it",
-      "title": "Better tools made Copilot code review worse. Here&#8217;s how we actually improved it.",
-      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it",
-      "summary": "How migrating Copilot code review to shared Unix-style code exploration tools reduced review cost by reshaping agent workflows around pull request evidence. The post Better tools made Copilot code review worse. Here&#8217;s how we actually improved it. appeared first on The GitHub Blog .",
-      "publishedAt": "2026-07-10T15:57:47.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
     }
   ]
 }

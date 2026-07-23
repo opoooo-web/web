@@ -5,10 +5,130 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=49024620",
+      "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+      "url": "https://news.ycombinator.com/item?id=49024620",
+      "summary": "Hi Hacker News, I'm Louis. I built Screenpipe ( https://screenpipe.com ), an app that records your screen and audio locally (only!), and gives AI agents a searchable memory of what you've seen, said, and heard. This makes it easier to automate your repetitive tasks, turn them into SOPs (Standard Operating Procedure) and so on. I made a HN-style demo video at https://www.tella.tv/video/build-your-ai-second-brain-with-s... and there’s a marketing video at https://www.youtube.com/watch?v=c1jV6E9pyug . I’ve been obsessed with this for a long time. I’ve been maintaining a “second brain” since 2020, in which I would store journals, handwritten notes, music I listen to, projects I'm working on, conversations I have with people, personal CRM etc. I experimented a lot of RAG in the early days with ParlAI, hundreds of fine-tuned GPT2 models, and GPT3 ( https://forum.obsidian.md/t/fine-tuning-openai-api-gpt3-on-y... ). Later I built Ava, the first Obsidian AI plugin, which grew to a few thousands of users quickly. It then became Embedbase, an API to make it easier to build AI apps powered by RAG. What I learned from all this is how important it is for the models to have context about what you’re doing on your computer, in order to get them to do what you want. In the early days there was fine tuning but it was too much pain, then there was tool calling so that AI can access software you use but still kinda not autonomous enough. needing micro management. Then MCP came, but it felt too static, and non technical users struggled to build and use MCP. Then we got skills. Most recently we’ve seen Karpethy’s LLM-maintained wiki, Garry's GBrain, etc., where an agent incrementally maintains a persistent collection of Markdown pages. New sources update entity pages, strengthen or contradict existing claims, and improve a synthesis that compounds over time. I like this pattern, but it still begins with someone selecting and importing the sources. There is still no way AI can know what you and your company are doing every day, across apps, not just inside of apps. Of course, not everyone wants this. But I do! I want AI to know what I'm doing and never lose memory ever again, and I want it to use the same software that humans do, without painful context switches. I started building Screenpipe for myself in 2024 - a CLI to record your screen and plug this context into AI. An HN user posted it in 2024 ( https://news.ycombinator.com/item?id=41695840 ) and that discussion influenced the product. The most useful criticism concerned recording consent, local security, CPU usage, signal-to-noise, and whether agents could act on top of the data. The naive implementation started from continuously recording video and running OCR over every frame. But that creates duplicate data, consumes substantial resources (it basically turns your computer into a space heater!), and discards structure the operating system already knows. Screenpipe now instead listens for events such as app switches, clicks, typing pauses, scrolling, and idle fallbacks. When something meaningful changes, it pairs a screenshot with the operating system’s accessibility tree at the same timestamp. OCR is used when structured accessibility data is unavailable. We also capture audio continuously, identify speakers and transcribe locally through Parakeet/Whisper or using cloud models. Everything is indexed in a local SQLite database, mp4 files, and sometimes md files. An AI friendly API on port 3030 is open for agents, with authentication and a MCP and skills. Once Screenpipe has been up and running for a while, you can use it through our built-in chat, Claude, ChatGPT, Hermes, Openclaw, or any agent, to do things like: - adding context to your current chat, e.g. \"gather all context about task X\", then requiring less prompts to achieve your goal - retrieve information, e.g. \"retrieve the tasks i was working on from 8 am to 4 pm, make a list of what got done and what's left\" - create and maintain a personal wiki / second brain for your agents: \"every 1h organize everything i do in projects, people, tasks, meetings in my Obsidian vault as markdown files and folders\" - create automations: whenever i visit someone's profile on linkedin, update my crm - find automation opportunities: look at everything my team has done this week and turn it into a list of automation opportunities Screenpipe data is stored locally, though we also offer an enterprise plan to discover automation opportunities and for that the company decides where the data lives. We built our own AI PII model to redact sensitive information, it runs locally on Apple MLX or Windows DirectML, we also support cloud confidential inference for low end devices, although our local models are meant to use We also support recording schedules and other privacy features. Most of our codebase is written in Rust, MLX, Onnx, we like cidre or direct C call for Apple APIs and windows-rs for Windows API. We also experimentally support Linux. We have a desktop app ( https://screenpipe.com/how-to-install ) and a CLI: npx screenpipe record You can run that without creating an account. All the code is source-available at https://github.com/screenpipe/screenpipe . We took the dreaded step of making our own Screenpipe Commercial License. I know HN strongly prefers OSI open source (MIT/Apache/etc.) but couldn’t find a sustainable way to keep developing Screenpipe while companies were using it commercially for free. So now personal non-commercial, nonprofit, educational, and research use is free, but commercial use requires a license. Versions released before the license change remain available under MIT. We have a free tier, and other plans, including Enterprise which helps companies find automation opportunities. Would love to hear any feedback, things you've done with screenpipe, or features you'd want Comments URL: https://news.ycombinator.com/item?id=49024620 Points: 34 # Comments: 36",
+      "publishedAt": "2026-07-23T16:48:38.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle",
+      "title": "Google hit with $1 billion in fines as EU braces for Trump battle",
+      "url": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle",
+      "summary": "Google becomes third tech giant to face huge fines under the Digital Markets Act.",
+      "publishedAt": "2026-07-23T16:41:36.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/streaming/970099/amazon-prime-video-luna-gaming",
+      "title": "Amazon puts Luna cloud-streamed games like Fallout 4 inside Prime Video",
+      "url": "https://www.theverge.com/streaming/970099/amazon-prime-video-luna-gaming",
+      "summary": "The new strategy that Amazon gaming exec Jeff Gattis talked to The Verge about last month is getting clearer now that Prime Video has added a new Games tab on Fire TV devices. With Prime Gaming, Amazon Game Studios, and Luna now combined into one organization, it's aiming at the more casual audience of people [&#8230;]",
+      "publishedAt": "2026-07-23T16:39:32.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse",
+      "title": "Tesla&#8217;s robotaxis are moving in reverse",
+      "url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse",
+      "summary": "The number of paid robotaxi miles traveled fell 36% in the second quarter, despite expanding to new cities, according to Tesla's own figures.",
+      "publishedAt": "2026-07-23T16:29:59.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
+      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
+      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
+      "publishedAt": "2026-07-23T16:28:50.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug",
+      "title": "Sony's decision to ditch discs was practically inevitable, data shows",
+      "url": "https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug",
+      "summary": "Circana numbers show US gamers overwhelmingly voting with their wallets.",
+      "publishedAt": "2026-07-23T16:25:46.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
+      "title": "Google just had its first negative cash flow quarter due to massive AI spending",
+      "url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
+      "summary": "Google continues to report big quarterly revenue, but its AI spending has skyrocketed.",
+      "publishedAt": "2026-07-23T16:04:19.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video",
+      "title": "Google will now let you sign in to your account with a selfie video",
+      "url": "https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video",
+      "summary": "The tech giant says selfie videos give users more options to sign in if they're ever locked out or don't have access to their usual phone or computer.",
+      "publishedAt": "2026-07-23T16:01:03.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://openjdk.org/jeps/540",
+      "title": "JEP 540: Simple JSON API (Now in Incubator)",
+      "url": "https://openjdk.org/jeps/540",
+      "summary": "Article URL: https://openjdk.org/jeps/540 Comments URL: https://news.ycombinator.com/item?id=49023809 Points: 72 # Comments: 56",
+      "publishedAt": "2026-07-23T16:01:02.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "github-blog:https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates",
+      "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+      "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates",
+      "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code. The post The case for a cooldown: Why Dependabot now waits before issuing version updates appeared first on The GitHub Blog .",
+      "publishedAt": "2026-07-23T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming",
+      "title": "Microsoft is testing free, ad-supported cloud gaming for Xbox Insiders",
+      "url": "https://www.theverge.com/games/969969/xbox-testing-ad-supported-streaming",
+      "summary": "Xbox Insiders can stream games from their libraries for free in ad-supported streaming sessions starting today. The free streaming sessions are limited to games you already own, and sessions are capped at one hour. However, ads will only play \"before sessions begin.\" It's also optional - you won't need to watch ads if you have [&#8230;]",
+      "publishedAt": "2026-07-23T16:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/Conradqh/scrapemychats",
+      "title": "Free way to get your data out of ChatGPT Business accounts",
+      "url": "https://github.com/Conradqh/scrapemychats",
+      "summary": "Article URL: https://github.com/Conradqh/scrapemychats Comments URL: https://news.ycombinator.com/item?id=49023486 Points: 63 # Comments: 6",
+      "publishedAt": "2026-07-23T15:45:51.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://github.com/onecli/onecli",
       "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
       "url": "https://github.com/onecli/onecli",
-      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over... From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. the secrets set inside the OneCLI vault, encrypted on rest, or could fetch in realtime from your bitwarden / 1password wallets. Demo - https://www.youtube.com/watch?v=5e5pbPEzZfY . We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. they keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. Not providing the keys to the agent + adding alerts or human-in-the-loop for sensitive operations, in case someone manipulates the agent, and access logs are being audited. We use it ourselves daily. My OpenClaw runs my day across Attio, Gmail, and my calendar, with human-in-the-loop approval on sensitive actions. The approval is enforced at the network layer, so it holds whether the agent goes through MCP, CLI, curl, or code it wrote on the fly. Guy uses it to review PRs but can't merge without his approval. Companies mostly use it for coding agents currently, which get creative about finding ways to elevate their permissions to reach the goal. With OneCLI, it doesn't matter what the agent finds: if the request isn't in policy, it will not go through. The proxy is written in Rust, the dashboard is Next.js, and secrets are AES-256-GCM encrypted at rest. Everything runs in a Docker container. It works with any agent framework (Claude Code, Codex, Cursor, OpenClaw, Hermes or anything that can set an HTTPS_PROXY). It won't stop an agent from misusing access it legitimately has, so scope policies tightly! happy to answer anything. We believe we can't trust the model to behave and have to set deterministic rules to stay in control. Comments welcome! Comments URL: https://news.ycombinator.com/item?id=49023427 Points: 36 # Comments: 15",
+      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secure way, trusting the person to keep them safe. We figured that in the agent's world, this is not the case, as you don't know what happens with the secret after it's delivered to the agent, or where it was saved. Or maybe someone even manipulated them to hand them over... From that understanding, we decided to build a network gateway that sits between your AI agents and the services they call. OneCLI matches the request by host/path, verifies the agent should have access, swaps the placeholder for the real credential, and forwards the request. the secrets set inside the OneCLI vault, encrypted on rest, or could fetch in realtime from your bitwarden / 1password wallets. Demo - https://www.youtube.com/watch?v=5e5pbPEzZfY . We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. they keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys/secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker's benefit. Not providing the keys to the agent + adding alerts or human-in-the-loop for sensitive operations, in case someone manipulates the agent, and access logs are being audited. We use it ourselves daily. My OpenClaw runs my day across Attio, Gmail, and my calendar, with human-in-the-loop approval on sensitive actions. The approval is enforced at the network layer, so it holds whether the agent goes through MCP, CLI, curl, or code it wrote on the fly. Guy uses it to review PRs but can't merge without his approval. Companies mostly use it for coding agents currently, which get creative about finding ways to elevate their permissions to reach the goal. With OneCLI, it doesn't matter what the agent finds: if the request isn't in policy, it will not go through. The proxy is written in Rust, the dashboard is Next.js, and secrets are AES-256-GCM encrypted at rest. Everything runs in a Docker container. It works with any agent framework (Claude Code, Codex, Cursor, OpenClaw, Hermes or anything that can set an HTTPS_PROXY). It won't stop an agent from misusing access it legitimately has, so scope policies tightly! happy to answer anything. We believe we can't trust the model to behave and have to set deterministic rules to stay in control. Comments welcome! Comments URL: https://news.ycombinator.com/item?id=49023427 Points: 54 # Comments: 23",
       "publishedAt": "2026-07-23T15:42:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,7 +158,7 @@
       "id": "hacker-news:https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
       "title": "Why Software Factories Fail (or: harness engineering is not enough)",
       "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
-      "summary": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md Comments URL: https://news.ycombinator.com/item?id=49023019 Points: 53 # Comments: 32",
+      "summary": "Article URL: https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md Comments URL: https://news.ycombinator.com/item?id=49023019 Points: 113 # Comments: 91",
       "publishedAt": "2026-07-23T15:18:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -48,7 +168,7 @@
       "id": "hacker-news:https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
       "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
       "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
-      "summary": "https://littletech.org/ https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0... Comments URL: https://news.ycombinator.com/item?id=49023016 Points: 404 # Comments: 409",
+      "summary": "https://littletech.org/ https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0... Comments URL: https://news.ycombinator.com/item?id=49023016 Points: 543 # Comments: 510",
       "publishedAt": "2026-07-23T15:18:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -56,9 +176,9 @@
     },
     {
       "id": "hacker-news:https://github.com/palmier-io/palmier-pro",
-      "title": "Show HN: Palmier Pro – open-source macOS video editor built for AI",
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
       "url": "https://github.com/palmier-io/palmier-pro",
-      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 - Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor. As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can: - Manage projects inside Palmier Pro - Import media from a public URL or filesystem to the project, and organize them in folders - Search media (by embedding footages using SigLIP2 running locally) - Edit the timeline (tracks/clips/keyframes operations) - Generate images, videos, sound effects, captions, music - Export videos There are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor. We have seen people using MCP server to connect to their own workflow to automate massive-scale video editing (e.g. given this same podcast style, replicate it with other footages that I have). We have also seen people using the in-app chat where it lives closer to the editor UI, with lower latency for faster iteration. We don't believe that AI is going to replace human creativity (nor should it), but where it can really help is in automating the gruntwork in video editing. Most work in the editing workflow is more mechanical than creative. Our vision is to build a video editor where AI can enable more individuals to create. Throughout our experiments, AI is not very good at creative editing, but given a pattern (transcription-based, beat-based), it can do a decent job at rough cut. We built Palmier Pro in Swift as an MVP because we wanted better performance and minimal dependencies (no nodejs/webview), with some native macOS APIs like SpeechAnalyzer and CoreML for us to run some models locally. We use SpeechAnalyzer for local transcriber, SigLip2 to embed video frames, beat_this for beat detection, Silero VAD for silence detection, all running locally. The tradeoff is that we don't support Linux or Windows at the moment. Palmier Pro is open source and free to try out (macOS 26 only at the moment, though - we'll support more platforms over time, but for now are focusing on iterating the core product). No login required except for the AI generation features, which route requests to our backend. We are offering free credits on sign up so you can try out the AI generation as well. We'd love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=49022911 Points: 39 # Comments: 9",
+      "summary": "Hi HN, we are Marcos and Harrison, cofounders of Palmier ( https://palmier.io ). We are building Palmier Pro, an open source macOS video editor, with built-in AI generation and a local MCP server that connects to your agent. Here are a few demos: - Making some AI transitions: https://www.youtube.com/watch?v=hbM_-eR1GX4 - Multicam editing with Codex: https://www.youtube.com/watch?v=SjS2q2LT1q8 - Cutting long form clips into shorts: https://www.youtube.com/watch?v=PR66eN2ouuQ We built Palmier Pro as an internal tool when we were making AI launch videos for other startups. The main problem it solved in the beginning was the back-and-forth between AI generation platform and video editor. The iteration loop was awkward: AI videos → download → import to editor → edit → realize we need to change the AI video → repeat. So we built a minimal video editor where we could let Claude generate AI videos inside the editor. As we gave more and more tools to the agent, we wanted to push to see what else agents can do in the video editing space. So today, your Claude/Codex can: - Manage projects inside Palmier Pro - Import media from a public URL or filesystem to the project, and organize them in folders - Search media (by embedding footages using SigLIP2 running locally) - Edit the timeline (tracks/clips/keyframes operations) - Generate images, videos, sound effects, captions, music - Export videos There are two ways for LLMs to interact with the editor: by connecting to the local MCP server, or using the in-app chat. Both use the same tools and APIs exposed by the video editor. We have seen people using MCP server to connect to their own workflow to automate massive-scale video editing (e.g. given this same podcast style, replicate it with other footages that I have). We have also seen people using the in-app chat where it lives closer to the editor UI, with lower latency for faster iteration. We don't believe that AI is going to replace human creativity (nor should it), but where it can really help is in automating the gruntwork in video editing. Most work in the editing workflow is more mechanical than creative. Our vision is to build a video editor where AI can enable more individuals to create. Throughout our experiments, AI is not very good at creative editing, but given a pattern (transcription-based, beat-based), it can do a decent job at rough cut. We built Palmier Pro in Swift as an MVP because we wanted better performance and minimal dependencies (no nodejs/webview), with some native macOS APIs like SpeechAnalyzer and CoreML for us to run some models locally. We use SpeechAnalyzer for local transcriber, SigLip2 to embed video frames, beat_this for beat detection, Silero VAD for silence detection, all running locally. The tradeoff is that we don't support Linux or Windows at the moment. Palmier Pro is open source and free to try out (macOS 26 only at the moment, though - we'll support more platforms over time, but for now are focusing on iterating the core product). No login required except for the AI generation features, which route requests to our backend. We are offering free credits on sign up so you can try out the AI generation as well. We'd love to hear your feedback! Comments URL: https://news.ycombinator.com/item?id=49022911 Points: 64 # Comments: 15",
       "publishedAt": "2026-07-23T15:11:37.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -69,16 +189,6 @@
       "title": "The new Halo remake is a reminder of what Xbox used to be",
       "url": "https://www.theverge.com/entertainment/969563/halo-campaign-evolved-review-xbox-ps5-pc",
       "summary": "It's impossible to talk about a new Xbox game without also talking about the state of Xbox. Microsoft's gaming division is in freefall: Recent headlines are dominated by extensive layoffs, decimated studios, and confusing strategies, most of which stem from years of bad decisions and expensive acquisitions. But it wasn't always that way. Through its [&#8230;]",
-      "publishedAt": "2026-07-23T15:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale",
-      "title": "Amazon’s best 4K streaming sticks are up to 40 percent off",
-      "url": "https://www.theverge.com/gadgets/969615/amazon-fire-tv-stick-4k-plus-4k-max-anker-zolo-deal-sale",
-      "summary": "There&#8217;s no shortage of great shows and movies to watch, but discovering something new isn&#8217;t always easy. Amazon&#8217;s Fire TV Stick 4K Plus and Fire TV Stick 4K Max come with redesigned software that aims to make it easier to finding something you’ll like, and both 4K-ready streaming sticks are back to their lowest prices [&#8230;]",
       "publishedAt": "2026-07-23T15:00:00.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
@@ -115,20 +225,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6959699",
-      "title": "Encryption and Globalization 15 Years Later: E2EE and the \"Going Dark\" Debate",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6959699",
-      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6959699 Comments URL: https://news.ycombinator.com/item?id=49022668 Points: 35 # Comments: 14",
-      "publishedAt": "2026-07-23T14:55:45.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://eliemichel.github.io/LearnWebGPU",
       "title": "Learn WebGPU for C++",
       "url": "https://eliemichel.github.io/LearnWebGPU",
-      "summary": "Article URL: https://eliemichel.github.io/LearnWebGPU/ Comments URL: https://news.ycombinator.com/item?id=49022663 Points: 38 # Comments: 8",
+      "summary": "Article URL: https://eliemichel.github.io/LearnWebGPU/ Comments URL: https://news.ycombinator.com/item?id=49022663 Points: 55 # Comments: 9",
       "publishedAt": "2026-07-23T14:55:32.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -138,7 +238,7 @@
       "id": "hacker-news:https://learnopengl.com",
       "title": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
       "url": "https://learnopengl.com",
-      "summary": "Article URL: https://learnopengl.com/ Comments URL: https://news.ycombinator.com/item?id=49022634 Points: 103 # Comments: 55",
+      "summary": "Article URL: https://learnopengl.com/ Comments URL: https://news.ycombinator.com/item?id=49022634 Points: 131 # Comments: 74",
       "publishedAt": "2026-07-23T14:53:34.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -158,7 +258,7 @@
       "id": "techcrunch:https://techcrunch.com/2026/07/23/amazon-is-bringing-games-to-prime-video",
       "title": "Amazon is bringing games to Prime Video",
       "url": "https://techcrunch.com/2026/07/23/amazon-is-bringing-games-to-prime-video",
-      "summary": "Amazon is hoping the addition of games can turn Prime Video into a one-stop entertainment destination, borrowing a strategy from Netflix, which has increasingly embraced party games over the past several years.",
+      "summary": "Amazon is hoping the addition of games can turn Prime Video into a one-stop entertainment destination.",
       "publishedAt": "2026-07-23T14:49:05.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
@@ -185,20 +285,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://yamafaktory.github.io/whetuu",
-      "title": "Show HN: Whetuu – a zero-config cross-shell prompt written in Zig",
-      "url": "https://yamafaktory.github.io/whetuu",
-      "summary": "Article URL: https://yamafaktory.github.io/whetuu/ Comments URL: https://news.ycombinator.com/item?id=49022371 Points: 33 # Comments: 17",
-      "publishedAt": "2026-07-23T14:37:54.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://github.com/h3nock/remux",
       "title": "Show HN: Remux – an open-source tmux workspace designed for iPhone",
       "url": "https://github.com/h3nock/remux",
-      "summary": "Article URL: https://github.com/h3nock/remux Comments URL: https://news.ycombinator.com/item?id=49022284 Points: 53 # Comments: 17",
+      "summary": "Article URL: https://github.com/h3nock/remux Comments URL: https://news.ycombinator.com/item?id=49022284 Points: 67 # Comments: 29",
       "publishedAt": "2026-07-23T14:31:26.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -208,101 +298,11 @@
       "id": "hacker-news:https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
       "title": "Writing by hand is good for your brain",
       "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
-      "summary": "Article URL: https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your Comments URL: https://news.ycombinator.com/item?id=49022152 Points: 514 # Comments: 252",
+      "summary": "Article URL: https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your Comments URL: https://news.ycombinator.com/item?id=49022152 Points: 701 # Comments: 348",
       "publishedAt": "2026-07-23T14:24:43.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
-      "title": "Fields Medals 2026",
-      "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026",
-      "summary": "Article URL: https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2026 Comments URL: https://news.ycombinator.com/item?id=49022137 Points: 49 # Comments: 14",
-      "publishedAt": "2026-07-23T14:23:51.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "title": "Lawmakers prepare bill requiring AI ‘kill switch’",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal",
-      "summary": "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico. Reps. Ted Lieu (D-CA) and Nathaniel Moran (R-TX) are expected to introduce the legislation on Thursday. The news of [&#8230;]",
-      "publishedAt": "2026-07-23T14:13:35.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting",
-      "title": "Your backstage pass to TechCrunch Disrupt 2026 is waiting",
-      "url": "https://techcrunch.com/2026/07/23/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting",
-      "summary": "Volunteer at TechCrunch Disrupt 2026 and get a behind-the-scenes look at how one of the world's biggest startup conferences gets built.",
-      "publishedAt": "2026-07-23T14:02:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-chris-williams-closes-out-space-station-mission",
-      "title": "NASA Astronaut Chris Williams Closes Out Space Station Mission",
-      "url": "https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-chris-williams-closes-out-space-station-mission",
-      "summary": "After eight months aboard the International Space Station for his first mission, NASA astronaut Chris Williams is preparing to return to Earth. During his assignment, Williams contributed to research for new cancer treatments, advanced the production of materials to improve computers and electronics, ventured into the vacuum of space to complete two spacewalks, and much [&#8230;]",
-      "publishedAt": "2026-07-23T14:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/23/ford-bets-on-apple-for-its-next-generation-of-evs",
-      "title": "Ford bets on Apple for its next-generation of EVs",
-      "url": "https://techcrunch.com/2026/07/23/ford-bets-on-apple-for-its-next-generation-of-evs",
-      "summary": "Ford is the first automaker to use a new set of developer tools that will let it embed Apple Maps navigation and mapping directly into its vehicles' infotainment systems.",
-      "publishedAt": "2026-07-23T13:58:37.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame",
-      "title": "GeForce NOW Sets Sail With ‘Path of Exile: Curse of the Allflame’ Joining the Cloud",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-path-of-exile-allflame",
-      "summary": "Lock in and load up the cloud. GFN Thursday brings fresh updates and new adventures, all ready to play without waiting for downloads. Set sail in Path of Exile: Curse of the Allflame and charge in Battlefield 6 Season 4 both launching major content for members this week. Then revisit Capcom legends like Breath of [&#8230;]",
-      "publishedAt": "2026-07-23T13:00:16.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai",
-      "title": "The Download: energy transmission and US threats against Chinese AI",
-      "url": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags During a heat wave on July 3, New York State’s grid imported enough electricity from Canada to meet about&#8230;",
-      "publishedAt": "2026-07-23T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines",
-      "title": "How AI helps scientists design the next generation of medicines",
-      "url": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines",
-      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to&#8230;",
-      "publishedAt": "2026-07-23T12:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/07/white-house-report-says-trump-can-usher-in-a-new-golden-age-of-science",
-      "title": "White House report says Trump can usher in a \"new golden age\" of science",
-      "url": "https://arstechnica.com/science/2026/07/white-house-report-says-trump-can-usher-in-a-new-golden-age-of-science",
-      "summary": "The resulting report is a near-random mixture of grievances and real problems.",
-      "publishedAt": "2026-07-23T11:23:21.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

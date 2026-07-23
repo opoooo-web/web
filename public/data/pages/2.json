@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z",
+      "title": "Travis Kalanick&#8217;s robotics company raises $1.7B, led by a16z",
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z",
+      "summary": "Uber is also investing in Travis Kalanick's company Atoms, which has made gauzy claims about using industrial AI to modernize the world.",
+      "publishedAt": "2026-07-22T18:50:44.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-to-showcase-agencys-newest-wind-tunnel-in-virginia",
+      "title": "NASA to Showcase Agency’s Newest Wind Tunnel in Virginia",
+      "url": "https://www.nasa.gov/news-release/nasa-to-showcase-agencys-newest-wind-tunnel-in-virginia",
+      "summary": "Media are invited to NASA’s Langley Research Center in Hampton, Virginia, on Friday, July 31, to attend a media tour and ribbon-cutting ceremony for the Flight Dynamics Research Facility, the agency’s first new wind tunnel in more than 40 years. The event will include a brief media availability with: This event is in person only [&#8230;]",
+      "publishedAt": "2026-07-22T18:47:05.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers",
+      "title": "Hyundai claims humanoid robot plan is not part of talks with striking workers",
+      "url": "https://arstechnica.com/ai/2026/07/hyundai-claims-humanoid-robot-plan-is-not-part-of-talks-with-striking-workers",
+      "summary": "Union previously warned automaker that any robot deployment must be negotiated.",
+      "publishedAt": "2026-07-22T18:18:12.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval",
+      "title": "Science Corporation&#8217;s vision-restoring chip wins EU approval",
+      "url": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval",
+      "summary": "\"The thing that the space needs is a company making $100 million a year of revenue,\" Science Corp. CEO Max Hodak said.",
+      "publishedAt": "2026-07-22T18:18:02.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads",
+      "title": "Yope raises $12.3M to build a private social network without algorithms or ads",
+      "url": "https://techcrunch.com/2026/07/22/yope-raises-12-3m-to-build-a-private-social-network-without-algorithms-or-ads",
+      "summary": "Yope, a fast-growing social app focused on private groups of friends and family, has raised $12.3 million in seed funding. Instead of chasing creators and algorithmic feeds, the startup is betting that the future of social networking lies in small, private communities powered by messaging, photo sharing, and AI features designed to strengthen real-world relationships.",
+      "publishedAt": "2026-07-22T18:13:58.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support",
       "title": "Robotic Servicing Mission Launches with NASA Support",
       "url": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support",
@@ -28,7 +78,7 @@
       "id": "hacker-news:https://github.com/cactus-compute/cactus-hybrid",
       "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
       "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks. - ChartQA: 15-20% - LibriSpeech: 25-30% - MMBench, GigaSpeech, MMAU: 30-35% - MMLU-Pro: 45-55% We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely better than a coin flip in our tests). So we did mechanistic studies on small models, Gemma 4 particularly, and found the hidden state for different layers carry meaningful self-awareness signal for various situations. SO we extended the model with a 68k params probe layer (LayerNorm, low-rank projection, attention pooling, small MLP head) reads one intermediate layer during decoding and predicts p(wrong); confidence = 1 - p(wrong), returned as structured data, never parsed out of the answer text. Across 12 hold-out benchmarks spanning text, vision and audio, the probe averages 0.814 AUROC vs 0.549 for token entropy. The result that convinced us this is real: the probe was trained on zero audio data, yet scores 0.79-0.88 AUROC on four audio benchmarks where entropy is near-random or worse (0.32-0.52). It's reading a modality-independent correctness signal from the hidden state, not memorizing patterns from its training data. We published all weights on HuggingFace and provide copy-pase codes to run it on Transformers, MLX, Llama.cpp or Cactus. With Ollama, vLLM, SGLang etc in the works. For llama.cpp we ship a patch series you compile in once (upstreaming is planned). The code is MIT licensed; Gemma model use remains subject to the Gemma terms. GitHub: https://github.com/cactus-compute/cactus-hybrid Weights: https://huggingface.co/collections/Cactus-Compute/cactus-hyb... Some caveats: - The probe scores single-sequence decoding only, up to the first 1024 generated tokens. - Handoff works best when routing per task in a multi-step process, not per step. - Hierarchical routing is still in the works: try on-device, then DeepSeek v4 Flash, before Fable/GPT5.5/Gemini/Muse/Grok. - The technique is boutique for each model, we will share each weights as they roll out. These issues are currently being tackled at Cactus and updated weights will be shipped directly into the HuggingFace collection and GitHub repository straight up. Please let us know your thoughts, it helps us find ways to improve the design progressively. Thanks a million! Comments URL: https://news.ycombinator.com/item?id=49010782 Points: 38 # Comments: 6",
+      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks. - ChartQA: 15-20% - LibriSpeech: 25-30% - MMBench, GigaSpeech, MMAU: 30-35% - MMLU-Pro: 45-55% We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely better than a coin flip in our tests). So we did mechanistic studies on small models, Gemma 4 particularly, and found the hidden state for different layers carry meaningful self-awareness signal for various situations. SO we extended the model with a 68k params probe layer (LayerNorm, low-rank projection, attention pooling, small MLP head) reads one intermediate layer during decoding and predicts p(wrong); confidence = 1 - p(wrong), returned as structured data, never parsed out of the answer text. Across 12 hold-out benchmarks spanning text, vision and audio, the probe averages 0.814 AUROC vs 0.549 for token entropy. The result that convinced us this is real: the probe was trained on zero audio data, yet scores 0.79-0.88 AUROC on four audio benchmarks where entropy is near-random or worse (0.32-0.52). It's reading a modality-independent correctness signal from the hidden state, not memorizing patterns from its training data. We published all weights on HuggingFace and provide copy-pase codes to run it on Transformers, MLX, Llama.cpp or Cactus. With Ollama, vLLM, SGLang etc in the works. For llama.cpp we ship a patch series you compile in once (upstreaming is planned). The code is MIT licensed; Gemma model use remains subject to the Gemma terms. GitHub: https://github.com/cactus-compute/cactus-hybrid Weights: https://huggingface.co/collections/Cactus-Compute/cactus-hyb... Some caveats: - The probe scores single-sequence decoding only, up to the first 1024 generated tokens. - Handoff works best when routing per task in a multi-step process, not per step. - Hierarchical routing is still in the works: try on-device, then DeepSeek v4 Flash, before Fable/GPT5.5/Gemini/Muse/Grok. - The technique is boutique for each model, we will share each weights as they roll out. These issues are currently being tackled at Cactus and updated weights will be shipped directly into the HuggingFace collection and GitHub repository straight up. Please let us know your thoughts, it helps us find ways to improve the design progressively. Thanks a million! Comments URL: https://news.ycombinator.com/item?id=49010782 Points: 86 # Comments: 14",
       "publishedAt": "2026-07-22T17:56:29.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -48,7 +98,7 @@
       "id": "hacker-news:https://mitchellh.com/writing/everyone-should-know-simd",
       "title": "Everyone Should Know SIMD",
       "url": "https://mitchellh.com/writing/everyone-should-know-simd",
-      "summary": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd Comments URL: https://news.ycombinator.com/item?id=49010648 Points: 208 # Comments: 66",
+      "summary": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd Comments URL: https://news.ycombinator.com/item?id=49010648 Points: 294 # Comments: 81",
       "publishedAt": "2026-07-22T17:48:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -56,9 +106,9 @@
     },
     {
       "id": "hacker-news:https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
+      "title": "Terrence Tao's ChatGPT conversation about the Jacobian conjecture counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "summary": "Article URL: https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56 Comments URL: https://news.ycombinator.com/item?id=49010345 Points: 545 # Comments: 341",
+      "summary": "Article URL: https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56 Comments URL: https://news.ycombinator.com/item?id=49010345 Points: 670 # Comments: 401",
       "publishedAt": "2026-07-22T17:30:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -68,7 +118,7 @@
       "id": "hacker-news:https://github.com/marcelroed/gigatoken",
       "title": "GigaToken: ~1000x faster Language model tokenization",
       "url": "https://github.com/marcelroed/gigatoken",
-      "summary": "Article URL: https://github.com/marcelroed/gigatoken/ Comments URL: https://news.ycombinator.com/item?id=49010167 Points: 331 # Comments: 63",
+      "summary": "Article URL: https://github.com/marcelroed/gigatoken/ Comments URL: https://news.ycombinator.com/item?id=49010167 Points: 395 # Comments: 78",
       "publishedAt": "2026-07-22T17:20:38.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -78,7 +128,7 @@
       "id": "hacker-news:https://dylancastillo.co/posts/pelicanmaxxing.html",
       "title": "Are AI Labs Pelicanmaxxing?",
       "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-      "summary": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 350 # Comments: 138",
+      "summary": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 416 # Comments: 161",
       "publishedAt": "2026-07-22T17:17:54.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -188,20 +238,10 @@
       "id": "hacker-news:https://unlayer.com",
       "title": "Launch HN: Unlayer (YC W22) – Add email and document builders to your app",
       "url": "https://unlayer.com",
-      "summary": "Hi HN, We’re Adeel and Umair, co-founders of Unlayer ( https://unlayer.com/ ). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, and documents inside your app, in three different ways: in code, visually, or with AI. Here’s a demo: https://www.youtube.com/watch?v=0HsDtNkdMpM . We started with an embeddable email editor because a lot of products eventually need one: CRMs, marketing tools, customer engagement platforms, marketplaces, internal tools, and vertical SaaS apps all run into this at some point. At first, it sounds like a small feature: \"just\" add a drag and drop editor. In practice, it turns into a big pain. You end up dealing with email rendering, Outlook quirks, responsive layouts, templates, merge tags, image uploads, exports, permissions, localization, versioning, and a long tail of edge cases that have nothing to do with your core product Over time, we saw the same problem beyond email. Apps also need landing pages, invoices, proposals, reports, contracts, and PDFs. Some of this content is best created visually by end users. Some of it is better generated in code by developers. Increasingly, some of it is also generated by AI agents. Many teams eventually need all three workflows. That is the direction we have been working toward with Unlayer. There are three parts we are showing today: (1) Unlayer Elements . This is our open-source React component library for creating emails, pages, and documents in code (repo: https://github.com/unlayer/elements , more at https://unlayer.com/elements ). Instead of hand-writing raw HTML templates, developers can compose content using React components, reuse sections like headers, footers, CTAs, invoice rows, and branded blocks, keep templates in Git, and render them into production output. One newer use case we are seeing is AI-assisted content creation. If an AI agent is asked to create an email, invoice, report, or landing page, the output is usually raw HTML or markdown that becomes hard to maintain. With Elements, the agent can generate structured React components instead. A developer can review the result, refactor it, keep it in Git, and still pass the design into a visual builder later if someone needs to edit it. (2) Visual Builder . This is the drag and drop editor (repo: https://github.com/unlayer/react-email-editor , more at https://unlayer.com/email-builder ) that can be embedded inside an app so non-technical users can create or edit content. In the demo, we show the email builder and the AI assistant inside the builder. The goal is not to replace the developer workflow, but to connect it with a visual workflow when marketers, admins, customers, or internal teams need to make changes themselves. (3) Document Builder . This is for structured documents such as proposals, reports, invoices, contracts, and PDFs. We have seen a lot of teams build separate systems for email templates, web pages, and document generation, even though the underlying primitives are similar: layout, content blocks, variables, assets, preview, export, and permissions. More: https://unlayer.com/document-builder The technical challenge is making these workflows share a common foundation. Developers should be able to build templates in code when that makes sense. End users should be able to edit visually when that makes sense. AI agents should be able to generate structured content instead of unmaintainable blobs. The final output should still be usable by the host application. We make money by selling hosted builder, template, export, and platform features to companies embedding this into their products. Elements is open source. The commercial product is the broader hosted platform around builders, collaboration, storage, exports, and production use cases. We were part of W22, so this is a late Launch HN. At the time, Unlayer was an embeddable email editor, and we did not think we had the right broader story for HN yet. Since then, the product has expanded into a more general content creation layer for products, including emails, pages, documents, APIs, open-source developer projects, and AI-assisted workflows. That felt like a better moment to bring it to HN and ask for feedback. We'd really appreciate thoughts from HN. This is one of those areas where a lot of people have strong opinions because they’ve been burned by editors, email HTML, document editing, or “simple” content workflows before. We'd love to hear what resonates, what sounds wrong, and what you think we should be thinking harder about! Comments URL: https://news.ycombinator.com/item?id=49008901 Points: 43 # Comments: 24",
+      "summary": "Hi HN, We’re Adeel and Umair, co-founders of Unlayer ( https://unlayer.com/ ). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, and documents inside your app, in three different ways: in code, visually, or with AI. Here’s a demo: https://www.youtube.com/watch?v=0HsDtNkdMpM . We started with an embeddable email editor because a lot of products eventually need one: CRMs, marketing tools, customer engagement platforms, marketplaces, internal tools, and vertical SaaS apps all run into this at some point. At first, it sounds like a small feature: \"just\" add a drag and drop editor. In practice, it turns into a big pain. You end up dealing with email rendering, Outlook quirks, responsive layouts, templates, merge tags, image uploads, exports, permissions, localization, versioning, and a long tail of edge cases that have nothing to do with your core product Over time, we saw the same problem beyond email. Apps also need landing pages, invoices, proposals, reports, contracts, and PDFs. Some of this content is best created visually by end users. Some of it is better generated in code by developers. Increasingly, some of it is also generated by AI agents. Many teams eventually need all three workflows. That is the direction we have been working toward with Unlayer. There are three parts we are showing today: (1) Unlayer Elements . This is our open-source React component library for creating emails, pages, and documents in code (repo: https://github.com/unlayer/elements , more at https://unlayer.com/elements ). Instead of hand-writing raw HTML templates, developers can compose content using React components, reuse sections like headers, footers, CTAs, invoice rows, and branded blocks, keep templates in Git, and render them into production output. One newer use case we are seeing is AI-assisted content creation. If an AI agent is asked to create an email, invoice, report, or landing page, the output is usually raw HTML or markdown that becomes hard to maintain. With Elements, the agent can generate structured React components instead. A developer can review the result, refactor it, keep it in Git, and still pass the design into a visual builder later if someone needs to edit it. (2) Visual Builder . This is the drag and drop editor (repo: https://github.com/unlayer/react-email-editor , more at https://unlayer.com/email-builder ) that can be embedded inside an app so non-technical users can create or edit content. In the demo, we show the email builder and the AI assistant inside the builder. The goal is not to replace the developer workflow, but to connect it with a visual workflow when marketers, admins, customers, or internal teams need to make changes themselves. (3) Document Builder . This is for structured documents such as proposals, reports, invoices, contracts, and PDFs. We have seen a lot of teams build separate systems for email templates, web pages, and document generation, even though the underlying primitives are similar: layout, content blocks, variables, assets, preview, export, and permissions. More: https://unlayer.com/document-builder The technical challenge is making these workflows share a common foundation. Developers should be able to build templates in code when that makes sense. End users should be able to edit visually when that makes sense. AI agents should be able to generate structured content instead of unmaintainable blobs. The final output should still be usable by the host application. We make money by selling hosted builder, template, export, and platform features to companies embedding this into their products. Elements is open source. The commercial product is the broader hosted platform around builders, collaboration, storage, exports, and production use cases. We were part of W22, so this is a late Launch HN. At the time, Unlayer was an embeddable email editor, and we did not think we had the right broader story for HN yet. Since then, the product has expanded into a more general content creation layer for products, including emails, pages, documents, APIs, open-source developer projects, and AI-assisted workflows. That felt like a better moment to bring it to HN and ask for feedback. We'd really appreciate thoughts from HN. This is one of those areas where a lot of people have strong opinions because they’ve been burned by editors, email HTML, document editing, or “simple” content workflows before. We'd love to hear what resonates, what sounds wrong, and what you think we should be thinking harder about! Comments URL: https://news.ycombinator.com/item?id=49008901 Points: 47 # Comments: 33",
       "publishedAt": "2026-07-22T16:02:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "github-blog:https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program",
-      "title": "Next chapter: Restructuring GitHub&#8217;s bug bounty program",
-      "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program",
-      "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team. The post Next chapter: Restructuring GitHub&#8217;s bug bounty program appeared first on The GitHub Blog .",
-      "publishedAt": "2026-07-22T16:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
       "category": "Developer"
     },
     {
@@ -228,7 +268,7 @@
       "id": "hacker-news:https://beej.us/blog/data/ai-making",
       "title": "Making",
       "url": "https://beej.us/blog/data/ai-making",
-      "summary": "Article URL: https://beej.us/blog/data/ai-making/ Comments URL: https://news.ycombinator.com/item?id=49008440 Points: 258 # Comments: 103",
+      "summary": "Article URL: https://beej.us/blog/data/ai-making/ Comments URL: https://news.ycombinator.com/item?id=49008440 Points: 298 # Comments: 115",
       "publishedAt": "2026-07-22T15:33:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -248,7 +288,7 @@
       "id": "hacker-news:https://bento.page/slides",
       "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
       "url": "https://bento.page/slides",
-      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it. Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data. Check it out at https://bento.page/slides/ which takes you straight to the editor. Go to https://bento.page/guestbook/ to try out the live guestbook to experience share editing / collab. There is also a gallery with some sample decks on the website - https://bento.page/ All the code is MIT licensed and you can find it here - https://github.com/nyblnet/bento . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code. Comments URL: https://news.ycombinator.com/item?id=49008211 Points: 607 # Comments: 142",
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it. Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data. Check it out at https://bento.page/slides/ which takes you straight to the editor. Go to https://bento.page/guestbook/ to try out the live guestbook to experience share editing / collab. There is also a gallery with some sample decks on the website - https://bento.page/ All the code is MIT licensed and you can find it here - https://github.com/nyblnet/bento . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code. Comments URL: https://news.ycombinator.com/item?id=49008211 Points: 688 # Comments: 155",
       "publishedAt": "2026-07-22T15:19:23.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -263,46 +303,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/photojournal/mapping-ios-hidden-heat-with-nasas-juno",
-      "title": "Mapping Io’s Hidden Heat With NASA’s Juno",
-      "url": "https://science.nasa.gov/photojournal/mapping-ios-hidden-heat-with-nasas-juno",
-      "summary": "Description This graphic illustrates the areas of Jupiter’s moon Io sampled by the Microwave Radiometer (MWR) instrument aboard NASA’s Juno spacecraft during two close flybys. The black overlapping lines show the instrument’s footprints during Perijove 57 on Dec. 30, 2023, when the spacecraft primarily mapped the northern hemisphere. The blue lines represent Perijove 58 on […]",
-      "publishedAt": "2026-07-22T15:00:19.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility",
-      "title": "Microsoft is bringing original Xbox games to PC",
-      "url": "https://www.theverge.com/news/969117/microsoft-xbox-games-pc-backward-compatibility",
-      "summary": "Microsoft is expanding its Xbox backward compatibility efforts today by bringing original Xbox games to PC. An early preview release will see four classic Xbox games available on PC today, as part of a bigger effort to bring more Xbox console games to PC in the future. The first four games are Blinx: The Time [&#8230;]",
-      "publishedAt": "2026-07-22T15:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface",
-      "title": "NASA’s Juno Peers Beneath Io’s Surface",
-      "url": "https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface",
-      "summary": "Description This map represents data captured by the Microwave Radiometer (MWR) aboard NASA’s Juno spacecraft, indicating heat rising from just beneath the surface of Jupiter’s moon Io. While infrared instruments measure the temperature of the moon’s surface, the lowest frequency microwave channels (0.6 and 1.25 gigahertz) on the MWR can penetrate between about 6 and […]",
-      "publishedAt": "2026-07-22T14:58:58.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io",
-      "title": "NASA’s Juno Takes Temperature of Jupiter’s Fiery Moon Io",
-      "url": "https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io",
-      "summary": "Lee esta historia en español aquí. &#160;NASA’s Juno mission has provided the first measurements of the temperature below the surface of Jupiter’s moon Io, revealing significant heating within the shallow subsurface of the most volcanically active world in the solar system. Collected during two close flybys, the data also shows that most of Io’s surface is [&#8230;]",
-      "publishedAt": "2026-07-22T14:54:35.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     }
   ]
 }

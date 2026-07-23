@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/workers-cache",
-      "title": "Your Worker can now have its own cache in front of it",
-      "url": "https://blog.cloudflare.com/workers-cache",
-      "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
-      "publishedAt": "2026-07-06T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "hugging-face-blog:https://huggingface.co/blog/revamped-kernels",
       "title": "🤗 Kernels: Major Updates",
       "url": "https://huggingface.co/blog/revamped-kernels",
@@ -303,6 +293,16 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/rollbacks-for-workflows",
+      "title": "How we built saga rollbacks for Cloudflare Workflows",
+      "url": "https://blog.cloudflare.com/rollbacks-for-workflows",
+      "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
+      "publishedAt": "2026-06-25T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
     }
   ]
 }

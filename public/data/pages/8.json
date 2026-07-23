@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/rollbacks-for-workflows",
-      "title": "How we built saga rollbacks for Cloudflare Workflows",
-      "url": "https://blog.cloudflare.com/rollbacks-for-workflows",
-      "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
-      "publishedAt": "2026-06-25T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "openai-news:https://openai.com/index/how-agents-are-transforming-work",
       "title": "How agents are transforming work",
       "url": "https://openai.com/index/how-agents-are-transforming-work",
@@ -303,6 +293,16 @@
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026",
+      "title": "Top announcements of the AWS Summit in New York, 2026",
+      "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026",
+      "summary": "A recap of the top announcements from AWS's New York Summit 2026",
+      "publishedAt": "2026-06-17T16:36:08.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
     }
   ]
 }

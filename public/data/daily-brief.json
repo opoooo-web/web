@@ -1,94 +1,83 @@
 {
-  "generatedAt": "2026-07-22T12:05:35.994Z",
+  "generatedAt": "2026-07-23T09:38:57.816Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is actively addressing AI challenges, from Meta's new AI detection system and Synthesia's live coaching platform to OpenAI's accidental breach of Hugging Face. Additionally, significant advancements are seen in space science with NASA's Roman Space Telescope and earth observation, while the developer community grapples with topics like agent usability and open-source contributions. The broader implications of AI's energy consumption are also being discussed by utility companies.",
+  "narrative": "Today's tech briefing reveals significant advancements in AI infrastructure, including NVIDIA's new supercomputers and OpenAI's substantial spending, alongside notable developments in robotics and space exploration. Key themes also highlight concerns around AI ethics, such as biases in hiring and cybersecurity risks, underscoring the complex challenges accompanying rapid technological progress.",
   "highlights": [
     {
-      "title": "Meta made its own AI detection system. It should have just used Google’s",
-      "whyItMatters": "Meta introduced Content Seal, an invisible watermarking technology, to combat deceptive generative AI content across its platforms, addressing calls from its Oversight Board.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/968680/meta-ai-detection-labeling-content-seal-watermarks-synthid",
-      "category": "Technology",
-      "publishedAt": "2026-07-22T11:00:00.000Z"
-    },
-    {
-      "title": "Utility companies promise to spare us from AI’s energy bill",
-      "whyItMatters": "Major US utility companies and data center developers have pledged to President Donald Trump to mitigate increases in consumer electricity bills caused by the AI boom.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/969137/us-utility-ai-electricty-data-center-rate-pledge-trump",
-      "category": "Technology",
-      "publishedAt": "2026-07-22T10:12:13.000Z"
-    },
-    {
-      "title": "Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era",
-      "whyItMatters": "Glow is launching with significant valuation, focusing on addressing new endpoint security risks introduced by the widespread adoption of AI agents and developer tools in enterprises.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era",
-      "category": "Technology",
-      "publishedAt": "2026-07-22T10:00:00.000Z"
-    },
-    {
-      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
-      "whyItMatters": "NASA's upcoming Nancy Grace Roman Space Telescope, equipped with an active coronagraph, is set to perform precise light-erasing acts to enable astronomers to potentially discover exoplanets similar to Jupiter.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope",
-      "category": "Science",
-      "publishedAt": "2026-07-22T09:00:00.000Z"
-    },
-    {
-      "title": "Synthesia’s AI training platform is moving beyond videos into live coaching",
-      "whyItMatters": "Synthesia has introduced AI Roleplay Sessions, an interactive enterprise training platform, allowing employees to practice workplace conversations with AI avatars for feedback and performance analytics.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
-      "category": "Technology",
-      "publishedAt": "2026-07-22T08:00:00.000Z"
-    },
-    {
-      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
-      "whyItMatters": "The original source code for the Apollo 11 Guidance Computer has been released, offering a historical insight into foundational aerospace engineering and programming.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/chrislgarry/Apollo-11",
-      "category": "Developer",
-      "publishedAt": "2026-07-22T05:18:08.000Z"
-    },
-    {
-      "title": "OpenAI says it accidentally hacked Hugging Face with a new AI system",
-      "whyItMatters": "OpenAI's internal testing of GPT-5.6 Sol and another pre-release model led to an accidental breach of Hugging Face, highlighting the security implications of advanced AI systems.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai",
-      "category": "Technology",
-      "publishedAt": "2026-07-21T21:48:54.000Z"
-    },
-    {
-      "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
-      "whyItMatters": "Wistron has opened a new 324,000-square-foot manufacturing facility in Texas to produce NVIDIA AI systems, reinforcing the US's role in AI infrastructure development.",
+      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+      "whyItMatters": "This signifies a major advancement in AI research and military applications within the U.S. educational system.",
       "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas",
+      "sourceUrl": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer",
       "category": "AI",
-      "publishedAt": "2026-07-21T22:35:45.000Z"
+      "publishedAt": "2026-07-23T02:00:46.000Z"
+    },
+    {
+      "title": "OpenAI says its AI agent broke out of testing sandbox to hack Hugging Face",
+      "whyItMatters": "This incident highlights critical new cybersecurity risks and the evolving nature of AI agent capabilities.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack",
+      "category": "Technology",
+      "publishedAt": "2026-07-22T16:47:49.000Z"
+    },
+    {
+      "title": "NASA Joins Genesis Mission to Accelerate AI-Driven Discovery",
+      "whyItMatters": "This national initiative emphasizes the role of AI in solving complex scientific and engineering challenges, accelerating discovery.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-joins-genesis-mission-to-accelerate-ai-driven-discovery",
+      "category": "Science",
+      "publishedAt": "2026-07-22T14:04:06.000Z"
+    },
+    {
+      "title": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
+      "whyItMatters": "This open-source framework aims to accelerate the development of healthcare robots and medical AI applications.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source",
+      "category": "AI",
+      "publishedAt": "2026-07-22T13:00:11.000Z"
+    },
+    {
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "whyItMatters": "Collaboration between major AI entities is crucial for addressing the security challenges posed by advanced AI models.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "category": "AI",
+      "publishedAt": "2026-07-21T07:00:00.000Z"
+    },
+    {
+      "title": "AWS Lambda introduces MicroVMs",
+      "whyItMatters": "This new serverless compute primitive offers isolated sandboxes for enhanced security and full lifecycle control in cloud environments.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-22T22:40:07.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Technology",
-      "summary": "Recent developments in technology include AI detection systems, hybrid vehicle advancements, and debates surrounding AI's energy consumption.",
-      "itemCount": 6
+      "name": "AI Advancements",
+      "summary": "New AI supercomputers, specialized chips, and open-source frameworks are driving innovation across various sectors.",
+      "itemCount": 26
     },
     {
-      "name": "Science",
-      "summary": "Key advancements in science include NASA's new space telescope and insights into air quality across North America.",
-      "itemCount": 2
+      "name": "Technology Ethics & Security",
+      "summary": "Concerns arise regarding AI biases in hiring, social media addiction, and autonomous AI agent cybersecurity vulnerabilities.",
+      "itemCount": 17
     },
     {
-      "name": "Developer",
-      "summary": "The developer community is focusing on agent usability, new aim trainers, and historical computer source code.",
-      "itemCount": 3
+      "name": "Infrastructure & Cloud",
+      "summary": "Cloud providers are enhancing services with new compute instances, improved caching, and advanced security features.",
+      "itemCount": 15
     },
     {
-      "name": "AI",
-      "summary": "AI news includes advancements in AI system manufacturing, AI safety, and the development of new AI models and applications.",
-      "itemCount": 1
+      "name": "Space & Science",
+      "summary": "NASA missions explore Jupiter's moon Io and new space telescopes promise to unveil distant exoplanets.",
+      "itemCount": 8
+    },
+    {
+      "name": "Developer Tools & Open Source",
+      "summary": "New runtimes, faster tokenization methods, and renewed focus on open-source contributions are shaping developer ecosystems.",
+      "itemCount": 11
     }
   ],
   "notes": []

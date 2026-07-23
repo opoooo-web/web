@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "the-verge:https://www.theverge.com/tech/969596/apple-restricted-mode-ios-27",
-      "title": "iOS code could reportedly let Apple cut off apps when users miss iPhone payments",
-      "url": "https://www.theverge.com/tech/969596/apple-restricted-mode-ios-27",
-      "summary": "Code found in an iOS 27 beta would allow Apple to put a financed iPhone in \"Restricted Mode\" if it detects any missed payments, 9to5Mac reports. The finding follows a story from Bloomberg earlier this week claiming Apple is preparing to launch a new \"Apple Upgrade\" financing program for leasing new devices. iPhones in \"Restricted [&#8230;]",
-      "publishedAt": "2026-07-22T19:13:21.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
       "title": "How OpenAI’s human mistake led to the AI-powered hack on Hugging Face",
       "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face",
@@ -32,16 +22,6 @@
       "publishedAt": "2026-07-22T19:00:00.000Z",
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
-      "title": "Clarity didn't work, trying mysterianism (2012)",
-      "url": "https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html",
-      "summary": "Article URL: https://gwern.net/doc/fiction/science-fiction/2012-10-03-yvain-thewhisperingearring.html Comments URL: https://news.ycombinator.com/item?id=49011687 Points: 65 # Comments: 34",
-      "publishedAt": "2026-07-22T18:55:42.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
@@ -118,7 +98,7 @@
       "id": "hacker-news:https://github.com/cactus-compute/cactus-hybrid",
       "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
       "url": "https://github.com/cactus-compute/cactus-hybrid",
-      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks. - ChartQA: 15-20% - LibriSpeech: 25-30% - MMBench, GigaSpeech, MMAU: 30-35% - MMLU-Pro: 45-55% We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely better than a coin flip in our tests). So we did mechanistic studies on small models, Gemma 4 particularly, and found the hidden state for different layers carry meaningful self-awareness signal for various situations. SO we extended the model with a 68k params probe layer (LayerNorm, low-rank projection, attention pooling, small MLP head) reads one intermediate layer during decoding and predicts p(wrong); confidence = 1 - p(wrong), returned as structured data, never parsed out of the answer text. Across 12 hold-out benchmarks spanning text, vision and audio, the probe averages 0.814 AUROC vs 0.549 for token entropy. The result that convinced us this is real: the probe was trained on zero audio data, yet scores 0.79-0.88 AUROC on four audio benchmarks where entropy is near-random or worse (0.32-0.52). It's reading a modality-independent correctness signal from the hidden state, not memorizing patterns from its training data. We published all weights on HuggingFace and provide copy-pase codes to run it on Transformers, MLX, Llama.cpp or Cactus. With Ollama, vLLM, SGLang etc in the works. For llama.cpp we ship a patch series you compile in once (upstreaming is planned). The code is MIT licensed; Gemma model use remains subject to the Gemma terms. GitHub: https://github.com/cactus-compute/cactus-hybrid Weights: https://huggingface.co/collections/Cactus-Compute/cactus-hyb... Some caveats: - The probe scores single-sequence decoding only, up to the first 1024 generated tokens. - Handoff works best when routing per task in a multi-step process, not per step. - Hierarchical routing is still in the works: try on-device, then DeepSeek v4 Flash, before Fable/GPT5.5/Gemini/Muse/Grok. - The technique is boutique for each model, we will share each weights as they roll out. These issues are currently being tackled at Cactus and updated weights will be shipped directly into the HuggingFace collection and GitHub repository straight up. Please let us know your thoughts, it helps us find ways to improve the design progressively. Thanks a million! Comments URL: https://news.ycombinator.com/item?id=49010782 Points: 111 # Comments: 15",
+      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks. - ChartQA: 15-20% - LibriSpeech: 25-30% - MMBench, GigaSpeech, MMAU: 30-35% - MMLU-Pro: 45-55% We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely better than a coin flip in our tests). So we did mechanistic studies on small models, Gemma 4 particularly, and found the hidden state for different layers carry meaningful self-awareness signal for various situations. SO we extended the model with a 68k params probe layer (LayerNorm, low-rank projection, attention pooling, small MLP head) reads one intermediate layer during decoding and predicts p(wrong); confidence = 1 - p(wrong), returned as structured data, never parsed out of the answer text. Across 12 hold-out benchmarks spanning text, vision and audio, the probe averages 0.814 AUROC vs 0.549 for token entropy. The result that convinced us this is real: the probe was trained on zero audio data, yet scores 0.79-0.88 AUROC on four audio benchmarks where entropy is near-random or worse (0.32-0.52). It's reading a modality-independent correctness signal from the hidden state, not memorizing patterns from its training data. We published all weights on HuggingFace and provide copy-pase codes to run it on Transformers, MLX, Llama.cpp or Cactus. With Ollama, vLLM, SGLang etc in the works. For llama.cpp we ship a patch series you compile in once (upstreaming is planned). The code is MIT licensed; Gemma model use remains subject to the Gemma terms. GitHub: https://github.com/cactus-compute/cactus-hybrid Weights: https://huggingface.co/collections/Cactus-Compute/cactus-hyb... Some caveats: - The probe scores single-sequence decoding only, up to the first 1024 generated tokens. - Handoff works best when routing per task in a multi-step process, not per step. - Hierarchical routing is still in the works: try on-device, then DeepSeek v4 Flash, before Fable/GPT5.5/Gemini/Muse/Grok. - The technique is boutique for each model, we will share each weights as they roll out. These issues are currently being tackled at Cactus and updated weights will be shipped directly into the HuggingFace collection and GitHub repository straight up. Please let us know your thoughts, it helps us find ways to improve the design progressively. Thanks a million! Comments URL: https://news.ycombinator.com/item?id=49010782 Points: 131 # Comments: 24",
       "publishedAt": "2026-07-22T17:56:29.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -138,7 +118,7 @@
       "id": "hacker-news:https://mitchellh.com/writing/everyone-should-know-simd",
       "title": "Everyone should know SIMD",
       "url": "https://mitchellh.com/writing/everyone-should-know-simd",
-      "summary": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd Comments URL: https://news.ycombinator.com/item?id=49010648 Points: 355 # Comments: 116",
+      "summary": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd Comments URL: https://news.ycombinator.com/item?id=49010648 Points: 421 # Comments: 154",
       "publishedAt": "2026-07-22T17:48:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -148,7 +128,7 @@
       "id": "hacker-news:https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
       "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "summary": "A digestion of the Jacobian conjecture counterexample - https://news.ycombinator.com/item?id=48998362 - July 2026 (133 comments) Claude Fable produced a counterexample to the Jacobian Conjecture - https://news.ycombinator.com/item?id=48973869 - July 2026 (508 comments) Comments URL: https://news.ycombinator.com/item?id=49010345 Points: 773 # Comments: 458",
+      "summary": "A digestion of the Jacobian conjecture counterexample - https://news.ycombinator.com/item?id=48998362 - July 2026 (133 comments) Claude Fable produced a counterexample to the Jacobian Conjecture - https://news.ycombinator.com/item?id=48973869 - July 2026 (508 comments) Comments URL: https://news.ycombinator.com/item?id=49010345 Points: 866 # Comments: 501",
       "publishedAt": "2026-07-22T17:30:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -158,7 +138,7 @@
       "id": "hacker-news:https://github.com/marcelroed/gigatoken",
       "title": "GigaToken: ~1000x faster Language model tokenization",
       "url": "https://github.com/marcelroed/gigatoken",
-      "summary": "Article URL: https://github.com/marcelroed/gigatoken/ Comments URL: https://news.ycombinator.com/item?id=49010167 Points: 453 # Comments: 96",
+      "summary": "Article URL: https://github.com/marcelroed/gigatoken/ Comments URL: https://news.ycombinator.com/item?id=49010167 Points: 503 # Comments: 102",
       "publishedAt": "2026-07-22T17:20:38.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -168,7 +148,7 @@
       "id": "hacker-news:https://dylancastillo.co/posts/pelicanmaxxing.html",
       "title": "Are AI labs pelicanmaxxing?",
       "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-      "summary": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 472 # Comments: 184",
+      "summary": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 526 # Comments: 206",
       "publishedAt": "2026-07-22T17:17:54.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -298,8 +278,28 @@
       "id": "hacker-news:https://beej.us/blog/data/ai-making",
       "title": "Making",
       "url": "https://beej.us/blog/data/ai-making",
-      "summary": "Article URL: https://beej.us/blog/data/ai-making/ Comments URL: https://news.ycombinator.com/item?id=49008440 Points: 324 # Comments: 123",
+      "summary": "Article URL: https://beej.us/blog/data/ai-making/ Comments URL: https://news.ycombinator.com/item?id=49008440 Points: 357 # Comments: 141",
       "publishedAt": "2026-07-22T15:33:48.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/22/if-you-pay-a-hackers-ransom-chances-are-that-theyll-come-back-for-more",
+      "title": "If you pay a hacker&#8217;s ransom, chances are that they&#8217;ll come back for more",
+      "url": "https://techcrunch.com/2026/07/22/if-you-pay-a-hackers-ransom-chances-are-that-theyll-come-back-for-more",
+      "summary": "The long-held understanding among security researchers and network defenders is that it's impossible to negotiate in good faith with an extortion racket because there's no incentive for the other side to actually walk away.",
+      "publishedAt": "2026-07-22T15:29:41.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://bento.page/slides",
+      "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "url": "https://bento.page/slides",
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it. Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data. Check it out at https://bento.page/slides/ which takes you straight to the editor. Go to https://bento.page/guestbook/ to try out the live guestbook to experience share editing / collab. There is also a gallery with some sample decks on the website - https://bento.page/ All the code is MIT licensed and you can find it here - https://github.com/nyblnet/bento . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code. Comments URL: https://news.ycombinator.com/item?id=49008211 Points: 827 # Comments: 184",
+      "publishedAt": "2026-07-22T15:19:23.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"

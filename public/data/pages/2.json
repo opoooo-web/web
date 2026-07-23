@@ -5,10 +5,60 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nasa-breaking-news:https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support",
+      "title": "Robotic Servicing Mission Launches with NASA Support",
+      "url": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support",
+      "summary": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en route to geosynchronous Earth orbit, where it will use its advanced robotics to service spacecraft. RSGS leverages in-space robotics expertise from NASA, [&#8230;]",
+      "publishedAt": "2026-07-22T18:04:15.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/video/menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-and-its-not-the-model",
+      "title": "Menlo Ventures’ Matt Murphy explains why Anthropic is winning (and it&#8217;s not the model)",
+      "url": "https://techcrunch.com/video/menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-and-its-not-the-model",
+      "summary": "Anthropic&#160;leaped to&#160;a&#160;$47 billion&#160;revenue run rate&#160;by May,&#160;compared to&#160;$9 billion&#160;in 2025.&#160;It’s&#160;the kind of growth that&#160;Menlo Ventures&#8217;&#160;Matt Murphy&#160;says&#160;he&#8217;s&#160;never seen in 25 years of investing, not in the internet wave, not in mobile, not in the first cloud boom. Menlo led Anthropic&#8217;s $500M Series D, and Murphy has had a front-row seat as the company went from a pre-revenue, [&#8230;]",
+      "publishedAt": "2026-07-22T18:02:57.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/cactus-compute/cactus-hybrid",
+      "title": "Show HN: Cactus Hybrid: We taught Gemma 4 to know when it's wrong",
+      "url": "https://github.com/cactus-compute/cactus-hybrid",
+      "summary": "Hey HN, Henry & Roman here from Cactus. A small, on-device model is fast and private, but sometimes wrong, but frontier models are getting expensive pretty fast. So, we post-trained Gemma 4 E2B post-trained to know when it's wrong. Every response comes with a confidence score between 0 and 1. Developers can accept the on-device when it's high, hand off to a bigger cloud model when it's low. By routing only 15-35% of queries to Gemini 3.1 Flash-Lite, Gemma-4-E2B matches Gemini 3.1 Flash-Lite on most benchmarks. - ChartQA: 15-20% - LibriSpeech: 25-30% - MMBench, GigaSpeech, MMAU: 30-35% - MMLU-Pro: 45-55% We were always frustrated by the routing signals hybrid apps rely on: asking the model to rate itself in text (unreliable, and you're parsing prose), or token entropy heuristics (barely better than a coin flip in our tests). So we did mechanistic studies on small models, Gemma 4 particularly, and found the hidden state for different layers carry meaningful self-awareness signal for various situations. SO we extended the model with a 68k params probe layer (LayerNorm, low-rank projection, attention pooling, small MLP head) reads one intermediate layer during decoding and predicts p(wrong); confidence = 1 - p(wrong), returned as structured data, never parsed out of the answer text. Across 12 hold-out benchmarks spanning text, vision and audio, the probe averages 0.814 AUROC vs 0.549 for token entropy. The result that convinced us this is real: the probe was trained on zero audio data, yet scores 0.79-0.88 AUROC on four audio benchmarks where entropy is near-random or worse (0.32-0.52). It's reading a modality-independent correctness signal from the hidden state, not memorizing patterns from its training data. We published all weights on HuggingFace and provide copy-pase codes to run it on Transformers, MLX, Llama.cpp or Cactus. With Ollama, vLLM, SGLang etc in the works. For llama.cpp we ship a patch series you compile in once (upstreaming is planned). The code is MIT licensed; Gemma model use remains subject to the Gemma terms. GitHub: https://github.com/cactus-compute/cactus-hybrid Weights: https://huggingface.co/collections/Cactus-Compute/cactus-hyb... Some caveats: - The probe scores single-sequence decoding only, up to the first 1024 generated tokens. - Handoff works best when routing per task in a multi-step process, not per step. - Hierarchical routing is still in the works: try on-device, then DeepSeek v4 Flash, before Fable/GPT5.5/Gemini/Muse/Grok. - The technique is boutique for each model, we will share each weights as they roll out. These issues are currently being tackled at Cactus and updated weights will be shipped directly into the HuggingFace collection and GitHub repository straight up. Please let us know your thoughts, it helps us find ways to improve the design progressively. Thanks a million! Comments URL: https://news.ycombinator.com/item?id=49010782 Points: 38 # Comments: 6",
+      "publishedAt": "2026-07-22T17:56:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai",
+      "title": "Monday.com lays off hundreds to focus on AI",
+      "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai",
+      "summary": "The company said it is reducing its headcount by 20%, or about 630 staff, to \"support a leaner, more focused operating model\" as it focuses on its AI Work Platform.",
+      "publishedAt": "2026-07-22T17:54:14.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://mitchellh.com/writing/everyone-should-know-simd",
+      "title": "Everyone Should Know SIMD",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+      "summary": "Article URL: https://mitchellh.com/writing/everyone-should-know-simd Comments URL: https://news.ycombinator.com/item?id=49010648 Points: 208 # Comments: 66",
+      "publishedAt": "2026-07-22T17:48:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
       "title": "Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample",
       "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-      "summary": "Article URL: https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56 Comments URL: https://news.ycombinator.com/item?id=49010345 Points: 452 # Comments: 251",
+      "summary": "Article URL: https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56 Comments URL: https://news.ycombinator.com/item?id=49010345 Points: 545 # Comments: 341",
       "publishedAt": "2026-07-22T17:30:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -18,7 +68,7 @@
       "id": "hacker-news:https://github.com/marcelroed/gigatoken",
       "title": "GigaToken: ~1000x faster Language model tokenization",
       "url": "https://github.com/marcelroed/gigatoken",
-      "summary": "Article URL: https://github.com/marcelroed/gigatoken/ Comments URL: https://news.ycombinator.com/item?id=49010167 Points: 276 # Comments: 50",
+      "summary": "Article URL: https://github.com/marcelroed/gigatoken/ Comments URL: https://news.ycombinator.com/item?id=49010167 Points: 331 # Comments: 63",
       "publishedAt": "2026-07-22T17:20:38.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -28,7 +78,7 @@
       "id": "hacker-news:https://dylancastillo.co/posts/pelicanmaxxing.html",
       "title": "Are AI Labs Pelicanmaxxing?",
       "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-      "summary": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 281 # Comments: 117",
+      "summary": "Article URL: https://dylancastillo.co/posts/pelicanmaxxing.html Comments URL: https://news.ycombinator.com/item?id=49010129 Points: 350 # Comments: 138",
       "publishedAt": "2026-07-22T17:17:54.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -138,7 +188,7 @@
       "id": "hacker-news:https://unlayer.com",
       "title": "Launch HN: Unlayer (YC W22) – Add email and document builders to your app",
       "url": "https://unlayer.com",
-      "summary": "Hi HN, We’re Adeel and Umair, co-founders of Unlayer ( https://unlayer.com/ ). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, and documents inside your app, in three different ways: in code, visually, or with AI. Here’s a demo: https://www.youtube.com/watch?v=0HsDtNkdMpM . We started with an embeddable email editor because a lot of products eventually need one: CRMs, marketing tools, customer engagement platforms, marketplaces, internal tools, and vertical SaaS apps all run into this at some point. At first, it sounds like a small feature: \"just\" add a drag and drop editor. In practice, it turns into a big pain. You end up dealing with email rendering, Outlook quirks, responsive layouts, templates, merge tags, image uploads, exports, permissions, localization, versioning, and a long tail of edge cases that have nothing to do with your core product Over time, we saw the same problem beyond email. Apps also need landing pages, invoices, proposals, reports, contracts, and PDFs. Some of this content is best created visually by end users. Some of it is better generated in code by developers. Increasingly, some of it is also generated by AI agents. Many teams eventually need all three workflows. That is the direction we have been working toward with Unlayer. There are three parts we are showing today: (1) Unlayer Elements . This is our open-source React component library for creating emails, pages, and documents in code (repo: https://github.com/unlayer/elements , more at https://unlayer.com/elements ). Instead of hand-writing raw HTML templates, developers can compose content using React components, reuse sections like headers, footers, CTAs, invoice rows, and branded blocks, keep templates in Git, and render them into production output. One newer use case we are seeing is AI-assisted content creation. If an AI agent is asked to create an email, invoice, report, or landing page, the output is usually raw HTML or markdown that becomes hard to maintain. With Elements, the agent can generate structured React components instead. A developer can review the result, refactor it, keep it in Git, and still pass the design into a visual builder later if someone needs to edit it. (2) Visual Builder . This is the drag and drop editor (repo: https://github.com/unlayer/react-email-editor , more at https://unlayer.com/email-builder ) that can be embedded inside an app so non-technical users can create or edit content. In the demo, we show the email builder and the AI assistant inside the builder. The goal is not to replace the developer workflow, but to connect it with a visual workflow when marketers, admins, customers, or internal teams need to make changes themselves. (3) Document Builder . This is for structured documents such as proposals, reports, invoices, contracts, and PDFs. We have seen a lot of teams build separate systems for email templates, web pages, and document generation, even though the underlying primitives are similar: layout, content blocks, variables, assets, preview, export, and permissions. More: https://unlayer.com/document-builder The technical challenge is making these workflows share a common foundation. Developers should be able to build templates in code when that makes sense. End users should be able to edit visually when that makes sense. AI agents should be able to generate structured content instead of unmaintainable blobs. The final output should still be usable by the host application. We make money by selling hosted builder, template, export, and platform features to companies embedding this into their products. Elements is open source. The commercial product is the broader hosted platform around builders, collaboration, storage, exports, and production use cases. We were part of W22, so this is a late Launch HN. At the time, Unlayer was an embeddable email editor, and we did not think we had the right broader story for HN yet. Since then, the product has expanded into a more general content creation layer for products, including emails, pages, documents, APIs, open-source developer projects, and AI-assisted workflows. That felt like a better moment to bring it to HN and ask for feedback. We'd really appreciate thoughts from HN. This is one of those areas where a lot of people have strong opinions because they’ve been burned by editors, email HTML, document editing, or “simple” content workflows before. We'd love to hear what resonates, what sounds wrong, and what you think we should be thinking harder about! Comments URL: https://news.ycombinator.com/item?id=49008901 Points: 36 # Comments: 22",
+      "summary": "Hi HN, We’re Adeel and Umair, co-founders of Unlayer ( https://unlayer.com/ ). We let you add content creation to your applications without having to build an entire editor, renderer, template, and export stack yourself. Unlayer lets you create emails, web pages, and documents inside your app, in three different ways: in code, visually, or with AI. Here’s a demo: https://www.youtube.com/watch?v=0HsDtNkdMpM . We started with an embeddable email editor because a lot of products eventually need one: CRMs, marketing tools, customer engagement platforms, marketplaces, internal tools, and vertical SaaS apps all run into this at some point. At first, it sounds like a small feature: \"just\" add a drag and drop editor. In practice, it turns into a big pain. You end up dealing with email rendering, Outlook quirks, responsive layouts, templates, merge tags, image uploads, exports, permissions, localization, versioning, and a long tail of edge cases that have nothing to do with your core product Over time, we saw the same problem beyond email. Apps also need landing pages, invoices, proposals, reports, contracts, and PDFs. Some of this content is best created visually by end users. Some of it is better generated in code by developers. Increasingly, some of it is also generated by AI agents. Many teams eventually need all three workflows. That is the direction we have been working toward with Unlayer. There are three parts we are showing today: (1) Unlayer Elements . This is our open-source React component library for creating emails, pages, and documents in code (repo: https://github.com/unlayer/elements , more at https://unlayer.com/elements ). Instead of hand-writing raw HTML templates, developers can compose content using React components, reuse sections like headers, footers, CTAs, invoice rows, and branded blocks, keep templates in Git, and render them into production output. One newer use case we are seeing is AI-assisted content creation. If an AI agent is asked to create an email, invoice, report, or landing page, the output is usually raw HTML or markdown that becomes hard to maintain. With Elements, the agent can generate structured React components instead. A developer can review the result, refactor it, keep it in Git, and still pass the design into a visual builder later if someone needs to edit it. (2) Visual Builder . This is the drag and drop editor (repo: https://github.com/unlayer/react-email-editor , more at https://unlayer.com/email-builder ) that can be embedded inside an app so non-technical users can create or edit content. In the demo, we show the email builder and the AI assistant inside the builder. The goal is not to replace the developer workflow, but to connect it with a visual workflow when marketers, admins, customers, or internal teams need to make changes themselves. (3) Document Builder . This is for structured documents such as proposals, reports, invoices, contracts, and PDFs. We have seen a lot of teams build separate systems for email templates, web pages, and document generation, even though the underlying primitives are similar: layout, content blocks, variables, assets, preview, export, and permissions. More: https://unlayer.com/document-builder The technical challenge is making these workflows share a common foundation. Developers should be able to build templates in code when that makes sense. End users should be able to edit visually when that makes sense. AI agents should be able to generate structured content instead of unmaintainable blobs. The final output should still be usable by the host application. We make money by selling hosted builder, template, export, and platform features to companies embedding this into their products. Elements is open source. The commercial product is the broader hosted platform around builders, collaboration, storage, exports, and production use cases. We were part of W22, so this is a late Launch HN. At the time, Unlayer was an embeddable email editor, and we did not think we had the right broader story for HN yet. Since then, the product has expanded into a more general content creation layer for products, including emails, pages, documents, APIs, open-source developer projects, and AI-assisted workflows. That felt like a better moment to bring it to HN and ask for feedback. We'd really appreciate thoughts from HN. This is one of those areas where a lot of people have strong opinions because they’ve been burned by editors, email HTML, document editing, or “simple” content workflows before. We'd love to hear what resonates, what sounds wrong, and what you think we should be thinking harder about! Comments URL: https://news.ycombinator.com/item?id=49008901 Points: 43 # Comments: 24",
       "publishedAt": "2026-07-22T16:02:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -165,16 +215,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://dynomight.net/creatine",
-      "title": "Does creatine make you smarter?",
-      "url": "https://dynomight.net/creatine",
-      "summary": "Article URL: https://dynomight.net/creatine/ Comments URL: https://news.ycombinator.com/item?id=49008642 Points: 223 # Comments: 209",
-      "publishedAt": "2026-07-22T15:45:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "the-verge:https://www.theverge.com/gadgets/968716/samsung-galaxy-z-flip-fold-8-ultra-how-to-buy-preorder-price-release-date",
       "title": "Preorders for Samsung’s new Z Fold and Flip 8 come with up to $350 in gift cards",
       "url": "https://www.theverge.com/gadgets/968716/samsung-galaxy-z-flip-fold-8-ultra-how-to-buy-preorder-price-release-date",
@@ -185,20 +225,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://cruciblebench.ai",
-      "title": "Can a MUD evaluate LLMs? A $99 proof of concept",
-      "url": "https://cruciblebench.ai",
-      "summary": "I'm the author of a paper my friends and I wrote after we were curious if a MUD, text games originating in the 1970s, could be used to evaluate LLMs. We've spent the last several months on nights and weekends running this experiment and writing the paper on just our personal computers with about $99 in API credits. Our experiment did have an interesting leaderboard but even more surprising was the measurements of each LLM. We scored each on four behavioral dimensions, two of which lean heavily on an LLM classifier. When we removed those two, one of the frontier models fell six positions. When we then checked the classifier against a second judge, the per-model agreement between them ranged from 85% to 22%. The aggregate kappa (0.04 on probe detection) indicated the instrument was noisy without saying which models the noise was hitting. The most affected model shared a model family with the classifier. This isn't proof of bias, just one observation we recorded. We realize LLM judges can be unreliable, and while it wasn't our original intent to test this, it ended up being the most interesting finding. The divergence between the two judges is the finding we think generalizes to other judge-based benchmarks. We emphasize this is just a proof of concept and not a validated benchmark. We prepared a thorough limitations section in the paper, including just 50 runs per model, overlapping CIs among the top models, no human raters, a tiny environment, etc. Everything we did is publicly available, the paper and data are CC BY 4.0, while the code is MIT. The paper, transcripts, code, and complete API billing export can be found at https://doi.org/10.5281/zenodo.21386663 If you find issues, please let us know, that's why we're sharing this. We're currently designing Phase 2 and want it to be as robust as possible. We're looking at human baselines, multiple judges, more objectives, a larger environment, etc. Comments URL: https://news.ycombinator.com/item?id=49008538 Points: 82 # Comments: 49",
-      "publishedAt": "2026-07-22T15:39:01.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://beej.us/blog/data/ai-making",
       "title": "Making",
       "url": "https://beej.us/blog/data/ai-making",
-      "summary": "Article URL: https://beej.us/blog/data/ai-making/ Comments URL: https://news.ycombinator.com/item?id=49008440 Points: 231 # Comments: 97",
+      "summary": "Article URL: https://beej.us/blog/data/ai-making/ Comments URL: https://news.ycombinator.com/item?id=49008440 Points: 258 # Comments: 103",
       "publishedAt": "2026-07-22T15:33:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -218,7 +248,7 @@
       "id": "hacker-news:https://bento.page/slides",
       "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
       "url": "https://bento.page/slides",
-      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it. Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data. Check it out at https://bento.page/slides/ which takes you straight to the editor. Go to https://bento.page/guestbook/ to try out the live guestbook to experience share editing / collab. There is also a gallery with some sample decks on the website - https://bento.page/ All the code is MIT licensed and you can find it here - https://github.com/nyblnet/bento . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code. Comments URL: https://news.ycombinator.com/item?id=49008211 Points: 559 # Comments: 129",
+      "summary": "Over the past few months, our team has been building more and more slidedecks using web frontend technologies with coding harnesses like Claude Code, but a common complaint is to make even small edits we need to edit the code either manually or via the harness. To avoid this loop, I ended up creating Bento, a single HTML file with everything you need in a slide tool including animations and shared editing. There's no install or cloud login, everything works offline. The default deck is around 560 KB and it doesn't need to fetch anything once you got it. Open it in a browser and then you can edit, present, print and save. Share it via email or via Airdrop and all they need is a browser to edit, present and also do live collab on the slides. Drop it in to Claude or ChatGPT to transform existing pptx files into Bento slides. There is no cloud involved, only an encrypted blind relay to allow for shared editing. The relay doesn't see any of the data. Check it out at https://bento.page/slides/ which takes you straight to the editor. Go to https://bento.page/guestbook/ to try out the live guestbook to experience share editing / collab. There is also a gallery with some sample decks on the website - https://bento.page/ All the code is MIT licensed and you can find it here - https://github.com/nyblnet/bento . I used reveal.js with several other libraries (including some homegrown ones), and Claude Code. Comments URL: https://news.ycombinator.com/item?id=49008211 Points: 607 # Comments: 142",
       "publishedAt": "2026-07-22T15:19:23.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -255,16 +285,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm",
-      "title": "Perlin's Noise Algorithm (2023)",
-      "url": "https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm",
-      "summary": "Article URL: https://blog.jaysmito.dev/blog/02-perlins-noise-algorithm/ Comments URL: https://news.ycombinator.com/item?id=49007863 Points: 58 # Comments: 13",
-      "publishedAt": "2026-07-22T14:59:08.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nasa-breaking-news:https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface",
       "title": "NASA’s Juno Peers Beneath Io’s Surface",
       "url": "https://science.nasa.gov/photojournal/nasas-juno-peers-beneath-ios-surface",
@@ -275,16 +295,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
-      "title": "Full Scale Foldable Wing Extensions",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
-      "summary": "Article URL: https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow Comments URL: https://news.ycombinator.com/item?id=49007831 Points: 58 # Comments: 51",
-      "publishedAt": "2026-07-22T14:57:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nasa-breaking-news:https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io",
       "title": "NASA’s Juno Takes Temperature of Jupiter’s Fiery Moon Io",
       "url": "https://www.nasa.gov/missions/juno/nasas-juno-takes-temperature-of-jupiters-fiery-moon-io",
@@ -293,16 +303,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again",
-      "title": "Which streaming service was that on again?",
-      "url": "https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again",
-      "summary": "Article URL: https://www.timwehrle.de/blog/which-streaming-service-was-that-on-again/ Comments URL: https://news.ycombinator.com/item?id=49007671 Points: 32 # Comments: 54",
-      "publishedAt": "2026-07-22T14:46:14.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

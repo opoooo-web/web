@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T00:14:38.251Z",
+  "generatedAt": "2026-07-24T03:48:59.369Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,12 +14,12 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Hugging Face Blog",
       "category": "AI",
-      "count": 30
+      "count": 33
     },
     {
       "name": "Ars Technica",
@@ -42,23 +42,18 @@
       "count": 20
     },
     {
+      "name": "AWS News Blog",
+      "category": "Infrastructure",
+      "count": 19
+    },
+    {
       "name": "NVIDIA Blog",
       "category": "AI",
       "count": 18
     },
     {
-      "name": "AWS News Blog",
-      "category": "Infrastructure",
-      "count": 13
-    },
-    {
       "name": "GitHub Blog",
       "category": "Developer",
-      "count": 10
-    },
-    {
-      "name": "Google AI",
-      "category": "AI",
       "count": 10
     },
     {
@@ -77,5 +72,11 @@
       "count": 10
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "message": "fetch failed"
+    }
+  ]
 }

@@ -5,6 +5,76 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "publishedAt": "2026-07-24T01:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup",
+      "title": "Meet the judges who will crown Australia&#8217;s next breakout startup",
+      "url": "https://techcrunch.com/2026/07/23/meet-the-judges-who-will-crown-australias-next-breakout-startup",
+      "summary": "TechCrunch Startup Battlefield is coming to Australia — and we're partnering with Stripe to find the country's most exciting early-stage startups.",
+      "publishedAt": "2026-07-24T00:05:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/mobileye-ceo-amnon-shashua-to-step-aside-as-company-pushes-into-robotaxis-robotics",
+      "title": "Mobileye CEO Amnon Shashua to step aside as company pushes into robotaxis, robotics",
+      "url": "https://techcrunch.com/2026/07/23/mobileye-ceo-amnon-shashua-to-step-aside-as-company-pushes-into-robotaxis-robotics",
+      "summary": "Shashua has been invited to take the chairman of the board seat.",
+      "publishedAt": "2026-07-23T22:40:08.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "title": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to [&#8230;]",
+      "publishedAt": "2026-07-23T21:15:06.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows",
+      "title": "Microsoft responds to LG monitors installing McAfee ads on Windows",
+      "url": "https://arstechnica.com/gadgets/2026/07/microsoft-responds-to-lg-monitors-installing-mcafee-ads-on-windows",
+      "summary": "App is installed through Windows Update when certain LG monitors connect to a PC.",
+      "publishedAt": "2026-07-23T20:47:33.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/970254/amazon-echo-show-21-deal-sale",
+      "title": "The Echo Show 21 is a great smart home hub that’s $80 off",
+      "url": "https://www.theverge.com/gadgets/970254/amazon-echo-show-21-deal-sale",
+      "summary": "Split between buying a smart calendar, a kitchen TV, a smart home hub, and a smart display? Amazon’s Echo Show 21 is all of those things in one, with a huge 21-inch screen. You can use it to control your smart lights, glance at recipes, watch TV shows, and more. Currently, Best Buy and Home [&#8230;]",
+      "publishedAt": "2026-07-23T20:36:40.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+      "title": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+      "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+      "publishedAt": "2026-07-23T20:33:02.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce",
       "title": "Patreon lays off 20% of its workforce",
       "url": "https://techcrunch.com/2026/07/23/patreon-lays-off-off-20-of-its-workforce",
@@ -53,16 +123,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://news.ycombinator.com/item?id=49026810",
-      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
-      "url": "https://news.ycombinator.com/item?id=49026810",
-      "summary": "I’ve been building Echo ( https://echo.tracerml.ai/ ), an experiment in making one AI system out of a pool of open-weight models rather than choosing a single model and using it for every task. It started with a simple experiment. I took a group of models, including GLM-5.2, Kimi K2.7 and others, and ran them on the same evaluations. Then I measured what would happen if, for each problem, you somehow knew in advance which models would be useful and how their outputs should be combined. That hypothetical system performed substantially better than any individual model in the pool. Of course, it is not something you can actually deploy because it relies on knowing which decisions were good after seeing the result. Echo is my attempt to recover some of that advantage without having that information in advance. For each request, Echo decides how much computation to allocate, which models should participate, and how their work should be combined. Some prompts may only need a relatively small amount of inference, while others benefit from multiple models working on different parts of the problem. One thing that surprised me while building it was how complementary the models are. A model that is clearly weaker overall can still be extremely useful on particular problems or as part of a combination. On my first evaluation mix, Echo consistently performed better than the best individual model in its pool. It also reached roughly the same aggregate result as Fable, which I used as one of the stronger comparison systems, at around one third of the inference cost. There are still some cases where Echo makes the wrong allocation or combination decision. I’m currently spending a lot of time understanding those failures, as well as testing whether the same approach holds up on coding and agentic tasks where measuring the quality of each decision becomes much harder. I built a chat interface (echo.tracerml.ai) and an OpenAI-compatible API ( https://echo.tracerml.ai/docs/api ) so the system can be tested outside the evaluation setup. Here is a short/high level video on how it works: https://www.youtube.com/watch?v=lJFJSvOdXhg I wrote up the evaluation methodology, individual model results, costs and current limitations here: https://echo.tracerml.ai/eval I would love for you to try it! Especially if you hit any weird failure cases or places where the allocation looks unintuitive. Comments URL: https://news.ycombinator.com/item?id=49026810 Points: 402 # Comments: 193",
-      "publishedAt": "2026-07-23T19:26:01.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/health/2026/07/fda-reports-new-outbreak-of-explosive-diarrhea-with-72-cases-identified",
@@ -155,18 +215,8 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman",
-      "title": "Why Sony can't bring back its classic Walkman models",
-      "url": "https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman",
-      "summary": "Article URL: https://obsoletesony.substack.com/p/why-sony-cant-bring-back-classic-walkman Comments URL: https://news.ycombinator.com/item?id=49025766 Points: 150 # Comments: 159",
-      "publishedAt": "2026-07-23T18:08:29.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc",
-      "title": "Final Coyote vs. Acme trailer drops at SDCC",
+      "title": "Tweety gets the third degree in final Coyote vs. Acme trailer",
       "url": "https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc",
       "summary": "Also, the full trailer for Zach Cregger's Resident Evil features a likable everyman.",
       "publishedAt": "2026-07-23T18:01:46.000Z",
@@ -215,6 +265,16 @@
       "category": "Technology"
     },
     {
+      "id": "the-verge:https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
+      "title": "Geekbench 7 will push your computer or phone even harder for better benchmarking",
+      "url": "https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
+      "summary": "Primate Labs is releasing Geekbench 7, the latest generation of its popular benchmarking tool. Geekbench 7 features new video and audio encoding / decoding tests, a redesigned multi-core test, and larger, more demanding datasets for CPUs and GPUs to crunch through. It otherwise looks and acts just like Geekbench 6, and a Pro license will [&#8230;]",
+      "publishedAt": "2026-07-23T17:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
       "title": "OpenAI makes ChatGPT Health available to all US users",
       "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
@@ -240,66 +300,6 @@
       "url": "https://arstechnica.com/health/2026/07/woman-loses-vision-in-one-eye-after-uti-bacteria-evolves-to-invade-her-brain",
       "summary": "The case provides a novel report of the emergence of heterovirulence.",
       "publishedAt": "2026-07-23T16:58:26.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "title": "What happened to TheNumbers.com",
-      "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
-      "summary": "Article URL: https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all Comments URL: https://news.ycombinator.com/item?id=49024691 Points: 387 # Comments: 182",
-      "publishedAt": "2026-07-23T16:53:33.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle",
-      "title": "Google hit with $1 billion in fines as EU braces for Trump battle",
-      "url": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle",
-      "summary": "Google becomes third tech giant to face huge fines under the Digital Markets Act.",
-      "publishedAt": "2026-07-23T16:41:36.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse",
-      "title": "Tesla&#8217;s robotaxis are moving in reverse",
-      "url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse",
-      "summary": "The number of paid robotaxi miles traveled fell 36% in the second quarter, despite expanding to new cities, according to Tesla's own figures.",
-      "publishedAt": "2026-07-23T16:29:59.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
-      "title": "Meta launched a new AI optimism ad set to a song about human extinction",
-      "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
-      "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
-      "publishedAt": "2026-07-23T16:28:50.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug",
-      "title": "Sony's decision to ditch discs was practically inevitable, data shows",
-      "url": "https://arstechnica.com/gaming/2026/07/the-playstation-game-disc-was-dying-long-before-sony-pulled-the-plug",
-      "summary": "Circana numbers show US gamers overwhelmingly voting with their wallets.",
-      "publishedAt": "2026-07-23T16:25:46.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
-      "title": "Google just had its first negative cash flow quarter due to massive AI spending",
-      "url": "https://arstechnica.com/google/2026/07/google-just-had-its-first-negative-cash-flow-quarter-ever-due-to-massive-ai-spending",
-      "summary": "Google continues to report big quarterly revenue, but its AI spending has skyrocketed.",
-      "publishedAt": "2026-07-23T16:04:19.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"

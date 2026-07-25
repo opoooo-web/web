@@ -1,91 +1,86 @@
 {
-  "generatedAt": "2026-07-24T14:15:29.325Z",
+  "generatedAt": "2026-07-25T10:46:28.002Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "This daily brief provides an overview of the most significant technology, AI, infrastructure, science, and developer signals observed recently. Key trends and important updates across various sectors are highlighted to keep you informed.",
+  "narrative": "The technology landscape is buzzing with advancements in AI, from new model launches and significant investments to discussions around its ethical deployment. Concurrently, new interfaces like tongue-controlled touchpads are pushing accessibility, while space exploration and core internet infrastructure continue to see vital developments.",
   "highlights": [
     {
-      "title": "Kaizen #4: Overhauled Homelab",
-      "whyItMatters": "Article URL: https://timharek.no/blog/kaizen-4/ Comments URL: https://news.ycombinator.com/item?id=49035550 Points: 3 # Comments: 0",
+      "title": "MouthPad: A Tongue-Controlled Touchpad",
+      "whyItMatters": "This innovation offers a new input method for computing, potentially enhancing accessibility.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://timharek.no/blog/kaizen-4",
+      "sourceUrl": "https://www.augmental.tech",
       "category": "Developer",
-      "publishedAt": "2026-07-24T13:46:40.000Z"
+      "publishedAt": "2026-07-25T07:51:19.000Z"
     },
     {
-      "title": "OpenAI&#8217;s new voice mode makes it to the ChatGPT desktop app",
-      "whyItMatters": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
+      "title": "Android May Soon Restrict On-Device ADB",
+      "whyItMatters": "Potential changes to on-device debugging could impact Android development workflows.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb",
+      "category": "Developer",
+      "publishedAt": "2026-07-25T06:57:14.000Z"
+    },
+    {
+      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+      "whyItMatters": "An assessment of AI's cyber capabilities highlights the evolving landscape of AI security.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "category": "Developer",
+      "publishedAt": "2026-07-25T04:20:21.000Z"
+    },
+    {
+      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "whyItMatters": "Significant investment in a new AI lab signals continued strong growth and innovation in the AI sector.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app",
+      "sourceUrl": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
       "category": "Technology",
-      "publishedAt": "2026-07-24T13:36:42.000Z"
+      "publishedAt": "2026-07-24T22:25:58.000Z"
     },
     {
-      "title": "Oracle fires 21,000 employees to fund AI spending",
-      "whyItMatters": "Article URL: https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442 Comments URL: https://news.ycombinator.com/item?id=49035314 Points: 20 # Comments: 3",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
-      "category": "Developer",
-      "publishedAt": "2026-07-24T13:33:12.000Z"
-    },
-    {
-      "title": "Patreon laying off 20% of staff",
-      "whyItMatters": "Article URL: https://www.patreon.com/jackconte/posts/painful-update-164628951 Comments URL: https://news.ycombinator.com/item?id=49034948 Points: 100 # Comments: 133",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.patreon.com/jackconte/posts/painful-update-164628951",
-      "category": "Developer",
-      "publishedAt": "2026-07-24T13:02:49.000Z"
-    },
-    {
-      "title": "Facebook launches a dedicated Marketplace app for sellers, adds a free verification system",
-      "whyItMatters": "Seller is a dedicated Marketplace app for people who list and sell items frequently.",
+      "title": "Anthropic launches Opus 5",
+      "whyItMatters": "A major update to an AI model demonstrates rapid advancements in artificial intelligence capabilities.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/24/facebook-launches-a-dedicated-marketplace-app-for-sellers-adds-a-free-verification-system",
+      "sourceUrl": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
       "category": "Technology",
-      "publishedAt": "2026-07-24T12:47:15.000Z"
+      "publishedAt": "2026-07-24T17:00:00.000Z"
     },
     {
-      "title": "Em dashes are fucking amazing",
-      "whyItMatters": "Article URL: https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing Comments URL: https://news.ycombinator.com/item?id=49034747 Points: 74 # Comments: 70",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://psychotechnology.substack.com/p/em-dashes-are-fucking-amazing",
-      "category": "Developer",
-      "publishedAt": "2026-07-24T12:40:27.000Z"
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "whyItMatters": "New telescope technology promises groundbreaking discoveries in exoplanet research.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope",
+      "category": "Science",
+      "publishedAt": "2026-07-22T09:00:00.000Z"
     },
     {
-      "title": "Programming language file extensions that match ISO 3166-1 alpha-2 country code",
-      "whyItMatters": "Article URL: https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code/ Comments URL: https://news.ycombinator.com/item?id=49034673 Points: 19 # Comments: 8",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.bruh.ltd/blog/programming-language-file-extensions-that-match-an-iso-3166-1-alpha-2-country-code",
-      "category": "Developer",
-      "publishedAt": "2026-07-24T12:34:28.000Z"
+      "title": "Cloudflare Internal DNS is now generally available",
+      "whyItMatters": "Enhances private network management and security for enterprises using Cloudflare's infrastructure.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/internal-dns",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-20T20:59:31.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "Key developments in AI are driving significant changes across industries.",
-      "itemCount": 59
+      "name": "AI Advancements",
+      "summary": "New AI models, significant investments, and discussions on AI ethics and security are shaping the future of artificial intelligence.",
+      "itemCount": 3
     },
     {
-      "name": "Technology",
-      "summary": "The technology sector continues to see rapid advancements and shifts.",
-      "itemCount": 27
+      "name": "Developer & Accessibility Technology",
+      "summary": "Innovations in human-computer interaction and mobile development continue to enhance user experience and expand accessibility.",
+      "itemCount": 2
     },
     {
-      "name": "Developer",
-      "summary": "New tools, trends, and challenges are shaping the developer landscape.",
-      "itemCount": 21
+      "name": "Space & Science Exploration",
+      "summary": "Breakthroughs in space telescopes and ongoing missions expand our understanding of the universe and technological capabilities.",
+      "itemCount": 1
     },
     {
-      "name": "Infrastructure",
-      "summary": "Significant updates and innovations are occurring in infrastructure development.",
-      "itemCount": 14
-    },
-    {
-      "name": "Science",
-      "summary": "Scientific breakthroughs and research continue to push the boundaries of knowledge.",
-      "itemCount": 11
+      "name": "Internet Infrastructure & Security",
+      "summary": "Core internet services are evolving with new offerings in DNS management and ongoing efforts to secure digital environments.",
+      "itemCount": 1
     }
   ],
   "notes": []

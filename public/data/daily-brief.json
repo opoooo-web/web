@@ -1,99 +1,86 @@
 {
-  "generatedAt": "2026-07-26T07:05:26.821Z",
+  "generatedAt": "2026-07-26T09:26:10.627Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech world sees significant advancements in AI, robotics, and infrastructure, with new models and hardware boosting capabilities. Space exploration continues with NASA missions, while cybersecurity and privacy remain key concerns amidst evolving digital landscapes. Developers are exploring new tools and frameworks for enhanced productivity and security.",
+  "narrative": "The technology sector is navigating significant shifts, with AI impacting job markets and data center infrastructure, while advancements in security and scientific research continue to push boundaries. Innovations range from enhanced mobile OS protections and running large language models on microcontrollers to breakthroughs in organ preservation and new space missions, highlighting a dynamic period of development and adaptation.",
   "highlights": [
     {
       "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-      "whyItMatters": "AI's growing integration is impacting the job market, leading to significant layoffs across numerous tech companies as roles evolve.",
+      "whyItMatters": "AI advancements are leading to significant workforce restructuring across the tech industry, impacting numerous companies.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
       "category": "Technology",
       "publishedAt": "2026-07-26T01:30:00.000Z"
     },
     {
-      "title": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
-      "whyItMatters": "The adoption of sodium-ion batteries by major manufacturers like GM signals a shift towards more sustainable and scalable energy storage solutions.",
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "whyItMatters": "New security measures in GrapheneOS offer enhanced protection against sophisticated data extraction techniques for mobile devices.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+      "sourceUrl": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
       "category": "Developer",
-      "publishedAt": "2026-07-25T21:48:22.000Z"
+      "publishedAt": "2026-07-26T05:57:22.000Z"
     },
     {
-      "title": "Elon Musk’s Boring Company reportedly raising funding at a $20 billion valuation",
-      "whyItMatters": "Significant investment in Elon Musk's Boring Company highlights continued interest and confidence in advanced infrastructure and tunneling technologies.",
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "whyItMatters": "The capability to run large language models on low-cost microcontrollers opens new avenues for ubiquitous and edge AI applications.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/slvDev/esp32-ai",
+      "category": "Developer",
+      "publishedAt": "2026-07-25T18:59:50.000Z"
+    },
+    {
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "whyItMatters": "The increasing demand for AI data centers highlights critical infrastructure vulnerabilities and the need for more resilient power solutions.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/25/elon-musks-boring-company-reportedly-raising-funding-at-a-20-billion-valuation",
+      "sourceUrl": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
       "category": "Technology",
-      "publishedAt": "2026-07-25T19:23:32.000Z"
+      "publishedAt": "2026-07-25T13:05:00.000Z"
     },
     {
-      "title": "The new rules of context engineering for Claude 5 generation models",
-      "whyItMatters": "Advancements in large language models, like Claude 5, are leading to new best practices for context engineering, crucial for AI development.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-      "category": "Developer",
-      "publishedAt": "2026-07-25T20:42:35.000Z"
-    },
-    {
-      "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
-      "whyItMatters": "NASA's ESCAPADE mission provides stunning new perspectives on Earth and the Moon, advancing our understanding of celestial dynamics.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon",
-      "category": "Science",
-      "publishedAt": "2026-07-24T17:47:06.000Z"
-    },
-    {
-      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "whyItMatters": "A breakthrough in organ preservation could revolutionize transplant medicine by extending the viability of donor organs significantly.",
+      "title": "The quest to keep organs alive outside the body",
+      "whyItMatters": "Advances in preserving organs longer outside the body could revolutionize transplant medicine by increasing donor organ availability.",
       "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body",
       "category": "Science",
-      "publishedAt": "2026-07-23T16:58:28.000Z"
+      "publishedAt": "2026-07-24T17:03:55.000Z"
+    },
+    {
+      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
+      "whyItMatters": "SpaceX's ongoing Starship development, including ambitious recovery methods, continues to push the boundaries of space transportation technology.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight",
+      "category": "Technology",
+      "publishedAt": "2026-07-25T17:47:22.000Z"
     },
     {
       "title": "Cloudflare Internal DNS is now generally available",
-      "whyItMatters": "Cloudflare's Internal DNS enhances private network security and performance by integrating authoritative and recursive DNS on a global network.",
+      "whyItMatters": "Cloudflare's new Internal DNS service offers a secure and global solution for managing private networks, enhancing enterprise infrastructure.",
       "sourceName": "Cloudflare Blog",
       "sourceUrl": "https://blog.cloudflare.com/internal-dns",
       "category": "Infrastructure",
       "publishedAt": "2026-07-20T20:59:31.000Z"
-    },
-    {
-      "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
-      "whyItMatters": "NVIDIA's new Jetson Thor modules are designed to power next-generation robotics and edge AI applications with compact, energy-efficient supercomputing.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent",
-      "category": "AI",
-      "publishedAt": "2026-07-15T23:00:54.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "Ongoing advancements in artificial intelligence are enhancing model capabilities, driving new applications in health, business, and robotics, and raising discussions about ethical use and economic impact.",
-      "itemCount": 51
-    },
-    {
       "name": "Technology",
-      "summary": "Innovations in consumer electronics, space technology, and digital policy are shaping how we interact with devices and data, alongside growing concerns about privacy and corporate practices.",
-      "itemCount": 27
+      "summary": "The technology sector is experiencing rapid shifts, from AI-driven workforce changes and data center challenges to evolving mobile devices and space exploration.",
+      "itemCount": 4
     },
     {
       "name": "Developer",
-      "summary": "New tools and platforms are emerging to improve developer workflows, enhance code security, and simplify complex tasks, fostering a more efficient and collaborative development environment.",
-      "itemCount": 14
+      "summary": "Innovations in developer tools and security are improving system protections and enabling advanced AI capabilities on compact hardware.",
+      "itemCount": 2
     },
     {
       "name": "Science",
-      "summary": "Breakthroughs in space exploration, medical research, and renewable energy are pushing the boundaries of human knowledge and technological application.",
-      "itemCount": 19
+      "summary": "Breakthroughs in medical science are extending organ viability for transplants, while space missions continue to broaden our understanding of the cosmos.",
+      "itemCount": 1
     },
     {
       "name": "Infrastructure",
-      "summary": "Developments in cloud services, network protocols, and data center efficiency are critical for supporting the demands of modern digital services and AI technologies.",
-      "itemCount": 18
+      "summary": "New developments in network infrastructure, like Cloudflare's Internal DNS, are enhancing security and connectivity for private networks.",
+      "itemCount": 1
     }
   ],
   "notes": []

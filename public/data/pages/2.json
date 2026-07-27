@@ -5,14 +5,94 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "hacker-news:https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article",
-      "title": "Decathlon Germany adds Wero payment option to decathlon.de website",
-      "url": "https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article",
-      "summary": "Article URL: https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article Comments URL: https://news.ycombinator.com/item?id=49072310 Points: 276 # Comments: 186",
-      "publishedAt": "2026-07-27T16:49:08.000Z",
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
+      "title": "The harness is all you need (mostly)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
+      "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool. The post The harness is all you need (mostly) appeared first on The GitHub Blog .",
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,&#160;sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got&#8230;",
+      "publishedAt": "2026-07-27T18:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military",
+      "title": "Antares raises $470M to build nuclear reactors for the US military",
+      "url": "https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military",
+      "summary": "Antares has raised $470 million to build small modular reactors — 100 kW to 1 MW — for U.S. Air Force bases.",
+      "publishedAt": "2026-07-27T17:49:28.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+      "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+      "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+      "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+      "publishedAt": "2026-07-27T17:28:42.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://up.codes/careers",
+      "title": "UpCodes (YC S17) is hiring remote AE's to help make buildings cheaper",
+      "url": "https://up.codes/careers",
+      "summary": "Article URL: https://up.codes/careers?utm_source=HN Comments URL: https://news.ycombinator.com/item?id=49072523 Points: 0 # Comments: 0",
+      "publishedAt": "2026-07-27T17:02:41.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://usefeyn.com/blog/feynobg",
+      "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg",
+      "summary": "Hey HN, I’m Shreyash from Feyn. We help companies build custom models from their data. Today, we’re releasing FeyNoBg, an automatic background removal model. Alongside it, we're open-sourcing NoBg, the Python library we built to train and run it. Try the model here: https://huggingface.co/spaces/feyninc/feynobg . Check out the library here: https://github.com/feyninc/nobg Some sample outputs: (1) Soccer Freekick: https://drive.google.com/file/d/1MZkAGLwbhNVOZ0Oi7XvpCfSEu9Q... (2) Hair in wind: https://drive.google.com/file/d/1Odc2m0XMVH9uZtvI_KjaRbXzhLL... (3) Bicycle with visible spokes: https://drive.google.com/file/d/1h99ahjfrtS1MFQJJgiKE2fuM3HZ... (4) Live Demo video: https://youtu.be/b1heHPvY8BM Background removal separates an image's subject from its surrounding. We've all tried it at some point. Often it is to reuse the subject in a different artifact. Nowadays, it is common to make chat stickers out of it. It is one of the most common but under-appreciated uses of AI. It is also surprisingly complex. Models can be easily confused by camouflage, motion blur, or fine structures like hair. The task requires two skills. First, a model has to identify the foreground. Second, it has to trace the foreground’s boundary and estimate an opacity value for each pixel. Generally, these skills are taught with different datasets. That creates a failure point. A poor training mix can improve one skill at the expense of the other. We saw this in our controlled evaluation. A training run with just the MaskFactory dataset improved on the CAMO benchmark but regressed on DIS5K. For FeyNoBg, we took an interpretability-first approach to training. We first studied how BiRefNet’s stages contribute to finding the foreground and reconstructing its boundary. We discovered that the third stage of it's feature extractor holds a lot of information. Both localization and boundary reconstruction depend heavily on the feature map produced here. This led us to expand this stage from 18 to 24 blocks while preserving the pre-trained weights. We then trained FeyNoBg on 26.1K diverse examples assembled from 10 datasets. The goal was to improve foreground identification and boundary precision without sacrificing either one. Across eight benchmarks, FeyNoBg achieves the best published score on four and comes within 2% of the leader on the rest. Building FeyNoBg also exposed a tooling problem. Image matting models are usually released as isolated repositories with incompatible preprocessing, training, and evaluation code. We built NoBg to solve this. NoBg puts these workflows behind one Python interface. It supports BiRefNet today, with more architectures coming. We hope you build something exciting with it! Happy to answer any questions! Comments URL: https://news.ycombinator.com/item?id=49072462 Points: 79 # Comments: 21",
+      "publishedAt": "2026-07-27T16:59:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+      "title": "ChatGPT starts blocking direct requests to copy an author's style",
+      "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+      "summary": "New behavior capturing a writer's \"broad qualities\" could have legal implications.",
+      "publishedAt": "2026-07-27T16:58:46.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
+      "title": "MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash",
+      "summary": "Article URL: https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/ Comments URL: https://news.ycombinator.com/item?id=49072361 Points: 205 # Comments: 107",
+      "publishedAt": "2026-07-27T16:52:22.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "title": "Why China is giving away its best AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "summary": "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between [&#8230;]",
+      "publishedAt": "2026-07-27T16:51:50.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/image-article/nasa-astronaut-chris-williams-returns-to-earth",
@@ -33,16 +113,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://infrawrench.com",
-      "title": "Show HN: Infrawrench – A tool to manage cloud and svcs with workflows and chat",
-      "url": "https://infrawrench.com",
-      "summary": "Article URL: https://infrawrench.com Comments URL: https://news.ycombinator.com/item?id=49071915 Points: 17 # Comments: 0",
-      "publishedAt": "2026-07-27T16:25:45.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/streaming/971452/youtube-premium-peacock-streaming-deal",
@@ -95,16 +165,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://github.com/letsseal/letsseal",
-      "title": "Show HN: Let's Seal – Let's Encrypt for document signing, free and self-hosted",
-      "url": "https://github.com/letsseal/letsseal",
-      "summary": "TLDR, Let's Seal gives the finger to Adobe and every doc signing tool (docusign, google, etc) who pay to play with the Adobe Approved Trust List and then charge you for something that should be free. Currently even the person checking if a document/contract is sealed or code is authentic has to also be inside the same Adobe walled garden too. Verification, the part that should be free is the part everyone charges for. Thats the shape Let's Encrypt fixed for TLS, and I wanted the same thing for documents and files. The core idea therefore needed to go a bit beyond e signatures and i created an open standard (SEAL), plus free tools that implement it. When you seal a file, three independent things happen. 1. it gets a signature from a certificate authority, chaining to a public root. 2. its record is appended to an RFC 6962 transparency log. and 3. its SHA256 is timestamped on a public blockchain (Bitcoin) via OpenTimestamps. Those three give you integrity, transparency and a timestamped proof. And importantly, none of those depend on Let's Seal and none are gated. You can verify with the tools you already have, no Let's Seal account and no Let's Seal software. A sealed PDF carries a standard PAdES signature, so any PDF reader validates it. A sealed build artefact carries a cosign compatible signature and a SLSA provenance attestation. The Bitcoin timestamp verifies with stock ots. 3 ways to use it. 1. The free web app. We kindly have backing from Backblaze to cover storage costs for the foreseeable. So you can upload or issue any number of documents, get a public proof page at /d/ and verify it at https://verify.letsseal.org for free. Multiple accounts, multiple seats, enterprise functions. Free. 2. Self host the whole thing. Apache-2.0, one Next.js app plus a signing service that holds the CA key on localhost. Storage is any S3-compatible bucket or local disk. If you'd rather run your own root of trust, you can. 3. Programmatically. via the CLI and a hosted API. This is the Let's Encrypt/certbot angle. Seal or anchor things from CI, or have a backend seal every invoice or report as its generated. The CLI is sealbot. It runs anywhere Node runs (npx sealbot) and there are native binaries for macOS, Linux and Windows with no runtime needed. Theres a GitHub Action wrapping the same tool, so a release workflow can seal its own artifacts. Its what proves our own releases. KYC is semi-handled (to a degree) it's hard to do for free (at least for now), but issuers (your companies or websites) domains can be authenticated with a DNS record added, which proves the issuer has control over a domain. Sign-in can be authenticated to an email via Google Sign in and a few others will be added to the web app in time (Same as Docusign currently). Ideas welcome on future KYC should there be a demand. Feedback welcome on the standard (SPEC.md in the repo). Repo: https://github.com/letsseal/letsseal Site: letsseal.org Thx Comments URL: https://news.ycombinator.com/item?id=49071365 Points: 45 # Comments: 22",
-      "publishedAt": "2026-07-27T15:52:13.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "the-verge:https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
       "title": "Amazon&#8217;s trying to launch a global satellite cellphone network in 2028",
       "url": "https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network",
@@ -118,7 +178,7 @@
       "id": "hacker-news:https://arxiv.org/abs/math/0411418",
       "title": "How real are real numbers? (2004)",
       "url": "https://arxiv.org/abs/math/0411418",
-      "summary": "Article URL: https://arxiv.org/abs/math/0411418 Comments URL: https://news.ycombinator.com/item?id=49071190 Points: 28 # Comments: 17",
+      "summary": "Article URL: https://arxiv.org/abs/math/0411418 Comments URL: https://news.ycombinator.com/item?id=49071190 Points: 41 # Comments: 30",
       "publishedAt": "2026-07-27T15:40:17.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -148,7 +208,7 @@
       "id": "hacker-news:https://pranitha.dev/posts/tokio-gives-progress-not-ordering",
       "title": "Tokio Gives Progress, Not Ordering: Scheduling 1M Tasks",
       "url": "https://pranitha.dev/posts/tokio-gives-progress-not-ordering",
-      "summary": "Article URL: https://pranitha.dev/posts/tokio-gives-progress-not-ordering/ Comments URL: https://news.ycombinator.com/item?id=49070805 Points: 25 # Comments: 0",
+      "summary": "Article URL: https://pranitha.dev/posts/tokio-gives-progress-not-ordering/ Comments URL: https://news.ycombinator.com/item?id=49070805 Points: 36 # Comments: 2",
       "publishedAt": "2026-07-27T15:10:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -158,7 +218,7 @@
       "id": "hacker-news:https://eaton-works.com/2026/07/27/my-eicher-hack",
       "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
       "url": "https://eaton-works.com/2026/07/27/my-eicher-hack",
-      "summary": "Article URL: https://eaton-works.com/2026/07/27/my-eicher-hack/ Comments URL: https://news.ycombinator.com/item?id=49070756 Points: 99 # Comments: 29",
+      "summary": "Article URL: https://eaton-works.com/2026/07/27/my-eicher-hack/ Comments URL: https://news.ycombinator.com/item?id=49070756 Points: 121 # Comments: 39",
       "publishedAt": "2026-07-27T15:08:16.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -225,20 +285,10 @@
       "category": "Infrastructure"
     },
     {
-      "id": "the-verge:https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
-      "title": "SDCC 2026’s best trailers are heavy on cyberpunk and sci-fi",
-      "url": "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
-      "summary": "San Diego Comic-Con took place over the weekend, and as per usual it was full of tidbits of news across film, TV, and gaming. Marvel revealed the next Ghost Rider (Ryan Gosling) and Black Panther (David Jonsson), while we also got release dates for God of War: Laufey (February 16th) and the fourth and final [&#8230;]",
-      "publishedAt": "2026-07-27T14:38:43.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference",
       "title": "NASA to Cover Three US Spacewalks, Host Preview News Conference",
       "url": "https://www.nasa.gov/news-release/nasa-to-cover-three-us-spacewalks-host-preview-news-conference",
-      "summary": "NASA will provide coverage as astronauts venture outside the International Space Station during three spacewalks in August to continue upgrading solar arrays, replace a communications antenna, and connect power and data cables in support of space station operations. Experts will preview the upcoming spacewalks during a news conference at 2 p.m. EDT, Thursday, July 30, [&#8230;]",
+      "summary": "Editor&#8217;s note: This media advisory was updated July 27, 2026 to reflect an updated start time for the spacewalk on Thursday, Aug. 6. NASA will provide coverage as astronauts venture outside the International Space Station during three spacewalks in August to continue upgrading solar arrays, replace a communications antenna, and connect power and data cables [&#8230;]",
       "publishedAt": "2026-07-27T14:35:11.000Z",
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
@@ -253,56 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://pagedout.institute/download/PagedOut_009.pdf",
-      "title": "Paged Out #9 [pdf]",
-      "url": "https://pagedout.institute/download/PagedOut_009.pdf",
-      "summary": "Article URL: https://pagedout.institute/download/PagedOut_009.pdf Comments URL: https://news.ycombinator.com/item?id=49070138 Points: 128 # Comments: 18",
-      "publishedAt": "2026-07-27T14:22:34.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism",
-      "title": "What public health professionals can learn from anti-vaccine storytelling",
-      "url": "https://arstechnica.com/health/2026/07/how-emotionally-powerful-stories-fuel-vaccine-skepticism",
-      "summary": "Sometimes, compelling stories beat medical evidence.",
-      "publishedAt": "2026-07-27T14:01:56.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down",
-      "title": "NASA’s Hubble Shows Star Formation in Andromeda Galaxy Winding Down",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-shows-star-formation-in-andromeda-galaxy-winding-down",
-      "summary": "NASA’s Hubble finds that star formation in the Andromeda galaxy has undergone a 500-million-year decline.",
-      "publishedAt": "2026-07-27T14:00:14.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html",
-      "title": "Should you wash your solar panels?",
-      "url": "https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html",
-      "summary": "Article URL: https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html Comments URL: https://news.ycombinator.com/item?id=49069132 Points: 211 # Comments: 199",
-      "publishedAt": "2026-07-27T13:04:11.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli",
-      "title": "We’re open-sourcing our privacy proxy CLI",
-      "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli",
-      "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
-      "publishedAt": "2026-07-27T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

@@ -1,87 +1,100 @@
 {
-  "generatedAt": "2026-07-26T09:26:10.627Z",
+  "generatedAt": "2026-07-27T08:48:15.164Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology sector is navigating significant shifts, with AI impacting job markets and data center infrastructure, while advancements in security and scientific research continue to push boundaries. Innovations range from enhanced mobile OS protections and running large language models on microcontrollers to breakthroughs in organ preservation and new space missions, highlighting a dynamic period of development and adaptation.",
+  "narrative": "Today's tech news features significant advancements in AI, including new model releases and discussions on transparency post-security incidents, alongside innovations in chip design and physical AI. Key updates in digital privacy, space exploration, and developer tools also highlight the dynamic landscape of technology and science.",
   "highlights": [
     {
-      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-      "whyItMatters": "AI advancements are leading to significant workforce restructuring across the tech industry, impacting numerous companies.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
-      "category": "Technology",
-      "publishedAt": "2026-07-26T01:30:00.000Z"
-    },
-    {
-      "title": "GrapheneOS protections against data extraction from locked devices",
-      "whyItMatters": "New security measures in GrapheneOS offer enhanced protection against sophisticated data extraction techniques for mobile devices.",
+      "title": "Kimi-K3 Releases on HuggingFace 7/27",
+      "whyItMatters": "This release marks a significant development in AI models available on HuggingFace, enhancing developer access to new language capabilities.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K3",
       "category": "Developer",
-      "publishedAt": "2026-07-26T05:57:22.000Z"
+      "publishedAt": "2026-07-27T06:18:10.000Z"
     },
     {
-      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
-      "whyItMatters": "The capability to run large language models on low-cost microcontrollers opens new avenues for ubiquitous and edge AI applications.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/slvDev/esp32-ai",
-      "category": "Developer",
-      "publishedAt": "2026-07-25T18:59:50.000Z"
+      "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
+      "whyItMatters": "NVIDIA's collaboration on the Vera CPU is poised to accelerate the design and development of advanced AI and GPU systems.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/vera-cpu-eda",
+      "category": "AI",
+      "publishedAt": "2026-07-27T00:45:42.000Z"
     },
     {
-      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
-      "whyItMatters": "The increasing demand for AI data centers highlights critical infrastructure vulnerabilities and the need for more resilient power solutions.",
+      "title": "Are brain waves the next unlock for physical AI?",
+      "whyItMatters": "Research into integrating brain wave readings with physical AI models indicates a frontier in intuitive human-AI interaction and control.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
+      "sourceUrl": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
       "category": "Technology",
-      "publishedAt": "2026-07-25T13:05:00.000Z"
+      "publishedAt": "2026-07-27T00:19:14.000Z"
     },
     {
-      "title": "The quest to keep organs alive outside the body",
-      "whyItMatters": "Advances in preserving organs longer outside the body could revolutionize transplant medicine by increasing donor organ availability.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body",
+      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+      "whyItMatters": "This event highlights increasing legal scrutiny around digital privacy and data security at borders, particularly concerning encrypted devices.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+      "category": "Developer",
+      "publishedAt": "2026-07-26T22:21:41.000Z"
+    },
+    {
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "whyItMatters": "The call for greater transparency after a major AI security incident emphasizes growing concerns over AI model vulnerabilities and cyber ethics.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+      "category": "Technology",
+      "publishedAt": "2026-07-26T16:33:13.000Z"
+    },
+    {
+      "title": "Apple is banking on privacy to set its smart glasses apart",
+      "whyItMatters": "Apple's focus on privacy for its upcoming smart glasses aims to address major consumer concerns in the wearable technology market.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
+      "category": "Technology",
+      "publishedAt": "2026-07-26T19:36:38.000Z"
+    },
+    {
+      "title": "Kill The Cookie Banner",
+      "whyItMatters": "This initiative reflects a widespread user desire for simpler, less intrusive web experiences by tackling pervasive cookie consent banners.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://killthecookiebanner.eu",
+      "category": "Developer",
+      "publishedAt": "2026-07-26T11:53:17.000Z"
+    },
+    {
+      "title": "NASA Astronaut Chris Williams, Crewmates Return from Space Station",
+      "whyItMatters": "A successful return from an eight-month science mission signifies ongoing international collaboration and advancements in space research.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station",
       "category": "Science",
-      "publishedAt": "2026-07-24T17:03:55.000Z"
-    },
-    {
-      "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight",
-      "whyItMatters": "SpaceX's ongoing Starship development, including ambitious recovery methods, continues to push the boundaries of space transportation technology.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/07/spacex-eyes-tower-catch-for-next-starship-after-auspicious-end-to-13th-flight",
-      "category": "Technology",
-      "publishedAt": "2026-07-25T17:47:22.000Z"
-    },
-    {
-      "title": "Cloudflare Internal DNS is now generally available",
-      "whyItMatters": "Cloudflare's new Internal DNS service offers a secure and global solution for managing private networks, enhancing enterprise infrastructure.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/internal-dns",
-      "category": "Infrastructure",
-      "publishedAt": "2026-07-20T20:59:31.000Z"
+      "publishedAt": "2026-07-26T10:59:44.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Technology",
-      "summary": "The technology sector is experiencing rapid shifts, from AI-driven workforce changes and data center challenges to evolving mobile devices and space exploration.",
-      "itemCount": 4
+      "name": "AI Developments",
+      "summary": "This topic covers breakthroughs in AI models, their applications in various industries, and discussions around their security and societal impact.",
+      "itemCount": 33
     },
     {
-      "name": "Developer",
-      "summary": "Innovations in developer tools and security are improving system protections and enabling advanced AI capabilities on compact hardware.",
-      "itemCount": 2
+      "name": "Developer Tools & Platforms",
+      "summary": "This includes new software releases, programming frameworks, security updates for open-source projects, and discussions relevant to the developer community.",
+      "itemCount": 16
     },
     {
-      "name": "Science",
-      "summary": "Breakthroughs in medical science are extending organ viability for transplants, while space missions continue to broaden our understanding of the cosmos.",
-      "itemCount": 1
+      "name": "Technology & Gadgets",
+      "summary": "This topic encompasses innovations in consumer electronics, privacy issues in smart devices, and significant market trends like the rise of vertical video.",
+      "itemCount": 24
     },
     {
-      "name": "Infrastructure",
-      "summary": "New developments in network infrastructure, like Cloudflare's Internal DNS, are enhancing security and connectivity for private networks.",
-      "itemCount": 1
+      "name": "Space & Science Exploration",
+      "summary": "This highlights NASA missions, astronomical discoveries, and scientific research aimed at understanding space and advancing medical fields.",
+      "itemCount": 16
+    },
+    {
+      "name": "Digital Infrastructure & Security",
+      "summary": "This covers network advancements, cloud computing updates, cybersecurity measures, and discussions around internet traffic and data management.",
+      "itemCount": 16
     }
   ],
-  "notes": []
+  "notes": ["XAI_API_KEY not configured"]
 }

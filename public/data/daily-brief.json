@@ -1,100 +1,95 @@
 {
-  "generatedAt": "2026-07-27T08:48:15.164Z",
+  "generatedAt": "2026-07-27T12:37:44.427Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's tech news features significant advancements in AI, including new model releases and discussions on transparency post-security incidents, alongside innovations in chip design and physical AI. Key updates in digital privacy, space exploration, and developer tools also highlight the dynamic landscape of technology and science.",
+  "narrative": "The technology landscape is actively advancing, with a significant focus on AI security alliances, AI-driven drug discovery, and agentic AI deployments. Key developments also include breakthroughs in nuclear fuel technology, organ preservation, and new infrastructure solutions to enhance network efficiency and cloud compute.",
   "highlights": [
     {
-      "title": "Kimi-K3 Releases on HuggingFace 7/27",
-      "whyItMatters": "This release marks a significant development in AI models available on HuggingFace, enhancing developer access to new language capabilities.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K3",
-      "category": "Developer",
-      "publishedAt": "2026-07-27T06:18:10.000Z"
-    },
-    {
-      "title": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
-      "whyItMatters": "NVIDIA's collaboration on the Vera CPU is poised to accelerate the design and development of advanced AI and GPU systems.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/vera-cpu-eda",
-      "category": "AI",
-      "publishedAt": "2026-07-27T00:45:42.000Z"
-    },
-    {
-      "title": "Are brain waves the next unlock for physical AI?",
-      "whyItMatters": "Research into integrating brain wave readings with physical AI models indicates a frontier in intuitive human-AI interaction and control.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
-      "category": "Technology",
-      "publishedAt": "2026-07-27T00:19:14.000Z"
-    },
-    {
-      "title": "US citizen charged after GrapheneOS phone wipes during airport search",
-      "whyItMatters": "This event highlights increasing legal scrutiny around digital privacy and data security at borders, particularly concerning encrypted devices.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-      "category": "Developer",
-      "publishedAt": "2026-07-26T22:21:41.000Z"
-    },
-    {
-      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-      "whyItMatters": "The call for greater transparency after a major AI security incident emphasizes growing concerns over AI model vulnerabilities and cyber ethics.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
-      "category": "Technology",
-      "publishedAt": "2026-07-26T16:33:13.000Z"
-    },
-    {
-      "title": "Apple is banking on privacy to set its smart glasses apart",
-      "whyItMatters": "Apple's focus on privacy for its upcoming smart glasses aims to address major consumer concerns in the wearable technology market.",
+      "title": "Nvidia, Microsoft launch open AI security alliance – without OpenAI, Google, or Anthropic",
+      "whyItMatters": "This alliance aims to build and share open-source AI security tools, addressing growing concerns over AI model safety and cybersecurity.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
       "category": "Technology",
-      "publishedAt": "2026-07-26T19:36:38.000Z"
+      "publishedAt": "2026-07-27T12:06:22.000Z"
     },
     {
-      "title": "Kill The Cookie Banner",
-      "whyItMatters": "This initiative reflects a widespread user desire for simpler, less intrusive web experiences by tackling pervasive cookie consent banners.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://killthecookiebanner.eu",
-      "category": "Developer",
-      "publishedAt": "2026-07-26T11:53:17.000Z"
-    },
-    {
-      "title": "NASA Astronaut Chris Williams, Crewmates Return from Space Station",
-      "whyItMatters": "A successful return from an eight-month science mission signifies ongoing international collaboration and advancements in space research.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-crewmates-return-from-space-station",
+      "title": "The path to artificial superintelligence",
+      "whyItMatters": "This article explores the future of AI, envisioning interconnected AI agents capable of end-to-end task execution across various domains.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
       "category": "Science",
-      "publishedAt": "2026-07-26T10:59:44.000Z"
+      "publishedAt": "2026-07-27T12:00:00.000Z"
+    },
+    {
+      "title": "Closing the data loop in AI-driven drug discovery",
+      "whyItMatters": "AI is increasingly critical in accelerating drug discovery, helping to overcome the high costs and risks associated with developing new pharmaceuticals.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery",
+      "category": "Science",
+      "publishedAt": "2026-07-27T11:40:16.000Z"
+    },
+    {
+      "title": "Building the enterprise environment for agentic AI",
+      "whyItMatters": "Enterprises are focusing on robust platforms for agentic AI, emphasizing CPU capacity, resilient data access, and policy-aware tool use for end-to-end business task automation.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai",
+      "category": "Science",
+      "publishedAt": "2026-07-27T11:32:58.000Z"
+    },
+    {
+      "title": "How AI is expanding what people do at work",
+      "whyItMatters": "New research from OpenAI highlights how AI tools like ChatGPT are reshaping job boundaries and enabling workers to take on diverse tasks.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "category": "AI",
+      "publishedAt": "2026-07-27T03:30:00.000Z"
+    },
+    {
+      "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+      "whyItMatters": "In-depth testing reveals significant BGP ORIGIN attribute rewrites by transit providers, raising concerns about traffic routing and network stability.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/bgp-origin-attribute",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-24T17:25:28.000Z"
+    },
+    {
+      "title": "NASA’s ESCAPADE Snaps Family Portrait of Earth, Moon",
+      "whyItMatters": "NASA's Mars-destined ESCAPADE spacecraft captured unique images of Earth and the Moon, advancing scientific exploration.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/centers-and-facilities/goddard/nasas-escapade-snaps-family-portrait-of-earth-moon",
+      "category": "Science",
+      "publishedAt": "2026-07-24T17:47:06.000Z"
+    },
+    {
+      "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+      "whyItMatters": "AWS Lambda's new MicroVMs offer isolated, serverless compute with rapid launch, full lifecycle control, and state preservation, enhancing security and flexibility for developers.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms",
+      "category": "Infrastructure",
+      "publishedAt": "2026-06-22T22:40:07.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Developments",
-      "summary": "This topic covers breakthroughs in AI models, their applications in various industries, and discussions around their security and societal impact.",
-      "itemCount": 33
+      "name": "AI Innovation & Security",
+      "summary": "Recent developments in AI focus on security alliances, the path to superintelligence, and integrating AI into enterprise operations and drug discovery.",
+      "itemCount": 5
     },
     {
-      "name": "Developer Tools & Platforms",
-      "summary": "This includes new software releases, programming frameworks, security updates for open-source projects, and discussions relevant to the developer community.",
-      "itemCount": 16
+      "name": "Digital Infrastructure",
+      "summary": "Key updates in infrastructure include BGP attribute manipulation insights, new caching rules, and advanced serverless compute with MicroVMs.",
+      "itemCount": 2
     },
     {
-      "name": "Technology & Gadgets",
-      "summary": "This topic encompasses innovations in consumer electronics, privacy issues in smart devices, and significant market trends like the rise of vertical video.",
-      "itemCount": 24
+      "name": "Science & Space Exploration",
+      "summary": "Advances in science feature nuclear fuel research, organ preservation breakthroughs, and new space imaging from NASA's ESCAPADE mission.",
+      "itemCount": 1
     },
     {
-      "name": "Space & Science Exploration",
-      "summary": "This highlights NASA missions, astronomical discoveries, and scientific research aimed at understanding space and advancing medical fields.",
-      "itemCount": 16
-    },
-    {
-      "name": "Digital Infrastructure & Security",
-      "summary": "This covers network advancements, cloud computing updates, cybersecurity measures, and discussions around internet traffic and data management.",
-      "itemCount": 16
+      "name": "Technology & Privacy",
+      "summary": "Discussions around smart glasses privacy concerns and secure mobile operating systems highlight ongoing debates in technology and user data protection.",
+      "itemCount": 0
     }
   ],
-  "notes": ["XAI_API_KEY not configured"]
+  "notes": []
 }

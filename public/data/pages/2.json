@@ -5,6 +5,176 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments",
+      "title": "As US measles cases rise, biotech firms start developing new treatments",
+      "url": "https://arstechnica.com/health/2026/07/as-us-measles-cases-rise-biotech-firms-start-developing-new-treatments",
+      "summary": "The US is making measles great again, so treatment options are needed for the most vulnerable.",
+      "publishedAt": "2026-07-28T13:32:23.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+      "title": "Recursive Superintelligence signs $410 million compute deal with Amazon",
+      "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+      "summary": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+      "publishedAt": "2026-07-28T13:19:17.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study",
+      "title": "New HIV vaccine shows unprecedented success in preclinical study",
+      "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study",
+      "summary": "Article URL: https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/ Comments URL: https://news.ycombinator.com/item?id=49083314 Points: 319 # Comments: 147",
+      "publishedAt": "2026-07-28T13:12:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/schildep/verified-3d-mesh-intersection",
+      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+      "summary": "To my knowledge, this is the first formally verified implementation of a 3D constructive solid geometry (CSG) operation: mesh intersection, implemented in Lean 4 and verified against a concise specification that pins down the surface of the resulting mesh exactly and guarantees practical well-formedness conditions on the triangulation. This project is also an experiment in avoiding having to trust AI-generated code. A human reviewer only needs to read 93 lines of formal specification and run the Lean checker to certify the correctness of the kernel, skipping the intricate 1000+ lines of AI-written implementation. To prove correctness, AI autonomously wrote over 60,000 lines of Lean proofs, which also never have to be inspected by a human. The Lean checker guarantees conformance to the specification at compile time, with zero trust placed in any LLM. This allows us to treat the implementation and proofs as a black box. I guided the agent through the milestones described in the readme to arrive at the result presented here. Also take a look at the web demo https://schildep.github.io/verified-3d-mesh-intersection/ , which runs the verified mesh intersection kernel compiled to WebAssembly in your browser. Comments URL: https://news.ycombinator.com/item?id=49083239 Points: 80 # Comments: 34",
+      "publishedAt": "2026-07-28T13:07:14.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
+      "title": "What AI developers could learn from Charles Bukowski?",
+      "url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
+      "summary": "Article URL: https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski Comments URL: https://news.ycombinator.com/item?id=49083132 Points: 54 # Comments: 39",
+      "publishedAt": "2026-07-28T13:00:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "google-ai:https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips",
+      "summary": "It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips",
+      "summary": "These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks.",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/q2-2026-internet-disruption-summary",
+      "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
+      "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary",
+      "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/969957/twelve-south-valet-wireless-charger-qi2-25w-leather",
+      "title": "Twelve South’s stylish charging tray now delivers more wireless power with a smaller footprint",
+      "url": "https://www.theverge.com/tech/969957/twelve-south-valet-wireless-charger-qi2-25w-leather",
+      "summary": "Following the original's debut at CES earlier this year, Twelve South is introducing a new version of its leather-wrapped Valet charging tray designed for use in places where space is at a premium. While the original Valet was 7.5-inches deep and large enough to serve as a catchall for a couple of items like your [&#8230;]",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan",
+      "title": "You don’t need to splurge on an expensive handheld fan to beat the heat",
+      "url": "https://www.theverge.com/tech/970092/jisulife-10s-handheld-personal-fan",
+      "summary": "Despite what influencers may say, you don’t need to spend $99.99 on Dyson’s HushJet Mini Cool or $149.99 for the Shark ChillPill to survive the summer whenever you leave the comfort of air-conditioning. My family has found all the comfort it needs to survive humid baseball games, sweltering concerts, and sweaty hikes with a couple [&#8230;]",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/28/granola-launches-an-apple-watch-app",
+      "title": "Granola launches an Apple Watch app",
+      "url": "https://techcrunch.com/2026/07/28/granola-launches-an-apple-watch-app",
+      "summary": "Granola debutes an Apple Watch app for in-person notetaking",
+      "publishedAt": "2026-07-28T13:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview",
+      "title": "Logitech’s handheld plans are on ice — don’t expect a G Cloud 2 soon",
+      "url": "https://www.theverge.com/games/971651/logitech-handheld-business-g-cloud-robin-piispanen-interview",
+      "summary": "Logitech's new gaming boss, Robin Piispanen, tells me he likes the idea of gaming handhelds. \"It's such a charming value proposition,\" he says, as we sip iced vanilla lattes at my local cafe. But he's not building one right now. He's not sure when or if Logitech should try again, after its underwhelming experiment with [&#8230;]",
+      "publishedAt": "2026-07-28T12:31:51.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform [&#8230;]",
+      "publishedAt": "2026-07-28T12:30:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch",
+      "title": "Apple launches ‘Upgrade’ program to lease new devices",
+      "url": "https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch",
+      "summary": "Apple has officially introduced \"Apple Upgrade,\" a new leasing program that aims to make it easier to get your hands on the latest iPhone, Mac, iPad, and Apple Watch models. The service is launching today in the US, and works like a car lease - allowing users to keep a device at the end of [&#8230;]",
+      "publishedAt": "2026-07-28T12:23:50.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off",
+      "title": "The Download: OpenAI&#8217;s predictable hack, and an AI stock sell-off",
+      "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.&#160; —Will Douglas Heaven, senior AI editor Reading OpenAI’s account last week of how some of its models broke their&#8230;",
+      "publishedAt": "2026-07-28T12:10:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings",
+      "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
+      "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings",
+      "summary": "Article URL: https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/ Comments URL: https://news.ycombinator.com/item?id=49082550 Points: 48 # Comments: 31",
+      "publishedAt": "2026-07-28T12:02:57.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "title": "Smart rings are looking like my kind of AI gadget",
+      "url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "summary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from [&#8230;]",
+      "publishedAt": "2026-07-28T12:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix",
       "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
       "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix",
@@ -35,36 +205,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "title": "7.1 Earthquake in Japan",
-      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
-      "summary": "Article URL: https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en Comments URL: https://news.ycombinator.com/item?id=49080664 Points: 520 # Comments: 99",
-      "publishedAt": "2026-07-28T07:44:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://arsastronomica.com",
-      "title": "Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts",
-      "url": "https://arsastronomica.com",
-      "summary": "Article URL: https://arsastronomica.com/ Comments URL: https://news.ycombinator.com/item?id=49079727 Points: 93 # Comments: 27",
-      "publishedAt": "2026-07-28T05:25:34.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language",
-      "title": "PyTorch: A Reference Language",
-      "url": "https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language",
-      "summary": "Article URL: https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/ Comments URL: https://news.ycombinator.com/item?id=49079454 Points: 59 # Comments: 4",
-      "publishedAt": "2026-07-28T04:46:00.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
       "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
       "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
@@ -85,26 +225,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://fermisense.com/when-machines-take-the-wheel",
-      "title": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
-      "url": "https://fermisense.com/when-machines-take-the-wheel",
-      "summary": "Article URL: https://fermisense.com/when-machines-take-the-wheel/ Comments URL: https://news.ycombinator.com/item?id=49078454 Points: 259 # Comments: 84",
-      "publishedAt": "2026-07-28T02:18:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios",
-      "title": "Vehicle Motion Cues",
-      "url": "https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios",
-      "summary": "Article URL: https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios Comments URL: https://news.ycombinator.com/item?id=49077999 Points: 169 # Comments: 85",
-      "publishedAt": "2026-07-28T01:13:26.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
       "title": "Anthropic&#8217;s Dario Amodei responds: doesn&#8217;t oppose open-weight models, but fears Chinese AI",
       "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
@@ -112,16 +232,6 @@
       "publishedAt": "2026-07-28T00:13:33.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/971649/x-money-launch-elon-musk",
-      "title": "X Money is launching in the US starting today",
-      "url": "https://www.theverge.com/tech/971649/x-money-launch-elon-musk",
-      "summary": "X Money, a core part of Elon Musk's mission to turn X into an \"everything app,\" is rolling out starting today, 9to5Mac reports. The payment platform offers a digital wallet and peer-to-peer payments similar to Venmo, along with a metal Visa card users can emblazon with their X username. Other perks include Apple Wallet support [&#8230;]",
-      "publishedAt": "2026-07-27T22:10:18.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -142,16 +252,6 @@
       "publishedAt": "2026-07-27T21:40:27.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale",
-      "title": "Razer’s analog Huntsman V3 Pro is over 20 percent off",
-      "url": "https://www.theverge.com/gadgets/971557/razer-huntsman-v3-pro-tkl-optical-analog-gaming-keyboard-deal-sale",
-      "summary": "Gaming keyboards have evolved over the years to add RGB LEDs, extra knobs, and buttons with screens, but one feature has remained fairly consistent: the mechanical switch. That’s slowly changing, with brands introducing adjustable optical switches that are more customizable and have a faster response time. Razer’s Huntsman V3 Pro TKL is a compact, wired [&#8230;]",
-      "publishedAt": "2026-07-27T21:29:22.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -202,106 +302,6 @@
       "publishedAt": "2026-07-27T20:32:45.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison",
-      "title": "A missing underscore sent innocent man to prison for 18 months",
-      "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison",
-      "summary": "When the first step goes wrong, bad results follow.",
-      "publishedAt": "2026-07-27T20:22:03.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
-      "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
-      "summary": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
-      "publishedAt": "2026-07-27T20:19:42.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss",
-      "title": "“Google and Reddit do not own the Internet,\" web scraper says after court win",
-      "url": "https://arstechnica.com/tech-policy/2026/07/google-wont-give-up-odd-war-against-ai-web-scraping-despite-court-loss",
-      "summary": "Google's and Reddit's use of DMCA to fight web scraper is bizarre, expert says.",
-      "publishedAt": "2026-07-27T20:12:42.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/971545/xbox-outage-disc-physical-games",
-      "title": "Xbox’s huge outage even blocked games on disc",
-      "url": "https://www.theverge.com/games/971545/xbox-outage-disc-physical-games",
-      "summary": "An extended Xbox outage that began Sunday evening didn't just cause issues for people trying to play digital games - it blocked people from playing their disc-based games, too. Xbox's status page initially reported the outage on Sunday at about 11PM ET, and it also prevented people from logging in, launching apps, or finding games [&#8230;]",
-      "publishedAt": "2026-07-27T19:53:50.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech",
-      "title": "5th Circuit blocks Texas law requiring websites to filter \"harmful\" speech",
-      "url": "https://arstechnica.com/tech-policy/2026/07/5th-circuit-blocks-texas-law-requiring-websites-to-filter-harmful-speech",
-      "summary": "Age verification is okay, but filtering is preempted by Section 230, judges find.",
-      "publishedAt": "2026-07-27T19:18:02.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-to-discuss-space-station-mission",
-      "title": "NASA Astronaut Chris Williams to Discuss Space Station Mission",
-      "url": "https://www.nasa.gov/news-release/nasa-astronaut-chris-williams-to-discuss-space-station-mission",
-      "summary": "NASA astronaut Chris Williams will recap his recent eight-month mission aboard the International Space Station during a news conference at 2:45 p.m. EDT Tuesday, Aug. 4, from the agency’s Johnson Space Center in Houston. NASA will stream this event live through a variety of platforms. Learn where to watch online: https://www.nasa.gov/live United States-based media interested [&#8230;]",
-      "publishedAt": "2026-07-27T18:49:20.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google",
-      "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
-      "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google",
-      "summary": "Telecom expects AI revenue from dark fiber deals and retrofitted data centers.",
-      "publishedAt": "2026-07-27T18:48:41.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack",
-      "title": "Experts warn current Starship heat shield tech is a \"dead end\" for rapid reuse",
-      "url": "https://arstechnica.com/space/2026/07/despite-recent-successes-rapid-reuse-of-starship-remains-a-tough-nut-to-crack",
-      "summary": "NASA has not made substantial investments in thermal protection research for decades.",
-      "publishedAt": "2026-07-27T18:34:40.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
-      "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
-      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
-      "summary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
-      "publishedAt": "2026-07-27T18:32:11.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m",
-      "title": "Apple sued after alleged App Store crypto scam cost users $1.8M",
-      "url": "https://techcrunch.com/2026/07/27/apple-sued-after-alleged-app-store-crypto-scam-cost-users-1-8m",
-      "summary": "Apple is facing a lawsuit from three users who say they collectively lost more than $1.8 million after downloading a fraudulent crypto wallet from the App Store, challenging the company’s longstanding claims that its app review process keeps users safe from scams.",
-      "publishedAt": "2026-07-27T18:28:15.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     }
   ]

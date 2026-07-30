@@ -4,6 +4,226 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a",
+      "title": "Starburst Galaxy Centaurus A",
+      "url": "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a",
+      "summary": "In this July 6, 2026, image, NASA’s James Webb Space Telescope’s Mid-Infrared Instrument (MIRI) reveals the nearby galaxy Centaurus A, exposing the dusty structures and hidden activity that shape this unusual system. Centaurus A is 11 million light-years away from Earth, relatively close in cosmic terms. Yet, unlike most nearby galaxies, it is very active, [&#8230;]",
+      "publishedAt": "2026-07-30T14:24:08.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/973056/surface-laptop-16gb-ram-microsd-express-switch-2-lego-game-boy-deal-sale",
+      "title": "Microsoft’s latest Surface Laptop is hundreds off at Best Buy",
+      "url": "https://www.theverge.com/gadgets/973056/surface-laptop-16gb-ram-microsd-express-switch-2-lego-game-boy-deal-sale",
+      "summary": "If you’re keen on getting a laptop that looks fantastic, feels great to use, and doesn’t cost too much, well, pickings are slim right due to RAMageddon. However, there’s a good deal happening at Best Buy through Thursday, July 30th, on Microsoft’s Arm-based, 13.8-inch Surface Laptop that has the 10-core Snapdragon X2 Plus chipset. Originally [&#8230;]",
+      "publishedAt": "2026-07-30T14:22:20.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come",
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+      "url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come",
+      "summary": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
+      "publishedAt": "2026-07-30T14:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://economist.com/leaders/2026/07/28/europes-fires-are-just-the-start",
+      "title": "Europe's fires are just the start",
+      "url": "https://economist.com/leaders/2026/07/28/europes-fires-are-just-the-start",
+      "summary": "Article URL: https://economist.com/leaders/2026/07/28/europes-fires-are-just-the-start Comments URL: https://news.ycombinator.com/item?id=49110085 Points: 21 # Comments: 2",
+      "publishedAt": "2026-07-30T13:55:09.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/30/ftc-sues-hims-hers-for-allegedly-sharing-patients-medical-data-with-advertisers-meta-and-snap",
+      "title": "FTC sues Hims &#038; Hers for allegedly sharing patients&#8217; medical data with advertisers Meta and Snap",
+      "url": "https://techcrunch.com/2026/07/30/ftc-sues-hims-hers-for-allegedly-sharing-patients-medical-data-with-advertisers-meta-and-snap",
+      "summary": "The U.S. federal consumer watchdog said Hims &#038; Hers, which prescribes for sexual wellness and mental health conditions, used website trackers to share customers' information with advertisers.",
+      "publishedAt": "2026-07-30T13:30:52.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://prized.dev",
+      "title": "Launch HN: Prized (YC S26) – Let non-engineer staff build secure internal tools",
+      "url": "https://prized.dev",
+      "summary": "Hi HN, we're Marinos and Hudson, founders of Prized ( https://prized.dev )! Prized lets non-engineer employees describe the internal tool they need and get a full-stack app, wired to their company’s data and deployed behind the company’s sign-in, without them ever juggling API keys or connectors. Here's a demo: https://www.youtube.com/watch?v=730MuYOfZTY The way Prized provides security is by limiting what the agent can reach at the network layer and by keeping credentials out of the sandbox entirely. The sandbox never holds any keys or connector secrets, it only uses scoped session tokens that are stored as opaque placeholders. The real values are swapped into the request headers on our egress proxy. When production data is connected, the sandbox's network policy is set to deny by default so the only path out is via the proxy. Any call the agent makes to an external connector is reviewed by an LLM judge to prevent dangerous operations. Prized is meant for the internal workflows that start as notebooks or spreadsheets but never become real tools because engineering has more important things to work on. One customer’s data scientist pasted in his personal fraud-detection notebook with hardcoded thresholds and all. After a few prompts, it became a published risk console connected to the company’s data with those thresholds turned into UI controls. Earlier today, we got off a call with them and most of their company is using it. To do this, you need to give people the freedom to build without having unaudited access to company systems. We allow admins to scope data to specific users or teams and data access is recorded in an audit log. Each tool is built with its own Postgres schema and role, with queries running via an authenticated SQL gateway as that role. We think Prized sits between products like Lovable and Retool. Lovable makes it easy to generate and host software, but it isn’t designed around distribution with permissions. Retool generally assumes that a technical builder is creating an app for an end user. Prized treats internal tools as shared objects. Anyone in the workspace can see what others have built, fork, and connect different data. For example, one customer’s marketing lead built a promotional analytics tool. A data scientist at the same company then forked it and added confidence intervals with the existing tool as a starting base. This way workspaces become libraries of tools that people can reuse. We’re live and self-serve. Our free tier includes 2 tool builds/month and our Teams tier is $100/month. The Enterprise tier is custom and supports personalized features like on-prem deployment. We're still working out the right boundary between control and freedom. If you've built internal tools before we'd appreciate your feedback! Comments URL: https://news.ycombinator.com/item?id=49109721 Points: 11 # Comments: 1",
+      "publishedAt": "2026-07-30T13:29:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service",
+      "title": "Zoox clears final federal hurdle to launch paid robotaxi service",
+      "url": "https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service",
+      "summary": "Federal safety regulators have given Zoox a temporary exemption that will allow the Amazon-owned autonomous vehicle technology company to charge customers for rides in its custom-built robotaxi.",
+      "publishedAt": "2026-07-30T13:09:03.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://mnot.net/blog/2020/for_the_users",
+      "title": "RFC 8890 – The Internet is for End Users (2020)",
+      "url": "https://mnot.net/blog/2020/for_the_users",
+      "summary": "Article URL: https://mnot.net/blog/2020/for_the_users Comments URL: https://news.ycombinator.com/item?id=49109474 Points: 31 # Comments: 12",
+      "publishedAt": "2026-07-30T13:07:53.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://remysharp.com/links/2026-07-23-35890312",
+      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+      "url": "https://remysharp.com/links/2026-07-23-35890312",
+      "summary": "Article URL: https://remysharp.com/links/2026-07-23-35890312 Comments URL: https://news.ycombinator.com/item?id=49109440 Points: 207 # Comments: 62",
+      "publishedAt": "2026-07-30T13:03:27.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026",
+      "title": "Best in Class: Stream PC Games and Study on the Same Laptop With GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026",
+      "summary": "Back to school means balancing assignments, deadlines and downtime. GeForce NOW makes it easy to have it all. With cloud gaming, everyday laptops used for class can also become GeForce RTX-powered gaming setups. When it’s time to switch from studying to gaming, members can jump into Halo: Campaign Evolved, as GeForce NOW is bringing one [&#8230;]",
+      "publishedAt": "2026-07-30T13:00:20.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/cdnjs-dev-platform-migration",
+      "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+      "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration",
+      "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists",
+      "title": "Spotify Running Mode helps match tunes to tempo",
+      "url": "https://www.theverge.com/entertainment/973002/spotify-running-mode-launch-bpm-playlists",
+      "summary": "Spotify has introduced a new Running Mode feature that makes it easier to curate playlists around your workout goals, music tastes, and desired beats per minute (BPM). The aim is to help you \"spend less time hunting for the right music and more time moving,\" according to Spotify's announcement, providing customizable running presets and optional [&#8230;]",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/30/spotify-adds-a-running-mode-to-its-app",
+      "title": "Spotify adds a running mode to its app",
+      "url": "https://techcrunch.com/2026/07/30/spotify-adds-a-running-mode-to-its-app",
+      "summary": "Running Mode will be available to Premium users on iOS in select countries",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks",
+      "title": "Inforcer raises $50M to help prepare smaller businesses for a new world of AI and security risks",
+      "url": "https://techcrunch.com/2026/07/30/inforcer-raises-50m-to-help-prepare-smbs-for-a-new-world-of-ai-and-security-risks",
+      "summary": "London-based Inforcer just closed a $50 million Series C round led by Insight Partners.",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+      "summary": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "publishedAt": "2026-07-30T13:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+      "title": "Why Is Everyone Trying to Build a Solid-State Battery?",
+      "url": "https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a",
+      "summary": "Article URL: https://www.construction-physics.com/p/why-is-everyone-trying-to-build-a Comments URL: https://news.ycombinator.com/item?id=49109193 Points: 39 # Comments: 27",
+      "publishedAt": "2026-07-30T12:38:51.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/972612/amazons-kindle-short-stories",
+      "title": "Amazon’s short story collections are one of the best reasons to own a Kindle",
+      "url": "https://www.theverge.com/tech/972612/amazons-kindle-short-stories",
+      "summary": "Over the last few years, I've gradually shifted away from ebooks. It's been part of a general return to physical media, an attempt to create a deeper sense of ownership over the art I love and collect. A Kindle is obviously more convenient than a paperback: It's tiny, holds a huge library, and you can [&#8230;]",
+      "publishedAt": "2026-07-30T12:30:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.hillelwayne.com/post/why-dont-people-use-formal-methods",
+      "title": "Why Don't People Use Formal Methods?",
+      "url": "https://www.hillelwayne.com/post/why-dont-people-use-formal-methods",
+      "summary": "Article URL: https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/ Comments URL: https://news.ycombinator.com/item?id=49109026 Points: 39 # Comments: 29",
+      "publishedAt": "2026-07-30T12:21:34.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://quuxplusone.github.io/blog/2026/07/29/how-old-is-ann",
+      "title": "How Old Is Ann?",
+      "url": "https://quuxplusone.github.io/blog/2026/07/29/how-old-is-ann",
+      "summary": "Article URL: https://quuxplusone.github.io/blog/2026/07/29/how-old-is-ann/ Comments URL: https://news.ycombinator.com/item?id=49108971 Points: 28 # Comments: 17",
+      "publishedAt": "2026-07-30T12:14:23.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+      "title": "CosmosEscape: Taking over Every Database in Azure Cosmos DB",
+      "url": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+      "summary": "Article URL: https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db Comments URL: https://news.ycombinator.com/item?id=49108963 Points: 15 # Comments: 6",
+      "publishedAt": "2026-07-30T12:13:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal",
+      "title": "The Download: tricking LLMs, and reviving geothermal plants",
+      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A fundamental flaw leaves LLMs strikingly vulnerable to attack It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a&#8230;",
+      "publishedAt": "2026-07-30T12:10:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.ycombinator.com/companies/mbodi-ai/jobs",
+      "title": "Mbodi AI (YC P25) Is Hiring Robotics/Research Engineers",
+      "url": "https://www.ycombinator.com/companies/mbodi-ai/jobs",
+      "summary": "Article URL: https://www.ycombinator.com/companies/mbodi-ai/jobs Comments URL: https://news.ycombinator.com/item?id=49108840 Points: 0 # Comments: 0",
+      "publishedAt": "2026-07-30T12:01:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review",
       "title": "A second lens makes DJI’s Osmo Pocket 4P my new favorite video camera",
       "url": "https://www.theverge.com/gadgets/972456/dji-osmo-pocket-4p-review",
@@ -14,294 +234,74 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://github.com/grafana/ai-sdk",
+      "title": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)",
+      "url": "https://github.com/grafana/ai-sdk",
+      "summary": "Article URL: https://github.com/grafana/ai-sdk Comments URL: https://news.ycombinator.com/item?id=49108778 Points: 24 # Comments: 5",
+      "publishedAt": "2026-07-30T11:55:39.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://lwn.net/Articles/1086041",
+      "title": "GCC steering committee announces AI policy",
+      "url": "https://lwn.net/Articles/1086041",
+      "summary": "Article URL: https://lwn.net/Articles/1086041/ Comments URL: https://news.ycombinator.com/item?id=49108685 Points: 146 # Comments: 159",
+      "publishedAt": "2026-07-30T11:45:44.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://mathoverflow.net/questions/513742/are-we-stuck-with-lean",
+      "title": "Are We Stuck with Lean?",
+      "url": "https://mathoverflow.net/questions/513742/are-we-stuck-with-lean",
+      "summary": "Article URL: https://mathoverflow.net/questions/513742/are-we-stuck-with-lean Comments URL: https://news.ycombinator.com/item?id=49108678 Points: 17 # Comments: 3",
+      "publishedAt": "2026-07-30T11:45:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://select.supply/game/chipbuilder",
+      "title": "I made a game where you build a CPU from logic gates",
+      "url": "https://select.supply/game/chipbuilder",
+      "summary": "Article URL: https://select.supply/game/chipbuilder Comments URL: https://news.ycombinator.com/item?id=49108571 Points: 33 # Comments: 26",
+      "publishedAt": "2026-07-30T11:33:02.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
       "title": "ChatGPT, Roblox to Fall Under Strictest EU Rules for Platforms",
       "url": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
-      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms Comments URL: https://news.ycombinator.com/item?id=49108556 Points: 7 # Comments: 1",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms Comments URL: https://news.ycombinator.com/item?id=49108556 Points: 45 # Comments: 30",
       "publishedAt": "2026-07-30T11:30:34.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://bennuttall.com/blog/2026/07/gpiozero-flow",
-      "title": "Gpiozero Flow",
-      "url": "https://bennuttall.com/blog/2026/07/gpiozero-flow",
-      "summary": "Article URL: https://bennuttall.com/blog/2026/07/gpiozero-flow/ Comments URL: https://news.ycombinator.com/item?id=49108048 Points: 45 # Comments: 10",
-      "publishedAt": "2026-07-30T10:32:41.000Z",
+      "id": "hacker-news:https://steelmanlabs.com/blog/computer-use-is-far-from-solved",
+      "title": "You can't solve computer use by ignoring the interface",
+      "url": "https://steelmanlabs.com/blog/computer-use-is-far-from-solved",
+      "summary": "Article URL: https://steelmanlabs.com/blog/computer-use-is-far-from-solved Comments URL: https://news.ycombinator.com/item?id=49108542 Points: 19 # Comments: 1",
+      "publishedAt": "2026-07-30T11:28:51.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/972986/switchbot-makes-a-better-fan",
-      "title": "SwitchBot makes a better fan",
-      "url": "https://www.theverge.com/tech/972986/switchbot-makes-a-better-fan",
-      "summary": "I was already a big fan of SwitchBot's big circulator fan I recently reviewed, and now we're getting the SwitchBot Battery Circulator Fan 2 Pro. Priced at $119.99, it ditches the height-adjustable stand but increases battery life, throw distance, and wind speed while adding native Matter-over-Wi-Fi, allowing it to join your smart home without needing [&#8230;]",
-      "publishedAt": "2026-07-30T10:30:55.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
-      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
-      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which&#8230;",
-      "publishedAt": "2026-07-30T10:15:19.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
-      "title": "Google will expand age checks on Android worldwide till the end of the year",
-      "url": "https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html",
-      "summary": "Article URL: https://android-developers.googleblog.com/2026/07/google-play-age-signals-api-safer-experiences.html Comments URL: https://news.ycombinator.com/item?id=49107950 Points: 103 # Comments: 117",
-      "publishedAt": "2026-07-30T10:13:46.000Z",
+      "id": "hacker-news:https://98.js.org/programs/pinball/space-cadet.html",
+      "title": "3D Pinball for Windows (1995)",
+      "url": "https://98.js.org/programs/pinball/space-cadet.html",
+      "summary": "Article URL: https://98.js.org/programs/pinball/space-cadet.html Comments URL: https://news.ycombinator.com/item?id=49108485 Points: 16 # Comments: 6",
+      "publishedAt": "2026-07-30T11:23:12.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/YoanWai/agent-manager",
-      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
-      "url": "https://github.com/YoanWai/agent-manager",
-      "summary": "Article URL: https://github.com/YoanWai/agent-manager Comments URL: https://news.ycombinator.com/item?id=49107749 Points: 11 # Comments: 4",
-      "publishedAt": "2026-07-30T09:34:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://docs.carolinacloud.io/organizations/prepaid-interest",
-      "title": "Carolina Cloud pays SOFR on unused prepaid credits",
-      "url": "https://docs.carolinacloud.io/organizations/prepaid-interest",
-      "summary": "Article URL: https://docs.carolinacloud.io/organizations/prepaid-interest/ Comments URL: https://news.ycombinator.com/item?id=49107713 Points: 19 # Comments: 3",
-      "publishedAt": "2026-07-30T09:28:01.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/tailscale/tailscale/issues/9284",
-      "title": "Tailscale with Mullvad leaks your DNS",
-      "url": "https://github.com/tailscale/tailscale/issues/9284",
-      "summary": "Article URL: https://github.com/tailscale/tailscale/issues/9284 Comments URL: https://news.ycombinator.com/item?id=49107441 Points: 10 # Comments: 3",
-      "publishedAt": "2026-07-30T08:45:17.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://wadetregaskis.com/the-apple-calculator-language",
-      "title": "The Apple Calculator Language",
-      "url": "https://wadetregaskis.com/the-apple-calculator-language",
-      "summary": "Article URL: https://wadetregaskis.com/the-apple-calculator-language/ Comments URL: https://news.ycombinator.com/item?id=49107437 Points: 8 # Comments: 0",
-      "publishedAt": "2026-07-30T08:44:30.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh",
-      "title": "Cisco FMC static credential vulnerability exploited as a zero-day",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh",
-      "summary": "Article URL: https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh Comments URL: https://news.ycombinator.com/item?id=49107382 Points: 4 # Comments: 1",
-      "publishedAt": "2026-07-30T08:33:39.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.grumpygamer.com/twp2_announce",
-      "title": "Ron Gilbert started production on Thimbleweed Park 2",
-      "url": "https://www.grumpygamer.com/twp2_announce",
-      "summary": "Article URL: https://www.grumpygamer.com/twp2_announce/ Comments URL: https://news.ycombinator.com/item?id=49107246 Points: 22 # Comments: 1",
-      "publishedAt": "2026-07-30T08:10:33.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-interns-shaping-the-future-of-exploration",
-      "title": "NASA Johnson Interns Shaping the Future of Exploration",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-johnson-interns-shaping-the-future-of-exploration",
-      "summary": "NASA interns at Johnson Space Center&#160;are applying their talents to real-world projects while working alongside the engineers, scientists, communicators, and innovators advancing human spaceflight.&#160;Learn how these students are gaining hands-on experience, contributing to real missions, and&#160;preparing&#160;to&#160;join&#160;the nation’s&#160;highly skilled and&#160;competitive&#160;aerospace workforce.&#160;&#160; Meet the students behind the work and discover what inspired them to pursue careers at [&#8230;]",
-      "publishedAt": "2026-07-30T08:08:55.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke",
-      "title": "APOD: July 30 – Red Sun trough Wildfire Smoke",
-      "url": "https://science.nasa.gov/image-article/apod-july-30-red-sun-trough-wildfire-smoke",
-      "summary": "APOD Science APOD APOD: July 30 – Red Sun… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Red Sun [&#8230;]",
-      "publishedAt": "2026-07-30T04:05:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/new-zealands-southern-wilderness",
-      "title": "New Zealand’s Southern Wilderness",
-      "url": "https://science.nasa.gov/earth/earth-observatory/new-zealands-southern-wilderness",
-      "summary": "Stewart Island/Rakiura, New Zealand’s third-largest island, is known for its vibrant birdlife, unique forests, wilderness beaches, and views of the night sky.",
-      "publishedAt": "2026-07-30T04:01:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://noelo.org/blog/kuna-release",
-      "title": "Kuna: Decompiler Development in the Age of Coding Agents",
-      "url": "https://noelo.org/blog/kuna-release",
-      "summary": "Article URL: https://noelo.org/blog/kuna-release/ Comments URL: https://news.ycombinator.com/item?id=49105563 Points: 53 # Comments: 11",
-      "publishedAt": "2026-07-30T02:41:16.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://logicforprogrammers.com",
-      "title": "Logic for Programmers",
-      "url": "https://logicforprogrammers.com",
-      "summary": "Article URL: https://logicforprogrammers.com/ Comments URL: https://news.ycombinator.com/item?id=49104937 Points: 143 # Comments: 27",
-      "publishedAt": "2026-07-30T00:51:39.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever",
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever",
-      "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
-      "publishedAt": "2026-07-30T00:21:06.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://frantic.im/mirage",
-      "title": "The Productivity Mirage",
-      "url": "https://frantic.im/mirage",
-      "summary": "Article URL: https://frantic.im/mirage/ Comments URL: https://news.ycombinator.com/item?id=49104335 Points: 270 # Comments: 115",
-      "publishedAt": "2026-07-29T23:18:11.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
-      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-      "url": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
-      "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
-      "publishedAt": "2026-07-29T23:00:11.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://llm2human.pages.dev",
-      "title": "LLM Honeypot",
-      "url": "https://llm2human.pages.dev",
-      "summary": "Article URL: https://llm2human.pages.dev/ Comments URL: https://news.ycombinator.com/item?id=49104117 Points: 287 # Comments: 86",
-      "publishedAt": "2026-07-29T22:51:03.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag",
-      "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-      "url": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag",
-      "summary": "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing.",
-      "publishedAt": "2026-07-29T22:46:03.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents",
-      "title": "Zuckerberg says Meta&#8217;s enterprise AI opportunity extends beyond agents",
-      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents",
-      "summary": "On the company’s second-quarter earnings call Wednesday, CEO Mark Zuckerberg said Meta sees a “large enterprise opportunity” spanning AI agents, APIs, compute, and internal software.",
-      "publishedAt": "2026-07-29T22:23:12.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
-      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-      "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. \"Copilot is evolving rapidly from chat to Cowork to Autopilots,\" Nadella said. \"This quarter, [&#8230;]",
-      "publishedAt": "2026-07-29T22:17:38.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
-      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
-      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
-      "summary": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
-      "publishedAt": "2026-07-29T22:07:06.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "title": "Mark Zuckerberg is planning a big push into personal AI agents",
-      "url": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-      "summary": "Meta is all-in on AI, and sometime soon, the company is going to make a big push into personal AI agents that can do things on your behalf. On Wednesday's Q2 2026 earnings call, CEO Mark Zuckerberg previewed a high-level vision of how the company is thinking about personal agents and what it will do [&#8230;]",
-      "publishedAt": "2026-07-29T21:48:07.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
-      "title": "Qualcomm is raising phone chip prices starting September 1st",
-      "url": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
-      "summary": "RAMageddon won't be the only reason your next phone costs more - Qualcomm is about to raise prices on all its processors, as well. Qualcomm CEO Cristiano Amon said on Wednesday that \"prices are going to go up\" on the company's products starting on September 1st, CNBC reports. The price hikes were rumored last week [&#8230;]",
-      "publishedAt": "2026-07-29T21:41:56.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "title": "AI's top startups are barely publishing their research",
-      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
-      "summary": "Article URL: https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research Comments URL: https://news.ycombinator.com/item?id=49103285 Points: 509 # Comments: 263",
-      "publishedAt": "2026-07-29T21:25:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
-      "title": "Discover what&#8217;s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
-      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
-      "publishedAt": "2026-07-29T21:16:39.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai",
-      "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
-      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai",
-      "summary": "Weng previously served as the VP of AI Safety Research at OpenAI.",
-      "publishedAt": "2026-07-29T21:07:48.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

@@ -1,103 +1,100 @@
 {
-  "generatedAt": "2026-07-30T12:05:55.191Z",
+  "generatedAt": "2026-07-30T14:34:56.195Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech landscape is actively responding to the rapid advancements in AI, focusing on security vulnerabilities and regulatory frameworks, while also exploring new applications in personal agents and scientific computing. Infrastructure providers are enhancing cybersecurity and modernizing networks to support these innovations, underscoring a dynamic period of growth and adaptation.",
+  "narrative": "The technology landscape is increasingly shaped by advancements in AI, with new models facing scrutiny over inherent security flaws and regulatory frameworks emerging to govern large platforms. Significant progress in autonomous vehicles is clearing pathways for commercial robotaxi services, while core infrastructure providers are enhancing developer platforms and security measures. The semiconductor industry also sees shifts with impending price hikes and continued focus on AI-driven efficiency in chip design.",
   "highlights": [
     {
       "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "whyItMatters": "This research highlights critical security vulnerabilities inherent in current large language models, impacting the future of AI safety.",
+      "whyItMatters": "Researchers identified an inherent flaw making large language models fundamentally insecure against certain attacks, raising significant safety concerns for AI technology.",
       "sourceName": "MIT Technology Review",
       "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
       "category": "Science",
       "publishedAt": "2026-07-30T10:15:19.000Z"
     },
     {
+      "title": "Zoox clears final federal hurdle to launch paid robotaxi service",
+      "whyItMatters": "Amazon-owned Zoox has received a crucial federal exemption, paving the way for the commercial launch of its custom-built robotaxi service.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service",
+      "category": "Technology",
+      "publishedAt": "2026-07-30T13:09:03.000Z"
+    },
+    {
+      "title": "Launch HN: Prized (YC S26) – Let non-engineer staff build secure internal tools",
+      "whyItMatters": "Prized enables non-engineers to securely build full-stack internal applications connected to company data without managing API keys or complex integrations.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://prized.dev",
+      "category": "Developer",
+      "publishedAt": "2026-07-30T13:29:03.000Z"
+    },
+    {
+      "title": "Starburst Galaxy Centaurus A",
+      "whyItMatters": "NASA's James Webb Space Telescope has captured stunning new details of the active Centaurus A galaxy, revealing complex dusty structures and hidden starburst activity.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/image-article/starburst-galaxy-centaurus-a",
+      "category": "Science",
+      "publishedAt": "2026-07-30T14:24:08.000Z"
+    },
+    {
+      "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+      "whyItMatters": "Cloudflare successfully migrated its massive cdnjs service to its own developer platform, demonstrating the robustness and scalability of its Workers and Workflow tools.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/cdnjs-dev-platform-migration",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-30T13:00:00.000Z"
+    },
+    {
       "title": "ChatGPT, Roblox to Fall Under Strictest EU Rules for Platforms",
-      "whyItMatters": "New EU regulations will impose stringent compliance requirements on major AI platforms and online services, setting a precedent for global AI governance.",
+      "whyItMatters": "The EU is expanding its strictest digital regulations to include platforms like ChatGPT and Roblox, indicating a growing global trend toward governing large digital and AI services.",
       "sourceName": "Hacker News",
       "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
       "category": "Developer",
       "publishedAt": "2026-07-30T11:30:34.000Z"
     },
     {
-      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
-      "whyItMatters": "Microsoft is integrating Copilot's AI capabilities into a new 'super app' spanning consumer and commercial experiences, enhancing productivity tools.",
+      "title": "Qualcomm is raising phone chip prices starting September 1st",
+      "whyItMatters": "Qualcomm's upcoming price increases on all its processors will contribute to higher costs for consumers in the mobile device market.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "sourceUrl": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
       "category": "Technology",
-      "publishedAt": "2026-07-29T22:17:38.000Z"
+      "publishedAt": "2026-07-29T21:41:56.000Z"
     },
     {
-      "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-      "whyItMatters": "Meta's CEO envisions a future where personal AI agents become ubiquitous, driving significant investment in AI infrastructure.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
-      "category": "Technology",
-      "publishedAt": "2026-07-29T23:00:11.000Z"
-    },
-    {
-      "title": "NASA Awards 2026 Innovative Technology Concepts",
-      "whyItMatters": "NASA is funding 18 new technology concepts to advance aerospace exploration and scientific understanding, fostering innovation in space tech.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts",
-      "category": "Science",
-      "publishedAt": "2026-07-29T21:04:20.000Z"
-    },
-    {
-      "title": "Post-quantum authentication to origins is now supported",
-      "whyItMatters": "Cloudflare has enabled post-quantum (PQ) authentication to enhance security against future quantum computing threats, a crucial step for data protection.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
-      "category": "Infrastructure",
-      "publishedAt": "2026-07-29T13:00:00.000Z"
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "whyItMatters": "AI coding agents are modernizing scientific computing, accelerating software development and discovery in fields like genomics.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/scientific-computing-agentic-ai",
-      "category": "AI",
-      "publishedAt": "2026-07-28T17:00:00.000Z"
-    },
-    {
-      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
-      "whyItMatters": "A powerful NVIDIA DGX GB300 system is now operational at the Naval Postgraduate School, significantly enhancing AI research capabilities for national defense.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer",
-      "category": "AI",
-      "publishedAt": "2026-07-23T02:00:46.000Z"
+      "title": "CosmosEscape: Taking over Every Database in Azure Cosmos DB",
+      "whyItMatters": "A critical new vulnerability allows attackers to gain full control over Azure Cosmos DB databases, exposing a significant security risk for cloud users.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db",
+      "category": "Developer",
+      "publishedAt": "2026-07-30T12:13:42.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence",
-      "summary": "The AI sector sees rapid growth in agentic models, security challenges, and new applications across various domains, including scientific research.",
-      "itemCount": 5
+      "name": "AI Advancements & Safety",
+      "summary": "The AI sector sees rapid development in models and agentic capabilities, alongside critical discussions on security vulnerabilities, ethical guidelines, and regulatory oversight.",
+      "itemCount": 3
     },
     {
-      "name": "Technology & Innovation",
-      "summary": "From new devices to foundational infrastructure, technological advancements continue to drive changes in consumer products and industry standards.",
-      "itemCount": 2
-    },
-    {
-      "name": "Science & Space",
-      "summary": "Space exploration and scientific research benefit from new funding and technological advancements, pushing the boundaries of discovery.",
-      "itemCount": 2
-    },
-    {
-      "name": "Developer & Regulation",
-      "summary": "The developer community is impacted by evolving regulatory landscapes and the emergence of advanced coding tools and AI-driven platforms.",
+      "name": "Autonomous Systems",
+      "summary": "Progress in self-driving technology is leading to commercial robotaxi launches, with continued regulatory and safety evaluations shaping deployment.",
       "itemCount": 1
     },
     {
-      "name": "Infrastructure & Cybersecurity",
-      "summary": "Critical infrastructure is being strengthened with advanced security measures, including post-quantum authentication, to defend against emerging digital threats.",
+      "name": "Cloud & Infrastructure",
+      "summary": "Major cloud providers and infrastructure companies are enhancing developer platforms, security, and scalability, with new services and migrations demonstrating robust capabilities.",
+      "itemCount": 2
+    },
+    {
+      "name": "Space & Science",
+      "summary": "New discoveries from space telescopes continue to reveal insights into the universe, while NASA advances exploration missions and innovative technology concepts.",
+      "itemCount": 1
+    },
+    {
+      "name": "Technology Policy & Market",
+      "summary": "Regulatory bodies are increasing scrutiny on large tech platforms and AI, while market shifts like semiconductor price adjustments impact the broader technology landscape.",
       "itemCount": 1
     }
   ],
-  "notes": [
-    "Narrative and topic summaries are generated based on available news data, external signals were not available.",
-    "This brief focuses on a synthesis of important technology, AI, infrastructure, science, and developer signals."
-  ]
+  "notes": []
 }

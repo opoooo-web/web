@@ -1,86 +1,103 @@
 {
-  "generatedAt": "2026-07-30T09:44:26.066Z",
-  "generatedBy": "gemini",
+  "generatedAt": "2026-07-30T12:05:55.191Z",
+  "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology sector is marked by intensified competition in AI, with Microsoft and Meta aggressively pursuing AI agent strategies and 'super apps' that promise widespread integration. Simultaneously, significant US government bans on foreign-made robots are reshaping robotics and supply chains, while the critical field of post-quantum cryptography sees both advancements and unexpected vulnerabilities. Consumers can also anticipate rising smartphone prices due to Qualcomm's upcoming chip cost increases.",
+  "narrative": "The tech landscape is actively responding to the rapid advancements in AI, focusing on security vulnerabilities and regulatory frameworks, while also exploring new applications in personal agents and scientific computing. Infrastructure providers are enhancing cybersecurity and modernizing networks to support these innovations, underscoring a dynamic period of growth and adaptation.",
   "highlights": [
     {
-      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
-      "whyItMatters": "Signifies escalating competition among tech giants for AI dominance, moving beyond partnerships to direct rivalry in AI models and platforms.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "whyItMatters": "This research highlights critical security vulnerabilities inherent in current large language models, impacting the future of AI safety.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
+      "category": "Science",
+      "publishedAt": "2026-07-30T10:15:19.000Z"
+    },
+    {
+      "title": "ChatGPT, Roblox to Fall Under Strictest EU Rules for Platforms",
+      "whyItMatters": "New EU regulations will impose stringent compliance requirements on major AI platforms and online services, setting a precedent for global AI governance.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-07-29/chatgpt-roblox-to-fall-under-strictest-eu-rules-for-platforms",
+      "category": "Developer",
+      "publishedAt": "2026-07-30T11:30:34.000Z"
+    },
+    {
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "whyItMatters": "Microsoft is integrating Copilot's AI capabilities into a new 'super app' spanning consumer and commercial experiences, enhancing productivity tools.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
       "category": "Technology",
-      "publishedAt": "2026-07-30T00:21:06.000Z"
+      "publishedAt": "2026-07-29T22:17:38.000Z"
     },
     {
       "title": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
-      "whyItMatters": "Illustrates a bold vision for the widespread integration of AI into daily life, setting an aggressive timeline for Meta's AI ambitions.",
+      "whyItMatters": "Meta's CEO envisions a future where personal AI agents become ubiquitous, driving significant investment in AI infrastructure.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
       "category": "Technology",
       "publishedAt": "2026-07-29T23:00:11.000Z"
     },
     {
-      "title": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security",
-      "whyItMatters": "Represents a major governmental intervention impacting global tech supply chains and the future of robotics development in the US.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security",
-      "category": "Technology",
-      "publishedAt": "2026-07-29T17:41:09.000Z"
+      "title": "NASA Awards 2026 Innovative Technology Concepts",
+      "whyItMatters": "NASA is funding 18 new technology concepts to advance aerospace exploration and scientific understanding, fostering innovation in space tech.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts",
+      "category": "Science",
+      "publishedAt": "2026-07-29T21:04:20.000Z"
     },
     {
-      "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
-      "whyItMatters": "Underscores the critical and evolving nature of post-quantum cryptography, highlighting the continuous challenges in developing secure future encryption methods.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
-      "category": "Technology",
-      "publishedAt": "2026-07-29T22:07:06.000Z"
+      "title": "Post-quantum authentication to origins is now supported",
+      "whyItMatters": "Cloudflare has enabled post-quantum (PQ) authentication to enhance security against future quantum computing threats, a crucial step for data protection.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/post-quantum-authentication-to-origins",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-29T13:00:00.000Z"
     },
     {
-      "title": "Qualcomm is raising phone chip prices starting September 1st",
-      "whyItMatters": "Indicates an upcoming increase in smartphone manufacturing costs, likely translating to higher prices for consumers.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/972894/qualcomm-price-hikes-q2-2026-earnings",
-      "category": "Technology",
-      "publishedAt": "2026-07-29T21:41:56.000Z"
+      "title": "Scientific computing in the age of agentic AI",
+      "whyItMatters": "AI coding agents are modernizing scientific computing, accelerating software development and discovery in fields like genomics.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/scientific-computing-agentic-ai",
+      "category": "AI",
+      "publishedAt": "2026-07-28T17:00:00.000Z"
+    },
+    {
+      "title": "NVIDIA AI Supercomputer Comes Online at Naval Postgraduate School",
+      "whyItMatters": "A powerful NVIDIA DGX GB300 system is now operational at the Naval Postgraduate School, significantly enhancing AI research capabilities for national defense.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/naval-postgraduate-school-dgx-ai-supercomputer",
+      "category": "AI",
+      "publishedAt": "2026-07-23T02:00:46.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Development & Strategy",
-      "summary": "Major tech companies like Microsoft and Meta are intensifying their focus on AI, with Microsoft directly competing with major AI labs and Meta projecting billions of personal AI agents. New startups are also emerging with innovative AI solutions for cost-saving (Tokenless), home management (Hint), and knowledge work (Polar), while debates continue on research transparency and responsible AI development.",
-      "itemCount": 21
-    },
-    {
-      "name": "Robotics & Automation Policy",
-      "summary": "The US government has enacted significant bans on foreign-made robots, including humanoids, robot dogs, and even vacuum cleaners, citing national security, potentially reshaping the domestic robotics industry. Meanwhile, Waymo robotaxis are cautiously expanding services, and DoorDash is entering drone delivery.",
-      "itemCount": 4
-    },
-    {
-      "name": "Cybersecurity & Cryptography",
-      "summary": "The field of cybersecurity is seeing advancements and setbacks in post-quantum cryptography, with Cloudflare adopting new authentication methods and a candidate PQC algorithm being broken. Google is also rolling out a privacy-preserving age verification system for Android.",
-      "itemCount": 4
-    },
-    {
-      "name": "Consumer Hardware & Market Trends",
-      "summary": "Consumers can expect price increases for smartphones as Qualcomm raises chip prices. Microsoft's Xbox division saw a revenue dip, contrasting with its booming cloud and AI business. Innovations are also appearing in unique devices like the 'anti-smartphone' Light Phone and open-source gaming peripherals, alongside Apple's new upgrade program.",
-      "itemCount": 8
-    },
-    {
-      "name": "Space Exploration & Earth Science",
-      "summary": "NASA continues active space exploration with Mars rover discoveries (buttes, polygons, honeycomb), gravity assists for missions like Psyche, and new insights into Martian auroras. It's also funding innovative technology concepts and preparing for a total solar eclipse. Terrestrial science includes geothermal energy and quantum computing research.",
-      "itemCount": 16
-    },
-    {
-      "name": "Developer Productivity & Tools",
-      "summary": "Discussions around improving developer workflows include managing Dependabot, the future of local apps, the philosophical aspects of programming logic, and the practicality of cold emailing. New engines for on-device AI are also emerging.",
-      "itemCount": 18
-    },
-    {
-      "name": "Corporate & Policy News",
-      "summary": "Beyond tech developments, stories include Elon Musk's legal battles with advertisers and a lawsuit against Minnesota over app content, as well as the launch of X Money. Social policy discussions include rising support for school cellphone bans and a bizarre lawsuit against Comcast.",
+      "name": "Artificial Intelligence",
+      "summary": "The AI sector sees rapid growth in agentic models, security challenges, and new applications across various domains, including scientific research.",
       "itemCount": 5
+    },
+    {
+      "name": "Technology & Innovation",
+      "summary": "From new devices to foundational infrastructure, technological advancements continue to drive changes in consumer products and industry standards.",
+      "itemCount": 2
+    },
+    {
+      "name": "Science & Space",
+      "summary": "Space exploration and scientific research benefit from new funding and technological advancements, pushing the boundaries of discovery.",
+      "itemCount": 2
+    },
+    {
+      "name": "Developer & Regulation",
+      "summary": "The developer community is impacted by evolving regulatory landscapes and the emergence of advanced coding tools and AI-driven platforms.",
+      "itemCount": 1
+    },
+    {
+      "name": "Infrastructure & Cybersecurity",
+      "summary": "Critical infrastructure is being strengthened with advanced security measures, including post-quantum authentication, to defend against emerging digital threats.",
+      "itemCount": 1
     }
   ],
-  "notes": []
+  "notes": [
+    "Narrative and topic summaries are generated based on available news data, external signals were not available.",
+    "This brief focuses on a synthesis of important technology, AI, infrastructure, science, and developer signals."
+  ]
 }

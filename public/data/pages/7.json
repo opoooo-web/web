@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds",
+      "title": "Improving Smart Tiered Cache for Public Cloud Regions",
+      "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds",
+      "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
+      "publishedAt": "2026-07-10T12:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/deutsche-telekom",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "url": "https://openai.com/index/deutsche-telekom",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/academy/getting-started",
+      "title": "Getting started with ChatGPT",
+      "url": "https://openai.com/academy/getting-started",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "publishedAt": "2026-07-10T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/torch-attention-profile",
       "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
       "url": "https://huggingface.co/blog/torch-attention-profile",
@@ -273,36 +303,6 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/making-ai-search-smarter",
-      "title": "Making AI search smarter",
-      "url": "https://blog.cloudflare.com/making-ai-search-smarter",
-      "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
-      "publishedAt": "2026-07-01T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/content-independence-day-ai-options",
-      "title": "Your site, your rules: new AI traffic options for all customers",
-      "url": "https://blog.cloudflare.com/content-independence-day-ai-options",
-      "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
-      "publishedAt": "2026-07-01T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/monetization-gateway",
-      "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-      "url": "https://blog.cloudflare.com/monetization-gateway",
-      "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
-      "publishedAt": "2026-07-01T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

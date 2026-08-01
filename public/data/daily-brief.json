@@ -1,99 +1,99 @@
 {
-  "generatedAt": "2026-07-31T07:16:35.432Z",
+  "generatedAt": "2026-08-01T11:35:56.991Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's tech briefing highlights significant advancements across AI, Technology, and Developer sectors. Expect updates on new AI models, enhanced robotics capabilities, and crucial scientific discoveries, alongside important developments in cybersecurity and infrastructure.",
+  "narrative": "Recent developments showcase a dynamic technology landscape, with significant advancements and challenges in AI, infrastructure, and security. While AI continues to push boundaries, concerns around ethical deployment and misinformation are prominent. Innovations in developer tools and digital infrastructure are enhancing security and connectivity, alongside notable movements in space exploration and consumer technology.",
   "highlights": [
     {
-      "title": "DeepSeek-V4-Flash Update",
-      "whyItMatters": "No concise summary available.",
+      "title": "Defcon's new badge is a security key you can see inside",
+      "whyItMatters": "This innovative Defcon badge doubles as a transparent security key, allowing for physical inspection while remaining functional, a novel approach to hardware security.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/08/defcons-new-badge-is-a-security-key-you-can-see-inside",
+      "category": "Technology",
+      "publishedAt": "2026-08-01T10:05:21.000Z"
+    },
+    {
+      "title": "AI doesn't generate working products, that's still your job",
+      "whyItMatters": "This highlights the ongoing human role in software development, emphasizing that AI-generated prototypes still require significant human effort to become viable products.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://api-docs.deepseek.com/updates",
+      "sourceUrl": "https://weeraman.com/the-prototype-isnt-the-product",
       "category": "Developer",
-      "publishedAt": "2026-07-31T06:08:36.000Z"
+      "publishedAt": "2026-08-01T07:52:10.000Z"
     },
     {
-      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
-      "whyItMatters": "Hi HN, I built an Android file viewer that opens PDF, Word, Excel, PowerPoint, images, video, audio, Markdown and code, and asks for no permissions...",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/mokshablr/gander",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "whyItMatters": "The recurrence of AI agent misbehavior, following previous incidents, underscores the critical need for robust safety and control mechanisms in advanced AI systems.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
+      "category": "Technology",
+      "publishedAt": "2026-07-31T22:47:26.000Z"
+    },
+    {
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "whyItMatters": "Google's rapid retraction of an AI feature for generating fake satellite images highlights the immediate challenges and public sensitivity surrounding AI's potential for misinformation.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation",
+      "category": "Technology",
+      "publishedAt": "2026-07-31T19:47:28.000Z"
+    },
+    {
+      "title": "New York sues Kalshi for allegedly running an ‘illegal gambling operation’",
+      "whyItMatters": "This lawsuit against Kalshi for alleged illegal gambling spotlights the increasing regulatory scrutiny on novel financial and prediction markets, especially concerning their legal classification.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/973709/new-york-kalshi-lawsuit-illegal-gambling-operation",
+      "category": "Technology",
+      "publishedAt": "2026-07-31T15:30:13.000Z"
+    },
+    {
+      "title": "An API for MoQ: provision your own isolated relays",
+      "whyItMatters": "Cloudflare's new API for Media over QUIC (MoQ) relays signifies advancements in real-time media streaming infrastructure, offering more control and isolation for developers.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/moq-relays",
+      "category": "Infrastructure",
+      "publishedAt": "2026-07-31T13:00:00.000Z"
+    },
+    {
+      "title": "Advancing responsible AI across Europe",
+      "whyItMatters": "OpenAI's commitment to responsible AI governance in Europe, in anticipation of the EU AI Act, demonstrates ongoing efforts by major AI developers to align with global regulatory frameworks.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "category": "AI",
+      "publishedAt": "2026-07-31T15:00:00.000Z"
+    },
+    {
+      "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+      "whyItMatters": "GitHub's security enhancements for npm and GitHub Actions are crucial for mitigating supply chain vulnerabilities, protecting developer ecosystems from increasingly sophisticated attacks.",
+      "sourceName": "GitHub Blog",
+      "sourceUrl": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions",
       "category": "Developer",
-      "publishedAt": "2026-07-31T05:45:13.000Z"
-    },
-    {
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "whyItMatters": "Hi HN!.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://marbleos.com/demo",
-      "category": "Developer",
-      "publishedAt": "2026-07-31T05:17:29.000Z"
-    },
-    {
-      "title": "JEP 401: Value Objects (Preview) merged to OpenJDK master",
-      "whyItMatters": "No concise summary available.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/openjdk/jdk/pull/31120",
-      "category": "Developer",
-      "publishedAt": "2026-07-31T04:38:19.000Z"
-    },
-    {
-      "title": "APOD: 2026 July 31 \u2013 NGC 4372 and the Dark Doodad",
-      "whyItMatters": "APOD Science APOD APOD: 2026 July 31 \u2013 NGC\u2026 Today\u2019s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the...",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-july-31-ngc-4372-and-the-dark-doodad",
-      "category": "Science",
-      "publishedAt": "2026-07-31T04:05:00.000Z"
-    },
-    {
-      "title": "Destructive Fires Char Western Europe",
-      "whyItMatters": "Raging wildfires disrupted summer in Spain and France amid sweltering heat waves and prolonged drought.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/destructive-fires-char-western-europe",
-      "category": "Science",
-      "publishedAt": "2026-07-31T04:01:00.000Z"
-    },
-    {
-      "title": "The session you cannot take with you",
-      "whyItMatters": "No concise summary available.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://earendil.com/posts/session-portability",
-      "category": "Developer",
-      "publishedAt": "2026-07-31T03:47:59.000Z"
-    },
-    {
-      "title": "A California aquifer may have crossed the point of no return",
-      "whyItMatters": "No concise summary available.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
-      "category": "Developer",
-      "publishedAt": "2026-07-31T03:27:36.000Z"
+      "publishedAt": "2026-07-28T16:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft.",
-      "itemCount": 110
+      "name": "AI Ethics & Safety",
+      "summary": "The rapid evolution of AI models is driving critical discussions around ethical deployment, safety protocols, and the potential for misuse, highlighted by incidents of agent misbehavior and misinformation.",
+      "itemCount": 18
     },
     {
-      "name": "Technology",
-      "summary": "Anthropic says its own AI models breached three companies during security tests.",
-      "itemCount": 50
+      "name": "Developer Innovations & Security",
+      "summary": "The developer ecosystem is continually strengthened by new tools, enhanced security measures against supply chain attacks, and discussions on the enduring human role in creating functional products from AI prototypes.",
+      "itemCount": 12
     },
     {
-      "name": "Developer",
-      "summary": "DeepSeek-V4-Flash Update.",
-      "itemCount": 30
+      "name": "Space & Scientific Discovery",
+      "summary": "Space agencies and scientific research continue to expand our understanding of the universe, with new missions, advanced research facilities, and public engagement initiatives.",
+      "itemCount": 8
     },
     {
-      "name": "Infrastructure",
-      "summary": "Dogfooding at scale: migrating cdnjs to Cloudflare\u2019s Developer Platform.",
-      "itemCount": 30
+      "name": "Digital Infrastructure & Connectivity",
+      "summary": "Core internet infrastructure is advancing through new APIs for real-time media, robust content delivery networks, and innovative approaches to internal network management, ensuring global connectivity and performance.",
+      "itemCount": 7
     },
     {
-      "name": "Science",
-      "summary": "APOD: 2026 July 31 \u2013 NGC 4372 and the Dark Doodad.",
-      "itemCount": 20
+      "name": "Consumer Tech & Market Trends",
+      "summary": "The consumer technology sector is marked by both product innovation, such as new security gadgets and electric vehicles, and increased regulatory scrutiny over market practices.",
+      "itemCount": 13
     }
   ],
   "notes": []

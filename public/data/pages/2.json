@@ -5,6 +5,86 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://hoplite.sh",
+      "title": "Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents",
+      "url": "https://hoplite.sh",
+      "summary": "Hi HN, we’re Bence and Ryan, founders of Hoplite ( https://hoplite.sh ). Hoplite lets you deploy coding agents in the cloud, with a suite of tools that makes it incredibly easy to QA features. During onboarding, we port over your local setup - sessions, memories, MCP servers, and get your projects ready to run in the cloud. Here’s a demo: https://youtu.be/bnyktZ_9pjE We got here after pivoting away from the idea we applied to YC with; AI for retail investing. It ultimately wasn’t a product that we ourselves would use, nor served a customer base that we felt connected to. In reflecting on what we really wanted to do, we realised that we loved talking to founders and developers, and were really opinionated about the specific area of cloud agents. We tried out all the existing solutions, and didn’t find one that A) took good advantage of being in the cloud, and B) was performant and felt good to use. We’re building a product that we feel reflects what mainstream development will look like in 6-12 months. As models improve, developers will end up reviewing less and less code, and will instead focus on reviewing the product output. That means evaluating new user flows, visually verifying that new features look good, that the API works as expected, that the CLI works on Windows, etc. And doing it while running hundreds of agents concurrently. On the agent side, we’ve created a custom harness. We spent a lot of time deciding on whether we should use an off the shelf solution like Codex/Claude Code, but ultimately wanted the independence and freedom that came with building it in house. It also means that we can test out completely new features without relying on Anthropic and OpenAI to catch up. Everything is hosted on AWS, with the exception of: Temporal for durable workflows, Modal for sandboxes, and Planetscale for our database. Our infra decisions were driven by a strong belief that agents are becoming a tier 0 piece of infrastructure, and they need the reliability and security to match that. You can try it now for free with the code ‘HACKERNEWS’ - we’ve included $100 in free credits, plus you can connect your Codex subscription and use OpenAI models via it. You can see some more details around our pricing at https://hoplite.sh/pricing . At the moment we’re focusing on optimising two key experiences: onboarding and previews, and would love to hear your feedback on them. And if you find that the agent's performance in certain tasks doesn’t match your expectations, please let us know! Comments URL: https://news.ycombinator.com/item?id=49157997 Points: 37 # Comments: 45",
+      "publishedAt": "2026-08-03T16:32:06.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/games/974544/microsoft-xbox-360-games-pc-disc-digital-program",
+      "title": "Microsoft is bringing Xbox 360 games to PC",
+      "url": "https://www.theverge.com/games/974544/microsoft-xbox-360-games-pc-disc-digital-program",
+      "summary": "Building on its recently announced plans to bring original Xbox games to PC, Microsoft is also planning to let developers bring their Xbox 360 games to PC as well, according to a leaked document, seen by The Verge, that was sent to developers recently. Xbox 360 games will be able to run on the next-gen [&#8230;]",
+      "publishedAt": "2026-08-03T16:31:35.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/03/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest",
+      "title": "Wispr Flow is preparing to launch a meeting notetaker, updated terms suggest",
+      "url": "https://techcrunch.com/2026/08/03/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest",
+      "summary": "Wispr Flow's new terms of service indicate it will introduce a notetaker that generates meeting summaries and action items.",
+      "publishedAt": "2026-08-03T16:29:30.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://openai.com/index/ten-advances-in-mathematics",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "summary": "Article URL: https://openai.com/index/ten-advances-in-mathematics/ Comments URL: https://news.ycombinator.com/item?id=49157930 Points: 330 # Comments: 599",
+      "publishedAt": "2026-08-03T16:27:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://armature.tech",
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "url": "https://armature.tech",
+      "summary": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wrap your MCP in 3 lines of code (our SDK is available in Typescript, Python and Go) and start seeing in your dashboard: - All sessions reconstructed: it’s like reading the real conversation the user had inside Claude or ChatGPT! - A ranking of your MCP most popular use cases, built from sessions clustering - The most frequent issues your users’ agents encounter so you can fix them. Here is a quick demo: https://youtu.be/ZFlvquhyNMQ The story behind this is that we initially launched Armature as a standalone testing tool ( https://www.ycombinator.com/launches/QQc-armature-making-you... ) that could naturally be used through an MCP itself. We quickly realized we had no idea how our users were using Armature MCP and if they were satisfied with it or frustrated. It’s something we had also experienced in our previous companies: Louis built MCPs exposed to millions of users and Theo was a Forward Deployed Engineer at Palantir before joining a Datadog spin-off as Founding Engineer. Both testing and product analytics had always been real pains when exposing a product to agents but we always thought there wasn’t much we could do about analytics because the conversation lived in our users’ AI client. Then it struck us: what if we asked the agents why they were making this or that tool call? And what’s the user's intent or potential frustration? So we started experimenting with MCP instrumentation and the use-cases actually surprised us! Many of our first customers had implemented workarounds for their CI to trigger new tests or for their coding agents to fetch the results efficiently. Even though we talked to our first users regularly, they had never shared this feedback with us. We then built automations to automatically cluster use-cases, identify issues frequently encountered and let our own coding agents fix them. When our CTO friends heard about this, they wanted to try it for themselves so we gave them access to a cloned version of our internal product and they started sharing feedback like they never did on our “real” product! That’s when we decided to start working seriously on MCP Analytics as a product. At first we were afraid of degrading MCP performance so we iterated until we reached the exact same success rate as without our instrumentation (89.17 % vs 89.15 % pass rate out of 870 runs). Then privacy was an obvious constraint so we applied the same methods we had learned from working with banking data or building sensitive data scanning in logs. Today, redaction runs client-side before reaching our servers. There are still a lot of things we haven’t fully figured out: not all fields are equally filled by all models, session fingerprinting for serverless / stateless MCPs isn’t perfect, and use-case clustering remains to be optimized. But we are finally launching our analytics product to everyone, self-serve at https://armature.tech with a set-up that takes less than 5 minutes and a generous free tier. And now we are working on fully closing the loop, bringing evals back in our product so we can: identify top workflows and issues -> recommend fixes and improvements -> test fixes at scale on the same workflows run by users, across all harnesses and models -> open PRs to ship fixes directly. The evals can be generated automatically from the session analytics so you can catch every regression and can test every improvement’s real impact across all models and harnesses before shipping it. Here’s an example to make it more concrete: 10 days ago, a marketing automation platform which has had early access to what we built for weeks identified thanks to MCP Analytics that users were frustrated not being able to change their target audience after campaign creation. So they shipped the feature and tested it successfully locally with Claude Code on Fable 5. Then a few days later when preparing their new MCP public release, they ran a suite of evals on Armature and realized that small models could hallucinate audience_ids which would lead their MCP to send the campaign to ALL their contacts by default (which could obviously lead to disasters in prod). This is the kind of story that makes what we are building feel so helpful! Now, the most useful feedback for us would be to know what’s still missing in our product so you can feel you are now in full control of the “Agent Experience”. And if you run an MCP in production we’d also love to know: what do you do today to know if agents succeed and if the users behind them are happy? Comments URL: https://news.ycombinator.com/item?id=49157807 Points: 30 # Comments: 1",
+      "publishedAt": "2026-08-03T16:17:59.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026",
+      "title": "AWS Weekly Roundup: Price reduction of GPT models in Bedrock, CloudWatch managed collectors for Prometheus metrics, and more (August 3, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-price-reduction-of-gpt-models-in-bedrock-cloudwatch-managed-collectors-for-prometheus-metrics-and-more-august-3-2026",
+      "summary": "Last week I had the joy of participating in Amazon’s “Bring Your Kids to Work Day” with my 7 year old son. We commuted together into the New York City office, his first real rush hour train ride, and spent the day exploring how Amazon uses AI, machine learning, and robotics to deliver packages to […]",
+      "publishedAt": "2026-08-03T16:12:30.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet",
+      "title": "2026 Volkswagen Jetta Sport: The cheap car isn't completely extinct yet",
+      "url": "https://arstechnica.com/cars/2026/08/2026-volkswagen-jetta-sport-the-cheap-car-isnt-completely-extinct-yet",
+      "summary": "At $25,305, you won't find many new cars for less. But you get what you pay for.",
+      "publishedAt": "2026-08-03T16:10:22.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en",
+      "title": "Explanation of INT8 ConvRot (FP8 is no longer needed)",
+      "url": "https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en",
+      "summary": "Article URL: https://note.com/hirorohi03/n/n047a8c5f7f8b?hl=en Comments URL: https://news.ycombinator.com/item?id=49157645 Points: 21 # Comments: 7",
+      "publishedAt": "2026-08-03T16:07:09.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/podcast/974387/bluesky-toni-schneider-interview-ai-atproto-atmosphere",
       "title": "Bluesky’s new CEO wants a big tent, not a bubble",
       "url": "https://www.theverge.com/podcast/974387/bluesky-toni-schneider-interview-ai-atproto-atmosphere",
@@ -68,7 +148,7 @@
       "id": "hacker-news:https://blog.exe.dev/devtools-must-be-open-source",
       "title": "Devtools must be open source",
       "url": "https://blog.exe.dev/devtools-must-be-open-source",
-      "summary": "Article URL: https://blog.exe.dev/devtools-must-be-open-source Comments URL: https://news.ycombinator.com/item?id=49156111 Points: 363 # Comments: 132",
+      "summary": "Article URL: https://blog.exe.dev/devtools-must-be-open-source Comments URL: https://news.ycombinator.com/item?id=49156111 Points: 424 # Comments: 150",
       "publishedAt": "2026-08-03T14:15:47.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -78,7 +158,7 @@
       "id": "hacker-news:https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
       "title": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
       "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse",
-      "summary": "Article URL: https://clickhouse.com/blog/andy-pavlo-joins-clickhouse Comments URL: https://news.ycombinator.com/item?id=49156011 Points: 194 # Comments: 44",
+      "summary": "Article URL: https://clickhouse.com/blog/andy-pavlo-joins-clickhouse Comments URL: https://news.ycombinator.com/item?id=49156011 Points: 227 # Comments: 48",
       "publishedAt": "2026-08-03T14:09:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -108,7 +188,7 @@
       "id": "hacker-news:https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
       "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
       "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
-      "summary": "Article URL: https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui Comments URL: https://news.ycombinator.com/item?id=49155629 Points: 200 # Comments: 58",
+      "summary": "Article URL: https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui Comments URL: https://news.ycombinator.com/item?id=49155629 Points: 224 # Comments: 69",
       "publishedAt": "2026-08-03T13:34:43.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -118,7 +198,7 @@
       "id": "hacker-news:https://dmarcguard.io/blog/spf-record-syntax",
       "title": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
       "url": "https://dmarcguard.io/blog/spf-record-syntax",
-      "summary": "Article URL: https://dmarcguard.io/blog/spf-record-syntax/ Comments URL: https://news.ycombinator.com/item?id=49155626 Points: 36 # Comments: 8",
+      "summary": "Article URL: https://dmarcguard.io/blog/spf-record-syntax/ Comments URL: https://news.ycombinator.com/item?id=49155626 Points: 45 # Comments: 11",
       "publishedAt": "2026-08-03T13:34:25.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -143,16 +223,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "hacker-news:https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379",
-      "title": "Wind and solar overtake fossil fuels in Germany for the first time",
-      "url": "https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379",
-      "summary": "Article URL: https://www.intellinews.com/wind-and-solar-overtake-fossil-fuels-in-germany-for-the-first-time-ever-458379/ Comments URL: https://news.ycombinator.com/item?id=49155359 Points: 258 # Comments: 155",
-      "publishedAt": "2026-08-03T13:13:02.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/tech/974377/lenovo-googlebook-google-image-leaks-laptops",
@@ -225,81 +295,11 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f",
-      "title": "The Potomac River Midair Collision",
-      "url": "https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f",
-      "summary": "Article URL: https://admiralcloudberg.medium.com/reaping-the-whirlwind-inside-the-potomac-river-midair-collision-0475416f2b0f Comments URL: https://news.ycombinator.com/item?id=49154441 Points: 23 # Comments: 2",
-      "publishedAt": "2026-08-03T11:41:26.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
       "title": "SQLite Critical CVEs or LLM Slop?",
       "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
-      "summary": "Article URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ Comments URL: https://news.ycombinator.com/item?id=49154332 Points: 672 # Comments: 314",
+      "summary": "Article URL: https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/ Comments URL: https://news.ycombinator.com/item?id=49154332 Points: 683 # Comments: 334",
       "publishedAt": "2026-08-03T11:28:54.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/lyogavin/airllm",
-      "title": "AirLLM 70B inference with single 4GB GPU",
-      "url": "https://github.com/lyogavin/airllm",
-      "summary": "Article URL: https://github.com/lyogavin/airllm Comments URL: https://news.ycombinator.com/item?id=49154228 Points: 154 # Comments: 56",
-      "publishedAt": "2026-08-03T11:15:48.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/garagehq/nightcrawler",
-      "title": "Show HN: Nightcrawler – A local AI pentesting agent running on a smartphone",
-      "url": "https://github.com/garagehq/nightcrawler",
-      "summary": "Article URL: https://github.com/garagehq/nightcrawler/ Comments URL: https://news.ycombinator.com/item?id=49154127 Points: 90 # Comments: 29",
-      "publishedAt": "2026-08-03T11:06:15.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-      "title": "China&#8217;s Alibaba takes another swipe at America’s AI supremacy",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-      "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, widely available to users in a [&#8230;]",
-      "publishedAt": "2026-08-03T11:01:11.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark",
-      "title": "How headlights got brighter, whiter, and more blinding after dark",
-      "url": "https://arstechnica.com/cars/2026/08/how-headlights-got-brighter-whiter-and-more-blinding-after-dark",
-      "summary": "Automotive lights are better than they've ever been, but there's a trade-off.",
-      "publishedAt": "2026-08-03T11:00:11.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
-      "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
-      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
-      "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
-      "publishedAt": "2026-08-03T10:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
-      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
-      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
-      "summary": "Article URL: https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/ Comments URL: https://news.ycombinator.com/item?id=49153374 Points: 316 # Comments: 268",
-      "publishedAt": "2026-08-03T09:32:07.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"

@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "title": "Disrupting a Criminal Scam Operation",
+      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "publishedAt": "2026-07-31T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
       "title": "Stacked sessions and pull requests in the GitHub Copilot app",
       "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app",
@@ -23,16 +33,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
-      "summary": "",
-      "publishedAt": "2026-07-30T15:09:09.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     },
     {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-back-to-school-2026",
@@ -185,16 +185,6 @@
       "category": "AI"
     },
     {
-      "id": "hugging-face-blog:https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "summary": "",
-      "publishedAt": "2026-07-28T16:27:42.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
       "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
       "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks",
@@ -213,16 +203,6 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "summary": "",
-      "publishedAt": "2026-07-28T15:01:45.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
     },
     {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson",
@@ -275,16 +255,6 @@
       "category": "Science"
     },
     {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix",
-      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
-      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix",
-      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips with his coworkers on&#8230;",
-      "publishedAt": "2026-07-28T09:18:57.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
       "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
       "title": "The harness is all you need (mostly)",
       "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly",
@@ -303,6 +273,36 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026",
+      "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026",
+      "summary": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single session, it was the energy of a technical community […]",
+      "publishedAt": "2026-07-27T14:54:41.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli",
+      "title": "We’re open-sourcing our privacy proxy CLI",
+      "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli",
+      "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
+      "publishedAt": "2026-07-27T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/open-secure-ai-alliance",
+      "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance",
+      "summary": "Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communities of experts. Cybersecurity is among the top three beneficiaries of open source software. The Open Secure AI Alliance — building on the leadership of [&#8230;]",
+      "publishedAt": "2026-07-27T09:00:07.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
     }
   ]
 }

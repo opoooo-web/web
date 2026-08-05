@@ -5,41 +5,121 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "title": "Oxide Computer raises $445M (SEC Form D)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml",
+      "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/1795071/000179507126000002/xslFormDX01/primary_doc.xml Comments URL: https://news.ycombinator.com/item?id=49174407 Points: 205 # Comments: 101",
+      "publishedAt": "2026-08-04T20:13:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains",
+      "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
+      "publishedAt": "2026-08-04T20:05:26.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact",
+      "title": "NASA Will Attempt to Observe Rocket Part’s Lunar Impact",
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-will-attempt-to-observe-rocket-parts-lunar-impact",
+      "summary": "Using ground-based telescopes and space-based assets, NASA and SpaceX are tracking a used Falcon 9 upper stage from a commercial mission expected to impact the Moon on Wednesday, Aug. 5, near the Einstein and Bell craters. The impact poses no danger to Earth and NASA scientists are planning to collect lunar data from the event [&#8230;]",
+      "publishedAt": "2026-08-04T20:00:14.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta",
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta",
+      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "publishedAt": "2026-08-04T19:48:40.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://deepgrove.ai/maple-preview",
+      "title": "Show HN: Maple-Preview – ternary 20B MoE running at 120 tok/s on a iPhone",
+      "url": "https://deepgrove.ai/maple-preview",
+      "summary": "Article URL: https://deepgrove.ai/maple-preview Comments URL: https://news.ycombinator.com/item?id=49173984 Points: 67 # Comments: 20",
+      "publishedAt": "2026-08-04T19:44:55.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you",
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you",
+      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+      "publishedAt": "2026-08-04T19:34:34.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
+      "title": "Nvidia doesn&#8217;t mess around: A week after open AI industry group formed, it&#8217;s already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress",
+      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "publishedAt": "2026-08-04T19:28:49.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
+      "title": "Telegram CEO says an extortionist planted CSAM in a chat to get it pulled from the App Store",
+      "url": "https://www.theverge.com/tech/975300/telegram-app-store-takedown-extortion-pavel-durov",
+      "summary": "Telegram CEO Pavel Durov blames an extortionist for planting child sexual abuse material (CSAM) in a public chat to get the app temporarily removed from Apple's App Store on Monday night. \"Apple removed Telegram from the App Store before contacting us,\" Durov says in a post on X. \"This creates a potential systemic risk for [&#8230;]",
+      "publishedAt": "2026-08-04T19:11:05.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+      "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows",
+      "summary": "Learn how to build tools to simplify how you work—without writing a single line of code. The post How the GitHub legal team used Copilot CLI to streamline their workflows appeared first on The GitHub Blog .",
+      "publishedAt": "2026-08-04T19:02:34.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years",
+      "title": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years",
+      "summary": "Article URL: https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/ Comments URL: https://news.ycombinator.com/item?id=49173165 Points: 1040 # Comments: 57",
+      "publishedAt": "2026-08-04T18:51:38.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://waymo.com/blog/shorts/dallas-open-to-all",
       "title": "Waymo in Dallas",
       "url": "https://waymo.com/blog/shorts/dallas-open-to-all",
-      "summary": "Article URL: https://waymo.com/blog/shorts/dallas-open-to-all/ Comments URL: https://news.ycombinator.com/item?id=49172836 Points: 219 # Comments: 270",
+      "summary": "Article URL: https://waymo.com/blog/shorts/dallas-open-to-all/ Comments URL: https://news.ycombinator.com/item?id=49172836 Points: 266 # Comments: 408",
       "publishedAt": "2026-08-04T18:29:41.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.panoptica.com/the-sound-of-inevitability",
-      "title": "The Sound of Inevitability",
-      "url": "https://www.panoptica.com/the-sound-of-inevitability",
-      "summary": "Article URL: https://www.panoptica.com/the-sound-of-inevitability/ Comments URL: https://news.ycombinator.com/item?id=49172609 Points: 6 # Comments: 5",
-      "publishedAt": "2026-08-04T18:12:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://gwern.net/blackmail",
-      "title": "Blackmail Fail (2013)",
-      "url": "https://gwern.net/blackmail",
-      "summary": "Article URL: https://gwern.net/blackmail Comments URL: https://news.ycombinator.com/item?id=49172597 Points: 34 # Comments: 2",
-      "publishedAt": "2026-08-04T18:11:09.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://pudding.cool/2026/06/mow",
-      "title": "Why some people mow a lawn better than others",
-      "url": "https://pudding.cool/2026/06/mow",
-      "summary": "Article URL: https://pudding.cool/2026/06/mow/ Comments URL: https://news.ycombinator.com/item?id=49172550 Points: 159 # Comments: 142",
-      "publishedAt": "2026-08-04T18:06:12.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -53,16 +133,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://hop.earth/?route=fQ5nuu9R&server=lkhr7",
-      "title": "Hop.earth – OpenStreetMap based car racing game",
-      "url": "https://hop.earth/?route=fQ5nuu9R&server=lkhr7",
-      "summary": "Article URL: https://hop.earth/?server=lkhr7&route=fQ5nuu9R Comments URL: https://news.ycombinator.com/item?id=49172405 Points: 73 # Comments: 37",
-      "publishedAt": "2026-08-04T17:55:19.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
@@ -135,16 +205,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
-      "title": "The Warp Agent CLI",
-      "url": "https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent",
-      "summary": "Article URL: https://www.warp.dev/blog/introducing-the-warp-agent-cli-coding-agent Comments URL: https://news.ycombinator.com/item?id=49171766 Points: 92 # Comments: 55",
-      "publishedAt": "2026-08-04T17:08:41.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "nasa-breaking-news:https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026",
       "title": "Ames Science Stars of the Month &#8211; August 2026",
       "url": "https://www.nasa.gov/general/ames-science-stars-of-the-month-august-2026",
@@ -165,16 +225,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead",
-      "title": "Truemetrics (YC S23) Is Hiring in Berlin – GTM Lead",
-      "url": "https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead",
-      "summary": "Article URL: https://www.ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead Comments URL: https://news.ycombinator.com/item?id=49171650 Points: 0 # Comments: 0",
-      "publishedAt": "2026-08-04T17:00:12.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "github-blog:https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
       "title": "Turn one giant AI-generated pull request to a reviewable stack",
       "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
@@ -182,16 +232,6 @@
       "publishedAt": "2026-08-04T16:47:18.000Z",
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://mistral.ai/news/shieldstral",
-      "title": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
-      "url": "https://mistral.ai/news/shieldstral",
-      "summary": "Article URL: https://mistral.ai/news/shieldstral/ Comments URL: https://news.ycombinator.com/item?id=49171268 Points: 275 # Comments: 69",
-      "publishedAt": "2026-08-04T16:36:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
@@ -235,26 +275,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://arxiv.org/abs/2602.16763",
-      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
-      "url": "https://arxiv.org/abs/2602.16763",
-      "summary": "Article URL: https://arxiv.org/abs/2602.16763 Comments URL: https://news.ycombinator.com/item?id=49170915 Points: 70 # Comments: 77",
-      "publishedAt": "2026-08-04T16:10:39.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan",
-      "title": "T-Mobile’s $0-down financing plan bundles taxes and fees",
-      "url": "https://www.theverge.com/tech/975115/t-mobile-financing-eip-flex-36-plan",
-      "summary": "T-Mobile is launching a new financing option that will allow you to pay for a device, taxes, and fees over 36 months. In an update on Tuesday, T-Mobile says its new Equipment Installment Plan (EIP) Flex 36 requires no upfront payment and will come with a 0 percent APR for a limited time. Even if [&#8230;]",
-      "publishedAt": "2026-08-04T16:07:02.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program",
       "title": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
       "url": "https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program",
@@ -283,26 +303,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort",
-      "title": "Spotify expands AI remix and covers project with Merlin partnership",
-      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort",
-      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring artists opt in, receive credit, and are compensated.",
-      "publishedAt": "2026-08-04T15:50:06.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits",
-      "title": "Texas halts new data centers as governor calls for audits",
-      "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits",
-      "summary": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. But even Texas can be pushed to the brink.",
-      "publishedAt": "2026-08-04T15:42:35.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

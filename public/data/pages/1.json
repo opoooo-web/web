@@ -5,6 +5,226 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined",
+      "title": "Artemis III Orion Crew and Service Models Joined",
+      "url": "https://www.nasa.gov/image-article/artemis-iii-orion-crew-and-service-models-joined",
+      "summary": "Technicians joined the Orion crew and service modules together on July 30, 2026, inside the Neil Armstrong Operations and Checkout Building at NASA&#8217;s Kennedy Space Center in Florida. The crew module will carry and sustain NASA astronauts Randy Bresnik, Andre Douglas, and Frank Rubio, and ESA (European Space Agency) astronaut Luca Parmitano, while the service [&#8230;]",
+      "publishedAt": "2026-08-05T17:27:18.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html",
+      "title": "AI is a bubble, just like dot-com",
+      "url": "https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html",
+      "summary": "Article URL: https://www.constraintlab.com/blog/ai-is-a-bubble-just-like-dot-com.html Comments URL: https://news.ycombinator.com/item?id=49185880 Points: 6 # Comments: 0",
+      "publishedAt": "2026-08-05T17:17:19.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives",
+      "title": "After jacking up prices, Disney+ and Netflix consider offering free alternatives",
+      "url": "https://arstechnica.com/gadgets/2026/08/after-jacking-up-prices-disney-and-netflix-consider-offering-free-alternatives",
+      "summary": "Disney is interested in \"price-sensitive\" streaming customers.",
+      "publishedAt": "2026-08-05T17:12:39.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia",
+      "title": "Meet the eight startups pitching at Startup Battlefield Australia",
+      "url": "https://techcrunch.com/2026/08/05/meet-the-eight-startups-pitching-at-startup-battlefield-australia",
+      "summary": "The applications are in, and the TechCrunch Startup Battlefield team made their decisions!",
+      "publishedAt": "2026-08-05T17:02:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license",
+      "title": "EVgo starts building Tesla Superchargers under license",
+      "url": "https://arstechnica.com/cars/2026/08/evgo-starts-building-tesla-superchargers-under-license",
+      "summary": "The V4 Superchargers will show up in the Tesla nav app and have NACS and CCS1 plugs.",
+      "publishedAt": "2026-08-05T17:00:38.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address",
+      "title": "PSA: Apple’s Private Relay can leak your real IP address",
+      "url": "https://techcrunch.com/2026/08/05/psa-apples-private-relay-can-leak-your-real-ip-address",
+      "summary": "A bug in how Apple implements its Private Relay feature, which in theory masks users’ IP addresses from the sites they visit, can reveal users’ real IP addresses.",
+      "publishedAt": "2026-08-05T16:52:29.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "title": "Google just announced a major shakeup of its top AI leadership",
+      "url": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray [&#8230;]",
+      "publishedAt": "2026-08-05T16:47:23.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.hyperprobe.co",
+      "title": "Launch HN: HyperProbe (YC S26) – Agents that do read-only debugging in prod",
+      "url": "https://www.hyperprobe.co",
+      "summary": "Hi HN, this is Shailendra and Karan here. We are building a fast and safe way for coding agents to debug issues live in production. When prod breaks, it lets Cursor, Claude, and others drop virtual breakpoints or probes safely in your running code, and extract the exact variable values that logs don’t have. All this saves time and effort for engineers who’d otherwise dig through logs and traces or redeploy with console.logs or print statements until they find the root cause. Here is the link to the video that explains this: https://www.youtube.com/watch?v=ivV7I--ta5c Agents write most of our code now. This shrinks the useful context engineers need to debug AI written code, a problem not helped by the limited telemetry added in the same code by AI. So when something breaks in prod, the first instinct for an engineer is to open logs or throw them to your agents. But if the line you are looking for is not there, agents will start guessing the root cause on non-existent data, forcing you to add a log, and redeploy. This analysis-inference loop of agents with existing data does not come cheap, burning a lot of tokens. And the add log, redeploy cycle is so slow and painful that it makes engineers hate on-call. Our approach lets agents capture telemetry on-demand at the exact moment and point of failure, killing the log-redeploy cycle and getting the most accurate RCA while burning fewer tokens. The obvious problem is making it work on a running service. You can't pause a live service the way you'd pause a debugger on your laptop. Getting the value out of a running process safely, without pausing a thread or slowing the host is the challenge.We are making this happen. Before this I ran engineering at a 100 member team. Then Karan and I spent three years on HyperTest which was a testing tool. At HyperTest, we turned production traffic into integration tests using OpenTelemetry. That was production instrumentation too. The hard parts of pulling real runtime state out of a running service without breaking it, were the hard parts we learnt to put together. We learnt some other lessons the hard way too. HyperTest tried to prevent bugs with better tests, and adoption was a fight every time. Calls kept getting cancelled because teams were firefighting production. Testing was hygiene. Broken prod was hair on fire. This made us see where priorities lie. This seeded the idea of building a truly autonomous on-call agent i.e. one that takes an alert, probes, diagnoses and fixes it in a few minutes. But this is how it works as of now: You talk to your coding agent the way you already do. Tell it what's wrong: \"checkout returns 200 but some users are seeing their order fail, find out why.\" It locates the line in your local code, connects to us over MCP, and drops a probe on that line in the running service. The probe is read-only and sits dormant until real traffic hits. When hit, it captures the local variables at every frame of the call stack at that exact moment. It hands them to the agent, which diagnoses with real data. There are two pieces. An SDK that runs inside your service, and an MCP server your coding agent talks to. The SDK is what makes setting probes (virtual breakpoints, log or metric) possible without a redeploy. In Node and Python it hooks in-process. In Java it attaches as a JVM agent, instrumenting at the bytecode level. Either way the service keeps running and serving traffic. Nothing pauses. When your agent wants to look at a line, it calls the MCP server, which tells the SDK to place a probe there. When a request hits the line, the SDK captures what the probe asked for, sanitizes it in-process, and streams it back to the agent via the MCP. This can run inside prod, so a probe can read any value sitting in that variable. We ensure redaction happens in-process, inside your own container's memory. This is before anything goes on the wire. Keys like password, token, authorization, ssn and credit card are redacted by default and you add your own. Also the probes read but never write, and if you want no captured state to ever leave your network you can self host the server, broker, and even the database in your infra. On overhead: when idle, the SDK adds negligible memory and effectively nothing to throughput and response time. Probes only cost anything while actively capturing. Also captures are bounded. A separate monitor watches in real time and pulls every active probe if overhead ever spikes. Every log-and-trace tool hands the agent data that already exists and asks it to reason backward to what probably happened. We think it is more useful to give agents eyes and ears into the running code, so they capture what they need when they need it, right at the point of failure. This seems like the simplest and fastest way to debug prod incidents. We’d love the community to try this in any environment to debug any known or unknown issue by just chatting with your coding agent. And let us know what more features you need to make this a truly autonomous on-call agent Supported platforms: NodeJs, Java, Python. Comments URL: https://news.ycombinator.com/item?id=49185389 Points: 10 # Comments: 5",
+      "publishedAt": "2026-08-05T16:47:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits",
+      "title": "D-Wave shows off its new entry in quantum computing race",
+      "url": "https://arstechnica.com/science/2026/08/d-wave-on-rails-company-tests-entanglement-on-its-dual-rail-qubits",
+      "summary": "Company noted for building quantum annealers now also making gate-based hardware.",
+      "publishedAt": "2026-08-05T16:37:07.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
+      "title": "SpaceX is barely Space and mostly X",
+      "url": "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
+      "summary": "Once, I had some questions about why SpaceX, Elon Musk's healthiest company, acquired xAI, his sickliest one. Now I have some questions about why we're calling the whole thing SpaceX. Look, what we have here, by revenue, is primarily a telecom company and a company that rents compute, according to SpaceX's first quarterly earnings statement [&#8230;]",
+      "publishedAt": "2026-08-05T16:35:56.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.discoveryloop.com",
+      "title": "Discovery Loop",
+      "url": "https://www.discoveryloop.com",
+      "summary": "Article URL: https://www.discoveryloop.com/ Comments URL: https://news.ycombinator.com/item?id=49184960 Points: 157 # Comments: 61",
+      "publishedAt": "2026-08-05T16:19:44.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://twitter.com/JeffDean/status/2085034604172603724",
+      "title": "Jeff Dean Leaving Google",
+      "url": "https://twitter.com/JeffDean/status/2085034604172603724",
+      "summary": "Article URL: https://twitter.com/JeffDean/status/2085034604172603724 Comments URL: https://news.ycombinator.com/item?id=49184879 Points: 57 # Comments: 3",
+      "publishedAt": "2026-08-05T16:14:49.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "title": "Google DeepMind CEO Demis Hassabis is stepping down",
+      "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "summary": "Article URL: https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai Comments URL: https://news.ycombinator.com/item?id=49184757 Points: 304 # Comments: 183",
+      "publishedAt": "2026-08-05T16:05:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+      "title": "The next chapter of our AI momentum",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+      "summary": "Article URL: https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/ Comments URL: https://news.ycombinator.com/item?id=49184755 Points: 59 # Comments: 39",
+      "publishedAt": "2026-08-05T16:05:31.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+      "title": "Jeff Dean leaving Alphabet",
+      "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+      "summary": "Article URL: https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html Comments URL: https://news.ycombinator.com/item?id=49184746 Points: 225 # Comments: 50",
+      "publishedAt": "2026-08-05T16:04:33.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "title": "Reddit is introducing a new moderator: AI",
+      "url": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "summary": "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site. The company is introducing automated moderation tools that rely on LLMs to help mods manage their communities, and it's expanding who can use those tools today ahead of a full launch later this year. The company calls the suite [&#8230;]",
+      "publishedAt": "2026-08-05T16:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+      "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+      "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+      "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+      "publishedAt": "2026-08-05T15:56:14.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks",
+      "title": "Hark previews its browser use agent for completing tasks",
+      "url": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks",
+      "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
+      "publishedAt": "2026-08-05T15:46:27.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4",
+      "title": "Google plans to kill Assistant on your phone on September 4",
+      "url": "https://arstechnica.com/ai/2026/08/google-plans-to-kill-assistant-on-your-phone-on-september-4",
+      "summary": "Assistant will disappear, leaving only Gemini for voice control in the coming weeks.",
+      "publishedAt": "2026-08-05T15:30:02.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon",
+      "title": "NASA’s Perseverance Rover Watches Earth Vanish Behind Martian Moon",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasas-perseverance-rover-watches-earth-vanish-behind-martian-moon",
+      "summary": "Earth and the Martian moon Phobos dance together in a series of images recently acquired by NASA’s Perseverance Mars rover. Earth appears as a point of light in the Martian sky, disappearing behind the crescent of Phobos, the larger of Mars’ two moons. This is the first time humanity has captured from the surface of [&#8230;]",
+      "publishedAt": "2026-08-05T15:25:27.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://weli.dev/blog/the-valley-of-webhooks",
+      "title": "The Valley of Webhooks",
+      "url": "https://weli.dev/blog/the-valley-of-webhooks",
+      "summary": "Article URL: https://weli.dev/blog/the-valley-of-webhooks/ Comments URL: https://news.ycombinator.com/item?id=49184216 Points: 31 # Comments: 13",
+      "publishedAt": "2026-08-05T15:22:06.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed",
+      "title": "Cops Used Flock to Track a Man Across State Lines for a Pretextual Weed Search",
+      "url": "https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed",
+      "summary": "Article URL: https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed/ Comments URL: https://news.ycombinator.com/item?id=49184190 Points: 250 # Comments: 127",
+      "publishedAt": "2026-08-05T15:20:11.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
       "title": "Rogue AI agents created fake online identities in another hacking attempt",
       "url": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
@@ -13,26 +233,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://os.cloudflare.app",
-      "title": "Cloudflare OS",
-      "url": "https://os.cloudflare.app",
-      "summary": "Article URL: https://os.cloudflare.app/ Comments URL: https://news.ycombinator.com/item?id=49184083 Points: 6 # Comments: 4",
-      "publishedAt": "2026-08-05T15:11:51.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://images.seroundtable.com/google-assistant-going-away-laEdSzU1.png",
-      "title": "Google Assistant is going away on Mobile Devices",
-      "url": "https://images.seroundtable.com/google-assistant-going-away-laEdSzU1.png",
-      "summary": "Article URL: https://images.seroundtable.com/google-assistant-going-away-laEdSzU1.png Comments URL: https://news.ycombinator.com/item?id=49184041 Points: 12 # Comments: 2",
-      "publishedAt": "2026-08-05T15:08:58.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/08/05/zoox-to-start-charging-for-robotaxi-rides-in-las-vegas",
@@ -55,16 +255,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://knock-knock.net/blog/citigroup-idaho-build-a-bear",
-      "title": "Citigroup, Idaho, and Build-a-Bear Launched a Coordinated Attack on Me",
-      "url": "https://knock-knock.net/blog/citigroup-idaho-build-a-bear",
-      "summary": "Article URL: https://knock-knock.net/blog/citigroup-idaho-build-a-bear/ Comments URL: https://news.ycombinator.com/item?id=49183953 Points: 14 # Comments: 1",
-      "publishedAt": "2026-08-05T15:01:26.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84",
       "title": "Puzzle Corner",
       "url": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84",
@@ -73,6 +263,26 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.qwencloud.com/models/qwen-image-3.0-pro",
+      "title": "Qwen 3.0 Image Pro",
+      "url": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
+      "summary": "Article URL: https://www.qwencloud.com/models/qwen-image-3.0-pro Comments URL: https://news.ycombinator.com/item?id=49183850 Points: 140 # Comments: 40",
+      "publishedAt": "2026-08-05T14:53:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026",
+      "title": "Oracle Just Halved Its Always Free ARM Limits",
+      "url": "https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026",
+      "summary": "Article URL: https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026/ Comments URL: https://news.ycombinator.com/item?id=49183750 Points: 101 # Comments: 67",
+      "publishedAt": "2026-08-05T14:46:36.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale",
@@ -93,216 +303,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules",
-      "title": "Trump EPA wrongly canceled $20B in climate funds, appeals court rules",
-      "url": "https://techcrunch.com/2026/08/05/trump-epa-wrongly-canceled-20b-in-climate-funds-appeals-court-rules",
-      "summary": "Climate nonprofits can again access their federal funding more than a year after the Trump EPA ordered Citibank to freeze their accounts.",
-      "publishedAt": "2026-08-05T14:40:13.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
-      "title": "Anthropic is hiring an AI chip design team",
-      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
-      "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude-maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
-      "publishedAt": "2026-08-05T14:13:18.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/975563/imessage-android-sunbird",
-      "title": "Sunbird relaunched its iMessage app for Android users after three years away",
-      "url": "https://www.theverge.com/tech/975563/imessage-android-sunbird",
-      "summary": "Sunbird Messaging is back on the Google Play Store, offering Android users blue bubble privileges in iMessage complete with reactions and high quality videos for $2.99 a month. Apple and Google have made cross platform messaging better in recent years with support for RCS, but Android users can still cause issues in iMessage group chats, [&#8230;]",
-      "publishedAt": "2026-08-05T14:13:15.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness",
-      "title": "Aristotle quotes on virtue, knowledge, and happiness",
-      "url": "https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness",
-      "summary": "Article URL: https://www.campion.edu.au/blog/top-25-aristotle-quotes-on-virtue-knowledge-and-happiness/ Comments URL: https://news.ycombinator.com/item?id=49183115 Points: 38 # Comments: 13",
-      "publishedAt": "2026-08-05T14:06:39.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.koreajoongangdaily.com/business/got-a-hot-date-this-secondhand-sk-hynix-jacket-is-perfect-as-bonuses-raise-companys-cachet/12584030",
-      "title": "Got a hot date? A secondhand SK Hynix jacket is perfect as bonuses raise cachet",
-      "url": "https://www.koreajoongangdaily.com/business/got-a-hot-date-this-secondhand-sk-hynix-jacket-is-perfect-as-bonuses-raise-companys-cachet/12584030",
-      "summary": "Article URL: https://www.koreajoongangdaily.com/business/got-a-hot-date-this-secondhand-sk-hynix-jacket-is-perfect-as-bonuses-raise-companys-cachet/12584030 Comments URL: https://news.ycombinator.com/item?id=49183089 Points: 11 # Comments: 0",
-      "publishedAt": "2026-08-05T14:04:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://rubinobservatory.org/news/rubin-new-window-cosmos-field",
-      "title": "Rubin Observatory's first LSST Camera release: 500k galaxies in the COSMOS field",
-      "url": "https://rubinobservatory.org/news/rubin-new-window-cosmos-field",
-      "summary": "Article URL: https://rubinobservatory.org/news/rubin-new-window-cosmos-field Comments URL: https://news.ycombinator.com/item?id=49183079 Points: 13 # Comments: 1",
-      "publishedAt": "2026-08-05T14:04:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck",
-      "title": "Intelligence Is Not the Main Bottleneck",
-      "url": "https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck",
-      "summary": "Article URL: https://www.writingruxandrabio.com/p/intelligence-is-not-the-main-bottleneck Comments URL: https://news.ycombinator.com/item?id=49183076 Points: 24 # Comments: 6",
-      "publishedAt": "2026-08-05T14:04:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://tson.io",
-      "title": "TSON – A JSON superset with immutable, hash-pinned schemas",
-      "url": "https://tson.io",
-      "summary": "Article URL: https://tson.io/ Comments URL: https://news.ycombinator.com/item?id=49183069 Points: 24 # Comments: 17",
-      "publishedAt": "2026-08-05T14:03:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/975538/amazon-ring-peephole-cam-2k-smart-doorbell-preorder-easy-install",
-      "title": "Ring upgraded its peephole doorbell camera to 2K",
-      "url": "https://www.theverge.com/tech/975538/amazon-ring-peephole-cam-2k-smart-doorbell-preorder-easy-install",
-      "summary": "Ring has debuted a new version of its smart doorbell camera that's designed to be easily installed as a replacement for a door's peephole without drilling or running wires. The Peephole Cam 2K is a replacement for the brand's Door View Cam that first debuted in 2019 and, alongside a sleeker design, it features a [&#8230;]",
-      "publishedAt": "2026-08-05T14:01:20.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain",
-      "title": "The Entropy of a Markov Chain",
-      "url": "https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain",
-      "summary": "Article URL: https://chillphysicsenjoyer.substack.com/p/the-entropy-of-a-markov-chain Comments URL: https://news.ycombinator.com/item?id=49183017 Points: 22 # Comments: 0",
-      "publishedAt": "2026-08-05T14:00:10.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/974436/summer-travel-tech-gadget-gift-guide",
-      "title": "Traveling this summer? Don’t go without these essential gadgets",
-      "url": "https://www.theverge.com/gadgets/974436/summer-travel-tech-gadget-gift-guide",
-      "summary": "There's a chance that you've already taken your big summer trip. If not, August and early autumn are wonderful times to travel. No matter when or where you go, there are some products that can make the boring parts of your trip more fun, and the fun parts of your trip even better. We picked [&#8230;]",
-      "publishedAt": "2026-08-05T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research",
-      "title": "Advanced Mini-laboratories Automate Space Station Research",
-      "url": "https://www.nasa.gov/image-article/advanced-mini-laboratories-automate-space-station-research",
-      "summary": "The International Space Station hosts hundreds of science experiments at a time. Some experiments can take hours to perform, and researchers need to account for astronauts’ limited time. Fully automated devices, like Redwire’s &#160;ADvanced Space Experiment Processors (ADSEPs), have been designed to conduct more space science with less crew time. Within each ADSEP facility there [&#8230;]",
-      "publishedAt": "2026-08-05T14:00:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report",
-      "title": "SpaceX spooks investors with debut earnings report",
-      "url": "https://arstechnica.com/ai/2026/08/spacex-spooks-investors-with-debut-earnings-report",
-      "summary": "Shares slide in pre-market trading even as group says its quarterly revenues nearly doubled.",
-      "publishedAt": "2026-08-05T13:59:17.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://blog.cloudflare.com/cloudflare-os",
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os",
-      "summary": "Article URL: https://blog.cloudflare.com/cloudflare-os/ Comments URL: https://news.ycombinator.com/item?id=49182996 Points: 169 # Comments: 90",
-      "publishedAt": "2026-08-05T13:58:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://franciscotrindade.me/blog/the-kids-are-alright",
-      "title": "Not hiring junior engineers won't solve the problem you think you have",
-      "url": "https://franciscotrindade.me/blog/the-kids-are-alright",
-      "summary": "Article URL: https://franciscotrindade.me/blog/the-kids-are-alright/ Comments URL: https://news.ycombinator.com/item?id=49182957 Points: 48 # Comments: 51",
-      "publishedAt": "2026-08-05T13:55:48.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://data4sci.com/blog/building-an-advanced-agentic-harness",
-      "title": "Building an Advanced Agentic Harness",
-      "url": "https://data4sci.com/blog/building-an-advanced-agentic-harness",
-      "summary": "Article URL: https://data4sci.com/blog/building-an-advanced-agentic-harness Comments URL: https://news.ycombinator.com/item?id=49182946 Points: 29 # Comments: 15",
-      "publishedAt": "2026-08-05T13:54:12.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/streaming/975543/disney-plus-free-tier-q3-2026-earnings",
-      "title": "Disney says it&#8217;s &#8216;exploring&#8217; adding a free tier to Disney Plus",
-      "url": "https://www.theverge.com/streaming/975543/disney-plus-free-tier-q3-2026-earnings",
-      "summary": "Disney is looking into launching a free streaming option. When asked about Disney's plans for free, ad-supported streaming during an earnings call on Wednesday, Disney CEO Josh D'Amaro confirmed the company is \"exploring a free product for consumers.\" D'Amaro added that a free tier will help drive growth and expand the streaming service's reach \"to [&#8230;]",
-      "publishedAt": "2026-08-05T13:44:14.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://yogthos.net/posts/2026-08-03-splat-painter.html",
-      "title": "Painting with Gaussians",
-      "url": "https://yogthos.net/posts/2026-08-03-splat-painter.html",
-      "summary": "Article URL: https://yogthos.net/posts/2026-08-03-splat-painter.html Comments URL: https://news.ycombinator.com/item?id=49182695 Points: 15 # Comments: 0",
-      "publishedAt": "2026-08-05T13:34:32.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://build2.org/blog/faster-than-ninja.xhtml",
-      "title": "Faster Than Ninja",
-      "url": "https://build2.org/blog/faster-than-ninja.xhtml",
-      "summary": "Article URL: https://build2.org/blog/faster-than-ninja.xhtml Comments URL: https://news.ycombinator.com/item?id=49182685 Points: 28 # Comments: 4",
-      "publishedAt": "2026-08-05T13:33:25.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://apoxy.dev/blog/oghttp2-vs-nghttp2",
-      "title": "Google's HTTP/2 codec slows Envoy",
-      "url": "https://apoxy.dev/blog/oghttp2-vs-nghttp2",
-      "summary": "Article URL: https://apoxy.dev/blog/oghttp2-vs-nghttp2 Comments URL: https://news.ycombinator.com/item?id=49182586 Points: 27 # Comments: 0",
-      "publishedAt": "2026-08-05T13:26:01.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://ktxconverter.robertborghesi.is",
-      "title": "KTX Images Converter for WebGL/GPU and Threejs",
-      "url": "https://ktxconverter.robertborghesi.is",
-      "summary": "Article URL: https://ktxconverter.robertborghesi.is Comments URL: https://news.ycombinator.com/item?id=49182560 Points: 5 # Comments: 1",
-      "publishedAt": "2026-08-05T13:24:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

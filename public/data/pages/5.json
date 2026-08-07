@@ -5,30 +5,30 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/agents-on-cloudflare",
-      "title": "Introducing: Cloudflare Agents",
-      "url": "https://blog.cloudflare.com/agents-on-cloudflare",
-      "summary": "Cloudflare Agents brings all of your deployed agent sessions into a single experience, surfacing key information and insights into how your agents perform at scale.",
+      "id": "cloudflare-blog:https://blog.cloudflare.com/wallets",
+      "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+      "url": "https://blog.cloudflare.com/wallets",
+      "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
     },
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/local-tracing",
-      "title": "Your agent can now debug Workers with local tracing",
-      "url": "https://blog.cloudflare.com/local-tracing",
-      "summary": "wrangler dev now produces structured traces for every local request. Your coding agent can hit a single API to pinpoint exactly what failed and why — no deployment required.",
+      "id": "cloudflare-blog:https://blog.cloudflare.com/ci-workflows",
+      "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+      "url": "https://blog.cloudflare.com/ci-workflows",
+      "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
     },
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/astro-issue-triage",
-      "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
-      "url": "https://blog.cloudflare.com/astro-issue-triage",
-      "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases.",
+      "id": "cloudflare-blog:https://blog.cloudflare.com/engineering-standards-enforcement",
+      "title": "How Cloudflare enforces engineering standards using AI",
+      "url": "https://blog.cloudflare.com/engineering-standards-enforcement",
+      "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency across code, specs, and incident reports.",
       "publishedAt": "2026-08-04T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
@@ -93,16 +93,6 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-computer",
-      "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-      "url": "https://blog.cloudflare.com/cloudflare-computer",
-      "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
-      "publishedAt": "2026-08-03T13:15:24.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks",
@@ -300,6 +290,16 @@
       "url": "https://openai.com/index/chatgpt-for-academic-researchers",
       "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
       "publishedAt": "2026-07-29T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "publishedAt": "2026-07-29T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"

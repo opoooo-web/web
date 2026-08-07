@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/08/06/tiktok-lays-off-250-employees-shutters-its-nashville-office",
+      "title": "TikTok lays off 250 employees, shutters its Nashville office",
+      "url": "https://techcrunch.com/2026/08/06/tiktok-lays-off-250-employees-shutters-its-nashville-office",
+      "summary": "The social media giant is shuttering an office that housed some members of TikTok’s content-moderation team.",
+      "publishedAt": "2026-08-06T16:06:40.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/06/google-wallet-now-lets-parents-set-up-secure-balances-for-their-kids",
+      "title": "Google Wallet now lets parents set up secure balances for their kids",
+      "url": "https://techcrunch.com/2026/08/06/google-wallet-now-lets-parents-set-up-secure-balances-for-their-kids",
+      "summary": "The tech giant says the new feature will allow parents to teach their kids healthy financial habits while maintaining oversight over their child's spending with built-in safeguards.",
+      "publishedAt": "2026-08-06T16:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://provenmetal.com",
+      "title": "Launch HN: ProvenMetal (YC S26) delivers circuit boards in days instead of weeks",
+      "url": "https://provenmetal.com",
+      "summary": "Hey HN, we’re Will & Johnny from ProvenMetal ( https://provenmetal.com ). You send us design files or specs and we give you assembled boards domestically in days. The US produced 30% of PCBs globally in 2000, now they produce 4%. Chinese manufacturers have completely dominated this space at 55% of global production. Now, the need for a domestic PCB supply chain is higher than ever before, yet the infrastructure has been dissolving over the last 2 decades. What is left is mostly small family run manufacturers (CMs) that have been operating in largely the same, labor intensive way since the early 2000’s. When you place an order through a CM it typically takes several days to receive a quote and complete design for manufacture review, and then you have to source all of the components (the hardest part) and bare boards yourself, then wait anywhere from a few days to several weeks for the assembly and testing of those boards. We started off assembling circuit boards out of a garage with prosumer grade equipment (NeoDen YY1, Glenbrook X-ray, solder paste stencils, and manual rework stations). We believed that by owning the manufacturing process, we could turn all the front of house automations inwards. But here’s the thing… manufacturing circuit boards with prosumer grade equipment out of a garage takes a huge amount of time. Suddenly we were spending 90% of our time assembling circuit boards instead of growing the business. We were completely capacity constrained, with fancy software automations that are not the binding constraint at low volumes. Then we got our heads out of the weeds, took a step back, and realized that we were trying to solve the wrong bottlenecks. These manufacturers are good at manufacturing and terrible at the front of house (quoting, DFM review, and part procurement). When you look at the full process, you realize that assembly is not the bottleneck. So we stopped trying to solve the problem that we can’t solve at this stage. We measured the bottlenecks and nailed down the ones that we are best positioned to solve right now. When a customer wants a domestically manufactured circuit board, it is not a straight forward process. We are making that process easy through front of house automation. A customer gives us their design files, and we automatically procure components, and co-ordinate bare board fabs and assembly houses to get quotes, design review, and manufacturing completed in a very tight loop. How we solve part procurement (you can’t assemble boards with no parts!): When a user places an order with us, our system automatically sources their bill of materials across US and overseas distributors. However, when we work with customers during the design process, our plug-ins interact with KiCAD and Altium, sending the BOM to our ordering platform, which allows us to automatically procure components before layout is finalized. KiCAD plugin: ( https://github.com/proven-metal/provenmetal-kicad ) Altium plugin: ( https://github.com/proven-metal/provenmetal-altium ) This enables us to order long lead time parts in advance, suggest alternatives if parts are out of stock, and solve the biggest bottleneck in the process. We store parts in our hq in SF, and then kit the boards and route them through our network. We also do long term storage of parts for long lead time items. How we solve endless emails: Every manufacturer wants the same information in a different shape. There’s usually a few days of back and forth emailing to achieve clarity. We’re building a profile per manufacturer and sending the order to fit their requirements. This may sound trivial but it removes a multi-day round trip on most orders, which on a quick-turn build is a meaningful share of the time. How to solve design review: Each manufacturer has individual capability sheets, and so we have a heuristic harness that Fable 5 uses to check the board for DFM issues. We’re building a streamlined process for end-to-end pcb manufacturing, but is that enough to solve the supply chain? Not a chance. Capacity is the problem, and no amount of smart software will solve it. We’re extracting real slack from the system today, that slack is finite, and at some volume the only remaining move is adding physical capacity. We think that’s where this goes. We charge a simple margin on the order value depending on order complexity with fully transparent quote breakdowns. We took our first paying order in less than a week and we’ve done roughly $70k across 11 orders in 6 weeks. We are very interested in your opinion. We’re working in a problem space that has problems everywhere, we’re constantly pulled in wild directions regarding which problems we solve and how we go about solving them. What do you know that we can learn from? Comments URL: https://news.ycombinator.com/item?id=49198464 Points: 208 # Comments: 147",
+      "publishedAt": "2026-08-06T15:59:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking",
       "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
       "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking",
@@ -18,7 +48,7 @@
       "id": "hacker-news:https://www.githubstatus.com/incidents/qcvjkzcs7j74",
       "title": "GitHub Actions and Pages are experiencing degraded availability",
       "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
-      "summary": "https://www.githubstatus.com/uptime/br0l2tvcx85d Comments URL: https://news.ycombinator.com/item?id=49198302 Points: 410 # Comments: 336",
+      "summary": "https://www.githubstatus.com/uptime/br0l2tvcx85d Comments URL: https://news.ycombinator.com/item?id=49198302 Points: 421 # Comments: 344",
       "publishedAt": "2026-08-06T15:49:38.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -80,16 +110,6 @@
       "url": "https://techcrunch.com/2026/08/06/amid-legal-battles-suno-says-it-will-start-watermarking-songs",
       "summary": "Suno's watermarking feature comes as the company is fighting legal battles on several fronts.",
       "publishedAt": "2026-08-06T13:31:57.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350",
-      "title": "Ford&#8217;s new electric truck, &#8216;Fathom,&#8217; starts at $28,350",
-      "url": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350",
-      "summary": "Due in \"fall 2027,\" Ford said Thursday that it won't reveal what Fathom looks like until early next year.",
-      "publishedAt": "2026-08-06T13:01:25.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
@@ -198,7 +218,7 @@
       "id": "hacker-news:https://scalex.dev/blog/ai-agent-permissions-stats",
       "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
       "url": "https://scalex.dev/blog/ai-agent-permissions-stats",
-      "summary": "Article URL: https://scalex.dev/blog/ai-agent-permissions-stats/ Comments URL: https://news.ycombinator.com/item?id=49195468 Points: 306 # Comments: 217",
+      "summary": "Article URL: https://scalex.dev/blog/ai-agent-permissions-stats/ Comments URL: https://news.ycombinator.com/item?id=49195468 Points: 309 # Comments: 219",
       "publishedAt": "2026-08-06T11:58:07.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -208,7 +228,7 @@
       "id": "hacker-news:https://www.mayerowitz.io/blog/mario-meets-pareto",
       "title": "Mario Meets Pareto",
       "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
-      "summary": "Article URL: https://www.mayerowitz.io/blog/mario-meets-pareto Comments URL: https://news.ycombinator.com/item?id=49195231 Points: 1053 # Comments: 160",
+      "summary": "Article URL: https://www.mayerowitz.io/blog/mario-meets-pareto Comments URL: https://news.ycombinator.com/item?id=49195231 Points: 1064 # Comments: 160",
       "publishedAt": "2026-08-06T11:24:53.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -283,26 +303,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers",
-      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
-      "url": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers",
-      "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
-      "publishedAt": "2026-08-05T22:35:20.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing",
-      "title": "Schwartz confirmed as CDC director after bungling confirmation hearing",
-      "url": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing",
-      "summary": "Schwartz is well-qualified for the role, but crashed and burned in Senate hearing.",
-      "publishedAt": "2026-08-05T21:03:18.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

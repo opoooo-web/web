@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power",
+      "title": "Trump is losing his war on wind power",
+      "url": "https://arstechnica.com/science/2026/08/trump-is-losing-his-war-on-wind-power",
+      "summary": "A court rules that a hold on all wind projects clearly violates the law.",
+      "publishedAt": "2026-08-07T12:58:04.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice",
+      "title": "Radical Study Suggests Life on Earth Arose Twice",
+      "url": "https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice",
+      "summary": "Article URL: https://www.sciencealert.com/radical-study-suggests-life-on-earth-arose-from-non-living-matter-twice Comments URL: https://news.ycombinator.com/item?id=49209572 Points: 114 # Comments: 90",
+      "publishedAt": "2026-08-07T12:45:08.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.noemamag.com/why-is-everyone-in-tech-so-sad",
+      "title": "What happens if an entire class of workers loses faith in their careers",
+      "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad",
+      "summary": "Article URL: https://www.noemamag.com/why-is-everyone-in-tech-so-sad/ Comments URL: https://news.ycombinator.com/item?id=49209539 Points: 502 # Comments: 586",
+      "publishedAt": "2026-08-07T12:42:27.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know",
       "title": "The founder&#8217;s guide to TechCrunch Disrupt 2026: Everything you need to know",
       "url": "https://techcrunch.com/2026/08/07/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know",
@@ -18,7 +48,7 @@
       "id": "hacker-news:https://github.com/Wyzer-Lang/wyzer",
       "title": "Show HN: Wyzer Programming Language",
       "url": "https://github.com/Wyzer-Lang/wyzer",
-      "summary": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by the strict type checking but what it does not gurantee safety against are distributed deadlocks which is basically a few independent nodes or services wait permanently for resources or messages held by each other, forming a circular wait, the rest are cross-service correctness and protocol mismatch as well. If we are specific over here Wyzer works on mainly generalizing the concept of choreographic programming in a high level programming language because its the very few attempts of actually solving these gaps of safety. Instead of borrow checkers and lifetimes wyzer has linear/affine types and a perceus reference counting which is computationally much simpler for an LSP to understand as well after 5 months of research and a few weeks of development i am soon going to release version 0.1.0 of it, if you would like to contribute to it you're most welcome! Comments URL: https://news.ycombinator.com/item?id=49209385 Points: 174 # Comments: 100",
+      "summary": "So i've been working on this project since a few days (or months i should say), it's called wyzer (meaning wiser) it's a statically typed, compiled, resource-oriented programming language with integrated distributed safety via choreographic programming and perceus memory model, The reason why i began this project is out of frustration from Rust, you see it does provide safety for your memory by the strict type checking but what it does not gurantee safety against are distributed deadlocks which is basically a few independent nodes or services wait permanently for resources or messages held by each other, forming a circular wait, the rest are cross-service correctness and protocol mismatch as well. If we are specific over here Wyzer works on mainly generalizing the concept of choreographic programming in a high level programming language because its the very few attempts of actually solving these gaps of safety. Instead of borrow checkers and lifetimes wyzer has linear/affine types and a perceus reference counting which is computationally much simpler for an LSP to understand as well after 5 months of research and a few weeks of development i am soon going to release version 0.1.0 of it, if you would like to contribute to it you're most welcome! Comments URL: https://news.ycombinator.com/item?id=49209385 Points: 182 # Comments: 103",
       "publishedAt": "2026-08-07T12:28:55.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,7 +68,7 @@
       "id": "hacker-news:https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine",
       "title": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
       "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine",
-      "summary": "Article URL: https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/ Comments URL: https://news.ycombinator.com/item?id=49208535 Points: 251 # Comments: 119",
+      "summary": "Article URL: https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/ Comments URL: https://news.ycombinator.com/item?id=49208535 Points: 264 # Comments: 124",
       "publishedAt": "2026-08-07T11:00:35.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -55,26 +85,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://textlog.cc/about",
-      "title": "Show HN: textlog – A quiet, text-only microblogging platform, open-source, no JS",
-      "url": "https://textlog.cc/about",
-      "summary": "Article URL: https://textlog.cc/about Comments URL: https://news.ycombinator.com/item?id=49208458 Points: 141 # Comments: 61",
-      "publishedAt": "2026-08-07T10:52:21.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://blog.cloudflare.com/kitesurf",
-      "title": "Kitesurf: Agent-first browser that runs in V8 isolates",
-      "url": "https://blog.cloudflare.com/kitesurf",
-      "summary": "Article URL: https://blog.cloudflare.com/kitesurf/ Comments URL: https://news.ycombinator.com/item?id=49208393 Points: 169 # Comments: 43",
-      "publishedAt": "2026-08-07T10:42:07.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "openai-news:https://openai.com/index/hsp-gruppe",
       "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
       "url": "https://openai.com/index/hsp-gruppe",
@@ -83,16 +93,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "hacker-news:https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "title": "2027 memory capacity is reportedly sold out",
-      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "summary": "Article URL: https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out Comments URL: https://news.ycombinator.com/item?id=49207236 Points: 246 # Comments: 230",
-      "publishedAt": "2026-08-07T07:58:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/johnson/nasas-lunar-development-and-test-facility-prepares-artemis-hardware-for-moon",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T06:44:07.523Z",
+  "generatedAt": "2026-08-10T08:52:33.372Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,12 +14,12 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 54
+      "count": 59
     },
     {
       "name": "Hugging Face Blog",
       "category": "AI",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Ars Technica",
@@ -47,14 +47,14 @@
       "count": 18
     },
     {
-      "name": "AWS News Blog",
-      "category": "Infrastructure",
-      "count": 12
-    },
-    {
       "name": "Google AI",
       "category": "AI",
-      "count": 12
+      "count": 14
+    },
+    {
+      "name": "AWS News Blog",
+      "category": "Infrastructure",
+      "count": 13
     },
     {
       "name": "GitHub Blog",
@@ -70,12 +70,13 @@
       "name": "NASA Breaking News",
       "category": "Science",
       "count": 10
-    },
-    {
-      "name": "The Verge",
-      "category": "Technology",
-      "count": 10
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "message": "HTTP 404"
+    }
+  ]
 }

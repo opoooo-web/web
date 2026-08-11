@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/responsible-ai-infrastructure-texas",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb",
+      "title": "Lion Nebula Roars to Life With NASA’s Webb",
+      "url": "https://science.nasa.gov/missions/webb/lion-nebula-roars-to-life-with-nasas-webb",
+      "summary": "Observing across the starry “plains” of space, NASA’s James Webb Space Telescope has taken new images of NGC 2392, nicknamed the Lion Nebula. NASA’s Hubble Space Telescope previously viewed this planetary nebula in 2000, imaging the lion face-shaped target in visible light and revealing features such as the “mane” of hazy, comet-shaped objects. Now Webb […]",
+      "publishedAt": "2026-08-10T14:00:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/learning-resources/launch-into-a-new-school-year-with-nasa",
+      "title": "Launch Into a New School Year With NASA",
+      "url": "https://www.nasa.gov/learning-resources/launch-into-a-new-school-year-with-nasa",
+      "summary": "A new school year brings fresh opportunities to get involved with NASA. Whether you’re curious about space or eager to build real STEM skills, NASA offers a world of experiences putting you close to the action. As we enter a new golden age of exploration, there’s no better time to jump in, try something bold, [&#8230;]",
+      "publishedAt": "2026-08-10T13:59:28.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/fedramp-class-d-certification",
+      "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+      "url": "https://blog.cloudflare.com/fedramp-class-d-certification",
+      "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
+      "publishedAt": "2026-08-10T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex",
       "title": "The Download: AI agents for science, and the &#8220;censorship-industrial complex&#8221;",
       "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex",
@@ -85,16 +125,6 @@
       "category": "Science"
     },
     {
-      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod/apod-2026-august-10-three-galaxy-pairs",
-      "title": "APOD: 2026 August 10 – Three Galaxy Pairs",
-      "url": "https://science.nasa.gov/image-article/apod/apod-2026-august-10-three-galaxy-pairs",
-      "summary": "APOD Science APOD APOD: 2026 August 10 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD APOD: 2026 August 10 – Three Galaxy Pairs Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. [&#8230;]",
-      "publishedAt": "2026-08-10T04:05:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "openai-news:https://openai.com/index/premium-seats-chatgpt-business",
       "title": "Premium seats are coming to ChatGPT Business",
       "url": "https://openai.com/index/premium-seats-chatgpt-business",
@@ -150,16 +180,6 @@
       "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success",
       "summary": "About 90 percent of the distance driven by Perseverance has been autonomous.",
       "publishedAt": "2026-08-08T11:30:48.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
-      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-      "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
-      "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
-      "publishedAt": "2026-08-08T11:05:50.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
@@ -283,26 +303,6 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
-    },
-    {
-      "id": "github-blog:https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm",
-      "title": "How we took malware advisories beyond npm",
-      "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm",
-      "summary": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond npm appeared first on The GitHub Blog .",
-      "publishedAt": "2026-08-06T16:51:12.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list",
-      "title": "GeForce NOW Shakes Up August With 26 New Games",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-august-2026-games-list",
-      "summary": "August is here, bringing 26 new games for GeForce NOW members. Command the seas in World of Warships: Legends and discover what’s next in the GeForce NOW library, starting with the eight newly added games this week. In addition, GeForce NOW is at the QuakeCon gaming conference this week in Grapevine, Texas, with hands-on experiences [&#8230;]",
-      "publishedAt": "2026-08-06T13:00:11.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
     }
   ]
 }

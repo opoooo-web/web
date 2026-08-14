@@ -5,6 +5,76 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://luacad.ad-si.com",
+      "title": "Show HN: LuaCAD – Parametric CAD Scripted in Lua",
+      "url": "https://luacad.ad-si.com",
+      "summary": "LuaCAD models solids in Lua rather than the OpenSCAD language, with operator overloading for CSG (`a + b`, `a - b`, `a * b`). It ships with a CLI and a desktop app, including a preview area and a text editor. I've always been a big fan of OpenSCAD, but the SCAD language itself is unfortunately quite cobbled-together and is a very poorly designed programming language. LuaCAD takes all the good parts of OpenSCAD and combines them with one of the best scripting languages. It has now completely replaced OpenSCAD for me, and I think it provides a better experience than OpenSCAD for all use cases. I'd love to hear any reasons why LuaCAD shouldn't fully replace OpenSCAD! It’s fully open source and you can find the repo here: https://github.com/ad-si/LuaCAD Tech stack: - It's implemented in Rust and uses mlua ( https://github.com/mlua-rs/mlua ) to execute the Lua code. - Uses OpenCSG ( https://opencsg.org ) for fast and correct rendering of the 3D models (like OpenSCAD) - Uses Manifold ( https://github.com/elalish/manifold ) to create the manifold triangle meshes - Native support for all BOSL2 functions (i.e. implemented in Rust for better performance) Comments URL: https://news.ycombinator.com/item?id=49301215 Points: 50 # Comments: 12",
+      "publishedAt": "2026-08-14T16:43:22.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "title": "You can now turn off Google Gemini&#8217;s visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of [&#8230;]",
+      "publishedAt": "2026-08-14T16:39:32.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch",
+      "title": "Policy experts: Europe stuck between \"rock and a hard place\" on launch",
+      "url": "https://arstechnica.com/space/2026/08/policy-experts-europe-stuck-between-rock-and-a-hard-place-on-launch",
+      "summary": "It turns out that the economics of rocket reuse are pretty, pretty good.",
+      "publishedAt": "2026-08-14T16:29:21.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze",
+      "title": "Unforgetful is a new reminders app for people who can&#8217;t stop hitting snooze",
+      "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze",
+      "summary": "Unforgetful, the latest app from longtime indie developer Marco Arment, is designed to make reminders harder to ignore — or accidentally dismiss.",
+      "publishedAt": "2026-08-14T16:21:04.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "summary": "Article URL: https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions Comments URL: https://news.ycombinator.com/item?id=49300800 Points: 86 # Comments: 61",
+      "publishedAt": "2026-08-14T16:15:21.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "publishedAt": "2026-08-14T16:13:40.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://rustdesk.com/blog/unattended-remote-access-wayland",
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland",
+      "summary": "Article URL: https://rustdesk.com/blog/unattended-remote-access-wayland/ Comments URL: https://news.ycombinator.com/item?id=49300759 Points: 150 # Comments: 59",
+      "publishedAt": "2026-08-14T16:12:52.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games",
       "title": "Ars Live recap: How can we stop publishers from killing their own games?",
       "url": "https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games",
@@ -18,7 +88,7 @@
       "id": "hacker-news:https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14",
       "title": "France's top court blocks social media ban for under-15s",
       "url": "https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14",
-      "summary": "Article URL: https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/ Comments URL: https://news.ycombinator.com/item?id=49300671 Points: 147 # Comments: 89",
+      "summary": "Article URL: https://www.reuters.com/world/frances-top-court-rules-social-media-ban-curtails-freedom-expression-2026-08-14/ Comments URL: https://news.ycombinator.com/item?id=49300671 Points: 170 # Comments: 112",
       "publishedAt": "2026-08-14T16:06:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -38,7 +108,7 @@
       "id": "hacker-news:https://www.byhand.ai",
       "title": "AI by Hand",
       "url": "https://www.byhand.ai",
-      "summary": "Article URL: https://www.byhand.ai/ Comments URL: https://news.ycombinator.com/item?id=49300568 Points: 87 # Comments: 10",
+      "summary": "Article URL: https://www.byhand.ai/ Comments URL: https://news.ycombinator.com/item?id=49300568 Points: 100 # Comments: 10",
       "publishedAt": "2026-08-14T15:58:59.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -68,7 +138,7 @@
       "id": "hacker-news:https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
       "title": "Google is making private AI practical with homomorphic encryption",
       "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
-      "summary": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 127 # Comments: 81",
+      "summary": "Article URL: https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ Comments URL: https://news.ycombinator.com/item?id=49300314 Points: 165 # Comments: 111",
       "publishedAt": "2026-08-14T15:43:10.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,7 +158,7 @@
       "id": "hacker-news:https://www.mixedbread.com/blog/toast-1",
       "title": "Introducing Toast 1",
       "url": "https://www.mixedbread.com/blog/toast-1",
-      "summary": "Article URL: https://www.mixedbread.com/blog/toast-1 Comments URL: https://news.ycombinator.com/item?id=49299746 Points: 129 # Comments: 39",
+      "summary": "Article URL: https://www.mixedbread.com/blog/toast-1 Comments URL: https://news.ycombinator.com/item?id=49299746 Points: 141 # Comments: 42",
       "publishedAt": "2026-08-14T15:07:57.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -98,7 +168,7 @@
       "id": "hacker-news:https://blog.plover.com/2026/08/02",
       "title": "Seven books I keep close because I love them",
       "url": "https://blog.plover.com/2026/08/02",
-      "summary": "Article URL: https://blog.plover.com/2026/08/02/ Comments URL: https://news.ycombinator.com/item?id=49299675 Points: 207 # Comments: 92",
+      "summary": "Article URL: https://blog.plover.com/2026/08/02/ Comments URL: https://news.ycombinator.com/item?id=49299675 Points: 230 # Comments: 97",
       "publishedAt": "2026-08-14T15:03:26.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -115,20 +185,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://kukuroo.cc",
-      "title": "Self-hosted web push Cloudflare Worker, works on iOS",
-      "url": "https://kukuroo.cc",
-      "summary": "Article URL: https://kukuroo.cc/ Comments URL: https://news.ycombinator.com/item?id=49299667 Points: 48 # Comments: 15",
-      "publishedAt": "2026-08-14T15:03:12.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
       "title": "Qwen 3.8 27B",
       "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-      "summary": "Article URL: https://huggingface.co/Qwen/Qwen3.8-27B-FP8 Comments URL: https://news.ycombinator.com/item?id=49299605 Points: 552 # Comments: 368",
+      "summary": "Article URL: https://huggingface.co/Qwen/Qwen3.8-27B-FP8 Comments URL: https://news.ycombinator.com/item?id=49299605 Points: 645 # Comments: 420",
       "publishedAt": "2026-08-14T15:00:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -175,20 +235,10 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://earth.nullschool.net",
-      "title": "Earth.nullschool.net",
-      "url": "https://earth.nullschool.net",
-      "summary": "Article URL: https://earth.nullschool.net/ Comments URL: https://news.ycombinator.com/item?id=49299364 Points: 42 # Comments: 16",
-      "publishedAt": "2026-08-14T14:42:23.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://lxe.github.io/everywebsite",
       "title": "Every Fucking Website (2020)",
       "url": "https://lxe.github.io/everywebsite",
-      "summary": "Article URL: https://lxe.github.io/everywebsite/ Comments URL: https://news.ycombinator.com/item?id=49299222 Points: 622 # Comments: 354",
+      "summary": "Article URL: https://lxe.github.io/everywebsite/ Comments URL: https://news.ycombinator.com/item?id=49299222 Points: 648 # Comments: 371",
       "publishedAt": "2026-08-14T14:31:08.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -203,36 +253,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
-      "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
-      "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
-      "summary": "Article URL: https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0 Comments URL: https://news.ycombinator.com/item?id=49299102 Points: 39 # Comments: 5",
-      "publishedAt": "2026-08-14T14:22:39.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://heyjonny.dev/posts/rss-to-eink-newspaper",
-      "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
-      "url": "https://heyjonny.dev/posts/rss-to-eink-newspaper",
-      "summary": "Article URL: https://heyjonny.dev/posts/rss-to-eink-newspaper/ Comments URL: https://news.ycombinator.com/item?id=49299081 Points: 86 # Comments: 37",
-      "publishedAt": "2026-08-14T14:21:18.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://e360.yale.edu/digest/australia-home-batteries",
-      "title": "In Australia, a home battery boom has helped cut wholesale power prices",
-      "url": "https://e360.yale.edu/digest/australia-home-batteries",
-      "summary": "Article URL: https://e360.yale.edu/digest/australia-home-batteries Comments URL: https://news.ycombinator.com/item?id=49298910 Points: 265 # Comments: 198",
-      "publishedAt": "2026-08-14T14:07:52.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct",
@@ -283,26 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/979928/cmf-clip-pro-review",
-      "title": "CMF&#8217;s clip earbuds hit the balance between cheap and good",
-      "url": "https://www.theverge.com/tech/979928/cmf-clip-pro-review",
-      "summary": "Clip earbuds are an exercise in compromise. It's an inherent aspect of their design - and physics. They can be more comfortable for people that don't like something jammed in their ear, but sound response suffers. Ambient awareness is great because you can easily hear the sound around you, which means to hear your own [&#8230;]",
-      "publishedAt": "2026-08-14T12:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan",
-      "title": "Rocket Report: Rocket Lab shows off its flexibility; Blue Origin's two-pad plan",
-      "url": "https://arstechnica.com/space/2026/08/rocket-report-rocket-lab-shows-off-its-flexibility-blue-origins-two-pad-plan",
-      "summary": "\"We’ve never seen launch capacity so constrained.\"",
-      "publishedAt": "2026-08-14T11:00:49.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:19:04.463Z",
+  "generatedAt": "2026-08-14T11:59:09.825Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -19,7 +19,7 @@
     {
       "name": "Hugging Face Blog",
       "category": "AI",
-      "count": 28
+      "count": 23
     },
     {
       "name": "Ars Technica",
@@ -29,6 +29,11 @@
     {
       "name": "Cloudflare Blog",
       "category": "Infrastructure",
+      "count": 20
+    },
+    {
+      "name": "Hacker News",
+      "category": "Developer",
       "count": 20
     },
     {
@@ -44,12 +49,7 @@
     {
       "name": "Google AI",
       "category": "AI",
-      "count": 15
-    },
-    {
-      "name": "AWS News Blog",
-      "category": "Infrastructure",
-      "count": 11
+      "count": 13
     },
     {
       "name": "GitHub Blog",
@@ -62,21 +62,21 @@
       "count": 10
     },
     {
-      "name": "NASA Breaking News",
-      "category": "Science",
-      "count": 10
-    },
-    {
       "name": "The Verge",
       "category": "Technology",
       "count": 10
+    },
+    {
+      "name": "AWS News Blog",
+      "category": "Infrastructure",
+      "count": 8
     }
   ],
   "errors": [
     {
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "message": "fetch failed"
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "message": "HTTP 429"
     }
   ]
 }

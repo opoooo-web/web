@@ -5,6 +5,86 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+      "title": "Apple squashes EU beef with new App Store rules",
+      "url": "https://www.theverge.com/tech/981504/apple-app-store-eu-rules-core-technology-commission",
+      "summary": "Apple is once again overhauling App Store rules in the European Union, which the company says will resolve its \"disagreements with the Commission over business terms and alternative distribution.\" As part of the changes, every developer that distributes apps will be moved to a single set of business terms, and digital transactions for apps distributed [&#8230;]",
+      "publishedAt": "2026-08-18T16:48:26.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/18/comcast-adds-motion-sensing-to-millions-of-its-newer-routers-with-a-privacy-catch",
+      "title": "Comcast adds motion sensing to millions of its newer routers, with a privacy catch",
+      "url": "https://techcrunch.com/2026/08/18/comcast-adds-motion-sensing-to-millions-of-its-newer-routers-with-a-privacy-catch",
+      "summary": "A new feature added to Comcast's newest routers can detect if there is motion is inside your home without needing traditional motion sensors.",
+      "publishedAt": "2026-08-18T16:39:05.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://status.claude.com/incidents/q7txxvbsftgq",
+      "title": "Claude: Degraded Performance for Multiple Models",
+      "url": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "summary": "Article URL: https://status.claude.com/incidents/q7txxvbsftgq Comments URL: https://news.ycombinator.com/item?id=49348163 Points: 12 # Comments: 2",
+      "publishedAt": "2026-08-18T16:28:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://machine0.io",
+      "title": "Launch HN: machine0 (YC S26) – Persistent CPU and GPU VMs from the CLI",
+      "url": "https://machine0.io",
+      "summary": "Hi HN! I’m Barnaby, founder of machine0 ( https://machine0.io ). I’m building a CLI for long horizon agent compute: `machine0 new mybox` gives your agent a persistent cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB RAM and GPUs (H100s, H200s etc), with 99.99% VM level uptime. Agents self drive via CLI or MCP. Demo: https://www.youtube.com/watch?v=gyllkZ0M04E Agent workloads are moving from ephemeral to always-on. A coding agent working on a complex feature runs 6-8 hours. Agent orchestrated training & RL runs take days. OpenClaw & Hermes run 24/7. As you run more in parallel: - Resources: a few agents on a large codebase saturate RAM and CPU. Model training and RL needs GPUs you don't have. - Security: `--yolo` on your personal machine is one prompt injection away from exfiltrated credentials. - Availability: close your laptop and the agent dies mid-task. - Isolation: there's no clean line between you and the minimum your agent actually needs. machine0 gives every agent its own computer. It's a CLI simple enough that both humans and agents use it without reading docs: `machine0 new mybox` creates an SSH-ready VM with a static IP and HTTPS endpoint. Always on (with 99.99% VM level uptime) until you switch it off. - Billed by the minute. 1 vCPU / 1 GB at $0.013/hr up to 60 vCPU / 240 GB, plus GPUs from RTX 4000 Ada to 8×H200. - Suspend, snapshot and resume. Making it easy to pause your work, and come back to it later. Or to make a golden master image to stamp out clones for a fleet. - Block storage. Persistent volumes (from 10 GB to 16 TB) that you can manage with intuitive grammar: `--yolo` and attach to your VMs. - Profiles. Bundles of credentials, MCP connections, prompts, and env vars, injected at VM creation. So each agent gets exactly the capabilities you choose, and nothing else. - Agents self-serve. Hand the CLI or MCP server to Claude, Codex, or OpenCode and it manages its own fleet: spin up a box for a build, snapshot it, tear it down. - Reproducible Builds. Using NixOS flakes or Ansible playbooks with Ubuntu. How do people use it today? - Agent fleets. People run a pilot agent that scopes work and delegates it to sub-agents, each on its own VM: shape a project with the pilot, and the workers implement it and open PRs. One customer runs hundreds of machines at once, spun up and torn down from the CLI. - Model optimization & RL environments. ML teams use machine0 for agent-orchestrated RL environments and model optimization work. One customer runs RL environments on 60 vCPU machines that stay up for days at a time; another keeps a suspended H100 around and points an agent at it overnight to grind on inference-speed optimizations. - Product infrastructure. One customer builds their product on top of machine0 rather than using it themselves: every user session gets a fresh XL machine from a versioned image of their own agent runtime. They've shipped hundreds of versions of that image and launched thousands of machines, most alive for two minutes. What’s under the hood? Every machine is a full KVM virtual machine, not a container or sandbox. You get the real GPU exposed to the guest with its actual driver, kernel-level access (load any module or driver you want), and no syscall-interception layer between you and the hardware. The stack itself is deliberately dull: TypeScript, Postgres, Redis. We weigh heavily towards security, reliability and performance making machine0 ideal for sustained compute intensive workloads. About me I've been building cloud infrastructure for about 15 years. I dropped out of a PhD at Imperial College London on cloud resource allocation, later spent six years as co-founder and CTO of Upflow (YC W20), owning DevOps, infra and security personally the whole way to 7-figures in ARR because it was too high-stakes to delegate. machine0 started as a tool for me, I’m my own first user :) Asks Would love you to try it out and give us your feedback (see below). Or if you’re a company looking for compute for software factories, model training or RL environments, feel free to reach out at barnaby@machine0.io # install machine0 $ curl -LsSf https://machine0.io/install.sh | sh # create a machine and ssh in $ machine0 new myvm $ machine0 ssh myvm Comments URL: https://news.ycombinator.com/item?id=49348136 Points: 3 # Comments: 0",
+      "publishedAt": "2026-08-18T16:26:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
+      "title": "Tesla is finally launching the Cybercab — let’s hope it’s ready",
+      "url": "https://www.theverge.com/transportation/981398/tesla-cybercab-launch-robotaxi-fsd-safe-ready",
+      "summary": "The Tesla Cybercab, that golden two-seater central to Elon Musk's robo-supremacist ambitions, is finally nearing it's public launch. Whether or not the no-steering wheel and no-pedal vehicle is actually ready for public roads, let alone customers, remains very much in doubt. According to The Information, Tesla is planning a public launch of the Cybercab in [&#8230;]",
+      "publishedAt": "2026-08-18T16:26:29.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union",
+      "title": "Apple announces changes for apps in the European Union",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/08/apple-announces-changes-for-apps-in-the-european-union/ Comments URL: https://news.ycombinator.com/item?id=49348055 Points: 16 # Comments: 8",
+      "publishedAt": "2026-08-18T16:21:34.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear",
+      "title": "Why Apple&#8217;s camera-equipped AirPods may not be the &#8216;pervert pods&#8217; consumers fear",
+      "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear",
+      "summary": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
+      "publishedAt": "2026-08-18T16:19:10.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack",
+      "title": "Bluesky says its recent outage was caused by another DDoS attack",
+      "url": "https://techcrunch.com/2026/08/18/bluesky-says-its-recent-outage-was-caused-by-another-ddos-attack",
+      "summary": "This is the latest large-scale DDoS attack to hit the social networking site this year.",
+      "publishedAt": "2026-08-18T15:59:48.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream",
       "title": "Teenage Sex and Death at Camp Miasma takes pains to deliver a slasher fan’s dream",
       "url": "https://arstechnica.com/culture/2026/08/teenage-sex-and-death-at-camp-miasma-takes-pains-to-deliver-a-slasher-fans-dream",
@@ -15,6 +95,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://github.com/therepanic/openleetcode",
+      "title": "Show HN: Openleetcode – local LeetCode runner where tests live in the repo",
+      "url": "https://github.com/therepanic/openleetcode",
+      "summary": "You write a standard solution, just like on LeetCode, and run it through the CLI. It identifies the problem by ID or title, executes your code against local test cases, and shows the result. It currently supports around 1.4k problems and multiple languages, including Python, C++, Rust, Java, Go, TypeScript, Swift, and others. The project is still an MVP. System design, SQL, and concurrency problems are not supported yet, but support for more problem types is planned. Made in Haskell! Comments URL: https://news.ycombinator.com/item?id=49347178 Points: 4 # Comments: 0",
+      "publishedAt": "2026-08-18T15:30:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans",
       "title": "Peacock is raising prices across all of its streaming plans",
       "url": "https://techcrunch.com/2026/08/18/peacock-is-raising-prices-across-all-of-its-streaming-plans",
@@ -23,16 +113,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://oaklandside.org/2026/01/29/oakland-police-overtime",
-      "title": "One Oakland police officer made $490k in overtime",
-      "url": "https://oaklandside.org/2026/01/29/oakland-police-overtime",
-      "summary": "Article URL: https://oaklandside.org/2026/01/29/oakland-police-overtime/ Comments URL: https://news.ycombinator.com/item?id=49347055 Points: 10 # Comments: 1",
-      "publishedAt": "2026-08-18T15:24:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "cloudflare-blog:https://blog.cloudflare.com/rfc9234-bgp-role-model",
@@ -68,28 +148,28 @@
       "id": "hacker-news:https://arxiv.org/abs/2607.22738",
       "title": "Code-native generation of highly programmable 3D assets (2026)",
       "url": "https://arxiv.org/abs/2607.22738",
-      "summary": "Article URL: https://arxiv.org/abs/2607.22738 Comments URL: https://news.ycombinator.com/item?id=49346538 Points: 5 # Comments: 1",
+      "summary": "Article URL: https://arxiv.org/abs/2607.22738 Comments URL: https://news.ycombinator.com/item?id=49346538 Points: 18 # Comments: 16",
       "publishedAt": "2026-08-18T14:54:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://jpegxlconvert.com/en",
-      "title": "JPEG XL converter and .jxl viewer",
-      "url": "https://jpegxlconvert.com/en",
-      "summary": "Article URL: https://jpegxlconvert.com/en/ Comments URL: https://news.ycombinator.com/item?id=49346404 Points: 5 # Comments: 0",
-      "publishedAt": "2026-08-18T14:46:36.000Z",
+      "id": "hacker-news:https://www.youtube.com/watch?v=-2uAsJ5EPAw",
+      "title": "The coolest anti-surveillance tools at Defcon [video]",
+      "url": "https://www.youtube.com/watch?v=-2uAsJ5EPAw",
+      "summary": "Article URL: https://www.youtube.com/watch?v=-2uAsJ5EPAw Comments URL: https://news.ycombinator.com/item?id=49346444 Points: 38 # Comments: 1",
+      "publishedAt": "2026-08-18T14:49:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://pleated-jeans.com/2026/08/15/engineers-forgotten-recipe-hack-viral-divides-internet",
-      "title": "An Engineer's Old Cooking Trick Is Going Viral, Divides the Internet",
-      "url": "https://pleated-jeans.com/2026/08/15/engineers-forgotten-recipe-hack-viral-divides-internet",
-      "summary": "Article URL: https://pleated-jeans.com/2026/08/15/engineers-forgotten-recipe-hack-viral-divides-internet/ Comments URL: https://news.ycombinator.com/item?id=49346312 Points: 22 # Comments: 13",
-      "publishedAt": "2026-08-18T14:40:42.000Z",
+      "id": "hacker-news:https://notactuallytreyanastasio.github.io/shoehorn",
+      "title": "Show HN: Shoehorn – Quantize any model down to run on your machine",
+      "url": "https://notactuallytreyanastasio.github.io/shoehorn",
+      "summary": "Working on Mac, Linux, and Windows now. I include a simple GUI to find new models and get things built and set up. It is working quite well across a few models for me. The GitHub README and DESIGN.md files go into detail of the how/why and it's working remarkably well so far. https://github.com/notactuallytreyanastasio/shoehorn Comments URL: https://news.ycombinator.com/item?id=49346135 Points: 12 # Comments: 2",
+      "publishedAt": "2026-08-18T14:29:20.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -108,7 +188,7 @@
       "id": "hacker-news:https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873",
       "title": "Babies born under sugar rationing grew into adults with lower cancer risk",
       "url": "https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873",
-      "summary": "Article URL: https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873 Comments URL: https://news.ycombinator.com/item?id=49345843 Points: 53 # Comments: 4",
+      "summary": "Article URL: https://theconversation.com/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-289873 Comments URL: https://news.ycombinator.com/item?id=49345843 Points: 96 # Comments: 25",
       "publishedAt": "2026-08-18T14:06:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -178,7 +258,7 @@
       "id": "hacker-news:https://opensource.posit.co/resources/cheatsheets/polars",
       "title": "Python Polars Cheatsheet (based on our O'Reilly book)",
       "url": "https://opensource.posit.co/resources/cheatsheets/polars",
-      "summary": "Article URL: https://opensource.posit.co/resources/cheatsheets/polars/ Comments URL: https://news.ycombinator.com/item?id=49345476 Points: 52 # Comments: 7",
+      "summary": "Article URL: https://opensource.posit.co/resources/cheatsheets/polars/ Comments URL: https://news.ycombinator.com/item?id=49345476 Points: 67 # Comments: 12",
       "publishedAt": "2026-08-18T13:38:23.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -220,86 +300,6 @@
       "url": "https://www.theverge.com/streaming/981392/abc-fcc-broadcast-license-lawsuit",
       "summary": "ABC is suing the Federal Communications Commission over claims the agency \"waged a retaliatory campaign\" against its networks over the content they broadcast. In a lawsuit filed in federal court on Tuesday, ABC and its parent company Disney accuse the FCC of \"punishing ABC for its speech\" by threatening its broadcast licenses. It's the latest [&#8230;]",
       "publishedAt": "2026-08-18T13:27:43.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://seths.blog/2026/08/the-amazon-tax",
-      "title": "The Amazon Tax",
-      "url": "https://seths.blog/2026/08/the-amazon-tax",
-      "summary": "Article URL: https://seths.blog/2026/08/the-amazon-tax/ Comments URL: https://news.ycombinator.com/item?id=49345263 Points: 279 # Comments: 211",
-      "publishedAt": "2026-08-18T13:22:38.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools",
-      "title": "Fixing a Bricked Framework Laptop",
-      "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools",
-      "summary": "Article URL: https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/ Comments URL: https://news.ycombinator.com/item?id=49345220 Points: 119 # Comments: 49",
-      "publishedAt": "2026-08-18T13:18:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://newsletter.kentbeck.com/p/composable-tests",
-      "title": "Composable Tests",
-      "url": "https://newsletter.kentbeck.com/p/composable-tests",
-      "summary": "Article URL: https://newsletter.kentbeck.com/p/composable-tests Comments URL: https://news.ycombinator.com/item?id=49345094 Points: 29 # Comments: 20",
-      "publishedAt": "2026-08-18T13:08:32.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/ytkoka/impersonate-proxy",
-      "title": "Show HN: A local MitM proxy to control TLS fingerprints",
-      "url": "https://github.com/ytkoka/impersonate-proxy",
-      "summary": "Article URL: https://github.com/ytkoka/impersonate-proxy Comments URL: https://news.ycombinator.com/item?id=49345091 Points: 14 # Comments: 2",
-      "publishedAt": "2026-08-18T13:07:50.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.videogameschronicle.com/news/its-just-not-as-much-fun-for-me-anymore-deus-ex-creator-warren-spector-is-retiring-from-game-development",
-      "title": "Deus Ex creator Warren Spector is retiring from game development",
-      "url": "https://www.videogameschronicle.com/news/its-just-not-as-much-fun-for-me-anymore-deus-ex-creator-warren-spector-is-retiring-from-game-development",
-      "summary": "Article URL: https://www.videogameschronicle.com/news/its-just-not-as-much-fun-for-me-anymore-deus-ex-creator-warren-spector-is-retiring-from-game-development/ Comments URL: https://news.ycombinator.com/item?id=49345070 Points: 79 # Comments: 51",
-      "publishedAt": "2026-08-18T13:06:24.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked",
-      "title": "Microsoft Copilot reveals secret input that allowed it to be hacked",
-      "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked",
-      "summary": "Secret parameter allowed hackers to steal passwords when a target clicked on a link.",
-      "publishedAt": "2026-08-18T13:00:04.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/tech/981141/polaroid-pokemon-pikachu-now-go-generation-3-instant-camera-film",
-      "title": "Polaroid’s new Pokémon collection captures memories, not Pikachus",
-      "url": "https://www.theverge.com/tech/981141/polaroid-pokemon-pikachu-now-go-generation-3-instant-camera-film",
-      "summary": "Polaroid announced a new collection of cameras, instant film, and accessories all featuring limited-edition designs to help celebrate the 30th anniversary of Pok&#233;mon. The new collection goes a little harder than Fujifilm's Pok&#233;mon collaboration from five years ago with the introduction of Polaroid film printed with various characters around the frames, including Pikachu and Snorlax. [&#8230;]",
-      "publishedAt": "2026-08-18T13:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
-      "title": "Firefox&#8217;s Smart Window promises a better AI browser",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
-      "summary": "Starting today, AI chats in Firefox's Smart Window AI browsing mode can pull from current web info and show source links in chat responses through a partnership with Exa. Smart Window can also now automatically suggest tab groups and show visual previews of pages you previously visited when you search your browsing history using natural [&#8230;]",
-      "publishedAt": "2026-08-18T13:00:00.000Z",
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"

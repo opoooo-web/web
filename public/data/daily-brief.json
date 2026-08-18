@@ -1,86 +1,76 @@
 {
-  "generatedAt": "2026-08-17T23:40:39.455Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-08-18T01:52:39.398Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology landscape is heavily influenced by the rapid advancement and adoption of AI, demonstrated by significant revenue surges for AI companies like Anthropic and substantial investments in AI infrastructure. This growth, however, brings challenges related to data ethics, cybersecurity, and societal impact, while other tech developments address consumer privacy and space exploration.",
   "highlights": [
     {
-      "title": "How Bluesky draws its logo on screenshots",
-      "whyItMatters": "Article URL: https://timmarinin.net/2026/bluesky-screenshots/ Comments URL: https://news.ycombinator.com/item?id=49338459 Points: 97 # Comments: 76",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://timmarinin.net/2026/bluesky-screenshots",
-      "category": "Developer",
-      "publishedAt": "2026-08-17T22:20:40.000Z"
-    },
-    {
-      "title": "scScript for Linux",
-      "whyItMatters": "Article URL: https://scapplications.com/ Comments URL: https://news.ycombinator.com/item?id=49338428 Points: 5 # Comments: 1",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://scapplications.com",
-      "category": "Developer",
-      "publishedAt": "2026-08-17T22:18:05.000Z"
-    },
-    {
-      "title": "Colorado River plummets as lakes Powell and Mead drop to record lows",
-      "whyItMatters": "https://archive.ph/cD5hF Comments URL: https://news.ycombinator.com/item?id=49338404 Points: 31 # Comments: 38",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.nytimes.com/2026/08/17/climate/lake-powell-record-low-colorado.html",
-      "category": "Developer",
-      "publishedAt": "2026-08-17T22:15:38.000Z"
-    },
-    {
-      "title": "US vaccination rates fall again as exemptions continue to rise, CDC data shows",
-      "whyItMatters": "Again, the CDC did not publish a full report and instead simply put the data online.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/health/2026/08/us-vaccination-rates-fall-again-as-exemptions-continue-to-rise-cdc-data-shows",
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "whyItMatters": "This signifies rapid commercial success and strong investor confidence within the leading AI model development sector.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b",
       "category": "Technology",
-      "publishedAt": "2026-08-17T22:08:47.000Z"
+      "publishedAt": "2026-08-17T23:56:26.000Z"
     },
     {
-      "title": "Quake Shareware, a CD-ROM just a little too full",
-      "whyItMatters": "Article URL: https://fabiensanglard.net/quake_shareware_cd/index.html Comments URL: https://news.ycombinator.com/item?id=49338328 Points: 72 # Comments: 22",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://fabiensanglard.net/quake_shareware_cd/index.html",
-      "category": "Developer",
-      "publishedAt": "2026-08-17T22:06:14.000Z"
+      "title": "Reddit’s AI is turning posts into podcasts and short videos",
+      "whyItMatters": "This showcases how AI is transforming content consumption by converting text-based user-generated content into engaging multimedia formats, potentially expanding platform reach.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T23:46:01.000Z"
     },
     {
-      "title": "Fairphone 6 and PostmarketOS working main camera",
-      "whyItMatters": "Article URL: https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera Comments URL: https://news.ycombinator.com/item?id=49338285 Points: 41 # Comments: 7",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://catcrafts.net/posts/fairphone-6-postmarketos-working-main-camera",
-      "category": "Developer",
-      "publishedAt": "2026-08-17T22:01:17.000Z"
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "whyItMatters": "This raises significant ethical and environmental concerns regarding data acquisition practices for AI development, particularly for a company historically linked to book culture.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T16:38:44.000Z"
+    },
+    {
+      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
+      "whyItMatters": "This highlights a significant and pervasive cybersecurity threat, even on platforms typically considered highly secure, impacting a large user base.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T20:18:35.000Z"
+    },
+    {
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "whyItMatters": "This demonstrates massive strategic investments in the foundational infrastructure crucial for the advancement and scaling of AI technologies, ensuring chip supply for key players.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T15:16:24.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "111 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 111
+      "name": "Artificial Intelligence (AI) Advances & Investments",
+      "summary": "This topic covers significant funding rounds, revenue growth, new AI applications in content creation and services, infrastructure development, and ethical considerations surrounding AI data sourcing and manipulation.",
+      "itemCount": 24
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by Ars Technica.",
-      "itemCount": 50
+      "name": "Digital Rights, Privacy & Security",
+      "summary": "This topic includes cybersecurity threats like spyware alerts, legal rulings concerning data privacy, controversies around surveillance technologies, and discussions on ethical data handling practices.",
+      "itemCount": 10
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Space & Scientific Discovery",
+      "summary": "Items in this topic highlight ongoing NASA missions, astronomical observations, planetary science, Earth observation studies, and challenges in space launch capabilities.",
+      "itemCount": 13
     },
     {
-      "name": "Infrastructure",
-      "summary": "29 source-linked updates, led by AWS News Blog.",
-      "itemCount": 29
+      "name": "Platform & Consumer Tech Evolution",
+      "summary": "This topic focuses on updates to major digital platforms regarding content consumption, user interaction, and new features, alongside releases and deals for consumer gadgets and smart devices.",
+      "itemCount": 12
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Software Development & Open Source",
+      "summary": "This category encompasses technical insights into programming, memory allocation, GPU management, open-source projects, and discussions relevant to developers and system architecture.",
+      "itemCount": 16
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

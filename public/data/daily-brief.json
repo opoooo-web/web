@@ -1,44 +1,12 @@
 {
-  "generatedAt": "2026-08-18T05:47:14.804Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-08-18T07:06:50.860Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology sector is marked by the relentless expansion of Artificial Intelligence, with major players seeing significant revenue surges and widespread integration into content creation and enterprise tools, yet facing ethical quandaries and security vulnerabilities. Concurrently, privacy and digital security remain critical concerns, as evidenced by major spyware alerts and public pushback against pervasive surveillance. Meanwhile, foundational infrastructure, developer tools, and platform behaviors are evolving rapidly to support these advancements and address reliability needs.",
   "highlights": [
     {
-      "title": "I don't enjoy the Internet any more",
-      "whyItMatters": "Article URL: https://btao.org/posts/2026-08-17-i-dont-enjoy-the-internet/ Comments URL: https://news.ycombinator.com/item?id=49341551 Points: 36 # Comments: 14",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://btao.org/posts/2026-08-17-i-dont-enjoy-the-internet",
-      "category": "Developer",
-      "publishedAt": "2026-08-18T05:17:14.000Z"
-    },
-    {
-      "title": "Theban tomb reveals how Egyptian burial trends evolved in time",
-      "whyItMatters": "Practices shifted from individuals buried in coffins to reusing sites for later mummy interments.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time",
-      "category": "Technology",
-      "publishedAt": "2026-08-18T04:00:40.000Z"
-    },
-    {
-      "title": "What's Better Than Binary? – Advent of Computing Episode 187",
-      "whyItMatters": "Article URL: https://adventofcomputing.libsyn.com/episode-187-whats-better-than-binary Comments URL: https://news.ycombinator.com/item?id=49340315 Points: 4 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://adventofcomputing.libsyn.com/episode-187-whats-better-than-binary",
-      "category": "Developer",
-      "publishedAt": "2026-08-18T02:14:04.000Z"
-    },
-    {
-      "title": "The Benchmarkpocalypse",
-      "whyItMatters": "Article URL: https://danluu.com/benchpocalypse/ Comments URL: https://news.ycombinator.com/item?id=49340299 Points: 41 # Comments: 2",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://danluu.com/benchpocalypse",
-      "category": "Developer",
-      "publishedAt": "2026-08-18T02:11:02.000Z"
-    },
-    {
       "title": "Anthropic&#8217;s annualized revenue surges to $65B",
-      "whyItMatters": "The model maker added $18 billion in annualized revenue in two months.",
+      "whyItMatters": "Demonstrates the exponential growth and significant market valuation of leading AI model developers.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b",
       "category": "Technology",
@@ -46,41 +14,87 @@
     },
     {
       "title": "Reddit’s AI is turning posts into podcasts and short videos",
-      "whyItMatters": "Reddit is trying out a new way for people to take in content on Reddit: by turning text posts into audio / video content. As part of an experiment, some posts are being adapted into videos that use AI voices to read the text of the main post and some comments. The video highlights the [&#8230;]",
+      "whyItMatters": "Showcases the practical application of AI in transforming user-generated content for new consumption formats.",
       "sourceName": "The Verge",
       "sourceUrl": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
       "category": "Technology",
       "publishedAt": "2026-08-17T23:46:01.000Z"
+    },
+    {
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "whyItMatters": "Reveals emerging risks of AI manipulation and the challenges of ensuring information integrity in the age of advanced models.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+      "category": "Developer",
+      "publishedAt": "2026-08-17T20:46:10.000Z"
+    },
+    {
+      "title": "‘Unprecedented’ number of Apple users received recent spyware alert, say investigators",
+      "whyItMatters": "Raises alarms about the pervasive threat of advanced digital surveillance and the scale of privacy infringements.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/unprecedented-number-of-apple-users-received-recent-spyware-alert-say-investigators",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T20:18:35.000Z"
+    },
+    {
+      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
+      "whyItMatters": "Demonstrates growing public and municipal resistance to pervasive surveillance technologies and their network effects.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T20:14:23.000Z"
+    },
+    {
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "whyItMatters": "Highlights controversial data acquisition practices and ethical debates surrounding AI model development.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T16:38:44.000Z"
+    },
+    {
+      "title": "Nvidia discloses $21B stake in SpaceX",
+      "whyItMatters": "Signifies massive strategic investments in foundational AI infrastructure and the race for compute power.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/08/nvidia-discloses-21b-stake-in-spacex",
+      "category": "Technology",
+      "publishedAt": "2026-08-17T14:22:54.000Z"
+    },
+    {
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "whyItMatters": "Underscores critical security vulnerabilities and the need for rigorous auditing in AI-assisted development tools.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "category": "Developer",
+      "publishedAt": "2026-08-17T14:18:38.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "111 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 111
+      "name": "Artificial Intelligence (AI) Expansion & Ethics",
+      "summary": "The AI sector continues its rapid growth, driving significant revenue for model developers and expanding applications across content generation, voice interfaces, and infrastructure. However, this growth is accompanied by mounting concerns over ethical data acquisition, potential manipulation, and security risks introduced by AI-assisted development tools.",
+      "itemCount": 19
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by Ars Technica.",
-      "itemCount": 50
+      "name": "Digital Privacy & Surveillance",
+      "summary": "Heightened alerts regarding widespread spyware, ongoing debates about platform data collection practices, and increasing public resistance to pervasive surveillance technologies underscore persistent challenges in safeguarding digital privacy.",
+      "itemCount": 7
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Developer Tools & Infrastructure",
+      "summary": "Developers are actively exploring alternatives to major platforms due to reliability concerns, while advancements in programming paradigms and hardware integration continue to shape the software development ecosystem.",
+      "itemCount": 14
     },
     {
-      "name": "Infrastructure",
-      "summary": "29 source-linked updates, led by AWS News Blog.",
-      "itemCount": 29
+      "name": "Platform & Media Evolution",
+      "summary": "Major digital platforms are adapting content consumption and monetization models, integrating AI for new media formats, and adjusting how user engagement is measured, impacting creators and users alike.",
+      "itemCount": 6
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Autonomous Systems & Robotics",
+      "summary": "Significant progress in autonomous delivery solutions and advanced manufacturing, alongside substantial investments in the compute infrastructure essential for future technological innovation.",
+      "itemCount": 7
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "openai-news:https://openai.com/index/model-ml",
-      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-      "url": "https://openai.com/index/model-ml",
-      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "publishedAt": "2026-08-10T12:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
       "id": "hugging-face-blog:https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
       "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
@@ -302,6 +292,16 @@
       "publishedAt": "2026-08-05T23:24:51.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale",
+      "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale",
+      "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+      "publishedAt": "2026-08-05T14:45:10.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
       "category": "Infrastructure"
     }
   ]

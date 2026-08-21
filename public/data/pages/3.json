@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards",
+      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
+      "url": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards",
+      "summary": "The safeguard was designed to prevent users from being overwhelmed by harmful content, but TikTok wanted to determine whether it made the app less engaging.",
+      "publishedAt": "2026-08-20T16:22:19.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "title": "Linux 7.2",
+      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "summary": "Article URL: https://www.igalia.com/2026/08/19/Linux-72-Released.html Comments URL: https://news.ycombinator.com/item?id=49376265 Points: 272 # Comments: 116",
+      "publishedAt": "2026-08-20T15:46:18.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+      "title": "Debates over AI consciousness are a trap",
+      "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations&#8230;",
+      "publishedAt": "2026-08-20T15:42:39.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://github.com/runvendo/vendo",
+      "title": "Launch HN: Vendo (YC S26) – Let users build features on top of your product",
+      "url": "https://github.com/runvendo/vendo",
+      "summary": "Hi HN, we’re Yousef & Nour, founders of Vendo ( https://vendo.run ). Vendo lets users create new features inside the software they already use. A user describes the dashboard, workflow, or small app they need, and Vendo builds it on top of the product’s existing data, API, and interface. Demo: https://www.youtube.com/watch?v=VdpHehY64ls We built Vendo because every SaaS eventually faces the same problem: every customer needs something slightly different. One wants a new report and another needs a workflow that only makes sense for their team. These requests either sit on the roadmap, become one-off engineering work, or force the customer into spreadsheets and external tools. We wanted the user to be able to create the missing feature themselves, without leaving the product. Here is how it works: - npx vendo init reads the product's API surface, theme, routes, and more. These are used so that the apps Vendo creates (1) look on-brand and native and (2) have the ability to read data and perform actions directly through the company's API - When a user asks for a feature, we have a custom Vendo harness that writes a React component with a bunch of Vendo add-ons and guardrails (ex. ability to make calls to the host API + our component library). Every save is compiled, type-checked, run against real API responses, and rendered before the user sees it. We just released a benchmark and write-up here with more info for anyone interested: https://vendo.run/blog/generating-product-ui-measured - We use QuickJS to make sure that anything the agent creates is sandboxed and can't mess with the company's site. Vendo compiles the component and runs it with Preact inside a QuickJS VM with no access to the DOM, network, or clock. The VM returns a UI tree, which the host renders using the product’s registered components. When the user clicks something, QuickJS emits a tool call; the host executes it through Vendo’s guard and passes the result back into the same VM, preserving the screen’s local state. There's a lot of generative UI right now: streaming developer-written components into a chat (Vercel AI SDK, CopilotKit, Thesys), or rendering your app inside someone else's assistant (OpenAI Apps SDK, MCP Apps). We differ on two things. Vendo lives in your product and acts through your API as the signed-in user, so what it makes is durable: real apps users keep, pin, and run on triggers while they're away, and not components that are merely confined to a chat. Plus, it's not capped at putting together a bunch of prebuilt components: the agent can build arbitrary apps, from a quick dashboard out of your own components to real custom code running in a sandbox, and either way data only ever comes from tool calls to your API. Here are some things customers are using Vendo for today: - Letting their users create custom dashboards and reports. These are mainly UI-based and focused on letting the user see the exact graphs and metrics they care about - Letting their customers create recurring automations. A big thing as well that has been used for these automations is the fact that we connect to external connections, so users have been automating many of their inter-tool workflows (ex. an automation that sends a slack alert based off of something in the product) - B2B customers letting their customers customize the product with specific business logic. Often this is simple things like an extra field on a form, or an extra permission, but it is hard for a business to keep up with them otherwise. - Creating and sharing custom dashboards/apps across an organization. Since the apps Vendo creates are durable, they can be shared, reused, and forked (which can’t be done with many of the other in-chat generative UI solutions) We've spent a lot of time thinking about how AI and agents will change the way people consume software. We think the answer is personal(ized) software: you see the UI you need to see, you tell an agent exactly what you need, and the product molds to how you work. The key insights that have enabled the product to work are: - A rule in code always beats a rule in a prompt. - Invent as little syntax as possible. Generation got faster and more reliable when the output looked like what models already know (JSX-shaped markup) instead of a clever custom format. - Deterministic beats model wherever you can get away with it. Theme extraction is pure static analysis, and a remix starts as a copy of your component, no model call. Vendo is completely open-source (Apache-2.0) and can be self-hosted, so feel free to check out all the source code here: https://github.com/runvendo/vendo . Would love you to try it out and give us your feedback: https://docs.vendo.run/ . Or if you’re a company looking to embed Vendo in your product feel free to book a call here: https://cal.com/team/vendo/intro-call Comments URL: https://news.ycombinator.com/item?id=49376038 Points: 49 # Comments: 20",
+      "publishedAt": "2026-08-20T15:29:52.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/zachahn/vomit",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "summary": "Article URL: https://github.com/zachahn/vomit Comments URL: https://news.ycombinator.com/item?id=49375996 Points: 271 # Comments: 266",
+      "publishedAt": "2026-08-20T15:26:02.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/image-article/artemis-mission-patches",
       "title": "Artemis Mission Patches",
       "url": "https://www.nasa.gov/image-article/artemis-mission-patches",
@@ -13,16 +63,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
-      "title": "Anti-AI fonts are useless and harmful",
-      "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
-      "summary": "Article URL: https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/ Comments URL: https://news.ycombinator.com/item?id=49375719 Points: 175 # Comments: 133",
-      "publishedAt": "2026-08-20T15:06:53.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research",
@@ -83,16 +123,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://safedep.io/arrayref-proc-macro1-rust-build-time-malware",
-      "title": "Malicious Rust crate Arrayref runs a build-time payload",
-      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware",
-      "summary": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on... https://github.com/rustsec/advisory-db/issues/3161 Comments URL: https://news.ycombinator.com/item?id=49374269 Points: 511 # Comments: 438",
-      "publishedAt": "2026-08-20T13:23:12.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
@@ -273,36 +303,6 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/08/the-floodgates-are-open-after-another-chinese-company-lands-a-reusable-rocket",
-      "title": "The floodgates are open after another Chinese company lands a reusable rocket",
-      "url": "https://arstechnica.com/space/2026/08/the-floodgates-are-open-after-another-chinese-company-lands-a-reusable-rocket",
-      "summary": "\"We will put the booster back into service for another flight as soon as possible.\"",
-      "publishedAt": "2026-08-19T18:41:02.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-updates-next-steps-for-commercial-swift-boost-mission",
-      "title": "NASA Updates Next Steps for Commercial Swift Boost Mission",
-      "url": "https://www.nasa.gov/news-release/nasa-updates-next-steps-for-commercial-swift-boost-mission",
-      "summary": "Due to an ongoing commercial spacecraft attitude control issue, NASA and Katalyst Space announced Wednesday the LINK spacecraft will not capture or boost an agency satellite to a higher altitude to extend its science mission as planned. However, LINK still will attempt to conduct rendezvous and proximity operations with NASA’s Neil Gehrels Swift Observatory to [&#8230;]",
-      "publishedAt": "2026-08-19T18:08:25.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-      "title": "GitHub Copilot app for Beginners: Managing your work",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work",
-      "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next. The post GitHub Copilot app for Beginners: Managing your work appeared first on The GitHub Blog .",
-      "publishedAt": "2026-08-19T17:50:23.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:53:36.291Z",
+  "generatedAt": "2026-08-21T10:50:03.435Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,7 +14,12 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 63
+      "count": 68
+    },
+    {
+      "name": "Hugging Face Blog",
+      "category": "AI",
+      "count": 23
     },
     {
       "name": "Ars Technica",
@@ -37,11 +42,6 @@
       "count": 20
     },
     {
-      "name": "Hugging Face Blog",
-      "category": "AI",
-      "count": 19
-    },
-    {
       "name": "NVIDIA Blog",
       "category": "AI",
       "count": 18
@@ -49,15 +49,10 @@
     {
       "name": "Google AI",
       "category": "AI",
-      "count": 13
+      "count": 14
     },
     {
       "name": "MIT Technology Review",
-      "category": "Science",
-      "count": 10
-    },
-    {
-      "name": "NASA Breaking News",
       "category": "Science",
       "count": 10
     },
@@ -77,5 +72,11 @@
       "count": 8
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "message": "HTTP 429"
+    }
+  ]
 }

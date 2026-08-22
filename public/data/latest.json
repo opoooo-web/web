@@ -7,7 +7,7 @@
       "id": "hacker-news:https://www.bbc.com/news/articles/cvgvyy4x2mvo",
       "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
       "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
-      "summary": "Article URL: https://www.bbc.com/news/articles/cvgvyy4x2mvo Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 31 # Comments: 3",
+      "summary": "Article URL: https://www.bbc.com/news/articles/cvgvyy4x2mvo Comments URL: https://news.ycombinator.com/item?id=49397074 Points: 71 # Comments: 31",
       "publishedAt": "2026-08-22T06:16:57.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -37,7 +37,7 @@
       "id": "hacker-news:https://danluu.com/perf-opt",
       "title": "There's no reason for software to be slow anymore",
       "url": "https://danluu.com/perf-opt",
-      "summary": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 340 # Comments: 247",
+      "summary": "Article URL: https://danluu.com/perf-opt/ Comments URL: https://news.ycombinator.com/item?id=49395628 Points: 373 # Comments: 271",
       "publishedAt": "2026-08-22T01:06:17.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -57,7 +57,7 @@
       "id": "hacker-news:https://grapheneos.social/@GrapheneOS/117136278553665985",
       "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
       "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
-      "summary": "Article URL: https://grapheneos.social/@GrapheneOS/117136278553665985 Comments URL: https://news.ycombinator.com/item?id=49395605 Points: 102 # Comments: 32",
+      "summary": "Article URL: https://grapheneos.social/@GrapheneOS/117136278553665985 Comments URL: https://news.ycombinator.com/item?id=49395605 Points: 107 # Comments: 36",
       "publishedAt": "2026-08-22T01:02:09.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -67,7 +67,7 @@
       "id": "hacker-news:https://danluu.com/hn-comments",
       "title": "HN: The Good Parts (2016)",
       "url": "https://danluu.com/hn-comments",
-      "summary": "Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 40 # Comments: 8",
+      "summary": "Article URL: https://danluu.com/hn-comments/ Comments URL: https://news.ycombinator.com/item?id=49395171 Points: 44 # Comments: 8",
       "publishedAt": "2026-08-21T23:53:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -94,16 +94,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "hacker-news:https://ozbrain.com",
-      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
-      "url": "https://ozbrain.com",
-      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for humans… I don’t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work. What I built OzBrain to do: + Create a central place for agent reasoned knowledge to live + Be agnostic about what apps/agents connect to it + Capture everything and track it so I can audit it + Enable teams, collaborators or partners to share brains + Handle conflicts so many agents in the same article doesn’t blow up + Refactor knowledge into more token friendly chunks and map the index well + Close the knowledge loop so new thinking supersedes old thinking across the corpus. Don’t erase, depreciate and link + Keep user data safe and secure ++ Be easy enough to use that you don’t have to have any technical knowledge Some among us will always build their own custom solutions, but there are millions of tech professionals and small business owners that will use agents heavily and need a solution. So I’m trying to build that. Isn’t this like gBrain? Yes, similar. I think it’s like AWS vs Vercel. AWS is very powerful, configurable, and useful if you’re technical and want to invest the time into really fine tuning your system… but if you just want your web deploy/hosting to just work and be easy to deal with you use Vercel. // WHY I MADE IT I’ve been enjoying getting back to my technical roots, as I lost my coding skills more than a decade ago, but with AI I can focus on the system and the product in partnership with agent coding workflows. I recently built a Voice AI for older people. To build it I created an agentic engineering workflow (feel free to rip that up as I’m always looking to improve systems: https://ozbrain.com/resources/eng-flow ) My approach with coding agents is trust but verify, and I’m trying to replace the parts where a human would review with an adversarial or specialized agent who would give a better answer/review. I have workflows that will go high level task to shipped PR running in Claude cloud sessions. I use Claude Code locally and Cursor when I want a tighter loop on doing visual work like UI or layout. And Codex to either load balance usage for TokenThriffting or when I want a different llm to think thru something. It was a pain in the ass passing .md files around and keep track of which version was the most recent, so I built a hosted .md storage right in Supabase and any of my agents already have Supabase access. This let me build a solid, scalable, secure voice AI from my phone at the gym. All my agents have access to our knowledge, can write to it, update and refer to it as we build and improve the product and the systems we use. Out of 75 founder friends I asked about how they manage shared knowledge, 26 built their own custom knowledge systems… Obsidian vaults with 7k files synced through a VPS, markdown repos behind their own MCP servers, cron jobs stitching Supabase to a skills file… each a different Frankenstein they have to maintain. 32 said they felt the pain of moving static files around but didn’t have any solution for it. So I rebuilt my brain better and used it to build it. // HOW YOU CAN HELP Would love to have you try it out. The maintenance loop is still in alpha so not running it on customer data yet. If you built your own brain I’d love to hear how you did it. What criteria was most important for you in its design & function. If you are tired of shuffling .md files around I’d love to have you try out OzBrain and to give feedback, just ask your agent to put it in the shared bugs & features brain! Cheers! Bubs.co Comments URL: https://news.ycombinator.com/item?id=49394827 Points: 65 # Comments: 36",
-      "publishedAt": "2026-08-21T23:09:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
       "title": "Anthropic’s Opus 4.6 is a smut-machine",
       "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
@@ -127,7 +117,7 @@
       "id": "hacker-news:https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process",
       "title": "Three important steps in my maturation process",
       "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process",
-      "summary": "Article URL: https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/ Comments URL: https://news.ycombinator.com/item?id=49394496 Points: 123 # Comments: 51",
+      "summary": "Article URL: https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/ Comments URL: https://news.ycombinator.com/item?id=49394496 Points: 131 # Comments: 59",
       "publishedAt": "2026-08-21T22:29:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -237,7 +227,7 @@
       "id": "hacker-news:https://rust-glancer.github.io/blog/hello-world",
       "title": "Rust Glancer: Rust LSP using 100x less RAM",
       "url": "https://rust-glancer.github.io/blog/hello-world",
-      "summary": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 135 # Comments: 35",
+      "summary": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 175 # Comments: 36",
       "publishedAt": "2026-08-21T19:51:54.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -297,11 +287,21 @@
       "id": "hacker-news:https://tumbleforth.hardcoded.net",
       "title": "Tumble Forth – from assembly to OS with C compiler (2023)",
       "url": "https://tumbleforth.hardcoded.net",
-      "summary": "Article URL: https://tumbleforth.hardcoded.net/ Comments URL: https://news.ycombinator.com/item?id=49392465 Points: 72 # Comments: 11",
+      "summary": "Article URL: https://tumbleforth.hardcoded.net/ Comments URL: https://news.ycombinator.com/item?id=49392465 Points: 75 # Comments: 11",
       "publishedAt": "2026-08-21T18:59:52.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support",
+      "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
+      "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support",
+      "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13,&nbsp;delivering 30% lower pricing than previous AWS Glue versions.",
+      "publishedAt": "2026-08-21T18:53:26.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
     }
   ]
 }

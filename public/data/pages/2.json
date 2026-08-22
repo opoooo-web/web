@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive",
+      "title": "Michael Polansky is training an AI model on skin that’s still alive",
+      "url": "https://techcrunch.com/2026/08/21/michael-polansky-is-training-an-ai-model-on-skin-thats-still-alive",
+      "summary": "Michael Polansky — better known publicly as Lady Gaga's partner and a former top deputy to Sean Parker — has quietly spent years building an AI-driven startup that keeps living human skin tissue alive for weeks outside the body to discover new skincare compounds, and is only now going public about it.",
+      "publishedAt": "2026-08-22T01:31:04.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m",
       "title": "Japanese space tech startup Letara expands beyond satellite thrusters with $16M",
       "url": "https://techcrunch.com/2026/08/21/japanese-space-tech-startup-letara-expands-beyond-satellite-thrusters-with-16m",
@@ -33,6 +43,16 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
+    },
+    {
+      "id": "hacker-news:https://ozbrain.com",
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "url": "https://ozbrain.com",
+      "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. A lot of the “knowledge” ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for humans… I don’t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work. What I built OzBrain to do: + Create a central place for agent reasoned knowledge to live + Be agnostic about what apps/agents connect to it + Capture everything and track it so I can audit it + Enable teams, collaborators or partners to share brains + Handle conflicts so many agents in the same article doesn’t blow up + Refactor knowledge into more token friendly chunks and map the index well + Close the knowledge loop so new thinking supersedes old thinking across the corpus. Don’t erase, depreciate and link + Keep user data safe and secure ++ Be easy enough to use that you don’t have to have any technical knowledge Some among us will always build their own custom solutions, but there are millions of tech professionals and small business owners that will use agents heavily and need a solution. So I’m trying to build that. Isn’t this like gBrain? Yes, similar. I think it’s like AWS vs Vercel. AWS is very powerful, configurable, and useful if you’re technical and want to invest the time into really fine tuning your system… but if you just want your web deploy/hosting to just work and be easy to deal with you use Vercel. // WHY I MADE IT I’ve been enjoying getting back to my technical roots, as I lost my coding skills more than a decade ago, but with AI I can focus on the system and the product in partnership with agent coding workflows. I recently built a Voice AI for older people. To build it I created an agentic engineering workflow (feel free to rip that up as I’m always looking to improve systems: https://ozbrain.com/resources/eng-flow ) My approach with coding agents is trust but verify, and I’m trying to replace the parts where a human would review with an adversarial or specialized agent who would give a better answer/review. I have workflows that will go high level task to shipped PR running in Claude cloud sessions. I use Claude Code locally and Cursor when I want a tighter loop on doing visual work like UI or layout. And Codex to either load balance usage for TokenThriffting or when I want a different llm to think thru something. It was a pain in the ass passing .md files around and keep track of which version was the most recent, so I built a hosted .md storage right in Supabase and any of my agents already have Supabase access. This let me build a solid, scalable, secure voice AI from my phone at the gym. All my agents have access to our knowledge, can write to it, update and refer to it as we build and improve the product and the systems we use. Out of 75 founder friends I asked about how they manage shared knowledge, 26 built their own custom knowledge systems… Obsidian vaults with 7k files synced through a VPS, markdown repos behind their own MCP servers, cron jobs stitching Supabase to a skills file… each a different Frankenstein they have to maintain. 32 said they felt the pain of moving static files around but didn’t have any solution for it. So I rebuilt my brain better and used it to build it. // HOW YOU CAN HELP Would love to have you try it out. The maintenance loop is still in alpha so not running it on customer data yet. If you built your own brain I’d love to hear how you did it. What criteria was most important for you in its design & function. If you are tired of shuffling .md files around I’d love to have you try out OzBrain and to give feedback, just ask your agent to put it in the shared bugs & features brain! Cheers! Bubs.co Comments URL: https://news.ycombinator.com/item?id=49394827 Points: 75 # Comments: 46",
+      "publishedAt": "2026-08-21T23:09:06.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
@@ -115,16 +135,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://blog.veitheller.de/abulafia.html",
-      "title": "The Creation of Abulafia",
-      "url": "https://blog.veitheller.de/abulafia.html",
-      "summary": "Article URL: https://blog.veitheller.de/abulafia.html Comments URL: https://news.ycombinator.com/item?id=49393537 Points: 26 # Comments: 7",
-      "publishedAt": "2026-08-21T20:42:11.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface",
       "title": "Thunder + fiber-optic cabling used for seismic imaging",
       "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface",
@@ -165,11 +175,11 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://rust-glancer.github.io/blog/hello-world",
-      "title": "Rust Glancer: Rust LSP using 100x less RAM",
-      "url": "https://rust-glancer.github.io/blog/hello-world",
-      "summary": "https://matklad.github.io/2026/08/21/rust-glancer.html Comments URL: https://news.ycombinator.com/item?id=49393052 Points: 392 # Comments: 94",
-      "publishedAt": "2026-08-21T19:51:54.000Z",
+      "id": "hacker-news:https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+      "title": "A week of using Codex more than Claude",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+      "summary": "Article URL: https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/ Comments URL: https://news.ycombinator.com/item?id=49393051 Points: 108 # Comments: 107",
+      "publishedAt": "2026-08-21T19:51:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -218,7 +228,7 @@
       "id": "hacker-news:https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan",
       "title": "One night in Uzbekistan: Why was this one data point so influential?",
       "url": "https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan",
-      "summary": "Article URL: https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan/ Comments URL: https://news.ycombinator.com/item?id=49392536 Points: 51 # Comments: 4",
+      "summary": "Article URL: https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan/ Comments URL: https://news.ycombinator.com/item?id=49392536 Points: 65 # Comments: 9",
       "publishedAt": "2026-08-21T19:05:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -293,16 +303,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code",
-      "title": "TB 26-04 Updates and Modernization of NASA’s Chemical Equilibrium with Applications (CEA) Code",
-      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-04-updates-and-modernization-of-nasas-chemical-equilibrium-with-applications-cea-code",
-      "summary": "For more information, contact Mark K. Leader, Glenn Research Center, mark.leader@nasa.gov Download the PDF version NASA’s Chemical Equilibrium with Applications (CEA) code is a foundational tool for propulsion system analysis. It provides equilibrium chemistry, rocket performance, shock, and detonation calculations used across NASA and the broader aerospace community. NASA Engineering and Safety Center (NESC) Activity [&#8230;]",
-      "publishedAt": "2026-08-21T17:41:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     }
   ]
 }

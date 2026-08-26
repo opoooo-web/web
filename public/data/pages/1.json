@@ -5,6 +5,126 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/tech/985249/apple-maps-iphone-ads",
+      "title": "Apple Maps has ads now",
+      "url": "https://www.theverge.com/tech/985249/apple-maps-iphone-ads",
+      "summary": "Ads have started popping up in Apple Maps, following Apple's announcement in March that it would let businesses pay for top spots. They're appearing on my iPhone as the first entry in the \"suggested places\" section in search, but Apple says they'll also show up at the top of search results. According to 9to5Mac, the [&#8230;]",
+      "publishedAt": "2026-08-26T17:34:32.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate",
+      "title": "US seizes domains of Chinese botnet used to hack NASA, Justice Department, and the Senate",
+      "url": "https://techcrunch.com/2026/08/26/us-seizes-domains-of-chinese-botnet-used-to-hack-nasa-justice-department-and-the-senate",
+      "summary": "The FBI has seized domains associated with a botnet that allowed Chinese-backed hackers to breach several U.S. government departments.",
+      "publishedAt": "2026-08-26T17:01:05.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "title": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
+      "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "summary": "Google has updated Gemini Audio with some new Gemini 3.5 models, introducing new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Live, 3.5 Live Experimental, and 3.5 Transcribe are designed to provide better precision for Google's voice-controlled AI features, without struggling with background noise or when your speech is [&#8230;]",
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy",
+      "title": "Capital F closes $17M debut fund with goal to back the future of the &#8216;female economy&#8217;",
+      "url": "https://techcrunch.com/2026/08/26/capital-f-closes-17m-debut-fund-with-goal-to-back-the-future-of-the-female-economy",
+      "summary": "Capital F, one of the few all-female-led VC firms, announced Wednesday the $17 million close of its debut fund. The firm backs companies building in the “female economy” — or the markets where women drive demand. That mainly falls into three buckets for the firm, Margaret Coblentz, the firm’s co-founder, told TechCrunch — women’s health, [&#8230;]",
+      "publishedAt": "2026-08-26T17:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9",
+      "title": "Apple is holding its iPhone launch event on September 9",
+      "url": "https://techcrunch.com/2026/08/26/apple-is-holding-its-iphone-launch-event-on-september-9",
+      "summary": "The event is expected to be a notable one, as Apple is rumored to unveil its long-awaited foldable iPhone. It'll also be the first Apple event with John Ternus as CEO, who is scheduled to take the reins of the tech giant from Tim Cook on September 1.",
+      "publishedAt": "2026-08-26T16:53:07.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.risklytics.ai",
+      "title": "Launch HN: Risklytics (YC S26) – Insurance brokerage for frontier tech companies",
+      "url": "https://www.risklytics.ai",
+      "summary": "Hi HN, we're Sam and Alex, founders of Risklytics ( https://risklytics.ai ). We're both on leave from Harvard, and we run an insurance brokerage for companies building robots, drones, autonomous systems and satellites. You describe your machine, we find the insurance companies willing to cover it, and we read everything before you sign. Buying insurance for any frontier tech goes like this: - your first customer or pilot requires coverage before your machine can work on their site - a broker hands you an application written for ordinary businesses, and often will deny you on baseless \"risks\" (one of our clients got denied for using CAD software in their workflow) - you get filed under something close or outright denied, the person at the insurance company often can't tell what they're looking at, and the safe answer is no - if a quote does come back, the AI risk is often quietly removed by an add-on clause that prevents you from truly being covered Those clauses surprised us. Insurance companies mostly don't write their own policies from scratch. They license standard forms from an industry body called ISO and attach add-on clauses to adjust them, and in January ISO published clauses that void coverage for losses arising out of AI in any part of a process. Each insurer decides whether to adopt them, account by account, and there's no public record of who has and to what capacity. There's an open question in the wording too. It defines generative AI as systems trained on data that produce text, images, audio, video or code. Whether a robot's control model, which produces motor commands, falls under that is unsettled. We've asked underwriters, the people at insurance companies who make these calls, and gotten different answers across the board. We didn't initially plan to be brokers. We came into YC to work in insurance and spent the first half of the batch on a wildfire risk model we wanted to sell to insurance companies. They liked it and wanted to build their own, which is the polite way to say no. While that was dying, a batchmate who launches satellites mentioned he couldn't get insured, and once we started asking around we kept hearing the same story from hardware companies. So we got licensed in a week and now can place coverage. What we've built so far: - a six-step application that asks about what you're building and drafts the structured version insurance companies like, omitting anything you didn't say - a map of which insurers add the AI clauses, which will remove them, and which cover frontier companies on purpose - when an insurer says no, you see their reason and what would change it, full transparency all the time - a hands off process for companies trying to get fully covered Here's a demo of the whole process: https://youtu.be/gVqCamTNH5E On money: the insurance company pays us a commission when you get covered, usually 10-20% of what you are charged, and we charge you nothing on top (that's right, no brokerage fees). Also, if you're a software company with ordinary needs, we'll still handle the whole process for you and get you the best policy we can find. In the past week alone we have helped three companies get covered that were denied elsewhere. The companies include a robotics wholesaler and rental store, who had trouble getting covered earlier because some of their property uses AI (even though they never use it themselves), a bridge collision system that was getting denied because they use CAD software, and a tele-operating robotics service that needed coverage within a week for their first pilot. If you're looking for insurance in any capacity feel free to reach out to me at alex@risklytics.ai or fill out an application at https://risklytics.ai . And if you work on the carrier side and think you'd wanna partner with us let us know. Comments URL: https://news.ycombinator.com/item?id=49451495 Points: 12 # Comments: 3",
+      "publishedAt": "2026-08-26T16:06:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date",
+      "title": "Apple announces September iPhone launch event",
+      "url": "https://www.theverge.com/tech/983407/apple-iphone-launch-event-2026-date",
+      "summary": "Apple's next launch event will take place on September 9th at 1PM ET. Invites to the event, which has a \"Surprise and shine\" tagline, were sent out on Wednesday. The event will take place at the Steve Jobs Theater in Apple Park, but there will also be a livestream on Apple's website. September's show could [&#8230;]",
+      "publishedAt": "2026-08-26T16:03:49.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+      "title": "Tim Curry has died",
+      "url": "https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film",
+      "summary": "Article URL: https://www.theguardian.com/film/2026/aug/26/tim-curry-dies-rocky-horror-show-stephen-king-it-legend-film Comments URL: https://news.ycombinator.com/item?id=49451448 Points: 193 # Comments: 70",
+      "publishedAt": "2026-08-26T16:03:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/08/26/meta-agrees-to-sweeping-changes-to-restrict-kids-access-to-its-apps-as-part-of-settlement-with-states",
+      "title": "Meta agrees to sweeping changes to restrict kids&#8217; access to its apps as part of settlement with states",
+      "url": "https://techcrunch.com/2026/08/26/meta-agrees-to-sweeping-changes-to-restrict-kids-access-to-its-apps-as-part-of-settlement-with-states",
+      "summary": "One of the most notable changes is that Meta plans to implement a daily two-hour time limit for teens that can only be disabled with parental permission.",
+      "publishedAt": "2026-08-26T16:03:14.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora",
+      "title": "What’s driving Sweden’s startup boom, from Lovable to Legora",
+      "url": "https://techcrunch.com/video/whats-driving-swedens-startup-boom-from-lovable-to-legora",
+      "summary": "Vibe-coding darling&#160;Lovable just raised $400 million at a&#160;$13.3 billion&#160;valuation,&#160;roughly doubling&#160;its worth in eight months. But Lovable&#160;isn’t&#160;the only Stockholm startup putting up&#160;huge numbers&#160;lately — legal AI company&#160;Legora&#160;and health tech startup&#160;Neko Health&#160;are right there with it.&#160; On this episode of TechCrunch’s&#160;Equity&#160;podcast,&#160;Dominic-Madori Davis is joined by&#160;Sophia Bendz, a partner at Cherry Ventures and longtime fixture of Europe’s startup [&#8230;]",
+      "publishedAt": "2026-08-26T16:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://home.treasury.gov/news/press-releases/sb0616",
+      "title": "US sanctions Italian hosting provider for encrypted email to Antifa and PKK",
+      "url": "https://home.treasury.gov/news/press-releases/sb0616",
+      "summary": "Article URL: https://home.treasury.gov/news/press-releases/sb0616 Comments URL: https://news.ycombinator.com/item?id=49451343 Points: 65 # Comments: 27",
+      "publishedAt": "2026-08-26T15:56:49.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+      "title": "The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+      "summary": "Article URL: https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make Comments URL: https://news.ycombinator.com/item?id=49451313 Points: 36 # Comments: 10",
+      "publishedAt": "2026-08-26T15:55:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
       "title": "Radar makes podcasts searchable — and usable by AI agents",
       "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents",
@@ -13,6 +133,26 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/08/court-blocks-trump-fcc-order-that-could-flood-broadcast-tv-with-more-election-ads",
+      "title": "Court blocks Trump FCC order that could flood broadcast TV with more election ads",
+      "url": "https://arstechnica.com/tech-policy/2026/08/court-blocks-trump-fcc-order-that-could-flood-broadcast-tv-with-more-election-ads",
+      "summary": "Republicans demanded that parties and fundraising committees be given lowest ad rates.",
+      "publishedAt": "2026-08-26T15:45:07.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.ssp.sh/brain/using-obsidian-with-ai",
+      "title": "It's so hard to finish an idea that is not yours (and suggested by AI)",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai",
+      "summary": "Article URL: https://www.ssp.sh/brain/using-obsidian-with-ai/ Comments URL: https://news.ycombinator.com/item?id=49450898 Points: 55 # Comments: 25",
+      "publishedAt": "2026-08-26T15:30:05.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/transportation/985070/volvo-connected-safety-hazard-alert-animal-cyclist",
@@ -28,18 +168,8 @@
       "id": "hacker-news:https://www.githubstatus.com/incidents/hcbtzksccj2f",
       "title": "Disruption with Some GitHub Services",
       "url": "https://www.githubstatus.com/incidents/hcbtzksccj2f",
-      "summary": "Article URL: https://www.githubstatus.com/incidents/hcbtzksccj2f Comments URL: https://news.ycombinator.com/item?id=49450722 Points: 45 # Comments: 18",
+      "summary": "Article URL: https://www.githubstatus.com/incidents/hcbtzksccj2f Comments URL: https://news.ycombinator.com/item?id=49450722 Points: 148 # Comments: 83",
       "publishedAt": "2026-08-26T15:19:40.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/SWUFE-DB-Group/TexLite",
-      "title": "Show HN: TexLite – A lightweight self-hosted LaTeX workspace",
-      "url": "https://github.com/SWUFE-DB-Group/TexLite",
-      "summary": "Article URL: https://github.com/SWUFE-DB-Group/TexLite Comments URL: https://news.ycombinator.com/item?id=49450500 Points: 5 # Comments: 0",
-      "publishedAt": "2026-08-26T15:07:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -48,18 +178,8 @@
       "id": "hacker-news:https://www.nebulasans.com",
       "title": "Nebula Sans",
       "url": "https://www.nebulasans.com",
-      "summary": "Article URL: https://www.nebulasans.com Comments URL: https://news.ycombinator.com/item?id=49450448 Points: 47 # Comments: 19",
+      "summary": "Article URL: https://www.nebulasans.com Comments URL: https://news.ycombinator.com/item?id=49450448 Points: 160 # Comments: 65",
       "publishedAt": "2026-08-26T15:03:52.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents",
-      "title": "WebMCP: Teaching Your Website to Talk to AI Agents",
-      "url": "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents",
-      "summary": "Article URL: https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49450417 Points: 22 # Comments: 23",
-      "publishedAt": "2026-08-26T15:02:15.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -68,11 +188,21 @@
       "id": "hacker-news:https://github.com/AurionMail/docs",
       "title": "AurionMail: E2EE suite (CryptPad/Stalwart) with single-password UX",
       "url": "https://github.com/AurionMail/docs",
-      "summary": "Article URL: https://github.com/AurionMail/docs Comments URL: https://news.ycombinator.com/item?id=49450394 Points: 15 # Comments: 0",
+      "summary": "Article URL: https://github.com/AurionMail/docs Comments URL: https://news.ycombinator.com/item?id=49450394 Points: 26 # Comments: 3",
       "publishedAt": "2026-08-26T15:01:11.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/science/2026/08/researchers-get-two-genetic-codes-to-work-at-the-same-time",
+      "title": "Researchers get two genetic codes to work at the same time",
+      "url": "https://arstechnica.com/science/2026/08/researchers-get-two-genetic-codes-to-work-at-the-same-time",
+      "summary": "Messing with the genetic code might have gotten a bit easier to do.",
+      "publishedAt": "2026-08-26T15:00:34.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor",
@@ -88,8 +218,18 @@
       "id": "hacker-news:https://artificialanalysis.ai/models/glm-5-3-flash",
       "title": "GLM-5.3-Flash Intelligence, Performance and Price Analysis",
       "url": "https://artificialanalysis.ai/models/glm-5-3-flash",
-      "summary": "Article URL: https://artificialanalysis.ai/models/glm-5-3-flash Comments URL: https://news.ycombinator.com/item?id=49450353 Points: 27 # Comments: 4",
+      "summary": "Article URL: https://artificialanalysis.ai/models/glm-5-3-flash Comments URL: https://news.ycombinator.com/item?id=49450353 Points: 109 # Comments: 34",
       "publishedAt": "2026-08-26T14:58:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents",
+      "title": "VMs won't contain cyber-capable agents",
+      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents",
+      "summary": "Article URL: https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/ Comments URL: https://news.ycombinator.com/item?id=49450188 Points: 53 # Comments: 21",
+      "publishedAt": "2026-08-26T14:49:30.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -138,18 +278,8 @@
       "id": "hacker-news:https://praveshkoirala.com/2026/08/26/you-could-have-invented-pagerank",
       "title": "You could have invented PageRank",
       "url": "https://praveshkoirala.com/2026/08/26/you-could-have-invented-pagerank",
-      "summary": "Article URL: https://praveshkoirala.com/2026/08/26/you-could-have-invented-pagerank/ Comments URL: https://news.ycombinator.com/item?id=49449888 Points: 22 # Comments: 6",
+      "summary": "Article URL: https://praveshkoirala.com/2026/08/26/you-could-have-invented-pagerank/ Comments URL: https://news.ycombinator.com/item?id=49449888 Points: 58 # Comments: 48",
       "publishedAt": "2026-08-26T14:29:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www6.slac.stanford.edu/public-tours",
-      "title": "Take a Tour of SLAC",
-      "url": "https://www6.slac.stanford.edu/public-tours",
-      "summary": "Article URL: https://www6.slac.stanford.edu/public-tours Comments URL: https://news.ycombinator.com/item?id=49449755 Points: 10 # Comments: 1",
-      "publishedAt": "2026-08-26T14:21:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -158,7 +288,7 @@
       "id": "hacker-news:https://farmaction.us/taylorfarmsreport",
       "title": "Taylor Farms: How One Company's Reach Became a National Risk",
       "url": "https://farmaction.us/taylorfarmsreport",
-      "summary": "Article URL: https://farmaction.us/taylorfarmsreport/ Comments URL: https://news.ycombinator.com/item?id=49449749 Points: 45 # Comments: 16",
+      "summary": "Article URL: https://farmaction.us/taylorfarmsreport/ Comments URL: https://news.ycombinator.com/item?id=49449749 Points: 118 # Comments: 70",
       "publishedAt": "2026-08-26T14:21:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -172,136 +302,6 @@
       "publishedAt": "2026-08-26T14:19:29.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned",
-      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
-      "url": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned",
-      "summary": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about [&#8230;]",
-      "publishedAt": "2026-08-26T14:16:29.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://hnstats.com",
-      "title": "Show HN: How much of Hacker News is AI?",
-      "url": "https://hnstats.com",
-      "summary": "This website counts titles containing the standalone word \"AI\", case-sensitive and word-bounded. \"OpenAI\" doesn't count. \"AI-powered\" does. There's a toggle for a wider vocabulary: artificial intelligence spelled out, LLM, GPT, and model and vendor names. Some quick stats: - 14.4% of new HN titles this year, against 10.9% in 2025. On the wider vocabulary, 21.9% and 16.1%. - First month above 1% was Oct 2016. Above 5%, Feb 2023. Above 10%, May 2025. - Over the last five years the quietest month was Jan 2022 at 0.8%. The peak was Feb 2026 at 15.9%. - 13.6% on weekdays against 12.4% at weekends. - Show HN runs highest of any category at 19.8% this year, which makes this post part of the number. As of this post, today is at 15% for the standard filter and 19% for the extended. Comments URL: https://news.ycombinator.com/item?id=49449648 Points: 27 # Comments: 14",
-      "publishedAt": "2026-08-26T14:16:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/08/15000-years-of-solar-wind-in-four-hours-a-seattle-company-gives-it-a-go",
-      "title": "15,000 years of solar wind in four hours? A Seattle company gives it a go.",
-      "url": "https://arstechnica.com/space/2026/08/15000-years-of-solar-wind-in-four-hours-a-seattle-company-gives-it-a-go",
-      "summary": "\"We're living in this world of scarcity with the Moon.\"",
-      "publishedAt": "2026-08-26T14:14:52.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://twitterwebviewer.com",
-      "title": "Twitter Viewer – View Twitter Without Account",
-      "url": "https://twitterwebviewer.com",
-      "summary": "Article URL: https://twitterwebviewer.com/ Comments URL: https://news.ycombinator.com/item?id=49449576 Points: 91 # Comments: 32",
-      "publishedAt": "2026-08-26T14:11:39.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://z.ai/blog/glm-5.3-flash",
-      "title": "GLM-5.3-Flash",
-      "url": "https://z.ai/blog/glm-5.3-flash",
-      "summary": "Article URL: https://z.ai/blog/glm-5.3-flash Comments URL: https://news.ycombinator.com/item?id=49449507 Points: 290 # Comments: 122",
-      "publishedAt": "2026-08-26T14:08:50.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.bookandsword.com/2026/08/25/a-citation-to-asimov",
-      "title": "A Citation to Asimov",
-      "url": "https://www.bookandsword.com/2026/08/25/a-citation-to-asimov",
-      "summary": "Article URL: https://www.bookandsword.com/2026/08/25/a-citation-to-asimov/ Comments URL: https://news.ycombinator.com/item?id=49449458 Points: 14 # Comments: 1",
-      "publishedAt": "2026-08-26T14:06:16.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
-      "title": "Microsoft’s 25th anniversary Xbox will cost $899",
-      "url": "https://www.theverge.com/games/985003/microsoft-xbox-25th-anniversary-console-price",
-      "summary": "The special-edition translucent green Xbox finally has an official price. Preorders for the console start August 27th at 10AM ET / 7AM PT, although Microsoft says \"some of XBOX's most dedicated fans\" will receive early access preorder emails starting today. The console will launch on November 13th, alongside a matching controller with the same \"OG [&#8230;]",
-      "publishedAt": "2026-08-26T14:05:38.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://github.com/qisutu/qisutu",
-      "title": "How HN: Qisutu – an open-source, self-hosted ticketing and service desk",
-      "url": "https://github.com/qisutu/qisutu",
-      "summary": "Article URL: https://github.com/qisutu/qisutu Comments URL: https://news.ycombinator.com/item?id=49449440 Points: 10 # Comments: 1",
-      "publishedAt": "2026-08-26T14:05:31.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
-      "title": "Elden Ring on the Switch 2 isn&#8217;t tarnished",
-      "url": "https://www.theverge.com/entertainment/983307/elden-ring-nintendo-switch-2-review",
-      "summary": "FromSoftware is hoping to make a splash on the Switch 2 later this year when it launches The Duskbloods, a gothic competitive multiplayer game that's unlike anything the studio has made before. But before that, Switch 2 owners have a chance to experience the studio's biggest hit for the first time thanks to a port [&#8230;]",
-      "publishedAt": "2026-08-26T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
-      "title": "You can now buy music on SoundCloud",
-      "url": "https://www.theverge.com/entertainment/984926/soundcloud-direct-music-sales-beta-launch",
-      "summary": "SoundCloud has launched a new beta feature that allows artists on the audio streaming platform to sell music directly from their profiles, instead of diverting fans to purchase from third-party services like Bandcamp and Beatport. The feature aims to give listeners a better way to support the musicians behind their favorite songs, because SoundCloud isn't [&#8230;]",
-      "publishedAt": "2026-08-26T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/column/984991/optimizer-oura-ring-lawsuit-sleep-tracking-wearables",
-      "title": "Your Oura Ring can&#8217;t measure what&#8217;s going on in your skull",
-      "url": "https://www.theverge.com/column/984991/optimizer-oura-ring-lawsuit-sleep-tracking-wearables",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Oura's getting sued. A recently filed class-action complaint against the smart ring maker alleges that the company has duped customers [&#8230;]",
-      "publishedAt": "2026-08-26T14:00:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests",
-      "title": "NASA Begins Moon Mission Plume-Surface Interaction Tests",
-      "url": "https://www.nasa.gov/missions/artemis/nasa-begins-moon-mission-plume-surface-interaction-tests",
-      "summary": "EDITOR’S NOTE: This story, originally published in December, was revised Aug. 26, 2026 with an update on a new phase of testing, including video from a recent test run and new images. To help NASA and commercial partners better understand the science of lunar landings, specifically the hazards that may occur when a lander’s engine [&#8230;]",
-      "publishedAt": "2026-08-26T13:58:04.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/08/psychiatrys-diagnostic-bible-is-finally-getting-a-biological-upgrade",
-      "title": "Psychiatry’s diagnostic bible is finally getting a biological upgrade",
-      "url": "https://arstechnica.com/health/2026/08/psychiatrys-diagnostic-bible-is-finally-getting-a-biological-upgrade",
-      "summary": "Biology is coming to psychiatry’s diagnostic manual, even as reliable biomarkers remain rare.",
-      "publishedAt": "2026-08-26T13:53:32.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     }
   ]

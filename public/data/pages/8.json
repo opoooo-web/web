@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/mcp-v2",
+      "title": "The next generation of MCP",
+      "url": "https://blog.cloudflare.com/mcp-v2",
+      "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/aeo",
+      "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+      "url": "https://blog.cloudflare.com/aeo",
+      "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+      "publishedAt": "2026-08-06T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "publishedAt": "2026-08-06T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "publishedAt": "2026-08-06T06:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
       "title": "From asking to doing: How the world is putting ChatGPT to work",
       "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
@@ -33,16 +73,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america",
-      "title": "NVIDIA and Partners Build in America, for America",
-      "url": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america",
-      "summary": "NVIDIA and its partners are investing in American manufacturing, supply chains, energy grids and skilled workforces so the U.S. can produce the infrastructure needed for better healthcare, breakthrough scientific discovery, stronger industrial productivity and global technology leadership.",
-      "publishedAt": "2026-08-05T13:00:47.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
     },
     {
       "id": "openai-news:https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
@@ -272,36 +302,6 @@
       "publishedAt": "2026-07-28T13:00:00.000Z",
       "sourceId": "google-ai",
       "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026",
-      "title": "AWS Weekly Roundup: Local Zone in Athens, Claude Opus 5 on AWS, Lambda durable execution for .NET, and more (July 27, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-july-27-2026",
-      "summary": "Last week I had the privilege of spending three days in São Paulo with technical builders from across Latin America, brought together for a regional tech event full of deep-dive sessions, hands-on workshops, and conversations with customers and partners. What struck me most wasn’t any single session, it was the energy of a technical community […]",
-      "publishedAt": "2026-07-27T14:54:41.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "summary": "",
-      "publishedAt": "2026-07-27T09:32:20.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "title": "How AI is expanding what people do at work",
-      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "publishedAt": "2026-07-27T03:30:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

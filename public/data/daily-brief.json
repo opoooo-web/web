@@ -1,86 +1,92 @@
 {
-  "generatedAt": "2026-08-30T06:44:23.518Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-08-30T12:57:03.028Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "Today's tech briefing highlights the rapid evolution in AI and robotics, with China leading humanoid robot development and Meta integrating robots into data centers. The legal implications of AI are under scrutiny, as evidenced by a recent condemnation of erroneous AI legal advice. Concurrently, space exploration advances with NASA's Artemis II crew receiving top honors and plans for a new US Space Academy. Significant infrastructure improvements, like Cloudflare's memory optimization, enhance digital performance and cybersecurity, while OpenAI continues to expand its AI models and partnerships globally.",
   "highlights": [
     {
-      "title": "California lawmakers unanimously pass Linux exemption from age-verification law",
-      "whyItMatters": "Article URL: https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt Comments URL: https://news.ycombinator.com/item?id=49495372 Points: 98 # Comments: 12",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt",
-      "category": "Developer",
-      "publishedAt": "2026-08-30T03:15:36.000Z"
+      "title": "China’s robots race ahead",
+      "whyItMatters": "China is making rapid strides in humanoid robot development, signaling a potential shift in global robotics.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "category": "Technology",
+      "publishedAt": "2026-08-30T12:00:00.000Z"
     },
     {
-      "title": "Algorithmic rent-pricing litigation expands under new state and local laws",
-      "whyItMatters": "Article URL: https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws Comments URL: https://news.ycombinator.com/item?id=49495127 Points: 63 # Comments: 31",
+      "title": "Fair Work Commission condemns 'plain wrong' AI legal advice",
+      "whyItMatters": "The legal system is grappling with the accuracy and reliability of AI-generated advice, raising questions about accountability.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+      "sourceUrl": "https://www.abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
       "category": "Developer",
-      "publishedAt": "2026-08-30T02:25:32.000Z"
+      "publishedAt": "2026-08-30T10:20:11.000Z"
     },
     {
-      "title": "FreeCORE TrueNAS Core – Continued",
-      "whyItMatters": "Article URL: https://freecore.org/ Comments URL: https://news.ycombinator.com/item?id=49494856 Points: 72 # Comments: 43",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://freecore.org",
-      "category": "Developer",
-      "publishedAt": "2026-08-30T01:31:32.000Z"
+      "title": "NASA’s Artemis II Crew Receives Congressional Space Medal of Honor",
+      "whyItMatters": "This recognition highlights significant achievements in human spaceflight and continuous advancements in space exploration.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://www.nasa.gov/image-article/nasas-artemis-ii-crew-receives-congressional-space-medal-of-honor",
+      "category": "Science",
+      "publishedAt": "2026-08-28T22:21:31.000Z"
     },
     {
-      "title": "Benjamin Franklin's Alter Egos Gave Him the Most Freedom",
-      "whyItMatters": "Article URL: https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824/ Comments URL: https://news.ycombinator.com/item?id=49494751 Points: 40 # Comments: 9",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824",
-      "category": "Developer",
-      "publishedAt": "2026-08-30T01:09:15.000Z"
+      "title": "OpenAI decision on Cursor following its acquisition by SpaceX",
+      "whyItMatters": "This marks a notable shift in partnerships within the AI development ecosystem.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "category": "AI",
+      "publishedAt": "2026-08-28T06:00:00.000Z"
     },
     {
-      "title": "Open Oscar Server: open-source server compatible with AIM and ICQ clients",
-      "whyItMatters": "Article URL: https://github.com/mk6i/open-oscar-server Comments URL: https://news.ycombinator.com/item?id=49494571 Points: 20 # Comments: 7",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/mk6i/open-oscar-server",
-      "category": "Developer",
-      "publishedAt": "2026-08-30T00:33:35.000Z"
+      "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+      "whyItMatters": "Cloudflare's significant memory optimization demonstrates advancements in infrastructure efficiency and performance.",
+      "sourceName": "Cloudflare Blog",
+      "sourceUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111",
+      "category": "Infrastructure",
+      "publishedAt": "2026-08-27T17:02:35.000Z"
     },
     {
-      "title": "Bug Blindness",
-      "whyItMatters": "Article URL: https://danluu.com/bug-blind/ Comments URL: https://news.ycombinator.com/item?id=49494520 Points: 178 # Comments: 79",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://danluu.com/bug-blind",
+      "title": "NVIDIA’s First CPU Built for Agents Is Shipping Now",
+      "whyItMatters": "NVIDIA is shipping its first CPU designed specifically for AI agents, marking a new era in AI hardware.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/vera-cpu-delivery",
+      "category": "AI",
+      "publishedAt": "2026-08-27T13:00:17.000Z"
+    },
+    {
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "whyItMatters": "New approaches using canvases are improving the management and efficiency of complex AI agent workflows.",
+      "sourceName": "GitHub Blog",
+      "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient",
       "category": "Developer",
-      "publishedAt": "2026-08-30T00:21:40.000Z"
+      "publishedAt": "2026-08-17T16:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "111 source-linked updates, led by OpenAI News.",
-      "itemCount": 111
-    },
-    {
       "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "summary": "Advances in robotics, consumer electronics, and policy debates surrounding AI and data privacy define recent technology trends.",
+      "itemCount": 27
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
-    },
-    {
-      "name": "Infrastructure",
-      "summary": "29 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 29
+      "name": "AI",
+      "summary": "Innovations in AI models and infrastructure continue, alongside discussions on ethical use, intellectual property, and strategic partnerships.",
+      "itemCount": 48
     },
     {
       "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "summary": "Space exploration milestones, advancements in anti-aging research, and environmental studies showcase ongoing scientific discovery.",
+      "itemCount": 12
+    },
+    {
+      "name": "Developer",
+      "summary": "New developer tools, open-source project security, and the evolving landscape of AI-assisted coding highlight the developer community's focus.",
+      "itemCount": 16
+    },
+    {
+      "name": "Infrastructure",
+      "summary": "Significant strides in cloud computing, network optimization, and cybersecurity infrastructure are enhancing digital resilience and performance.",
+      "itemCount": 16
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

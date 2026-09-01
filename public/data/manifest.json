@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:13:22.730Z",
+  "generatedAt": "2026-09-01T14:57:19.933Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,12 +14,12 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 66
+      "count": 61
     },
     {
       "name": "Hugging Face Blog",
       "category": "AI",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Ars Technica",
@@ -49,12 +49,7 @@
     {
       "name": "AWS News Blog",
       "category": "Infrastructure",
-      "count": 12
-    },
-    {
-      "name": "Google AI",
-      "category": "AI",
-      "count": 12
+      "count": 11
     },
     {
       "name": "GitHub Blog",
@@ -67,16 +62,20 @@
       "count": 10
     },
     {
+      "name": "NASA Breaking News",
+      "category": "Science",
+      "count": 10
+    },
+    {
       "name": "The Verge",
       "category": "Technology",
       "count": 10
+    },
+    {
+      "name": "Google AI",
+      "category": "AI",
+      "count": 9
     }
   ],
-  "errors": [
-    {
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "message": "HTTP 429"
-    }
-  ]
+  "errors": []
 }

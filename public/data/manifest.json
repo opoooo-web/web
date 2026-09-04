@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T19:39:08.161Z",
+  "generatedAt": "2026-09-04T22:23:20.415Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,12 +14,17 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 59
+      "count": 71
     },
     {
       "name": "Hugging Face Blog",
       "category": "AI",
-      "count": 26
+      "count": 28
+    },
+    {
+      "name": "Ars Technica",
+      "category": "Technology",
+      "count": 20
     },
     {
       "name": "Cloudflare Blog",
@@ -27,19 +32,9 @@
       "count": 20
     },
     {
-      "name": "Hacker News",
-      "category": "Developer",
-      "count": 20
-    },
-    {
       "name": "TechCrunch",
       "category": "Technology",
       "count": 20
-    },
-    {
-      "name": "Ars Technica",
-      "category": "Technology",
-      "count": 19
     },
     {
       "name": "NVIDIA Blog",
@@ -49,6 +44,16 @@
     {
       "name": "Google AI",
       "category": "AI",
+      "count": 12
+    },
+    {
+      "name": "AWS News Blog",
+      "category": "Infrastructure",
+      "count": 11
+    },
+    {
+      "name": "GitHub Blog",
+      "category": "Developer",
       "count": 10
     },
     {
@@ -65,17 +70,13 @@
       "name": "The Verge",
       "category": "Technology",
       "count": 10
-    },
-    {
-      "name": "AWS News Blog",
-      "category": "Infrastructure",
-      "count": 9
-    },
-    {
-      "name": "GitHub Blog",
-      "category": "Developer",
-      "count": 9
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "message": "fetch failed"
+    }
+  ]
 }

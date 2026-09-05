@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/rfc9234-bgp-role-model",
+      "title": "BGP Role model: tracking the adoption of RFC 9234",
+      "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model",
+      "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
+      "publishedAt": "2026-08-18T15:21:32.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo",
       "title": "In the works: AWS Builder Lofts in Berlin, Hyderabad, and São Paulo",
       "url": "https://aws.amazon.com/blogs/aws/in-the-works-aws-builder-lofts-in-berlin-hyderabad-and-sao-paulo",
@@ -292,16 +302,6 @@
       "publishedAt": "2026-08-12T14:00:00.000Z",
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/how-enterprises-put-ai-to-work",
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "publishedAt": "2026-08-12T06:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

@@ -5,6 +5,96 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available",
+      "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available",
+      "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+      "publishedAt": "2026-08-31T19:53:34.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
+      "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
+      "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]",
+      "publishedAt": "2026-08-31T14:45:25.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/introducing-adaptive-intelligence",
+      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence",
+      "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
+      "publishedAt": "2026-08-31T12:59:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/polimill",
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "url": "https://openai.com/index/polimill",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "publishedAt": "2026-08-31T07:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "title": "A milestone in expanding access to AI",
+      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "publishedAt": "2026-08-31T04:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/botbase-for-operators",
+      "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+      "url": "https://blog.cloudflare.com/botbase-for-operators",
+      "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+      "publishedAt": "2026-08-28T12:59:44.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "publishedAt": "2026-08-28T06:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "publishedAt": "2026-08-28T02:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "hugging-face-blog:https://huggingface.co/blog/open-asr-leaderboard-global-south",
       "title": "The Open ASR Leaderboard Adds Its First Global South Language",
       "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
@@ -105,20 +195,20 @@
       "category": "Developer"
     },
     {
-      "id": "openai-news:https://openai.com/index/learning-never-stops",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "url": "https://openai.com/index/learning-never-stops",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "id": "openai-news:https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "id": "openai-news:https://openai.com/index/learning-never-stops",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "url": "https://openai.com/index/learning-never-stops",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
       "publishedAt": "2026-08-26T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -212,96 +302,6 @@
       "publishedAt": "2026-08-25T11:39:24.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "title": "The full stack behind abundant intelligence",
-      "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
-      "publishedAt": "2026-08-25T07:05:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/jalapeno-first-results",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "url": "https://openai.com/index/jalapeno-first-results",
-      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-      "publishedAt": "2026-08-25T07:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/introducing-admin-plugin",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "url": "https://openai.com/index/introducing-admin-plugin",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/gradio-workflow-guide",
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "url": "https://huggingface.co/blog/gradio-workflow-guide",
-      "summary": "",
-      "publishedAt": "2026-08-25T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good",
-      "title": "Your alt text passes automated checks. That doesn&#8217;t mean it&#8217;s any good.",
-      "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good",
-      "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works. The post Your alt text passes automated checks. That doesn&#8217;t mean it&#8217;s any good. appeared first on The GitHub Blog .",
-      "publishedAt": "2026-08-24T20:56:32.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-blog-uses-emdash",
-      "title": "The Cloudflare Blog — brought to you by EmDash",
-      "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash",
-      "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
-      "publishedAt": "2026-08-24T19:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026",
-      "title": "AWS Weekly Roundup: Student Rewards on AWS Builder Center, Local Zone in Las Vegas, and more (August 24, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-student-rewards-on-aws-builder-center-local-zone-in-las-vegas-and-more-august-24-2026",
-      "summary": "During my time at AWS, I have always looked for opportunities to work with students. I have delivered over 50 talks at universities across the region, and watching the potential in the room is always a strong motivator. It reminds me of why I do this work, and that the students I meet today may […]",
-      "publishedAt": "2026-08-24T16:20:15.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory",
-      "title": "How XPUs Meet a World-Class AI Factory",
-      "url": "https://blogs.nvidia.com/blog/nvlink-fusion-xpu-ai-factory",
-      "summary": "To generate intelligence at scale, AI factories run continuously, and their economics are defined by delivered output: tokens per second, tokens per watt, cost per token, utilization and uptime. That requires AI infrastructure designed and built as a full factory, not a collection of individual accelerators. Hyperscalers and AI-native companies building custom XPUs must consider [&#8230;]",
-      "publishedAt": "2026-08-24T15:00:54.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
       "category": "AI"
     }
   ]

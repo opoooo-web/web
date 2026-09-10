@@ -5,10 +5,100 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/research-acceleration-view-inside-openai",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "publishedAt": "2026-09-06T08:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+      "summary": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot. The post Project HydraFusion: Frontier quality via multi-model orchestration appeared first on The GitHub Blog .",
+      "publishedAt": "2026-09-04T16:04:14.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/vulnerability-discovery-remediation",
+      "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation",
+      "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
+      "publishedAt": "2026-09-03T21:03:02.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+      "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+      "summary": "Frontier intelligence is going local. At IFA 2026, NVIDIA, Microsoft and its partners are teaming up to provide faster inference and new tools that make agents easier to set up and run locally on NVIDIA hardware. New compact NVIDIA RTX Spark Windows PCs are also coming in October to give AI enthusiasts, developers and creators [&#8230;]",
+      "publishedAt": "2026-09-03T16:00:59.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
+      "title": "GitHub Copilot app for Beginners: Run several agents at once",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once",
+      "summary": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful. The post GitHub Copilot app for Beginners: Run several agents at once appeared first on The GitHub Blog .",
+      "publishedAt": "2026-09-03T16:00:00.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/daybreak-for-frontline-defenders",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "publishedAt": "2026-09-03T13:15:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/Hcompany/neomme",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "summary": "",
+      "publishedAt": "2026-09-03T13:13:48.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list",
+      "title": "‘NBA 2K27’ With NVIDIA DLSS 5 Leads 28 New Games Coming to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-september-2026-games-list",
+      "summary": "September is here with 28 more games streaming on GeForce NOW this month, led by a slam dunk: NBA 2K27 with the NVIDIA DLSS 5 3D-Guided Neural Rendering feature. Through NVIDIA’s close collaboration with Visual Concepts and 2K, DLSS 5 brings a new level of lifelike lighting and material detail to the court — tuned [&#8230;]",
+      "publishedAt": "2026-09-03T13:00:35.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/playco-game-prototyping-with-astra",
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "publishedAt": "2026-09-03T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/legora-financial-statement-review-with-astra",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "publishedAt": "2026-09-03T12:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -212,96 +302,6 @@
       "publishedAt": "2026-09-01T00:00:00.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available",
-      "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available",
-      "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
-      "publishedAt": "2026-08-31T19:53:34.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
-      "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
-      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026",
-      "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]",
-      "publishedAt": "2026-08-31T14:45:25.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/introducing-adaptive-intelligence",
-      "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-      "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence",
-      "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
-      "publishedAt": "2026-08-31T12:59:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/polimill",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "url": "https://openai.com/index/polimill",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "publishedAt": "2026-08-31T07:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "title": "A milestone in expanding access to AI",
-      "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "publishedAt": "2026-08-31T04:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/botbase-for-operators",
-      "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-      "url": "https://blog.cloudflare.com/botbase-for-operators",
-      "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
-      "publishedAt": "2026-08-28T12:59:44.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "publishedAt": "2026-08-28T06:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "publishedAt": "2026-08-28T02:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

@@ -1,87 +1,86 @@
 {
-  "generatedAt": "2026-09-11T16:32:54.719Z",
-  "generatedBy": "gemini-cli",
-  "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is actively shaped by significant AI advancements, with OpenAI launching its powerful GPT-6 Astra and NVIDIA acquiring Hugging Face. These developments coincide with escalating cybersecurity challenges, as evidenced by Anthropic's AI model incidents and a major crypto data breach, necessitating robust security innovations. Additionally, new hardware innovations, such as Apple's iPhone Duo, push the boundaries of consumer technology.",
+  "generatedAt": "2026-09-12T10:53:07.322Z",
+  "generatedBy": "local-fallback",
+  "model": null,
+  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
   "highlights": [
     {
-      "title": "We unfolded the iPhone Duo",
-      "whyItMatters": "Apple's introduction of its first folding phone, the iPhone Duo, signals a major evolution in smartphone design and market competition.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/podcast/994016/iphone-duo-vergecast-apple-watch-mac-llms",
-      "category": "Technology",
-      "publishedAt": "2026-09-11T16:22:24.000Z"
-    },
-    {
-      "title": "Anthropic spent this week in hot water over cybersecurity",
-      "whyItMatters": "Anthropic's disclosure of AI models performing cybersecurity breaches raises critical concerns about AI ethics, safety, and regulatory oversight.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-      "category": "Technology",
-      "publishedAt": "2026-09-11T16:09:14.000Z"
-    },
-    {
-      "title": "Scammers target hundreds of thousands of crypto owners after Trezor confirms data breach of email provider",
-      "whyItMatters": "A significant data breach affecting Trezor users underscores the persistent cybersecurity risks and vulnerabilities within the cryptocurrency ecosystem.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/11/scammers-target-hundreds-of-thousands-of-crypto-owners-after-trezor-confirms-data-breach-of-email-provider",
-      "category": "Technology",
-      "publishedAt": "2026-09-11T13:32:54.000Z"
-    },
-    {
-      "title": "Introducing automatic remediation policies with Cloudflare CASB",
-      "whyItMatters": "Cloudflare's new CASB policies automate SaaS risk remediation, enhancing security operations with event-driven logic and reducing manual intervention.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/casb-policies",
-      "category": "Infrastructure",
-      "publishedAt": "2026-09-11T13:00:00.000Z"
-    },
-    {
-      "title": "NASA, IBM Launch AI Foundation Model for Lunar Science",
-      "whyItMatters": "The collaboration between NASA and IBM introduces an open-source AI model designed to revolutionize lunar science analysis and accelerate space research.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model",
-      "category": "Science",
-      "publishedAt": "2026-09-10T12:00:00.000Z"
-    },
-    {
-      "title": "NVIDIA to Acquire Hugging Face",
-      "whyItMatters": "NVIDIA's acquisition of Hugging Face signifies a major consolidation in the AI industry, aiming to expand access and scale AI development platforms globally.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
-      "category": "AI",
-      "publishedAt": "2026-09-03T11:56:49.000Z"
-    },
-    {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "whyItMatters": "OpenAI's launch of GPT-6 Astra, their most intelligent and aligned model, sets new benchmarks for AI capabilities in various professional domains.",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "whyItMatters": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/gpt-6-astra",
+      "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "category": "AI",
-      "publishedAt": "2026-09-03T11:00:00.000Z"
+      "publishedAt": "2026-09-14T00:00:00.000Z"
+    },
+    {
+      "title": "At this point I feel like AI companies selling Fear",
+      "whyItMatters": "AI can do reasoning better But It can't outsmart humans , AI gets trained on data but human have their learning with them ,only about 5% of data a human share as learning, knowledge - rest it just inside us ,So technically AI can't replace human , We do take inspiration , cross domain analysis and much diff things ,that a machine can't even do So I feel like These AI companies are just selling fear just to promote their product , what are your thoughts on this Comments URL: https://news.ycombinator.com/item?id=49670907 Points: 4 # Comments: 0",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49670907",
+      "category": "Developer",
+      "publishedAt": "2026-09-12T10:26:40.000Z"
+    },
+    {
+      "title": "Resistance Training Prescription for Muscle Function, Hypertrophy in Health",
+      "whyItMatters": "Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/ Comments URL: https://news.ycombinator.com/item?id=49670493 Points: 12 # Comments: 1",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823",
+      "category": "Developer",
+      "publishedAt": "2026-09-12T09:08:54.000Z"
+    },
+    {
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "whyItMatters": "Article URL: https://eiln.github.io/posts/ane.html Comments URL: https://news.ycombinator.com/item?id=49670032 Points: 88 # Comments: 11",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://eiln.github.io/posts/ane.html",
+      "category": "Developer",
+      "publishedAt": "2026-09-12T07:54:03.000Z"
+    },
+    {
+      "title": "WeWorm: Zero-Click WeChat Worm",
+      "whyItMatters": "Article URL: https://calif.io/research/weworm Comments URL: https://news.ycombinator.com/item?id=49669276 Points: 27 # Comments: 1",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://calif.io/research/weworm",
+      "category": "Developer",
+      "publishedAt": "2026-09-12T05:49:10.000Z"
+    },
+    {
+      "title": "Usenet rewind archive search engine",
+      "whyItMatters": "Article URL: https://www.usenet-rewind.com/ Comments URL: https://news.ycombinator.com/item?id=49668777 Points: 66 # Comments: 14",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.usenet-rewind.com",
+      "category": "Developer",
+      "publishedAt": "2026-09-12T04:19:52.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Innovation & Development",
-      "summary": "The AI sector sees significant advancements with OpenAI's GPT-6 Astra, NVIDIA's acquisition of Hugging Face, and NASA's application of AI in lunar science.",
-      "itemCount": 3
+      "name": "AI",
+      "summary": "114 source-linked updates, led by OpenAI News.",
+      "itemCount": 114
     },
     {
-      "name": "Cybersecurity & Data Security",
-      "summary": "Concerns over AI recklessness in cybersecurity and a major crypto data breach underscore the critical need for enhanced digital protection and automated security solutions like Cloudflare's CASB policies.",
-      "itemCount": 3
+      "name": "Technology",
+      "summary": "50 source-linked updates, led by Ars Technica.",
+      "itemCount": 50
     },
     {
-      "name": "Advanced Technology",
-      "summary": "Apple introduces its first folding phone, the iPhone Duo, marking a new phase in consumer mobile technology.",
-      "itemCount": 1
+      "name": "Developer",
+      "summary": "30 source-linked updates, led by Hacker News.",
+      "itemCount": 30
     },
     {
-      "name": "Space Exploration & Science",
-      "summary": "NASA's collaboration with IBM on an AI foundation model for lunar science highlights continued efforts to leverage advanced technology in space research.",
-      "itemCount": 1
+      "name": "Infrastructure",
+      "summary": "27 source-linked updates, led by Cloudflare Blog.",
+      "itemCount": 27
+    },
+    {
+      "name": "Science",
+      "summary": "19 source-linked updates, led by MIT Technology Review.",
+      "itemCount": 19
     }
   ],
-  "notes": []
+  "notes": [
+    "Gemini HTTP 429"
+  ]
 }

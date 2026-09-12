@@ -5,6 +5,66 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions",
+      "title": "Oracle tries to appease Stargate data center opponents with renewables push",
+      "url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions",
+      "summary": "Renewables pledge won’t change the Oracle and OpenAI data center’s use of gas.",
+      "publishedAt": "2026-09-11T18:22:22.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/kennethwolters/litelm",
+      "title": "Litelm: LiteLLM Without the Bloat",
+      "url": "https://github.com/kennethwolters/litelm",
+      "summary": "Article URL: https://github.com/kennethwolters/litelm Comments URL: https://news.ycombinator.com/item?id=49662767 Points: 94 # Comments: 35",
+      "publishedAt": "2026-09-11T18:10:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://capitalbnews.org/data-centers-permit-rules-epa",
+      "title": "The EPA is planning to scrap public review rules for data center pollution",
+      "url": "https://capitalbnews.org/data-centers-permit-rules-epa",
+      "summary": "Article URL: https://capitalbnews.org/data-centers-permit-rules-epa/ Comments URL: https://news.ycombinator.com/item?id=49662672 Points: 336 # Comments: 223",
+      "publishedAt": "2026-09-11T18:05:21.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://mathandai.org",
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org",
+      "summary": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignm... https://www.economist.com/science-and-technology/2026/09/11/... , https://unwall.app/www.economist.com/science-and-technology/... Comments URL: https://news.ycombinator.com/item?id=49662371 Points: 610 # Comments: 665",
+      "publishedAt": "2026-09-11T17:45:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://snap.berkeley.edu",
+      "title": "Λ Snap – An inviting programming language for kids and adults for CS study",
+      "url": "https://snap.berkeley.edu",
+      "summary": "Article URL: https://snap.berkeley.edu/ Comments URL: https://news.ycombinator.com/item?id=49662214 Points: 110 # Comments: 53",
+      "publishedAt": "2026-09-11T17:36:11.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
+      "title": "Mind-altering drugs played key role in rise of Andean civilization",
+      "url": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
+      "summary": "Article URL: https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization Comments URL: https://news.ycombinator.com/item?id=49662020 Points: 95 # Comments: 70",
+      "publishedAt": "2026-09-11T17:25:23.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem",
       "title": "NASA&#8217;s Chandra Spots Galactic Gem",
       "url": "https://www.nasa.gov/image-article/nasas-chandra-spots-galactic-gem",
@@ -88,7 +148,7 @@
       "id": "hacker-news:https://github.com/godot-pty/gpty",
       "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
       "url": "https://github.com/godot-pty/gpty",
-      "summary": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs and then let the user grid/tile them how they see fit. But since we have the Godot game engine at our disposal, we can do some more interesting things, like add an FPS counter, and then subsequently also let people set their preferred FPS (the idea being the potential lower power draw if someone's running it on a laptop on battery power vs someone running it on a desktop with high/native FPS). In its current state, with me using Oh-my-Pi a lot, it's evolving into a terminal workspace that can be used for orchestrating autonomous AI agents by way of dogfooding (or you know, just run herdr inside of gPTY - it's the better orchestrator and just good software - I found it after starting this project, and now I'm finding myself using it a lot). Also, we're not limited to just terminals. Since we have Godot, we have basically a 2D (and potentially a 3D) canvas to play with. We can already full-screen the app for \"zen\" mode, no taskbar, no distractions. TUI die-hards can have their media or other apps entirely in terminal panes. There has been some ground-work on getting Markdowns displayed properly done and I want to work on some kind of Wiki framework for local knowledge-management next, then create more types of panes (think native audio/video on a media pane, that sits alongside your terminal pane), and some simple 2D games (like snake) to prototype. More details are on the ROADMAP. What's not easy (and probably won't happen) is a browser. Having done a couple of (small) projects using Electron already, the temptation to ditch Godot/Rust (learning curve) did come up (and also the ecosystem, the ease with which I could pull components and use web technologies - development velocity would definitely be higher there). But on the flipside, given all of the available LLM and AI support that we are privileged to have today, I figured the velocity should be comparable depending on how much I leaned on those. And lean I did. Godot/Rust seemed the better call to me and my intent anyway - going with the 'it's not just the end but the journey that matters' philosophy. So yes, there has been heavy use of LLMs & AI to generate a lot of the code. But I do review and steer actively, not relying solely on vibes, and there's a few bits here & there that have been human authored. There are definitely a lot of polish and QoL items that need to land to make the end user experience better, but in the meantime, let me know your thoughts and/or concerns! Repository: https://github.com/godot-pty/gpty Docs/Blog: https://godot-pty.github.io/gpty/ Comments URL: https://news.ycombinator.com/item?id=49660676 Points: 71 # Comments: 36",
+      "summary": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs and then let the user grid/tile them how they see fit. But since we have the Godot game engine at our disposal, we can do some more interesting things, like add an FPS counter, and then subsequently also let people set their preferred FPS (the idea being the potential lower power draw if someone's running it on a laptop on battery power vs someone running it on a desktop with high/native FPS). In its current state, with me using Oh-my-Pi a lot, it's evolving into a terminal workspace that can be used for orchestrating autonomous AI agents by way of dogfooding (or you know, just run herdr inside of gPTY - it's the better orchestrator and just good software - I found it after starting this project, and now I'm finding myself using it a lot). Also, we're not limited to just terminals. Since we have Godot, we have basically a 2D (and potentially a 3D) canvas to play with. We can already full-screen the app for \"zen\" mode, no taskbar, no distractions. TUI die-hards can have their media or other apps entirely in terminal panes. There has been some ground-work on getting Markdowns displayed properly done and I want to work on some kind of Wiki framework for local knowledge-management next, then create more types of panes (think native audio/video on a media pane, that sits alongside your terminal pane), and some simple 2D games (like snake) to prototype. More details are on the ROADMAP. What's not easy (and probably won't happen) is a browser. Having done a couple of (small) projects using Electron already, the temptation to ditch Godot/Rust (learning curve) did come up (and also the ecosystem, the ease with which I could pull components and use web technologies - development velocity would definitely be higher there). But on the flipside, given all of the available LLM and AI support that we are privileged to have today, I figured the velocity should be comparable depending on how much I leaned on those. And lean I did. Godot/Rust seemed the better call to me and my intent anyway - going with the 'it's not just the end but the journey that matters' philosophy. So yes, there has been heavy use of LLMs & AI to generate a lot of the code. But I do review and steer actively, not relying solely on vibes, and there's a few bits here & there that have been human authored. There are definitely a lot of polish and QoL items that need to land to make the end user experience better, but in the meantime, let me know your thoughts and/or concerns! Repository: https://github.com/godot-pty/gpty Docs/Blog: https://godot-pty.github.io/gpty/ Comments URL: https://news.ycombinator.com/item?id=49660676 Points: 79 # Comments: 42",
       "publishedAt": "2026-09-11T16:03:05.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -105,24 +165,14 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://glacierextinction.com",
-      "title": "Global Glacier Extinction Explorer",
-      "url": "https://glacierextinction.com",
-      "summary": "Article URL: https://glacierextinction.com Comments URL: https://news.ycombinator.com/item?id=49660576 Points: 145 # Comments: 47",
-      "publishedAt": "2026-09-11T15:58:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://planetscale.com/blog/118-million-queries-per-second-on-neki",
-      "title": "118M Queries per Second on Neki",
-      "url": "https://planetscale.com/blog/118-million-queries-per-second-on-neki",
-      "summary": "Article URL: https://planetscale.com/blog/118-million-queries-per-second-on-neki Comments URL: https://news.ycombinator.com/item?id=49660555 Points: 82 # Comments: 38",
-      "publishedAt": "2026-09-11T15:56:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
+      "id": "openai-news:https://openai.com/index/cognition-devin-testing-with-astra",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "publishedAt": "2026-09-11T16:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
     },
     {
       "id": "the-verge:https://www.theverge.com/tech/994055/meta-project-phoenix-headset-leak",
@@ -138,7 +188,7 @@
       "id": "hacker-news:https://rune.build/blog/rune-is-now-open-source",
       "title": "Rune is now open source",
       "url": "https://rune.build/blog/rune-is-now-open-source",
-      "summary": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 114 # Comments: 46",
+      "summary": "Article URL: https://rune.build/blog/rune-is-now-open-source Comments URL: https://news.ycombinator.com/item?id=49660149 Points: 141 # Comments: 54",
       "publishedAt": "2026-09-11T15:31:47.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -253,56 +303,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet",
-      "title": "What happens when quantum mechanics and relativity meet?",
-      "url": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet",
-      "summary": "Experiment put atoms in a superposition of trajectories to find out.",
-      "publishedAt": "2026-09-11T11:20:02.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://quesma.com/blog/does-rtk-make-ai-coding-cheaper",
-      "title": "RTK reports token savings, but our cost benchmarks disagree",
-      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper",
-      "summary": "Article URL: https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/ Comments URL: https://news.ycombinator.com/item?id=49656471 Points: 139 # Comments: 68",
-      "publishedAt": "2026-09-11T11:15:13.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell",
-      "title": "Could United Launch Alliance's money problems finally force its owners to sell?",
-      "url": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell",
-      "summary": "ULA is preparing to resume launching the Vulcan rocket in the coming weeks.",
-      "publishedAt": "2026-09-11T11:00:44.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/09/rocket-report-europe-joins-the-commercial-launch-club-a-ravn-x-sighting",
-      "title": "Rocket Report: Europe joins the commercial launch club; a Ravn X sighting?",
-      "url": "https://arstechnica.com/space/2026/09/rocket-report-europe-joins-the-commercial-launch-club-a-ravn-x-sighting",
-      "summary": "\"We felt like now is the time to pour gas on that fire.\"",
-      "publishedAt": "2026-09-11T11:00:30.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "title": "Claude is only available to people over 18 years",
-      "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
-      "summary": "Article URL: https://support.claude.com/en/articles/15171100-age-assurance-on-claude Comments URL: https://news.ycombinator.com/item?id=49656225 Points: 531 # Comments: 571",
-      "publishedAt": "2026-09-11T10:48:00.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     }
   ]
 }

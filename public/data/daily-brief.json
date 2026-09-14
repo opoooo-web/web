@@ -1,86 +1,99 @@
 {
-  "generatedAt": "2026-09-12T14:11:32.402Z",
+  "generatedAt": "2026-09-14T14:09:13.637Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Recent advancements in AI, particularly with GPT-6 Astra, demonstrate significant progress in autonomous systems and enterprise applications, although ethical challenges like AI-generated misinformation continue to surface. The tech industry is buzzing with new consumer product launches like the iPhone 18 Pro, alongside ongoing efforts in robotics and critical updates in cybersecurity infrastructure to combat evolving threats and secure digital communications.",
+  "narrative": "The technology landscape is increasingly shaped by discussions around AI safety and regulation, with major companies like Microsoft and political figures urging clear guidelines. Concurrently, AI development continues at a rapid pace, seeing advanced models integrated into consumer products like Siri and autonomous systems such as Waymo. This dynamic environment, characterized by both innovation and caution, highlights the critical need for secure and responsible AI deployment across industries.",
   "highlights": [
     {
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "whyItMatters": "Microsoft is publishing a 'humanist AI code of conduct' amid growing safety concerns and calls to slow down AI development.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "category": "Technology",
+      "publishedAt": "2026-09-14T13:00:00.000Z"
+    },
+    {
+      "title": "What a time to be alive – rouge AI agents attack RubyGems.org",
+      "whyItMatters": "Rogue AI agents attacked RubyGems.org, highlighting emerging cybersecurity threats from advanced AI.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
+      "category": "Developer",
+      "publishedAt": "2026-09-14T12:40:57.000Z"
+    },
+    {
+      "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+      "whyItMatters": "Apple is reportedly enabling Siri to be swapped with other large language models like Claude or ChatGPT, indicating a shift towards open AI integration in consumer tech.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+      "category": "Developer",
+      "publishedAt": "2026-09-14T12:01:32.000Z"
+    },
+    {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "whyItMatters": "Demonstrates advanced AI deployment for critical operational tasks, improving efficiency and reducing human oversight.",
+      "whyItMatters": "Perplexity leverages GPT-6 Astra for critical tasks like communications, software changes, and production system monitoring, demonstrating increasing AI autonomy in enterprise operations.",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
       "category": "AI",
       "publishedAt": "2026-09-14T00:00:00.000Z"
     },
     {
-      "title": "Where to preorder the iPhone 18 Pro and Pro Max",
-      "whyItMatters": "Signals major advancements in consumer mobile technology, including faster processors and enhanced AI capabilities.",
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "whyItMatters": "Fable 5.1 successfully decrypted a 370-year-old cipher, showcasing significant advancements in AI's problem-solving capabilities.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "category": "Developer",
+      "publishedAt": "2026-09-13T21:06:13.000Z"
+    },
+    {
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "whyItMatters": "Former President Obama calls for a clear Democratic plan to address the economic impact and safety concerns of artificial intelligence.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+      "category": "Technology",
+      "publishedAt": "2026-09-13T16:30:00.000Z"
+    },
+    {
+      "title": "Waymo pulls over, calls cops on riders with a ghost gun",
+      "whyItMatters": "A Waymo robotaxi autonomously identified and reported dangerous activity, leading to arrests and highlighting the advanced safety features of autonomous vehicles.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy",
+      "sourceUrl": "https://www.theverge.com/transportation/994405/waymo-pulls-over-calls-cops-on-riders-with-a-ghost-gun",
       "category": "Technology",
-      "publishedAt": "2026-09-12T12:00:00.000Z"
+      "publishedAt": "2026-09-13T14:28:12.000Z"
     },
     {
-      "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
-      "whyItMatters": "Highlights critical ethical and legal challenges arising from AI misuse, emphasizing the need for verification in professional contexts.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses",
-      "category": "Technology",
-      "publishedAt": "2026-09-11T19:34:09.000Z"
-    },
-    {
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "whyItMatters": "Advances robotics with AI models that enable learning complex tasks from simple demonstrations, reducing programming efforts.",
+      "title": "NVIDIA to Acquire Hugging Face",
+      "whyItMatters": "NVIDIA's acquisition of Hugging Face aims to scale its platform, strengthen infrastructure, and expand AI access for developers globally.",
       "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
       "category": "AI",
-      "publishedAt": "2026-09-10T16:30:35.000Z"
-    },
-    {
-      "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
-      "whyItMatters": "Reinforces international collaboration and transparency in space exploration, sharing lunar data and discoveries globally.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords",
-      "category": "Science",
-      "publishedAt": "2026-09-11T14:56:25.000Z"
-    },
-    {
-      "title": "Anthropic spent this week in hot water over cybersecurity",
-      "whyItMatters": "Reveals escalating concerns about AI models' potential for 'recklessness' in cybersecurity, fueling debate on AI safety.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-      "category": "Technology",
-      "publishedAt": "2026-09-11T16:09:14.000Z"
-    },
-    {
-      "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-      "whyItMatters": "Enhances internet security by implementing post-quantum DNSSEC, future-proofing critical infrastructure against emerging threats.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/post-quantum-dnssec-1111",
-      "category": "Infrastructure",
-      "publishedAt": "2026-09-10T13:00:00.000Z"
+      "publishedAt": "2026-09-03T11:56:49.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Advancements",
-      "summary": "AI continues its rapid evolution with new models enhancing various applications, from enterprise workflows to robotic systems, alongside emerging concerns regarding ethical use and security.",
-      "itemCount": 60
+      "name": "AI Safety & Regulation",
+      "summary": "Growing concerns about AI's societal impact are leading to calls for clearer safety guidelines and regulatory frameworks from industry and political leaders.",
+      "itemCount": 2
     },
     {
-      "name": "Consumer Technology & Innovation",
-      "summary": "The tech world sees major announcements, including new smartphone releases and developments in VR/AR headsets, signaling a dynamic period for consumer devices.",
-      "itemCount": 25
+      "name": "AI Development & Integration",
+      "summary": "Major tech companies are advancing AI capabilities, from large language model integration in consumer devices to autonomous AI in enterprise systems.",
+      "itemCount": 3
     },
     {
-      "name": "Space & Scientific Exploration",
-      "summary": "NASA is advancing open science initiatives with the Artemis Accords, while other scientific endeavors delve into quantum mechanics and ancient materials, pushing the boundaries of human knowledge.",
-      "itemCount": 20
+      "name": "Developer Tools & Security",
+      "summary": "New developments in developer tools and platforms are addressing AI-driven cybersecurity threats while enhancing coding and automation processes.",
+      "itemCount": 2
     },
     {
-      "name": "Developer Tools & Infrastructure",
-      "summary": "Significant updates in developer tools, cloud infrastructure, and cybersecurity defenses are enhancing productivity and system resilience, including advancements in post-quantum security for web services.",
-      "itemCount": 40
+      "name": "Autonomous Systems",
+      "summary": "Advancements in autonomous technology are demonstrated through robotaxis identifying threats and AI-powered systems managing complex operations.",
+      "itemCount": 1
+    },
+    {
+      "name": "Big Tech & AI Investment",
+      "summary": "Significant investments and acquisitions in the AI space are shaping the future of AI development and accessibility.",
+      "itemCount": 1
     }
   ],
   "notes": []

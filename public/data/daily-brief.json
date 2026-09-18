@@ -1,86 +1,92 @@
 {
-  "generatedAt": "2026-09-18T05:59:00.046Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-09-18T11:22:46.010Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "The rapid advancement of AI continues to dominate the tech landscape, with debates escalating around its ethical implications, safety, and integration into critical infrastructure. Key developments include significant investments in AI data centers, new AI agents for diverse applications, and growing concerns about model behavior and data privacy. The industry is also grappling with the responsible scaling of AI, as major players collaborate on sustainable infrastructure and address the potential societal impacts of this transformative technology.",
   "highlights": [
     {
-      "title": "Jemalloc 5.4.0",
-      "whyItMatters": "Article URL: https://github.com/jemalloc/jemalloc/releases/tag/5.4.0 Comments URL: https://news.ycombinator.com/item?id=49750152 Points: 12 # Comments: 0",
+      "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "whyItMatters": "Raises critical questions about data ownership, intellectual property, and fair compensation in the age of large language models.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
       "category": "Developer",
-      "publishedAt": "2026-09-18T04:20:24.000Z"
+      "publishedAt": "2026-09-18T09:45:07.000Z"
     },
     {
-      "title": "The Scourge of x86 Emulation",
-      "whyItMatters": "Article URL: https://fex-emu.com/Scourge-of-emulation/ Comments URL: https://news.ycombinator.com/item?id=49750094 Points: 17 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://fex-emu.com/Scourge-of-emulation",
-      "category": "Developer",
-      "publishedAt": "2026-09-18T04:09:48.000Z"
-    },
-    {
-      "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
-      "whyItMatters": "APOD Science APOD APOD: 2026 September 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Messier 33: The [&#8230;]",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy",
+      "title": "The specter of AI-enabled bioweapons is a wake-up call for biotech",
+      "whyItMatters": "Highlights urgent concerns about the potential misuse of advanced AI in sensitive scientific fields, emphasizing the need for robust ethical guidelines.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech",
       "category": "Science",
-      "publishedAt": "2026-09-18T04:05:00.000Z"
+      "publishedAt": "2026-09-18T09:00:00.000Z"
     },
     {
-      "title": "Waymo in Singapore",
-      "whyItMatters": "Article URL: https://waymo.com/waymo-in-singapore/ Comments URL: https://news.ycombinator.com/item?id=49749981 Points: 66 # Comments: 33",
+      "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "whyItMatters": "Underscores the critical importance of cybersecurity, even for leading AI organizations, as vulnerabilities can expose sensitive internal systems.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://waymo.com/waymo-in-singapore",
+      "sourceUrl": "https://www.hacktron.ai/blog/hacking-openai",
       "category": "Developer",
-      "publishedAt": "2026-09-18T03:49:24.000Z"
+      "publishedAt": "2026-09-18T02:47:24.000Z"
     },
     {
-      "title": "Pre-Greek: The lost language hidden within Ancient Greek",
-      "whyItMatters": "Article URL: https://linguisticdiscovery.com/posts/pre-greek/ Comments URL: https://news.ycombinator.com/item?id=49749771 Points: 34 # Comments: 8",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://linguisticdiscovery.com/posts/pre-greek",
-      "category": "Developer",
-      "publishedAt": "2026-09-18T03:04:38.000Z"
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "whyItMatters": "Demonstrates the massive investment and rapid expansion in physical infrastructure required to power the growing demand for AI capabilities.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories",
+      "category": "Technology",
+      "publishedAt": "2026-09-17T23:25:52.000Z"
     },
     {
-      "title": "Code Scans",
-      "whyItMatters": "Article URL: https://devin.ai/blog/introducing-code-scans Comments URL: https://news.ycombinator.com/item?id=49749744 Points: 14 # Comments: 3",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://devin.ai/blog/introducing-code-scans",
-      "category": "Developer",
-      "publishedAt": "2026-09-18T03:00:40.000Z"
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "whyItMatters": "Reveals advanced and potentially problematic autonomous behaviors in AI models, prompting further investigation into alignment and control mechanisms.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior",
+      "category": "Technology",
+      "publishedAt": "2026-09-17T20:34:24.000Z"
+    },
+    {
+      "title": "UN turns to Google to make its global data ready for AI agents",
+      "whyItMatters": "Illustrates a significant global effort to leverage AI for public good, improving access and utility of critical data for societal impact.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents",
+      "category": "Technology",
+      "publishedAt": "2026-09-17T20:00:00.000Z"
+    },
+    {
+      "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+      "whyItMatters": "Provides developers with new, simplified deployment options for applications on AWS, enhancing scalability and operational efficiency.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode",
+      "category": "Infrastructure",
+      "publishedAt": "2026-09-17T19:20:21.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "113 source-linked updates, led by Google AI.",
-      "itemCount": 113
+      "name": "AI Ethics & Safety",
+      "summary": "Ongoing discussions and incidents highlight the urgent need for robust ethical frameworks and safety mechanisms in AI development and deployment.",
+      "itemCount": 5
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "name": "AI Infrastructure & Investment",
+      "summary": "Significant capital continues to flow into building the foundational data centers and hardware required to power advanced AI systems, alongside efforts for sustainable energy management.",
+      "itemCount": 4
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "AI Applications & Agents",
+      "summary": "New AI agents and applications are emerging across various sectors, from legal services to family assistance and military reconnaissance, demonstrating the technology's expansive utility.",
+      "itemCount": 7
     },
     {
-      "name": "Infrastructure",
-      "summary": "27 source-linked updates, led by AWS News Blog.",
-      "itemCount": 27
+      "name": "Developer Tools & Security",
+      "summary": "Updates in development tools and critical cybersecurity incidents, particularly within AI companies, underscore the continuous need for secure and efficient software development practices.",
+      "itemCount": 4
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Space & Science Innovations",
+      "summary": "Advancements in space exploration and scientific research continue to capture attention, with NASA leading efforts in gamma-ray detection and orbital missions.",
+      "itemCount": 6
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

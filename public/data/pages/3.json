@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
+      "title": "Cekura (YC F24) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
+      "summary": "Article URL: https://www.ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us Comments URL: https://news.ycombinator.com/item?id=49753131 Points: 0 # Comments: 0",
+      "publishedAt": "2026-09-18T12:00:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered",
       "title": "Could AI really kill us all? Your questions, answered.",
       "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered",
@@ -28,7 +38,7 @@
       "id": "hacker-news:https://openjev.com",
       "title": "OpenJev",
       "url": "https://openjev.com",
-      "summary": "Article URL: https://openjev.com/ Comments URL: https://news.ycombinator.com/item?id=49752041 Points: 512 # Comments: 234",
+      "summary": "Article URL: https://openjev.com/ Comments URL: https://news.ycombinator.com/item?id=49752041 Points: 550 # Comments: 245",
       "publishedAt": "2026-09-18T09:42:22.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -48,7 +58,7 @@
       "id": "hacker-news:https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload",
       "title": "Inside ZCode: Silently uploading your Git history to the cloud",
       "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload",
-      "summary": "Article URL: https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ Comments URL: https://news.ycombinator.com/item?id=49750694 Points: 236 # Comments: 88",
+      "summary": "Article URL: https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ Comments URL: https://news.ycombinator.com/item?id=49750694 Points: 251 # Comments: 90",
       "publishedAt": "2026-09-18T06:11:17.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -68,7 +78,7 @@
       "id": "hacker-news:https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157",
       "title": "Warez: The Infrastructure and Aesthetics of Piracy (2021)",
       "url": "https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157",
-      "summary": "Article URL: https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157 Comments URL: https://news.ycombinator.com/item?id=49749724 Points: 72 # Comments: 12",
+      "summary": "Article URL: https://archive.org/details/b904a8eb-9c98-4bb1-bf25-3cb9d075b157 Comments URL: https://news.ycombinator.com/item?id=49749724 Points: 100 # Comments: 22",
       "publishedAt": "2026-09-18T02:56:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -78,7 +88,7 @@
       "id": "hacker-news:https://minimalcompany.com",
       "title": "Minimal Phone 2",
       "url": "https://minimalcompany.com",
-      "summary": "Article URL: https://minimalcompany.com/ Comments URL: https://news.ycombinator.com/item?id=49749369 Points: 147 # Comments: 139",
+      "summary": "Article URL: https://minimalcompany.com/ Comments URL: https://news.ycombinator.com/item?id=49749369 Points: 177 # Comments: 170",
       "publishedAt": "2026-09-18T02:00:25.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -88,7 +98,7 @@
       "id": "hacker-news:https://cactuscompute.com/needle",
       "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
       "url": "https://cactuscompute.com/needle",
-      "summary": "Hey HN, Henry from Cactus here. We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again. The key features: 1) Automation (tool calls & structured JSON output): Needle still doesn't chat by design, its quite challenging to pack general capacity into such small models, so we focus on tool calls and structured JSON. If no tool you declared fits the request, you get an empty list back (note for when playing with the demo). 2) Intelligence Laddering: Every layer (2 to 20) is a deployable subnetwork, so one set of weights, 25 to 121 million parameters at 2-bit, shipping as 8-29MB binaries. On a Raspberry Pi 5 it decodes at up to 4k tokens/sec and prefills at up to 10k. 3) Monarch Hadamard MLP: replaces the dense FFN with three learnable Walsh-Hadamard-initialized Kronecker (Monarch) factor pairs interleaved with per-channel diagonal scales, fixed permutations, a SiLU nonlinearity, and a rank-8 input-conditioned gate, so each token gets a fully mixed nonlinear transform of its d_model channels at O(d√d) parameters and compute instead of the O(d²) a dense 4x-expansion MLP would cost. 4) Performance: On Mobile Actions (phone commands, scored on the exact call) the 20-layer model gets 86.0 through the shipped 2-bit binary; LFM2.5 1.2B is at 82.4, Qwen3.5 0.8B at 76.0, Apple's on-device model at 57.6, all at f16. More results on the link, we do not win everywhere ofc. 5) Multilingual: Needle 3 now supports English, French, Spanish, German, Dutch, Italian, Polish, with more languages coming. 6) Finetuning: You can achieve DeepSeek v4 Flash grade performance on a narrow task with just 4L, stress on \"narrow task\", we found that production users often prefer tuning before production. 7) Triggers: Grounding is a common challenge for tool call, at least for Needle 2, so we added support case-insensitive regular expressions matched against each request to gate false negatives. 8) Confidence: Every response also carries a calibrated confidence score, the minimum of a judgement on the finished call and its decode probability. Act above your threshold, show the call and ask below it, or escalate to a bigger model. 9) Supported Platforms: macOS, Linux on x86-64, ARM64, ARMv7, RISC-V and MIPS32, Windows x64 and ARM, Android, iOS, watchOS, tvOS, the browser as WebAssembly, and a WASI component. Thanks for reading and as always, thoughts appreciated! Comments URL: https://news.ycombinator.com/item?id=49748553 Points: 144 # Comments: 71",
+      "summary": "Hey HN, Henry from Cactus here. We submitted Needle 2 here a few weeks ago, and the feedback in the discussion thread was incredibly valuable, thanks! Thanks to all that feedback, we’ve been able to move quickly to release Needle 3 and I'd love to hear what you think again. The key features: 1) Automation (tool calls & structured JSON output): Needle still doesn't chat by design, its quite challenging to pack general capacity into such small models, so we focus on tool calls and structured JSON. If no tool you declared fits the request, you get an empty list back (note for when playing with the demo). 2) Intelligence Laddering: Every layer (2 to 20) is a deployable subnetwork, so one set of weights, 25 to 121 million parameters at 2-bit, shipping as 8-29MB binaries. On a Raspberry Pi 5 it decodes at up to 4k tokens/sec and prefills at up to 10k. 3) Monarch Hadamard MLP: replaces the dense FFN with three learnable Walsh-Hadamard-initialized Kronecker (Monarch) factor pairs interleaved with per-channel diagonal scales, fixed permutations, a SiLU nonlinearity, and a rank-8 input-conditioned gate, so each token gets a fully mixed nonlinear transform of its d_model channels at O(d√d) parameters and compute instead of the O(d²) a dense 4x-expansion MLP would cost. 4) Performance: On Mobile Actions (phone commands, scored on the exact call) the 20-layer model gets 86.0 through the shipped 2-bit binary; LFM2.5 1.2B is at 82.4, Qwen3.5 0.8B at 76.0, Apple's on-device model at 57.6, all at f16. More results on the link, we do not win everywhere ofc. 5) Multilingual: Needle 3 now supports English, French, Spanish, German, Dutch, Italian, Polish, with more languages coming. 6) Finetuning: You can achieve DeepSeek v4 Flash grade performance on a narrow task with just 4L, stress on \"narrow task\", we found that production users often prefer tuning before production. 7) Triggers: Grounding is a common challenge for tool call, at least for Needle 2, so we added support case-insensitive regular expressions matched against each request to gate false negatives. 8) Confidence: Every response also carries a calibrated confidence score, the minimum of a judgement on the finished call and its decode probability. Act above your threshold, show the call and ask below it, or escalate to a bigger model. 9) Supported Platforms: macOS, Linux on x86-64, ARM64, ARMv7, RISC-V and MIPS32, Windows x64 and ARM, Android, iOS, watchOS, tvOS, the browser as WebAssembly, and a WASI component. Thanks for reading and as always, thoughts appreciated! Comments URL: https://news.ycombinator.com/item?id=49748553 Points: 162 # Comments: 76",
       "publishedAt": "2026-09-18T00:11:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -293,16 +303,6 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/cooley-gopublic",
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
-      "url": "https://openai.com/index/cooley-gopublic",
-      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-      "publishedAt": "2026-09-17T12:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
     }
   ]
 }

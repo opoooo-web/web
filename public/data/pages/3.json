@@ -5,6 +5,176 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hacker-news:https://github.com/driceroland/Search",
+      "title": "Search – A small, fast WebKit browser for macOS",
+      "url": "https://github.com/driceroland/Search",
+      "summary": "Article URL: https://github.com/driceroland/Search Comments URL: https://news.ycombinator.com/item?id=49828120 Points: 40 # Comments: 5",
+      "publishedAt": "2026-09-24T09:11:52.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://cms-sfx-demo.apeleg.com",
+      "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
+      "url": "https://cms-sfx-demo.apeleg.com",
+      "summary": "Air-gapped file encryption packed into a single, self-decrypting HTML page. Repo: https://github.com/ApelegHQ/ts-cms-ep-sfx I was inspired by self-extracting archives. I wanted to share files with basically no dependencies. The goal was: 1. Something that didn't require any installation (assuming a web browser) 2. Have a single file with no network that could self-decrypt 3. Be fully auditable The second point is done by having (sort of(*)) reproducible builds and embedded OpenPGP signatures. The first point is made by cleverly manipulating the HTML structure so that it can decrypt without breaking the PGP signature. It can even decrypt using bare openssl (which was a design goal too, though getting the exact structure right took some work and bug reports). The third point is accomplished by the first two, and by the source being freely available. (*) Depends on the OS at the moment. Comments URL: https://news.ycombinator.com/item?id=49827375 Points: 13 # Comments: 6",
+      "publishedAt": "2026-09-24T07:22:17.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas",
+      "title": "APOD: 2026 September 24 – The Ghosts of Five Supernovas",
+      "url": "https://science.nasa.gov/image-article/apod-2026-september-24-the-ghosts-of-five-supernovas",
+      "summary": "APOD Science APOD APOD: 2026 September 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. OriginalAnnotated The Ghosts [&#8230;]",
+      "publishedAt": "2026-09-24T04:05:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/cloudy-cloak-over-the-northwest",
+      "title": "Cloudy Cloak Over the Northwest",
+      "url": "https://science.nasa.gov/earth/earth-observatory/cloudy-cloak-over-the-northwest",
+      "summary": "A low-lying cloud layer brought autumn ambience to western Washington and Oregon, while mountainous areas near the coast remained above the pall.",
+      "publishedAt": "2026-09-24T04:01:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://lwn.net/SubscriberLink/1095425/2d9f411252325784",
+      "title": "Ideas on modernizing the open-source desktop",
+      "url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784",
+      "summary": "Article URL: https://lwn.net/SubscriberLink/1095425/2d9f411252325784/ Comments URL: https://news.ycombinator.com/item?id=49825642 Points: 353 # Comments: 439",
+      "publishedAt": "2026-09-24T02:52:09.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse",
+      "title": "Everything new coming to Meta&#8217;s AI agent Muse",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse",
+      "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+      "publishedAt": "2026-09-24T01:13:32.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent",
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent",
+      "summary": "The tiny hardware device creates another mobile home for its AI agent Muse.",
+      "publishedAt": "2026-09-24T00:46:17.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/23/meta-is-trying-vr-glasses-again-this-time-with-more-imax",
+      "title": "Meta is trying VR glasses (again), this time with more IMAX",
+      "url": "https://techcrunch.com/2026/09/23/meta-is-trying-vr-glasses-again-this-time-with-more-imax",
+      "summary": "Meta's return to the VR glasses realm comes with a promising combination of lightweight form factor and enhanced entertainment options.",
+      "publishedAt": "2026-09-23T23:47:35.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses",
+      "title": "Meta introduces camera-free AI glasses",
+      "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses",
+      "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours of battery life.",
+      "publishedAt": "2026-09-23T23:39:44.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://bastardica.mitpit.com",
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "url": "https://bastardica.mitpit.com",
+      "summary": "A joke tool that abuses OpenType's ligature feature to mix fonts. It works pretty fast on client-side by loading Python in WASM. Comments URL: https://news.ycombinator.com/item?id=49823738 Points: 68 # Comments: 16",
+      "publishedAt": "2026-09-23T22:53:28.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric",
+      "title": "Toyota is taking the Corolla electric",
+      "url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric",
+      "summary": "Article URL: https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/ Comments URL: https://news.ycombinator.com/item?id=49823568 Points: 103 # Comments: 109",
+      "publishedAt": "2026-09-23T22:37:28.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access",
+      "title": "RFK Jr.'s CDC isn’t letting states order COVID-19 shots for kids, blocking access",
+      "url": "https://arstechnica.com/health/2026/09/rfk-jr-s-cdc-isnt-letting-states-order-covid-19-shots-for-kids-blocking-access",
+      "summary": "US health deptartment said it wants to ensure the vaccine orders are \"appropriate.\"",
+      "publishedAt": "2026-09-23T22:17:25.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/directorates/armd/aosp/nasa-modernizes-commercial-airline-systems",
+      "title": "NASA Modernizes Commercial Airline Systems",
+      "url": "https://www.nasa.gov/directorates/armd/aosp/nasa-modernizes-commercial-airline-systems",
+      "summary": "NASA’s researchers know that when you settle into your seat on a commercial flight, you expect a smooth takeoff, views over the clouds, a steady descent, and hopefully an early arrival at your destination. But when your flight gets delayed on the tarmac instead of lifting off, or it ends up in a holding pattern [&#8230;]",
+      "publishedAt": "2026-09-23T22:08:54.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real",
+      "title": "FBI rushes to investigate if ShinyHunters hack of thousands of employees is real",
+      "url": "https://arstechnica.com/tech-policy/2026/09/fbi-rushes-to-investigate-if-shinyhunters-hack-of-thousands-of-employees-is-real",
+      "summary": "It's unclear what will happen if FBI misses ShinyHunters' deadline.",
+      "publishedAt": "2026-09-23T21:46:36.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits",
+      "title": "Disney+ and Hulu raise prices by up to 13 percent after doubling profits",
+      "url": "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits",
+      "summary": "The Disney+ ad-free plan is now more expensive than Netflix's.",
+      "publishedAt": "2026-09-23T21:18:53.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley",
+      "title": "Here's the Torcal, the first fully electric Bentley",
+      "url": "https://arstechnica.com/cars/2026/09/heres-the-torcal-the-first-fully-electric-bentley",
+      "summary": "It sounds like a V8, rides like a Flying Spur, but handles like a Continental GT.",
+      "publishedAt": "2026-09-23T21:06:07.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+      "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+      "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+      "summary": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
+      "publishedAt": "2026-09-23T20:52:28.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "nasa-breaking-news:https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-croatia-as-newest-artemis-accords-signatory",
       "title": "NASA Welcomes Croatia as Newest Artemis Accords Signatory",
       "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-croatia-as-newest-artemis-accords-signatory",
@@ -13,16 +183,6 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai",
-      "title": "VC firm Bessemer now has another $5.75B to invest in (what else?) AI",
-      "url": "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai",
-      "summary": "The VC firm says that AI-native companies are growing faster than any technology, ever.",
-      "publishedAt": "2026-09-23T20:35:17.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     },
     {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/09/xprize-wildfire-winners-spotted-fires-within-10-min-but-couldnt-stop-them",
@@ -35,14 +195,14 @@
       "category": "Technology"
     },
     {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class",
-      "title": "NASA Selects Far-Infrared Telescope as First in New Mission Class",
-      "url": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class",
-      "summary": "NASA announced Wednesday a mission to explore the history and evolution of the universe, PRIMA (PRobe far-Infrared Mission for Astrophysics), is advancing to the next phase of development. This space telescope is the first in a new class of NASA astrophysics missions, called Probe Explorers, within the agency’s longstanding Explorers Program. “The PRIMA mission is [&#8230;]",
-      "publishedAt": "2026-09-23T20:09:42.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
+      "id": "hacker-news:https://www.soakingsprings.com/hot-springs/geothermal-map",
+      "title": "Geothermal heat map of US hot springs",
+      "url": "https://www.soakingsprings.com/hot-springs/geothermal-map",
+      "summary": "Article URL: https://www.soakingsprings.com/hot-springs/geothermal-map Comments URL: https://news.ycombinator.com/item?id=49821835 Points: 27 # Comments: 9",
+      "publishedAt": "2026-09-23T20:12:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/09/discord-age-verification-rolls-out-today-with-changes-spurred-by-user-backlash",
@@ -55,6 +215,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://github.com/Parcha-ai/agentrun",
+      "title": "Show HN: AgentRun: DSL to turn agents into workflows",
+      "url": "https://github.com/Parcha-ai/agentrun",
+      "summary": "Hi HN, I just open sourced the DSL that our harness in grep.ai uses to turn repeatable parts of agent work into workflows. You can combine tool calls, code, Jev-powered system one decisions for things like routing and screening evidence, and agents when a step needs more investigation. Our harness uses the traces and retro notes agents leave behind when doing a job to figure out which parts can become a workflow. The idea is to make the work easier to understand and avoid paying for a full agent loop where one isn’t needed. For example, a research workflow can split a question into subquestions, send agents to research them in parallel, use Jev to screen the evidence, and have another agent write the report. You can inspect the steps, evaluate the evidence screening separately, or change one agent without rebuilding everything. The DSL and examples are in our GitHub. There’s a scripted demo you can run without API keys: https://github.com/Parcha-ai/agentrun You can also use it as a Pi extension to build, inspect, and run workflows: https://github.com/Parcha-ai/agentrun#use-it-in-pi I would love to hear if this is useful to others. More background on how AgentRun works in this video: https://www.youtube.com/watch?v=vOVhtGjtwpg . Or read about our use cases in this article: https://x.com/MiguelriosEN/status/2101029313906987422 . Comments URL: https://news.ycombinator.com/item?id=49821438 Points: 16 # Comments: 1",
+      "publishedAt": "2026-09-23T19:42:58.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
       "title": "YouTube promises custom feeds and a lot more AI later this year",
       "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
@@ -65,36 +235,6 @@
       "category": "Technology"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
-      "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
-      "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
-      "summary": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
-      "publishedAt": "2026-09-23T19:31:28.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/23/modal-motors-is-trying-to-cut-china-out-of-electric-motors-entirely",
-      "title": "Modal Motors is trying to cut China out of electric motors entirely",
-      "url": "https://techcrunch.com/2026/09/23/modal-motors-is-trying-to-cut-china-out-of-electric-motors-entirely",
-      "summary": "The startup is working on small, light motors with no rare-earth magnets that are suited for drones, fans, and robots.",
-      "publishedAt": "2026-09-23T19:05:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado",
-      "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
-      "url": "https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado",
-      "summary": "Agricultural emissions represent an important and understudied&#160;part of Earth’s land and atmosphere systems.&#160;The&#160;FarmFlux&#160;mission will&#160;deploy more than a dozen sensors to&#160;measure ozone, methane, ammonia,&#160;particulates, and other pollutants rising from agricultural lands and animal farms and the interaction with the Earth’s atmosphere. The mission is jointly led by NASA’s Goddard Space Flight Center in Greenbelt, Maryland; Colorado [&#8230;]",
-      "publishedAt": "2026-09-23T19:03:03.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains",
       "title": "Contrary to some reports, you don't have two brains",
       "url": "https://arstechnica.com/science/2026/09/contrary-to-some-reports-you-dont-have-two-brains",
@@ -103,16 +243,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova",
-      "title": "NASA&#8217;s Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",
-      "url": "https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova",
-      "summary": "NASA’s Hubble Space Telescope captured this image of massive galaxy cluster MACS J0417 (left of center) on Sept. 19, 2026. This galaxy cluster acts as a gravitational lens, bending and magnifying light from objects far behind it. Supernova Athena, discovered by NASA’s James Webb Space Telescope in 2025, is predicted to reappear between now and [&#8230;]",
-      "publishedAt": "2026-09-23T18:43:43.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
     },
     {
       "id": "hugging-face-blog:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
@@ -145,16 +275,6 @@
       "category": "Technology"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/23/disney-and-hulu-add-to-the-growing-trend-of-streaming-inflation",
-      "title": "Disney+ and Hulu add to the growing trend of streaming inflation",
-      "url": "https://techcrunch.com/2026/09/23/disney-and-hulu-add-to-the-growing-trend-of-streaming-inflation",
-      "summary": "At the same time, Disney appears to be exploring new ways to expand its streaming business beyond simply raising subscription prices.",
-      "publishedAt": "2026-09-23T18:06:27.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "google-ai:https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
       "title": "Google Beam expands with new regions, partners, and customers",
       "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
@@ -163,46 +283,6 @@
       "sourceId": "google-ai",
       "sourceName": "Google AI",
       "category": "AI"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking",
-      "title": "The old cybersecurity model is breaking",
-      "url": "https://techcrunch.com/video/the-old-cybersecurity-model-is-breaking",
-      "summary": "As concern over AI safety and rogue agents continue to make headlines, it’s no surprise that cybersecurity stocks are rising, or that investors are pouring massive amounts of capital into startups trying to build the next generation of security for an AI-native world.&#160;We’re&#160;even seeing companies like&#160;Instinct&#160;and&#160;Simile&#160;bring in nine-figure checks and valuations that&#160;wouldn&#8217;t&#160;have made sense a [&#8230;]",
-      "publishedAt": "2026-09-23T17:44:02.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/23/zoox-grounds-atlanta-test-fleet-after-workers-report-toxic-gas-exposure-symptoms",
-      "title": "Zoox grounds Atlanta test fleet after workers report toxic gas exposure symptoms",
-      "url": "https://techcrunch.com/2026/09/23/zoox-grounds-atlanta-test-fleet-after-workers-report-toxic-gas-exposure-symptoms",
-      "summary": "The repeated incidents led one worker to file a complaint with the Occupational Safety and Health Administration, which opened an inquiry and told Zoox to investigate the exposures.",
-      "publishedAt": "2026-09-23T17:28:38.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min",
-      "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
-      "url": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min",
-      "summary": "Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Colorado Boulder. The ice covered an estimated 1.78 million square miles (4.6 million square kilometers), tying 2008, 2010, and 2025 for the 10th-lowest minimum in the satellite record. […]",
-      "publishedAt": "2026-09-23T17:15:32.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans",
-      "title": "Former NASA chief sounds alarm on China's lunar \"exploration\" plans",
-      "url": "https://arstechnica.com/space/2026/09/former-nasa-chief-sounds-alarm-on-chinas-lunar-exploration-plans",
-      "summary": "\"Beijing's intended strategy is to dominate the high ground of the twenty-first century.\"",
-      "publishedAt": "2026-09-23T17:10:58.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program",
@@ -215,26 +295,6 @@
       "category": "Science"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
-      "title": "ChatGPT mobile app gets voice-based agentic features",
-      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
-      "summary": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
-      "publishedAt": "2026-09-23T17:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/shannon-lucids-record-setting-mission-aboard-mir",
-      "title": "Shannon Lucid’s Record-Setting Mission Aboard Mir",
-      "url": "https://www.nasa.gov/image-article/shannon-lucids-record-setting-mission-aboard-mir",
-      "summary": "Shannon Lucid’s Record-Setting Mission Aboard Mir&#160; Three days before returning to Earth, Shannon W. Lucid—who joined NASA in 1978 as one of its first six female astronauts—checked in on wheat growing in the Svet greenhouse aboard the Russian space station Mir. For six months, Lucid lived and worked alongside two Russian cosmonauts conducting life science [&#8230;]",
-      "publishedAt": "2026-09-23T16:03:37.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "openai-news:https://openai.com/index/two-years-of-openai-academy",
       "title": "Two years of OpenAI Academy",
       "url": "https://openai.com/index/two-years-of-openai-academy",
@@ -243,66 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza",
-      "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza",
-      "summary": "When Sakeena Fiza describes her work as a validation engineer at NVIDIA, she does so in terms more befitting a detective story than a world-class engineering lab. “Validation engineers look in the shadows and shine a light into every corner,” Fiza said. “Every time we get a system, our first thought is: how can it [&#8230;]",
-      "publishedAt": "2026-09-23T15:00:32.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes",
-      "title": "After multiple deaths and injuries, NHTSA is investigating comma.ai",
-      "url": "https://arstechnica.com/cars/2026/09/aftermarket-driver-assist-under-federal-probe-following-fatal-crashes",
-      "summary": "Feds know of 5 crashes where cars using comma.ai devices hit slow or stopped vehicles.",
-      "publishedAt": "2026-09-23T14:20:23.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain",
-      "title": "America gave up its rare earth edge. China took full advantage.",
-      "url": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain",
-      "summary": "Decades of cheaper imports left US dependent on China for crucial rare earth processing.",
-      "publishedAt": "2026-09-23T13:37:05.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need",
-      "title": "Developers want more efficient software. Here’s what over 1000 GitHub users told us they need.",
-      "url": "https://github.blog/news-insights/research/developers-want-more-efficient-software-heres-what-over-1000-github-users-told-us-they-need",
-      "summary": "New research from GitHub and Yale Program on Climate Change Communication finds strong demand for tools, measurement, and practical guidance that can help developers reduce wasted compute. The post Developers want more efficient software. Here’s what over 1000 GitHub users told us they need. appeared first on The GitHub Blog .",
-      "publishedAt": "2026-09-23T13:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble",
-      "title": "The Download: India&#8217;s smart glasses menace and AI&#8217;s trillion-dollar gamble",
-      "url": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content creator wearing Meta smart glasses had&#8230;",
-      "publishedAt": "2026-09-23T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
     }
   ]
 }

@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode",
-      "title": "AWS Elastic Beanstalk introduces Cluster Mode",
-      "url": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode",
-      "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
-      "publishedAt": "2026-09-17T19:20:21.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo",
       "title": "Cute Critters Come to the Cloud: ‘Aniimo’ Launches on GeForce NOW",
       "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-aniimo",
@@ -303,6 +293,16 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/fyxer",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "url": "https://openai.com/index/fyxer",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
     }
   ]
 }

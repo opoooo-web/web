@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/containers-cross-tenant-vulnerability",
-      "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
-      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability",
-      "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
-      "publishedAt": "2026-09-24T15:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "hugging-face-blog:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
       "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
       "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
@@ -303,6 +293,16 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/vary-support",
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "url": "https://blog.cloudflare.com/vary-support",
+      "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
+      "publishedAt": "2026-09-22T14:04:31.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
     }
   ]
 }

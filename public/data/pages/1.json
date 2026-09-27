@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "publishedAt": "2026-09-27T01:30:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
       "title": "Apple hit with $5.7 billion in damages over haptic patents",
       "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
@@ -38,7 +48,7 @@
       "id": "hacker-news:https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station",
       "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
       "url": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station",
-      "summary": "Article URL: https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/ Comments URL: https://news.ycombinator.com/item?id=49860074 Points: 26 # Comments: 3",
+      "summary": "Article URL: https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/ Comments URL: https://news.ycombinator.com/item?id=49860074 Points: 43 # Comments: 8",
       "publishedAt": "2026-09-26T20:08:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -55,10 +65,20 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://tml.stanford.edu/homebody",
+      "title": "HomeBody: A humanoid that explores, remembers, and acts on its own",
+      "url": "https://tml.stanford.edu/homebody",
+      "summary": "Article URL: https://tml.stanford.edu/homebody/ Comments URL: https://news.ycombinator.com/item?id=49859299 Points: 13 # Comments: 2",
+      "publishedAt": "2026-09-26T18:42:10.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://arxiv.org/abs/2609.22978",
       "title": "DeepSeek Elastic Compute (DSec)",
       "url": "https://arxiv.org/abs/2609.22978",
-      "summary": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 103 # Comments: 23",
+      "summary": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 155 # Comments: 42",
       "publishedAt": "2026-09-26T18:22:41.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -75,16 +95,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
-      "title": "Japan moves to tighten rules for foreigners",
-      "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt",
-      "summary": "Article URL: https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt Comments URL: https://news.ycombinator.com/item?id=49858810 Points: 79 # Comments: 145",
-      "publishedAt": "2026-09-26T17:43:11.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "the-verge:https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
       "title": "Kids turned the comment section of an NPR podcast into a group chat",
       "url": "https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
@@ -95,11 +105,31 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "title": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html",
+      "summary": "Article URL: https://www.righto.com/2026/09/8087-tangent-cordic.html Comments URL: https://news.ycombinator.com/item?id=49858676 Points: 23 # Comments: 4",
+      "publishedAt": "2026-09-26T17:26:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:https://github.com/reladraw/reladraw",
       "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
       "url": "https://github.com/reladraw/reladraw",
-      "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate). I wanted to have the benefits of both, where you can define a diagram in a diagram language, but also retain a high degree of control over what the diagram looks like. I also wanted this to work well for humans and agents. On the Github link, there's a playground where you can try it out without installation. There's also instructions for a simple npm install and for installing a skill you can use with Claude or other agents. Comments URL: https://news.ycombinator.com/item?id=49858513 Points: 124 # Comments: 35",
+      "summary": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipulate). I wanted to have the benefits of both, where you can define a diagram in a diagram language, but also retain a high degree of control over what the diagram looks like. I also wanted this to work well for humans and agents. On the Github link, there's a playground where you can try it out without installation. There's also instructions for a simple npm install and for installing a skill you can use with Claude or other agents. Comments URL: https://news.ycombinator.com/item?id=49858513 Points: 176 # Comments: 52",
       "publishedAt": "2026-09-26T17:10:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines",
+      "title": "The Evolution of Vending Machines",
+      "url": "https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines",
+      "summary": "Article URL: https://www.saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines/ Comments URL: https://news.ycombinator.com/item?id=49858424 Points: 14 # Comments: 1",
+      "publishedAt": "2026-09-26T17:01:45.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -128,38 +158,28 @@
       "id": "hacker-news:https://tangled.org/yanndegat.tngl.sh/drawgent",
       "title": "Drawgent: Coding agent on a live Excalidraw canvas",
       "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-      "summary": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 89 # Comments: 31",
+      "summary": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 107 # Comments: 32",
       "publishedAt": "2026-09-26T15:56:34.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave",
-      "title": "Automattic has a new board after failed attempt to put CEO on leave",
-      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave",
-      "summary": "Article URL: https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/ Comments URL: https://news.ycombinator.com/item?id=49857572 Points: 114 # Comments: 134",
-      "publishedAt": "2026-09-26T15:40:27.000Z",
+      "id": "hacker-news:https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "summary": "We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash. The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass. In the blog post, we describe the approach in detail for GLM-5.3-Flash and vLLM. We benchmark this setup against Jev and Laya. We find that our setup is on-par with Jev in terms of accuracy and speed and that it substantially outperforms Laya. Still, in terms of costs per decision, Jev is several x better than our setup. In turn, our setup supports vision inputs. Comments URL: https://news.ycombinator.com/item?id=49857656 Points: 16 # Comments: 7",
+      "publishedAt": "2026-09-26T15:49:04.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
-      "title": "Plunging test scores are a slow-moving catastrophe",
-      "url": "https://www.economist.com/leaders/2026/09/10/plunging-test-scores-are-a-slow-moving-catastrophe",
-      "summary": "https://archive.ph/n8Akh Comments URL: https://news.ycombinator.com/item?id=49857442 Points: 159 # Comments: 292",
-      "publishedAt": "2026-09-26T15:24:08.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.bbc.com/news/articles/cw62jje658dlo",
-      "title": "OpenAI bots meddled with multiple US Government agency sites",
-      "url": "https://www.bbc.com/news/articles/cw62jje658dlo",
-      "summary": "Article URL: https://www.bbc.com/news/articles/cw62jje658dlo Comments URL: https://news.ycombinator.com/item?id=49856665 Points: 94 # Comments: 143",
-      "publishedAt": "2026-09-26T14:03:54.000Z",
+      "id": "hacker-news:https://antonz.org/go-concurrency-distilled",
+      "title": "Go Concurrency Distilled",
+      "url": "https://antonz.org/go-concurrency-distilled",
+      "summary": "Article URL: https://antonz.org/go-concurrency-distilled/ Comments URL: https://news.ycombinator.com/item?id=49856988 Points: 23 # Comments: 5",
+      "publishedAt": "2026-09-26T14:34:49.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -208,8 +228,18 @@
       "id": "hacker-news:https://gultsch.de/posts/breaking-up-with-google-play",
       "title": "Breaking Up with Google Play: Why Conversations Is Now Free",
       "url": "https://gultsch.de/posts/breaking-up-with-google-play",
-      "summary": "Article URL: https://gultsch.de/posts/breaking-up-with-google-play/ Comments URL: https://news.ycombinator.com/item?id=49855315 Points: 616 # Comments: 241",
+      "summary": "Article URL: https://gultsch.de/posts/breaking-up-with-google-play/ Comments URL: https://news.ycombinator.com/item?id=49855315 Points: 637 # Comments: 251",
       "publishedAt": "2026-09-26T10:55:56.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "title": "Reading’s Bayeux Tapestry",
+      "url": "https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html",
+      "summary": "Article URL: https://diamondgeezer.blogspot.com/2026/09/readings-bayeux-tapestry.html Comments URL: https://news.ycombinator.com/item?id=49855276 Points: 13 # Comments: 1",
+      "publishedAt": "2026-09-26T10:48:40.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -228,7 +258,7 @@
       "id": "hacker-news:https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
       "title": "How to keep enjoying programming in a world of LLMs",
       "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-      "summary": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 126 # Comments: 187",
+      "summary": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 153 # Comments: 210",
       "publishedAt": "2026-09-26T09:41:58.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -238,18 +268,8 @@
       "id": "hacker-news:https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
       "title": "Fifteen years later, the Apple Cards origin story",
       "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
-      "summary": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 324 # Comments: 78",
+      "summary": "Article URL: https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story Comments URL: https://news.ycombinator.com/item?id=49854693 Points: 340 # Comments: 88",
       "publishedAt": "2026-09-26T09:13:41.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://floci.io",
-      "title": "Floci: Locally emulating any cloud service",
-      "url": "https://floci.io",
-      "summary": "Article URL: https://floci.io Comments URL: https://news.ycombinator.com/item?id=49854416 Points: 157 # Comments: 31",
-      "publishedAt": "2026-09-26T08:31:02.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -275,34 +295,14 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians",
-      "title": "We're gonna need a lot more mathematicians",
-      "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians",
-      "summary": "Article URL: https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/ Comments URL: https://news.ycombinator.com/item?id=49852717 Points: 354 # Comments: 457",
-      "publishedAt": "2026-09-26T02:46:54.000Z",
+      "id": "hacker-news:https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "title": "Promising discoveries about the potential for life on one of Saturn’s icy moons",
+      "url": "https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+      "summary": "Article URL: https://www.fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html Comments URL: https://news.ycombinator.com/item?id=49852905 Points: 15 # Comments: 9",
+      "publishedAt": "2026-09-26T03:23:31.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere",
-      "title": "At Meta Connect, the company&#8217;s smart glasses were everywhere",
-      "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere",
-      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
-      "publishedAt": "2026-09-26T01:08:57.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers",
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers",
-      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
-      "publishedAt": "2026-09-25T23:11:10.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

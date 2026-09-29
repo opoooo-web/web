@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:56:47.787Z",
+  "generatedAt": "2026-09-29T20:51:41.801Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,7 +14,7 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 72
+      "count": 62
     },
     {
       "name": "Ars Technica",
@@ -42,14 +42,19 @@
       "count": 18
     },
     {
+      "name": "Hugging Face Blog",
+      "category": "AI",
+      "count": 15
+    },
+    {
       "name": "Google AI",
       "category": "AI",
-      "count": 17
+      "count": 14
     },
     {
       "name": "AWS News Blog",
       "category": "Infrastructure",
-      "count": 13
+      "count": 11
     },
     {
       "name": "GitHub Blog",
@@ -72,11 +77,5 @@
       "count": 10
     }
   ],
-  "errors": [
-    {
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "message": "HTTP 429"
-    }
-  ]
+  "errors": []
 }

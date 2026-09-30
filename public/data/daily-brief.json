@@ -1,86 +1,92 @@
 {
-  "generatedAt": "2026-09-30T13:49:30.509Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-09-30T19:25:53.821Z",
+  "generatedBy": "gemini-cli",
+  "model": "gemini-2.5-flash",
+  "narrative": "Today's brief highlights significant progress in AI, particularly concerning agent development and deployment safety. Technology sectors see innovation in delivery, infrastructure, and user privacy, while space science continues to explore lunar crop growth and orbital safety. Developer tools and open-source contributions also show steady advancements.",
   "highlights": [
     {
-      "title": "Amazon&#8217;s new Fire TV Stick 4K comes with an actually good remote",
-      "whyItMatters": "Amazon’s new Fire TV Stick 4K is slimmer and faster, but its biggest upgrade may be the thing you’ll actually hold in your hand: a redesigned remote that’s easier to use, especially in the dark.",
+      "title": "DoorDash&#8217;s drone strategy started on the ground",
+      "whyItMatters": "DoorDash unveiled the six-propeller aircraft that will be used in its new drone delivery business at its annual Dash Forward 2026 event.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/09/30/amazons-new-fire-tv-stick-4k-comes-with-an-actually-good-remote",
+      "sourceUrl": "https://techcrunch.com/2026/09/30/doordashs-drone-strategy-started-on-the-ground",
       "category": "Technology",
-      "publishedAt": "2026-09-30T13:43:54.000Z"
+      "publishedAt": "2026-09-30T19:22:13.000Z"
     },
     {
-      "title": "Scientists Have Found a Weird Physical Sign That Someone Is Interested in You",
-      "whyItMatters": "Article URL: https://www.iflscience.com/scientists-have-found-a-weird-physical-sign-that-someone-is-interested-in-you-romantically-84795 Comments URL: https://news.ycombinator.com/item?id=49908851 Points: 3 # Comments: 0",
+      "title": "NASA, International Partners Advance Work on Space Crops",
+      "whyItMatters": "NASA, CSA (Canadian Space Agency), and the German Aerospace Center signed a joint statement of intent to begin coordinated, preparatory work toward an Earth-based demonstrator to learn how to grow crops on the Moon.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/science-research/biological-physical-sciences/nasa-international-partners-advance-work-on-space-crops",
+      "category": "Science",
+      "publishedAt": "2026-09-30T18:38:20.000Z"
+    },
+    {
+      "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "whyItMatters": "Article URL: https://www.netlify.com/blog/edge-functions-firecracker-microvms/ Comments URL: https://news.ycombinator.com/item?id=49912444 Points: 12 # Comments: 2",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.iflscience.com/scientists-have-found-a-weird-physical-sign-that-someone-is-interested-in-you-romantically-84795",
+      "sourceUrl": "https://www.netlify.com/blog/edge-functions-firecracker-microvms",
       "category": "Developer",
-      "publishedAt": "2026-09-30T13:42:45.000Z"
+      "publishedAt": "2026-09-30T18:17:45.000Z"
     },
     {
-      "title": "Upgrade your desktop: Ubuntu 26.04.1 LTS is now available",
-      "whyItMatters": "Article URL: https://ubuntu.com/blog/upgrade-your-desktop-ubuntu-26-04-lts Comments URL: https://news.ycombinator.com/item?id=49908757 Points: 3 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://ubuntu.com/blog/upgrade-your-desktop-ubuntu-26-04-lts",
-      "category": "Developer",
-      "publishedAt": "2026-09-30T13:36:37.000Z"
-    },
-    {
-      "title": "The last time my family was replaced by technology",
-      "whyItMatters": "Article URL: https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/ Comments URL: https://news.ycombinator.com/item?id=49908394 Points: 29 # Comments: 24",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology",
-      "category": "Developer",
-      "publishedAt": "2026-09-30T13:06:11.000Z"
-    },
-    {
-      "title": "Cloudflare Impact reaches $100 million in donations",
-      "whyItMatters": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/100-million-donations",
+      "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+      "whyItMatters": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join transactional and historical data using familiar PostgreSQL syntax. It supports AWS Glue Data Catalog, S3, and S3 Tables, with optimizations like predicate pushdown and caching for efficient performance.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake",
       "category": "Infrastructure",
-      "publishedAt": "2026-09-30T13:01:55.000Z"
+      "publishedAt": "2026-09-30T17:22:31.000Z"
     },
     {
-      "title": "Amazon&#8217;s new Fire TV Stick 4K can pull power directly from your TV",
-      "whyItMatters": "The new Fire TV Stick 4K will be a little easier to set up than Amazon's previous 4K streaming sticks since it no longer requires a power adapter. You can power the device directly from your TV's USB port, like the updated entry-level Fire TV Stick Amazon launched earlier this year. The Fire TV Stick [&#8230;]",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/streaming/1002597/amazon-fire-tv-stick-4k-direct-power",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "whyItMatters": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026",
+      "category": "AI",
+      "publishedAt": "2026-09-30T17:00:21.000Z"
+    },
+    {
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "whyItMatters": "Intended to help with biosecurity, it works with a popular AI protein design tool.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins",
       "category": "Technology",
-      "publishedAt": "2026-09-30T13:00:16.000Z"
+      "publishedAt": "2026-09-30T15:54:52.000Z"
+    },
+    {
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "whyItMatters": "This development is significant for its respective field.",
+      "sourceName": "Hugging Face Blog",
+      "sourceUrl": "https://huggingface.co/blog/open-tts-leaderboard",
+      "category": "AI",
+      "publishedAt": "2026-09-30T00:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "109 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 109
-    },
-    {
       "name": "Technology",
-      "summary": "50 source-linked updates, led by TechCrunch.",
-      "itemCount": 50
-    },
-    {
-      "name": "Infrastructure",
-      "summary": "31 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 31
-    },
-    {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "summary": "Key advancements and discussions in technology.",
+      "itemCount": 2
     },
     {
       "name": "Science",
-      "summary": "20 source-linked updates, led by MIT Technology Review.",
-      "itemCount": 20
+      "summary": "Key advancements and discussions in science.",
+      "itemCount": 1
+    },
+    {
+      "name": "Developer",
+      "summary": "Key advancements and discussions in developer.",
+      "itemCount": 1
+    },
+    {
+      "name": "Infrastructure",
+      "summary": "Key advancements and discussions in infrastructure.",
+      "itemCount": 1
+    },
+    {
+      "name": "AI",
+      "summary": "Key advancements and discussions in ai.",
+      "itemCount": 2
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

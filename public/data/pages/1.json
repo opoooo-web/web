@@ -5,6 +5,66 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna",
+      "title": "APOD: 2026 October 1 – Harvest Moon with Erupting Mount Etna",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-1-harvest-moon-with-belt-of-venus-and-erupting-mount-etna",
+      "summary": "APOD Science APOD APOD: 2026 October 1 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Harvest Moon with [&#8230;]",
+      "publishedAt": "2026-10-01T04:05:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta",
+      "title": "An Agricultural “Island” in the Saskatchewan River Delta",
+      "url": "https://science.nasa.gov/earth/earth-observatory/an-agricultural-island-in-the-saskatchewan-river-delta",
+      "summary": "Surrounded by wetlands, Manitoba’s northernmost farmland near The Pas turns from green to brown over the 2026 growing season.",
+      "publishedAt": "2026-10-01T04:00:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
+      "title": "Is sandboxing sufficient to contain rogue agents?",
+      "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents",
+      "summary": "Article URL: https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/ Comments URL: https://news.ycombinator.com/item?id=49917378 Points: 5 # Comments: 0",
+      "publishedAt": "2026-10-01T03:27:41.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/TantrixAuto/yantra",
+      "title": "Show HN: Yantra – an LALR(1) parser generator for C++",
+      "url": "https://github.com/TantrixAuto/yantra",
+      "summary": "Yantra is a C++ parser generator: lexer, parser, and AST walker all generated from one tool. It builds the whole AST first, then walks it. Most LALR parser generators (Yacc, Bison, Lemon) run your semantic actions during parsing, as each rule reduces, bottom-up. That means at the time a rule's action runs, you don't yet know what its parent looks like. This pushes a lot of grammars toward hand-built AST classes and a separate walking pass whenever you need to look ahead into siblings or defer a decision until more context is available. On the other hand, Yantra always builds the whole AST first, then walks it top-down in a separate pass, calling your semantic actions as it goes. A parent rule's action can run before its children are visited. A single grammar can define more than one walker. For example, one that emits C++, another that emits Java, from the same parse. The AST and the walker classes are both generated for you. A small example (full version, with compile commands, in the README): start := expr; expr := expr(a) PLUS expr(b) %{ std::cout Running this on \"1 + 2 + 3\" prints: Adding Number: 1 Adding Number: 2 Number: 3 The outer \"Adding\", the root of the tree, prints first, before either of its children. That's only possible because the whole tree exists before any action runs. Some other things about it: integrated lexer with mode support (for things like nested comments), an optional amalgamated single-file output mode with a generated main(), C++23, MIT licensed. It's young (0.5.1, pre-1.0) and single-maintainer, so treat it as early. I'd rather know what breaks than have it look more finished than it is. Known gaps are listed at https://github.com/TantrixAuto/yantra/blob/main/docs/known_l... Repo: https://github.com/TantrixAuto/yantra Feedback and questions are all welcome. I'll be around. Comments URL: https://news.ycombinator.com/item?id=49916997 Points: 20 # Comments: 9",
+      "publishedAt": "2026-10-01T02:30:48.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
+      "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
+      "url": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
+      "summary": "It's a quirk of the release calendar that when Vivo's X Fold 6 launched in China this June, it was just another foldable. Now that it's ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo's previous foldables, and most other [&#8230;]",
+      "publishedAt": "2026-10-01T02:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "url": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much [&#8230;]",
+      "publishedAt": "2026-10-01T00:23:45.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
       "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
       "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
@@ -13,6 +73,16 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them",
+      "title": "Curiosity Blog, Sols 5016–5021: Fantastic Minerals and How To Detect Them",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5016-5021-fantastic-minerals-and-how-to-detect-them",
+      "summary": "Written by Lucy Lim, Planetary Scientist at NASA Goddard Space Flight Center Earth planning date: Friday, Sept. 18, 2026 Curiosity surprised us at the beginning of the week with a change in rock texture — instead of the finely layered bedrock blocks we’ve been seeing in our recent sulfate unit workspaces, suddenly we were looking […]",
+      "publishedAt": "2026-09-30T23:37:47.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
     },
     {
       "id": "the-verge:https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez",
@@ -35,20 +105,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://github.com/edgcpp/compiler",
-      "title": "EDG C++ Compiler is open source",
-      "url": "https://github.com/edgcpp/compiler",
-      "summary": "Article URL: https://github.com/edgcpp/compiler Comments URL: https://news.ycombinator.com/item?id=49915484 Points: 8 # Comments: 0",
-      "publishedAt": "2026-09-30T22:48:44.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
       "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
       "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
-      "summary": "Amazon S3 Tables now offer complete support for the Apache Iceberg V3 spec. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
+      "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
       "publishedAt": "2026-09-30T22:10:00.000Z",
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
@@ -58,27 +118,17 @@
       "id": "hacker-news:https://56k.rip",
       "title": "56k.rip – the 1996 dial-up internet experience",
       "url": "https://56k.rip",
-      "summary": "Article URL: https://56k.rip/ Comments URL: https://news.ycombinator.com/item?id=49915126 Points: 5 # Comments: 0",
+      "summary": "Article URL: https://56k.rip/ Comments URL: https://news.ycombinator.com/item?id=49915126 Points: 133 # Comments: 73",
       "publishedAt": "2026-09-30T22:08:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "hacker-news:https://groundrun.io/blog/automating-wi-fi-setup-testing-on-the-esp32",
-      "title": "Automating Wi-Fi setup testing on the ESP32",
-      "url": "https://groundrun.io/blog/automating-wi-fi-setup-testing-on-the-esp32",
-      "summary": "Article URL: https://groundrun.io/blog/automating-wi-fi-setup-testing-on-the-esp32/ Comments URL: https://news.ycombinator.com/item?id=49915119 Points: 8 # Comments: 0",
-      "publishedAt": "2026-09-30T22:07:51.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://www.thespacereview.com/article/4951/1",
-      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites",
+      "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
       "url": "https://www.thespacereview.com/article/4951/1",
-      "summary": "Article URL: https://www.thespacereview.com/article/4951/1 Comments URL: https://news.ycombinator.com/item?id=49915082 Points: 81 # Comments: 15",
+      "summary": "Article URL: https://www.thespacereview.com/article/4951/1 Comments URL: https://news.ycombinator.com/item?id=49915082 Points: 186 # Comments: 80",
       "publishedAt": "2026-09-30T22:03:04.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -196,9 +246,9 @@
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition",
-      "title": "Factory CEO just accused his VC board advisor of spying for Cognition",
+      "title": "Factory CEO just accused his VC board adviser of spying for Cognition",
       "url": "https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition",
-      "summary": "VC Chris Degnan and former board advisor to Factory AI has taken a job as chief revenue officer for Cognition.",
+      "summary": "VC Chris Degnan and former board adviser to Factory AI has taken a job as chief revenue officer for competitor Cognition -- and everyone is arguing on X about it.",
       "publishedAt": "2026-09-30T20:39:09.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
@@ -228,7 +278,7 @@
       "id": "hacker-news:https://www.neuroai.science/p/functional-ultrasound-imaging-from",
       "title": "Functional Ultrasound Imaging (fUSI) from scratch",
       "url": "https://www.neuroai.science/p/functional-ultrasound-imaging-from",
-      "summary": "Article URL: https://www.neuroai.science/p/functional-ultrasound-imaging-from Comments URL: https://news.ycombinator.com/item?id=49913604 Points: 18 # Comments: 3",
+      "summary": "Article URL: https://www.neuroai.science/p/functional-ultrasound-imaging-from Comments URL: https://news.ycombinator.com/item?id=49913604 Points: 37 # Comments: 7",
       "publishedAt": "2026-09-30T20:06:39.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -238,7 +288,7 @@
       "id": "hacker-news:https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
       "title": "Gemini 4 Argon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
-      "summary": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 842 # Comments: 556",
+      "summary": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1215 # Comments: 784",
       "publishedAt": "2026-09-30T20:04:37.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -253,56 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months",
-      "title": "Reddit is putting more limits on Old.Reddit.com",
-      "url": "https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months",
-      "summary": "Reddit says it's fighting \"automated abuse.\"",
-      "publishedAt": "2026-09-30T19:53:33.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://blog.jim-nielsen.com/2026/dear-software-makers",
-      "title": "Dear Software Makers",
-      "url": "https://blog.jim-nielsen.com/2026/dear-software-makers",
-      "summary": "Article URL: https://blog.jim-nielsen.com/2026/dear-software-makers/ Comments URL: https://news.ycombinator.com/item?id=49913364 Points: 60 # Comments: 34",
-      "publishedAt": "2026-09-30T19:45:38.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.mattkeeter.com/projects/halfspace",
-      "title": "Halfspace experimental IDE for solid modeling with distance fields",
-      "url": "https://www.mattkeeter.com/projects/halfspace",
-      "summary": "Article URL: https://www.mattkeeter.com/projects/halfspace/ Comments URL: https://news.ycombinator.com/item?id=49913350 Points: 52 # Comments: 6",
-      "publishedAt": "2026-09-30T19:44:37.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt",
-      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
-      "url": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt",
-      "summary": "AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.",
-      "publishedAt": "2026-09-30T19:31:25.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach",
-      "title": "Hackers stole millions of US military personnel records during months-long data breach",
-      "url": "https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach",
-      "summary": "The Department of Defense notified millions of current and former U.S. military personnel that their personal information had been stolen in a months-long breach.",
-      "publishedAt": "2026-09-30T19:29:08.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     }
   ]
 }

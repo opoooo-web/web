@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
+      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
+      "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
+      "publishedAt": "2026-09-30T22:10:00.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
       "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
       "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
@@ -293,16 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-      "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
-      "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done. The post GitHub Copilot app for Beginners: How to build custom workflows with canvases appeared first on The GitHub Blog .",
-      "publishedAt": "2026-09-25T18:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
     }
   ]
 }

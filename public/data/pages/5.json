@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/one-year-later-1111-interns",
+      "title": "One year later: the power of 1.1.1.1 interns",
+      "url": "https://blog.cloudflare.com/one-year-later-1111-interns",
+      "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+      "publishedAt": "2026-10-05T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "title": "Building advertising for the way people use AI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/microsoft/thinkingbox",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "summary": "",
+      "publishedAt": "2026-10-03T22:56:48.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/one-observability-platform",
+      "title": "8 major updates to Cloudflare Observability",
+      "url": "https://blog.cloudflare.com/one-observability-platform",
+      "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+      "publishedAt": "2026-10-02T18:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/practical-guide-building-gpt-6",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "publishedAt": "2026-10-02T16:15:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/streamline",
       "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
       "url": "https://blog.cloudflare.com/streamline",
@@ -252,56 +302,6 @@
       "publishedAt": "2026-10-01T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/managed-cloudflare-os",
-      "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-      "url": "https://blog.cloudflare.com/managed-cloudflare-os",
-      "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-k2-streams",
-      "title": "Announcing Cloudflare K2: serverless event streams",
-      "url": "https://blog.cloudflare.com/cloudflare-k2-streams",
-      "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
-      "publishedAt": "2026-10-01T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/the-den-family-social",
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "publishedAt": "2026-10-01T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
-      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
-      "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
-      "publishedAt": "2026-09-30T22:10:00.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
-      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
-      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
-      "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
-      "publishedAt": "2026-09-30T20:03:34.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
       "category": "Infrastructure"
     }
   ]

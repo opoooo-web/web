@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/managed-cloudflare-os",
+      "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+      "url": "https://blog.cloudflare.com/managed-cloudflare-os",
+      "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/cloudflare-k2-streams",
+      "title": "Announcing Cloudflare K2: serverless event streams",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams",
+      "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
+      "publishedAt": "2026-10-01T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/the-den-family-social",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
+      "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types",
+      "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
+      "publishedAt": "2026-09-30T22:10:00.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
+      "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches",
+      "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
+      "publishedAt": "2026-09-30T20:03:34.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake",
       "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
       "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake",
@@ -95,20 +145,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/introducing-gpt-6-1-sol",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "id": "openai-news:https://openai.com/index/devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/devday-2026-recap",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "id": "openai-news:https://openai.com/index/introducing-gpt-6-1-sol",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -205,20 +255,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/basis-tax-workbook-with-astra",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "id": "openai-news:https://openai.com/form/codex-originals",
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/form/codex-originals",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "id": "openai-news:https://openai.com/index/basis-tax-workbook-with-astra",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "publishedAt": "2026-09-28T00:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -253,56 +303,6 @@
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
       "category": "Developer"
-    },
-    {
-      "id": "github-blog:https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
-      "title": "Improving site performance by shipping more CSS",
-      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
-      "summary": "How we fully migrated github.com away from CSS-in-JS. The post Improving site performance by shipping more CSS appeared first on The GitHub Blog .",
-      "publishedAt": "2026-09-25T15:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/wayfair",
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "url": "https://openai.com/index/wayfair",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "publishedAt": "2026-09-25T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications",
-      "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
-      "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications",
-      "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified Subscriber resource, and improved economics at scale.",
-      "publishedAt": "2026-09-24T20:58:46.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/open-protein-dataset",
-      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-      "url": "https://blogs.nvidia.com/blog/open-protein-dataset",
-      "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google [&#8230;]",
-      "publishedAt": "2026-09-24T14:00:50.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant",
-      "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant",
-      "summary": "A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month GeForce NOW Ultimate membership through Sunday, Sept. 27, and receive [&#8230;]",
-      "publishedAt": "2026-09-24T13:00:36.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
     }
   ]
 }

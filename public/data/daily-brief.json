@@ -1,100 +1,86 @@
 {
-  "generatedAt": "2026-10-12T19:50:20.715Z",
-  "generatedBy": "gemini-cli",
-  "model": "gemini-2.5-flash",
-  "narrative": "Today's tech brief highlights significant advancements in AI, with Meta releasing its new frontier model, Muse Wonder, and ongoing discussions about AI's impact on software development and the need for regulation. Meanwhile, cybersecurity remains a critical concern following a major cyberattack impacting French supermarkets, and NASA continues pushing boundaries with health research launches to the ISS. New consumer tech like the Fitbit Edge also makes headlines, alongside advancements in cloud infrastructure for log management.",
+  "generatedAt": "2026-10-13T09:29:44.766Z",
+  "generatedBy": "local-fallback",
+  "model": null,
+  "narrative": "This briefing cycle is led by AI, Technology, Infrastructure. The summary is generated from source metadata and highlights the strongest signals available in this update.",
   "highlights": [
     {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "whyItMatters": "Meta's new, larger Wonder models are designed for more complex tasks, including coding, indicating a significant leap in AI capabilities.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
-      "category": "Technology",
-      "publishedAt": "2026-10-12T17:56:56.000Z"
-    },
-    {
-      "title": "French supermarkets suffer refrigerator shutdown after unprecedented cyberattack",
-      "whyItMatters": "This cyberattack demonstrates the critical vulnerability of physical infrastructure to digital threats, impacting essential services.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.rnz.co.nz/news/world/1865776/french-supermarkets-suffer-refrigerator-shutdown-after-unprecedented-cyberattack",
-      "category": "Developer",
-      "publishedAt": "2026-10-12T18:09:10.000Z"
-    },
-    {
-      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-      "whyItMatters": "New tools are emerging to integrate AI more deeply into developer workflows, promising increased productivity and a new way to interact with code.",
-      "sourceName": "GitHub Blog",
-      "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
-      "category": "Developer",
-      "publishedAt": "2026-10-12T17:43:59.000Z"
-    },
-    {
-      "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
-      "whyItMatters": "Space missions continue to advance critical research in human and plant health, benefiting both Earth-bound life and future space exploration.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research",
+      "title": "AI labs are buying data from dead startups to train their models",
+      "whyItMatters": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around&#8230;",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models",
       "category": "Science",
-      "publishedAt": "2026-10-12T17:45:27.000Z"
+      "publishedAt": "2026-10-13T09:00:00.000Z"
     },
     {
-      "title": "AI coding agents generate more code, but not more software",
-      "whyItMatters": "This highlights the ongoing challenge and debate around the actual impact and effectiveness of AI in producing functional and robust software.",
+      "title": "Teach My Little Sister How to Drive",
+      "whyItMatters": "Article URL: https://steamcommunity.com/app/3948460/allnews/ Comments URL: https://news.ycombinator.com/item?id=50068666 Points: 5 # Comments: 0",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+      "sourceUrl": "https://steamcommunity.com/app/3948460/allnews",
       "category": "Developer",
-      "publishedAt": "2026-10-12T17:14:01.000Z"
+      "publishedAt": "2026-10-13T08:55:08.000Z"
     },
     {
-      "title": "Filter, reshape, and redact logs before export with Transformers",
-      "whyItMatters": "Cloudflare's new feature enhances data management and security by allowing advanced processing of log streams at the edge.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/transformers-on-logpush",
-      "category": "Infrastructure",
-      "publishedAt": "2026-10-12T14:44:59.000Z"
+      "title": "Document Review with Unsiloed and TypeSafe Jev",
+      "whyItMatters": "Article URL: https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev Comments URL: https://news.ycombinator.com/item?id=50068443 Points: 5 # Comments: 1",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "category": "Developer",
+      "publishedAt": "2026-10-13T08:24:51.000Z"
     },
     {
-      "title": "Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch",
-      "whyItMatters": "Google introduces a new wearable, bridging the gap between basic fitness trackers and full smartwatches, catering to a broader market.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch",
-      "category": "Technology",
-      "publishedAt": "2026-10-12T15:11:19.000Z"
+      "title": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+      "whyItMatters": "Article URL: https://github.com/composo-ai/DishwasherBench Comments URL: https://news.ycombinator.com/item?id=50068437 Points: 17 # Comments: 6",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/composo-ai/DishwasherBench",
+      "category": "Developer",
+      "publishedAt": "2026-10-13T08:24:06.000Z"
     },
     {
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
-      "whyItMatters": "The call for urgent AI regulation from a major tech leader underscores the growing recognition of the need for oversight in AI development and deployment.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
-      "category": "Technology",
-      "publishedAt": "2026-10-12T15:31:19.000Z"
+      "title": "Flydubai FZ1073 saga: Iran theorizes it was an Israeli false-flag operation",
+      "whyItMatters": "Article URL: https://www.presstv.co.uk/Detail/2026/10/03/777527/flydubai-fz1073-contradictions-missing-evidence-cinematic-claims-story-doesnt-end-up Comments URL: https://news.ycombinator.com/item?id=50068223 Points: 5 # Comments: 1",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.presstv.co.uk/Detail/2026/10/03/777527/flydubai-fz1073-contradictions-missing-evidence-cinematic-claims-story-doesnt-end-up",
+      "category": "Developer",
+      "publishedAt": "2026-10-13T07:56:05.000Z"
+    },
+    {
+      "title": "Hittite royal archive found in Turkey",
+      "whyItMatters": "Article URL: https://www.thehistoryblog.com/archives/77107 Comments URL: https://news.ycombinator.com/item?id=50067414 Points: 3 # Comments: 0",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.thehistoryblog.com/archives/77107",
+      "category": "Developer",
+      "publishedAt": "2026-10-13T06:02:51.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence",
-      "summary": "Recent developments in AI include Meta's new frontier models and Microsoft's advocacy for urgent AI regulation, alongside discussions on AI agents' productivity.",
-      "itemCount": 4
+      "name": "AI",
+      "summary": "104 source-linked updates, led by NVIDIA Blog.",
+      "itemCount": 104
     },
     {
-      "name": "Cybersecurity & Infrastructure",
-      "summary": "A significant cyberattack on French supermarkets highlights infrastructure vulnerabilities, while Cloudflare enhances log management capabilities.",
-      "itemCount": 2
+      "name": "Technology",
+      "summary": "50 source-linked updates, led by Ars Technica.",
+      "itemCount": 50
     },
     {
-      "name": "Space & Science",
-      "summary": "NASA continues to lead health research missions to the ISS, contributing to advancements in space exploration and human well-being.",
-      "itemCount": 1
+      "name": "Infrastructure",
+      "summary": "36 source-linked updates, led by AWS News Blog.",
+      "itemCount": 36
     },
     {
-      "name": "Developer Tools",
-      "summary": "New GitHub Copilot features enable deeper AI integration into coding workflows, raising questions about AI's role in software generation.",
-      "itemCount": 2
+      "name": "Developer",
+      "summary": "30 source-linked updates, led by Hacker News.",
+      "itemCount": 30
     },
     {
-      "name": "Consumer Technology",
-      "summary": "Google expands its wearable offerings with the Fitbit Edge, a new device bridging the gap between fitness trackers and smartwatches.",
-      "itemCount": 1
+      "name": "Science",
+      "summary": "20 source-linked updates, led by MIT Technology Review.",
+      "itemCount": 20
     }
   ],
-  "notes": []
+  "notes": [
+    "Gemini HTTP 503"
+  ]
 }

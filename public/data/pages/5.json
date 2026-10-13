@@ -5,6 +5,56 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hugging-face-blog:https://huggingface.co/blog/tiiuae/falcon-asr",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "summary": "",
+      "publishedAt": "2026-10-07T13:21:03.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "summary": "",
+      "publishedAt": "2026-10-07T12:45:31.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/teens-learn-and-plan",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/radisson",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/gpt-6-for-everyone",
       "title": "GPT-6 and Intelligent UI for everyone",
       "url": "https://openai.com/index/gpt-6-for-everyone",
@@ -249,56 +299,6 @@
       "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
       "url": "https://blog.cloudflare.com/cloudflare-tracing",
       "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/enterprise-for-all-update",
-      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-      "url": "https://blog.cloudflare.com/enterprise-for-all-update",
-      "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway",
-      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway",
-      "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/account-abuse-protection-dashboard",
-      "title": "Follow the thread: a new dashboard to investigate account abuse",
-      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard",
-      "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/protected-quick-tunnels",
-      "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-      "url": "https://blog.cloudflare.com/protected-quick-tunnels",
-      "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
-      "publishedAt": "2026-10-02T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/civil-society-automation",
-      "title": "Building for good: How civil society organizations are automating on Cloudflare",
-      "url": "https://blog.cloudflare.com/civil-society-automation",
-      "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
       "publishedAt": "2026-10-02T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",

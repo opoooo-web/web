@@ -5,10 +5,50 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/network-performance-birthday-week-2026",
-      "title": "2026 Birthday week: network performance update",
-      "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026",
-      "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
+      "id": "cloudflare-blog:https://blog.cloudflare.com/enterprise-for-all-update",
+      "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+      "url": "https://blog.cloudflare.com/enterprise-for-all-update",
+      "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+      "publishedAt": "2026-10-02T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway",
+      "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+      "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway",
+      "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+      "publishedAt": "2026-10-02T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/account-abuse-protection-dashboard",
+      "title": "Follow the thread: a new dashboard to investigate account abuse",
+      "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard",
+      "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+      "publishedAt": "2026-10-02T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/protected-quick-tunnels",
+      "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+      "url": "https://blog.cloudflare.com/protected-quick-tunnels",
+      "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+      "publishedAt": "2026-10-02T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/civil-society-automation",
+      "title": "Building for good: How civil society organizations are automating on Cloudflare",
+      "url": "https://blog.cloudflare.com/civil-society-automation",
+      "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
       "publishedAt": "2026-10-02T13:00:00.000Z",
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
@@ -73,16 +113,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/clef-decision-models",
-      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-      "url": "https://blog.cloudflare.com/clef-decision-models",
-      "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
-      "publishedAt": "2026-10-01T15:34:02.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     },
     {
       "id": "github-blog:https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026",
@@ -273,36 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-      "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-      "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent",
-      "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
-      "publishedAt": "2026-09-28T19:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
     }
   ]
 }

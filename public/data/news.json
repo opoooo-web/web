@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies",
+      "title": "Justice Department says North Koreans have infiltrated dozens of U.S. companies",
+      "url": "https://techcrunch.com/2026/10/13/justice-department-says-north-koreans-have-infiltrated-dozens-of-u-s-companies",
+      "summary": "U.S. authorities warn that sanctioned hackers are increasingly targeting Americans to act as facilitators between breached U.S. companies and Pyongyang.",
+      "publishedAt": "2026-10-14T01:30:42.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient",
+      "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI).",
+      "publishedAt": "2026-10-13T23:13:31.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://pulseos.finance",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "url": "https://pulseos.finance",
+      "summary": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there are not enough consumer apps that run locally with no calls to the outside world that help us manage sensitive corners of our lives. This app in its local variant only downloads a couple of models and occasional updates, it does not send any analytics nor data. Features-wise, Pulse local is a complete budgeting app that offers an assistant built on top of a fine-tuned model and thousands of rules embedded in the code itself. I'm sharing it for free with options to help me continue experimenting with fine-tuning and expanding along this direction. How it works: you import a CSV from any bank, in any currency. When you ask a question, a tuned Qwen3 0.6B model reads it into a structured query, and code, not the model, does the money math against the ledger. A 4B checker model double-checks each money answer; when the two readings disagree, the app says it is not sure instead of guessing. That change took wrong answers from about one in five to 5 in 494 questions across our last three tests. The write-up covers how we test, the designs that failed, and the limits of the claim: https://pulseos.finance/pulse-local/writing/agree-or-not-sur... The tuned weights are on Hugging Face (PulseOS/pulse-local-qwen3-0.6b). Limitations: the first start downloads about 2.9 GB of models. With the checker on, a money answer takes 12 to 14 seconds (you can turn the checker off). Small models can still misread an open-ended question. The app answers in English. Mac only for now; Windows is next. The app is free. An optional Connected mode (Sync Pass, $29/year) syncs US banks through Plaid; transactions pass through our server's memory and are not stored. Feedback welcome, especially on wrong answers and on questions it should handle but does not. Comments URL: https://news.ycombinator.com/item?id=50080275 Points: 52 # Comments: 29",
+      "publishedAt": "2026-10-13T23:13:23.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home",
+      "title": "Cerebras CEO says we&#8217;re nearing a future where everyone has a personal AI assistant at home",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home",
+      "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
+      "publishedAt": "2026-10-13T23:05:34.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks",
+      "summary": "Industrial Next helps manufacturers automate complex, delicate tasks that have traditionally required human labor.",
+      "publishedAt": "2026-10-13T23:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says",
+      "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
+      "url": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says",
+      "summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
+      "publishedAt": "2026-10-13T22:48:12.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
       "id": "techcrunch:https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings",
       "title": "Cerebras CEO pushes back on AI doomsday warnings",
       "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings",
@@ -11,11 +71,11 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://meshapplied.com",
-      "title": "Running Qwen3.8 at 255 tok/s on a single 5090",
-      "url": "https://meshapplied.com",
-      "summary": "Article URL: https://meshapplied.com Comments URL: https://news.ycombinator.com/item?id=50079842 Points: 5 # Comments: 0",
-      "publishedAt": "2026-10-13T22:31:48.000Z",
+      "id": "hacker-news:https://www.cphiri.dev/presentations/recreational-programming",
+      "title": "Recreational Programming",
+      "url": "https://www.cphiri.dev/presentations/recreational-programming",
+      "summary": "Article URL: https://www.cphiri.dev/presentations/recreational-programming Comments URL: https://news.ycombinator.com/item?id=50079865 Points: 61 # Comments: 17",
+      "publishedAt": "2026-10-13T22:33:33.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -31,6 +91,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://alpha-nist.github.io",
+      "title": "AlphaNIST",
+      "url": "https://alpha-nist.github.io",
+      "summary": "Article URL: https://alpha-nist.github.io/ Comments URL: https://news.ycombinator.com/item?id=50079464 Points: 41 # Comments: 13",
+      "publishedAt": "2026-10-13T21:57:29.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers",
       "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
       "url": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers",
@@ -39,6 +109,16 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.pi.website/blog/api-beta",
+      "title": "Physical Intelligence API Beta: Frontier Models for Every Robot",
+      "url": "https://www.pi.website/blog/api-beta",
+      "summary": "Article URL: https://www.pi.website/blog/api-beta Comments URL: https://news.ycombinator.com/item?id=50079437 Points: 30 # Comments: 0",
+      "publishedAt": "2026-10-13T21:55:25.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware",
@@ -114,7 +194,7 @@
       "id": "hacker-news:https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
       "title": "OpenAI engineer arrested in bugging of executive conference room",
       "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
-      "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 199 # Comments: 189",
+      "summary": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 412 # Comments: 362",
       "publishedAt": "2026-10-13T20:23:55.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -164,7 +244,7 @@
       "id": "hacker-news:https://parsimony.lasu.dev",
       "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
       "url": "https://parsimony.lasu.dev",
-      "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is subtracted, so it measures net units. GPT-6 and Claude 5.5 have no public patches yet, so I ran them myself on 3–10 tasks on my own subscriptions (shown as faded circles, not ranked). Any feedback or model contributions are welcome, especially public patch exports for newer models. GitHub: https://github.com/La5u/Parsimony Not affiliated with any of the benchmarks. Comments URL: https://news.ycombinator.com/item?id=50077619 Points: 21 # Comments: 1",
+      "summary": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SWE-bench Verified, SWE-bench Live) and counts \"coding units\": syntax elements like statements, calls, names and literals. I didn't use lines of code, so cramming code isn't rewarded. Deleted code is subtracted, so it measures net units. GPT-6 and Claude 5.5 have no public patches yet, so I ran them myself on 3–10 tasks on my own subscriptions (shown as faded circles, not ranked). Any feedback or model contributions are welcome, especially public patch exports for newer models. GitHub: https://github.com/La5u/Parsimony Not affiliated with any of the benchmarks. Comments URL: https://news.ycombinator.com/item?id=50077619 Points: 49 # Comments: 6",
       "publishedAt": "2026-10-13T19:50:31.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -184,7 +264,7 @@
       "id": "hacker-news:https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
       "title": "The Four Colour Theorem: The first time machines mogged mathematicians",
       "url": "https://newsletter.pessimistsarchive.org/p/the-1st-time-machines-mogged-mathematicians",
-      "summary": "https://celebratio.org/Appel_KI/article/796/#sender Comments URL: https://news.ycombinator.com/item?id=50077096 Points: 15 # Comments: 15",
+      "summary": "https://celebratio.org/Appel_KI/article/796/#sender Comments URL: https://news.ycombinator.com/item?id=50077096 Points: 39 # Comments: 27",
       "publishedAt": "2026-10-13T19:17:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -194,7 +274,7 @@
       "id": "hacker-news:https://guitoro.com",
       "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
       "url": "https://guitoro.com",
-      "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds. Comments URL: https://news.ycombinator.com/item?id=50077020 Points: 161 # Comments: 57",
+      "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download. 1 minute video demo: https://youtu.be/DtcluMLdSgs I would love feedback on how the strumming feels and sounds. Comments URL: https://news.ycombinator.com/item?id=50077020 Points: 278 # Comments: 83",
       "publishedAt": "2026-10-13T19:11:48.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -471,26 +551,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://lab.specr.net/rigged-draw",
-      "title": "Show HN: How Random Are You?",
-      "url": "https://lab.specr.net/rigged-draw",
-      "summary": "Article URL: https://lab.specr.net/rigged-draw/ Comments URL: https://news.ycombinator.com/item?id=50074909 Points: 62 # Comments: 30",
-      "publishedAt": "2026-10-13T16:57:57.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://developers.googleblog.com/gemini-4-argon-for-robotics",
-      "title": "Gemini 4 Argon for Robotics",
-      "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics",
-      "summary": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879 Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 164 # Comments: 40",
-      "publishedAt": "2026-10-13T16:55:47.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
       "title": "SpaceX and Google both said no. Now his software is riding a SpaceX rocket next to Google’s",
       "url": "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
@@ -514,7 +574,7 @@
       "id": "hacker-news:https://deepmind.google/models/gemini",
       "title": "Gemini 4 Argon",
       "url": "https://deepmind.google/models/gemini",
-      "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 854 # Comments: 674",
+      "summary": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 1005 # Comments: 757",
       "publishedAt": "2026-10-13T16:03:16.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -564,18 +624,8 @@
       "id": "hacker-news:https://www.anthropic.com/engineering/redesigning-source-control",
       "title": "Redesigning source control at Anthropic",
       "url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 434 # Comments: 426",
+      "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 552 # Comments: 528",
       "publishedAt": "2026-10-13T15:49:56.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://news.ycombinator.com/item?id=50073471",
-      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
-      "url": "https://news.ycombinator.com/item?id=50073471",
-      "summary": "Hey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High controls. FedRAMP High is the U.S. government’s strictest security baseline for cloud services handling sensitive unclassified data. A breach of this data could cause severe or catastrophic harm. Achieving FedRAMP equivalency, or authorization, is required before processing CUI information. Demo: https://youtu.be/6MYxJe6P4oY Aerospace and defense is experiencing rapid growth. Unfortunately, most companies are struggling to use AI because of necessary data protections & compliance risk. These companies can move even faster if they could use the AI tools that most other industries take for granted. I spent most of my career prior to Consus in aerospace & defense. I launched national security payloads at SpaceX, and was an early employee at Castelion. I’ve watched first hand how compliance red-tape makes it difficult for companies to adopt new technologies and trust vendors that touch their sensitive data. For example, I worked with a satellite manufacturer that doesn’t allow any AI tools, even for non-sensitive work. Even as AI has become extremely useful over the past 9-12 months, I was surprised by how many aerospace & defense companies refused to touch it. They could see how it could be helpful, but they were scared about model providers training on their data, violating an ITAR rule, or risk losing new business because of a failed cyber assessment. These are all rational fears. There were a lot of ways to solve some/all of these problems, but we focused on building a compliant AI inference layer that can \"plug\" into any AI tool or workflow. Just as OpenRouter integrates with most tools, Consus can connect to tools like ChatGPT or Claude, open source tools including the Pi coding agent or Open WebUI, or integrate with applications built and maintained by individual organizations. Almost no aerospace & defense company lives in all three major GovClouds (AWS, Azure, Google). When I mapped where frontier models can legally run for ITAR and CUI work, each provider had some subset of models, and each model achieved varying levels of compliance. Our customers don’t think in terms of cloud providers. They think about the data controls they require, and the model they want to use. That is why we built the compliance suffix. Under the hood, every request hits a single OpenAI-compatible endpoint, where keys are verified and policy is enforced before anything touches inference. Every model name must carry a compliance suffix, such as gpt-5.6-sol:fedramp-high or claude-opus-5-5:itar, and any bare model name is rejected. We never proxy to the standard commercial endpoints. Our customers are also able to build an allowlist of models, and assign spend & model restrictions to individual users in the organization. This is all handled through our Consus Portal where teams can manage spend, keys, and policies. A typical question we hear is why not just use Bedrock in AWS GovCloud or Azure Government directly. For small teams, just getting access to these platforms is difficult. For larger organizations, GovCloud lets you inherit some but not all of the controls needed to handle sensitive data. Also, models are split across providers: GPT-5.6 Sol is only available in Azure Government, while Claude Opus 5.5 is served through Bedrock in AWS GovCloud. If you want both, you are standing up and securing two separate government cloud environments. We run all of them behind one endpoint so customers don’t have to pick a cloud, and we handle the compliance work for each one. Given the data sensitivities, Consus does not store any customer data at rest. All prompts and completions stay in memory only for the length of the request and are never logged or written to disk. Zero data retention is strictly enforced both on ourselves and the infrastructure/model providers. We do keep metadata on each request and response for billing and audit purposes. Consus is not self-serve by design. ITAR requires us to know exactly who is on the other end of every key, so we verify every organization and put a contract in place before issuing API keys. We charge our customers a compliance fee starting at $40/mo/seat plus AI tokens at cost. We are actively serving customers, and would love any feedback from security experts, or developers/engineers working in highly regulated industries! References: API Documentation: https://gateway.consus.io/overview Security & Architecture: https://gateway.consus.io/security Compliance Details: https://consus.io/compliance Comments URL: https://news.ycombinator.com/item?id=50073471 Points: 32 # Comments: 16",
-      "publishedAt": "2026-10-13T15:41:00.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -594,7 +644,7 @@
       "id": "hacker-news:https://www.sammystraus.com",
       "title": "I posted to HN, and then my website was flooded with AI bot traffic",
       "url": "https://www.sammystraus.com",
-      "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 213 # Comments: 136",
+      "summary": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 255 # Comments: 148",
       "publishedAt": "2026-10-13T15:25:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -614,7 +664,7 @@
       "id": "hacker-news:https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
       "title": "The United Kingdom generates less electricity per person than in the 1970s",
       "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak",
-      "summary": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 152 # Comments: 226",
+      "summary": "Article URL: https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak Comments URL: https://news.ycombinator.com/item?id=50072994 Points: 208 # Comments: 298",
       "publishedAt": "2026-10-13T15:12:57.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -624,7 +674,7 @@
       "id": "hacker-news:https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development",
       "title": "Thunderbird for iOS",
       "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development",
-      "summary": "Article URL: https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/ Comments URL: https://news.ycombinator.com/item?id=50072913 Points: 287 # Comments: 116",
+      "summary": "Article URL: https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/ Comments URL: https://news.ycombinator.com/item?id=50072913 Points: 344 # Comments: 151",
       "publishedAt": "2026-10-13T15:07:37.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -641,70 +691,20 @@
       "category": "Science"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between",
-      "title": "The 2026 Startup Battlefield Top 20: From organs to orbit and everything in between",
-      "url": "https://techcrunch.com/2026/10/13/the-2026-startup-battlefield-top-20-from-organs-to-orbit-and-everything-in-between",
-      "summary": "Twenty founders just earned their shot at Disrupt glory. They're headed to the main stage at TechCrunch Disrupt to compete for the $100,000 prize and the coveted Disrupt Cup.",
-      "publishedAt": "2026-10-13T15:02:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/13/spotify-users-on-ios-27-can-now-ask-siri-to-play-music-without-having-to-say-on-spotify",
-      "title": "Spotify users on iOS 27 can now ask Siri to play music without having to say &#8216;on Spotify&#8217;",
-      "url": "https://techcrunch.com/2026/10/13/spotify-users-on-ios-27-can-now-ask-siri-to-play-music-without-having-to-say-on-spotify",
-      "summary": "Siri can now learn users' preferred music app, allowing Spotify listeners to request songs, podcasts, and playlists without specifying which app to use.",
-      "publishedAt": "2026-10-13T14:30:12.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "hacker-news:https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome",
       "title": "Apple's new 'Switch to Safari' campaign details why you should ditch Chrome",
       "url": "https://9to5mac.com/2026/10/12/apples-new-switch-to-safari-campaign-details-why-you-should-ditch-chrome",
-      "summary": "https://www.apple.com/safari/switch/ Comments URL: https://news.ycombinator.com/item?id=50072286 Points: 146 # Comments: 237",
+      "summary": "https://www.apple.com/safari/switch/ Comments URL: https://news.ycombinator.com/item?id=50072286 Points: 188 # Comments: 317",
       "publishedAt": "2026-10-13T14:26:08.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset",
-      "title": "Bumble agrees to a $1.3B acquisition deal as online dating faces a reset",
-      "url": "https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset",
-      "summary": "After years of declining subscriber numbers and falling revenue, Bumble just agreed to a $1.3 billion acquisition.",
-      "publishedAt": "2026-10-13T14:25:48.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "title": "How to engineer an AI harness for game development",
-      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "summary": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 108 # Comments: 47",
-      "publishedAt": "2026-10-13T14:14:23.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1",
-      "title": "TechCrunch Disrupt 2026: Day 1",
-      "url": "https://techcrunch.com/2026/10/13/techcrunch-disrupt-2026-day-1",
-      "summary": "TechCrunch Disrupt 2026 officially kicks off today. See what's in store for Day 1 (Oct. 13) at San Francisco's Moscone West. Don't miss it. Register for your pass now and meet 10,000+ tech leaders at the startup epicenter of the year.",
-      "publishedAt": "2026-10-13T14:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
       "id": "hacker-news:https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k",
       "title": "New Apple TV 4K",
       "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k",
-      "summary": "Article URL: https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/ Comments URL: https://news.ycombinator.com/item?id=50071310 Points: 255 # Comments: 498",
+      "summary": "Article URL: https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/ Comments URL: https://news.ycombinator.com/item?id=50071310 Points: 294 # Comments: 552",
       "publishedAt": "2026-10-13T13:21:35.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -724,7 +724,7 @@
       "id": "hacker-news:https://www.apple.com/apple-homeview",
       "title": "Apple HomeView",
       "url": "https://www.apple.com/apple-homeview",
-      "summary": "Article URL: https://www.apple.com/apple-homeview/ Comments URL: https://news.ycombinator.com/item?id=50071017 Points: 610 # Comments: 744",
+      "summary": "Article URL: https://www.apple.com/apple-homeview/ Comments URL: https://news.ycombinator.com/item?id=50071017 Points: 665 # Comments: 782",
       "publishedAt": "2026-10-13T13:02:12.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -744,18 +744,8 @@
       "id": "hacker-news:https://machinelearning.apple.com/research/distributed-gpu-cloud",
       "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
       "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
-      "summary": "Article URL: https://machinelearning.apple.com/research/distributed-gpu-cloud Comments URL: https://news.ycombinator.com/item?id=50070593 Points: 211 # Comments: 90",
+      "summary": "Article URL: https://machinelearning.apple.com/research/distributed-gpu-cloud Comments URL: https://news.ycombinator.com/item?id=50070593 Points: 227 # Comments: 96",
       "publishedAt": "2026-10-13T12:26:36.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.nytimes.com/2026/10/13/science/inhabitable-planets-solar-system.html",
-      "title": "Worlds more habitable than Earth?",
-      "url": "https://www.nytimes.com/2026/10/13/science/inhabitable-planets-solar-system.html",
-      "summary": "https://archive.is/yIYpb Comments URL: https://news.ycombinator.com/item?id=50070554 Points: 71 # Comments: 142",
-      "publishedAt": "2026-10-13T12:23:34.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -769,6 +759,16 @@
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
       "category": "AI"
+    },
+    {
+      "id": "hacker-news:https://www.firefox.com/en-US/enterprise",
+      "title": "Firefox Enterprise",
+      "url": "https://www.firefox.com/en-US/enterprise",
+      "summary": "Article URL: https://www.firefox.com/en-US/enterprise/ Comments URL: https://news.ycombinator.com/item?id=50070302 Points: 649 # Comments: 264",
+      "publishedAt": "2026-10-13T12:00:42.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "openai-news:https://openai.com/index/higgsfield-longer-videos-voice",
@@ -789,6 +789,16 @@
       "sourceId": "mit-technology-review",
       "sourceName": "MIT Technology Review",
       "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://github.com/LargeModGames/spotatui",
+      "title": "Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
+      "url": "https://github.com/LargeModGames/spotatui",
+      "summary": "About 11 months ago i revived the amazing but unfortunately unmaintained spotify-tui. Since then I have been working on it almost non stop, finding a lot of problems on the way. One of the main issues I ran into were the Spotify web API rate limits. Third party clients like spotatui are dependent on a developer app made in the Spotify developer dashboard, which get rate limited a lot and Spotify has slowly been deprecating endpoints from it. The workaround for this used to be using a shared client id from ncspot but unfortunately that got rate limited too. This is when i started adding other playback sources, including YouTube, Navidrome/Subsonic, Internet radio with +- 30.000 stations, local files, Qobuz for lossless audio and Apple Music for macOS only where it controls the music app remotely. I fixed both the deprecated endpoints and the rate limits with one solution. It still uses librespot in the back, my spotatui specific fork, but gets all data from it instead of only playback. The data comes from the internal API of the official clients, that API gives metadata, playlists, the user library, devices, lyrics and audio analysis. For searching it uses Pathfinder, the internal GraphQL API. There are no web API rate limits because there is no shared app quota. Every user uses their own session as if it was the official client. The only potential problem is that Spotify does not document this API so any change on their side would break it. I intend to fix any of those issues as soon as they pop up. It all started as a TUI back in 2019 but since then I've added a GUI to it too. The GUI is still a bit behind the TUI in terms of features, it only ships Spotify for now, but full parity between the TUI and GUI is coming soon. After that full parity with the official client is next. That is also why I made the GUI looks almost the same as the official client. That way its easier for me and users to find missing features. Spotatui also has lua scripting support, a optional Web companion on spotatui.com, and if you have a AI coding agent like ChatGPT codex or Claude Code you can enable the MCP tools, which lets AI become your personal DJ just by talking to it. Its written in Rust, uses ratatui for the terminal UI and Tauri 2 for the GUI. The Rust core starts a small web server with localhost that only your pc can reach which the GUI then serves. Both frontends share the same playback logic, the same login and the same Spotify code. The only difference is how you interact with it. On first launch it opens a web browser where you need to login with your Spotify premium account (premium is not optional), that is the whole setup done. I would love any feedback about bugs you encounter or features you would like to see. GitHub: https://github.com/LargeModGames/spotatui Releases: https://github.com/LargeModGames/spotatui/releases/latest Website: https://spotatui.com/ Thanks to librespot for making this all possible Comments URL: https://news.ycombinator.com/item?id=50070010 Points: 50 # Comments: 8",
+      "publishedAt": "2026-10-13T11:32:00.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station",
@@ -946,16 +956,6 @@
       "url": "https://arstechnica.com/cars/2026/10/f1-in-singapore-theres-a-new-fastest-car-now",
       "summary": "Also, F1’s final sprint saw our first real wet racing of the year.",
       "publishedAt": "2026-10-12T14:43:14.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air",
-      "title": "Google announces the Fitbit Edge, a middle ground between Pixel Watch 5 and Fitbit Air",
-      "url": "https://arstechnica.com/gadgets/2026/10/google-announces-the-fitbit-edge-a-middle-ground-between-pixel-watch-5-and-fitbit-air",
-      "summary": "The Fitbit Edge offers more than the Air, but it's not a real smartwatch.",
-      "publishedAt": "2026-10-12T13:00:52.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"

@@ -5,6 +5,46 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "hugging-face-blog:https://huggingface.co/blog/tiiuae/falcon-asr",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "summary": "",
+      "publishedAt": "2026-10-07T13:21:03.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "summary": "",
+      "publishedAt": "2026-10-07T12:45:31.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/teens-learn-and-plan",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/radisson",
       "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
       "url": "https://openai.com/index/radisson",
@@ -103,16 +143,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
-      "title": "ReviewBench: An open benchmark for AI code review",
-      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
-      "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics. The post ReviewBench: An open benchmark for AI code review appeared first on The GitHub Blog .",
-      "publishedAt": "2026-10-05T15:59:40.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
     },
     {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026",
@@ -225,16 +255,6 @@
       "category": "AI"
     },
     {
-      "id": "github-blog:https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "title": "AI is changing developer work. Here are three skills to strengthen.",
-      "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out",
-      "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow. The post AI is changing developer work. Here are three skills to strengthen. appeared first on The GitHub Blog .",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/introducing-web-search-api",
       "title": "Introducing Web Search API via AI Gateway",
       "url": "https://blog.cloudflare.com/introducing-web-search-api",
@@ -283,26 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
-      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
-      "publishedAt": "2026-10-01T23:44:13.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "aws-news:https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
-      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
-      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
-      "summary": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with ready-to-implement fixes aligned to your business goals.",
-      "publishedAt": "2026-10-01T20:04:04.000Z",
-      "sourceId": "aws-news",
-      "sourceName": "AWS News Blog",
-      "category": "Infrastructure"
     }
   ]
 }

@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "nvidia-blog:https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+      "summary": "GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x faster token generation than the Astra Standard mode. For developers, [&#8230;]",
+      "publishedAt": "2026-10-01T23:44:13.000Z",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
+      "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview",
+      "summary": "Introducing the public preview of AWS Well-Architected Agent, an AI-powered service that analyzes your AWS environment to deliver targeted, contextual recommendations for improving your applications' cost, security, performance, and resilience—with ready-to-implement fixes aligned to your business goals.",
+      "publishedAt": "2026-10-01T20:04:04.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "openai-news:https://openai.com/index/the-eternal-complement",
       "title": "The eternal complement",
       "url": "https://openai.com/index/the-eternal-complement",
@@ -125,20 +145,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/devday-2026-recap",
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "id": "openai-news:https://openai.com/index/introducing-gpt-6-1-sol",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/introducing-gpt-6-1-sol",
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "id": "openai-news:https://openai.com/index/devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "publishedAt": "2026-09-29T10:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -155,20 +175,20 @@
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "id": "openai-news:https://openai.com/index/how-we-will-do-better-for-australia",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/how-we-will-do-better-for-australia",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "id": "openai-news:https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "publishedAt": "2026-09-28T19:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -283,26 +303,6 @@
       "sourceId": "aws-news",
       "sourceName": "AWS News Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
-      "title": "Google Beam expands with new regions, partners, and customers",
-      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
-      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
-      "publishedAt": "2026-09-23T18:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/two-years-of-openai-academy",
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "publishedAt": "2026-09-23T16:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
     }
   ]
 }

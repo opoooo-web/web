@@ -5,6 +5,276 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/protect-your-netscaler-gateway",
+      "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+      "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway",
+      "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+      "publishedAt": "2026-10-19T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review",
+      "title": "Apple updates guidelines to ban nudify apps masquerading as regular apps to pass review",
+      "url": "https://techcrunch.com/2026/10/19/apple-updates-guidelines-to-ban-nudify-apps-masquerading-as-regular-apps-to-pass-review",
+      "summary": "The company updated its guidelines with strong language around AI and user-generated content, and how app developers should include enough preventative measures to moderate objectionable or offensive content.",
+      "publishedAt": "2026-10-19T12:56:14.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares",
+      "title": "Musk pledges to give &#8216;every kid in America&#8217; one of his SpaceX shares",
+      "url": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares",
+      "summary": "Musk's post came just a few hours after Anthropic promised to put 5% of its shares into a new \"public benefit fund,\" which it intends to use to make \"large donations to traditional nonprofits or direct distributions to specific populations\" after its upcoming IPO.",
+      "publishedAt": "2026-10-19T12:42:55.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to",
+      "title": "DIY VR: How to build your own headset, and why you probably won't want to",
+      "url": "https://arstechnica.com/gadgets/2026/10/diy-vr-how-to-build-your-own-headset-and-why-you-probably-wont-want-to",
+      "summary": "A primer on the joys and pains of building your own head-mounted display.",
+      "publishedAt": "2026-10-19T12:33:34.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "publishedAt": "2026-10-19T12:30:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents",
+      "title": "The Download: preserving the Arctic permafrost, and playful AI agents",
+      "url": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James Temple In July 2021, a wildfire burned through a forest on the University of Alaska, Fairbanks campus,&#8230;",
+      "publishedAt": "2026-10-19T12:10:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?reflink=desktopwebshare_permalink&st=RtdGHg",
+      "title": "The obscure trust looming over Anthropic's IPO",
+      "url": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?reflink=desktopwebshare_permalink&st=RtdGHg",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink Comments URL: https://news.ycombinator.com/item?id=50151376 Points: 122 # Comments: 86",
+      "publishedAt": "2026-10-19T12:06:03.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=50151036",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "summary": "I saw this LinkedIn post from a Meta engineer and it resonated with me: https://www.linkedin.com/posts/ali-hamie_im-an-engineer-at-m... > I'm an engineer at Meta and I never felt this uncomfortable doing my job. I'm writing code these days and it all feels like a black box. This new standard of shipping with AI is moving so fast that if we're going to spend our time checking each line of code, it's going to take forever. That means you can end up with systems you've built where you don't truly understand how all the code works. You understand the high level, but not every detail. And maybe this is becoming the new standard. It goes against every instinct of being a software engineer. I'm used to understanding what I'm building. Now I'm trying to figure out how much I need to understand before I'm comfortable moving forward. Are other engineers feeling this too? How are you handling this? Comments URL: https://news.ycombinator.com/item?id=50151036 Points: 170 # Comments: 284",
+      "publishedAt": "2026-10-19T11:24:34.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "title": "Alternatives to animal testing are finally taking off",
+      "url": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "summary": "Article URL: https://spectrum.ieee.org/alternatives-to-animal-testing Comments URL: https://news.ycombinator.com/item?id=50150927 Points: 291 # Comments: 89",
+      "publishedAt": "2026-10-19T11:10:54.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan",
+      "title": "Stratospheric airship flew from US to Japan to test sky cell tower concept",
+      "url": "https://arstechnica.com/gadgets/2026/10/trans-pacific-journey-tested-stratospheric-cell-tower-concept-in-japan",
+      "summary": "Tests showed Sceye’s high-flying platform can deliver connectivity in disasters.",
+      "publishedAt": "2026-10-19T11:05:49.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "title": "Let's Encrypt is adding two additional remote perspectives for domain validation",
+      "url": "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+      "summary": "Article URL: https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166 Comments URL: https://news.ycombinator.com/item?id=50150809 Points: 232 # Comments: 76",
+      "publishedAt": "2026-10-19T10:53:39.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://mistral.ai/news/timestral",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral",
+      "summary": "Article URL: https://mistral.ai/news/timestral/ Comments URL: https://news.ycombinator.com/item?id=50150434 Points: 509 # Comments: 96",
+      "publishedAt": "2026-10-19T09:59:32.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon",
+      "title": "Inside the quest to combat Arctic fires and save the planet’s frozen carbon",
+      "url": "https://www.technologyreview.com/2026/10/19/1146832/inside-the-quest-to-combat-arctic-fires-and-save-the-planets-frozen-carbon",
+      "summary": "In the middle of an especially warm July in 2021, a wildfire ignited in a thick forest of black spruce and peeling paper birch trees on the northern campus of the University of Alaska, Fairbanks.&#160; The blaze, possibly sparked by lightning, burned across the dry carpet of feather mosses and lichen before climbing into the&#8230;",
+      "publishedAt": "2026-10-19T09:22:17.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to&#8230;",
+      "publishedAt": "2026-10-19T09:08:05.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "title": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "summary": "Article URL: https://www.youtube.com/watch?v=Ndftcft6XhU Comments URL: https://news.ycombinator.com/item?id=50150089 Points: 256 # Comments: 46",
+      "publishedAt": "2026-10-19T09:05:07.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "mit-technology-review:https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing",
+      "title": "How far can we push computing?",
+      "url": "https://www.technologyreview.com/2026/10/19/1145904/tr-explains-how-far-can-we-push-computing",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. On the evening of December 29, 1959, at an American Physical Society meeting at Caltech, the physicist Richard Feynman gave a lecture called “There’s&#8230;",
+      "publishedAt": "2026-10-19T09:00:00.000Z",
+      "sourceId": "mit-technology-review",
+      "sourceName": "MIT Technology Review",
+      "category": "Science"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics",
+      "title": "Khosla Ventures doubles down on Even Healthcare to challenge India&#8217;s hospital economics",
+      "url": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics",
+      "summary": "Even Healthcare reaches a $300 million valuation in a Khosla Ventures-led round as it plans to expand its hospital network in India.",
+      "publishedAt": "2026-10-19T07:30:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source",
+      "title": "APOD: 2026 October 19 – Treble Clef: Unusual X-ray Hot Radio Source",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-19-treble-clef-unusual-x-ray-hot-radio-source",
+      "summary": "APODScienceAPODAPOD: 2026 October 19 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Treble Clef: Unusual X-ray Hot Radio Source Explanation: Explanation : What is Treble Clef? This unusual radio [&#8230;]",
+      "publishedAt": "2026-10-19T04:05:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains",
+      "title": "Autumn Paints Poland’s Bieszczady Mountains",
+      "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains",
+      "summary": "Fall color covers the forested slopes of Bieszczady National Park, while patches of polonina, a type of high-mountain meadow, have turned tan.",
+      "publishedAt": "2026-10-19T04:01:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/hf-torchneuron",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "summary": "",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market",
+      "title": "No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market",
+      "url": "https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market",
+      "summary": "Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most storied firms",
+      "publishedAt": "2026-10-18T21:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+      "summary": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
+      "publishedAt": "2026-10-18T20:37:40.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything",
+      "title": "Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’",
+      "url": "https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything",
+      "summary": "\"You Can See Everything\" is having the second biggest opening weekend ever for a documentary film.",
+      "publishedAt": "2026-10-18T19:03:38.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "title": "Disney agrees to hire the majority of Character AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "publishedAt": "2026-10-18T16:30:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+      "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "publishedAt": "2026-10-18T16:25:19.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act",
+      "title": "TechCrunch Mobility: Rivian&#8217;s next act",
+      "url": "https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act",
+      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "publishedAt": "2026-10-18T16:05:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars",
+      "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars",
+      "summary": "APODScienceAPODAPOD: 2026 October 18 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Sonified: Eagle Nebula Pillars Explanation: Yes, but have you ever experienced the Eagle Nebula with your ears? [&#8230;]",
+      "publishedAt": "2026-10-18T04:05:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
       "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
@@ -13,46 +283,6 @@
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
       "category": "AI"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account",
-      "title": "TikTok says it&#8217;s restored ‘Musk’ documentary advertising account",
-      "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account",
-      "summary": "A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.",
-      "publishedAt": "2026-10-17T20:55:52.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
-      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "publishedAt": "2026-10-17T20:21:19.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
-      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
-      "publishedAt": "2026-10-17T18:48:08.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better",
-      "title": "Ember’s new temperature-controlled mug makes my nightly tea ritual even better",
-      "url": "https://techcrunch.com/2026/10/17/embers-new-temperature-controlled-mug-makes-my-nightly-tea-ritual-even-better",
-      "summary": "The biggest change about Ember's new mug is that you no longer have to open the app to adjust your drink’s temperature.",
-      "publishedAt": "2026-10-17T15:30:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
     },
     {
       "id": "ars-technica:https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings",
@@ -70,236 +300,6 @@
       "url": "https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players",
       "summary": "The single-player is just OK, but according to the players, that doesn't matter.",
       "publishedAt": "2026-10-17T11:00:21.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p",
-      "title": "APOD: 2026 October 17 – 3D 67P",
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p",
-      "summary": "APOD Science APOD APOD: 2026 October 17… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. 3D 67P Explanation: Put [&#8230;]",
-      "publishedAt": "2026-10-17T04:05:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept",
-      "title": "Mark Wahlberg wants to take on the longevity-startup crowd with an affordable gym concept",
-      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-wants-to-take-on-the-longevity-startup-crowd-with-an-affordable-gym-concept",
-      "summary": "Mark Wahlberg, who once sank money into a gym chain that got kicked off the NYSE, is now building his own, and he promises you’ll get a cold plunge, a blood panel and a protein muffin without needing a trust fund.",
-      "publishedAt": "2026-10-17T02:36:18.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
-      "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "publishedAt": "2026-10-16T20:59:01.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops",
-      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-      "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops",
-      "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-      "publishedAt": "2026-10-16T20:20:07.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director",
-      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
-      "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director",
-      "summary": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his career more than four decades ago. “Marshall contributions to NASA&#8217;s missions are historic and it&#8217;s [&#8230;]",
-      "publishedAt": "2026-10-16T20:14:39.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license",
-      "title": "US Rep proposes bill to give video game buyers \"ownership,\" not \"a license\"",
-      "url": "https://arstechnica.com/gaming/2026/10/us-rep-proposes-bill-to-give-video-game-buyers-ownership-not-a-license",
-      "summary": "There are still significant hurdles ahead, both technical and legislative.",
-      "publishedAt": "2026-10-16T19:41:18.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis",
-      "title": "Porsche’s electric Macan Turbo is an automotive existential crisis",
-      "url": "https://techcrunch.com/2026/10/16/porsches-electric-macan-turbo-is-an-automotive-existential-crisis",
-      "summary": "The 2026 Porsche Macan Turbo EV is a two-row crossover with 630 horsepower and a 100-kilowatt-hour battery.",
-      "publishedAt": "2026-10-16T19:40:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent",
-      "title": "Bug turns one of the biggest fears about Ray-Ban Meta smart glasses into reality",
-      "url": "https://arstechnica.com/gadgets/2026/10/ray-ban-meta-smart-glasses-found-recording-audio-without-wearers-consent",
-      "summary": "The bug is fixed, but privacy concerns remain.",
-      "publishedAt": "2026-10-16T19:11:50.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/itau-generative-ai",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "publishedAt": "2026-10-16T19:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
-      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch&#8230;",
-      "publishedAt": "2026-10-16T18:00:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
-      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "publishedAt": "2026-10-16T17:52:24.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says",
-      "title": "RFK Jr. proposes FDA look the other way on unproven peptides, report says",
-      "url": "https://arstechnica.com/health/2026/10/rfk-jr-proposes-fda-look-the-other-way-on-unproven-peptides-report-says",
-      "summary": "FDA scientists said none of the popular drugs have been proven safe or effective.",
-      "publishedAt": "2026-10-16T17:05:59.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being&#160;rebuilt.&#160; This view runs counter to those who believe that robotics, powered by a general foundation model,&#160;is about to have [&#8230;]",
-      "publishedAt": "2026-10-16T16:30:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown",
-      "title": "Artemis II Heat Shield After Splashdown",
-      "url": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown",
-      "summary": "Shortly after NASA&#8217;s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere. This rigorous analysis confirmed that the [&#8230;]",
-      "publishedAt": "2026-10-16T16:28:01.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
-      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-      "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
-      "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
-      "publishedAt": "2026-10-16T15:41:00.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen",
-      "title": "I Am Artemis: Allison Mjoen",
-      "url": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen",
-      "summary": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to [&#8230;]",
-      "publishedAt": "2026-10-16T14:24:29.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over",
-      "title": "Polymarket saw $600 million in election trades after the elections were over",
-      "url": "https://arstechnica.com/tech-policy/2026/10/polymarket-saw-600-million-in-election-trades-after-the-elections-were-over",
-      "summary": "Millions kept changing hands long after the election outcomes were effectively settled.",
-      "publishedAt": "2026-10-16T14:19:22.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again",
-      "title": "Tesla turns to 50-year-old stunt technology as it tries to Roadster again",
-      "url": "https://arstechnica.com/cars/2026/10/tesla-turns-to-50-year-old-stunt-technology-as-it-tries-to-roadster-again",
-      "summary": "If you want to make a car spin in the air, compressed gas is a good way to do it.",
-      "publishedAt": "2026-10-16T14:03:25.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain",
-      "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-      "url": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain",
-      "summary": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
-      "publishedAt": "2026-10-16T14:00:59.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/verified-bots-accountability",
-      "title": "Continuous accountability for Verified bots",
-      "url": "https://blog.cloudflare.com/verified-bots-accountability",
-      "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
-      "publishedAt": "2026-10-16T13:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge",
-      "title": "NASA’s Hubble Spies Spiral’s Edge",
-      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-spirals-edge",
-      "summary": "This NASA Hubble Space Telescope image features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove.",
-      "publishedAt": "2026-10-16T12:42:08.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "mit-technology-review:https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives",
-      "title": "The Download: failed social media bans, and extending pets&#8217; lives",
-      "url": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Kids are outsmarting social media bans. That’s not a problem we need to solve. —Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined&#8230;",
-      "publishedAt": "2026-10-16T12:10:00.000Z",
-      "sourceId": "mit-technology-review",
-      "sourceName": "MIT Technology Review",
-      "category": "Science"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises",
-      "title": "The Surface Laptop Ultra delivers on most of Microsoft's promises",
-      "url": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises",
-      "summary": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
-      "publishedAt": "2026-10-16T12:00:05.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"

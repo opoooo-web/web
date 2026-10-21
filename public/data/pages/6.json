@@ -5,6 +5,96 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "github-blog:https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+      "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+      "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers",
+      "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made. The post From 2,500 requests to 24: Rebuilding star history without the stargazers appeared first on The GitHub Blog .",
+      "publishedAt": "2026-10-14T19:11:33.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/hyperdrive-mysql",
+      "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+      "url": "https://blog.cloudflare.com/hyperdrive-mysql",
+      "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+      "publishedAt": "2026-10-14T13:00:00.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/amp-beyond-coding",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/sentinelone",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/third-moment-research",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/block-ai-powered-security",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "github-blog:https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+      "publishedAt": "2026-10-13T17:56:33.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "summary": "",
+      "publishedAt": "2026-10-13T17:05:48.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/d1-control-plane",
       "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
       "url": "https://blog.cloudflare.com/d1-control-plane",
@@ -45,16 +135,6 @@
       "category": "Infrastructure"
     },
     {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
-      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and [&#8230;]",
-      "publishedAt": "2026-10-13T12:00:49.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
       "id": "openai-news:https://openai.com/index/higgsfield-longer-videos-voice",
       "title": "Higgsfield takes AI video from 1 minute to over 10",
       "url": "https://openai.com/index/higgsfield-longer-videos-voice",
@@ -62,16 +142,6 @@
       "publishedAt": "2026-10-13T12:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
-      "title": "NVIDIA Announces New Investments in France’s Startups",
-      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
-      "summary": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s progress sits on deliberate groundwork. The AI Action Summit in February 2025 and Choose France Summits in 2025 and 2026 anchored major compute commitments [&#8230;]",
-      "publishedAt": "2026-10-13T05:00:31.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
       "category": "AI"
     },
     {
@@ -95,16 +165,6 @@
       "category": "Developer"
     },
     {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "url": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
-      "summary": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP) Global Summit, taking place in the San Jose McEnery Convention Center, NVIDIA announced new partnerships and contributions aimed at [&#8230;]",
-      "publishedAt": "2026-10-12T15:00:25.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/transformers-on-logpush",
       "title": "Filter, reshape, and redact logs before export with Transformers",
       "url": "https://blog.cloudflare.com/transformers-on-logpush",
@@ -123,16 +183,6 @@
       "sourceId": "cloudflare-blog",
       "sourceName": "Cloudflare Blog",
       "category": "Infrastructure"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
-      "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
-      "summary": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
-      "publishedAt": "2026-10-09T16:00:35.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
     },
     {
       "id": "github-blog:https://github.blog/developer-skills/career-growth/hack-the-world-why-hackathons-are-still-the-best-place-to-learn-to-build",
@@ -165,20 +215,20 @@
       "category": "Infrastructure"
     },
     {
-      "id": "openai-news:https://openai.com/index/asana-browser-agent",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "id": "openai-news:https://openai.com/index/sophos",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/sophos",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "id": "openai-news:https://openai.com/index/asana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -202,16 +252,6 @@
       "publishedAt": "2026-10-08T16:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day",
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day",
-      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through [&#8230;]",
-      "publishedAt": "2026-10-08T13:00:46.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
       "category": "AI"
     },
     {
@@ -262,46 +302,6 @@
       "publishedAt": "2026-10-08T00:00:00.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
-      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
-      "summary": "At a Microsoft event in San Francisco on Wednesday, NVIDIA founder and CEO Jensen Huang and Microsoft CEO Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run on Windows PCs. NVIDIA was founded because of Windows, Huang said. Now AI agents are coming to Windows. “If you [&#8230;]",
-      "publishedAt": "2026-10-07T18:45:28.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/agentic-security-operations",
-      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-      "url": "https://blog.cloudflare.com/agentic-security-operations",
-      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
-      "publishedAt": "2026-10-07T16:30:36.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/tiiuae/falcon-asr",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "summary": "",
-      "publishedAt": "2026-10-07T13:21:03.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/teens-learn-and-plan",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

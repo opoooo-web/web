@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/agentic-security-operations",
+      "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+      "url": "https://blog.cloudflare.com/agentic-security-operations",
+      "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+      "publishedAt": "2026-10-07T16:30:36.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/tiiuae/falcon-asr",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "summary": "",
+      "publishedAt": "2026-10-07T13:21:03.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/teens-learn-and-plan",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
       "title": "Introducing Playground: Create and play custom games",
       "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
@@ -35,16 +65,6 @@
       "category": "AI"
     },
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/root-ksk-2024-rollover",
-      "title": "The keys to the Internet change on October 11. Are you ready?",
-      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover",
-      "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
-      "publishedAt": "2026-10-06T17:50:11.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "aws-news:https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
       "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
       "url": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws",
@@ -62,16 +82,6 @@
       "publishedAt": "2026-10-06T16:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/telecom-operators-open-models",
-      "title": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
-      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models",
-      "summary": "Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI in Telecommunications report reflects this shift, with [&#8230;]",
-      "publishedAt": "2026-10-06T13:00:19.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
       "category": "AI"
     },
     {
@@ -290,16 +300,6 @@
       "url": "https://huggingface.co/blog/open-tts-leaderboard",
       "summary": "",
       "publishedAt": "2026-09-30T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "summary": "",
-      "publishedAt": "2026-09-29T13:07:00.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
       "category": "AI"

@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/d1-control-plane",
+      "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+      "url": "https://blog.cloudflare.com/d1-control-plane",
+      "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+      "publishedAt": "2026-10-13T16:20:18.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
@@ -155,20 +165,20 @@
       "category": "Infrastructure"
     },
     {
-      "id": "openai-news:https://openai.com/index/sophos",
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "id": "openai-news:https://openai.com/index/asana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
     },
     {
-      "id": "openai-news:https://openai.com/index/asana-browser-agent",
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "id": "openai-news:https://openai.com/index/sophos",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "publishedAt": "2026-10-09T07:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
@@ -292,16 +302,6 @@
       "publishedAt": "2026-10-07T12:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "google-ai:https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "title": "Introducing Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
-      "publishedAt": "2026-10-07T12:00:00.000Z",
-      "sourceId": "google-ai",
-      "sourceName": "Google AI",
       "category": "AI"
     }
   ]

@@ -5,6 +5,16 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/origin-range-requests",
+      "title": "Origin Range Requests: Serving large files without range-request tuning",
+      "url": "https://blog.cloudflare.com/origin-range-requests",
+      "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+      "publishedAt": "2026-10-23T18:22:59.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "cloudflare-blog:https://blog.cloudflare.com/post-quantum-geo-key-manager",
       "title": "Bringing post-quantum cryptography to geographically fenced key management",
       "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager",
@@ -290,16 +300,6 @@
       "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium",
       "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity&#8217;s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels [&#8230;]",
       "publishedAt": "2026-10-22T21:39:58.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/spirals-edge",
-      "title": "Spiral&#8217;s Edge",
-      "url": "https://www.nasa.gov/image-article/spirals-edge",
-      "summary": "This NASA Hubble Space Telescope image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble captured the image as part of a survey looking at 260 satellite galaxies around 22 Milky Way-like host galaxies within a radius of [&#8230;]",
-      "publishedAt": "2026-10-22T21:35:38.000Z",
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"

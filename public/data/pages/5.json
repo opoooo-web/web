@@ -5,16 +5,6 @@
   "totalItems": 240,
   "items": [
     {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
-      "title": "Cloudflare deploys protections against php2shell vulnerability",
-      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
-      "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-      "publishedAt": "2026-10-21T13:56:45.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
       "id": "openai-news:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
       "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
       "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
@@ -298,6 +288,16 @@
       "id": "hugging-face-blog:https://huggingface.co/blog/anylanguagemodel-1-0",
       "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
       "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/mps-pytorch-2-15",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
       "summary": "",
       "publishedAt": "2026-10-20T00:00:00.000Z",
       "sourceId": "hugging-face-blog",

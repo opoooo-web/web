@@ -5,6 +5,36 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "publishedAt": "2026-10-29T16:21:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles",
+      "title": "SuperMe raises $20M for its network of AI expert profiles",
+      "url": "https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles",
+      "summary": "SuperMe is a network of AI profiles built from the knowledge of real-life experts. When you ask a question, the platform determines which experts are best suited to answer and creates a group chat with their AI profiles.",
+      "publishedAt": "2026-10-29T16:19:43.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://16colo.rs",
+      "title": "16colo.rs – ANSI/ASCII art archive",
+      "url": "https://16colo.rs",
+      "summary": "Article URL: https://16colo.rs/ Comments URL: https://news.ycombinator.com/item?id=50291421 Points: 113 # Comments: 8",
+      "publishedAt": "2026-10-29T16:14:28.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
       "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
       "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
@@ -18,7 +48,7 @@
       "id": "hacker-news:https://news.ycombinator.com/item?id=50291116",
       "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
       "url": "https://news.ycombinator.com/item?id=50291116",
-      "summary": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building the simulation layer that lets engineers and AI agents test and validate firmware without hardware. Before Simantic, we were ex-firmware engineers at companies like Neuralink and Tesla. We’ve worked on some of the coolest projects, like the Cybertruck and Roadster, back when they were still early prototypes. We started working on firmware back when ChatGPT didn’t exist yet, but over the years, we saw how much of the engineering and development work has been automated as the frontier models improved to this point. In software, AI can run and test code inside your computer in a matter of seconds. But as firmware engineers, we didn’t have that luxury. An AI agent can write firmware in seconds, but in order to test it, we had to flash a physical board, then manually run tests using expensive and clunky tools with software made over a decade ago. To speed up the validation loop, we built the simulation layer that lets AI agents test the firmware and make decisions based on evidence, instead of waiting for the engineer to run tests for them. We used to spend hours testing our firmware manually on devboards, but now we use our own simulation to validate firmware in seconds. What we offer: - Virtual devboards you can program and run with a single API call, without leaving your terminal. - An AI code reviewer for firmware, that makes informed decisions based on evidence, using our simulation as a verification engine. - A CI/CD pipeline for your hardware projects that validates your firmware against a simulated version of the microcontroller on every commit. Here is a demo of our simulation used in an AI code review session: https://www.youtube.com/watch?v=kBK1ZjGWWbQ Our users are using Simantic for bare-metal and RTOS development for applications like flight controllers, electric vehicles, robotics, and satellites. For safety critical systems like avionics and automotives, a robust simulation system is incredibly important, because every change in the firmware puts a human life at stake, especially for machines that cost hundreds of thousands to millions of dollars. We recently helped an early stage space startup building satellites, to test their firmware on hardware that they don't yet have. Even the development modules for those satellites costs over $100k, and we helped them do that at just a hundredth of the cost and time. Early on in our journey, we established our idea to make better simulation but didn’t have a clear idea of how we would do it, we considered developing our software around open source emulation frameworks like Renode ( https://github.com/renode/renode ) and QEMU ( https://www.qemu.org/ ), because they were tools already used within the firmware industry. We built our MVP that was essentially a wrapper around Renode, but we quickly realized there were a lot of limitations to doing this. 1. We were bottlenecked by the development speed of Renode themselves. We tried making contributions on Github to fix issues we came across, but the speed in which we could merge our features in was not fast enough for a startup like us trying to move fast. 2. Renode is built using Dotnet, and it was proving itself to be slower than we would have liked. Renode was released in 2017, which was when all code was still being written by hand, so I think it made sense looking back, but there were limitations because of the language itself. 3. The open source tools were bloated, with features that we would never use. Yes, there were a breadth of features, but we had a lot of things we had to work around just because we couldn’t remove or change them. Users were complaining about simulation accuracy. Renode is an emulator at the core, but our users, especially those who are building systems where timing accuracy is crucial did not find the accuracy good enough to validate their firmware. Because of these issues, we made our own simulation engine from scratch, fully written in Rust. - Our simulation is focused on accuracy. Open source frameworks often focus on expandability and developer experience, which means there were a lot of tradeoffs made to prioritize a breadth of models rather than going deep into a set of select models. - We have our own hardware validation rigs running 24/7 to ensure our simulation models are as close to real world hardware as possible, and any gaps are detected and fixed as soon as we can. It currently looks like devboards connected to a Saleae Logic MSO and a SWD bus, controlled by a Linux PC, running Claude 24/7 just finding these gaps. Our cloud-hosted simulator is available to use right now! We also provide a native binary with our developer plan licenses that let you run your firmware on your machines locally without any limitations. Check it out at https://simantic.com/cloud-sim , and you can start using our AI firmware reviewer bot in your own Github repos here: https://simantic.com/dashboard/simantic-bot . We currently have support for some models of the STM32F0, F4, H7 series MCUs, ESP32-S3/C3, and RP2040, but we’re constantly working to release new models every week, and improve our existing ones. Thank you, and if you have any questions, feel free to send us an email at founders@simantic.dev Comments URL: https://news.ycombinator.com/item?id=50291116 Points: 50 # Comments: 14",
+      "summary": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building the simulation layer that lets engineers and AI agents test and validate firmware without hardware. Before Simantic, we were ex-firmware engineers at companies like Neuralink and Tesla. We’ve worked on some of the coolest projects, like the Cybertruck and Roadster, back when they were still early prototypes. We started working on firmware back when ChatGPT didn’t exist yet, but over the years, we saw how much of the engineering and development work has been automated as the frontier models improved to this point. In software, AI can run and test code inside your computer in a matter of seconds. But as firmware engineers, we didn’t have that luxury. An AI agent can write firmware in seconds, but in order to test it, we had to flash a physical board, then manually run tests using expensive and clunky tools with software made over a decade ago. To speed up the validation loop, we built the simulation layer that lets AI agents test the firmware and make decisions based on evidence, instead of waiting for the engineer to run tests for them. We used to spend hours testing our firmware manually on devboards, but now we use our own simulation to validate firmware in seconds. What we offer: - Virtual devboards you can program and run with a single API call, without leaving your terminal. - An AI code reviewer for firmware, that makes informed decisions based on evidence, using our simulation as a verification engine. - A CI/CD pipeline for your hardware projects that validates your firmware against a simulated version of the microcontroller on every commit. Here is a demo of our simulation used in an AI code review session: https://www.youtube.com/watch?v=kBK1ZjGWWbQ Our users are using Simantic for bare-metal and RTOS development for applications like flight controllers, electric vehicles, robotics, and satellites. For safety critical systems like avionics and automotives, a robust simulation system is incredibly important, because every change in the firmware puts a human life at stake, especially for machines that cost hundreds of thousands to millions of dollars. We recently helped an early stage space startup building satellites, to test their firmware on hardware that they don't yet have. Even the development modules for those satellites costs over $100k, and we helped them do that at just a hundredth of the cost and time. Early on in our journey, we established our idea to make better simulation but didn’t have a clear idea of how we would do it, we considered developing our software around open source emulation frameworks like Renode ( https://github.com/renode/renode ) and QEMU ( https://www.qemu.org/ ), because they were tools already used within the firmware industry. We built our MVP that was essentially a wrapper around Renode, but we quickly realized there were a lot of limitations to doing this. 1. We were bottlenecked by the development speed of Renode themselves. We tried making contributions on Github to fix issues we came across, but the speed in which we could merge our features in was not fast enough for a startup like us trying to move fast. 2. Renode is built using Dotnet, and it was proving itself to be slower than we would have liked. Renode was released in 2017, which was when all code was still being written by hand, so I think it made sense looking back, but there were limitations because of the language itself. 3. The open source tools were bloated, with features that we would never use. Yes, there were a breadth of features, but we had a lot of things we had to work around just because we couldn’t remove or change them. Users were complaining about simulation accuracy. Renode is an emulator at the core, but our users, especially those who are building systems where timing accuracy is crucial did not find the accuracy good enough to validate their firmware. Because of these issues, we made our own simulation engine from scratch, fully written in Rust. - Our simulation is focused on accuracy. Open source frameworks often focus on expandability and developer experience, which means there were a lot of tradeoffs made to prioritize a breadth of models rather than going deep into a set of select models. - We have our own hardware validation rigs running 24/7 to ensure our simulation models are as close to real world hardware as possible, and any gaps are detected and fixed as soon as we can. It currently looks like devboards connected to a Saleae Logic MSO and a SWD bus, controlled by a Linux PC, running Claude 24/7 just finding these gaps. Our cloud-hosted simulator is available to use right now! We also provide a native binary with our developer plan licenses that let you run your firmware on your machines locally without any limitations. Check it out at https://simantic.com/cloud-sim , and you can start using our AI firmware reviewer bot in your own Github repos here: https://simantic.com/dashboard/simantic-bot . We currently have support for some models of the STM32F0, F4, H7 series MCUs, ESP32-S3/C3, and RP2040, but we’re constantly working to release new models every week, and improve our existing ones. Thank you, and if you have any questions, feel free to send us an email at founders@simantic.dev Comments URL: https://news.ycombinator.com/item?id=50291116 Points: 67 # Comments: 20",
       "publishedAt": "2026-10-29T15:56:32.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -28,18 +58,8 @@
       "id": "hacker-news:https://sidbala.com/h-264-is-magic",
       "title": "H.264 Is Magic (2016)",
       "url": "https://sidbala.com/h-264-is-magic",
-      "summary": "Article URL: https://sidbala.com/h-264-is-magic/ Comments URL: https://news.ycombinator.com/item?id=50291054 Points: 331 # Comments: 125",
+      "summary": "Article URL: https://sidbala.com/h-264-is-magic/ Comments URL: https://news.ycombinator.com/item?id=50291054 Points: 412 # Comments: 148",
       "publishedAt": "2026-10-29T15:53:03.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-      "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
-      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
-      "summary": "Article URL: https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler Comments URL: https://news.ycombinator.com/item?id=50290912 Points: 129 # Comments: 21",
-      "publishedAt": "2026-10-29T15:45:05.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -65,44 +85,24 @@
       "category": "Science"
     },
     {
-      "id": "nasa-breaking-news:https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing",
-      "title": "NASA&#8217;s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
-      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing",
-      "summary": "When companies began approaching NASA’s Langley Research Center, asking to be included in the In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play for access to competitive intelligence, the team knew they had crossed an inflection point. &#8220;We&#8217;ve had some unnamed companies ask if we have any proprietary information,&#8221; says Dale Arney, senior team lead [&#8230;]",
-      "publishedAt": "2026-10-29T15:06:40.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "hacker-news:https://trakkr.ai/trakkr-research/zombie-stats",
-      "title": "Zombie stats: Where the numbers AI quotes come from",
-      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
-      "summary": "Article URL: https://trakkr.ai/trakkr-research/zombie-stats Comments URL: https://news.ycombinator.com/item?id=50290283 Points: 143 # Comments: 62",
-      "publishedAt": "2026-10-29T15:06:17.000Z",
+      "id": "hacker-news:https://martinfowler.com/bliki/LLM-Voice.html",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "summary": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html Comments URL: https://news.ycombinator.com/item?id=50290177 Points: 458 # Comments: 246",
+      "publishedAt": "2026-10-29T14:57:55.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy",
-      "title": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
-      "url": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy",
-      "summary": "Mintive was founded by two engineers who have been working on AI for decades through Google Brain and Coursera. It's platform promises to help IT easily control enterprise agents.",
-      "publishedAt": "2026-10-29T15:00:00.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope",
-      "title": "NASA&#8217;s Hubble Marks Way for Roman Space Telescope",
-      "url": "https://www.nasa.gov/image-article/nasas-hubble-marks-way-for-roman-space-telescope",
-      "summary": "A sweeping barred galaxy takes center stage in this Oct. 22, 2026, image, but the gravitational lensing at bottom right is the real target. This observation is one of many gravitational lensing images taken by NASA’s Hubble Space Telescope in preparation for science with the new Nancy Grace Roman Space Telescope. Astronomers will use these [&#8230;]",
-      "publishedAt": "2026-10-29T14:49:27.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
+      "id": "hacker-news:https://mistral.ai/news/mistral-large-4-oss",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss",
+      "summary": "Article URL: https://mistral.ai/news/mistral-large-4-oss/ Comments URL: https://news.ycombinator.com/item?id=50289418 Points: 1420 # Comments: 383",
+      "publishedAt": "2026-10-29T14:13:21.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "hugging-face-blog:https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",

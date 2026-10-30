@@ -1,86 +1,100 @@
 {
-  "generatedAt": "2026-10-30T15:58:35.675Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-10-30T20:50:53.900Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology sector is buzzing with AI advancements, marked by major companies establishing shared data scraping opt-out standards and discussions around centralizing computing resources like RAM in data centers. Amid innovative applications like AI in space and automated customer experiences, growing concerns persist regarding AI's ethical implications, potential for fraud, and its impact on human skills and labor. Concurrently, the industry grapples with significant cybersecurity breaches, data privacy settlements, and evolving strategies for online content platforms in an AI-driven digital landscape.",
   "highlights": [
     {
-      "title": "NASA&#8217;s James Webb Space Telescope Captures Eerie Cat&#8217;s Head",
-      "whyItMatters": "Intricate structures within the Cat&#8217;s Head Nebula are illuminated in this mid-infrared view from NASA’s James Webb Space Telescope released on Oct. 29, 2026. The distinctive “cat’s head” shape of the nebula was likely sculpted over time by the intense ultraviolet radiation and winds from massive stars in the Carina Nebula. As this stellar feedback [&#8230;]",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/image-article/nasas-james-webb-space-telescope-captures-eerie-cats-head",
-      "category": "Science",
-      "publishedAt": "2026-10-30T15:56:26.000Z"
-    },
-    {
-      "title": "Geist Serif",
-      "whyItMatters": "Article URL: https://vercel.com/blog/introducing-geist-serif Comments URL: https://news.ycombinator.com/item?id=50305601 Points: 7 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://vercel.com/blog/introducing-geist-serif",
-      "category": "Developer",
-      "publishedAt": "2026-10-30T15:46:42.000Z"
-    },
-    {
-      "title": "I didn't know I was lacking in Vitamin D until I collapsed at work",
-      "whyItMatters": "Article URL: https://www.bbc.com/news/articles/cm78pxxe55v0o Comments URL: https://news.ycombinator.com/item?id=50305436 Points: 11 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.bbc.com/news/articles/cm78pxxe55v0o",
-      "category": "Developer",
-      "publishedAt": "2026-10-30T15:36:18.000Z"
-    },
-    {
-      "title": "Google’s latest Nest Learning Thermostat is $60 off just in time for sweater weather",
-      "whyItMatters": "As the weather cools, it may be worth investing in a smart thermostat to help lower your energy bills. Right now, Google&#8217;s fourth-gen Nest Learning Thermostat is on sale in all three colors for $219.99 ($60 off) at Amazon, Best Buy, and The Home Depot, matching its best price of the year and just $10 [&#8230;]",
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "whyItMatters": "Major AI companies including OpenAI, Google, Microsoft, and Anthropic are adopting a standardized 'policy token' signal, allowing publishers to uniformly opt out of content scraping for AI training and simplifying data governance.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/gadgets/1022819/google-nest-learning-thermostat-4th-gen-casio-ws-b1000-watch-deal-sale",
+      "sourceUrl": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "category": "Technology",
-      "publishedAt": "2026-10-30T15:29:02.000Z"
+      "publishedAt": "2026-10-30T20:26:10.000Z"
     },
     {
-      "title": "Post-training 4B model with RL to fly Tesla Roadster 21% better than GPT-6 Astra",
-      "whyItMatters": "Article URL: https://skypilot.ai/blog/flying-roadster-rl Comments URL: https://news.ycombinator.com/item?id=50305279 Points: 3 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://skypilot.ai/blog/flying-roadster-rl",
-      "category": "Developer",
-      "publishedAt": "2026-10-30T15:27:16.000Z"
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "whyItMatters": "OpenAI CEO Sam Altman advocates for centralizing computing resources like RAM in data centers over personal PCs, indicating a strategic shift towards cloud-based AI processing and impacting future hardware design and resource allocation.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shor\ntage-cloud-servers",
+      "category": "Technology",
+      "publishedAt": "2026-10-30T20:48:43.000Z"
     },
     {
-      "title": "ICE wants its mask back, and hired a company to ask",
-      "whyItMatters": "Article URL: https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask/ Comments URL: https://news.ycombinator.com/item?id=50305272 Points: 67 # Comments: 2",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://blog.flokinet.is/2026/10/29/ice-wants-its-mask-back-and-hired-a-company-to-ask",
-      "category": "Developer",
-      "publishedAt": "2026-10-30T15:26:58.000Z"
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "whyItMatters": "Google successfully activated its AI chip-equipped satellite to process data and generate responses from space, demonstrating a significant step towards space-based AI computing and virtual data centers beyond Earth.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "category": "Technology",
+      "publishedAt": "2026-10-30T18:21:38.000Z"
+    },
+    {
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "whyItMatters": "Pope Leo XIV's call for AI disarmament and emphasis on human responsibility to guide or reject AI applications highlights increasing global ethical and governance concerns surrounding the development and deployment of advanced artificial intelligence.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "category": "Technology",
+      "publishedAt": "2026-10-30T14:58:06.000Z"
+    },
+    {
+      "title": "Hackers steal $6.3 billion from Binance in record crypto heist",
+      "whyItMatters": "North Korean hackers are implicated in a record-breaking $6.3 billion cryptocurrency heist from Binance, underscoring severe cybersecurity vulnerabilities in crypto exchanges and the escalating threat of state-sponsored cybercrime.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist",
+      "category": "Technology",
+      "publishedAt": "2026-10-30T13:46:39.000Z"
+    },
+    {
+      "title": "GM to pay $220 million after selling customer Smart Driver data",
+      "whyItMatters": "General Motors settled for $220 million for selling customer driving data to insurance companies without explicit consent, setting a precedent for corporate accountability in automotive data privacy and emphasizing consumer consent.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data",
+      "category": "Technology",
+      "publishedAt": "2026-10-30T13:53:20.000Z"
+    },
+    {
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "whyItMatters": "Runware is pioneering the mass production of prefabricated AI data centers, aiming to significantly reduce deployment times to meet the exploding demand for AI computing resources, mirroring automotive assembly line efficiency.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "category": "Technology",
+      "publishedAt": "2026-10-30T13:00:00.000Z"
+    },
+    {
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "whyItMatters": "Amid declining search traffic, likely influenced by AI's impact on information discovery, Reddit is transitioning to a logged-in-only experience, signaling a broader industry trend as platforms adapt their business models to protect audience engagement.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
+      "category": "Technology",
+      "publishedAt": "2026-10-29T20:08:31.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "111 source-linked updates, led by NVIDIA Blog.",
-      "itemCount": 111
+      "name": "AI Infrastructure & Governance",
+      "summary": "Discussions on optimizing AI computing resources, defining standards for data usage, and innovative approaches to building data centers.",
+      "itemCount": 7
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "name": "AI's Societal & Ethical Impact",
+      "summary": "Concerns ranging from AI's moral implications, potential for misuse in fraud, its effects on employment, and regulatory calls for control.",
+      "itemCount": 11
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "Cybersecurity & Data Privacy",
+      "summary": "Major cyberattacks, state-sponsored hacking, and significant legal settlements around user data mishandling.",
+      "itemCount": 6
     },
     {
-      "name": "Infrastructure",
-      "summary": "29 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 29
+      "name": "Space Technology & Innovation",
+      "summary": "Advancements in satellite-based computing, drone traffic control, and the commercialization of space services.",
+      "itemCount": 9
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Digital Platform Strategy",
+      "summary": "How online platforms are adapting business models, user experiences, and content access in response to evolving digital landscapes and AI influence.",
+      "itemCount": 9
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

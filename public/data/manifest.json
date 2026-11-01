@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T09:24:30.831Z",
+  "generatedAt": "2026-11-01T16:49:51.759Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,12 +14,12 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 67
+      "count": 77
     },
     {
       "name": "Hugging Face Blog",
       "category": "AI",
-      "count": 23
+      "count": 26
     },
     {
       "name": "Ars Technica",
@@ -32,11 +32,6 @@
       "count": 20
     },
     {
-      "name": "Hacker News",
-      "category": "Developer",
-      "count": 20
-    },
-    {
       "name": "TechCrunch",
       "category": "Technology",
       "count": 20
@@ -45,6 +40,11 @@
       "name": "NVIDIA Blog",
       "category": "AI",
       "count": 18
+    },
+    {
+      "name": "AWS News Blog",
+      "category": "Infrastructure",
+      "count": 14
     },
     {
       "name": "GitHub Blog",
@@ -67,15 +67,16 @@
       "count": 10
     },
     {
-      "name": "AWS News Blog",
-      "category": "Infrastructure",
-      "count": 8
-    },
-    {
       "name": "Google AI",
       "category": "AI",
-      "count": 4
+      "count": 5
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "message": "Invalid URL"
+    }
+  ]
 }

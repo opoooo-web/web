@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+      "publishedAt": "2026-10-26T22:01:23.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/greptile-code-review-codex-astra",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "publishedAt": "2026-10-26T22:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
       "id": "openai-news:https://openai.com/index/introducing-gpt-6-1-terra",
       "title": "Introducing GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
@@ -280,26 +300,6 @@
       "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
       "summary": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open [&#8230;]",
       "publishedAt": "2026-10-22T05:00:23.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction",
-      "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
-      "url": "https://blogs.nvidia.com/blog/europe-earth-2-open-models-weather-climate-prediction",
-      "summary": "Weather forecasts shape more than daily plans; timely weather information is crucial for energy producers, insurers and transport operators to plan around changing conditions. A global forecast can show a storm taking shape, but decisions about solar farms, shipping routes or insured property depend on what happens locally. NVIDIA Earth-2 gives developers and researchers a [&#8230;]",
-      "publishedAt": "2026-10-22T05:00:19.000Z",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "category": "AI"
-    },
-    {
-      "id": "nvidia-blog:https://blogs.nvidia.com/blog/european-public-sector-open-models",
-      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
-      "url": "https://blogs.nvidia.com/blog/european-public-sector-open-models",
-      "summary": "Governments need modern solutions to serve the public while keeping sensitive information under their control. Open models provide a path forward, letting governments evaluate them, adapt them to local languages and public services, run them on infrastructure they control, apply their own safeguards and keep sensitive data within controlled environments. Some open models go further, [&#8230;]",
-      "publishedAt": "2026-10-22T05:00:02.000Z",
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
       "category": "AI"

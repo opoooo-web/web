@@ -1,6 +1,216 @@
 {
   "items": [
     {
+      "id": "techcrunch:https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+      "title": "Parents want safer phones for kids. These companies are answering the call.",
+      "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call",
+      "summary": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://blog.bosscher.ch/posts/openstick",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "url": "https://blog.bosscher.ch/posts/openstick",
+      "summary": "Article URL: https://blog.bosscher.ch/posts/openstick/ Comments URL: https://news.ycombinator.com/item?id=50406670 Points: 94 # Comments: 20",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps",
+      "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+      "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps",
+      "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. The next generation [&#8230;]",
+      "publishedAt": "2026-11-07T18:11:57.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://hunch.net/?p=13764006",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "summary": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 151 # Comments: 71",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://prog21.dadgum.com/19.html",
+      "title": "Five memorable books about programming (2008)",
+      "url": "https://prog21.dadgum.com/19.html",
+      "summary": "Article URL: https://prog21.dadgum.com/19.html Comments URL: https://news.ycombinator.com/item?id=50406319 Points: 37 # Comments: 10",
+      "publishedAt": "2026-11-07T17:30:49.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/hedgerow-dev/coldframe",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "summary": "I built Coldframe, a honeypot that pretends to be a supermarket refrigeration controller. Inspired by the events on industrial fridge installations in the past weeks, I wanted to see what people would try against a convincing fake. To learn more about this I built a honeypot that resembled perfectly the Danfoss AK-SM 800A and Dixell XWEB interfaces. Both of them are recognized on Shodan as real ones (an not as honeypots). It’s one Python file using only the standard library, and it builds on eppser/danfoss-ak-sm-decoy and public research by Synacktiv, Claroty and Ironhackers. Things that were fun to get right: - Matching real units. I used Shodan records of real devices to match header order, page titles, certificate fields and TLS versions. The Danfoss persona sends nginx headers in the same order as a real AK-SM 800A. The Dixell persona sends no Server header and pads its page to exactly 8,202 bytes. - Recognising exploit attempts. It recognises CVE-2025-41450, the Danfoss “code of the day” login bypass, and records whether the submitted code is correct for today. It also tags attempts targeting three other Danfoss CVEs and the XWEB vulnerabilities. - Letting them in. Default logins open a fake store dashboard with defrost buttons, so you see the second move, not just the first. Nothing behind it is real. Two instances have been live for a day. So far they’ve only seen generic scanners and Shodan’s crawler, which is called refrigerator.census.shodan.io. Feedback welcome, especially from anyone who has seen these devices in the field! Comments URL: https://news.ycombinator.com/item?id=50406292 Points: 105 # Comments: 26",
+      "publishedAt": "2026-11-07T17:27:30.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack",
+      "title": "Binance CFO is leaving to &#8216;pursue a new venture&#8217; after $6.3 billion hack",
+      "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack",
+      "summary": "The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users.",
+      "publishedAt": "2026-11-07T17:24:07.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://maxxbench.unlap.ai/research/why-maxxbench",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench",
+      "summary": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 84 # Comments: 19",
+      "publishedAt": "2026-11-07T17:19:00.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles",
+      "title": "Amazon&#8217;s new basic Kindle proves you don&#8217;t need all the bells and whistles",
+      "url": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles",
+      "summary": "Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved display make a compelling case for skipping the pricier models.",
+      "publishedAt": "2026-11-07T17:18:00.000Z",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "summary": "Article URL: https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you Comments URL: https://news.ycombinator.com/item?id=50406111 Points: 126 # Comments: 88",
+      "publishedAt": "2026-11-07T17:06:36.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
+      "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
+      "url": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
+      "summary": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizzy, [&#8230;]",
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://mceglowski.substack.com/p/how-long-can-life-wait",
+      "title": "How Long Can Life Wait?",
+      "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+      "summary": "Article URL: https://mceglowski.substack.com/p/how-long-can-life-wait Comments URL: https://news.ycombinator.com/item?id=50405789 Points: 78 # Comments: 35",
+      "publishedAt": "2026-11-07T16:22:59.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://sheets.works/data-viz/cpu-dies",
+      "title": "Every processor die anyone has photographed and given away",
+      "url": "https://sheets.works/data-viz/cpu-dies",
+      "summary": "Article URL: https://sheets.works/data-viz/cpu-dies Comments URL: https://news.ycombinator.com/item?id=50405782 Points: 38 # Comments: 8",
+      "publishedAt": "2026-11-07T16:21:36.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://kevinboone.me/tpwin.html",
+      "title": "They don't make 'em like that any more: Borland Turbo Pascal 7",
+      "url": "https://kevinboone.me/tpwin.html",
+      "summary": "Article URL: https://kevinboone.me/tpwin.html Comments URL: https://news.ycombinator.com/item?id=50405678 Points: 132 # Comments: 79",
+      "publishedAt": "2026-11-07T16:06:27.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.sussi.dk/terry-pratchetts-study",
+      "title": "Terry Pratchett's Study",
+      "url": "https://www.sussi.dk/terry-pratchetts-study",
+      "summary": "Article URL: https://www.sussi.dk/terry-pratchetts-study Comments URL: https://news.ycombinator.com/item?id=50405674 Points: 24 # Comments: 3",
+      "publishedAt": "2026-11-07T16:05:45.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale",
+      "title": "Costco members can get $5 off the reimagined Ocarina of Time",
+      "url": "https://www.theverge.com/gadgets/1028917/legend-of-zelda-ocarina-of-time-remake-switch-2-costco-deal-sale",
+      "summary": "While some retailers were offering preorder discounts on the remastered Legend of Zelda: The Ocarina of Time, it’s not too late to save if you missed out. Costco members can currently get $5 off the digital version online, bringing the price down to $54.99. Considering an annual Costco membership runs $65, that discount almost offsets [&#8230;]",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
+      "title": "Discogs’ Kevin Lewandowski can’t live without his AeroPress",
+      "url": "https://www.theverge.com/tech/1029474/discogs-kevin-lewandowski-aeropress-interview",
+      "summary": "Twenty-five years ago, Kevin Lewandowski founded Discogs, arguably the destination online for obsessive vinyl collectors and music nerds of all stripes. It is a marketplace for buying and selling records, obviously, but it's also become so much more. It's a shockingly comprehensive database that covers not just albums and singles, but all the various versions [&#8230;]",
+      "publishedAt": "2026-11-07T16:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best [&#8230;]",
+      "publishedAt": "2026-11-07T15:50:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell [&#8230;]",
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+      "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "summary": "Article URL: https://github.com/Video-Rebirth/hyperflow-h3-flash Comments URL: https://news.ycombinator.com/item?id=50405263 Points: 32 # Comments: 9",
+      "publishedAt": "2026-11-07T15:16:01.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://news.ycombinator.com/item?id=50405250",
+      "title": "Ask HN: How did you convince family and friends to join your XMPP/Matrix server?",
+      "url": "https://news.ycombinator.com/item?id=50405250",
+      "summary": "I love open-source software and open protocols, but my family and friends primarily communicate through SMS for exactly the reasons in https://xkcd.com/2365/ Whenever XMPP or Matrix threads pop up on HN, several commenters casually mention their \"friends and family XMPP (or Matrix) server.\" How did you convince friends and family to move away from SMS/WhatsApp and replace it with a niche messaging app? My family and friends aren't hardcore nerdy, but they're more tech-savvy than average. Their needs in messaging are mainly pragmatic: they want ease of use, reliability, and fun features. They don't care that much about privacy, decentralization, or extensibility (though I care about those things a lot). I've been experimenting with self-hosting XMPP and Matrix servers and clients in the past week, and the UX is even worse than I expected. It seems like all the clients either imitate Slack, imitate Discord, or imitate hot garbage. I haven't seen any that try to be a simple, friendly replacement for SMS. I'm a software developer who uses computers all day, and I find the UX for most of the clients incredibly hard to use. The only angle I could see to pitch XMPP/Matrix to people for non-philosophical reasons are that there's a more consistent experience across iOS/Android. The biggest shortcoming I think is visible to regular users is that there's feature degradation and missing information when iOS users have SMS conversations with Android users, especially in group chats. For people who have successfully won family and friends to XMPP or Matrix, what was your pitch? What do you recommend others do to make XMPP or Matrix an attractive experience for a regular person? Comments URL: https://news.ycombinator.com/item?id=50405250 Points: 61 # Comments: 52",
+      "publishedAt": "2026-11-07T15:14:40.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
       "title": "AI broke the cybersecurity world. What’s next?",
       "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
@@ -21,10 +231,20 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
+      "title": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf] (2016)",
+      "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
+      "summary": "Article URL: https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf Comments URL: https://news.ycombinator.com/item?id=50404747 Points: 33 # Comments: 20",
+      "publishedAt": "2026-11-07T14:18:45.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "hacker-news:http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
       "title": "The $8 Linux Computer (2022)",
       "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-      "summary": "Article URL: http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html Comments URL: https://news.ycombinator.com/item?id=50404599 Points: 40 # Comments: 18",
+      "summary": "Article URL: http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html Comments URL: https://news.ycombinator.com/item?id=50404599 Points: 165 # Comments: 69",
       "publishedAt": "2026-11-07T14:00:20.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -61,6 +281,16 @@
       "category": "Technology"
     },
     {
+      "id": "hacker-news:https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in",
+      "title": "Every Windows 11 app should kill Electron, and Discord just showed why",
+      "url": "https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in",
+      "summary": "Article URL: https://www.windowslatest.com/2026/11/06/every-windows-11-app-should-kill-electron-and-discord-just-showed-why-no-starting-screen-and-70-less-ram-even-with-two-accounts-signed-in/ Comments URL: https://news.ycombinator.com/item?id=50403507 Points: 94 # Comments: 120",
+      "publishedAt": "2026-11-07T11:11:15.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "ars-technica:https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed",
       "title": "British soldier ignored order to pull his SIM card, then got blackmailed",
       "url": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed",
@@ -71,20 +301,10 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://uploadyourram.org",
-      "title": "Upload Your RAM",
-      "url": "https://uploadyourram.org",
-      "summary": "Article URL: https://uploadyourram.org Comments URL: https://news.ycombinator.com/item?id=50403214 Points: 222 # Comments: 194",
-      "publishedAt": "2026-11-07T10:15:26.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "hacker-news:https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 326 # Comments: 176",
+      "summary": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 484 # Comments: 284",
       "publishedAt": "2026-11-07T09:46:03.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -94,18 +314,8 @@
       "id": "hacker-news:https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition",
       "title": "Running a law firm on Free software",
       "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition",
-      "summary": "Article URL: https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/ Comments URL: https://news.ycombinator.com/item?id=50403066 Points: 81 # Comments: 32",
+      "summary": "Article URL: https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/ Comments URL: https://news.ycombinator.com/item?id=50403066 Points: 190 # Comments: 84",
       "publishedAt": "2026-11-07T09:39:06.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://acid.vegas/blog/the-port-that-does-not-exist",
-      "title": "Port 0: The Port That Does Not Exist",
-      "url": "https://acid.vegas/blog/the-port-that-does-not-exist",
-      "summary": "Article URL: https://acid.vegas/blog/the-port-that-does-not-exist/ Comments URL: https://news.ycombinator.com/item?id=50403063 Points: 35 # Comments: 11",
-      "publishedAt": "2026-11-07T09:38:26.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -114,7 +324,7 @@
       "id": "hacker-news:https://nfsu2.xyz",
       "title": "Need for Speed Underground 2 online in the browser",
       "url": "https://nfsu2.xyz",
-      "summary": "Article URL: https://nfsu2.xyz/ Comments URL: https://news.ycombinator.com/item?id=50403052 Points: 366 # Comments: 118",
+      "summary": "Article URL: https://nfsu2.xyz/ Comments URL: https://news.ycombinator.com/item?id=50403052 Points: 622 # Comments: 187",
       "publishedAt": "2026-11-07T09:36:36.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -124,8 +334,18 @@
       "id": "hacker-news:https://www.anthropic.com/research/components-of-agent-memory",
       "title": "The Components of Agent Memory",
       "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "summary": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 93 # Comments: 49",
+      "summary": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 135 # Comments: 68",
       "publishedAt": "2026-11-07T06:39:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://asahilinux.org/2026/11/progress-report-7-3",
+      "title": "Asahi Linux Progress Linux 7.3",
+      "url": "https://asahilinux.org/2026/11/progress-report-7-3",
+      "summary": "Article URL: https://asahilinux.org/2026/11/progress-report-7-3/ Comments URL: https://news.ycombinator.com/item?id=50401867 Points: 246 # Comments: 211",
+      "publishedAt": "2026-11-07T05:20:18.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -149,16 +369,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-      "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
-      "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-      "summary": "Article URL: https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals Comments URL: https://news.ycombinator.com/item?id=50401740 Points: 154 # Comments: 125",
-      "publishedAt": "2026-11-07T04:54:36.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
@@ -191,26 +401,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553",
-      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
-      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553",
-      "summary": "Article URL: https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/ Comments URL: https://news.ycombinator.com/item?id=50399991 Points: 148 # Comments: 108",
-      "publishedAt": "2026-11-06T23:37:19.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://mitchellh.com/writing/libghostty-1-0",
-      "title": "Libghostty 1.0",
-      "url": "https://mitchellh.com/writing/libghostty-1-0",
-      "summary": "Article URL: https://mitchellh.com/writing/libghostty-1-0 Comments URL: https://news.ycombinator.com/item?id=50399933 Points: 852 # Comments: 140",
-      "publishedAt": "2026-11-06T23:30:52.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain",
       "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
       "url": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain",
@@ -221,16 +411,6 @@
       "category": "Technology"
     },
     {
-      "id": "the-verge:https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed [&#8230;]",
-      "publishedAt": "2026-11-06T23:00:44.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
@@ -238,16 +418,6 @@
       "publishedAt": "2026-11-06T22:53:46.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
-      "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
-      "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
-      "summary": "SpaceX has declared that it&#8217;s going to make Starlink Mobile a &#8220;major&#8221; mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next big challenge is building out its 5G network here on Earth. As part of its plans to rival AT&#38;T, Verizon, and T-Mobile, SpaceX has inked a deal [&#8230;]",
-      "publishedAt": "2026-11-06T22:45:43.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -278,16 +448,6 @@
       "publishedAt": "2026-11-06T22:08:47.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
-      "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
-      "url": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
-      "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble and Amazon instead of its original $49.95 [&#8230;]",
-      "publishedAt": "2026-11-06T21:50:32.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
       "category": "Technology"
     },
     {
@@ -331,16 +491,6 @@
       "category": "Technology"
     },
     {
-      "id": "the-verge:https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "title": "All the latest updates on AI data centers",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead [&#8230;]",
-      "publishedAt": "2026-11-06T20:02:22.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition",
       "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
       "url": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition",
@@ -349,56 +499,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://hightouch.com/blog/llm-judges-identity-resolution",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "summary": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 531 # Comments: 128",
-      "publishedAt": "2026-11-06T19:48:51.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
-      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
-      "url": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
-      "summary": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than its usual price, and just a few dollars [&#8230;]",
-      "publishedAt": "2026-11-06T19:47:02.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://pwn.ai/blog/firecracker-escape",
-      "title": "Firecracker VM Escape: PwnEscape Part 2",
-      "url": "https://pwn.ai/blog/firecracker-escape",
-      "summary": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 260 # Comments: 112",
-      "publishedAt": "2026-11-06T19:33:38.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
-      "title": "GitHub's new Git storage architecture",
-      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
-      "summary": "Article URL: https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/ Comments URL: https://news.ycombinator.com/item?id=50397099 Points: 181 # Comments: 47",
-      "publishedAt": "2026-11-06T19:24:21.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
-      "title": "Restaurant Delivery Payment-Skimming Campaign",
-      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
-      "summary": "Article URL: https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming Comments URL: https://news.ycombinator.com/item?id=50397017 Points: 150 # Comments: 79",
-      "publishedAt": "2026-11-06T19:19:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "ars-technica:https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade",
@@ -461,16 +561,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://devvm.dev",
-      "title": "Devvm.dev: One VM for every project",
-      "url": "https://devvm.dev",
-      "summary": "Article URL: https://devvm.dev/ Comments URL: https://news.ycombinator.com/item?id=50395450 Points: 171 # Comments: 68",
-      "publishedAt": "2026-11-06T17:30:22.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "techcrunch:https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
       "title": "After the midterms, is the AI industry in for a rough two years?",
       "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
@@ -481,16 +571,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://mattlakeman.org/2026/11/05/notes-on-san-marino",
-      "title": "Notes on San Marino",
-      "url": "https://mattlakeman.org/2026/11/05/notes-on-san-marino",
-      "summary": "Article URL: https://mattlakeman.org/2026/11/05/notes-on-san-marino/ Comments URL: https://news.ycombinator.com/item?id=50395183 Points: 104 # Comments: 42",
-      "publishedAt": "2026-11-06T17:12:05.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years",
       "title": "Wisconsin reports measles death of a baby, first death in over 35 years",
       "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years",
@@ -499,16 +579,6 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://kevinboone.me/efitest_index.html",
-      "title": "First steps in bare-metal programming using UEFI",
-      "url": "https://kevinboone.me/efitest_index.html",
-      "summary": "Article URL: https://kevinboone.me/efitest_index.html Comments URL: https://news.ycombinator.com/item?id=50394855 Points: 235 # Comments: 48",
-      "publishedAt": "2026-11-06T16:50:29.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory",
@@ -641,16 +711,6 @@
       "category": "Technology"
     },
     {
-      "id": "hacker-news:https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "title": "Gemini Omni 1.2 Flash",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "summary": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 352 # Comments: 241",
-      "publishedAt": "2026-11-06T13:35:27.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy",
       "title": "Rocket Report: Artemis II literally tore through the atmosphere; New Glenn delay",
       "url": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy",
@@ -689,16 +749,6 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "title": "Tesla to wind down Cybertruck production",
-      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
-      "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817 Comments URL: https://news.ycombinator.com/item?id=50391456 Points: 1079 # Comments: 1936",
-      "publishedAt": "2026-11-06T12:13:51.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027",
@@ -771,16 +821,6 @@
       "category": "Science"
     },
     {
-      "id": "hacker-news:https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05",
-      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
-      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05",
-      "summary": "Article URL: https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/ Comments URL: https://news.ycombinator.com/item?id=50388001 Points: 367 # Comments: 307",
-      "publishedAt": "2026-11-06T04:00:28.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
       "id": "ars-technica:https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance",
       "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
       "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance",
@@ -788,26 +828,6 @@
       "publishedAt": "2026-11-06T00:17:06.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million",
-      "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
-      "url": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million",
-      "summary": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
-      "publishedAt": "2026-11-06T00:07:18.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law",
-      "title": "Meta, Google, and TikTok sue California AG over teen social media law",
-      "url": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law",
-      "summary": "If it goes into effect next year, this California law would restrict social media access for children under 16.",
-      "publishedAt": "2026-11-06T00:01:38.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
       "category": "Technology"
     },
     {
@@ -831,14 +851,14 @@
       "category": "AI"
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
-      "title": "Airbnb says it&#8217;s launching an AI travel agent in the first half of 2027",
-      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
-      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "publishedAt": "2026-11-05T22:40:55.000Z",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "category": "Technology"
+      "id": "github-blog:https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+      "title": "Inside GitHub&#8217;s new Git storage architecture",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+      "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub&#8217;s new Git storage architecture appeared first on The GitHub Blog .",
+      "publishedAt": "2026-11-05T20:23:21.000Z",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "Developer"
     },
     {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
@@ -898,6 +918,16 @@
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
       "category": "AI"
     },
     {
@@ -1016,16 +1046,6 @@
       "url": "https://science.nasa.gov/image-article/apod-2026-november-5-enceladus-in-silhouette",
       "summary": "APOD Science APOD APOD: 2026 November 5 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Enceladus in Silhouette [&#8230;]",
       "publishedAt": "2026-11-05T05:05:00.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
-      "id": "nasa-breaking-news:https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites",
-      "title": "Cyprus: Island of Snakes, Cats, and Ophiolites",
-      "url": "https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites",
-      "summary": "The third-largest island in the Mediterranean Sea exposes an ancient piece of the ocean floor and hosts a clowder of cats.",
-      "publishedAt": "2026-11-05T05:01:00.000Z",
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
@@ -2376,26 +2396,6 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "publishedAt": "2026-10-16T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "hugging-face-blog:https://huggingface.co/blog/reflection-beam",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "summary": "",
-      "publishedAt": "2026-10-16T00:00:00.000Z",
-      "sourceId": "hugging-face-blog",
-      "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "publishedAt": "2026-10-15T19:00:00.000Z",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"

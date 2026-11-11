@@ -1,99 +1,99 @@
 {
-  "generatedAt": "2026-11-11T16:14:44.093Z",
+  "generatedAt": "2026-11-11T22:47:29.242Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's technology briefing highlights significant advancements in AI, infrastructure, science, and developer tools. Key developments include new AI models for law, collaboration, and disease research, alongside important updates in cybersecurity and space exploration.",
+  "narrative": "Today's top technology and AI news highlights significant advancements in AI agents, from legal work to cybersecurity, alongside discussions on ethical implications and infrastructure demands. Key developments include new AI tools for developers and science, and a focus on responsible AI deployment.",
   "highlights": [
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "whyItMatters": "This development signifies a notable advancement in applying AI to complex professional services.",
+      "whyItMatters": "AI is transforming professional services by enabling more efficient legal workflows and improving business operations.",
       "sourceName": "OpenAI News",
       "sourceUrl": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "category": "AI",
       "publishedAt": "2026-11-12T00:00:00.000Z"
     },
     {
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "whyItMatters": "This development signifies a notable advancement in collaborative AI tools.",
-      "sourceName": "Google AI",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "category": "AI",
+      "title": "United won’t let your AI agent book your flight",
+      "whyItMatters": "The increasing use of AI agents for personal tasks is raising concerns about privacy, regulation, and potential misuse by companies like United Airlines.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+      "category": "Technology",
+      "publishedAt": "2026-11-11T21:54:21.000Z"
+    },
+    {
+      "title": "AWS Emulator",
+      "whyItMatters": "Developers can now test applications against AWS services locally, accelerating development and improving reliability.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/aws/aws-emulator",
+      "category": "Developer",
+      "publishedAt": "2026-11-11T18:21:38.000Z"
+    },
+    {
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "whyItMatters": "Major investments in leading AI companies by chip manufacturers underscore the critical role of hardware in driving AI innovation and the growing AI boom.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "category": "Technology",
+      "publishedAt": "2026-11-11T18:16:40.000Z"
+    },
+    {
+      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+      "whyItMatters": "New AI-powered collaboration tools are emerging, allowing users to create personalized interactive applications for team coordination and planning.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+      "category": "Technology",
       "publishedAt": "2026-11-11T16:00:00.000Z"
     },
     {
+      "title": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality",
+      "whyItMatters": "Significant advancements in quantum computing promise faster and more reliable systems, with plans to scale beyond 1,000 qubits in the near future.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027",
+      "category": "Developer",
+      "publishedAt": "2026-11-11T19:47:59.000Z"
+    },
+    {
       "title": "Google DeepMind just mathematically verified key parts of Signal",
-      "whyItMatters": "This development signifies a notable advancement in AI for cybersecurity verification.",
+      "whyItMatters": "AI is increasingly being used for formal verification in cryptography, potentially making secure communication protocols more robust and practical.",
       "sourceName": "Ars Technica",
       "sourceUrl": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
       "category": "Technology",
       "publishedAt": "2026-11-11T14:08:57.000Z"
     },
     {
-      "title": "Choosing QuePaxa, an unusual consensus algorithm",
-      "whyItMatters": "This development signifies a notable advancement in distributed systems and infrastructure.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/choosing-quepaxa",
+      "title": "AWS Weekly Roundup: AgentCore Runtime V2, Amazon DynamoDB bulk put items, and more (November 9, 2026)",
+      "whyItMatters": "AWS continues to enhance its AI and infrastructure offerings, enabling more capable agent tools and efficient data management for developers.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentcore-runtime-v2-amazon-dynamodb-bulk-put-items-and-more-november-9-2026",
       "category": "Infrastructure",
-      "publishedAt": "2026-11-11T14:24:46.000Z"
-    },
-    {
-      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-      "whyItMatters": "This development signifies a notable advancement in AI-driven scientific discovery and historical research.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://pietromiotti.com/latest/maya-site/?maya=",
-      "category": "Developer",
-      "publishedAt": "2026-11-11T12:05:22.000Z"
-    },
-    {
-      "title": "APOD: 2026 November 11 – NGC 4449: Small Galaxy, Big Impact",
-      "whyItMatters": "This development signifies a notable advancement in space exploration and astronomical observation.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact",
-      "category": "Science",
-      "publishedAt": "2026-11-11T05:05:00.000Z"
-    },
-    {
-      "title": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
-      "whyItMatters": "This development signifies a notable advancement in environmental technology and resource management.",
-      "sourceName": "NVIDIA Blog",
-      "sourceUrl": "https://blogs.nvidia.com/blog/ai-recycling-startups",
-      "category": "AI",
-      "publishedAt": "2026-11-11T03:00:20.000Z"
-    },
-    {
-      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
-      "whyItMatters": "This development signifies a notable advancement in AI model efficiency and training.",
-      "sourceName": "Hugging Face Blog",
-      "sourceUrl": "https://huggingface.co/blog/token-pooling",
-      "category": "AI",
-      "publishedAt": "2026-11-11T00:00:00.000Z"
+      "publishedAt": "2026-11-09T17:55:26.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "This topic covers significant progress in the Artificial Intelligence sector.",
-      "itemCount": 5
+      "name": "AI Advances",
+      "summary": "AI technology is rapidly expanding into various sectors, including legal, enterprise workflows, and scientific discovery, with new models and platforms enhancing capabilities.",
+      "itemCount": 29
     },
     {
-      "name": "Technology",
-      "summary": "This topic covers significant progress in the general Technology sector.",
-      "itemCount": 2
+      "name": "Developer Tools & Practices",
+      "summary": "New tools and strategies are emerging to assist developers, including local AWS emulators, Git infrastructure scaling, and AI-powered code review.",
+      "itemCount": 16
     },
     {
-      "name": "Infrastructure",
-      "summary": "This topic covers significant progress in the Infrastructure sector.",
-      "itemCount": 1
+      "name": "Technology & Society",
+      "summary": "Discussions around AI's societal impact, regulation, and ethical considerations are gaining prominence, alongside innovations in smart home technology and transportation.",
+      "itemCount": 26
     },
     {
-      "name": "Developer",
-      "summary": "This topic covers significant progress in the Developer tools and practices sector.",
-      "itemCount": 1
+      "name": "Infrastructure & Security",
+      "summary": "Cloud infrastructure and security are evolving with new consensus algorithms, DDoS protections, and advanced tools for vulnerability management and data sovereignty.",
+      "itemCount": 13
     },
     {
-      "name": "Science",
-      "summary": "This topic covers significant progress in the Science and research sector.",
-      "itemCount": 1
+      "name": "Science & Research",
+      "summary": "Advances in science include quantum computing, climate research, and space exploration, with AI playing a supporting role in scientific discovery.",
+      "itemCount": 13
     }
   ],
   "notes": []

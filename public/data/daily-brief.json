@@ -1,107 +1,102 @@
 {
-  "generatedAt": "2026-11-12T12:49:51.740Z",
-  "generatedBy": "gemini",
+  "generatedAt": "2026-11-12T20:52:46.972Z",
+  "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech industry is abuzz with the potential ouster of Nvidia CEO Jensen Huang amid scandal, impacting the market and drawing congressional attention. AI continues its rapid expansion, marked by OpenAI's $10B revenue and TSMC's investments, but faces growing regulatory challenges regarding agent autonomy (e.g., United Airlines' ban) and digital fairness, while developers address critical security issues in software and cloud infrastructure. Alongside these, advancements in quantum computing and consumer hardware like Apple's M6 iMac demonstrate ongoing technological evolution.",
+  "narrative": "Today's top tech news highlights significant AI advancements, Google's Gemini 4 Hydrogen rollout, and a major scandal at Nvidia. The tech and science sectors are abuzz with developments ranging from AI agent deployment to space exploration endeavors.",
   "highlights": [
     {
-      "title": "Nvidia is preparing to oust Jensen Huang",
-      "whyItMatters": "This represents a significant leadership crisis at a critical AI chip company, with market and national security ramifications, as its board reportedly moves to dismiss the CEO.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "category": "Developer",
-      "publishedAt": "2026-11-11T22:31:06.000Z"
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "whyItMatters": "Nvidia confirmed its technical ability to track chips, contrasting with public industry statements on feasibility.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking",
+      "category": "Science",
+      "publishedAt": "2026-11-12T20:16:24.000Z"
     },
     {
-      "title": "OpenAI&#8217;s quarterly revenue reportedly crosses $10B for the first time",
-      "whyItMatters": "This marks a major financial milestone, demonstrating the accelerating commercialization and immense market demand for AI services and foundational models.",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "whyItMatters": "Amplitude leverages OpenAI models for proactive product agents, accelerating feature deployment and impact measurement.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/amplitude",
+      "category": "AI",
+      "publishedAt": "2026-11-12T20:00:00.000Z"
+    },
+    {
+      "title": "Google&#8217;s latest Search upgrade promises better answers to your most complicated questions",
+      "whyItMatters": "Google Search enhances its AI Mode with Gemini 4 Hydrogen, offering more intuitive and visually rich responses to complex queries.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
       "category": "Technology",
-      "publishedAt": "2026-11-11T16:14:44.000Z"
+      "publishedAt": "2026-11-12T19:27:45.000Z"
     },
     {
-      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-      "whyItMatters": "This highlights the emerging real-world challenges and policy responses to AI agents interacting with existing services, impacting consumer use and industry regulation regarding AI autonomy.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
-      "category": "Technology",
-      "publishedAt": "2026-11-11T21:54:21.000Z"
-    },
-    {
-      "title": "Loot boxes, influencers, and addictive features face an EU crackdown",
-      "whyItMatters": "The proposed Digital Fairness Act signifies a broad regulatory push by the EU to ensure consumer protection and ethical design in digital platforms, with significant implications for tech companies.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
-      "category": "Technology",
-      "publishedAt": "2026-11-11T18:13:52.000Z"
-    },
-    {
-      "title": "Critical RCE Vulnerability in Apache HTTP Server",
-      "whyItMatters": "This represents a serious security threat to widely used web infrastructure, requiring immediate attention from developers and system administrators to prevent remote code execution attacks.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "category": "Developer",
-      "publishedAt": "2026-11-12T02:11:11.000Z"
-    },
-    {
-      "title": "Test your applications against AWS locally with AWS Emulator",
-      "whyItMatters": "This provides a crucial open-source tool for developers to efficiently test cloud applications against nearly every AWS service locally, accelerating development cycles and potentially reducing costs.",
-      "sourceName": "AWS News Blog",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-11T19:00:44.000Z"
-    },
-    {
-      "title": "IBM to offer access to a dual-processor quantum system in 2027",
-      "whyItMatters": "This highlights significant progress in quantum computing hardware development, with IBM pushing towards more powerful and accessible quantum systems by linking two 520-qubit chips.",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "whyItMatters": "Google's Gemini 4 Hydrogen model is rolling out broadly, marking a significant upgrade in AI capabilities.",
       "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/science/2026/11/ibm-to-offer-access-to-a-dual-processor-quantum-system-in-2027",
+      "sourceUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
       "category": "Technology",
-      "publishedAt": "2026-11-11T16:33:08.000Z"
+      "publishedAt": "2026-11-12T19:23:03.000Z"
     },
     {
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "whyItMatters": "This underscores the critical financial linkages between leading chip manufacturers and prominent AI research firms, indicating strategic investments that will shape the future AI ecosystem and trade dynamics.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "whyItMatters": "Nectar introduces an AI agent to streamline influencer marketing, from creator discovery to campaign tracking.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
       "category": "Technology",
-      "publishedAt": "2026-11-11T18:16:40.000Z"
+      "publishedAt": "2026-11-12T19:11:00.000Z"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "whyItMatters": "Hugging Face introduces LLMON, a new LLM-native markup language now integrated into Granite models, enhancing AI model interaction.",
+      "sourceName": "Hugging Face Blog",
+      "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "category": "AI",
+      "publishedAt": "2026-11-12T19:07:35.000Z"
+    },
+    {
+      "title": "Microsoft Outlook is down",
+      "whyItMatters": "Microsoft Outlook experienced a global outage due to elevated load on infrastructure across multiple regions.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "category": "Technology",
+      "publishedAt": "2026-11-12T19:07:21.000Z"
+    },
+    {
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "whyItMatters": "Google faces increasing pressure for AI moratoriums in schools following a lawsuit labeling its Gemini pilot a “suicide coach.”",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/google-faces-calls-for-ai-moratoriums-in-schools-after-gemini-pilot-backlash",
+      "category": "Technology",
+      "publishedAt": "2026-11-12T18:57:45.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Nvidia Leadership Crisis",
-      "summary": "A major corporate governance crisis is unfolding at Nvidia, with CEO Jensen Huang facing potential ouster over alleged personal misconduct, prompting market reactions and government scrutiny, highlighting the intersection of corporate leadership, ethics, and national security in the critical AI chip sector.",
-      "itemCount": 10
+      "name": "AI",
+      "summary": "OpenAI models drive product improvements and cyber defense; Google expands Gemini capabilities; NVIDIA invests in physical AI.",
+      "itemCount": 110
     },
     {
-      "name": "AI Industry Growth, Applications & Ethics",
-      "summary": "The AI sector demonstrates explosive financial growth and expanding applications across various industries, while simultaneously navigating increasing demands for ethical governance, user safety, and regulatory frameworks around autonomous agents and data privacy.",
+      "name": "Technology",
+      "summary": "Nvidia faces scrutiny over chip tracking and CEO scandal; Microsoft Outlook experiences outages; Google Wallet introduces digital home keys.",
+      "itemCount": 77
+    },
+    {
+      "name": "Developer",
+      "summary": "GitHub reports record growth with agent-built projects; Rust releases new version; PostgreSQL bug leads to RCE.",
       "itemCount": 29
     },
     {
-      "name": "Developer Tools & Software Engineering",
-      "summary": "Critical software security vulnerabilities are a key focus for developers, alongside the introduction of new tools for local cloud environment emulation and ongoing discussions on software development best practices and innovative open-source projects.",
-      "itemCount": 15
+      "name": "Science",
+      "summary": "NASA explores new exoplanets and space missions; COP31 climate talks address global challenges; MIT delves into cognitive immortality.",
+      "itemCount": 17
     },
     {
-      "name": "Hardware & Consumer Devices",
-      "summary": "Innovations continue across consumer electronics and specialized hardware, from Apple's latest iMac and a multi-function smart home device to advancements in quantum computing and AI chips, alongside a revival of niche automotive designs.",
+      "name": "Infrastructure",
+      "summary": "Cloudflare enhances DDoS protection and key management; AWS introduces a local emulator and managed migration services.",
       "itemCount": 7
-    },
-    {
-      "name": "Digital Policy & Infrastructure",
-      "summary": "New regulatory proposals like the EU Digital Fairness Act address consumer protection online, while policy challenges arise in internet service (e.g., T-Mobile caps) and the significant infrastructure demands driving data center expansion and management.",
-      "itemCount": 7
-    },
-    {
-      "name": "Science & Space Exploration",
-      "summary": "Ongoing scientific exploration and environmental monitoring by NASA, coupled with strategic developments in space technology and concerns over launch capabilities, highlight humanity's engagement with both Earth and the cosmos.",
-      "itemCount": 8
     }
   ],
   "notes": [
-    "The overwhelming volume of news related to Nvidia's CEO Jensen Huang indicates a significant, rapidly developing corporate crisis impacting the broader tech and AI sectors."
+    "XAI_API_KEY not configured"
   ]
 }

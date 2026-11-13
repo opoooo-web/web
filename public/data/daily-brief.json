@@ -1,102 +1,92 @@
 {
-  "generatedAt": "2026-11-12T20:52:46.972Z",
+  "generatedAt": "2026-11-13T09:38:36.447Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's top tech news highlights significant AI advancements, Google's Gemini 4 Hydrogen rollout, and a major scandal at Nvidia. The tech and science sectors are abuzz with developments ranging from AI agent deployment to space exploration endeavors.",
+  "narrative": "The tech world is currently focused on significant developments, including Google's new Gemini 4 Hydrogen AI model and the dramatic resignation of Nvidia CEO Jensen Huang amidst a national security-related scandal. Concurrently, Microsoft is grappling with a widespread service outage, underscoring ongoing challenges in cloud infrastructure. These events highlight rapid advancements in AI alongside critical concerns regarding cybersecurity, corporate ethics, and system reliability.",
   "highlights": [
     {
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "whyItMatters": "Nvidia confirmed its technical ability to track chips, contrasting with public industry statements on feasibility.",
-      "sourceName": "MIT Technology Review",
-      "sourceUrl": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking",
-      "category": "Science",
-      "publishedAt": "2026-11-12T20:16:24.000Z"
-    },
-    {
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "whyItMatters": "Amplitude leverages OpenAI models for proactive product agents, accelerating feature deployment and impact measurement.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/amplitude",
-      "category": "AI",
-      "publishedAt": "2026-11-12T20:00:00.000Z"
-    },
-    {
-      "title": "Google&#8217;s latest Search upgrade promises better answers to your most complicated questions",
-      "whyItMatters": "Google Search enhances its AI Mode with Gemini 4 Hydrogen, offering more intuitive and visually rich responses to complex queries.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+      "title": "Global Microsoft Outage",
+      "whyItMatters": "A widespread Microsoft service degradation impacts users globally, highlighting the critical reliance on cloud infrastructure and the far-reaching effects of service disruptions.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk",
       "category": "Technology",
-      "publishedAt": "2026-11-12T19:27:45.000Z"
+      "publishedAt": "2026-11-13T06:18:23.000Z"
     },
     {
-      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
-      "whyItMatters": "Google's Gemini 4 Hydrogen model is rolling out broadly, marking a significant upgrade in AI capabilities.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
-      "category": "Technology",
-      "publishedAt": "2026-11-12T19:23:03.000Z"
-    },
-    {
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "whyItMatters": "Nectar introduces an AI agent to streamline influencer marketing, from creator discovery to campaign tracking.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
-      "category": "Technology",
-      "publishedAt": "2026-11-12T19:11:00.000Z"
-    },
-    {
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "whyItMatters": "Hugging Face introduces LLMON, a new LLM-native markup language now integrated into Granite models, enhancing AI model interaction.",
-      "sourceName": "Hugging Face Blog",
-      "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "category": "AI",
-      "publishedAt": "2026-11-12T19:07:35.000Z"
-    },
-    {
-      "title": "Microsoft Outlook is down",
-      "whyItMatters": "Microsoft Outlook experienced a global outage due to elevated load on infrastructure across multiple regions.",
+      "title": "Nvidia CEO Jensen Huang Resigns Amidst Scandal",
+      "whyItMatters": "The unexpected departure of Nvidia's CEO amidst scandal creates leadership uncertainty and raises national security and market stability concerns within the critical AI chip sector.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "sourceUrl": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
       "category": "Technology",
-      "publishedAt": "2026-11-12T19:07:21.000Z"
+      "publishedAt": "2026-11-13T00:46:07.000Z"
     },
     {
-      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
-      "whyItMatters": "Google faces increasing pressure for AI moratoriums in schools following a lawsuit labeling its Gemini pilot a “suicide coach.”",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/google-faces-calls-for-ai-moratoriums-in-schools-after-gemini-pilot-backlash",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "whyItMatters": "This significant AI model advancement promises more intuitive and effective search experiences by enhancing understanding of complex queries.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "category": "AI",
+      "publishedAt": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "title": "Rust 1.100",
+      "whyItMatters": "The Rust programming language reaches a significant milestone, reflecting its growing maturity and importance for secure and performant software development.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
+      "category": "Developer",
+      "publishedAt": "2026-11-12T18:39:05.000Z"
+    },
+    {
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers&#8217; chat transcripts",
+      "whyItMatters": "This second data breach for Fireworks AI within months underscores critical security vulnerabilities in third-party AI services and their potential impact on sensitive customer data.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
       "category": "Technology",
-      "publishedAt": "2026-11-12T18:57:45.000Z"
+      "publishedAt": "2026-11-12T15:02:28.000Z"
+    },
+    {
+      "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+      "whyItMatters": "Astronomers have found a new dwarf planet candidate beyond Pluto, expanding our understanding of the solar system's distant reaches.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857",
+      "category": "Science",
+      "publishedAt": "2026-11-12T19:05:33.000Z"
+    },
+    {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "whyItMatters": "GitHub's guide to agentic engineering empowers developers to create versatile AI agents, accelerating software development and improving efficiency across diverse platforms.",
+      "sourceName": "GitHub Blog",
+      "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "category": "Developer",
+      "publishedAt": "2026-11-12T22:54:52.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "OpenAI models drive product improvements and cyber defense; Google expands Gemini capabilities; NVIDIA invests in physical AI.",
-      "itemCount": 110
+      "name": "AI Breakthroughs & Applications",
+      "summary": "Recent advancements include Google's Gemini 4 Hydrogen for enhanced search and a practical guide to agentic engineering, showcasing AI's growing impact on productivity and technological innovation.",
+      "itemCount": 3
     },
     {
-      "name": "Technology",
-      "summary": "Nvidia faces scrutiny over chip tracking and CEO scandal; Microsoft Outlook experiences outages; Google Wallet introduces digital home keys.",
-      "itemCount": 77
+      "name": "Tech Industry Leadership & Ethics",
+      "summary": "The resignation of Nvidia's CEO amidst scandal and a significant cyberattack on Fireworks AI highlight critical concerns regarding corporate governance, data security, and ethical considerations in the tech sector.",
+      "itemCount": 2
     },
     {
-      "name": "Developer",
-      "summary": "GitHub reports record growth with agent-built projects; Rust releases new version; PostgreSQL bug leads to RCE.",
-      "itemCount": 29
+      "name": "Developer Innovations & Tools",
+      "summary": "The release of Rust 1.100 and new guides on agentic engineering demonstrate continuous evolution in programming languages and tools, fostering more efficient and secure software development practices.",
+      "itemCount": 2
     },
     {
-      "name": "Science",
-      "summary": "NASA explores new exoplanets and space missions; COP31 climate talks address global challenges; MIT delves into cognitive immortality.",
-      "itemCount": 17
+      "name": "Cloud & Infrastructure Resilience",
+      "summary": "A widespread global outage affecting Microsoft services underscores the ongoing challenges in maintaining robust cloud infrastructure and the far-reaching consequences of system disruptions.",
+      "itemCount": 1
     },
     {
-      "name": "Infrastructure",
-      "summary": "Cloudflare enhances DDoS protection and key management; AWS introduces a local emulator and managed migration services.",
-      "itemCount": 7
+      "name": "Space & Scientific Exploration",
+      "summary": "The discovery of a new dwarf planet candidate beyond Pluto continues to expand our understanding of the solar system and fuels further astronomical research.",
+      "itemCount": 1
     }
   ],
-  "notes": [
-    "XAI_API_KEY not configured"
-  ]
+  "notes": []
 }

@@ -1,86 +1,94 @@
 {
-  "generatedAt": "2026-11-13T23:38:03.397Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-11-14T06:34:54.634Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "The technology sector is grappling with significant disruptions, from a nationwide FAA ground stop and a major Microsoft cloud outage highlighting infrastructure vulnerabilities, to unfolding controversies around Nvidia's alleged market manipulation and executive conduct. Amidst these challenges, the AI landscape continues to evolve rapidly with advancements in agent capabilities like OpenAI's ChatGPT Wallet and crucial open-source contributions to local AI development.",
   "highlights": [
     {
-      "title": "FAA orders third nationwide ground stop in its history",
-      "whyItMatters": "Rare nationwide ground stop could go on for awhile as FAA troubleshoots.",
+      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
+      "whyItMatters": "Alleges market manipulation by Nvidia to control GPU supply and prices, impacting the broader AI industry and raising ethical questions.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "category": "Developer",
+      "publishedAt": "2026-11-14T02:52:59.000Z"
+    },
+    {
+      "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+      "whyItMatters": "A significant disruption to air travel across the US, underscoring vulnerabilities in critical national infrastructure due to 'extraordinary circumstances'.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "category": "Technology",
+      "publishedAt": "2026-11-14T01:53:04.000Z"
+    },
+    {
+      "title": "Microsoft’s massive Outlook outage might be over",
+      "whyItMatters": "A widespread global outage affecting Microsoft Outlook and 365, disrupting essential communication and business operations for millions of users.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+      "category": "Technology",
+      "publishedAt": "2026-11-13T16:17:11.000Z"
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "whyItMatters": "OpenAI is enabling its AI agents to make purchases, extending AI's role into personal finance and e-commerce transactions with user approval.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "category": "AI",
+      "publishedAt": "2026-11-13T15:00:00.000Z"
+    },
+    {
+      "title": "Ggml v1.0.0",
+      "whyItMatters": "Marks a significant milestone for a key library in local AI inference, contributing to the broader accessibility and development of AI models on consumer hardware.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "category": "Developer",
+      "publishedAt": "2026-11-14T02:28:29.000Z"
+    },
+    {
+      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "whyItMatters": "Reveals the global use of advertising infrastructure for surveillance by security agencies, raising significant privacy and civil liberties concerns.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+      "category": "Developer",
+      "publishedAt": "2026-11-14T02:15:41.000Z"
+    },
+    {
+      "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+      "whyItMatters": "Another successful orbital test flight for SpaceX's Starship, demonstrating continued progress towards fully reusable heavy-lift space transportation.",
       "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history",
+      "sourceUrl": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday",
       "category": "Technology",
-      "publishedAt": "2026-11-13T23:17:38.000Z"
-    },
-    {
-      "title": "Terminal borders that don't cost a cell",
-      "whyItMatters": "Article URL: https://www.joshka.net/cell-borders/ Comments URL: https://news.ycombinator.com/item?id=50491423 Points: 12 # Comments: 2",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.joshka.net/cell-borders",
-      "category": "Developer",
-      "publishedAt": "2026-11-13T23:06:40.000Z"
-    },
-    {
-      "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
-      "whyItMatters": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price",
-      "category": "Technology",
-      "publishedAt": "2026-11-13T23:00:00.000Z"
-    },
-    {
-      "title": "US National Weather Service reports nationwide internet, communications issues",
-      "whyItMatters": "Article URL: https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13/ Comments URL: https://news.ycombinator.com/item?id=50491209 Points: 12 # Comments: 1",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.reuters.com/technology/us-national-weather-service-reports-nationwide-internet-communications-issues-2026-11-13",
-      "category": "Developer",
-      "publishedAt": "2026-11-13T22:46:53.000Z"
-    },
-    {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "whyItMatters": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say",
-      "category": "Technology",
-      "publishedAt": "2026-11-13T22:43:00.000Z"
-    },
-    {
-      "title": "Claude Meetings",
-      "whyItMatters": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 51 # Comments: 32",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://claude.com/resources/articles/claude-meetings",
-      "category": "Developer",
-      "publishedAt": "2026-11-13T22:39:15.000Z"
+      "publishedAt": "2026-11-14T00:49:13.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "117 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 117
+      "name": "Nvidia & AI Industry Dynamics",
+      "summary": "A concentrated focus on Nvidia's business practices, leadership challenges, and its significant influence on the AI hardware market, including allegations of scarcity engineering, CEO scandals, and concerns over its environmental impact.",
+      "itemCount": 13
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by Ars Technica.",
-      "itemCount": 50
+      "name": "System Failures & Infrastructure Security",
+      "summary": "Critical infrastructure and major cloud services experienced significant outages, coupled with revelations about widespread surveillance via ad networks and new cybersecurity vulnerabilities.",
+      "itemCount": 11
     },
     {
-      "name": "Developer",
-      "summary": "30 source-linked updates, led by Hacker News.",
-      "itemCount": 30
+      "name": "AI Agent Development & Applications",
+      "summary": "Advances in AI agent capabilities, including financial transaction enablement, open-source development for local AI inference, and new enterprise tools, signaling a growing ecosystem for autonomous AI applications.",
+      "itemCount": 15
     },
     {
-      "name": "Infrastructure",
-      "summary": "23 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 23
+      "name": "Space & Science",
+      "summary": "Continued progress in space exploration with Starship's orbital flight, alongside scientific discoveries ranging from astronomy to climate change warnings and biological research.",
+      "itemCount": 12
     },
     {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Consumer Tech & E-commerce",
+      "summary": "New consumer electronics releases and significant e-commerce strategies, including Amazon's plan to index global shopping data and new product launches from various brands.",
+      "itemCount": 6
     }
   ],
   "notes": [
-    "Gemini HTTP 429"
+    "The ongoing 'Jensen Huang scandal' encompasses multiple facets, including alleged market manipulation, director stock sales, Huang's departure, and alleged personal conduct issues, indicating a complex and evolving situation at Nvidia."
   ]
 }

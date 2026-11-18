@@ -5,6 +5,26 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/chatgpt-plus-for-veterans",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "publishedAt": "2026-11-11T08:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/qvac/botpsy",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "summary": "",
+      "publishedAt": "2026-11-11T05:01:16.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
       "id": "nvidia-blog:https://blogs.nvidia.com/blog/ai-recycling-startups",
       "title": "AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
       "url": "https://blogs.nvidia.com/blog/ai-recycling-startups",
@@ -48,7 +68,7 @@
       "id": "github-blog:https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
       "title": "Git security vulnerabilities announced",
       "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
-      "summary": "Git is releasing updates addressing six security vulnerabilities affecting recursive clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
+      "summary": "Git is releasing updates addressing six security vulnerabilities affecting clones, reference handling, merges, binary patches, and imports. Here is what users need to know. The post Git security vulnerabilities announced appeared first on The GitHub Blog .",
       "publishedAt": "2026-11-10T18:00:00.000Z",
       "sourceId": "github-blog",
       "sourceName": "GitHub Blog",
@@ -283,26 +303,6 @@
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
       "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "title": "Beyond code generation: A developer&#8217;s guide to agentic engineering",
-      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer&#8217;s guide to agentic engineering appeared first on The GitHub Blog .",
-      "publishedAt": "2026-11-06T22:15:59.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/vole-mole",
-      "title": "The post-quantum future of web privacy",
-      "url": "https://blog.cloudflare.com/vole-mole",
-      "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-      "publishedAt": "2026-11-06T14:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
     }
   ]
 }

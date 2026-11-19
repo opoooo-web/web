@@ -1,86 +1,87 @@
 {
-  "generatedAt": "2026-11-19T03:35:36.438Z",
-  "generatedBy": "local-fallback",
-  "model": null,
-  "narrative": "This briefing cycle is led by AI, Technology, Developer. The summary is generated from source metadata and highlights the strongest signals available in this update.",
+  "generatedAt": "2026-11-19T13:21:02.139Z",
+  "generatedBy": "gemini",
+  "model": "gemini-2.5-flash",
+  "narrative": "Artificial intelligence continues to dominate headlines, with Apple introducing ambient AI summaries and Canva adding an 'off' button for generative features, reflecting both integration and calls for user control. Major tech leaders like Satya Nadella and Elon Musk are shaping discussions around AI's impact on workforce, cybersecurity, and geopolitics, alongside significant breakthroughs in medical science and space exploration.",
   "highlights": [
     {
-      "title": "AI will not make you rich (2025)",
-      "whyItMatters": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 62 # Comments: 36",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://colossus.com/article/ai-will-not-make-you-rich",
-      "category": "Developer",
-      "publishedAt": "2026-11-19T01:51:28.000Z"
-    },
-    {
-      "title": "Elon Musk tries to explain what&#8217;s going on with Ukraine and Starlink",
-      "whyItMatters": "Elon Musk said Ukrainian president Volodymyr Zelenskyy is lying about disruptions to Starshield in Ukraine and that he's trying to misuse SpaceX's consumer service, Starlink, for military purposes. Musk made the comments at The New York Times' DealBook Summit on Wednesday as he tried to explain the conflict following weeks of back and forth between [&#8230;]",
+      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "whyItMatters": "This article illustrates the growing trend of ambient AI integration into personal devices, highlighting both its potential utility and the inherent privacy concerns.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/1037448/elon-musk-ukraine-starlink-starshield-nyt-dealbook",
+      "sourceUrl": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
       "category": "Technology",
-      "publishedAt": "2026-11-19T01:39:45.000Z"
+      "publishedAt": "2026-11-19T13:00:00.000Z"
     },
     {
-      "title": "FailTrace – Reproduce a failed GitHub Actions run locally from its URL",
-      "whyItMatters": "Article URL: https://github.com/Ri4dH/failtrace Comments URL: https://news.ycombinator.com/item?id=50554941 Points: 10 # Comments: 0",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/Ri4dH/failtrace",
-      "category": "Developer",
-      "publishedAt": "2026-11-19T01:30:43.000Z"
+      "title": "Canva adds an AI ‘off’ button",
+      "whyItMatters": "This reflects user demand for control over generative AI features and platforms' responses to privacy and usage concerns.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "category": "Technology",
+      "publishedAt": "2026-11-19T12:30:00:00.000Z"
     },
     {
-      "title": "Unreal Tournament 2004 in the Browser",
-      "whyItMatters": "Article URL: https://ut2004.dev/ Comments URL: https://news.ycombinator.com/item?id=50554935 Points: 37 # Comments: 8",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://ut2004.dev",
-      "category": "Developer",
-      "publishedAt": "2026-11-19T01:29:29.000Z"
+      "title": "A human liver has been kept alive outside the body for a record seven weeks",
+      "whyItMatters": "This represents a major advancement in biomedical engineering with profound implications for organ transplantation and life support technologies.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record",
+      "category": "Science",
+      "publishedAt": "2026-11-19T12:00:00.000Z"
     },
     {
-      "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
-      "whyItMatters": "Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 14 # Comments: 4",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arxiv.org/abs/2607.29378",
-      "category": "Developer",
-      "publishedAt": "2026-11-19T01:27:02.000Z"
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "whyItMatters": "This reveals how AI is fundamentally reshaping corporate workforce strategies, potentially leading to significant organizational shifts across the tech industry.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit",
+      "category": "Technology",
+      "publishedAt": "2026-11-19T00:42:56.000Z"
     },
     {
-      "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-      "whyItMatters": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/ Comments URL: https://news.ycombinator.com/item?id=50554641 Points: 46 # Comments: 13",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
+      "whyItMatters": "This signals strong investor confidence and significant valuation in the rapidly expanding and competitive artificial intelligence industry.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+      "category": "Technology",
+      "publishedAt": "2026-11-18T22:11:15.000Z"
+    },
+    {
+      "title": "Unauthenticated remote code execution in Nginx",
+      "whyItMatters": "A severe vulnerability in widely used web server software highlights ongoing cybersecurity risks and the critical need for constant vigilance and patching.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm",
+      "sourceUrl": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "category": "Developer",
-      "publishedAt": "2026-11-19T00:57:20.000Z"
+      "publishedAt": "2026-11-18T15:19:55.000Z"
+    },
+    {
+      "title": "Google's AI feature in Search gets its own incognito mode",
+      "whyItMatters": "This demonstrates a step towards addressing user privacy concerns within AI-powered services by offering options to control data retention and influence future recommendations.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "category": "Technology",
+      "publishedAt": "2026-11-18T18:04:05.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI",
-      "summary": "121 source-linked updates, led by Hugging Face Blog.",
-      "itemCount": 121
+      "name": "Artificial Intelligence (AI) Trends & Impact",
+      "summary": "Covers the rollout of new AI features in consumer products, ethical considerations, major investment news, and AI's transformative effect on enterprise strategies and cyber warfare.",
+      "itemCount": 30
     },
     {
-      "name": "Technology",
-      "summary": "50 source-linked updates, led by The Verge.",
-      "itemCount": 50
+      "name": "Cybersecurity & Developer Infrastructure",
+      "summary": "Highlights critical software vulnerabilities, advancements in backend systems, updates to programming languages, and strategies for defending against cyber threats.",
+      "itemCount": 12
     },
     {
-      "name": "Developer",
-      "summary": "29 source-linked updates, led by Hacker News.",
-      "itemCount": 29
+      "name": "Space Exploration & Biomedical Science",
+      "summary": "Features new astronomical discoveries, updates on NASA missions and challenges, and groundbreaking medical engineering achievements.",
+      "itemCount": 12
     },
     {
-      "name": "Infrastructure",
-      "summary": "20 source-linked updates, led by Cloudflare Blog.",
-      "itemCount": 20
-    },
-    {
-      "name": "Science",
-      "summary": "20 source-linked updates, led by NASA Breaking News.",
-      "itemCount": 20
+      "name": "Big Tech Leadership & Policy",
+      "summary": "Discusses statements and actions from prominent tech CEOs, corporate governance, geopolitical implications of technology, and regulatory developments.",
+      "itemCount": 19
     }
   ],
-  "notes": [
-    "Gemini HTTP 429"
-  ]
+  "notes": []
 }

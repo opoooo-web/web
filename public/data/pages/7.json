@@ -5,6 +5,66 @@
   "totalItems": 240,
   "items": [
     {
+      "id": "openai-news:https://openai.com/index/gilbert-tobin-sam-nickless",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "category": "AI"
+    },
+    {
+      "id": "hugging-face-blog:https://huggingface.co/blog/3d-lora-finetuning",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "summary": "",
+      "publishedAt": "2026-11-12T00:00:00.000Z",
+      "sourceId": "hugging-face-blog",
+      "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "aws-news:https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
+      "title": "Test your applications against AWS locally with AWS Emulator",
+      "url": "https://aws.amazon.com/blogs/aws/test-your-applications-against-aws-locally-with-aws-emulator",
+      "summary": "AWS Emulator is a free, open-source local emulator in Rust that lets developers test applications against nearly every AWS service on their own machine using the same CLI and SDK commands, with fidelity measured against real AWS behavior.",
+      "publishedAt": "2026-11-11T19:00:44.000Z",
+      "sourceId": "aws-news",
+      "sourceName": "AWS News Blog",
+      "category": "Infrastructure"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "publishedAt": "2026-11-11T18:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "google-ai:https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "publishedAt": "2026-11-11T16:00:00.000Z",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "AI"
+    },
+    {
+      "id": "cloudflare-blog:https://blog.cloudflare.com/choosing-quepaxa",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa",
+      "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+      "publishedAt": "2026-11-11T14:24:46.000Z",
+      "sourceId": "cloudflare-blog",
+      "sourceName": "Cloudflare Blog",
+      "category": "Infrastructure"
+    },
+    {
       "id": "google-ai:https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
       "title": "Experience the art and legacy of Dr. Esther Mahlangu",
       "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu",
@@ -242,66 +302,6 @@
       "publishedAt": "2026-11-09T12:34:29.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/coderabbit-codex-daybreak",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/kuken",
-      "title": "Kuken Industries searches 70 years of drawings in minutes",
-      "url": "https://openai.com/index/kuken",
-      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-      "publishedAt": "2026-11-09T08:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "openai-news:https://openai.com/ads/customers/vistaprint",
-      "title": "How VistaPrint helps small businesses get the word out",
-      "url": "https://openai.com/ads/customers/vistaprint",
-      "summary": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
-      "publishedAt": "2026-11-09T00:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "category": "AI"
-    },
-    {
-      "id": "github-blog:https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "title": "Beyond code generation: A developer&#8217;s guide to agentic engineering",
-      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer&#8217;s guide to agentic engineering appeared first on The GitHub Blog .",
-      "publishedAt": "2026-11-06T22:15:59.000Z",
-      "sourceId": "github-blog",
-      "sourceName": "GitHub Blog",
-      "category": "Developer"
-    },
-    {
-      "id": "cloudflare-blog:https://blog.cloudflare.com/vole-mole",
-      "title": "The post-quantum future of web privacy",
-      "url": "https://blog.cloudflare.com/vole-mole",
-      "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-      "publishedAt": "2026-11-06T14:00:00.000Z",
-      "sourceId": "cloudflare-blog",
-      "sourceName": "Cloudflare Blog",
-      "category": "Infrastructure"
-    },
-    {
-      "id": "openai-news:https://openai.com/index/partnering-with-hacktron",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]

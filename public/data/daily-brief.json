@@ -1,91 +1,99 @@
 {
-  "generatedAt": "2026-11-20T21:12:35.726Z",
+  "generatedAt": "2026-11-21T02:24:06.333Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The technology landscape is marked by critical AI security concerns and significant scientific breakthroughs. Discussions around data privacy, ethical AI, and infrastructure vulnerabilities are prominent, alongside new investments in space exploration and emerging developer tools. The industry also sees major corporate shifts and the ongoing impact of AI on complex mathematical challenges.",
+  "narrative": "Recent developments highlight significant progress and challenges across the technology landscape. AI has achieved a monumental breakthrough, claiming a solution to the Riemann hypothesis, while also raising critical concerns regarding data privacy in its supply chains and ethical leadership within major companies like Nvidia. Meanwhile, advancements in open-source coding agents, AI in healthcare, and robust cybersecurity measures continue to shape the future of development and digital safety, alongside ongoing space exploration revealing new insights into Mars.",
   "highlights": [
     {
-      "title": "A leaky AI supply chain is exposing secret user data at an alarming rate",
-      "whyItMatters": "This highlights critical security vulnerabilities within AI systems, emphasizing the risk to user data.",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "whyItMatters": "AI achieves a major mathematical breakthrough, potentially solving a long-standing Millennium Prize problem.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "category": "Technology",
+      "publishedAt": "2026-11-20T19:32:08.000Z"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "whyItMatters": "Google integrates advanced AI into its search engine, enhancing user experience with more intuitive results.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "category": "AI",
+      "publishedAt": "2026-11-12T18:00:00.000Z"
+    },
+    {
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "whyItMatters": "A significant security flaw in the AI supply chain exposes user data, raising critical privacy concerns.",
       "sourceName": "Ars Technica",
       "sourceUrl": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
       "category": "Technology",
       "publishedAt": "2026-11-20T20:59:08.000Z"
     },
     {
-      "title": "Experts warn: nearly everyone in AI is susceptible to a honey trap scheme right now",
-      "whyItMatters": "Emphasizes human vulnerabilities exploited by AI, pointing to risks beyond technical flaws.",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "whyItMatters": "Nvidia's CEO resignation due to an affair with an alleged spy raises serious national security and financial integrity questions.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
       "category": "Technology",
-      "publishedAt": "2026-11-20T20:58:29.000Z"
+      "publishedAt": "2026-11-19T20:18:49.000Z"
     },
     {
-      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
-      "whyItMatters": "Shows continued government investment in advanced space technology and support for small businesses.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation",
-      "category": "Science",
-      "publishedAt": "2026-11-20T20:46:14.000Z"
+      "title": "Show HN: OpenComputer – an open source alternative to Devin",
+      "whyItMatters": "A new open-source cloud coding agent emerges as a faster and more cost-effective alternative to existing solutions.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/diggerhq/opencomputer",
+      "category": "Developer",
+      "publishedAt": "2026-11-20T20:19:56.000Z"
     },
     {
-      "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
-      "whyItMatters": "Signals increasing accountability for social media platforms regarding their impact on users, especially youth.",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
-      "category": "Technology",
-      "publishedAt": "2026-11-20T20:43:52.000Z"
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "whyItMatters": "AI advancements in healthcare aim to improve patient care by automating tasks and enhancing clinical support.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "category": "AI",
+      "publishedAt": "2026-11-16T06:00:00.000Z"
     },
     {
       "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
-      "whyItMatters": "Provides crucial information on how a major web security provider is addressing new critical vulnerabilities.",
+      "whyItMatters": "Cloudflare's WAF provides essential protection against critical web vulnerabilities, safeguarding digital infrastructure.",
       "sourceName": "Cloudflare Blog",
       "sourceUrl": "https://blog.cloudflare.com/ruby2shell-waf-protection",
       "category": "Infrastructure",
       "publishedAt": "2026-11-20T20:24:38.000Z"
     },
     {
-      "title": "Nvidia accounting under SEC investigation, sources say",
-      "whyItMatters": "Indicates significant regulatory scrutiny on a major AI hardware company, potentially affecting market stability.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
-      "category": "Developer",
-      "publishedAt": "2026-11-20T20:22:41.000Z"
-    },
-    {
-      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
-      "whyItMatters": "Represents a potential monumental breakthrough in mathematics, highlighting AI's role in complex problem-solving.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
-      "category": "Technology",
-      "publishedAt": "2026-11-20T19:32:08.000Z"
+      "title": "Curiosity Spots Drifting Twilight Clouds",
+      "whyItMatters": "NASA's Mars rover continues to expand scientific knowledge through ongoing planetary exploration and data collection.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds",
+      "category": "Science",
+      "publishedAt": "2026-11-20T22:27:05.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Safety & Ethics",
-      "summary": "Concerns around AI data privacy, security vulnerabilities, and ethical development practices are at the forefront of AI discussions.",
-      "itemCount": 20
+      "name": "Artificial Intelligence",
+      "summary": "AI continues its rapid advancement with breakthroughs in complex mathematical problems, expanded capabilities in search, and new applications in healthcare, though challenges in data privacy and ethical leadership persist.",
+      "itemCount": 3
     },
     {
       "name": "Cybersecurity & Infrastructure",
-      "summary": "Critical updates on web application firewalls, server vulnerabilities, and network security measures from leading providers.",
-      "itemCount": 15
+      "summary": "Organizations like Cloudflare are enhancing protections against critical web vulnerabilities, yet the broader tech landscape faces threats from sophisticated cyberattacks and data exposure risks, including disruptions reminiscent of past tech incidents.",
+      "itemCount": 1
     },
     {
-      "name": "Space & Scientific Exploration",
-      "summary": "NASA's funding initiatives, Mars rover missions, and new astronomical discoveries continue to push the boundaries of science.",
-      "itemCount": 10
+      "name": "Space & Science",
+      "summary": "NASA's Mars rover missions continue to yield new atmospheric observations and geological samples, contributing to our understanding of the Red Planet.",
+      "itemCount": 1
     },
     {
       "name": "Developer Innovations",
-      "summary": "The developer community sees new open-source tools, programming language updates, and advancements in agent-driven software development.",
-      "itemCount": 25
+      "summary": "The developer ecosystem sees the emergence of new open-source cloud coding agents, aiming to provide more efficient and cost-effective alternatives for team-based development.",
+      "itemCount": 1
     },
     {
-      "name": "Big Tech & Market Trends",
-      "summary": "Major corporate news, regulatory investigations, and shifts in the technology markets are shaping the industry's future.",
-      "itemCount": 10
+      "name": "Tech Policy & Corporate Governance",
+      "summary": "The tech industry is navigating significant policy challenges, including regulatory scrutiny over phone services and proposed taxes on foreign data centers, alongside major corporate leadership controversies and privacy concerns within AI supply chains.",
+      "itemCount": 3
     }
   ],
   "notes": []

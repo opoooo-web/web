@@ -1,99 +1,68 @@
 {
-  "generatedAt": "2026-11-21T02:24:06.333Z",
+  "generatedAt": "2026-11-21T18:03:27.885Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Recent developments highlight significant progress and challenges across the technology landscape. AI has achieved a monumental breakthrough, claiming a solution to the Riemann hypothesis, while also raising critical concerns regarding data privacy in its supply chains and ethical leadership within major companies like Nvidia. Meanwhile, advancements in open-source coding agents, AI in healthcare, and robust cybersecurity measures continue to shape the future of development and digital safety, alongside ongoing space exploration revealing new insights into Mars.",
+  "narrative": "The technology landscape is rapidly evolving, with AI agents becoming more integrated into daily life, raising both convenience and ethical concerns regarding digital likeness and data privacy. Simultaneously, the cybersecurity domain faces persistent threats, as evidenced by recent government hacks, underscoring the critical need for advanced defensive measures and secure software development.",
   "highlights": [
     {
-      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-      "whyItMatters": "AI achieves a major mathematical breakthrough, potentially solving a long-standing Millennium Prize problem.",
+      "title": "The FBI and USDA were reportedly hacked",
+      "whyItMatters": "Major cybersecurity breaches highlight ongoing vulnerabilities in government infrastructure and the critical need for robust digital defenses.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1039543/fbi-usda-hacked",
+      "category": "Technology",
+      "publishedAt": "2026-11-21T17:42:27.000Z"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "whyItMatters": "The proliferation of AI agents in everyday communication platforms signifies a major shift towards more intelligent and personalized digital interactions.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "sourceUrl": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
       "category": "Technology",
-      "publishedAt": "2026-11-20T19:32:08.000Z"
+      "publishedAt": "2026-11-21T17:00:00.000Z"
     },
     {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "whyItMatters": "Google integrates advanced AI into its search engine, enhancing user experience with more intuitive results.",
-      "sourceName": "Google AI",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "category": "AI",
-      "publishedAt": "2026-11-12T18:00:00.000Z"
-    },
-    {
-      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-      "whyItMatters": "A significant security flaw in the AI supply chain exposes user data, raising critical privacy concerns.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
-      "category": "Technology",
-      "publishedAt": "2026-11-20T20:59:08.000Z"
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "whyItMatters": "Nvidia's CEO resignation due to an affair with an alleged spy raises serious national security and financial integrity questions.",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "whyItMatters": "Ethical and legal questions arise as AI technology enables digital likeness licensing, potentially reshaping the entertainment industry and individual rights.",
       "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "sourceUrl": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
       "category": "Technology",
-      "publishedAt": "2026-11-19T20:18:49.000Z"
+      "publishedAt": "2026-11-21T16:00:00.000Z"
     },
     {
-      "title": "Show HN: OpenComputer – an open source alternative to Devin",
-      "whyItMatters": "A new open-source cloud coding agent emerges as a faster and more cost-effective alternative to existing solutions.",
+      "title": "Can Anthropic afford to put safety first?",
+      "whyItMatters": "The financial pressures on AI companies after IPOs raise concerns about the long-term commitment to AI safety and ethical development.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "category": "Technology",
+      "publishedAt": "2026-11-21T15:00:00.000Z"
+    },
+    {
+      "title": "Verification files for the Lean proof of the Riemann Hypothesis",
+      "whyItMatters": "Progress in formal verification of complex mathematical conjectures like the Riemann Hypothesis could have profound implications for computational proof systems.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/diggerhq/opencomputer",
+      "sourceUrl": "https://math.mit.edu/~drew/grh",
       "category": "Developer",
-      "publishedAt": "2026-11-20T20:19:56.000Z"
+      "publishedAt": "2026-11-21T15:54:34.000Z"
     },
     {
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "whyItMatters": "AI advancements in healthcare aim to improve patient care by automating tasks and enhancing clinical support.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "category": "AI",
-      "publishedAt": "2026-11-16T06:00:00.000Z"
-    },
-    {
-      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
-      "whyItMatters": "Cloudflare's WAF provides essential protection against critical web vulnerabilities, safeguarding digital infrastructure.",
-      "sourceName": "Cloudflare Blog",
-      "sourceUrl": "https://blog.cloudflare.com/ruby2shell-waf-protection",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-20T20:24:38.000Z"
-    },
-    {
-      "title": "Curiosity Spots Drifting Twilight Clouds",
-      "whyItMatters": "NASA's Mars rover continues to expand scientific knowledge through ongoing planetary exploration and data collection.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds",
-      "category": "Science",
-      "publishedAt": "2026-11-20T22:27:05.000Z"
+      "title": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+      "whyItMatters": "Black Friday deals indicate market trends and consumer interest in smart home devices, reflecting the ongoing integration of technology into daily life.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/gadgets/1038762/amazon-alexa-photo-frame-black-friday-2026-deal-sale",
+      "category": "Technology",
+      "publishedAt": "2026-11-21T16:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence",
-      "summary": "AI continues its rapid advancement with breakthroughs in complex mathematical problems, expanded capabilities in search, and new applications in healthcare, though challenges in data privacy and ethical leadership persist.",
-      "itemCount": 3
+      "name": "Technology",
+      "summary": "Recent news highlights significant advancements and challenges in technology, including AI integration into daily tools, cybersecurity incidents, and the evolving digital economy.",
+      "itemCount": 5
     },
     {
-      "name": "Cybersecurity & Infrastructure",
-      "summary": "Organizations like Cloudflare are enhancing protections against critical web vulnerabilities, yet the broader tech landscape faces threats from sophisticated cyberattacks and data exposure risks, including disruptions reminiscent of past tech incidents.",
+      "name": "Developer",
+      "summary": "Key developments for developers include groundbreaking advancements in formal verification of mathematical proofs and new tools for C# development, showcasing innovation in programming paradigms.",
       "itemCount": 1
-    },
-    {
-      "name": "Space & Science",
-      "summary": "NASA's Mars rover missions continue to yield new atmospheric observations and geological samples, contributing to our understanding of the Red Planet.",
-      "itemCount": 1
-    },
-    {
-      "name": "Developer Innovations",
-      "summary": "The developer ecosystem sees the emergence of new open-source cloud coding agents, aiming to provide more efficient and cost-effective alternatives for team-based development.",
-      "itemCount": 1
-    },
-    {
-      "name": "Tech Policy & Corporate Governance",
-      "summary": "The tech industry is navigating significant policy challenges, including regulatory scrutiny over phone services and proposed taxes on foreign data centers, alongside major corporate leadership controversies and privacy concerns within AI supply chains.",
-      "itemCount": 3
     }
   ],
   "notes": []

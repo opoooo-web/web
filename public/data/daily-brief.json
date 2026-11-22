@@ -1,91 +1,99 @@
 {
-  "generatedAt": "2026-11-21T23:24:59.238Z",
+  "generatedAt": "2026-11-22T15:25:23.498Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "Today's brief highlights key developments across technology, AI, and developer tools. Significant updates include advancements in AI models, new cybersecurity measures, and discussions on the societal impact of artificial intelligence. These trends collectively shape the evolving landscape of digital innovation and its applications.",
+  "narrative": "The latest tech briefing reveals significant strides in AI, with major releases from Google and OpenAI enhancing agent capabilities and local AI development. However, these advancements are accompanied by growing concerns over AI's ethical implications, security vulnerabilities, and environmental impact. Concurrently, new developer tools and cloud infrastructure improvements are streamlining application development, ensuring a dynamic and evolving technological landscape.",
   "highlights": [
     {
-      "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
-      "whyItMatters": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel",
-      "category": "Technology",
-      "publishedAt": "2026-11-21T22:12:41.000Z"
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "whyItMatters": "Google's search platform is significantly enhanced with advanced AI capabilities, offering more helpful and intuitive results globally.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "category": "AI",
+      "publishedAt": "2026-11-12T18:00:00.000Z"
     },
     {
-      "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-      "whyItMatters": "Article URL: https://github.com/sebaandrada-cell/PcapAnalyzer Comments URL: https://news.ycombinator.com/item?id=50594132...",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-      "category": "Developer",
-      "publishedAt": "2026-11-21T22:09:58.000Z"
-    },
-    {
-      "title": "Amazon is complaining about NYC Council on shipping labels, too",
-      "whyItMatters": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Prot...",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label",
-      "category": "Technology",
-      "publishedAt": "2026-11-21T21:59:31.000Z"
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "whyItMatters": "OpenAI releases new, more efficient AI models, promising improved performance in professional outputs, coding, computer use, and cost-effectiveness.",
+      "sourceName": "OpenAI News",
+      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "category": "AI",
+      "publishedAt": "2026-11-17T17:45:00.000Z"
     },
     {
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "whyItMatters": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "whyItMatters": "Signal's move to limit screenshots highlights growing concerns about AI-powered surveillance and its impact on user privacy in secure messaging.",
       "sourceName": "TechCrunch",
       "sourceUrl": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
       "category": "Technology",
       "publishedAt": "2026-11-21T21:37:10.000Z"
     },
     {
-      "title": "Advice for the next 100 Rust GUIs",
-      "whyItMatters": "Article URL: https://linebender.org/blog/next-100-guis/ Comments URL: https://news.ycombinator.com/item?id=50593737...",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://linebender.org/blog/next-100-guis",
+      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+      "whyItMatters": "Meta's reassessment of its net-zero target underscores the significant environmental footprint of rapidly expanding AI infrastructure and data centers.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "category": "Technology",
+      "publishedAt": "2026-11-20T21:47:10.000Z"
+    },
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "whyItMatters": "New Gemini API feature allows AI agents to access numerous tools more efficiently, benefiting developers and AI application creation.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "category": "AI",
+      "publishedAt": "2026-11-19T18:00:00.000Z"
+    },
+    {
+      "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+      "whyItMatters": "AWS Lambda now supports GPU instances, enabling serverless GPU workloads and streamlining machine learning inference and media processing.",
+      "sourceName": "AWS News Blog",
+      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances",
+      "category": "Infrastructure",
+      "publishedAt": "2026-11-18T19:39:07.000Z"
+    },
+    {
+      "title": "Git security vulnerabilities announced",
+      "whyItMatters": "Git releases updates to address six security vulnerabilities, ensuring better protection for developer workflows involving clones, merges, and patches.",
+      "sourceName": "GitHub Blog",
+      "sourceUrl": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
       "category": "Developer",
-      "publishedAt": "2026-11-21T21:17:53.000Z"
+      "publishedAt": "2026-11-10T18:00:00.000Z"
     },
     {
-      "title": "A tale of two Nvidias",
-      "whyItMatters": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executi...",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias",
-      "category": "Technology",
-      "publishedAt": "2026-11-21T21:07:42.000Z"
-    },
-    {
-      "title": "The UN fails to agree on rules regulating ‘killer robots’",
-      "whyItMatters": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules re...",
-      "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
-      "category": "Technology",
-      "publishedAt": "2026-11-21T20:03:37.000Z"
+      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
+      "whyItMatters": "Open data from NASA's Fermi mission has enabled scientists to develop a significantly faster method for discovering pulsars, accelerating astrophysical research.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery",
+      "category": "Science",
+      "publishedAt": "2026-11-19T15:33:55.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Technology",
-      "summary": "Key advancements and policy discussions shaping the technological landscape.",
-      "itemCount": 80
+      "name": "AI Advancements",
+      "summary": "New AI models and tools are emerging from Google and OpenAI, pushing the boundaries of AI capabilities for developers and general users.",
+      "itemCount": 59
     },
     {
-      "name": "AI",
-      "summary": "Breakthroughs in artificial intelligence, including new models, applications, and ethical considerations.",
-      "itemCount": 100
-    },
-    {
-      "name": "Developer",
-      "summary": "Updates and tools for software developers, focusing on new frameworks and coding practices.",
-      "itemCount": 40
-    },
-    {
-      "name": "Science",
-      "summary": "Discoveries and research in scientific fields, from space exploration to biomedical engineering.",
+      "name": "AI Ethics & Security",
+      "summary": "The industry is increasingly focused on the ethical implications and security vulnerabilities of AI, addressing concerns like surveillance and data privacy.",
       "itemCount": 20
     },
     {
-      "name": "Infrastructure",
-      "summary": "Developments in digital and physical infrastructure, including cloud services and cybersecurity.",
-      "itemCount": 10
+      "name": "Developer Tools & Infrastructure",
+      "summary": "New tools and cloud infrastructure improvements are empowering developers to build, test, and deploy applications more efficiently, especially for AI workloads.",
+      "itemCount": 26
+    },
+    {
+      "name": "Technology Trends",
+      "summary": "Broader technology trends include discussions on the size of consumer electronics, and general tech news impacting daily life.",
+      "itemCount": 42
+    },
+    {
+      "name": "Science & Space Exploration",
+      "summary": "NASA continues to share stunning images and news from space, alongside updates on scientific research and missions.",
+      "itemCount": 11
     }
   ],
   "notes": []

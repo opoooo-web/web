@@ -1,99 +1,91 @@
 {
-  "generatedAt": "2026-11-22T15:25:23.498Z",
+  "generatedAt": "2026-11-23T12:59:47.411Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The latest tech briefing reveals significant strides in AI, with major releases from Google and OpenAI enhancing agent capabilities and local AI development. However, these advancements are accompanied by growing concerns over AI's ethical implications, security vulnerabilities, and environmental impact. Concurrently, new developer tools and cloud infrastructure improvements are streamlining application development, ensuring a dynamic and evolving technological landscape.",
+  "narrative": "Today's brief highlights significant advancements in AI and technology, with new devices and software integrations shaping the industry landscape. Science and infrastructure also see important updates, reflecting a broad spectrum of innovation.",
   "highlights": [
     {
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "whyItMatters": "Google's search platform is significantly enhanced with advanced AI capabilities, offering more helpful and intuitive results globally.",
-      "sourceName": "Google AI",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "category": "AI",
-      "publishedAt": "2026-11-12T18:00:00.000Z"
-    },
-    {
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "whyItMatters": "OpenAI releases new, more efficient AI models, promising improved performance in professional outputs, coding, computer use, and cost-effectiveness.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "category": "AI",
-      "publishedAt": "2026-11-17T17:45:00.000Z"
-    },
-    {
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "whyItMatters": "Signal's move to limit screenshots highlights growing concerns about AI-powered surveillance and its impact on user privacy in secure messaging.",
-      "sourceName": "TechCrunch",
-      "sourceUrl": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
-      "category": "Technology",
-      "publishedAt": "2026-11-21T21:37:10.000Z"
-    },
-    {
-      "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-      "whyItMatters": "Meta's reassessment of its net-zero target underscores the significant environmental footprint of rapidly expanding AI infrastructure and data centers.",
+      "title": "Tri-screen portable monitors aren\u2019t for the faint of heart",
+      "whyItMatters": "Three extra screens boost multitasking but can distract and overwhelm.",
       "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "sourceUrl": "https://arstechnica.com/gadgets/2026/11/a-triple-screen-portable-monitor-means-more-pixels-and-more-bulk",
       "category": "Technology",
-      "publishedAt": "2026-11-20T21:47:10.000Z"
+      "publishedAt": "2026-11-23T12:15:16.000Z"
     },
     {
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "whyItMatters": "New Gemini API feature allows AI agents to access numerous tools more efficiently, benefiting developers and AI application creation.",
-      "sourceName": "Google AI",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "category": "AI",
-      "publishedAt": "2026-11-19T18:00:00.000Z"
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "whyItMatters": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "category": "Technology",
+      "publishedAt": "2026-11-23T12:00:00.000Z"
     },
     {
-      "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
-      "whyItMatters": "AWS Lambda now supports GPU instances, enabling serverless GPU workloads and streamlining machine learning inference and media processing.",
-      "sourceName": "AWS News Blog",
-      "sourceUrl": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances",
-      "category": "Infrastructure",
-      "publishedAt": "2026-11-18T19:39:07.000Z"
+      "title": "Meta Muse can do your Black Friday shopping at Walmart",
+      "whyItMatters": "Walmart will let Meta's Muse shop on its website on your behalf, allowing the AI agent to find and purchase Black Friday deals. Tomorrow, on Tuesday November 24th, the retail giant will roll out a live implementation of the Agent Gateway it announced last month, which helps AI agents find relevant products for you without [&#8230;]",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+      "category": "Technology",
+      "publishedAt": "2026-11-23T11:00:00.000Z"
     },
     {
-      "title": "Git security vulnerabilities announced",
-      "whyItMatters": "Git releases updates to address six security vulnerabilities, ensuring better protection for developer workflows involving clones, merges, and patches.",
-      "sourceName": "GitHub Blog",
-      "sourceUrl": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
-      "category": "Developer",
-      "publishedAt": "2026-11-10T18:00:00.000Z"
-    },
-    {
-      "title": "NASA Science Data Powers New Method to Discover Hard-to-Find Pulsars",
-      "whyItMatters": "Open data from NASA's Fermi mission has enabled scientists to develop a significantly faster method for discovering pulsars, accelerating astrophysical research.",
-      "sourceName": "NASA Breaking News",
-      "sourceUrl": "https://science.nasa.gov/open-science/fermi-data-pulsar-discovery",
+      "title": "Why using rocks for carbon removal could eventually reduce crop growth",
+      "whyItMatters": "Tech companies are investing a lot of hope and money in rocks. Google, Microsoft, and others have committed hundreds of millions of dollars to get startups to spread crushed basalt, olivine, or other alkaline materials across farms, in an effort to capture carbon from the air and lock it away. A number of influential models&#8230;",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/23/1149392/why-using-rocks-for-carbon-removal-could-eventually-reduce-crop-growth",
       "category": "Science",
-      "publishedAt": "2026-11-19T15:33:55.000Z"
+      "publishedAt": "2026-11-23T11:00:00.000Z"
+    },
+    {
+      "title": "APOD: 2026 November 23 \u2013 The Emergence of Dark Nebula Lynds 1251",
+      "whyItMatters": "APOD Science APOD APOD: 2026 November 23 \u2013 The\u2026 Today\u2019s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Emergence [&#8230;]",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/image-article/apod-2026-november-23-the-emergence-of-dark-nebula-lynds-1251",
+      "category": "Science",
+      "publishedAt": "2026-11-23T05:05:00.000Z"
+    },
+    {
+      "title": "Laser Focus at the Top of the World",
+      "whyItMatters": "A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites\u2019 orbits and the planet\u2019s shape, has debuted in Svalbard, Norway.",
+      "sourceName": "NASA Breaking News",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world",
+      "category": "Science",
+      "publishedAt": "2026-11-23T05:01:00.000Z"
+    },
+    {
+      "title": "Kodak\u2019s next collectible is a tiny digital photo frame that doubles as a tracker",
+      "whyItMatters": "After expanding its Charmera collection with a Millennium Edition featuring Y2K-inspired designs earlier this year, Reto's follow-up to its tiny Kodak camera is an equally small digital photo frame you can use to display your shots. But while the Charmera's usefulness stopped at snapping grainy photos and terrible videos, the Kodak SlideTag goes one step [&#8230;]",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1038650/kodak-slidetag-keychain-photo-display-tracker-find-my-hub-google-apple-e-ink",
+      "category": "Technology",
+      "publishedAt": "2026-11-23T03:00:00.000Z"
     }
   ],
   "topics": [
     {
-      "name": "AI Advancements",
-      "summary": "New AI models and tools are emerging from Google and OpenAI, pushing the boundaries of AI capabilities for developers and general users.",
-      "itemCount": 59
+      "name": "AI",
+      "summary": "Key developments and trends in AI.",
+      "itemCount": 135
     },
     {
-      "name": "AI Ethics & Security",
-      "summary": "The industry is increasingly focused on the ethical implications and security vulnerabilities of AI, addressing concerns like surveillance and data privacy.",
+      "name": "Technology",
+      "summary": "Key developments and trends in Technology.",
+      "itemCount": 50
+    },
+    {
+      "name": "Infrastructure",
+      "summary": "Key developments and trends in Infrastructure.",
+      "itemCount": 25
+    },
+    {
+      "name": "Science",
+      "summary": "Key developments and trends in Science.",
       "itemCount": 20
     },
     {
-      "name": "Developer Tools & Infrastructure",
-      "summary": "New tools and cloud infrastructure improvements are empowering developers to build, test, and deploy applications more efficiently, especially for AI workloads.",
-      "itemCount": 26
-    },
-    {
-      "name": "Technology Trends",
-      "summary": "Broader technology trends include discussions on the size of consumer electronics, and general tech news impacting daily life.",
-      "itemCount": 42
-    },
-    {
-      "name": "Science & Space Exploration",
-      "summary": "NASA continues to share stunning images and news from space, alongside updates on scientific research and missions.",
-      "itemCount": 11
+      "name": "Developer",
+      "summary": "Key developments and trends in Developer.",
+      "itemCount": 10
     }
   ],
   "notes": []

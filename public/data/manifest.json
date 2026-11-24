@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T11:01:40.074Z",
+  "generatedAt": "2026-11-24T21:18:32.692Z",
   "totalItems": 240,
   "pageSize": 30,
   "totalPages": 8,
@@ -14,16 +14,21 @@
     {
       "name": "OpenAI News",
       "category": "AI",
-      "count": 78
-    },
-    {
-      "name": "Hugging Face Blog",
-      "category": "AI",
-      "count": 25
+      "count": 66
     },
     {
       "name": "Ars Technica",
       "category": "Technology",
+      "count": 20
+    },
+    {
+      "name": "Hacker News",
+      "category": "Developer",
+      "count": 20
+    },
+    {
+      "name": "Hugging Face Blog",
+      "category": "AI",
       "count": 20
     },
     {
@@ -39,7 +44,7 @@
     {
       "name": "Cloudflare Blog",
       "category": "Infrastructure",
-      "count": 17
+      "count": 15
     },
     {
       "name": "Google AI",
@@ -69,14 +74,8 @@
     {
       "name": "AWS News Blog",
       "category": "Infrastructure",
-      "count": 7
+      "count": 6
     }
   ],
-  "errors": [
-    {
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "message": "fetch failed"
-    }
-  ]
+  "errors": []
 }

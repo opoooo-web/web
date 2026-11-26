@@ -1,100 +1,90 @@
 {
-  "generatedAt": "2026-11-25T04:55:15.807Z",
+  "generatedAt": "2026-11-26T00:28:34.045Z",
   "generatedBy": "gemini-cli",
   "model": "gemini-2.5-flash",
-  "narrative": "The tech world saw significant developments in AI, including breakthroughs in protein design and faster algorithms, but also faced new challenges from AI-driven cyberattacks and ethical considerations in content generation. Cybersecurity remains a critical concern across various sectors, while space exploration and scientific research continue to push boundaries. Developer and infrastructure communities are actively adapting to these advancements, focusing on new tools and robust security measures.",
+  "narrative": "In the rapidly evolving tech landscape, AI continues to be a dominant force, with advancements in smart home integration, space-based data centers, and scientific research. Concerns about data security persist, as evidenced by recent breaches, while the infrastructure supporting AI's growth is adapting, including the development of dedicated power solutions for data centers. The development of new AI tools and high-performance computing platforms are also pushing the boundaries of scientific discovery and developer capabilities.",
   "highlights": [
     {
-      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
-      "whyItMatters": "A new research paper from OpenAI proposes a faster algorithm for matrix multiplication, potentially accelerating AI computations.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "category": "Developer",
-      "publishedAt": "2026-11-25T01:19:26.000Z"
-    },
-    {
-      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-      "whyItMatters": "Research indicates that AI models can communicate through inference servers even when sandboxed, raising new security implications.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-      "category": "Developer",
-      "publishedAt": "2026-11-25T02:34:21.000Z"
-    },
-    {
-      "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
-      "whyItMatters": "The US Financial Crimes Enforcement Network (FinCEN) is investigating a cybersecurity incident involving unauthorized access to its systems.",
+      "title": "Now Google’s Familiar Faces AI feature works on Walmart’s $35 smart home camera too",
+      "whyItMatters": "Google's AI-powered facial recognition is expanding to more affordable smart home devices, increasing accessibility and utility.",
       "sourceName": "The Verge",
-      "sourceUrl": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+      "sourceUrl": "https://www.theverge.com/tech/1042938/google-home-familiar-faces-onn-cameras",
       "category": "Technology",
-      "publishedAt": "2026-11-25T01:00:00.000Z"
+      "publishedAt": "2026-11-26T00:04:34.000Z"
     },
     {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "whyItMatters": "OpenAI's GPT-6 models are now demonstrating capabilities in intrinsic protein design, showing potential for breakthroughs in biotechnology.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "title": "FCC approves SpaceX plan to put AI data centers in space",
+      "whyItMatters": "SpaceX is pushing the boundaries of infrastructure with a plan to deploy AI data centers in orbit, potentially revolutionizing cloud computing.",
+      "sourceName": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space",
+      "category": "Technology",
+      "publishedAt": "2026-11-25T20:56:44.000Z"
+    },
+    {
+      "title": "1Password breach leaked customer names and emails, but not passwords",
+      "whyItMatters": "A security incident at 1Password highlights ongoing challenges in protecting user data, even for robust security services.",
+      "sourceName": "The Verge",
+      "sourceUrl": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+      "category": "Technology",
+      "publishedAt": "2026-11-25T19:10:15.000Z"
+    },
+    {
+      "title": "AI may soon change what it means to be a theoretical physicist",
+      "whyItMatters": "Advanced AI is demonstrating the ability to solve complex physics problems, suggesting a shift in the role of human researchers.",
+      "sourceName": "Ars Technica",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next",
+      "category": "Technology",
+      "publishedAt": "2026-11-25T12:00:28.000Z"
+    },
+    {
+      "title": "Data centers are getting their own natural gas power plants",
+      "whyItMatters": "The energy demands of AI are leading to data centers building independent power plants, raising questions about energy sources and environmental impact.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas",
+      "category": "Science",
+      "publishedAt": "2026-11-24T11:00:00.000Z"
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "whyItMatters": "New evaluations show exponential improvements in some AI capabilities, but also highlight areas where models still lack human-like judgment.",
+      "sourceName": "MIT Technology Review",
+      "sourceUrl": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "category": "Science",
+      "publishedAt": "2026-11-20T18:15:15.000Z"
+    },
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "whyItMatters": "Google's new Gemini API feature allows AI agents to access a wider array of tools more efficiently, expanding their functional capabilities.",
+      "sourceName": "Google AI",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
       "category": "AI",
-      "publishedAt": "2026-11-24T21:02:22.000Z"
+      "publishedAt": "2026-11-19T18:00:00.000Z"
     },
     {
-      "title": "Half of NASA&#039;s aging Mars fleet knocked offline by technical issues",
-      "whyItMatters": "Technical issues have taken half of NASA's Mars fleet offline, impacting ongoing space exploration and research missions.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues",
-      "category": "Technology",
-      "publishedAt": "2026-11-24T22:50:11.000Z"
-    },
-    {
-      "title": "Amazon says hackers&#039; AI agents found and exploited 0-day with little human input",
-      "whyItMatters": "Amazon reports that AI agents were able to discover and exploit a zero-day vulnerability with minimal human intervention, highlighting advanced cyber threat capabilities.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
-      "category": "Technology",
-      "publishedAt": "2026-11-24T12:30:05.000Z"
-    },
-    {
-      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-      "whyItMatters": "Music streaming service Tidal will ban and remove millions of fully AI-generated music tracks, addressing the rise of AI-created content in the industry.",
-      "sourceName": "Ars Technica",
-      "sourceUrl": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
-      "category": "Technology",
-      "publishedAt": "2026-11-24T17:34:34.000Z"
-    },
-    {
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "whyItMatters": "OpenAI introduced new GPT-6.2 Astra and Sol models, promising improved professional outputs, coding, and efficiency at lower costs across their platforms.",
-      "sourceName": "OpenAI News",
-      "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "whyItMatters": "NVIDIA's new GPU platform, Rubin HPC, is designed to significantly boost AI agents for complex scientific simulations and data processing.",
+      "sourceName": "NVIDIA Blog",
+      "sourceUrl": "https://blogs.nvidia.com/blog/rubin-hpc",
       "category": "AI",
-      "publishedAt": "2026-11-17T17:45:00.000Z"
+      "publishedAt": "2026-11-16T16:00:01.000Z"
     }
   ],
   "topics": [
     {
-      "name": "Artificial Intelligence",
-      "summary": "The AI sector continues its rapid expansion with breakthroughs in protein design and accelerated chip design, alongside increasing challenges in cybersecurity and content moderation due to AI-generated content and autonomous agents.",
-      "itemCount": 104
+      "name": "AI Advancements & Applications",
+      "summary": "AI continues to drive innovation in smart home technology, scientific research, and developer tools, with new models and platforms enhancing capabilities across various domains.",
+      "itemCount": 5
     },
     {
-      "name": "General Technology",
-      "summary": "Significant developments in technology include major cybersecurity incidents, challenges in space exploration, corporate leadership news, and evolving trends in AI integration across various sectors.",
-      "itemCount": 36
+      "name": "Infrastructure & Space Tech",
+      "summary": "The growing demands of AI are pushing infrastructure development, including plans for space-based data centers and the creation of dedicated natural gas power plants.",
+      "itemCount": 2
     },
     {
-      "name": "Developer Tools & Innovations",
-      "summary": "The developer community is actively engaged with new algorithms for complex computations, advancements in UI libraries, and the practical application of AI in various development workflows, emphasizing efficiency and code quality.",
-      "itemCount": 29
-    },
-    {
-      "name": "Scientific Research & Space",
-      "summary": "New scientific findings include breakthroughs in medical diagnostics, insights into ancient human life, and continued advancements in space exploration and climate research.",
-      "itemCount": 18
-    },
-    {
-      "name": "Cloud & Network Infrastructure",
-      "summary": "Infrastructure news highlights advancements in cloud computing, enhanced cybersecurity defenses for critical network vulnerabilities, and strategies for managing growing network demands from AI.",
-      "itemCount": 18
+      "name": "Cybersecurity & Data Privacy",
+      "summary": "Recent data breaches highlight the ongoing need for robust security measures and careful handling of user information in the digital age.",
+      "itemCount": 1
     }
   ],
-  "notes": ["XAI_API_KEY not configured"]
+  "notes": []
 }

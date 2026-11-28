@@ -1,6 +1,106 @@
 {
   "items": [
     {
+      "id": "the-verge:https://www.theverge.com/tech/1042700/change-these-tv-settings",
+      "title": "Here’s how to make that new Black Friday TV look its best",
+      "url": "https://www.theverge.com/tech/1042700/change-these-tv-settings",
+      "summary": "It's the season of great deals on TVs. But once you get a new one home and set it up in your living room, it might not meet expectations when you turn it on. Maybe it's overly bright, or things just look… off. Luckily, there are some easy tweaks you can make so that new, [&#8230;]",
+      "publishedAt": "2026-11-28T13:00:00.000Z",
+      "sourceId": "the-verge",
+      "sourceName": "The Verge",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://twitter.com/QualiaQuanta/status/2126158001035768256",
+      "title": "AnthropicAI posted a fraudulent proof of RH",
+      "url": "https://twitter.com/QualiaQuanta/status/2126158001035768256",
+      "summary": "Article URL: https://twitter.com/QualiaQuanta/status/2126158001035768256 Comments URL: https://news.ycombinator.com/item?id=50677014 Points: 5 # Comments: 0",
+      "publishedAt": "2026-11-28T12:36:46.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "ars-technica:https://arstechnica.com/gadgets/2026/11/2026-kindle-paperwhite-review-page-turn-buttons-are-back-for-a-price",
+      "title": "2026 Kindle Paperwhite review: Page-turn buttons are back, for a price",
+      "url": "https://arstechnica.com/gadgets/2026/11/2026-kindle-paperwhite-review-page-turn-buttons-are-back-for-a-price",
+      "summary": "Kindles are getting costlier faster than they're getting better.",
+      "publishedAt": "2026-11-28T12:00:20.000Z",
+      "sourceId": "ars-technica",
+      "sourceName": "Ars Technica",
+      "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://malspark.com/blog/malicious-gguf-models-hugging-face",
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face",
+      "summary": "Article URL: https://malspark.com/blog/malicious-gguf-models-hugging-face/ Comments URL: https://news.ycombinator.com/item?id=50676752 Points: 13 # Comments: 3",
+      "publishedAt": "2026-11-28T11:57:04.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://github.com/p-e-w/heretic/issues/601",
+      "title": "Farewell",
+      "url": "https://github.com/p-e-w/heretic/issues/601",
+      "summary": "Article URL: https://github.com/p-e-w/heretic/issues/601 Comments URL: https://news.ycombinator.com/item?id=50676672 Points: 199 # Comments: 49",
+      "publishedAt": "2026-11-28T11:42:26.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://www.filfre.net/2026/11/diablo-ii",
+      "title": "Diablo II",
+      "url": "https://www.filfre.net/2026/11/diablo-ii",
+      "summary": "Article URL: https://www.filfre.net/2026/11/diablo-ii/ Comments URL: https://news.ycombinator.com/item?id=50676199 Points: 8 # Comments: 0",
+      "publishedAt": "2026-11-28T09:54:19.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://fleetlayer.ai",
+      "title": "Show HN: Fleetlayer – Framework for running many AI agents on multiple machines",
+      "url": "https://fleetlayer.ai",
+      "summary": "Hi HN! I ran into many problems when I started running lots of Claude Code sessions in parallel. I quickly ran out of usage, so I signed up for more Claude subs (which Anthropic terms allow.) Running so many different accounts meant that I couldn't use claude.ai artifacts anymore, because the browser has to be signed in to the same account in order to access them. It's a pain to keep signing in and out of accounts. This also broke the Claude in Chrome extension because that can also only be signed into a single account. Then I needed to manage AI agents that run on my laptop, a VM on my laptop, and multiple VMs on my home server. Claude Code has a messaging feature which is very useful, but agents can't see each other when they run on different machines. The Claude in Chrome extension only works for agents running on the same machine, so my remote agents couldn't help me with anything in the browser. It's really handy when they can access services that I'm already signed into. I set out to solve all of these problems and I ended up building Fleetlayer. It's a control plane and a node binary that you run on all your machines and VMs to connect them all together. It connects to Herdr (and other session managers soon), and it makes it possible for all your AI agents to message each other and access tools and resources on other machines (with permission.) It has a lot more features too: routing webhooks to agents, single sign-on, access rules, approvals, audit logs, remote terminals, remote browser sharing, centralized AI account sign-ins, session summaries, secrets management, and pages and apps (our own self-hosted version of claude.ai artifacts). A few ways to think of it: - The \"Nextcloud\" of claude.ai features (your own self-hosted artifacts, remote control, browser use, etc.) - The \"Arch Linux\" of OpenClaw (build your own agentic systems from swappable components and plugins) You can run everything on your laptop to try it out, then easily move any component to a different machine. If you want to build a proper production-grade home server to run many AI agents, Rust builds, and CI runners, I've also open sourced my own setup as a boilerplate IaC example repo. You just need to install Proxmox and then point your AI agent at the guide [1]. I'd be interested to know if anyone else would find Fleetlayer useful. Please let me know if you have any feature requests! [1] https://fleetlayer.ai/docs/guides/server-setup/ Comments URL: https://news.ycombinator.com/item?id=50675831 Points: 10 # Comments: 7",
+      "publishedAt": "2026-11-28T08:37:09.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "hacker-news:https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
+      "title": "FastLanes: Next-gen File Format [pdf]",
+      "url": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
+      "summary": "Article URL: https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf Comments URL: https://news.ycombinator.com/item?id=50675195 Points: 27 # Comments: 2",
+      "publishedAt": "2026-11-28T06:14:21.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
+      "id": "nasa-breaking-news:https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph",
+      "title": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph",
+      "summary": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Apollo 17 VIP [&#8230;]",
+      "publishedAt": "2026-11-28T05:05:00.000Z",
+      "sourceId": "nasa-breaking-news",
+      "sourceName": "NASA Breaking News",
+      "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+      "title": "Knuth: Moratorium on Error Reports",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+      "summary": "Article URL: https://www-cs-faculty.stanford.edu/~knuth/moratorium.html Comments URL: https://news.ycombinator.com/item?id=50674452 Points: 189 # Comments: 95",
+      "publishedAt": "2026-11-28T03:49:21.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
+    },
+    {
       "id": "the-verge:https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
       "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
       "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
@@ -24,28 +124,8 @@
       "id": "hacker-news:https://unkernel.dev",
       "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
       "url": "https://unkernel.dev",
-      "summary": "Article URL: https://unkernel.dev Comments URL: https://news.ycombinator.com/item?id=50674218 Points: 3 # Comments: 0",
+      "summary": "Article URL: https://unkernel.dev Comments URL: https://news.ycombinator.com/item?id=50674218 Points: 417 # Comments: 107",
       "publishedAt": "2026-11-28T03:19:20.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled",
-      "title": "Atari Homebrew Awards Cancelled",
-      "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled",
-      "summary": "Article URL: https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/ Comments URL: https://news.ycombinator.com/item?id=50673688 Points: 101 # Comments: 76",
-      "publishedAt": "2026-11-28T02:03:25.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
-      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
-      "summary": "Article URL: https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai Comments URL: https://news.ycombinator.com/item?id=50673521 Points: 81 # Comments: 62",
-      "publishedAt": "2026-11-28T01:32:56.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -59,16 +139,6 @@
       "sourceId": "the-verge",
       "sourceName": "The Verge",
       "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27",
-      "title": "Alaska seized his plane over some beers. He is asking the Supreme Court for help",
-      "url": "https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27",
-      "summary": "Article URL: https://www.reuters.com/legal/government/alaska-seized-his-seaplane-over-some-beers-he-is-asking-us-supreme-court-help-2026-11-27/ Comments URL: https://news.ycombinator.com/item?id=50673444 Points: 52 # Comments: 34",
-      "publishedAt": "2026-11-28T01:20:16.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
     },
     {
       "id": "the-verge:https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
@@ -134,7 +204,7 @@
       "id": "hacker-news:https://research.google/blog/supercharging-transformer-residual-connections",
       "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
       "url": "https://research.google/blog/supercharging-transformer-residual-connections",
-      "summary": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.ycombinator.com/item?id=50672565 Points: 183 # Comments: 61",
+      "summary": "Article URL: https://research.google/blog/supercharging-transformer-residual-connections/ Comments URL: https://news.ycombinator.com/item?id=50672565 Points: 463 # Comments: 170",
       "publishedAt": "2026-11-27T23:06:29.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -144,28 +214,8 @@
       "id": "hacker-news:https://tabernet.es",
       "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
       "url": "https://tabernet.es",
-      "summary": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 48 # Comments: 21",
+      "summary": "Article URL: https://tabernet.es/ Comments URL: https://news.ycombinator.com/item?id=50672521 Points: 163 # Comments: 53",
       "publishedAt": "2026-11-27T23:00:30.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "the-verge:https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
-      "title": "The new iPad Mini is getting its first major discount for Black Friday",
-      "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
-      "summary": "We were big fans of Apple’s new iPad Mini when we reviewed it in early November, but its steep starting price of $699 was hard to swallow. Thankfully, the small tablet is already getting a sizable discount for Black Friday. Right now, Amazon and Walmart are both selling the 2026 iPad Mini with Wi-Fi and [&#8230;]",
-      "publishedAt": "2026-11-27T22:30:00.000Z",
-      "sourceId": "the-verge",
-      "sourceName": "The Verge",
-      "category": "Technology"
-    },
-    {
-      "id": "hacker-news:https://frantic.im/git",
-      "title": "Source Control from Hell",
-      "url": "https://frantic.im/git",
-      "summary": "Article URL: https://frantic.im/git/ Comments URL: https://news.ycombinator.com/item?id=50672142 Points: 71 # Comments: 52",
-      "publishedAt": "2026-11-27T22:06:44.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -174,28 +224,8 @@
       "id": "hacker-news:https://progrium.github.io/9ux",
       "title": "9/UX: a Macintosh-inspired desktop for 9front",
       "url": "https://progrium.github.io/9ux",
-      "summary": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 88 # Comments: 22",
+      "summary": "Article URL: https://progrium.github.io/9ux/ Comments URL: https://news.ycombinator.com/item?id=50672008 Points: 145 # Comments: 36",
       "publishedAt": "2026-11-27T21:48:14.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://sessiongraph.ai",
-      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
-      "url": "https://sessiongraph.ai",
-      "summary": "Article URL: https://sessiongraph.ai/ Comments URL: https://news.ycombinator.com/item?id=50671651 Points: 33 # Comments: 17",
-      "publishedAt": "2026-11-27T21:07:34.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://github.com/skeeto/prospero",
-      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
-      "url": "https://github.com/skeeto/prospero",
-      "summary": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 41 # Comments: 9",
-      "publishedAt": "2026-11-27T20:23:14.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -204,18 +234,8 @@
       "id": "hacker-news:https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
       "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
       "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-      "summary": "Article URL: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform Comments URL: https://news.ycombinator.com/item?id=50670855 Points: 297 # Comments: 160",
+      "summary": "Article URL: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform Comments URL: https://news.ycombinator.com/item?id=50670855 Points: 410 # Comments: 268",
       "publishedAt": "2026-11-27T19:42:25.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps",
-      "title": "The AT&T Unix PC (3B1) VM",
-      "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps",
-      "summary": "Article URL: https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/ Comments URL: https://news.ycombinator.com/item?id=50670841 Points: 68 # Comments: 13",
-      "publishedAt": "2026-11-27T19:40:33.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -224,7 +244,7 @@
       "id": "hacker-news:https://neuralnetworksanddeeplearning.com",
       "title": "Michael Nielsen took down his book on neural nets",
       "url": "https://neuralnetworksanddeeplearning.com",
-      "summary": "Article URL: https://neuralnetworksanddeeplearning.com/ Comments URL: https://news.ycombinator.com/item?id=50670757 Points: 426 # Comments: 266",
+      "summary": "Article URL: https://neuralnetworksanddeeplearning.com/ Comments URL: https://news.ycombinator.com/item?id=50670757 Points: 578 # Comments: 372",
       "publishedAt": "2026-11-27T19:31:01.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -234,18 +254,8 @@
       "id": "hacker-news:https://github.com/convex/convex-backend-skill/issues/64",
       "title": "Convex skills send the user's app idea to a remote server without telling them",
       "url": "https://github.com/convex/convex-backend-skill/issues/64",
-      "summary": "Article URL: https://github.com/convex/convex-backend-skill/issues/64 Comments URL: https://news.ycombinator.com/item?id=50669765 Points: 250 # Comments: 78",
+      "summary": "Article URL: https://github.com/convex/convex-backend-skill/issues/64 Comments URL: https://news.ycombinator.com/item?id=50669765 Points: 327 # Comments: 107",
       "publishedAt": "2026-11-27T18:02:45.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://dragdropmath.com",
-      "title": "Show HN: DragDropMath – Learn math by feel",
-      "url": "https://dragdropmath.com",
-      "summary": "Hi HN! I am a professional physicist and I shuffle symbols in equations and mathematical expressions all day long. During my PhD (almost 20 years ago) I noticed that it is as if the symbols have their own 'physics', which makes the wrong moves impossible and the right ones obvious. So I created DragDropMath, where you can learn how to simplify mathematical expressions and how to solve equations by dragging symbols around, and only correct moves are allowed, so you get to feel what's right without experiencing (and so learning) wrong moves. I always wanted to make this, but life got in the way. Then a few weeks ago I saw declarative dragging ( https://declarative-dragging.github.io/ ) on the front page of HN and the spark came back! It took quite a few rounds to get the feel right, but I think it's close to what happens in my mind when I mentally manipulate these expressions. A few more points: - There are no ads, no trackers, no accounts (it's a static website and progress is saved in the browser cache). - Teachers can create their own problem sets, encoded in the link. - I plan to add more chapters (trigonometry, complex numbers, some calculus) but I first need to figure out the 'right' mode of interaction. - I just started working on the experience from mobile, so there may still be some rough edges there I'm curious to know what you think, if you have suggestions for content, if you spot anything that I should fix, if you have feature requests! Thank you in advance Comments URL: https://news.ycombinator.com/item?id=50669673 Points: 112 # Comments: 33",
-      "publishedAt": "2026-11-27T17:56:28.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -264,18 +274,8 @@
       "id": "hacker-news:https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
       "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
       "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-      "summary": "Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments URL: https://news.ycombinator.com/item?id=50668145 Points: 459 # Comments: 237",
+      "summary": "Article URL: https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer Comments URL: https://news.ycombinator.com/item?id=50668145 Points: 549 # Comments: 291",
       "publishedAt": "2026-11-27T15:40:31.000Z",
-      "sourceId": "hacker-news",
-      "sourceName": "Hacker News",
-      "category": "Developer"
-    },
-    {
-      "id": "hacker-news:https://cr.yp.to/proofs/falseccp.html",
-      "title": "False computer-checked proofs",
-      "url": "https://cr.yp.to/proofs/falseccp.html",
-      "summary": "Article URL: https://cr.yp.to/proofs/falseccp.html Comments URL: https://news.ycombinator.com/item?id=50667989 Points: 193 # Comments: 76",
-      "publishedAt": "2026-11-27T15:26:09.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
       "category": "Developer"
@@ -284,7 +284,7 @@
       "id": "hacker-news:https://bouncemarket.minhanhday.com",
       "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
       "url": "https://bouncemarket.minhanhday.com",
-      "summary": "a ball will fall. trade on where it lands. I made this game! Some technical details: The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exactly for later analysis, but tiny variations in starting position can change the ultimate outcome. There's some AI traders to keep the market moving, but they drop out in any round that has more than five people. They operate using a naive set of rules that I wrote for them, so they're not too hard to beat -- it's when the market is full of real people that it gets tricky. Curious to get feedback on anything you would change, and especially whether the mechanics were clear right away or not. Comments URL: https://news.ycombinator.com/item?id=50667726 Points: 336 # Comments: 115",
+      "summary": "a ball will fall. trade on where it lands. I made this game! Some technical details: The entire drop of the ball is simulated server-side, then streamed to each client as server-sent events with a small buffer. Every drop is deterministic from its starting position, so rounds can be replayed exactly for later analysis, but tiny variations in starting position can change the ultimate outcome. There's some AI traders to keep the market moving, but they drop out in any round that has more than five people. They operate using a naive set of rules that I wrote for them, so they're not too hard to beat -- it's when the market is full of real people that it gets tricky. Curious to get feedback on anything you would change, and especially whether the mechanics were clear right away or not. Comments URL: https://news.ycombinator.com/item?id=50667726 Points: 388 # Comments: 130",
       "publishedAt": "2026-11-27T15:01:50.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -304,7 +304,7 @@
       "id": "hacker-news:https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
       "title": "Rayshader 1.0: Exit the Matrix",
       "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
-      "summary": "Article URL: https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html Comments URL: https://news.ycombinator.com/item?id=50667371 Points: 89 # Comments: 12",
+      "summary": "Article URL: https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html Comments URL: https://news.ycombinator.com/item?id=50667371 Points: 139 # Comments: 17",
       "publishedAt": "2026-11-27T14:30:20.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -319,6 +319,16 @@
       "sourceId": "nasa-breaking-news",
       "sourceName": "NASA Breaking News",
       "category": "Science"
+    },
+    {
+      "id": "hacker-news:https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+      "title": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+      "url": "https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+      "summary": "Article URL: https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona Comments URL: https://news.ycombinator.com/item?id=50666724 Points: 95 # Comments: 25",
+      "publishedAt": "2026-11-27T13:30:20.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "mit-technology-review:https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand",
@@ -404,7 +414,7 @@
       "id": "hacker-news:https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
       "title": "Citroën Hydraulic System",
       "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
-      "summary": "Article URL: https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html Comments URL: https://news.ycombinator.com/item?id=50662313 Points: 145 # Comments: 50",
+      "summary": "Article URL: https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html Comments URL: https://news.ycombinator.com/item?id=50662313 Points: 219 # Comments: 71",
       "publishedAt": "2026-11-27T03:10:19.000Z",
       "sourceId": "hacker-news",
       "sourceName": "Hacker News",
@@ -459,6 +469,16 @@
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
+    },
+    {
+      "id": "hacker-news:https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup",
+      "title": "First images of the impact of DART asteroid deflection experiment",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup",
+      "summary": "Article URL: https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/ Comments URL: https://news.ycombinator.com/item?id=50657392 Points: 221 # Comments: 69",
+      "publishedAt": "2026-11-26T17:24:37.000Z",
+      "sourceId": "hacker-news",
+      "sourceName": "Hacker News",
+      "category": "Developer"
     },
     {
       "id": "techcrunch:https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone",
@@ -588,16 +608,6 @@
       "publishedAt": "2026-11-25T22:44:32.000Z",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup",
-      "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
-      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup",
-      "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
-      "publishedAt": "2026-11-25T22:36:45.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
       "category": "Technology"
     },
     {
@@ -831,16 +841,6 @@
       "category": "Technology"
     },
     {
-      "id": "nasa-breaking-news:https://www.nasa.gov/image-article/eye-of-the-sahara",
-      "title": "Eye of the Sahara",
-      "url": "https://www.nasa.gov/image-article/eye-of-the-sahara",
-      "summary": "The Richat Structure, also known as the &#8220;Eye of the Sahara,&#8221; is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks [&#8230;]",
-      "publishedAt": "2026-11-25T16:21:04.000Z",
-      "sourceId": "nasa-breaking-news",
-      "sourceName": "NASA Breaking News",
-      "category": "Science"
-    },
-    {
       "id": "github-blog:https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai",
       "title": "Art of play in the age of AI",
       "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai",
@@ -976,16 +976,6 @@
       "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues",
       "summary": "Perseverance is having trouble transmitting to Earth. Odyssey is rapidly burning through its waning fuel supply.",
       "publishedAt": "2026-11-24T22:50:11.000Z",
-      "sourceId": "ars-technica",
-      "sourceName": "Ars Technica",
-      "category": "Technology"
-    },
-    {
-      "id": "ars-technica:https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war",
-      "title": "Microsoft&#039;s historic cloud outage exposed an engineering “fog of war”",
-      "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war",
-      "summary": "Internal memos reveal a “Code Red” overhaul and ambitious one-hour recovery goals.",
-      "publishedAt": "2026-11-24T22:36:28.000Z",
       "sourceId": "ars-technica",
       "sourceName": "Ars Technica",
       "category": "Technology"
@@ -2398,6 +2388,16 @@
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "sourceId": "hugging-face-blog",
       "sourceName": "Hugging Face Blog",
+      "category": "AI"
+    },
+    {
+      "id": "openai-news:https://openai.com/index/cultfit-builds-with-codex",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
       "category": "AI"
     }
   ]
